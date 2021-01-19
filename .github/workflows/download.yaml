@@ -1,6 +1,8 @@
 name: Download
 
 on:
+  workflow_dispatch:
+
   schedule:
     - cron:  '*/15 * * * *'
 
