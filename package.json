@@ -1,0 +1,31 @@
+{
+    "name": "aus-emergency-incident-data",
+    "version": "1.0.0",
+    "description": "Australia wide emergency incident data scraper.",
+    "author": "multipolygon",
+    "license": "MIT",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "downloader": "node downloader.js"
+    },
+    "dependencies": {
+        "@mapbox/togeojson": "^0.16.0",
+        "js-green-licenses": "^2.0.1",
+        "jsdom": "^16.2.2",
+        "jsonschema": "^1.2.6",
+        "mkdirp": "^1.0.4",
+        "moment": "^2.25.3",
+        "moment-timezone": "^0.5.28",
+        "node-fetch": "^2.6.1",
+        "user-agents": "^1.0.559"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^6.1.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-nuxt": ">=0.4.2",
+        "eslint-plugin-prettier": "^3.1.2",
+        "prettier": "^1.19.1"
+    }
+}
