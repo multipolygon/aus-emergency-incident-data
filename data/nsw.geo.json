@@ -4,10 +4,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.18599701000005,
-                    -33.350318733999984
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.18599701000005,
+                            -33.350318733999984
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.18709909,
+                                            -33.356439178
+                                        ],
+                                        [
+                                            148.18191969,
+                                            -33.35590875
+                                        ],
+                                        [
+                                            148.184089763,
+                                            -33.3505262159999
+                                        ],
+                                        [
+                                            148.188118185,
+                                            -33.3525783609999
+                                        ],
+                                        [
+                                            148.18709909,
+                                            -33.356439178
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -15,13 +52,13 @@
                 "sourceTitle": "Back Yamma Rd, Daroobalgie",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405489",
-                "created": "2021-01-21T13:18:00+11:00",
-                "updated": "2021-01-22T00:18:00+11:00",
+                "created": "2021-01-21T14:42:00+11:00",
+                "updated": "2021-01-22T01:42:00+11:00",
                 "location": "Back Yamma Rd, Daroobalgie, NSW 2870",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Back Yamma Rd, Daroobalgie, NSW 2870 <br />COUNCIL AREA: Forbes <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Jan 2021 00:18",
+                "size": 24,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Back Yamma Rd, Daroobalgie, NSW 2870 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 24 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Jan 2021 01:42",
                 "title": "incident: fire"
             }
         },
@@ -811,11 +848,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405490",
-                "created": "2021-01-21T13:36:00+11:00",
-                "updated": "2021-01-22T00:36:00+11:00",
+                "created": "2021-01-21T14:18:00+11:00",
+                "updated": "2021-01-22T01:18:00+11:00",
                 "location": "Lonergans Lane, Lake Cowal, NSW 2671",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Lonergans Lane, Lake Cowal, NSW 2671 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Jan 2021 00:36",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Lonergans Lane, Lake Cowal, NSW 2671 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Jan 2021 01:18",
                 "title": "incident: fire"
             }
         },
@@ -1232,6 +1269,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.95343100000002,
+                    -33.69421599999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gasnier Av, North Kellyville",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405491",
+                "created": "2021-01-21T14:10:00+11:00",
+                "updated": "2021-01-22T01:10:00+11:00",
+                "location": "24 Gasnier Av, North Kellyville, NSW 2155",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 24 Gasnier Av, North Kellyville, NSW 2155 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Jan 2021 01:10",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     146.72295500000007,
                     -33.423572999999976
                 ]
@@ -1368,30 +1429,6 @@
                 "location": "Sunnyside Rd, Woodstock, NSW 2793",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sunnyside Rd, Woodstock, NSW 2793 <br />COUNCIL AREA: Cowra <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2021 18:19",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.9526320000001,
-                    -36.074318999999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Waterworks Rd, East Albury",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405488",
-                "created": "2021-01-21T13:56:00+11:00",
-                "updated": "2021-01-22T00:56:00+11:00",
-                "location": "Waterworks Rd, East Albury, NSW 2640",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Waterworks Rd, East Albury, NSW 2640 <br />COUNCIL AREA: Albury <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Jan 2021 00:56",
                 "title": "incident: fire"
             }
         },
