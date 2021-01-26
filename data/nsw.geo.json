@@ -145,11 +145,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405642",
-                "created": "2021-01-26T04:35:00+11:00",
-                "updated": "2021-01-26T15:35:00+11:00",
+                "created": "2021-01-26T23:02:00+11:00",
+                "updated": "2021-01-27T10:02:00+11:00",
                 "location": "609 Snowy Mountains Hwy, Gilmore, NSW 2720",
                 "size": 10,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 609 Snowy Mountains Hwy, Gilmore, NSW 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 26 Jan 2021 15:35",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 609 Snowy Mountains Hwy, Gilmore, NSW 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 27 Jan 2021 10:02",
                 "title": "incident: fire"
             }
         },
@@ -265,6 +265,29 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.683684523,
+                                            -35.1478091829999
+                                        ],
+                                        [
+                                            150.683755907,
+                                            -35.147928156
+                                        ],
+                                        [
+                                            150.683684523,
+                                            -35.147856772
+                                        ],
+                                        [
+                                            150.683684523,
+                                            -35.1478091829999
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -462,29 +485,6 @@
                                         [
                                             150.6851122,
                                             -35.147571236
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            150.683684523,
-                                            -35.1478091829999
-                                        ],
-                                        [
-                                            150.683755907,
-                                            -35.147928156
-                                        ],
-                                        [
-                                            150.683684523,
-                                            -35.147856772
-                                        ],
-                                        [
-                                            150.683684523,
-                                            -35.1478091829999
                                         ]
                                     ]
                                 ]
@@ -2671,6 +2671,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 Mandina Pl, Bringelly, NSW 2556 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2021 18:29",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.46692100000007,
+                    -34.474527999999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Range Rd, Mittagong",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/405991",
+                "created": "2021-01-26T23:01:00+11:00",
+                "updated": "2021-01-27T10:01:00+11:00",
+                "location": "Range Rd, Mittagong,  2575",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Range Rd, Mittagong,  2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2021 10:01",
+                "title": "incident: other"
             }
         }
     ]
