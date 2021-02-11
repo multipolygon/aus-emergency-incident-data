@@ -517,10 +517,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.396519,
-                    -35.94381699899998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.39945740300004,
+                            -35.928639964999945
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.399488821,
+                                            -35.928595429
+                                        ],
+                                        [
+                                            146.399453128,
+                                            -35.9287857859999
+                                        ],
+                                        [
+                                            146.399060517,
+                                            -35.928738197
+                                        ],
+                                        [
+                                            146.399108107,
+                                            -35.928524045
+                                        ],
+                                        [
+                                            146.399488821,
+                                            -35.928595429
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -703,30 +740,6 @@
                 "location": "Pacific Hwy, East Wardell, NSW 2477",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, East Wardell, NSW 2477 <br />COUNCIL AREA: Ballina <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Feb 2021 10:28",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.95766700000001,
-                    -36.05119399999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Racecourse Rd, Lavington",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407019",
-                "created": "2021-02-11T02:40:00+11:00",
-                "updated": "2021-02-11T13:40:00+11:00",
-                "location": "Racecourse Rd, Lavington, NSW 2641",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Racecourse Rd, Lavington, NSW 2641 <br />COUNCIL AREA: Albury <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 11 Feb 2021 13:40",
                 "title": "incident: fire"
             }
         }
