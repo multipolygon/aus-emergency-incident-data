@@ -323,11 +323,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407522",
-                "created": "2021-02-19T01:04:00+11:00",
-                "updated": "2021-02-19T12:04:00+11:00",
+                "created": "2021-02-19T07:48:00+11:00",
+                "updated": "2021-02-19T18:48:00+11:00",
                 "location": "Gungahlin",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Gungahlin <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: ACT Parks And Conservation Service <br />UPDATED: 19 Feb 2021 12:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Gungahlin <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: ACT Parks And Conservation Service <br />UPDATED: 19 Feb 2021 18:48",
                 "title": "incident: fire"
             }
         },
@@ -712,6 +712,29 @@
                                 "coordinates": [
                                     [
                                         [
+                                            145.47497581,
+                                            -35.6729447119999
+                                        ],
+                                        [
+                                            145.47311983,
+                                            -35.672456923
+                                        ],
+                                        [
+                                            145.473131728,
+                                            -35.672456923
+                                        ],
+                                        [
+                                            145.47497581,
+                                            -35.6729447119999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             145.483173054,
                                             -35.6695539799999
                                         ],
@@ -730,29 +753,6 @@
                                         [
                                             145.483173054,
                                             -35.6695539799999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            145.47497581,
-                                            -35.6729447119999
-                                        ],
-                                        [
-                                            145.47311983,
-                                            -35.672456923
-                                        ],
-                                        [
-                                            145.473131728,
-                                            -35.672456923
-                                        ],
-                                        [
-                                            145.47497581,
-                                            -35.6729447119999
                                         ]
                                     ]
                                 ]
@@ -854,10 +854,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.90165100000002,
-                    -34.35753299999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.90165100000002,
+                            -34.35753299999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.90447043,
+                                            -34.358559887
+                                        ],
+                                        [
+                                            146.904291971,
+                                            -34.3585122979999
+                                        ],
+                                        [
+                                            146.904375252,
+                                            -34.35819107
+                                        ],
+                                        [
+                                            146.905981388,
+                                            -34.3585955789999
+                                        ],
+                                        [
+                                            146.905910004,
+                                            -34.358893011
+                                        ],
+                                        [
+                                            146.90447043,
+                                            -34.358559887
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1035,11 +1076,11 @@
                 "subcategory": "mva/transport",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407549",
-                "created": "2021-02-19T07:36:00+11:00",
-                "updated": "2021-02-19T18:36:00+11:00",
+                "created": "2021-02-19T07:57:00+11:00",
+                "updated": "2021-02-19T18:57:00+11:00",
                 "location": "Pacific Hwy, Raleigh, NSW 2454",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Raleigh, NSW 2454 <br />COUNCIL AREA: Bellingen <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2021 18:36",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Raleigh, NSW 2454 <br />COUNCIL AREA: Bellingen <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2021 18:57",
                 "title": "incident: other"
             }
         },
