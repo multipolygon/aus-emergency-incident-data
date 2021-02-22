@@ -430,33 +430,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            145.483173054,
-                                            -35.6695539799999
-                                        ],
-                                        [
-                                            145.483161156,
-                                            -35.669542083
-                                        ],
-                                        [
-                                            145.483137361,
-                                            -35.6694112119999
-                                        ],
-                                        [
-                                            145.483220642,
-                                            -35.669589671
-                                        ],
-                                        [
-                                            145.483173054,
-                                            -35.6695539799999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             145.47497581,
                                             -35.6729447119999
                                         ],
@@ -498,6 +471,33 @@
                                         [
                                             145.472151872,
                                             -35.671844898
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.483173054,
+                                            -35.6695539799999
+                                        ],
+                                        [
+                                            145.483161156,
+                                            -35.669542083
+                                        ],
+                                        [
+                                            145.483137361,
+                                            -35.6694112119999
+                                        ],
+                                        [
+                                            145.483220642,
+                                            -35.669589671
+                                        ],
+                                        [
+                                            145.483173054,
+                                            -35.6695539799999
                                         ]
                                     ]
                                 ]
@@ -726,10 +726,102 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.18437957800006,
-                    -30.56026544599996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.18437957800006,
+                            -30.56026544599996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.181532379,
+                                            -30.545879118
+                                        ],
+                                        [
+                                            149.18148829,
+                                            -30.545903613
+                                        ],
+                                        [
+                                            149.181559674,
+                                            -30.545760846
+                                        ],
+                                        [
+                                            149.181532379,
+                                            -30.545879118
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.182085438,
+                                            -30.547131608
+                                        ],
+                                        [
+                                            149.181927288,
+                                            -30.545832068
+                                        ],
+                                        [
+                                            149.181904695,
+                                            -30.545832068
+                                        ],
+                                        [
+                                            149.182627667,
+                                            -30.5455016769999
+                                        ],
+                                        [
+                                            149.183779902,
+                                            -30.5452373639999
+                                        ],
+                                        [
+                                            149.184299539,
+                                            -30.545391547
+                                        ],
+                                        [
+                                            149.185677702,
+                                            -30.545832068
+                                        ],
+                                        [
+                                            149.186378082,
+                                            -30.546580956
+                                        ],
+                                        [
+                                            149.186265118,
+                                            -30.547395922
+                                        ],
+                                        [
+                                            149.184841767,
+                                            -30.5480787289999
+                                        ],
+                                        [
+                                            149.184141388,
+                                            -30.5484972259999
+                                        ],
+                                        [
+                                            149.182559888,
+                                            -30.5478584699999
+                                        ],
+                                        [
+                                            149.182085438,
+                                            -30.547131608
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -792,6 +884,30 @@
                 "location": "Bingara Rd, Moree, NSW 2400",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bingara Rd, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Feb 2021 15:42",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.8428150000001,
+                    -33.75608099999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Blazley Rd, Woodstock",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407769",
+                "created": "2021-02-22T04:54:00+11:00",
+                "updated": "2021-02-22T15:54:00+11:00",
+                "location": "Blazley Rd, Woodstock, NSW 2793",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Blazley Rd, Woodstock, NSW 2793 <br />COUNCIL AREA: Cowra <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2021 15:54",
                 "title": "incident: fire"
             }
         },
@@ -872,22 +988,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.8415030000001,
-                    -33.92319599999996
+                    147.84016600000007,
+                    -31.696955999999943
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Domenico Cl, West Hoxton",
+                "sourceTitle": "Coonamble Rd, Ravenswood",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "grass fire",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407768",
-                "created": "2021-02-22T05:14:00+11:00",
-                "updated": "2021-02-22T16:14:00+11:00",
-                "location": "7 Domenico Cl, West Hoxton, NSW 2171",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407772",
+                "created": "2021-02-22T05:36:00+11:00",
+                "updated": "2021-02-22T16:36:00+11:00",
+                "location": "Coonamble Rd, Ravenswood, NSW 2824",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 7 Domenico Cl, West Hoxton, NSW 2171 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Feb 2021 16:14",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Coonamble Rd, Ravenswood, NSW 2824 <br />COUNCIL AREA: Warren <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Feb 2021 16:36",
                 "title": "incident: fire"
             }
         },
@@ -920,6 +1036,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.830277001,
+                    -29.479366999999968
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jones Av, Moree",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407774",
+                "created": "2021-02-22T05:36:00+11:00",
+                "updated": "2021-02-22T16:36:00+11:00",
+                "location": "Jones Av, Moree, NSW 2400",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Jones Av, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Feb 2021 16:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.26816900000006,
                     -35.178785999999945
                 ]
@@ -929,13 +1069,13 @@
                 "sourceTitle": "Macs Reef Rd, Sutton",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407771",
-                "created": "2021-02-22T05:14:00+11:00",
-                "updated": "2021-02-22T16:14:00+11:00",
+                "created": "2021-02-22T05:26:00+11:00",
+                "updated": "2021-02-22T16:26:00+11:00",
                 "location": "Macs Reef Rd, Sutton,  2620",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Macs Reef Rd, Sutton,  2620 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2021 16:14",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Macs Reef Rd, Sutton,  2620 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2021 16:26",
                 "title": "incident: other"
             }
         },
@@ -1049,13 +1189,13 @@
                 "sourceTitle": "Pacific Mtwy (Northbound), Wyee",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407770",
-                "created": "2021-02-22T05:10:00+11:00",
-                "updated": "2021-02-22T16:10:00+11:00",
+                "created": "2021-02-22T05:32:00+11:00",
+                "updated": "2021-02-22T16:32:00+11:00",
                 "location": "M1 Pacific Mtwy (Northbound), Wyee, NSW 2259",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 Pacific Mtwy (Northbound), Wyee, NSW 2259 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2021 16:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 Pacific Mtwy (Northbound), Wyee, NSW 2259 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2021 16:32",
                 "title": "incident: fire"
             }
         },
@@ -1080,30 +1220,6 @@
                 "location": "Riverina Hwy, Blighty, NSW 2713",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Riverina Hwy, Blighty, NSW 2713 <br />COUNCIL AREA: Edward River <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2021 11:06",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.629814,
-                    -33.697270999999944
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Singles Ridge Rd, Yellow Rock",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/407767",
-                "created": "2021-02-22T04:52:00+11:00",
-                "updated": "2021-02-22T15:52:00+11:00",
-                "location": "Singles Ridge Rd, Yellow Rock, NSW 2777",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Singles Ridge Rd, Yellow Rock, NSW 2777 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Feb 2021 15:52",
                 "title": "incident: fire"
             }
         }
