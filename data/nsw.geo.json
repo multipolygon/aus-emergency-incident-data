@@ -441,10 +441,179 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.6280088430001,
-                    -33.94012009099998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.6280088430001,
+                            -33.94012009099998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.631914332,
+                                            -33.933194965
+                                        ],
+                                        [
+                                            150.630962548,
+                                            -33.9368117459999
+                                        ],
+                                        [
+                                            150.630772191,
+                                            -33.9389294659999
+                                        ],
+                                        [
+                                            150.630534246,
+                                            -33.942451068
+                                        ],
+                                        [
+                                            150.630343889,
+                                            -33.945235037
+                                        ],
+                                        [
+                                            150.629677639,
+                                            -33.9480665959999
+                                        ],
+                                        [
+                                            150.628963801,
+                                            -33.950612619
+                                        ],
+                                        [
+                                            150.628297552,
+                                            -33.954681498
+                                        ],
+                                        [
+                                            150.627869249,
+                                            -33.9562757369999
+                                        ],
+                                        [
+                                            150.627274384,
+                                            -33.9565850659999
+                                        ],
+                                        [
+                                            150.626037064,
+                                            -33.95763203
+                                        ],
+                                        [
+                                            150.625727734,
+                                            -33.9578937699999
+                                        ],
+                                        [
+                                            150.624633182,
+                                            -33.9578461799999
+                                        ],
+                                        [
+                                            150.623919344,
+                                            -33.9578699749999
+                                        ],
+                                        [
+                                            150.622848587,
+                                            -33.957965154
+                                        ],
+                                        [
+                                            150.622586845,
+                                            -33.957965154
+                                        ],
+                                        [
+                                            150.622420283,
+                                            -33.9578461799999
+                                        ],
+                                        [
+                                            150.622277516,
+                                            -33.9573940829999
+                                        ],
+                                        [
+                                            150.622277516,
+                                            -33.9562757369999
+                                        ],
+                                        [
+                                            150.622491667,
+                                            -33.955038416
+                                        ],
+                                        [
+                                            150.622634435,
+                                            -33.954205606
+                                        ],
+                                        [
+                                            150.623348272,
+                                            -33.9542769889999
+                                        ],
+                                        [
+                                            150.623610014,
+                                            -33.954015249
+                                        ],
+                                        [
+                                            150.623990728,
+                                            -33.953586945
+                                        ],
+                                        [
+                                            150.624799745,
+                                            -33.9536107399999
+                                        ],
+                                        [
+                                            150.624966307,
+                                            -33.953396588
+                                        ],
+                                        [
+                                            150.625156663,
+                                            -33.952302037
+                                        ],
+                                        [
+                                            150.625323225,
+                                            -33.9513978419999
+                                        ],
+                                        [
+                                            150.625489787,
+                                            -33.950303289
+                                        ],
+                                        [
+                                            150.626917465,
+                                            -33.9485662829999
+                                        ],
+                                        [
+                                            150.626965053,
+                                            -33.9464247679999
+                                        ],
+                                        [
+                                            150.628107196,
+                                            -33.943426647
+                                        ],
+                                        [
+                                            150.628487909,
+                                            -33.941832408
+                                        ],
+                                        [
+                                            150.629772817,
+                                            -33.939072234
+                                        ],
+                                        [
+                                            150.62993938,
+                                            -33.937240048
+                                        ],
+                                        [
+                                            150.630629424,
+                                            -33.935479248
+                                        ],
+                                        [
+                                            150.630795986,
+                                            -33.934551257
+                                        ],
+                                        [
+                                            150.631914332,
+                                            -33.933194965
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -563,30 +732,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.99468500000012,
-                    -33.685753999999974
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Annangrove Rd, Kenthurst",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/409746",
-                "created": "2021-03-06T23:26:00+11:00",
-                "updated": "2021-03-07T10:26:00+11:00",
-                "location": "56 Annangrove Rd, Kenthurst, NSW 2156",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 56 Annangrove Rd, Kenthurst, NSW 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Mar 2021 10:26",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.91890000000012,
                     -33.96704999999997
                 ]
@@ -628,6 +773,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Boat Rock Rd, Savernake, NSW 2646 <br />COUNCIL AREA: Federation <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Mar 2021 15:21",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.41187100000002,
+                    -28.754441999999983
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Boggabilla Rd, Boggabilla",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/409748",
+                "created": "2021-03-06T23:58:00+11:00",
+                "updated": "2021-03-07T10:58:00+11:00",
+                "location": "Boggabilla Rd, Boggabilla, NSW 2409",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Boggabilla Rd, Boggabilla, NSW 2409 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Mar 2021 10:58",
+                "title": "incident: other"
             }
         },
         {
@@ -707,30 +876,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.3581279990001,
-                    -28.613003999999933
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mccosker St, Boggabilla",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/409714",
-                "created": "2021-03-06T09:40:00+11:00",
-                "updated": "2021-03-06T20:40:00+11:00",
-                "location": "21 Mccosker St, Boggabilla, NSW 2409",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 21 Mccosker St, Boggabilla, NSW 2409 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Mar 2021 20:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     145.1433849330001,
                     -34.47465139899998
                 ]
@@ -755,6 +900,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.07761100000005,
+                    -33.90704999999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Punchbowl Rd, Strathfield South",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/409750",
+                "created": "2021-03-07T00:16:00+11:00",
+                "updated": "2021-03-07T11:16:00+11:00",
+                "location": "Punchbowl Rd, Strathfield South, NSW 2136",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Punchbowl Rd, Strathfield South, NSW 2136 <br />COUNCIL AREA: Strathfield <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 7 Mar 2021 11:16",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     145.37984848000008,
                     -35.592971011999964
                 ]
@@ -771,30 +940,6 @@
                 "location": "Riverina Hwy, Blighty, NSW 2713",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Riverina Hwy, Blighty, NSW 2713 <br />COUNCIL AREA: Edward River <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Mar 2021 10:27",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.07238800000005,
-                    -30.27320100099996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Shephards Lane, Coffs Harbour",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/409703",
-                "created": "2021-03-06T09:20:00+11:00",
-                "updated": "2021-03-06T20:20:00+11:00",
-                "location": "Shephards Lane, Coffs Harbour, NSW 2450",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Shephards Lane, Coffs Harbour, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Mar 2021 20:20",
                 "title": "incident: fire"
             }
         },
