@@ -1027,28 +1027,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lochaber South Road, Stewart Range",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "contained",
-                "created": "2021-03-31T11:18:00+11:00",
-                "updated": "2021-03-31T11:18:00+11:00",
-                "id": "1411730",
-                "location": "Lochaber South Road, Stewart Range",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    140.596282341688,
-                    -36.9512600599442
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Sinclair Rd/Ob Flat Rd , Ob Flat",
                 "category": "fire",
                 "subcategory": "planned burn",
@@ -1065,6 +1043,28 @@
                 "coordinates": [
                     140.774831491212,
                     -37.8932565425236
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Oneils Lane/Fisher Rd , Wattle Range",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "going",
+                "created": "2021-03-31T15:35:00+11:00",
+                "updated": "2021-03-31T15:35:00+11:00",
+                "id": "1411771",
+                "location": "Oneils Lane/Fisher Rd , Wattle Range",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.425784444699,
+                    -37.4774327569658
                 ]
             }
         },
@@ -1509,13 +1509,35 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "unknown",
+                "created": "2021-03-02T22:00:51+11:00",
+                "updated": "2021-03-31T15:45:17+11:00",
+                "id": "ESTA:210300663",
+                "location": "",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.00218652037603,
+                    -37.72780816332983
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Whittlesea-Yea Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2021-03-31T14:59:00+11:00",
-                "updated": "2021-03-31T15:21:00+11:00",
-                "id": "ESTA:210317733",
-                "location": "Bangerang",
+                "status": "responding",
+                "created": "2021-03-31T15:49:00+11:00",
+                "updated": "2021-03-31T15:49:00+11:00",
+                "id": "ESTA:210317812",
+                "location": "Whittlesea-Yea Rd, Flowerdale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -1523,8 +1545,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.54985992520054,
-                    -36.18297199465585
+                    145.31096044683957,
+                    -37.32189670525873
                 ]
             }
         },
@@ -1532,137 +1554,88 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "complete",
-                "created": "2021-03-31T15:09:00+11:00",
-                "updated": "2021-03-31T15:23:00+11:00",
-                "id": "ESTA:210317755",
-                "location": "Lake Goldsmith",
-                "size": "Small",
-                "title": "incident: rescue"
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2021-03-31T15:56:00+11:00",
+                "updated": "2021-03-31T15:56:00+11:00",
+                "id": "ESTA:210351805",
+                "location": "Cheltenham",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.3679502712364,
-                    -37.54932652926542
+                    145.07437418766722,
+                    -37.968895546108584
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Nhill-Harrow Rd",
+                "sourceTitle": "Warrigal Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-03-31T15:58:20+11:00",
+                "updated": "2021-03-31T15:58:20+11:00",
+                "id": "ESTA:210317822",
+                "location": "Warrigal Rd, Cheltenham",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.07438368842946,
+                    -37.96888745383704
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ferntree Gully",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "responding",
+                "created": "2021-03-31T15:55:48+11:00",
+                "updated": "2021-03-31T15:59:01+11:00",
+                "id": "ESTA:210351807",
+                "location": "Dobson St, Ferntree Gully",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2637906345974,
+                    -37.88113713189641
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lancefield",
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "responding",
-                "created": "2021-03-31T15:25:00+11:00",
-                "updated": "2021-03-31T15:25:00+11:00",
-                "id": "ESTA:210317787",
-                "location": "Nhill-Harrow Rd, Gymbowen",
-                "size": "Small",
+                "created": "2021-03-31T15:58:25+11:00",
+                "updated": "2021-03-31T15:59:28+11:00",
+                "id": "ESTA:210317825",
+                "location": "Three Chain Rd, Lancefield",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.63088896917395,
-                    -36.80413128025327
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2021-03-31T15:27:00+11:00",
-                "updated": "2021-03-31T15:27:00+11:00",
-                "id": "ESTA:210317792",
-                "location": "Gymbowen",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.61792836725448,
-                    -36.701946097006164
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Clarks Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2021-03-31T14:57:00+11:00",
-                "updated": "2021-03-31T15:07:00+11:00",
-                "id": "ESTA:210317730",
-                "location": "Clarks Rd, Whittlesea",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.10303862827402,
-                    -37.4984634348685
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South Yarra",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2021-03-31T15:30:22+11:00",
-                "updated": "2021-03-31T15:30:22+11:00",
-                "id": "ESTA:210317793",
-                "location": "South Yarra, South Yarra",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.987980103707,
-                    -37.838521589499415
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rockbank",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2021-03-31T15:32:02+11:00",
-                "updated": "2021-03-31T15:32:02+11:00",
-                "id": "ESTA:210317794",
-                "location": "Rockbank, Rockbank",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.65146386570478,
-                    -37.72367644594214
+                    144.6843696945937,
+                    -37.25454477097096
                 ]
             }
         },
@@ -1751,6 +1724,28 @@
                 "coordinates": [
                     148.110551834,
                     -35.5841065399999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hill Plain Rd, Deniliquin",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "out of control",
+                "created": "2021-03-31T15:24:00+11:00",
+                "updated": "2021-03-31T15:24:00+11:00",
+                "id": "2021-03-31T15:24:00.0000000:411967",
+                "location": "131 Hill Plain Rd, Deniliquin, Nsw 2710",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.902351,
+                    -35.6567029999999
                 ]
             }
         },
@@ -25313,6 +25308,282 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Rockbank",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-03-31T15:57:16+11:00",
+                "updated": "2021-03-31T15:57:16+11:00",
+                "id": "ESTA:210317794",
+                "location": "Rockbank, Rockbank",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.65146386570478,
+                    -37.72367644594214
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2021-03-31T15:49:00+11:00",
+                "updated": "2021-03-31T15:54:00+11:00",
+                "id": "ESTA:210317811",
+                "location": "Epping",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01478171138896,
+                    -37.636358790506414
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2021-03-31T15:27:00+11:00",
+                "updated": "2021-03-31T15:52:00+11:00",
+                "id": "ESTA:210317792",
+                "location": "Gymbowen",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.61792836725448,
+                    -36.701946097006164
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Frankston-Dandenong Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2021-03-31T15:33:00+11:00",
+                "updated": "2021-03-31T15:50:00+11:00",
+                "id": "ESTA:210317798",
+                "location": "Frankston-Dandenong Rd, Lyndhurst",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19978894187372,
+                    -38.066118896840884
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Oherns Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-03-31T15:47:37+11:00",
+                "updated": "2021-03-31T15:47:37+11:00",
+                "id": "ESTA:210317800",
+                "location": "Oherns Rd, Epping",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01465049061497,
+                    -37.63633875650737
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Frankston-Dandenong Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2021-03-31T15:42:00+11:00",
+                "updated": "2021-03-31T15:44:00+11:00",
+                "id": "ESTA:210317806",
+                "location": "Frankston-Dandenong Rd, Bangholme",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19973461933853,
+                    -38.06600992390987
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Valley Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2021-03-31T15:14:00+11:00",
+                "updated": "2021-03-31T15:35:00+11:00",
+                "id": "ESTA:210317768",
+                "location": "Valley Dr, Rye",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8261294046977,
+                    -38.38019578864784
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nhill-Harrow Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2021-03-31T15:25:00+11:00",
+                "updated": "2021-03-31T15:25:00+11:00",
+                "id": "ESTA:210317787",
+                "location": "Nhill-Harrow Rd, Gymbowen",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.63088896917395,
+                    -36.80413128025327
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Skipton Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2021-03-31T15:09:00+11:00",
+                "updated": "2021-03-31T15:23:00+11:00",
+                "id": "ESTA:210317755",
+                "location": "Skipton Rd, Lake Goldsmith",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.3679502712364,
+                    -37.54932652926542
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2021-03-31T14:59:00+11:00",
+                "updated": "2021-03-31T15:21:00+11:00",
+                "id": "ESTA:210317733",
+                "location": "Bangerang",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.54985992520054,
+                    -36.18297199465585
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2021-03-31T14:55:00+11:00",
+                "updated": "2021-03-31T15:17:00+11:00",
+                "id": "ESTA:210317726",
+                "location": "Cosgrove",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.63160898939486,
+                    -36.36468601889058
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clarks Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2021-03-31T14:57:00+11:00",
+                "updated": "2021-03-31T15:07:00+11:00",
+                "id": "ESTA:210317730",
+                "location": "Clarks Rd, Whittlesea",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10303862827402,
+                    -37.4984634348685
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Buxton-Marysville Rd",
                 "category": "fire",
                 "subcategory": "other",
@@ -25353,98 +25624,6 @@
                 "coordinates": [
                     145.31362267793955,
                     -36.38681541341151
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mckenzie Dr",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2021-03-31T14:46:00+11:00",
-                "updated": "2021-03-31T14:58:00+11:00",
-                "id": "ESTA:210317711",
-                "location": "Mckenzie Dr, Wendouree",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.82258165139152,
-                    -37.520278897940806
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gwinear Ct",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2021-03-31T14:38:00+11:00",
-                "updated": "2021-03-31T14:57:00+11:00",
-                "id": "ESTA:210317693",
-                "location": "Gwinear Ct, Traralgon",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.50862101828073,
-                    -38.185481655650904
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Valley Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2021-03-31T15:14:00+11:00",
-                "updated": "2021-03-31T15:29:00+11:00",
-                "id": "ESTA:210317768",
-                "location": "Valley Dr, Rye",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.8261294046977,
-                    -38.38019578864784
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2021-03-31T14:55:00+11:00",
-                "updated": "2021-03-31T15:17:00+11:00",
-                "id": "ESTA:210317726",
-                "location": "Cosgrove",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.63160898939486,
-                    -36.36468601889058
                 ]
             }
         },
@@ -25501,8 +25680,8 @@
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2021-03-31T15:23:52+11:00",
-                "updated": "2021-03-31T15:23:52+11:00",
+                "created": "2021-03-31T15:41:03+11:00",
+                "updated": "2021-03-31T15:41:03+11:00",
                 "id": "ESTA:210316826",
                 "location": "Waanyarra, Waanyarra",
                 "size": "Small",
@@ -25520,23 +25699,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cambridge St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2021-03-31T14:50:04+11:00",
-                "updated": "2021-03-31T14:50:04+11:00",
-                "id": "ESTA:210317603",
-                "location": "Cambridge St, Collingwood",
+                "sourceTitle": "South Yarra",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2021-03-31T15:38:40+11:00",
+                "updated": "2021-03-31T15:38:40+11:00",
+                "id": "ESTA:210317793",
+                "location": "South Yarra, South Yarra",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9853163725476,
-                    -37.80718447928175
+                    144.987980103707,
+                    -37.838521589499415
                 ]
             }
         },
@@ -25547,8 +25726,8 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2021-03-31T15:29:25+11:00",
-                "updated": "2021-03-31T15:29:25+11:00",
+                "created": "2021-03-31T15:49:21+11:00",
+                "updated": "2021-03-31T15:49:21+11:00",
                 "id": "ESTA:210317697",
                 "location": "Toorak Rd, South Yarra",
                 "size": "Small",
