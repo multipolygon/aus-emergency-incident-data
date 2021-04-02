@@ -2119,9 +2119,9 @@
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "under control",
                 "created": "2021-04-02T23:16:00+11:00",
-                "updated": "2021-04-02T23:16:00+11:00",
+                "updated": "2021-04-02T23:54:00+11:00",
                 "id": "ESTA:210403144",
                 "location": "Tallarook",
                 "size": "Small",
@@ -2133,6 +2133,29 @@
                 "coordinates": [
                     145.16071846407186,
                     -37.161463259256486
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Enfield Dr",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2021-04-02T23:58:23+11:00",
+                "updated": "2021-04-02T23:58:23+11:00",
+                "id": "ESTA:210403150",
+                "location": "Enfield Dr, St Albans Park",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.39470481288174,
+                    -38.187327024428804
                 ]
             }
         },
@@ -2155,6 +2178,28 @@
                 "coordinates": [
                     145.638198853,
                     -35.882652505
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "River Hr",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2021-04-02T16:32:00+11:00",
+                "updated": "2021-04-02T16:32:00+11:00",
+                "id": "2021-04-02T16:32:00.0000000:411940",
+                "location": "-36.90119  149.30898",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.331407547,
+                    -36.912087898
                 ]
             }
         },
@@ -2271,78 +2316,6 @@
                 "coordinates": [
                     143.54515314,
                     -35.206635967
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "River Hr",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2021-04-02T16:32:00+11:00",
-                "updated": "2021-04-02T16:32:00+11:00",
-                "id": "2021-04-02T16:32:00.0000000:411940",
-                "location": "-36.90119  149.30898",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.331407547,
-                    -36.912087898
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Unknown",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2021-02-11T11:00:00+11:00",
-                "updated": "2021-02-11T11:00:00+11:00",
-                "id": "ecd0941258ae00533519220dab0fc148",
-                "location": "Unknown",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            141.5401,
-                            -37.4917
-                        ],
-                        [
-                            141.54,
-                            -37.4917
-                        ],
-                        [
-                            141.54,
-                            -37.4917
-                        ],
-                        [
-                            141.5399,
-                            -37.4916
-                        ],
-                        [
-                            141.54,
-                            -37.4916
-                        ],
-                        [
-                            141.5402,
-                            -37.4916
-                        ],
-                        [
-                            141.5401,
-                            -37.4917
-                        ]
-                    ]
                 ]
             }
         },
@@ -2494,6 +2467,56 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Unknown",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2021-02-11T11:00:00+11:00",
+                "updated": "2021-02-11T11:00:00+11:00",
+                "id": "ecd0941258ae00533519220dab0fc148",
+                "location": "Unknown",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            141.5401,
+                            -37.4917
+                        ],
+                        [
+                            141.54,
+                            -37.4917
+                        ],
+                        [
+                            141.54,
+                            -37.4917
+                        ],
+                        [
+                            141.5399,
+                            -37.4916
+                        ],
+                        [
+                            141.54,
+                            -37.4916
+                        ],
+                        [
+                            141.5402,
+                            -37.4916
+                        ],
+                        [
+                            141.5401,
+                            -37.4917
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Unknown -",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -2607,64 +2630,6 @@
                         [
                             143.0048,
                             -37.3274
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Odea Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2021-01-13T11:00:00+11:00",
-                "updated": "2021-01-13T11:00:00+11:00",
-                "id": "cd74c6036c895a6118ff864add140db7",
-                "location": "Odea Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.815,
-                            -36.2529
-                        ],
-                        [
-                            144.8159,
-                            -36.2528
-                        ],
-                        [
-                            144.816,
-                            -36.253
-                        ],
-                        [
-                            144.8157,
-                            -36.2535
-                        ],
-                        [
-                            144.8154,
-                            -36.2538
-                        ],
-                        [
-                            144.8152,
-                            -36.2537
-                        ],
-                        [
-                            144.8147,
-                            -36.2535
-                        ],
-                        [
-                            144.8147,
-                            -36.253
-                        ],
-                        [
-                            144.815,
-                            -36.2529
                         ]
                     ]
                 ]
@@ -3928,6 +3893,64 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Fire - Willaura - Andrews Lane",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2021-01-13T11:00:00+11:00",
+                "updated": "2021-01-13T11:00:00+11:00",
+                "id": "598727c2c42b3a66f273724e2ea42f88",
+                "location": "Fire - Willaura - Andrews Lane",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.7707,
+                            -37.4125
+                        ],
+                        [
+                            142.7718,
+                            -37.4127
+                        ],
+                        [
+                            142.7698,
+                            -37.4221
+                        ],
+                        [
+                            142.7692,
+                            -37.422
+                        ],
+                        [
+                            142.7694,
+                            -37.4189
+                        ],
+                        [
+                            142.77,
+                            -37.4184
+                        ],
+                        [
+                            142.7702,
+                            -37.4177
+                        ],
+                        [
+                            142.77,
+                            -37.4171
+                        ],
+                        [
+                            142.7707,
+                            -37.4125
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Cochranes Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -4095,6 +4118,64 @@
                         [
                             146.5155,
                             -38.2731
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Odea Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2021-01-13T11:00:00+11:00",
+                "updated": "2021-01-13T11:00:00+11:00",
+                "id": "cd74c6036c895a6118ff864add140db7",
+                "location": "Odea Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.815,
+                            -36.2529
+                        ],
+                        [
+                            144.8159,
+                            -36.2528
+                        ],
+                        [
+                            144.816,
+                            -36.253
+                        ],
+                        [
+                            144.8157,
+                            -36.2535
+                        ],
+                        [
+                            144.8154,
+                            -36.2538
+                        ],
+                        [
+                            144.8152,
+                            -36.2537
+                        ],
+                        [
+                            144.8147,
+                            -36.2535
+                        ],
+                        [
+                            144.8147,
+                            -36.253
+                        ],
+                        [
+                            144.815,
+                            -36.2529
                         ]
                     ]
                 ]
@@ -5935,64 +6016,6 @@
                         [
                             145.575,
                             -36.179
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Fire - Willaura - Andrews Lane",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2021-01-13T11:00:00+11:00",
-                "updated": "2021-01-13T11:00:00+11:00",
-                "id": "598727c2c42b3a66f273724e2ea42f88",
-                "location": "Fire - Willaura - Andrews Lane",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.7707,
-                            -37.4125
-                        ],
-                        [
-                            142.7718,
-                            -37.4127
-                        ],
-                        [
-                            142.7698,
-                            -37.4221
-                        ],
-                        [
-                            142.7692,
-                            -37.422
-                        ],
-                        [
-                            142.7694,
-                            -37.4189
-                        ],
-                        [
-                            142.77,
-                            -37.4184
-                        ],
-                        [
-                            142.7702,
-                            -37.4177
-                        ],
-                        [
-                            142.77,
-                            -37.4171
-                        ],
-                        [
-                            142.7707,
-                            -37.4125
                         ]
                     ]
                 ]
@@ -25663,12 +25686,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Latrobe Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2021-04-02T23:57:54+11:00",
+                "updated": "2021-04-02T23:57:54+11:00",
+                "id": "ESTA:210403147",
+                "location": "Latrobe Rd, Maryvale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.40146137795767,
+                    -38.20217283849788
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "other",
                 "subcategory": "other",
                 "status": "on scene",
                 "created": "2021-04-02T21:42:00+11:00",
-                "updated": "2021-04-02T22:07:00+11:00",
+                "updated": "2021-04-02T23:45:00+11:00",
                 "id": "ESTA:210403122",
                 "location": "Leneva",
                 "size": "Small",
@@ -25680,52 +25726,6 @@
                 "coordinates": [
                     146.82163810713763,
                     -36.247309435840435
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sawmill Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2021-04-02T22:43:01+11:00",
-                "updated": "2021-04-02T22:43:01+11:00",
-                "id": "ESTA:210403129",
-                "location": "Sawmill Rd, Yelta",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.02309050168077,
-                    -34.12643366125885
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-04-02T22:21:00+11:00",
-                "updated": "2021-04-02T22:23:00+11:00",
-                "id": "ESTA:210403138",
-                "location": "Werribee",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.6771278532764,
-                    -37.911734228387985
                 ]
             }
         },
@@ -25778,89 +25778,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Emma Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-04-02T23:15:39+11:00",
-                "updated": "2021-04-02T23:15:39+11:00",
-                "id": "ESTA:210403142",
-                "location": "Emma Rd, Croydon",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2021-04-02T23:25:00+11:00",
+                "updated": "2021-04-02T23:56:00+11:00",
+                "id": "ESTA:210403145",
+                "location": "Craigieburn",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.29024313877116,
-                    -37.789381691750755
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2021-04-02T22:43:00+11:00",
-                "updated": "2021-04-02T23:08:00+11:00",
-                "id": "ESTA:210450071",
-                "location": "Mooroopna North West",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.22272549858408,
-                    -36.344320794263275
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2021-04-02T22:43:00+11:00",
-                "updated": "2021-04-02T23:06:00+11:00",
-                "id": "ESTA:210450072",
-                "location": "Brighton",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.00642833785122,
-                    -37.90187005705763
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2021-04-02T21:37:00+11:00",
-                "updated": "2021-04-02T22:18:00+11:00",
-                "id": "ESTA:210450068",
-                "location": "Maidstone",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.87868719006028,
-                    -37.78609913935749
+                    144.91005840626832,
+                    -37.593932637360155
                 ]
             }
         },
