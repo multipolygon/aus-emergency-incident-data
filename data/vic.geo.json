@@ -9,60 +9,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            145.86556471783157,
-                            -38.15937396659406
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    145.85766829449315,
-                                    -38.139127490463956
-                                ],
-                                [
-                                    145.8380988975189,
-                                    -38.156947159855925
-                                ],
-                                [
-                                    145.88770903545986,
-                                    -38.17962044272416
-                                ],
-                                [
-                                    145.89303053814425,
-                                    -38.15397751726047
-                                ],
-                                [
-                                    145.85766829449315,
-                                    -38.139127490463956
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Community Information",
-                "category": "community update",
-                "subcategory": "cbrne",
-                "status": "unknown",
-                "created": "2021-05-19T13:07:49+10:00",
-                "updated": "2021-05-19T13:07:49+10:00",
-                "id": "16195",
-                "location": "Warragul West, Drouin",
-                "title": "warning: community update"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             147.8309390744099,
                             -37.48594679815757
                         ]
@@ -906,9 +852,9 @@
                 "sourceTitle": "Salisbury - Salisbury South Road",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2021-05-19T12:58:04+10:00",
-                "updated": "2021-05-19T12:58:04+10:00",
+                "status": "patrolled",
+                "created": "2021-05-19T14:59:41+10:00",
+                "updated": "2021-05-19T14:59:41+10:00",
                 "id": 940638,
                 "location": "13Km E Of Nhill",
                 "size": "12.90",
@@ -998,9 +944,9 @@
                 "sourceTitle": "Colac Colac - Bushland Reserve Heaps",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2021-05-19T11:00:07+10:00",
-                "updated": "2021-05-19T11:00:07+10:00",
+                "status": "patrolled",
+                "created": "2021-05-19T15:00:40+10:00",
+                "updated": "2021-05-19T15:00:40+10:00",
                 "id": 3006431,
                 "location": "4Km W Of Corryong",
                 "size": "0.26",
@@ -1087,35 +1033,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Corriedale Dr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2021-05-19T14:54:36+10:00",
-                "updated": "2021-05-19T14:54:36+10:00",
-                "id": "ESTA:210515825",
-                "location": "Corriedale Dr, Doreen",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1248232710188,
-                    -37.59134698291366
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
+                "subcategory": "bushfire",
+                "status": "under control",
                 "created": "2021-05-19T14:47:00+10:00",
-                "updated": "2021-05-19T14:47:00+10:00",
+                "updated": "2021-05-19T15:12:00+10:00",
                 "id": "ESTA:210515826",
                 "location": "Girgarre",
                 "size": "Small",
@@ -1133,23 +1056,159 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Brown St",
+                "sourceTitle": "Laverton North",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-05-19T15:16:58+10:00",
+                "updated": "2021-05-19T15:18:03+10:00",
+                "id": "ESTA:210515853",
+                "location": "Laverton North",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.81911265593794,
+                    -37.818773900646875
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Albert St",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2021-05-19T15:19:45+10:00",
+                "updated": "2021-05-19T15:19:45+10:00",
+                "id": "ESTA:210515852",
+                "location": "Albert St, Caulfield North",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.02400437742742,
+                    -37.8700634141812
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Laverton North",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2021-05-19T14:53:00+10:00",
-                "updated": "2021-05-19T14:53:00+10:00",
-                "id": "ESTA:210515834",
-                "location": "Brown St, Castlemaine",
-                "size": "Small",
+                "created": "2021-05-19T15:16:52+10:00",
+                "updated": "2021-05-19T15:21:38+10:00",
+                "id": "ESTA:210515860",
+                "location": "Laverton North",
                 "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.20325824836587,
-                    -37.06724808419353
+                    144.81911265593794,
+                    -37.818773900646875
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Corriedale Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2021-05-19T14:45:00+10:00",
+                "updated": "2021-05-19T15:01:00+10:00",
+                "id": "ESTA:210515825",
+                "location": "Corriedale Dr, Doreen",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12481776737746,
+                    -37.591350023365194
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Unknown -",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2021-05-19T15:11:00+10:00",
+                "updated": "2021-05-19T15:23:00+10:00",
+                "id": "ESTA:210515844",
+                "location": "Unknown -, Werribee South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.68685511791008,
+                    -37.96825481871157
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Blyth St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2021-05-19T15:23:41+10:00",
+                "updated": "2021-05-19T15:23:41+10:00",
+                "id": "ESTA:210515851",
+                "location": "Blyth St, Brunswick East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9825205602398,
+                    -37.76751244711111
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sturt St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-05-19T15:24:00+10:00",
+                "updated": "2021-05-19T15:24:00+10:00",
+                "id": "ESTA:210515863",
+                "location": "Sturt St, Echuca",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7537641850621,
+                    -36.1261115950156
                 ]
             }
         },
@@ -21097,6 +21156,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Brown St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2021-05-19T14:53:00+10:00",
+                "updated": "2021-05-19T15:10:00+10:00",
+                "id": "ESTA:210515834",
+                "location": "Brown St, Castlemaine",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.20325824836587,
+                    -37.06724808419353
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ballan Rd",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2021-05-19T15:20:58+10:00",
+                "updated": "2021-05-19T15:20:58+10:00",
+                "id": "ESTA:210515842",
+                "location": "Ballan Rd, Wyndham Vale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.62248115085927,
+                    -37.882590811379494
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -21120,60 +21225,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2021-05-19T14:12:00+10:00",
-                "updated": "2021-05-19T14:14:00+10:00",
-                "id": "ESTA:210515798",
-                "location": "Mount Duneed",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.30040626514676,
-                    -38.21907291575662
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hardy St",
-                "category": "rescue",
-                "subcategory": "washaway",
-                "status": "safe",
-                "created": "2021-05-19T13:51:00+10:00",
-                "updated": "2021-05-19T14:09:00+10:00",
-                "id": "ESTA:210515779",
-                "location": "Hardy St, Apollo Bay",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.66830470455625,
-                    -38.75505956268823
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Foxes Lane",
+                "sourceTitle": "Laverton North",
                 "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2021-05-19T13:32:00+10:00",
-                "updated": "2021-05-19T14:02:00+10:00",
-                "id": "ESTA:210515753",
-                "location": "Foxes Lane, Kyneton",
+                "status": "under control",
+                "created": "2021-05-19T15:22:38+10:00",
+                "updated": "2021-05-19T15:22:38+10:00",
+                "id": "ESTA:210515849",
+                "location": "Laverton North, Laverton North",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -21181,22 +21240,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.48214929381695,
-                    -37.20096390788728
+                    144.81911253126387,
+                    -37.81878013403193
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Jamieson Way",
+                "sourceTitle": "Princes Hwy",
                 "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2021-05-19T14:00:00+10:00",
-                "updated": "2021-05-19T14:02:00+10:00",
-                "id": "ESTA:210515787",
-                "location": "Jamieson Way, Dandenong South",
+                "created": "2021-05-19T15:23:53+10:00",
+                "updated": "2021-05-19T15:23:53+10:00",
+                "id": "ESTA:210515841",
+                "location": "Princes Hwy, Noble Park",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -21204,8 +21263,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.22517112855596,
-                    -38.039343551446905
+                    145.1771567374132,
+                    -37.95208540550431
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Morwell",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2021-05-19T15:22:31+10:00",
+                "updated": "2021-05-19T15:22:31+10:00",
+                "id": "ESTA:210515847",
+                "location": "Morwell, Morwell",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.43681751792897,
+                    -38.24499251532185
                 ]
             }
         },
