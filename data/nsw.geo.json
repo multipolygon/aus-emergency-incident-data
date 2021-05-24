@@ -1134,10 +1134,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.35168748900003,
-                    -34.635037963999935
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.35168748900003,
+                            -34.635037963999935
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.352448916,
+                                            -34.6346275079999
+                                        ],
+                                        [
+                                            146.352853425,
+                                            -34.634556123
+                                        ],
+                                        [
+                                            146.353174651,
+                                            -34.634556123
+                                        ],
+                                        [
+                                            146.353519673,
+                                            -34.634698892
+                                        ],
+                                        [
+                                            146.353793311,
+                                            -34.634865454
+                                        ],
+                                        [
+                                            146.354649917,
+                                            -34.635091503
+                                        ],
+                                        [
+                                            146.354281101,
+                                            -34.63603139
+                                        ],
+                                        [
+                                            146.353353112,
+                                            -34.6359124159999
+                                        ],
+                                        [
+                                            146.352698759,
+                                            -34.6355792919999
+                                        ],
+                                        [
+                                            146.352103894,
+                                            -34.63523427
+                                        ],
+                                        [
+                                            146.352091997,
+                                            -34.6349011459999
+                                        ],
+                                        [
+                                            146.352282354,
+                                            -34.634734583
+                                        ],
+                                        [
+                                            146.352448916,
+                                            -34.6346275079999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1147,11 +1216,35 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416264",
-                "created": "2021-05-24T08:08:00+10:00",
-                "updated": "2021-05-24T18:08:00+10:00",
+                "created": "2021-05-24T09:08:00+10:00",
+                "updated": "2021-05-24T19:08:00+10:00",
                 "location": "Euroley Rd, Euroley, NSW 2700",
+                "size": 2,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Euroley Rd, Euroley, NSW 2700 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 24 May 2021 19:08",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.0722760000001,
+                    -31.00930999899998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gill St, Moonbi",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416273",
+                "created": "2021-05-24T08:54:00+10:00",
+                "updated": "2021-05-24T18:54:00+10:00",
+                "location": "Gill St, Moonbi, NSW 2353",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Euroley Rd, Euroley, NSW 2700 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 May 2021 18:08",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Gill St, Moonbi, NSW 2353 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 May 2021 18:54",
                 "title": "incident: fire"
             }
         },
@@ -1437,23 +1530,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.72759300000007,
-                    -33.93162499999994
+                    149.91850018500008,
+                    -36.88588515999993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Dart Rd, Bringelly",
-                "category": "other",
-                "subcategory": "mva/transport",
+                "sourceTitle": "Henwood St, Merimbula",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416253",
-                "created": "2021-05-24T06:12:00+10:00",
-                "updated": "2021-05-24T16:12:00+10:00",
-                "location": "Dart Rd, Bringelly, NSW 2556",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416274",
+                "created": "2021-05-24T09:06:00+10:00",
+                "updated": "2021-05-24T19:06:00+10:00",
+                "location": "10 Henwood St, Merimbula, NSW 2548",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Dart Rd, Bringelly, NSW 2556 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 May 2021 16:12",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 10 Henwood St, Merimbula, NSW 2548 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 24 May 2021 19:06",
+                "title": "incident: fire"
             }
         },
         {
@@ -1461,22 +1554,46 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.60308837900004,
-                    -33.20088281499994
+                    153.56400000000008,
+                    -28.245176999999956
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Elizabeth Bay Dr, Lake Munmorah",
+                "sourceTitle": "Sand St, Kingscliff",
                 "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416261",
-                "created": "2021-05-24T08:08:00+10:00",
-                "updated": "2021-05-24T18:08:00+10:00",
-                "location": "Elizabeth Bay Dr, Lake Munmorah, NSW 2259",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416272",
+                "created": "2021-05-24T08:52:00+10:00",
+                "updated": "2021-05-24T18:52:00+10:00",
+                "location": "Sand St, Kingscliff, NSW 2487",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Elizabeth Bay Dr, Lake Munmorah, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 May 2021 18:08",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sand St, Kingscliff, NSW 2487 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 24 May 2021 18:52",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.0630950000001,
+                    -36.46025199999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tathra Bermagui Rd, Bermagui",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416265",
+                "created": "2021-05-24T07:30:00+10:00",
+                "updated": "2021-05-24T17:30:00+10:00",
+                "location": "3997 Tathra Bermagui Rd, Bermagui, NSW 2546",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3997 Tathra Bermagui Rd, Bermagui, NSW 2546 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 May 2021 17:30",
                 "title": "incident: fire"
             }
         }
