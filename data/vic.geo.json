@@ -740,14 +740,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Howes Creek Rd",
+                "sourceTitle": "Kinglake West",
+                "category": "other",
+                "subcategory": "other",
+                "status": "unknown",
+                "created": "2021-05-30T08:38:36+10:00",
+                "updated": "2021-05-30T09:40:10+10:00",
+                "id": "ESTA:210527170",
+                "location": "Kinglake West",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.25684784524788,
+                    -37.502387894850514
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Melbourne Rd",
                 "category": "rescue",
-                "subcategory": "aircraft",
-                "status": "safe",
-                "created": "2021-05-30T08:53:00+10:00",
-                "updated": "2021-05-30T08:56:00+10:00",
-                "id": "ESTA:210527192",
-                "location": "Howes Creek Rd, Mansfield",
+                "subcategory": "rescue",
+                "status": "responding",
+                "created": "2021-05-30T09:46:00+10:00",
+                "updated": "2021-05-30T09:46:00+10:00",
+                "id": "ESTA:210527341",
+                "location": "Melbourne Rd, Rye",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -755,45 +777,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.0134966201104,
-                    -37.103731445458635
+                    144.8064589787576,
+                    -38.3788109951113
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Berwick-Cranbourne Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2021-05-30T09:03:47+10:00",
-                "updated": "2021-05-30T09:03:47+10:00",
-                "id": "ESTA:210527197",
-                "location": "Berwick-Cranbourne Rd, Clyde North",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3296376045299,
-                    -38.10621811295229
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ferris Rd",
+                "sourceTitle": "Madison Av",
                 "category": "fire",
-                "subcategory": "fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2021-05-30T09:05:30+10:00",
-                "updated": "2021-05-30T09:05:30+10:00",
-                "id": "ESTA:210527193",
-                "location": "Ferris Rd, Cobblebank",
+                "created": "2021-05-30T09:50:14+10:00",
+                "updated": "2021-05-30T09:50:14+10:00",
+                "id": "ESTA:210527352",
+                "location": "Madison Av, Narre Warren",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -801,31 +800,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.60330846356456,
-                    -37.70008143466031
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Petworth Cl",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2021-05-30T09:03:17+10:00",
-                "updated": "2021-05-30T09:03:17+10:00",
-                "id": "ESTA:210527204",
-                "location": "Petworth Cl, Mernda",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.09296740356348,
-                    -37.59915230268228
+                    145.3001227294546,
+                    -38.00421316315423
                 ]
             }
         },
@@ -2285,6 +2261,60 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Unknown",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2021-03-04T11:00:00+11:00",
+                "updated": "2021-03-04T11:00:00+11:00",
+                "id": "b3b0026c28ca9814350740da30c66001",
+                "location": "Unknown",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.5127,
+                            -36.158
+                        ],
+                        [
+                            143.5127,
+                            -36.1582
+                        ],
+                        [
+                            143.5072,
+                            -36.1587
+                        ],
+                        [
+                            143.506,
+                            -36.1573
+                        ],
+                        [
+                            143.5066,
+                            -36.1559
+                        ],
+                        [
+                            143.5092,
+                            -36.1524
+                        ],
+                        [
+                            143.5098,
+                            -36.1523
+                        ],
+                        [
+                            143.5127,
+                            -36.158
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Fire-Telopea Downs - Edgerly R",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -3220,6 +3250,112 @@
                         [
                             144.7677,
                             -36.5751
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Mallee 39 - Koorlong - Twenty Second Street",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "Invalid date",
+                "updated": "Invalid date",
+                "id": "ee12807217150f01cd9830c8a0463eed",
+                "location": "Mallee 39 - Koorlong - Twenty Second Street",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.0548,
+                            -34.2727
+                        ],
+                        [
+                            142.0541,
+                            -34.2727
+                        ],
+                        [
+                            142.054,
+                            -34.2725
+                        ],
+                        [
+                            142.0542,
+                            -34.2724
+                        ],
+                        [
+                            142.0545,
+                            -34.2726
+                        ],
+                        [
+                            142.0549,
+                            -34.2723
+                        ],
+                        [
+                            142.0547,
+                            -34.2723
+                        ],
+                        [
+                            142.0546,
+                            -34.2718
+                        ],
+                        [
+                            142.0547,
+                            -34.2719
+                        ],
+                        [
+                            142.0551,
+                            -34.2716
+                        ],
+                        [
+                            142.0553,
+                            -34.2717
+                        ],
+                        [
+                            142.055,
+                            -34.2719
+                        ],
+                        [
+                            142.0552,
+                            -34.2721
+                        ],
+                        [
+                            142.0555,
+                            -34.2717
+                        ],
+                        [
+                            142.0554,
+                            -34.2715
+                        ],
+                        [
+                            142.0556,
+                            -34.2716
+                        ],
+                        [
+                            142.0556,
+                            -34.2719
+                        ],
+                        [
+                            142.0555,
+                            -34.272
+                        ],
+                        [
+                            142.0555,
+                            -34.2722
+                        ],
+                        [
+                            142.0553,
+                            -34.2726
+                        ],
+                        [
+                            142.0548,
+                            -34.2727
                         ]
                     ]
                 ]
@@ -4238,60 +4374,6 @@
                         [
                             146.2843,
                             -38.2425
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Unknown",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2021-03-04T11:00:00+11:00",
-                "updated": "2021-03-04T11:00:00+11:00",
-                "id": "b3b0026c28ca9814350740da30c66001",
-                "location": "Unknown",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.5127,
-                            -36.158
-                        ],
-                        [
-                            143.5127,
-                            -36.1582
-                        ],
-                        [
-                            143.5072,
-                            -36.1587
-                        ],
-                        [
-                            143.506,
-                            -36.1573
-                        ],
-                        [
-                            143.5066,
-                            -36.1559
-                        ],
-                        [
-                            143.5092,
-                            -36.1524
-                        ],
-                        [
-                            143.5098,
-                            -36.1523
-                        ],
-                        [
-                            143.5127,
-                            -36.158
                         ]
                     ]
                 ]
@@ -15263,112 +15345,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Mallee 39 - Koorlong - Twenty Second Street",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "Invalid date",
-                "updated": "Invalid date",
-                "id": "ee12807217150f01cd9830c8a0463eed",
-                "location": "Mallee 39 - Koorlong - Twenty Second Street",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.0548,
-                            -34.2727
-                        ],
-                        [
-                            142.0541,
-                            -34.2727
-                        ],
-                        [
-                            142.054,
-                            -34.2725
-                        ],
-                        [
-                            142.0542,
-                            -34.2724
-                        ],
-                        [
-                            142.0545,
-                            -34.2726
-                        ],
-                        [
-                            142.0549,
-                            -34.2723
-                        ],
-                        [
-                            142.0547,
-                            -34.2723
-                        ],
-                        [
-                            142.0546,
-                            -34.2718
-                        ],
-                        [
-                            142.0547,
-                            -34.2719
-                        ],
-                        [
-                            142.0551,
-                            -34.2716
-                        ],
-                        [
-                            142.0553,
-                            -34.2717
-                        ],
-                        [
-                            142.055,
-                            -34.2719
-                        ],
-                        [
-                            142.0552,
-                            -34.2721
-                        ],
-                        [
-                            142.0555,
-                            -34.2717
-                        ],
-                        [
-                            142.0554,
-                            -34.2715
-                        ],
-                        [
-                            142.0556,
-                            -34.2716
-                        ],
-                        [
-                            142.0556,
-                            -34.2719
-                        ],
-                        [
-                            142.0555,
-                            -34.272
-                        ],
-                        [
-                            142.0555,
-                            -34.2722
-                        ],
-                        [
-                            142.0553,
-                            -34.2726
-                        ],
-                        [
-                            142.0548,
-                            -34.2727
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Ovens 12 - Harrietville - Stony Creek Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -19497,13 +19473,36 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2021-05-30T06:51:00+10:00",
+                "updated": "2021-05-30T09:49:00+10:00",
+                "id": "ESTA:210527104",
+                "location": "Deanside",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7084446649408,
+                    -37.72907519889987
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Petworth Cl",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2021-05-30T08:39:00+10:00",
-                "updated": "2021-05-30T08:39:00+10:00",
-                "id": "ESTA:210527170",
-                "location": "Kinglake West",
+                "created": "2021-05-30T09:50:44+10:00",
+                "updated": "2021-05-30T09:50:44+10:00",
+                "id": "ESTA:210527204",
+                "location": "Petworth Cl, Mernda",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -19511,45 +19510,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.25683227181923,
-                    -37.502401909127464
+                    145.09296740356348,
+                    -37.59915230268228
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2021-05-30T07:39:00+10:00",
-                "updated": "2021-05-30T08:14:00+10:00",
-                "id": "ESTA:210527116",
-                "location": "Kalimna West",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.91226155844473,
-                    -37.8184776200347
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Deanside",
+                "sourceTitle": "Ferris Rd",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2021-05-30T07:19:44+10:00",
-                "updated": "2021-05-30T07:19:44+10:00",
-                "id": "ESTA:210527104",
-                "location": "Deanside, Deanside",
+                "status": "not yet under control",
+                "created": "2021-05-30T09:30:04+10:00",
+                "updated": "2021-05-30T09:30:04+10:00",
+                "id": "ESTA:210527193",
+                "location": "Ferris Rd, Cobblebank",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -19557,54 +19533,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7084455036085,
-                    -37.72907266048252
+                    144.60330846356456,
+                    -37.70008143466031
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kororoit Creek Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2021-05-30T09:02:16+10:00",
-                "updated": "2021-05-30T09:02:16+10:00",
-                "id": "ESTA:210527158",
-                "location": "Kororoit Creek Rd, Williamstown",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.8865185152584,
-                    -37.859083241094105
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Arrowsmith St",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Howes Creek Rd",
+                "category": "rescue",
+                "subcategory": "aircraft",
                 "status": "safe",
-                "created": "2021-05-30T09:02:22+10:00",
-                "updated": "2021-05-30T09:02:22+10:00",
-                "id": "ESTA:210527072",
-                "location": "Arrowsmith St, Kalkallo",
+                "created": "2021-05-30T08:53:00+10:00",
+                "updated": "2021-05-30T08:56:00+10:00",
+                "id": "ESTA:210527192",
+                "location": "Howes Creek Rd, Mansfield",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9507311613406,
-                    -37.53694909846596
+                    146.0134966201104,
+                    -37.103731445458635
                 ]
             }
         },
