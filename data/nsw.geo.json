@@ -862,30 +862,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.114419461,
-                    -33.44372491799993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Marrangaroo HR",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416513",
-                "created": "2021-05-30T03:13:00+10:00",
-                "updated": "2021-05-30T13:13:00+10:00",
-                "location": "501 Great Western Highway, Marrangaroo",
-                "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 501 Great Western Highway, Marrangaroo <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 13:13",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.51853800000004,
                     -31.95067199999994
                 ]
@@ -908,10 +884,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.8626270300001,
-                    -33.74618129099997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.8626270300001,
+                            -33.74618129099997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.862131437,
+                                            -33.7460329909999
+                                        ],
+                                        [
+                                            150.863059427,
+                                            -33.746270936
+                                        ],
+                                        [
+                                            150.862500253,
+                                            -33.747662921
+                                        ],
+                                        [
+                                            150.862262307,
+                                            -33.747793792
+                                        ],
+                                        [
+                                            150.862286102,
+                                            -33.747377386
+                                        ],
+                                        [
+                                            150.861691236,
+                                            -33.7465088829999
+                                        ],
+                                        [
+                                            150.861786415,
+                                            -33.746378012
+                                        ],
+                                        [
+                                            150.861822107,
+                                            -33.746247142
+                                        ],
+                                        [
+                                            150.861976772,
+                                            -33.746247142
+                                        ],
+                                        [
+                                            150.862131437,
+                                            -33.7460329909999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -919,13 +952,37 @@
                 "sourceTitle": "Power St, Glendenning",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416704",
-                "created": "2021-05-30T06:04:00+10:00",
-                "updated": "2021-05-30T16:04:00+10:00",
+                "created": "2021-05-30T07:27:00+10:00",
+                "updated": "2021-05-30T17:27:00+10:00",
                 "location": "Power St, Glendenning, NSW 2761",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Power St, Glendenning, NSW 2761 <br />COUNCIL AREA: Blacktown <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 16:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Power St, Glendenning, NSW 2761 <br />COUNCIL AREA: Blacktown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 17:27",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.86304700000005,
+                    -37.14529399999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy, Kiah",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416718",
+                "created": "2021-05-30T07:41:00+10:00",
+                "updated": "2021-05-30T17:41:00+10:00",
+                "location": "Princes Hwy, Kiah, NSW 2551",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Princes Hwy, Kiah, NSW 2551 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 17:41",
                 "title": "incident: fire"
             }
         },
@@ -958,23 +1015,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.56145100000003,
-                    -34.84231499999993
+                    150.6264030000001,
+                    -33.80182999999994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Federal Hwy, Yarra",
-                "category": "other",
-                "subcategory": "mva/transport",
+                "sourceTitle": "Fern Glen Walking Trk, Blue Mountains National Par",
+                "category": "fire",
+                "subcategory": "other",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416707",
-                "created": "2021-05-30T06:08:00+10:00",
-                "updated": "2021-05-30T16:08:00+10:00",
-                "location": "Federal Hwy, Yarra,  2580",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416714",
+                "created": "2021-05-30T07:16:00+10:00",
+                "updated": "2021-05-30T17:16:00+10:00",
+                "location": "Fern Glen Walking Trk, Blue Mountains National Park, NSW 2790",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Federal Hwy, Yarra,  2580 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 16:08",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Fern Glen Walking Trk, Blue Mountains National Park, NSW 2790 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 17:16",
+                "title": "incident: fire"
             }
         },
         {
@@ -1030,6 +1087,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.00362500000006,
+                    -35.94320699999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hume Hwy, North Albury",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416712",
+                "created": "2021-05-30T07:14:00+10:00",
+                "updated": "2021-05-30T17:14:00+10:00",
+                "location": "Hume Hwy, North Albury, NSW 2640",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Hwy, North Albury, NSW 2640 <br />COUNCIL AREA: Albury <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 17:14",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     146.95123672500006,
                     -33.06737684099994
                 ]
@@ -1046,6 +1127,30 @@
                 "location": "Kiacatoo Rd, Condobolin, NSW 2877",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kiacatoo Rd, Condobolin, NSW 2877 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 10:24",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.00569700000005,
+                    -34.93745299999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Longrail Gully Rd, Murrumbateman",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416713",
+                "created": "2021-05-30T07:42:00+10:00",
+                "updated": "2021-05-30T17:42:00+10:00",
+                "location": "Longrail Gully Rd, Murrumbateman, NSW 2582",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Longrail Gully Rd, Murrumbateman, NSW 2582 <br />COUNCIL AREA: Yass Valley <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 17:42",
                 "title": "incident: fire"
             }
         },
@@ -1071,6 +1176,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2843 Newell Hwy, Grong Grong, NSW 2652 <br />COUNCIL AREA: Narrandera <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 10:42",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.39309599900002,
+                    -33.32923399999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Orchard Rd, Kangy Angy",
+                "category": "other",
+                "subcategory": "search/rescue",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416705",
+                "created": "2021-05-30T05:26:00+10:00",
+                "updated": "2021-05-30T15:26:00+10:00",
+                "location": "50 Orchard Rd, Kangy Angy, NSW 2258",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 50 Orchard Rd, Kangy Angy, NSW 2258 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Search/Rescue <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 15:26",
+                "title": "incident: other"
             }
         },
         {
@@ -1159,14 +1288,38 @@
                 "sourceTitle": "Sandilands St, Mallanganee",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416708",
-                "created": "2021-05-30T06:08:00+10:00",
-                "updated": "2021-05-30T16:08:00+10:00",
+                "created": "2021-05-30T06:28:00+10:00",
+                "updated": "2021-05-30T16:28:00+10:00",
                 "location": "Sandilands St, Mallanganee, NSW 2469",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sandilands St, Mallanganee, NSW 2469 <br />COUNCIL AREA: Kyogle <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 16:08",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sandilands St, Mallanganee, NSW 2469 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 16:28",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.08259700000008,
+                    -32.78426099999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Scott St, Anna Bay",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/416717",
+                "created": "2021-05-30T07:43:00+10:00",
+                "updated": "2021-05-30T17:43:00+10:00",
+                "location": "9 Scott St, Anna Bay, NSW 2316",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 9 Scott St, Anna Bay, NSW 2316 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 May 2021 17:43",
+                "title": "incident: other"
             }
         }
     ]
