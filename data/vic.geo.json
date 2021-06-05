@@ -651,14 +651,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Frankston-Flinders Rd",
+                "sourceTitle": "Jan Juc",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2021-06-05T12:21:36+10:00",
+                "updated": "2021-06-05T12:21:36+10:00",
+                "id": "ESTA:210604202",
+                "location": "Jan Juc, Jan Juc",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.29874403164862,
+                    -38.33812899633983
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "washaway",
-                "status": "safe",
-                "created": "2021-06-05T09:40:00+10:00",
-                "updated": "2021-06-05T09:48:00+10:00",
-                "id": "ESTA:210603869",
-                "location": "Frankston-Flinders Rd, Tyabb",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2021-06-05T12:16:00+10:00",
+                "updated": "2021-06-05T12:18:00+10:00",
+                "id": "ESTA:210604214",
+                "location": "Dimboola",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -666,8 +689,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1898684690054,
-                    -38.271132856144405
+                    142.0232787190008,
+                    -36.449428052002496
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kenilworth Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-06-05T12:16:40+10:00",
+                "updated": "2021-06-05T12:16:40+10:00",
+                "id": "ESTA:210604194",
+                "location": "Kenilworth Av, Beaconsfield",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.36605800101853,
+                    -38.050833636477094
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Burnt Store Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2021-06-05T12:07:00+10:00",
+                "updated": "2021-06-05T12:07:00+10:00",
+                "id": "ESTA:210604197",
+                "location": "Burnt Store Rd, Drouin South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.84961925704255,
+                    -38.201485265740764
                 ]
             }
         },
@@ -679,10 +748,10 @@
                 "category": "met",
                 "subcategory": "gale wind",
                 "status": "warning",
-                "created": "2021-06-05T05:00:00+10:00",
+                "created": "2021-06-05T12:00:00+10:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/7fdd3a8523c732bc4efd44423c3ec4c4",
-                "location": "West Coast",
+                "id": "IDV20600/cb28a353cd1e198e7d5daf7b356dff7e",
+                "location": "West Coast and Central Coast",
                 "title": "incident: met"
             },
             "geometry": {
@@ -919,34 +988,6 @@
                             ]
                         ]
                     },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            142.23862991200008,
-                            -38.79615925999997
-                        ],
-                        "name": "West Coast"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Strong Wind Warning",
-                "category": "met",
-                "subcategory": "strong wind",
-                "status": "warning",
-                "created": "2021-06-05T05:00:00+10:00",
-                "updated": "Invalid date",
-                "id": "IDV20600/1071dc1d5a48ca3cffb8e91092eabdc1",
-                "location": "Port Phillip, Western Port, Central Coast, Central Gippsland Coast and East Gippsland Coast",
-                "title": "incident: met"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
                     {
                         "type": "Polygon",
                         "coordinates": [
@@ -1302,6 +1343,42 @@
                             ]
                         ]
                     },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            142.23862991200008,
+                            -38.79615925999997
+                        ],
+                        "name": "West Coast"
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.94338504700005,
+                            -38.96782901249995
+                        ],
+                        "name": "Central Coast"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Strong Wind Warning",
+                "category": "met",
+                "subcategory": "strong wind",
+                "status": "warning",
+                "created": "2021-06-05T12:00:00+10:00",
+                "updated": "Invalid date",
+                "id": "IDV20600/080c7c8349f78d35ddf42b96376477d6",
+                "location": "Port Phillip, Western Port, Central Gippsland Coast and East Gippsland Coast",
+                "title": "incident: met"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
                     {
                         "type": "Polygon",
                         "coordinates": [
@@ -2589,14 +2666,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            144.94338504700005,
-                            -38.96782901249995
-                        ],
-                        "name": "Central Coast"
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             147.09181622350008,
                             -38.802163810499934
                         ],
@@ -2635,10 +2704,10 @@
                 "sourceTitle": "Milthorpe St, Oaklands",
                 "category": "fire",
                 "subcategory": "other non-urgent alerts",
-                "status": "being controlled",
-                "created": "2021-06-05T09:05:00+10:00",
-                "updated": "2021-06-05T09:05:00+10:00",
-                "id": "2021-06-05T09:05:00.0000000:417078",
+                "status": "under control",
+                "created": "2021-06-05T11:44:00+10:00",
+                "updated": "2021-06-05T11:44:00+10:00",
+                "id": "2021-06-05T11:44:00.0000000:417078",
                 "location": "Milthorpe St, Oaklands, Nsw 2646",
                 "title": "incident: fire"
             },
@@ -3576,112 +3645,6 @@
                         [
                             142.3505,
                             -36.126
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Mallee 39 - Koorlong - Twenty Second Street",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "Invalid date",
-                "updated": "Invalid date",
-                "id": "ee12807217150f01cd9830c8a0463eed",
-                "location": "Mallee 39 - Koorlong - Twenty Second Street",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.0548,
-                            -34.2727
-                        ],
-                        [
-                            142.0541,
-                            -34.2727
-                        ],
-                        [
-                            142.054,
-                            -34.2725
-                        ],
-                        [
-                            142.0542,
-                            -34.2724
-                        ],
-                        [
-                            142.0545,
-                            -34.2726
-                        ],
-                        [
-                            142.0549,
-                            -34.2723
-                        ],
-                        [
-                            142.0547,
-                            -34.2723
-                        ],
-                        [
-                            142.0546,
-                            -34.2718
-                        ],
-                        [
-                            142.0547,
-                            -34.2719
-                        ],
-                        [
-                            142.0551,
-                            -34.2716
-                        ],
-                        [
-                            142.0553,
-                            -34.2717
-                        ],
-                        [
-                            142.055,
-                            -34.2719
-                        ],
-                        [
-                            142.0552,
-                            -34.2721
-                        ],
-                        [
-                            142.0555,
-                            -34.2717
-                        ],
-                        [
-                            142.0554,
-                            -34.2715
-                        ],
-                        [
-                            142.0556,
-                            -34.2716
-                        ],
-                        [
-                            142.0556,
-                            -34.2719
-                        ],
-                        [
-                            142.0555,
-                            -34.272
-                        ],
-                        [
-                            142.0555,
-                            -34.2722
-                        ],
-                        [
-                            142.0553,
-                            -34.2726
-                        ],
-                        [
-                            142.0548,
-                            -34.2727
                         ]
                     ]
                 ]
@@ -16641,6 +16604,112 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Mallee 39 - Koorlong - Twenty Second Street",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "Invalid date",
+                "updated": "Invalid date",
+                "id": "ee12807217150f01cd9830c8a0463eed",
+                "location": "Mallee 39 - Koorlong - Twenty Second Street",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.0548,
+                            -34.2727
+                        ],
+                        [
+                            142.0541,
+                            -34.2727
+                        ],
+                        [
+                            142.054,
+                            -34.2725
+                        ],
+                        [
+                            142.0542,
+                            -34.2724
+                        ],
+                        [
+                            142.0545,
+                            -34.2726
+                        ],
+                        [
+                            142.0549,
+                            -34.2723
+                        ],
+                        [
+                            142.0547,
+                            -34.2723
+                        ],
+                        [
+                            142.0546,
+                            -34.2718
+                        ],
+                        [
+                            142.0547,
+                            -34.2719
+                        ],
+                        [
+                            142.0551,
+                            -34.2716
+                        ],
+                        [
+                            142.0553,
+                            -34.2717
+                        ],
+                        [
+                            142.055,
+                            -34.2719
+                        ],
+                        [
+                            142.0552,
+                            -34.2721
+                        ],
+                        [
+                            142.0555,
+                            -34.2717
+                        ],
+                        [
+                            142.0554,
+                            -34.2715
+                        ],
+                        [
+                            142.0556,
+                            -34.2716
+                        ],
+                        [
+                            142.0556,
+                            -34.2719
+                        ],
+                        [
+                            142.0555,
+                            -34.272
+                        ],
+                        [
+                            142.0555,
+                            -34.2722
+                        ],
+                        [
+                            142.0553,
+                            -34.2726
+                        ],
+                        [
+                            142.0548,
+                            -34.2727
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Ovens 12 - Harrietville - Stony Creek Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -20768,60 +20837,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Frankston-Flinders Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2021-06-05T09:32:00+10:00",
-                "updated": "2021-06-05T09:55:00+10:00",
-                "id": "ESTA:210603859",
-                "location": "Frankston-Flinders Rd, Tyabb",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1895670285652,
-                    -38.274525510532214
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South Gippsland Hwy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2021-06-05T09:19:00+10:00",
-                "updated": "2021-06-05T09:40:00+10:00",
-                "id": "ESTA:210603835",
-                "location": "South Gippsland Hwy, Koo Wee Rup",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.42828577186887,
-                    -38.21210936542428
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Williams Rd",
+                "sourceTitle": "Brice Av",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2021-06-05T09:37:00+10:00",
-                "updated": "2021-06-05T09:37:00+10:00",
-                "id": "ESTA:210603865",
-                "location": "Williams Rd, Point Cook",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2021-06-05T12:21:36+10:00",
+                "updated": "2021-06-05T12:21:36+10:00",
+                "id": "ESTA:210604203",
+                "location": "Brice Av, Mooroolbark",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -20829,31 +20852,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74947915805205,
-                    -37.923260376498
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2021-06-05T08:40:00+10:00",
-                "updated": "2021-06-05T09:36:00+10:00",
-                "id": "ESTA:210603766",
-                "location": "Colac",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.58981818872584,
-                    -38.34200667679752
+                    145.3167622346147,
+                    -37.78596280643524
                 ]
             }
         },
@@ -20863,9 +20863,9 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "under control",
+                "status": "safe",
                 "created": "2021-06-05T08:40:00+10:00",
-                "updated": "2021-06-05T08:58:00+10:00",
+                "updated": "2021-06-05T11:53:00+10:00",
                 "id": "ESTA:210603765",
                 "location": "Bairnsdale",
                 "size": "Small",
@@ -20877,6 +20877,74 @@
                 "coordinates": [
                     147.60530215279692,
                     -37.84753021700858
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2021-06-05T11:44:00+10:00",
+                "updated": "2021-06-05T11:50:00+10:00",
+                "id": "ESTA:210604165",
+                "location": "Yackandandah",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.8035810219056,
+                    -36.27553583424625
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-06-05T11:42:00+10:00",
+                "updated": "2021-06-05T11:42:00+10:00",
+                "id": "ESTA:210604161",
+                "location": "Yackandandah",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.8035810219056,
+                    -36.27553583424625
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "other",
+                "subcategory": "other",
+                "status": "request for assistance",
+                "created": "2021-06-05T12:18:00+10:00",
+                "updated": "2021-06-05T12:20:00+10:00",
+                "id": "ESTA:210650097",
+                "location": "Dimboola",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.0232787190008,
+                    -36.449428052002496
                 ]
             }
         }
