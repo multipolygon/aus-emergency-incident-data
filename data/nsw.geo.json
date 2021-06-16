@@ -100,10 +100,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.79051590000006,
-                    -33.895497226999964
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.79051590000006,
+                            -33.895497226999964
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.797135011,
+                                            -33.892686738
+                                        ],
+                                        [
+                                            149.794850728,
+                                            -33.900205835
+                                        ],
+                                        [
+                                            149.791852608,
+                                            -33.902823242
+                                        ],
+                                        [
+                                            149.788021675,
+                                            -33.9019190459999
+                                        ],
+                                        [
+                                            149.787593373,
+                                            -33.90208561
+                                        ],
+                                        [
+                                            149.786593999,
+                                            -33.902061815
+                                        ],
+                                        [
+                                            149.785356679,
+                                            -33.902680475
+                                        ],
+                                        [
+                                            149.784761814,
+                                            -33.9024901179999
+                                        ],
+                                        [
+                                            149.787069891,
+                                            -33.890307277
+                                        ],
+                                        [
+                                            149.791495689,
+                                            -33.8906641959999
+                                        ],
+                                        [
+                                            149.797396752,
+                                            -33.8916397749999
+                                        ],
+                                        [
+                                            149.797372957,
+                                            -33.8916397749999
+                                        ],
+                                        [
+                                            149.797135011,
+                                            -33.892686738
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -119,78 +188,6 @@
                 "size": 108,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Wombat Forest Road, Vulcan State Forest <br />COUNCIL AREA: Oberon <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 108 ha <br />RESPONSIBLE AGENCY: Forest Corporation of NSW <br />UPDATED: 16 Jun 2021 08:51",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.99429130500005,
-                    -33.69602113999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "11 Old Glenhaven Rd, Glenhaven",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/417789",
-                "created": "2021-06-16T00:02:00+10:00",
-                "updated": "2021-06-16T10:02:00+10:00",
-                "location": "11 Old Glenhaven Rd, Glenhaven",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 11 Old Glenhaven Rd, Glenhaven <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jun 2021 10:02",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.28457069400008,
-                    -33.62391047899996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Boat Fire",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/417743",
-                "created": "2021-06-14T22:42:00+10:00",
-                "updated": "2021-06-15T08:42:00+10:00",
-                "location": "Morning bay",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Morning bay <br />COUNCIL AREA: Northern Beaches <br />STATUS: Being controlled <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jun 2021 08:42",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.30922579800006,
-                    -34.94545542199995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "COOLAMON RD, DOWNSIDE ",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/417790",
-                "created": "2021-06-16T00:17:00+10:00",
-                "updated": "2021-06-16T10:17:00+10:00",
-                "location": "COOLAMON ROAD, WILLIS ROAD DOWNSIDE",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: COOLAMON ROAD, WILLIS ROAD DOWNSIDE <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 16 Jun 2021 10:17",
-                "title": "incident: other"
             }
         },
         {
@@ -215,6 +212,54 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 75 townson rd Schofields <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jun 2021 10:28",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.29397300000005,
+                    -33.64300799999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Florence Tce, Scotland Island",
+                "category": "other",
+                "subcategory": "medical",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/417799",
+                "created": "2021-06-16T01:28:00+10:00",
+                "updated": "2021-06-16T11:28:00+10:00",
+                "location": "125 Florence Tce, Scotland Island, NSW 2105",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 125 Florence Tce, Scotland Island, NSW 2105 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jun 2021 11:28",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.6277940000001,
+                    -35.979810999999984
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hawkins St, Howlong",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/417796",
+                "created": "2021-06-16T01:03:00+10:00",
+                "updated": "2021-06-16T11:03:00+10:00",
+                "location": "Hawkins St, Howlong, NSW 2643",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hawkins St, Howlong, NSW 2643 <br />COUNCIL AREA: Federation <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jun 2021 11:03",
+                "title": "incident: other"
             }
         },
         {
@@ -342,6 +387,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.27633300000002,
+                    -31.891969999999958
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nowendoc Rd, Killawarra",
+                "category": "other",
+                "subcategory": "medical",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/417795",
+                "created": "2021-06-16T01:09:00+10:00",
+                "updated": "2021-06-16T11:09:00+10:00",
+                "location": "434 Nowendoc Rd, Killawarra, NSW 2429",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 434 Nowendoc Rd, Killawarra, NSW 2429 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jun 2021 11:09",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.48219900000004,
                     -28.89103799999998
                 ]
@@ -359,6 +428,54 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy (Southbound), Pimlico, NSW 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jun 2021 17:53",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.5330510000001,
+                    -31.899602998999967
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, Cundletown",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/417797",
+                "created": "2021-06-16T00:50:00+10:00",
+                "updated": "2021-06-16T10:50:00+10:00",
+                "location": "Pacific Hwy, Cundletown, NSW 2430",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Cundletown, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jun 2021 10:50",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.15385200000003,
+                    -35.76258399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy, Mogo",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/417794",
+                "created": "2021-06-16T00:32:00+10:00",
+                "updated": "2021-06-16T10:32:00+10:00",
+                "location": "Princes Hwy, Mogo, NSW 2536",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Princes Hwy, Mogo, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jun 2021 10:32",
+                "title": "incident: other"
             }
         },
         {
