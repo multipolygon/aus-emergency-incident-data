@@ -28,10 +28,95 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.54396700900008,
-                    -28.332195834999936
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.54396700900008,
+                            -28.332195834999936
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.543858313,
+                                            -28.331335714
+                                        ],
+                                        [
+                                            153.543929696,
+                                            -28.331288124
+                                        ],
+                                        [
+                                            153.544096258,
+                                            -28.331371406
+                                        ],
+                                        [
+                                            153.544334205,
+                                            -28.3313952
+                                        ],
+                                        [
+                                            153.54457215,
+                                            -28.331859196
+                                        ],
+                                        [
+                                            153.544762507,
+                                            -28.3319662719999
+                                        ],
+                                        [
+                                            153.544607843,
+                                            -28.332120936
+                                        ],
+                                        [
+                                            153.544274718,
+                                            -28.33201386
+                                        ],
+                                        [
+                                            153.544215231,
+                                            -28.332620623
+                                        ],
+                                        [
+                                            153.543953491,
+                                            -28.332703904
+                                        ],
+                                        [
+                                            153.543953491,
+                                            -28.33276339
+                                        ],
+                                        [
+                                            153.543917799,
+                                            -28.3326920069999
+                                        ],
+                                        [
+                                            153.544036772,
+                                            -28.332489752
+                                        ],
+                                        [
+                                            153.544072464,
+                                            -28.331871092
+                                        ],
+                                        [
+                                            153.543977285,
+                                            -28.331728325
+                                        ],
+                                        [
+                                            153.543810723,
+                                            -28.331478482
+                                        ],
+                                        [
+                                            153.543858313,
+                                            -28.331335714
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -41,11 +126,35 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/418108",
-                "created": "2021-06-21T00:48:00+10:00",
-                "updated": "2021-06-21T10:48:00+10:00",
+                "created": "2021-06-21T02:09:00+10:00",
+                "updated": "2021-06-21T12:09:00+10:00",
                 "location": "Clothiers Creek Rd, Tanglewood, NSW 2488",
-                "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Clothiers Creek Rd, Tanglewood, NSW 2488 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 10:48",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Clothiers Creek Rd, Tanglewood, NSW 2488 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 12:09",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.6950051780001,
+                    -35.72697862999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Currango Pile Burn HR",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/418105",
+                "created": "2021-06-21T02:01:00+10:00",
+                "updated": "2021-06-21T12:01:00+10:00",
+                "location": "Currango Homestead",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Currango Homestead <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 21 Jun 2021 12:01",
                 "title": "incident: fire"
             }
         },
@@ -155,30 +264,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.82820892300003,
-                    -32.05628144199994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "60 Round Bales",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/417878",
-                "created": "2021-06-21T01:50:00+10:00",
-                "updated": "2021-06-21T11:50:00+10:00",
-                "location": "360 Cliftlands Rd Scone",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 360 Cliftlands Rd Scone <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 11:50",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.36039700000003,
                     -33.37069699899996
                 ]
@@ -188,13 +273,13 @@
                 "sourceTitle": "Alan St, Niagara Park",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/418113",
-                "created": "2021-06-21T01:46:00+10:00",
-                "updated": "2021-06-21T11:46:00+10:00",
+                "created": "2021-06-21T02:00:00+10:00",
+                "updated": "2021-06-21T12:00:00+10:00",
                 "location": "114 Alan St, Niagara Park, NSW 2250",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 114 Alan St, Niagara Park, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 11:46",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 114 Alan St, Niagara Park, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 12:00",
                 "title": "incident: other"
             }
         },
@@ -260,13 +345,13 @@
                 "sourceTitle": "Gainsborough Rd, Narromine",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/418109",
-                "created": "2021-06-21T01:46:00+10:00",
-                "updated": "2021-06-21T11:46:00+10:00",
+                "created": "2021-06-21T02:25:00+10:00",
+                "updated": "2021-06-21T12:25:00+10:00",
                 "location": "156 Gainsborough Rd, Narromine, NSW 2821",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 156 Gainsborough Rd, Narromine, NSW 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 11:46",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 156 Gainsborough Rd, Narromine, NSW 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 12:25",
                 "title": "incident: fire"
             }
         },
@@ -292,6 +377,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 19 Main St, Bellbrook, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 09:02",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.57089500000006,
+                    -33.54434699999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nangar Rd, Canowindra",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/418115",
+                "created": "2021-06-21T02:04:00+10:00",
+                "updated": "2021-06-21T12:04:00+10:00",
+                "location": "Nangar Rd, Canowindra, NSW 2804",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Nangar Rd, Canowindra, NSW 2804 <br />COUNCIL AREA: Cabonne <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 12:04",
+                "title": "incident: other"
             }
         },
         {
@@ -339,6 +448,30 @@
                 "location": "2293 Pindari Dam Rd, Pindaroi, NSW 2361",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2293 Pindari Dam Rd, Pindaroi, NSW 2361 <br />COUNCIL AREA: Inverell <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 21 Jun 2021 11:10",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.74040600000012,
+                    -29.524242999999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rangers Valley Rd, Rangers Valley",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/418114",
+                "created": "2021-06-21T02:04:00+10:00",
+                "updated": "2021-06-21T12:04:00+10:00",
+                "location": "1259 Rangers Valley Rd, Rangers Valley,  2370",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1259 Rangers Valley Rd, Rangers Valley,  2370 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2021 12:04",
                 "title": "incident: other"
             }
         },
