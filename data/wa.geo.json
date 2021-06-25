@@ -141,10 +141,10 @@
                 "sourceTitle": "ALKIMOS",
                 "category": "active alarm",
                 "subcategory": "active alarm",
-                "status": "responding",
+                "status": "on scene",
                 "id": "2147844-531203",
                 "created": "2021-06-26T07:36:57+08:00",
-                "updated": "2021-06-26T07:37:14+08:00",
+                "updated": "2021-06-26T07:45:39+08:00",
                 "location": "ALKIMOS",
                 "size": "",
                 "description": "Active Alarm",
@@ -269,7 +269,7 @@
                 "status": "responding",
                 "id": "2147845-531204",
                 "created": "2021-06-26T07:39:05+08:00",
-                "updated": "2021-06-26T07:39:05+08:00",
+                "updated": "2021-06-26T07:39:24+08:00",
                 "location": "SALTER POINT",
                 "size": "",
                 "description": "Active Alarm",
@@ -307,6 +307,56 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    115.87409,
+                    -31.94379
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "HIGHGATE",
+                "category": "active alarm",
+                "subcategory": "active alarm",
+                "status": "monitoring",
+                "id": "2147847-531206",
+                "created": "2021-06-26T07:44:18+08:00",
+                "updated": "2021-06-26T07:49:23+08:00",
+                "location": "HIGHGATE",
+                "size": "",
+                "description": "Active Alarm",
+                "title": "incident: active alarm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.653435,
+                    -32.690445
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BOUVARD",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "active",
+                "id": "2147846-531205",
+                "created": "2021-06-26T07:40:41+08:00",
+                "updated": "2021-06-26T07:40:41+08:00",
+                "location": "BOUVARD",
+                "size": "",
+                "description": "Burn Off",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     114.619484,
                     -28.667076
                 ]
@@ -324,31 +374,6 @@
                 "size": "",
                 "description": "Vehicle Fire",
                 "title": "incident: vehicle fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.84128,
-                    -31.912441
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "JOONDANNA",
-                "category": "active alarm",
-                "subcategory": "active alarm",
-                "status": "on scene",
-                "id": "2147841-531200",
-                "created": "2021-06-26T07:22:14+08:00",
-                "updated": "2021-06-26T07:30:16+08:00",
-                "location": "JOONDANNA",
-                "size": "",
-                "description": "Active Alarm",
-                "title": "incident: active alarm"
             }
         }
     ]
