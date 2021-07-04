@@ -513,35 +513,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2021-07-04T19:22:00+10:00",
-                "updated": "2021-07-04T20:57:00+10:00",
-                "id": "ESTA:210702328",
-                "location": "Mooroopna North",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33520734002101,
-                    -36.34702288961033
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Vincent Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "not yet under control",
-                "created": "2021-07-04T21:22:26+10:00",
-                "updated": "2021-07-04T21:22:26+10:00",
+                "status": "safe",
+                "created": "2021-07-04T21:36:08+10:00",
+                "updated": "2021-07-04T21:36:08+10:00",
                 "id": "ESTA:210702355",
                 "location": "Vincent Rd, Wangaratta",
                 "size": "Small",
@@ -559,12 +536,80 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Derby St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2021-07-04T21:38:26+10:00",
+                "updated": "2021-07-04T21:38:26+10:00",
+                "id": "ESTA:210702359",
+                "location": "Derby St, Kew",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03759784586504,
+                    -37.80178244954755
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cape Nelson Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2021-07-04T21:46:10+10:00",
+                "updated": "2021-07-04T21:46:10+10:00",
+                "id": "ESTA:210702360",
+                "location": "Cape Nelson Rd, Portland",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.60571582354734,
+                    -38.35940487230515
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2021-07-04T21:44:00+10:00",
+                "updated": "2021-07-04T21:46:00+10:00",
+                "id": "ESTA:210750250",
+                "location": "Goughs Bay",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.07756472330476,
+                    -37.16401840424775
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Kilby Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2021-07-04T21:28:48+10:00",
-                "updated": "2021-07-04T21:28:48+10:00",
+                "created": "2021-07-04T21:47:11+10:00",
+                "updated": "2021-07-04T21:47:11+10:00",
                 "id": "ESTA:210702357",
                 "location": "Kilby Rd, Kew East",
                 "size": "Small",
@@ -576,51 +621,6 @@
                 "coordinates": [
                     145.0467781758166,
                     -37.79174196037752
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Arlington Park Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2021-07-04T21:17:01+10:00",
-                "updated": "2021-07-04T21:17:01+10:00",
-                "id": "ESTA:210702346",
-                "location": "Arlington Park Av, Wangaratta",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.29247957554608,
-                    -36.3393250178719
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sunshine North",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2021-07-04T21:31:37+10:00",
-                "updated": "2021-07-04T21:34:01+10:00",
-                "id": "ESTA:210702358",
-                "location": "Ballarat Rd, Sunshine North",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.84302512345192,
-                    -37.7783576317459
                 ]
             }
         },
@@ -2064,10 +2064,10 @@
                 "sourceTitle": "Tumbarumba Rd, Rosewood",
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
-                "status": "out of control",
-                "created": "2021-07-04T17:34:00+10:00",
-                "updated": "2021-07-04T17:34:00+10:00",
-                "id": "2021-07-04T17:34:00.0000000:418904",
+                "status": "under control",
+                "created": "2021-07-04T21:31:00+10:00",
+                "updated": "2021-07-04T21:31:00+10:00",
+                "id": "2021-07-04T21:31:00.0000000:418904",
                 "location": "1670 Tumbarumba Rd, Rosewood, Nsw 2652",
                 "title": "incident: other"
             },
@@ -17875,75 +17875,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Commercial Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-07-04T20:10:00+10:00",
-                "updated": "2021-07-04T20:57:00+10:00",
-                "id": "ESTA:210702336",
-                "location": "Commercial Rd, Ferntree Gully",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.27774330575093,
-                    -37.87915402577598
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ballan Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-07-04T20:24:00+10:00",
-                "updated": "2021-07-04T20:39:00+10:00",
-                "id": "ESTA:210702342",
-                "location": "Ballan Rd, Werribee",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.64318715988023,
-                    -37.898578648395514
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Channel St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2021-07-04T20:23:00+10:00",
-                "updated": "2021-07-04T20:33:00+10:00",
-                "id": "ESTA:210702341",
-                "location": "Channel St, Cohuna",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.21552710680638,
-                    -35.80588465294277
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Valencia Av",
                 "category": "fire",
                 "subcategory": "other",
@@ -17967,14 +17898,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Albion St",
+                "sourceTitle": "Arlington Park Av",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2021-07-04T21:10:20+10:00",
-                "updated": "2021-07-04T21:10:20+10:00",
-                "id": "ESTA:210702338",
-                "location": "Albion St, Brunswick",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2021-07-04T20:32:00+10:00",
+                "updated": "2021-07-04T21:07:00+10:00",
+                "id": "ESTA:210702346",
+                "location": "Arlington Park Av, Wangaratta",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -17982,22 +17913,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96022101192654,
-                    -37.76036201204982
+                    146.29247204697995,
+                    -36.33932556923023
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Maltravers Rd",
+                "sourceTitle": "Commercial Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2021-07-04T21:15:52+10:00",
-                "updated": "2021-07-04T21:15:52+10:00",
-                "id": "ESTA:210702352",
-                "location": "Maltravers Rd, Ivanhoe",
+                "status": "safe",
+                "created": "2021-07-04T20:10:00+10:00",
+                "updated": "2021-07-04T20:57:00+10:00",
+                "id": "ESTA:210702336",
+                "location": "Commercial Rd, Ferntree Gully",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -18005,8 +17936,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.05173526322685,
-                    -37.768475664913524
+                    145.27774330575093,
+                    -37.87915402577598
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2021-07-04T19:22:00+10:00",
+                "updated": "2021-07-04T20:57:00+10:00",
+                "id": "ESTA:210702328",
+                "location": "Mooroopna North",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.33520734002101,
+                    -36.34702288961033
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Channel St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-07-04T20:23:00+10:00",
+                "updated": "2021-07-04T20:33:00+10:00",
+                "id": "ESTA:210702341",
+                "location": "Channel St, Cohuna",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.21552710680638,
+                    -35.80588465294277
                 ]
             }
         },
