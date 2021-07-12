@@ -516,9 +516,9 @@
                 "sourceTitle": "Pope St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2021-07-12T20:11:22+10:00",
-                "updated": "2021-07-12T20:11:22+10:00",
+                "status": "under control",
+                "created": "2021-07-12T20:23:50+10:00",
+                "updated": "2021-07-12T20:23:50+10:00",
                 "id": "ESTA:210708507",
                 "location": "Pope St, Bannockburn",
                 "size": "Small",
@@ -530,6 +530,50 @@
                 "coordinates": [
                     144.16805004470854,
                     -38.047713691150804
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tallarook",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2021-07-11T22:58:05+10:00",
+                "updated": "2021-07-12T20:29:43+10:00",
+                "id": "ESTA:210707955",
+                "location": "Tallarook-Pyalong Rd, Tallarook",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.07313581385264,
+                    -37.09408364604813
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Carrum Downs",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "responding",
+                "created": "2021-07-12T20:29:09+10:00",
+                "updated": "2021-07-12T20:30:46+10:00",
+                "id": "ESTA:210750497",
+                "location": "Frankston-Dandenong Rd, Carrum Downs",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1687504188571,
+                    -38.104847419162176
                 ]
             }
         },
@@ -2080,112 +2124,6 @@
                         [
                             142.3505,
                             -36.126
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Mallee 39 - Koorlong - Twenty Second Street",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "Invalid date",
-                "updated": "Invalid date",
-                "id": "ee12807217150f01cd9830c8a0463eed",
-                "location": "Mallee 39 - Koorlong - Twenty Second Street",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.0548,
-                            -34.2727
-                        ],
-                        [
-                            142.0541,
-                            -34.2727
-                        ],
-                        [
-                            142.054,
-                            -34.2725
-                        ],
-                        [
-                            142.0542,
-                            -34.2724
-                        ],
-                        [
-                            142.0545,
-                            -34.2726
-                        ],
-                        [
-                            142.0549,
-                            -34.2723
-                        ],
-                        [
-                            142.0547,
-                            -34.2723
-                        ],
-                        [
-                            142.0546,
-                            -34.2718
-                        ],
-                        [
-                            142.0547,
-                            -34.2719
-                        ],
-                        [
-                            142.0551,
-                            -34.2716
-                        ],
-                        [
-                            142.0553,
-                            -34.2717
-                        ],
-                        [
-                            142.055,
-                            -34.2719
-                        ],
-                        [
-                            142.0552,
-                            -34.2721
-                        ],
-                        [
-                            142.0555,
-                            -34.2717
-                        ],
-                        [
-                            142.0554,
-                            -34.2715
-                        ],
-                        [
-                            142.0556,
-                            -34.2716
-                        ],
-                        [
-                            142.0556,
-                            -34.2719
-                        ],
-                        [
-                            142.0555,
-                            -34.272
-                        ],
-                        [
-                            142.0555,
-                            -34.2722
-                        ],
-                        [
-                            142.0553,
-                            -34.2726
-                        ],
-                        [
-                            142.0548,
-                            -34.2727
                         ]
                     ]
                 ]
@@ -12691,6 +12629,112 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Mallee 39 - Koorlong - Twenty Second Street",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "Invalid date",
+                "updated": "Invalid date",
+                "id": "ee12807217150f01cd9830c8a0463eed",
+                "location": "Mallee 39 - Koorlong - Twenty Second Street",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.0548,
+                            -34.2727
+                        ],
+                        [
+                            142.0541,
+                            -34.2727
+                        ],
+                        [
+                            142.054,
+                            -34.2725
+                        ],
+                        [
+                            142.0542,
+                            -34.2724
+                        ],
+                        [
+                            142.0545,
+                            -34.2726
+                        ],
+                        [
+                            142.0549,
+                            -34.2723
+                        ],
+                        [
+                            142.0547,
+                            -34.2723
+                        ],
+                        [
+                            142.0546,
+                            -34.2718
+                        ],
+                        [
+                            142.0547,
+                            -34.2719
+                        ],
+                        [
+                            142.0551,
+                            -34.2716
+                        ],
+                        [
+                            142.0553,
+                            -34.2717
+                        ],
+                        [
+                            142.055,
+                            -34.2719
+                        ],
+                        [
+                            142.0552,
+                            -34.2721
+                        ],
+                        [
+                            142.0555,
+                            -34.2717
+                        ],
+                        [
+                            142.0554,
+                            -34.2715
+                        ],
+                        [
+                            142.0556,
+                            -34.2716
+                        ],
+                        [
+                            142.0556,
+                            -34.2719
+                        ],
+                        [
+                            142.0555,
+                            -34.272
+                        ],
+                        [
+                            142.0555,
+                            -34.2722
+                        ],
+                        [
+                            142.0553,
+                            -34.2726
+                        ],
+                        [
+                            142.0548,
+                            -34.2727
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Ovens 12 - Harrietville - Stony Creek Rd",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -16818,6 +16862,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Pope St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2021-07-12T20:16:00+10:00",
+                "updated": "2021-07-12T20:16:00+10:00",
+                "id": "ESTA:210708509",
+                "location": "Pope St, Bannockburn",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.16803861140332,
+                    -38.04771599915029
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Queensferry Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -16841,104 +16908,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gibsons Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2021-07-12T19:15:00+10:00",
-                "updated": "2021-07-12T19:26:00+10:00",
-                "id": "ESTA:210708497",
-                "location": "Gibsons Rd, Sale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.08545116852207,
-                    -38.09202579175787
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rosatos Rd",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2021-07-12T19:50:04+10:00",
-                "updated": "2021-07-12T19:50:04+10:00",
-                "id": "ESTA:210708495",
-                "location": "Rosatos Rd, Moe South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.26177942589462,
-                    -38.224273467083044
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rosenthal Cr",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2021-07-12T19:45:46+10:00",
-                "updated": "2021-07-12T19:45:46+10:00",
-                "id": "ESTA:210708498",
-                "location": "Rosenthal Cr, Reservoir",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.00638456346235,
-                    -37.70066587823855
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Clayton Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-07-12T20:08:21+10:00",
-                "updated": "2021-07-12T20:08:21+10:00",
-                "id": "ESTA:210708501",
-                "location": "Clayton Rd, Clayton South",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1172951853273,
-                    -37.93654518398683
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2021-07-12T19:54:00+10:00",
-                "updated": "2021-07-12T20:02:00+10:00",
+                "updated": "2021-07-12T20:13:00+10:00",
                 "id": "ESTA:210750496",
                 "location": "Smythesdale",
                 "title": "incident: tree down"
