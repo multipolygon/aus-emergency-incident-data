@@ -318,10 +318,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.04452896100008,
-                    -30.297758961999932
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.04452896100008,
+                            -30.297758961999932
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.042062847,
+                                            -30.297580018
+                                        ],
+                                        [
+                                            153.04275289,
+                                            -30.297080331
+                                        ],
+                                        [
+                                            153.043942621,
+                                            -30.296652029
+                                        ],
+                                        [
+                                            153.04465646,
+                                            -30.296771001
+                                        ],
+                                        [
+                                            153.044989584,
+                                            -30.297151715
+                                        ],
+                                        [
+                                            153.044585075,
+                                            -30.2976751969999
+                                        ],
+                                        [
+                                            153.043680881,
+                                            -30.2981986779999
+                                        ],
+                                        [
+                                            153.04244356,
+                                            -30.298436624
+                                        ],
+                                        [
+                                            153.041848695,
+                                            -30.298032115
+                                        ],
+                                        [
+                                            153.042062847,
+                                            -30.297580018
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -331,11 +388,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421805",
-                "created": "2021-08-01T10:11:00+10:00",
-                "updated": "2021-08-01T20:11:00+10:00",
+                "created": "2021-08-01T10:43:00+10:00",
+                "updated": "2021-08-01T20:43:00+10:00",
                 "location": "McCanns Rd, Karangi, NSW 2450",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: McCanns Rd, Karangi, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Aug 2021 20:11",
+                "size": 4,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: McCanns Rd, Karangi, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Aug 2021 20:43",
                 "title": "incident: fire"
             }
         },
@@ -521,13 +578,13 @@
                 "sourceTitle": "Thungutti Road, Bellbrook ",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421808",
-                "created": "2021-08-01T09:09:00+10:00",
-                "updated": "2021-08-01T19:09:00+10:00",
+                "created": "2021-08-01T10:46:00+10:00",
+                "updated": "2021-08-01T20:46:00+10:00",
                 "location": "Thungutti Road, Bellbrook",
                 "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Thungutti Road, Bellbrook <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Aug 2021 19:09",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Thungutti Road, Bellbrook <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Aug 2021 20:46",
                 "title": "incident: fire"
             }
         },
@@ -641,13 +698,13 @@
                 "sourceTitle": "George St, Moama",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421822",
-                "created": "2021-08-01T10:24:00+10:00",
-                "updated": "2021-08-01T20:24:00+10:00",
+                "created": "2021-08-01T10:44:00+10:00",
+                "updated": "2021-08-01T20:44:00+10:00",
                 "location": "4 George St, Moama, NSW 2731",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 George St, Moama, NSW 2731 <br />COUNCIL AREA: Murray River <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Aug 2021 20:24",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 George St, Moama, NSW 2731 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Aug 2021 20:44",
                 "title": "incident: fire"
             }
         },
@@ -665,13 +722,13 @@
                 "sourceTitle": "Leggetts Dr, Mulbring",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421823",
-                "created": "2021-08-01T10:16:00+10:00",
-                "updated": "2021-08-01T20:16:00+10:00",
+                "created": "2021-08-01T10:32:00+10:00",
+                "updated": "2021-08-01T20:32:00+10:00",
                 "location": "Leggetts Dr, Mulbring, NSW 2323",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Leggetts Dr, Mulbring, NSW 2323 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Aug 2021 20:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Leggetts Dr, Mulbring, NSW 2323 <br />COUNCIL AREA: Cessnock <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Aug 2021 20:32",
                 "title": "incident: other"
             }
         },
