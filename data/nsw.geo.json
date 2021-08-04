@@ -52,10 +52,71 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.70017099300003,
-                    -33.66077729699998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.70017099300003,
+                            -33.66077729699998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.698811515,
+                                            -33.66040178
+                                        ],
+                                        [
+                                            150.699120845,
+                                            -33.6598782999999
+                                        ],
+                                        [
+                                            150.699132743,
+                                            -33.6598782999999
+                                        ],
+                                        [
+                                            150.69940638,
+                                            -33.658676671
+                                        ],
+                                        [
+                                            150.700524727,
+                                            -33.658843233
+                                        ],
+                                        [
+                                            150.699477764,
+                                            -33.6598901959999
+                                        ],
+                                        [
+                                            150.699299305,
+                                            -33.659902093
+                                        ],
+                                        [
+                                            150.69927551,
+                                            -33.6603066019999
+                                        ],
+                                        [
+                                            150.699156537,
+                                            -33.6603066019999
+                                        ],
+                                        [
+                                            150.69909705,
+                                            -33.66044937
+                                        ],
+                                        [
+                                            150.698811515,
+                                            -33.66040178
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -65,11 +126,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421977",
-                "created": "2021-08-04T04:52:00+10:00",
-                "updated": "2021-08-04T14:52:00+10:00",
+                "created": "2021-08-04T05:10:00+10:00",
+                "updated": "2021-08-04T15:10:00+10:00",
                 "location": "143 Devlin Rd, Castlereagh, NSW 2749",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 143 Devlin Rd, Castlereagh, NSW 2749 <br />COUNCIL AREA: Penrith <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Aug 2021 14:52",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 143 Devlin Rd, Castlereagh, NSW 2749 <br />COUNCIL AREA: Penrith <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Aug 2021 15:10",
                 "title": "incident: fire"
             }
         },
@@ -187,6 +248,30 @@
                 "location": "Hume Mtwy, Douglas Park, NSW 2569",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Hume Mtwy, Douglas Park, NSW 2569 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Aug 2021 13:59",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.38542400000006,
+                    -28.827170998999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lindendale Rd, Lindendale",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421983",
+                "created": "2021-08-04T05:10:00+10:00",
+                "updated": "2021-08-04T15:10:00+10:00",
+                "location": "168 Lindendale Rd, Lindendale, NSW 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 168 Lindendale Rd, Lindendale, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Aug 2021 15:10",
                 "title": "incident: fire"
             }
         },
@@ -432,30 +517,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.53317000000004,
-                    -35.08610699999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Laurina Pl, Bewong",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421980",
-                "created": "2021-08-04T04:48:00+10:00",
-                "updated": "2021-08-04T14:48:00+10:00",
-                "location": "5 Laurina Pl, Bewong, NSW 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 Laurina Pl, Bewong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Aug 2021 14:48",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.693803999,
                     -31.510538999999937
                 ]
@@ -472,6 +533,30 @@
                 "location": "Lookout Rd, Bago, NSW 2446",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lookout Rd, Bago, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Aug 2021 12:52",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.6307699990001,
+                    -33.751034999999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maraket Av, Blaxland",
+                "category": "other",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421986",
+                "created": "2021-08-04T05:16:00+10:00",
+                "updated": "2021-08-04T15:16:00+10:00",
+                "location": "Maraket Av, Blaxland, NSW 2774",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Maraket Av, Blaxland, NSW 2774 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Aug 2021 15:16",
                 "title": "incident: other"
             }
         },
@@ -568,30 +653,6 @@
                 "location": "Rogerson Rd, Ruthven, NSW 2480",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Rogerson Rd, Ruthven, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Aug 2021 16:31",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.1151900000001,
-                    -30.018799999999942
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Warrena St, Walgett",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421985",
-                "created": "2021-08-04T05:06:00+10:00",
-                "updated": "2021-08-04T15:06:00+10:00",
-                "location": "66 Warrena St, Walgett, NSW 2832",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 66 Warrena St, Walgett, NSW 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 4 Aug 2021 15:06",
                 "title": "incident: fire"
             }
         }
