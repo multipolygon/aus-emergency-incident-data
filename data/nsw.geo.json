@@ -4,10 +4,123 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.6426119990001,
-                    -30.740456999999935
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.6426119990001,
+                            -30.740456999999935
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.645762146,
+                                            -30.739239461
+                                        ],
+                                        [
+                                            152.646606854,
+                                            -30.7394417149999
+                                        ],
+                                        [
+                                            152.647308795,
+                                            -30.739965196
+                                        ],
+                                        [
+                                            152.646832903,
+                                            -30.7405600609999
+                                        ],
+                                        [
+                                            152.646380805,
+                                            -30.740988364
+                                        ],
+                                        [
+                                            152.645429021,
+                                            -30.7410359529999
+                                        ],
+                                        [
+                                            152.644762772,
+                                            -30.740857494
+                                        ],
+                                        [
+                                            152.644572415,
+                                            -30.740322115
+                                        ],
+                                        [
+                                            152.643906166,
+                                            -30.740262628
+                                        ],
+                                        [
+                                            152.643513555,
+                                            -30.740488677
+                                        ],
+                                        [
+                                            152.643251815,
+                                            -30.7407028289999
+                                        ],
+                                        [
+                                            152.64304956,
+                                            -30.740595753
+                                        ],
+                                        [
+                                            152.642954382,
+                                            -30.740203142
+                                        ],
+                                        [
+                                            152.642942485,
+                                            -30.739905709
+                                        ],
+                                        [
+                                            152.64274023,
+                                            -30.739655866
+                                        ],
+                                        [
+                                            152.643073354,
+                                            -30.7395487909999
+                                        ],
+                                        [
+                                            152.643370787,
+                                            -30.739620174
+                                        ],
+                                        [
+                                            152.643644425,
+                                            -30.73998899
+                                        ],
+                                        [
+                                            152.644608107,
+                                            -30.739096692
+                                        ],
+                                        [
+                                            152.644501032,
+                                            -30.7389420279999
+                                        ],
+                                        [
+                                            152.644750875,
+                                            -30.738870644
+                                        ],
+                                        [
+                                            152.645369535,
+                                            -30.7388944379999
+                                        ],
+                                        [
+                                            152.645702659,
+                                            -30.739179973
+                                        ],
+                                        [
+                                            152.645762146,
+                                            -30.739239461
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -17,11 +130,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422093",
-                "created": "2021-08-06T01:00:00+10:00",
-                "updated": "2021-08-06T11:00:00+10:00",
+                "created": "2021-08-06T02:27:00+10:00",
+                "updated": "2021-08-06T12:27:00+10:00",
                 "location": "102 Apple Tree Glen, Burrapine, NSW 2447",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 102 Apple Tree Glen, Burrapine, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2021 11:00",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 102 Apple Tree Glen, Burrapine, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2021 12:27",
                 "title": "incident: fire"
             }
         },
@@ -39,13 +152,13 @@
                 "sourceTitle": "Burri Point Rd, Guerilla Bay",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422094",
-                "created": "2021-08-06T01:43:00+10:00",
-                "updated": "2021-08-06T11:43:00+10:00",
+                "created": "2021-08-06T02:30:00+10:00",
+                "updated": "2021-08-06T12:30:00+10:00",
                 "location": "29 Burri Point Rd, Guerilla Bay, NSW 2536",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 29 Burri Point Rd, Guerilla Bay, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2021 11:43",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 29 Burri Point Rd, Guerilla Bay, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2021 12:30",
                 "title": "incident: fire"
             }
         },
@@ -163,6 +276,30 @@
                 "location": "4km north of Coopernook",
                 "size": 2462,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 4km north of Coopernook <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2462 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 6 Aug 2021 10:53",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.53442500000006,
+                    -28.760342999999978
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hinterland Way, Knockrow",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422102",
+                "created": "2021-08-06T02:32:00+10:00",
+                "updated": "2021-08-06T12:32:00+10:00",
+                "location": "Hinterland Way, Knockrow, NSW 2479",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Hinterland Way, Knockrow, NSW 2479 <br />COUNCIL AREA: Ballina <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2021 12:32",
                 "title": "incident: fire"
             }
         },
@@ -800,22 +937,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.3903160000001,
-                    -33.41481699999997
+                    153.283542,
+                    -28.99814099899993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murina Cl, Holgate",
+                "sourceTitle": "Duke St, Coraki",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422099",
-                "created": "2021-08-06T02:04:00+10:00",
-                "updated": "2021-08-06T12:04:00+10:00",
-                "location": "45 Murina Cl, Holgate, NSW 2250",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422100",
+                "created": "2021-08-06T02:30:00+10:00",
+                "updated": "2021-08-06T12:30:00+10:00",
+                "location": "Duke St, Coraki, NSW 2471",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 45 Murina Cl, Holgate, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2021 12:04",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Duke St, Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Aug 2021 12:30",
                 "title": "incident: fire"
             }
         },
@@ -857,14 +994,38 @@
                 "sourceTitle": "Turpentine Rd, Tomerong",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422097",
-                "created": "2021-08-06T02:04:00+10:00",
-                "updated": "2021-08-06T12:04:00+10:00",
+                "created": "2021-08-06T02:37:00+10:00",
+                "updated": "2021-08-06T12:37:00+10:00",
                 "location": "Turpentine Rd, Tomerong, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Turpentine Rd, Tomerong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2021 12:04",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Turpentine Rd, Tomerong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2021 12:37",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.49318200000005,
+                    -33.25287399999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wallarah Rd, Kanwal",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422104",
+                "created": "2021-08-06T02:38:00+10:00",
+                "updated": "2021-08-06T12:38:00+10:00",
+                "location": "207 Wallarah Rd, Kanwal, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 207 Wallarah Rd, Kanwal, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Aug 2021 12:38",
+                "title": "incident: fire"
             }
         }
     ]
