@@ -52,10 +52,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.2984530000001,
-                    -32.14326799999998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.29760360700004,
+                            -32.13704596499997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.296558815,
+                                            -32.136410509
+                                        ],
+                                        [
+                                            150.298367206,
+                                            -32.1363986109999
+                                        ],
+                                        [
+                                            150.298343411,
+                                            -32.138528229
+                                        ],
+                                        [
+                                            150.296523123,
+                                            -32.138421153
+                                        ],
+                                        [
+                                            150.296558815,
+                                            -32.136446201
+                                        ],
+                                        [
+                                            150.296558815,
+                                            -32.136410509
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -102,6 +143,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.08483,
+                    -32.98418399999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bivens Rd, Laguna",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422222",
+                "created": "2021-08-07T04:26:00+10:00",
+                "updated": "2021-08-07T14:26:00+10:00",
+                "location": "87 Bivens Rd, Laguna, NSW 2325",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 87 Bivens Rd, Laguna, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 14:26",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.1911130000001,
+                    -31.867272999999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Borserio Dr, Mount George",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422229",
+                "created": "2021-08-07T04:24:00+10:00",
+                "updated": "2021-08-07T14:24:00+10:00",
+                "location": "11 Borserio Dr, Mount George, NSW 2424",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 11 Borserio Dr, Mount George, NSW 2424 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 14:24",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.87381500000004,
                     -36.43960699999997
                 ]
@@ -118,30 +207,6 @@
                 "location": "214 Christophers Rd, Quaama, NSW 2550",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 214 Christophers Rd, Quaama, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 13:24",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.40987800100004,
-                    -33.29667399999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Clementine Pl, Mardi",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422213",
-                "created": "2021-08-07T04:09:00+10:00",
-                "updated": "2021-08-07T14:09:00+10:00",
-                "location": "18 Clementine Pl, Mardi, NSW 2259",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 18 Clementine Pl, Mardi, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 7 Aug 2021 14:09",
                 "title": "incident: fire"
             }
         },
@@ -302,11 +367,35 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421954",
-                "created": "2021-08-07T01:41:00+10:00",
-                "updated": "2021-08-07T11:41:00+10:00",
+                "created": "2021-08-07T04:36:00+10:00",
+                "updated": "2021-08-07T14:36:00+10:00",
                 "location": "149 Sapphire Coast Drive",
                 "size": 19,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 149 Sapphire Coast Drive  <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 19 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 11:41",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 149 Sapphire Coast Drive  <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 19 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 14:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.40611400000012,
+                    -28.729276999999968
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Main St, Clunes",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422223",
+                "created": "2021-08-07T04:26:00+10:00",
+                "updated": "2021-08-07T14:26:00+10:00",
+                "location": "Main St, Clunes, NSW 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Main St, Clunes, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 14:26",
                 "title": "incident: fire"
             }
         },
@@ -1225,22 +1314,94 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.14210100000003,
-                    -35.63243399999993
+                    151.5491320000001,
+                    -31.061383999999975
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "East Barham Rd, Barham",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422152",
-                "created": "2021-08-06T09:20:00+10:00",
-                "updated": "2021-08-06T19:20:00+10:00",
-                "location": "East Barham Rd, Barham, NSW 2732",
+                "sourceTitle": "Aberbaldie Rd, Walcha",
+                "category": "other",
+                "subcategory": "search/rescue",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422224",
+                "created": "2021-08-07T04:10:00+10:00",
+                "updated": "2021-08-07T14:10:00+10:00",
+                "location": "967 Aberbaldie Rd, Walcha, NSW 2354",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: East Barham Rd, Barham, NSW 2732 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2021 19:20",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 967 Aberbaldie Rd, Walcha, NSW 2354 <br />COUNCIL AREA: Walcha <br />STATUS: Out of control <br />TYPE: Search/Rescue <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 14:10",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.09784500000012,
+                    -29.77952799999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Auburn Vale Rd, Inverell",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422225",
+                "created": "2021-08-07T04:16:00+10:00",
+                "updated": "2021-08-07T14:16:00+10:00",
+                "location": "Auburn Vale Rd, Inverell, NSW 2360",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Auburn Vale Rd, Inverell, NSW 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 7 Aug 2021 14:16",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.83739300000002,
+                    -29.473715999999968
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Chester St, Moree",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422226",
+                "created": "2021-08-07T04:32:00+10:00",
+                "updated": "2021-08-07T14:32:00+10:00",
+                "location": "Chester St, Moree, NSW 2400",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Chester St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 7 Aug 2021 14:32",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.61795600000005,
+                    -32.951768999999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fourth St, Boolaroo",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422228",
+                "created": "2021-08-07T04:34:00+10:00",
+                "updated": "2021-08-07T14:34:00+10:00",
+                "location": "Fourth St, Boolaroo, NSW 2284",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Fourth St, Boolaroo, NSW 2284 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 7 Aug 2021 14:34",
                 "title": "incident: fire"
             }
         },
@@ -1258,13 +1419,13 @@
                 "sourceTitle": "Gundamaian Rd, Royal National Park",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422218",
-                "created": "2021-08-07T04:07:00+10:00",
-                "updated": "2021-08-07T14:07:00+10:00",
+                "created": "2021-08-07T04:34:00+10:00",
+                "updated": "2021-08-07T14:34:00+10:00",
                 "location": "Gundamaian Rd, Royal National Park, NSW 2508",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Gundamaian Rd, Royal National Park, NSW 2508 <br />COUNCIL AREA: Sutherland <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 14:07",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Gundamaian Rd, Royal National Park, NSW 2508 <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 14:34",
                 "title": "incident: fire"
             }
         },
@@ -1345,6 +1506,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.3948210000001,
+                    -33.288922999999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mcpherson Rd, Mardi",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422227",
+                "created": "2021-08-07T04:22:00+10:00",
+                "updated": "2021-08-07T14:22:00+10:00",
+                "location": "Mcpherson Rd, Mardi, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mcpherson Rd, Mardi, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 14:22",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.93765299900008,
                     -32.73252599999995
                 ]
@@ -1356,11 +1541,11 @@
                 "subcategory": "other",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422219",
-                "created": "2021-08-07T03:44:00+10:00",
-                "updated": "2021-08-07T13:44:00+10:00",
+                "created": "2021-08-07T04:29:00+10:00",
+                "updated": "2021-08-07T14:29:00+10:00",
                 "location": "Moffats Rd, Swan Bay, NSW 2324",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Moffats Rd, Swan Bay, NSW 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 13:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Moffats Rd, Swan Bay, NSW 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2021 14:29",
                 "title": "incident: fire"
             }
         },
