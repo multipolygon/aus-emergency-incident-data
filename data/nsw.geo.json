@@ -4,10 +4,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.85548200000005,
-                    -33.83204799899994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.85616827,
+                            -33.834998293999945
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.855983227,
+                                            -33.834846139
+                                        ],
+                                        [
+                                            150.85628066,
+                                            -33.834846139
+                                        ],
+                                        [
+                                            150.856244968,
+                                            -33.835072189
+                                        ],
+                                        [
+                                            150.855959432,
+                                            -33.8350602909999
+                                        ],
+                                        [
+                                            150.855983227,
+                                            -33.834846139
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -19,9 +56,9 @@
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422510",
                 "created": "2021-08-10T05:36:00+10:00",
                 "updated": "2021-08-10T15:36:00+10:00",
-                "location": "Chandos Rd, Horsley Park, NSW 2175",
+                "location": "M7 Motorway, Horsley Park",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Chandos Rd, Horsley Park, NSW 2175 <br />COUNCIL AREA: Fairfield <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 15:36",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: M7 Motorway, Horsley Park <br />COUNCIL AREA: Fairfield <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 15:36",
                 "title": "incident: fire"
             }
         },
@@ -259,30 +296,6 @@
                 "location": "Nerong Village",
                 "size": 40,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Nerong Village <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 40 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 10 Aug 2021 15:41",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.7674810000001,
-                    -34.619797999999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "North Curramore Rd, Curramore",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422493",
-                "created": "2021-08-10T03:53:00+10:00",
-                "updated": "2021-08-10T13:53:00+10:00",
-                "location": "119 North Curramore Rd, Curramore, NSW 2533",
-                "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 119 North Curramore Rd, Curramore, NSW 2533 <br />COUNCIL AREA: Kiama <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 13:53",
                 "title": "incident: fire"
             }
         },
@@ -1273,30 +1286,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.966539,
-                    -35.54737199999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rear/Packenham St, Deniliquin",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422504",
-                "created": "2021-08-10T05:41:00+10:00",
-                "updated": "2021-08-10T15:41:00+10:00",
-                "location": "Rear/Packenham St, Deniliquin, NSW 2710",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Rear/Packenham St, Deniliquin, NSW 2710 <br />COUNCIL AREA: Edward River <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Aug 2021 15:41",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.07422637900004,
                     -30.914301983999962
                 ]
@@ -1321,46 +1310,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.54425300000003,
-                    -28.472636999999963
+                    150.8844560000001,
+                    -33.92448699999994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Beaury St, Urbenville",
+                "sourceTitle": "Mawson Dr, Cartwright",
                 "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422509",
-                "created": "2021-08-10T05:45:00+10:00",
-                "updated": "2021-08-10T15:45:00+10:00",
-                "location": "32 Beaury St, Urbenville, NSW 2475",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422514",
+                "created": "2021-08-10T06:04:00+10:00",
+                "updated": "2021-08-10T16:04:00+10:00",
+                "location": "Mawson Dr, Cartwright, NSW 2168",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 32 Beaury St, Urbenville, NSW 2475 <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 15:45",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.24706600000002,
-                    -31.914376999999945
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kimbriki Rd, Kimbriki",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422486",
-                "created": "2021-08-10T02:32:00+10:00",
-                "updated": "2021-08-10T12:32:00+10:00",
-                "location": "Kimbriki Rd, Kimbriki, NSW 2429",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kimbriki Rd, Kimbriki, NSW 2429 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 12:32",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mawson Dr, Cartwright, NSW 2168 <br />COUNCIL AREA: Liverpool <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Aug 2021 16:04",
                 "title": "incident: fire"
             }
         },
@@ -1393,22 +1358,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.6260000000001,
-                    -33.13099999999997
+                    150.72056700000007,
+                    -33.662515000999974
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pacific Hwy, Catherine Hill Bay",
+                "sourceTitle": "Nutt Rd, Londonderry",
                 "category": "other",
-                "subcategory": "mva/transport",
+                "subcategory": "hazmat",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422511",
-                "created": "2021-08-10T05:44:00+10:00",
-                "updated": "2021-08-10T15:44:00+10:00",
-                "location": "Pacific Hwy, Catherine Hill Bay, NSW 2281",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422516",
+                "created": "2021-08-10T06:10:00+10:00",
+                "updated": "2021-08-10T16:10:00+10:00",
+                "location": "Nutt Rd, Londonderry, NSW 2753",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Catherine Hill Bay, NSW 2281 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 15:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Nutt Rd, Londonderry, NSW 2753 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: HAZMAT <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 16:10",
                 "title": "incident: other"
             }
         },
@@ -1441,6 +1406,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.04353000000003,
+                    -34.78796199899995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Showground Rd, Ganmain",
+                "category": "other",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422515",
+                "created": "2021-08-10T06:04:00+10:00",
+                "updated": "2021-08-10T16:04:00+10:00",
+                "location": "4 Showground Rd, Ganmain, NSW 2702",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 Showground Rd, Ganmain, NSW 2702 <br />COUNCIL AREA: Coolamon <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 16:04",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.82404400000007,
                     -31.381092999999964
                 ]
@@ -1452,36 +1441,12 @@
                 "subcategory": "burn off",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422336",
-                "created": "2021-08-09T06:26:00+10:00",
-                "updated": "2021-08-09T16:26:00+10:00",
+                "created": "2021-08-10T05:59:00+10:00",
+                "updated": "2021-08-10T15:59:00+10:00",
                 "location": "95 The Hatch Rd, Blackmans Point, NSW 2444",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 95 The Hatch Rd, Blackmans Point, NSW 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2021 16:26",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 95 The Hatch Rd, Blackmans Point, NSW 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 15:59",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.52061400000002,
-                    -32.34046499899995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "The Lakes Way, Charlotte Bay",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422502",
-                "created": "2021-08-10T04:34:00+10:00",
-                "updated": "2021-08-10T14:34:00+10:00",
-                "location": "The Lakes Way, Charlotte Bay, NSW 2428",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: The Lakes Way, Charlotte Bay, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Aug 2021 14:34",
-                "title": "incident: other"
             }
         }
     ]
