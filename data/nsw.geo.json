@@ -4,24 +4,133 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.57622700100012,
-                    -35.05190899999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.9865369800001,
+                            -32.772408997999946
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.984883763,
+                                            -32.772046759
+                                        ],
+                                        [
+                                            151.986192467,
+                                            -32.771713634
+                                        ],
+                                        [
+                                            151.986525591,
+                                            -32.771654148
+                                        ],
+                                        [
+                                            151.986775435,
+                                            -32.7718445049999
+                                        ],
+                                        [
+                                            151.987037175,
+                                            -32.7731770029999
+                                        ],
+                                        [
+                                            151.986513694,
+                                            -32.773997917
+                                        ],
+                                        [
+                                            151.985668985,
+                                            -32.7744857069999
+                                        ],
+                                        [
+                                            151.984657714,
+                                            -32.774450015
+                                        ],
+                                        [
+                                            151.984050952,
+                                            -32.7738432519999
+                                        ],
+                                        [
+                                            151.984336487,
+                                            -32.772796289
+                                        ],
+                                        [
+                                            151.984883763,
+                                            -32.772046759
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "(Princes Hwy), Tomerong",
+                "sourceTitle": "Marsh Rd, Bobs Farm",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422776",
-                "created": "2021-08-13T03:38:00+10:00",
-                "updated": "2021-08-13T13:38:00+10:00",
-                "location": "A1 (Princes Hwy), Tomerong, NSW 2540",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422769",
+                "created": "2021-08-13T04:08:00+10:00",
+                "updated": "2021-08-13T14:08:00+10:00",
+                "location": "535 Marsh Rd, Bobs Farm, NSW 2316",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: A1 (Princes Hwy), Tomerong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 13:38",
+                "description": "ALERT LEVEL: Watch and Act <br />LOCATION: 535 Marsh Rd, Bobs Farm, NSW 2316 <br />COUNCIL AREA: Port Stephens <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 14:08",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.56442700000002,
+                    -34.81430999999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Barfield Rd, Cambewarra",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422783",
+                "created": "2021-08-13T04:02:00+10:00",
+                "updated": "2021-08-13T14:02:00+10:00",
+                "location": "Barfield Rd, Cambewarra, NSW 2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Barfield Rd, Cambewarra, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 14:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.7673870000001,
+                    -32.56536999999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Erringhi St, Clarence Town",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422778",
+                "created": "2021-08-13T03:52:00+10:00",
+                "updated": "2021-08-13T13:52:00+10:00",
+                "location": "Erringhi St, Clarence Town, NSW 2321",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Erringhi St, Clarence Town, NSW 2321 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 13:52",
                 "title": "incident: fire"
             }
         },
@@ -214,6 +323,79 @@
                 "location": "Iluka Rd, Iluka, NSW 2466",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Iluka Rd, Iluka, NSW 2466 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 13 Aug 2021 09:14",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.870357,
+                            -33.74277699999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.867613798,
+                                            -33.743513005
+                                        ],
+                                        [
+                                            150.867744668,
+                                            -33.7435486969999
+                                        ],
+                                        [
+                                            150.867482928,
+                                            -33.743834232
+                                        ],
+                                        [
+                                            150.867316366,
+                                            -33.743810438
+                                        ],
+                                        [
+                                            150.867316366,
+                                            -33.743691465
+                                        ],
+                                        [
+                                            150.867387749,
+                                            -33.743643875
+                                        ],
+                                        [
+                                            150.867375852,
+                                            -33.743643875
+                                        ],
+                                        [
+                                            150.867613798,
+                                            -33.743513005
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Knox Rd, Doonside",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422774",
+                "created": "2021-08-13T04:09:00+10:00",
+                "updated": "2021-08-13T14:09:00+10:00",
+                "location": "Knox Rd, Doonside, NSW 2767",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Knox Rd, Doonside, NSW 2767 <br />COUNCIL AREA: Blacktown <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 14:09",
                 "title": "incident: fire"
             }
         },
@@ -418,30 +600,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.9865369800001,
-                    -32.772408997999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Marsh Rd, Bobs Farm",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422769",
-                "created": "2021-08-13T02:54:00+10:00",
-                "updated": "2021-08-13T12:54:00+10:00",
-                "location": "535 Marsh Rd, Bobs Farm, NSW 2316",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 535 Marsh Rd, Bobs Farm, NSW 2316 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 12:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.8382150000001,
                     -36.94557199999997
                 ]
@@ -451,13 +609,13 @@
                 "sourceTitle": "Mount Darragh Rd, South Pambula",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422775",
-                "created": "2021-08-13T03:24:00+10:00",
-                "updated": "2021-08-13T13:24:00+10:00",
+                "created": "2021-08-13T03:57:00+10:00",
+                "updated": "2021-08-13T13:57:00+10:00",
                 "location": "221 Mount Darragh Rd, South Pambula, NSW 2549",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 221 Mount Darragh Rd, South Pambula, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 13:24",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 221 Mount Darragh Rd, South Pambula, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 13:57",
                 "title": "incident: fire"
             }
         },
@@ -1021,30 +1179,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.5638130000001,
-                    -32.00856799999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Saltwater Rd, Saltwater",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422748",
-                "created": "2021-08-13T00:44:00+10:00",
-                "updated": "2021-08-13T10:44:00+10:00",
-                "location": "Saltwater Rd, Saltwater, NSW 2430",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Saltwater Rd, Saltwater, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 10:44",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -1284,6 +1418,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.52771000000007,
+                    -32.518876999999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Summer Hill Rd, Vacy",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422780",
+                "created": "2021-08-13T03:56:00+10:00",
+                "updated": "2021-08-13T13:56:00+10:00",
+                "location": "506 Summer Hill Rd, Vacy, NSW 2421",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 506 Summer Hill Rd, Vacy, NSW 2421 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 13:56",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.92278099100008,
                     -36.85476315799997
                 ]
@@ -1295,11 +1453,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422727",
-                "created": "2021-08-13T02:04:00+10:00",
-                "updated": "2021-08-13T12:04:00+10:00",
+                "created": "2021-08-13T04:10:00+10:00",
+                "updated": "2021-08-13T14:10:00+10:00",
                 "location": "wallaby way tura beach",
                 "size": 19,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: wallaby way tura beach <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 19 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 13 Aug 2021 12:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: wallaby way tura beach <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 19 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 13 Aug 2021 14:10",
                 "title": "incident: fire"
             }
         },
@@ -1356,6 +1514,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.57622700100012,
+                    -35.05190899999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "(Princes Hwy), Tomerong",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422779",
+                "created": "2021-08-13T03:53:00+10:00",
+                "updated": "2021-08-13T13:53:00+10:00",
+                "location": "A1 (Princes Hwy), Tomerong, NSW 2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: A1 (Princes Hwy), Tomerong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 13:53",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.81358289700006,
                     -36.84205664399997
                 ]
@@ -1365,13 +1547,13 @@
                 "sourceTitle": "5 CANDELO WOLUMLA RD, WOLUMLA",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422764",
-                "created": "2021-08-13T02:10:00+10:00",
-                "updated": "2021-08-13T12:10:00+10:00",
+                "created": "2021-08-13T03:53:00+10:00",
+                "updated": "2021-08-13T13:53:00+10:00",
                 "location": "OS 5 CANDELO WOLUMLA RD, WOLUMLA",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OS 5 CANDELO WOLUMLA RD, WOLUMLA <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 12:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OS 5 CANDELO WOLUMLA RD, WOLUMLA <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 13:53",
                 "title": "incident: other"
             }
         },
@@ -1476,30 +1658,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.870357,
-                    -33.74277699999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Knox Rd, Doonside",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422774",
-                "created": "2021-08-13T03:20:00+10:00",
-                "updated": "2021-08-13T13:20:00+10:00",
-                "location": "Knox Rd, Doonside, NSW 2767",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Knox Rd, Doonside, NSW 2767 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 13 Aug 2021 13:20",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     147.2476640000001,
                     -35.19192999999996
                 ]
@@ -1541,30 +1699,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mount Yor K Rd, Mount Victoria, NSW 2786 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 09:12",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.83505100000002,
-                    -31.564889999999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ocean Dr, Lake Cathie",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422751",
-                "created": "2021-08-13T00:30:00+10:00",
-                "updated": "2021-08-13T10:30:00+10:00",
-                "location": "Unit 151/1333 Ocean Dr, Lake Cathie, NSW 2445",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit 151/1333 Ocean Dr, Lake Cathie, NSW 2445 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 10:30",
-                "title": "incident: other"
             }
         },
         {
@@ -1660,6 +1794,30 @@
                 "location": "131 Tadmore Rd, Cranebrook, NSW 2749",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 131 Tadmore Rd, Cranebrook, NSW 2749 <br />COUNCIL AREA: Penrith <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 11:06",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.62808299900007,
+                    -33.52960099999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Warks Hill Rd, Kurrajong Heights",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422777",
+                "created": "2021-08-13T03:44:00+10:00",
+                "updated": "2021-08-13T13:44:00+10:00",
+                "location": "13  Warks Hill Rd, Kurrajong Heights, NSW 2758",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13  Warks Hill Rd, Kurrajong Heights, NSW 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Aug 2021 13:44",
                 "title": "incident: fire"
             }
         },
