@@ -4,10 +4,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.36992931400005,
-                    -32.84609887399995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.36992931400005,
+                            -32.84609887399995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.369844321,
+                                            -32.8460982
+                                        ],
+                                        [
+                                            151.369130482,
+                                            -32.8474544919999
+                                        ],
+                                        [
+                                            151.367833676,
+                                            -32.84684773
+                                        ],
+                                        [
+                                            151.368499925,
+                                            -32.8457293829999
+                                        ],
+                                        [
+                                            151.369487401,
+                                            -32.8457531769999
+                                        ],
+                                        [
+                                            151.369844321,
+                                            -32.8460982
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -17,11 +58,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423132",
-                "created": "2021-08-16T02:43:00+10:00",
-                "updated": "2021-08-16T12:43:00+10:00",
+                "created": "2021-08-16T04:45:00+10:00",
+                "updated": "2021-08-16T14:45:00+10:00",
                 "location": "Aberdare Rd, Aberdare, NSW 2325",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Aberdare Rd, Aberdare, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2021 12:43",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Aberdare Rd, Aberdare, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2021 14:45",
                 "title": "incident: fire"
             }
         },
@@ -481,30 +522,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.30559921200006,
-                    -32.554120343999955
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elderslie Rd, Mitchells Flat",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423159",
-                "created": "2021-08-16T04:06:00+10:00",
-                "updated": "2021-08-16T14:06:00+10:00",
-                "location": "Elderslie Rd, Mitchells Flat, NSW 2330",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Elderslie Rd, Mitchells Flat, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2021 14:06",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -675,30 +692,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.90353345900007,
-                    -36.87718316399997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Magic Mountain",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/421954",
-                "created": "2021-08-15T01:43:00+10:00",
-                "updated": "2021-08-15T11:43:00+10:00",
-                "location": "149 Sapphire Coast Drive",
-                "size": 19,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 149 Sapphire Coast Drive  <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 19 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Aug 2021 11:43",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.23908994700002,
                     -33.76127307199994
                 ]
@@ -763,6 +756,30 @@
                 "location": "75 Eastaway Avenue, North Narooma",
                 "size": 9,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 75 Eastaway Avenue, North Narooma <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 9 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2021 14:13",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.7278550000001,
+                    -31.649242999999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, Kew",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423168",
+                "created": "2021-08-16T04:36:00+10:00",
+                "updated": "2021-08-16T14:36:00+10:00",
+                "location": "4738 Pacific Hwy, Kew, NSW 2439",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 4738 Pacific Hwy, Kew, NSW 2439 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2021 14:36",
                 "title": "incident: fire"
             }
         },
@@ -3538,29 +3555,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            150.698759716,
-                                            -34.027790867
-                                        ],
-                                        [
-                                            150.699721526,
-                                            -34.02740304
-                                        ],
-                                        [
-                                            150.699837235,
-                                            -34.0274398569999
-                                        ],
-                                        [
-                                            150.698759716,
-                                            -34.027790867
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             150.699721526,
                                             -34.02740304
                                         ],
@@ -3575,6 +3569,29 @@
                                         [
                                             150.699721526,
                                             -34.02740304
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.698759716,
+                                            -34.027790867
+                                        ],
+                                        [
+                                            150.699721526,
+                                            -34.02740304
+                                        ],
+                                        [
+                                            150.699837235,
+                                            -34.0274398569999
+                                        ],
+                                        [
+                                            150.698759716,
+                                            -34.027790867
                                         ]
                                     ]
                                 ]
@@ -3644,6 +3661,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mitchell St, Parkes <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 16 Aug 2021 12:23",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.64920900000004,
+                    -33.02593299999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Belmont Cr, Belmont",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423163",
+                "created": "2021-08-16T04:46:00+10:00",
+                "updated": "2021-08-16T14:46:00+10:00",
+                "location": "13 Belmont Cr, Belmont, NSW 2280",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 Belmont Cr, Belmont, NSW 2280 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Aug 2021 14:46",
+                "title": "incident: fire"
             }
         },
         {
@@ -3843,30 +3884,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.44075400000008,
-                    -32.76288599999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hunter Exp, Sawyers Gully",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423160",
-                "created": "2021-08-16T03:58:00+10:00",
-                "updated": "2021-08-16T13:58:00+10:00",
-                "location": "Hunter Exp, Sawyers Gully, NSW 2326",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hunter Exp, Sawyers Gully, NSW 2326 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2021 13:58",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.20563000000004,
                     -33.839129999999955
                 ]
@@ -3907,6 +3924,30 @@
                 "location": "57 Lower Buckra Bendinni Rd, Bowraville, NSW 2449",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 57 Lower Buckra Bendinni Rd, Bowraville, NSW 2449 <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2021 11:52",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.62277800000004,
+                    -34.239075999999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lyrebird Rd, Pheasants Nest",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423165",
+                "created": "2021-08-16T04:24:00+10:00",
+                "updated": "2021-08-16T14:24:00+10:00",
+                "location": "135 Lyrebird Rd, Pheasants Nest, NSW 2574",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 135 Lyrebird Rd, Pheasants Nest, NSW 2574 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2021 14:24",
                 "title": "incident: fire"
             }
         },
@@ -3980,30 +4021,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 480 North Head Dr, Moruya, NSW 2537 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Aug 2021 21:14",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.09388400000012,
-                    -36.148665999999935
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy, Bodalla",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423140",
-                "created": "2021-08-16T02:42:00+10:00",
-                "updated": "2021-08-16T12:42:00+10:00",
-                "location": "Princes Hwy, Bodalla, NSW 2545",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Princes Hwy, Bodalla, NSW 2545 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2021 12:42",
-                "title": "incident: other"
             }
         },
         {
