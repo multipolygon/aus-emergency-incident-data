@@ -17,11 +17,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423385",
-                "created": "2021-08-19T02:30:00+10:00",
-                "updated": "2021-08-19T12:30:00+10:00",
+                "created": "2021-08-19T05:19:00+10:00",
+                "updated": "2021-08-19T15:19:00+10:00",
                 "location": "109 Main Road Heddon Greta",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 109 Main Road Heddon Greta <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 12:30",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 109 Main Road Heddon Greta <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 15:19",
                 "title": "incident: fire"
             }
         },
@@ -1086,10 +1086,83 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.42681599900004,
-                    -32.651782999999966
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.42681599900004,
+                            -32.651782999999966
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.43844076899993,
+                                            -32.64614373400007
+                                        ],
+                                        [
+                                            151.43853594799987,
+                                            -32.646322192000056
+                                        ],
+                                        [
+                                            151.43869061299992,
+                                            -32.646322192
+                                        ],
+                                        [
+                                            151.43899994300008,
+                                            -32.64631029500011
+                                        ],
+                                        [
+                                            151.4390570489999,
+                                            -32.64627222400004
+                                        ],
+                                        [
+                                            151.43898804499983,
+                                            -32.64625080900002
+                                        ],
+                                        [
+                                            151.43907132599983,
+                                            -32.64626270599997
+                                        ],
+                                        [
+                                            151.4390570489999,
+                                            -32.64627222400004
+                                        ],
+                                        [
+                                            151.43933306699992,
+                                            -32.646357883999826
+                                        ],
+                                        [
+                                            151.43945203999985,
+                                            -32.64623891099997
+                                        ],
+                                        [
+                                            151.43938065599994,
+                                            -32.64611993799996
+                                        ],
+                                        [
+                                            151.4389523529999,
+                                            -32.645917683999876
+                                        ],
+                                        [
+                                            151.43858353699991,
+                                            -32.64603665699984
+                                        ],
+                                        [
+                                            151.43844076899993,
+                                            -32.64614373400007
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1104,6 +1177,30 @@
                 "location": "707 Luskintyre Rd, Luskintyre, NSW 2321",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 707 Luskintyre Rd, Luskintyre, NSW 2321 <br />COUNCIL AREA: Maitland <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 13:42",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.92556762700008,
+                    -30.971501021999984
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Macleay Valley Way, Clybucca",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423528",
+                "created": "2021-08-19T05:04:00+10:00",
+                "updated": "2021-08-19T15:04:00+10:00",
+                "location": "1753 Macleay Valley Way, Clybucca, Clybucca, NSW 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1753 Macleay Valley Way, Clybucca, Clybucca, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 15:04",
                 "title": "incident: fire"
             }
         },
@@ -1815,30 +1912,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.93379800000002,
-                    -30.96494200099994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pacific Hwy, Clybucca",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423528",
-                "created": "2021-08-19T05:04:00+10:00",
-                "updated": "2021-08-19T15:04:00+10:00",
-                "location": "1753 Pacific Hwy, Clybucca, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1753 Pacific Hwy, Clybucca, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 15:04",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2450,35 +2523,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/422428",
-                "created": "2021-08-18T23:56:00+10:00",
-                "updated": "2021-08-19T09:56:00+10:00",
+                "created": "2021-08-19T05:07:00+10:00",
+                "updated": "2021-08-19T15:07:00+10:00",
                 "location": "Belrose NSW",
                 "size": 394,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Belrose NSW <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 394 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 19 Aug 2021 09:56",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.60338000000002,
-                    -30.68238699999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Taylors Arm Rd, Thumb Creek",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423501",
-                "created": "2021-08-19T04:33:00+10:00",
-                "updated": "2021-08-19T14:33:00+10:00",
-                "location": "4667 Taylors Arm Rd, Thumb Creek, NSW 2447",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 4667 Taylors Arm Rd, Thumb Creek, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 14:33",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Belrose NSW <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 394 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 19 Aug 2021 15:07",
                 "title": "incident: fire"
             }
         },
@@ -2522,11 +2571,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423523",
-                "created": "2021-08-19T04:57:00+10:00",
-                "updated": "2021-08-19T14:57:00+10:00",
+                "created": "2021-08-19T05:10:00+10:00",
+                "updated": "2021-08-19T15:10:00+10:00",
                 "location": "10R Woodstock Rd, Dubbo, NSW 2830",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 10R Woodstock Rd, Dubbo, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 14:57",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 10R Woodstock Rd, Dubbo, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 15:10",
                 "title": "incident: fire"
             }
         },
@@ -2631,30 +2680,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.52788899900008,
-                    -34.944459999999935
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bubuk St, Yerriyong",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423514",
-                "created": "2021-08-19T03:58:00+10:00",
-                "updated": "2021-08-19T13:58:00+10:00",
-                "location": "1 Bubuk St, Yerriyong,  2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1 Bubuk St, Yerriyong,  2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 13:58",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.19881600000008,
                     -32.87116099999997
                 ]
@@ -2696,6 +2721,30 @@
                 "size": 5,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cedar Party Rd, Taree, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2021 16:30",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.76413600000012,
+                    -32.53296199999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clarence Town Rd, Brookfield",
+                "category": "other",
+                "subcategory": "medical",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423524",
+                "created": "2021-08-19T04:56:00+10:00",
+                "updated": "2021-08-19T14:56:00+10:00",
+                "location": "3484 Clarence Town Rd, Brookfield, NSW 2420",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3484 Clarence Town Rd, Brookfield, NSW 2420 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 14:56",
+                "title": "incident: other"
             }
         },
         {
@@ -2887,30 +2936,6 @@
                 "location": "Bermagui Road, Tilba Tilba NSW 2546",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bermagui Road, Tilba Tilba NSW 2546 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2021 21:18",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.99588000000006,
-                    -32.72819599999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Victory View, Tanilba Bay",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423521",
-                "created": "2021-08-19T04:30:00+10:00",
-                "updated": "2021-08-19T14:30:00+10:00",
-                "location": "5 Victory View, Tanilba Bay, NSW 2319",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 Victory View, Tanilba Bay, NSW 2319 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Aug 2021 14:30",
                 "title": "incident: fire"
             }
         },
