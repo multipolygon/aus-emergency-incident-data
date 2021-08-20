@@ -548,7 +548,7 @@
                 "sourceTitle": "Ballarat Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2021-08-20T17:44:00+10:00",
                 "updated": "2021-08-20T17:44:00+10:00",
                 "id": "ESTA:210816414",
@@ -568,12 +568,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Olympic Way",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2021-08-20T18:01:20+10:00",
+                "updated": "2021-08-20T18:01:20+10:00",
+                "id": "ESTA:210816416",
+                "location": "Olympic Way, Craigieburn",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93592342138066,
+                    -37.5850603307162
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Grandview Tce",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
+                "subcategory": "bushfire",
+                "status": "safe",
                 "created": "2021-08-20T17:45:00+10:00",
-                "updated": "2021-08-20T17:45:00+10:00",
+                "updated": "2021-08-20T18:03:00+10:00",
                 "id": "ESTA:210816415",
                 "location": "Grandview Tce, Mount Martha",
                 "size": "Small",
@@ -591,36 +614,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2021-08-20T17:46:00+10:00",
-                "updated": "2021-08-20T17:47:00+10:00",
-                "id": "ESTA:210851024",
-                "location": "Narre Warren",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.29497402399485,
-                    -38.000553343571326
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Olympic Way",
+                "sourceTitle": "Bettina St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2021-08-20T17:48:15+10:00",
-                "updated": "2021-08-20T17:48:15+10:00",
-                "id": "ESTA:210816416",
-                "location": "Olympic Way, Craigieburn",
+                "status": "safe",
+                "created": "2021-08-20T18:09:02+10:00",
+                "updated": "2021-08-20T18:09:02+10:00",
+                "id": "ESTA:210816428",
+                "location": "Bettina St, Clayton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -628,8 +629,100 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.93592342138066,
-                    -37.5850603307162
+                    145.13732900198673,
+                    -37.91843267335507
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Adair St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2021-08-20T18:08:00+10:00",
+                "updated": "2021-08-20T18:08:00+10:00",
+                "id": "ESTA:210816436",
+                "location": "Adair St, Maldon",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.06020036168647,
+                    -36.99292275767779
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glencairn Lane",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "responding",
+                "created": "2021-08-20T18:12:00+10:00",
+                "updated": "2021-08-20T18:12:00+10:00",
+                "id": "ESTA:210816438",
+                "location": "Glencairn Lane, Nagambie",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14944503394526,
+                    -36.7872056359833
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ocean Rch",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2021-08-20T18:11:00+10:00",
+                "updated": "2021-08-20T18:11:00+10:00",
+                "id": "ESTA:210816437",
+                "location": "Ocean Rch, Cape Woolamai",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.32634696176473,
+                    -38.5285785253692
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brisbane St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2021-08-20T18:13:00+10:00",
+                "updated": "2021-08-20T18:13:00+10:00",
+                "id": "ESTA:210816440",
+                "location": "Brisbane St, Eltham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1417922205206,
+                    -37.717420099612575
                 ]
             }
         },
@@ -18891,37 +18984,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Grand Bvd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2021-08-20T17:43:00+10:00",
-                "updated": "2021-08-20T17:43:00+10:00",
-                "id": "ESTA:210816413",
-                "location": "Grand Bvd, Craigieburn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.91993675849426,
-                    -37.57513694930529
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Howlong Rd",
+                "sourceTitle": "Werribee",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2021-08-20T16:38:00+10:00",
-                "updated": "2021-08-20T16:50:00+10:00",
-                "id": "ESTA:210816365",
-                "location": "Howlong Rd, Rutherglen",
+                "created": "2021-08-20T18:11:06+10:00",
+                "updated": "2021-08-20T18:11:06+10:00",
+                "id": "ESTA:210816429",
+                "location": "Werribee, Werribee",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -18929,8 +18999,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.46521056272297,
-                    -36.05504428096251
+                    144.63488508949828,
+                    -37.886917838885125
                 ]
             }
         },
@@ -18939,10 +19009,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Sundowner Pl",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2021-08-20T17:46:15+10:00",
-                "updated": "2021-08-20T17:46:15+10:00",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2021-08-20T16:09:00+10:00",
+                "updated": "2021-08-20T18:02:00+10:00",
                 "id": "ESTA:210816346",
                 "location": "Sundowner Pl, Point Cook",
                 "size": "Small",
@@ -18952,8 +19022,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.77632926183833,
-                    -37.898508675691346
+                    144.77632082441545,
+                    -37.89851203849593
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "St Kilda East",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2021-08-20T18:11:32+10:00",
+                "updated": "2021-08-20T18:11:32+10:00",
+                "id": "ESTA:210816419",
+                "location": "St Kilda East, St Kilda East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0091604619683,
+                    -37.867596769678556
                 ]
             }
         },
@@ -18963,9 +19056,9 @@
                 "sourceTitle": "Victoria Dr",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2021-08-20T17:46:10+10:00",
-                "updated": "2021-08-20T17:46:10+10:00",
+                "status": "under control",
+                "created": "2021-08-20T18:00:32+10:00",
+                "updated": "2021-08-20T18:00:32+10:00",
                 "id": "ESTA:210816408",
                 "location": "Victoria Dr, Thomastown",
                 "size": "Small",
@@ -18977,6 +19070,73 @@
                 "coordinates": [
                     144.99181419261143,
                     -37.6835098119491
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Flemington Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-08-20T18:08:16+10:00",
+                "updated": "2021-08-20T18:08:16+10:00",
+                "id": "ESTA:210816418",
+                "location": "Flemington Rd, Parkville",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95475028126003,
+                    -37.7989596478943
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2021-08-20T18:12:00+10:00",
+                "updated": "2021-08-20T18:12:00+10:00",
+                "id": "ESTA:210851025",
+                "location": "Nagambie",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14944503394526,
+                    -36.7872056359833
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2021-08-20T17:46:00+10:00",
+                "updated": "2021-08-20T18:10:00+10:00",
+                "id": "ESTA:210851024",
+                "location": "Narre Warren",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29497402399485,
+                    -38.000553343571326
                 ]
             }
         },
