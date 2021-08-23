@@ -2798,10 +2798,127 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.01801000000012,
-                    -30.31498899999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.01801000000012,
+                            -30.31498899999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.020324292,
+                                            -30.315009946
+                                        ],
+                                        [
+                                            153.020481338,
+                                            -30.315402558
+                                        ],
+                                        [
+                                            153.020559859,
+                                            -30.3156880929999
+                                        ],
+                                        [
+                                            153.020388538,
+                                            -30.316894479
+                                        ],
+                                        [
+                                            153.020110142,
+                                            -30.316915895
+                                        ],
+                                        [
+                                            153.018853786,
+                                            -30.3166374969999
+                                        ],
+                                        [
+                                            153.018875201,
+                                            -30.316530422
+                                        ],
+                                        [
+                                            153.019046522,
+                                            -30.3163876529999
+                                        ],
+                                        [
+                                            153.019060799,
+                                            -30.3162306089999
+                                        ],
+                                        [
+                                            153.018939446,
+                                            -30.3161163939999
+                                        ],
+                                        [
+                                            153.018753849,
+                                            -30.3159593509999
+                                        ],
+                                        [
+                                            153.018753849,
+                                            -30.315809445
+                                        ],
+                                        [
+                                            153.018753849,
+                                            -30.315630986
+                                        ],
+                                        [
+                                            153.018525421,
+                                            -30.3152455119999
+                                        ],
+                                        [
+                                            153.01874671,
+                                            -30.315252651
+                                        ],
+                                        [
+                                            153.018839509,
+                                            -30.315159853
+                                        ],
+                                        [
+                                            153.018832371,
+                                            -30.315017084
+                                        ],
+                                        [
+                                            153.019075076,
+                                            -30.314981393
+                                        ],
+                                        [
+                                            153.019153598,
+                                            -30.314802933
+                                        ],
+                                        [
+                                            153.019203566,
+                                            -30.3146958569999
+                                        ],
+                                        [
+                                            153.019467687,
+                                            -30.314624473
+                                        ],
+                                        [
+                                            153.019753223,
+                                            -30.3146030579999
+                                        ],
+                                        [
+                                            153.020231494,
+                                            -30.314617335
+                                        ],
+                                        [
+                                            153.020395676,
+                                            -30.314667303
+                                        ],
+                                        [
+                                            153.020324292,
+                                            -30.315009946
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4961,6 +5078,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.21424500000012,
+                    -32.637937000999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mitchell Line Of Road, Whittingham",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/424115",
+                "created": "2021-08-23T07:44:00+10:00",
+                "updated": "2021-08-23T17:44:00+10:00",
+                "location": "202 Mitchell Line Of Road, Whittingham, NSW 2330",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 202 Mitchell Line Of Road, Whittingham, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Aug 2021 17:44",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.6375789650001,
                     -33.74568170799995
                 ]
@@ -5854,6 +5995,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.86019800000008,
+                    -33.533669000999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Stannix Park Rd, Ebenezer",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/424119",
+                "created": "2021-08-23T08:00:00+10:00",
+                "updated": "2021-08-23T18:00:00+10:00",
+                "location": "Stannix Park Rd, Ebenezer, NSW 2756",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Stannix Park Rd, Ebenezer, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Aug 2021 18:00",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.02313041700006,
                     -34.010336793999954
                 ]
@@ -5950,8 +6115,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.91511000000003,
-                    -32.17877099999998
+                    150.91266632000008,
+                    -32.18098833099998
                 ]
             },
             "properties": {
@@ -5959,37 +6124,13 @@
                 "sourceTitle": "Wells Gully Rd, Aberdeen",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/424108",
-                "created": "2021-08-23T06:40:00+10:00",
-                "updated": "2021-08-23T16:40:00+10:00",
+                "created": "2021-08-23T07:51:00+10:00",
+                "updated": "2021-08-23T17:51:00+10:00",
                 "location": "Wells Gully Rd, Aberdeen, NSW 2336",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Wells Gully Rd, Aberdeen, NSW 2336 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Aug 2021 16:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.93514500000003,
-                    -32.19895999999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wells Gully Rd, Mccullys Gap",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/424110",
-                "created": "2021-08-23T07:19:00+10:00",
-                "updated": "2021-08-23T17:19:00+10:00",
-                "location": "451 Wells Gully Rd, Mccullys Gap, NSW 2333",
-                "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 451 Wells Gully Rd, Mccullys Gap, NSW 2333 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Aug 2021 17:19",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Wells Gully Rd, Aberdeen, NSW 2336 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Aug 2021 17:51",
                 "title": "incident: fire"
             }
         },
@@ -6151,30 +6292,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.3936402800001,
-                    -35.12848189999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Assist NSW Health",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423386",
-                "created": "2021-08-23T06:20:00+10:00",
-                "updated": "2021-08-23T16:20:00+10:00",
-                "location": "150 Copland Street EAST WAGGA WAGGA NSW",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 150 Copland Street EAST WAGGA WAGGA NSW <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Ambulance <br />UPDATED: 23 Aug 2021 16:20",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.3770561220001,
                     -30.945969954999953
                 ]
@@ -6191,6 +6308,30 @@
                 "location": "Buckley Drive Coonamble",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Buckley Drive Coonamble <br />COUNCIL AREA: Coonamble <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Aug 2021 13:29",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.3936402800001,
+                    -35.12848189999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Assist NSW Health",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423386",
+                "created": "2021-08-23T06:20:00+10:00",
+                "updated": "2021-08-23T16:20:00+10:00",
+                "location": "150 Copland Street EAST WAGGA WAGGA NSW",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 150 Copland Street EAST WAGGA WAGGA NSW <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Ambulance <br />UPDATED: 23 Aug 2021 16:20",
                 "title": "incident: other"
             }
         },
@@ -6311,6 +6452,30 @@
                 "location": "29 Hergenhans Lane, Angledale, NSW 2550",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 29 Hergenhans Lane, Angledale, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Aug 2021 16:11",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.538631,
+                    -28.19782299999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kirkwood Rd, Tweed Heads South",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/424117",
+                "created": "2021-08-23T08:04:00+10:00",
+                "updated": "2021-08-23T18:04:00+10:00",
+                "location": "Kirkwood Rd, Tweed Heads South, NSW 2486",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kirkwood Rd, Tweed Heads South, NSW 2486 <br />COUNCIL AREA: Tweed <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 23 Aug 2021 18:04",
                 "title": "incident: fire"
             }
         },
