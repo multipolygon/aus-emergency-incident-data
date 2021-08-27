@@ -198,30 +198,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.58439700000008,
-                    -34.28226299999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wattle St, Bargo",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/424489",
-                "created": "2021-08-27T23:19:00+10:00",
-                "updated": "2021-08-28T09:19:00+10:00",
-                "location": "Wattle St, Bargo, NSW 2574",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Wattle St, Bargo, NSW 2574 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2021 09:19",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.25266599600002,
                     -32.251943393999966
                 ]
@@ -364,10 +340,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.7113730000001,
-                    -34.152916999999945
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.71154092500012,
+                            -34.152002667999966
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.71130298,
+                                            -34.151955078
+                                        ],
+                                        [
+                                            150.711374363,
+                                            -34.151788516
+                                        ],
+                                        [
+                                            150.711576618,
+                                            -34.15172903
+                                        ],
+                                        [
+                                            150.71174318,
+                                            -34.151812311
+                                        ],
+                                        [
+                                            150.711826462,
+                                            -34.151943181
+                                        ],
+                                        [
+                                            150.711790769,
+                                            -34.152109744
+                                        ],
+                                        [
+                                            150.711552823,
+                                            -34.15216923
+                                        ],
+                                        [
+                                            150.711362466,
+                                            -34.152109744
+                                        ],
+                                        [
+                                            150.71130298,
+                                            -34.151955078
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
