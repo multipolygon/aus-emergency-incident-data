@@ -465,10 +465,83 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.87634500000001,
-                    -29.62595099999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.8727184089385,
+                            -29.617293314190498
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.872879023,
+                                            -29.6180190499999
+                                        ],
+                                        [
+                                            152.87227226,
+                                            -29.617733514
+                                        ],
+                                        [
+                                            152.87227226,
+                                            -29.617174341
+                                        ],
+                                        [
+                                            152.872438822,
+                                            -29.616936395
+                                        ],
+                                        [
+                                            152.872462617,
+                                            -29.6166508599999
+                                        ],
+                                        [
+                                            152.872510206,
+                                            -29.616531886
+                                        ],
+                                        [
+                                            152.873271634,
+                                            -29.616924497
+                                        ],
+                                        [
+                                            152.873461991,
+                                            -29.616972087
+                                        ],
+                                        [
+                                            152.873414401,
+                                            -29.6171029569999
+                                        ],
+                                        [
+                                            152.873247839,
+                                            -29.617447979
+                                        ],
+                                        [
+                                            152.873116968,
+                                            -29.617674028
+                                        ],
+                                        [
+                                            152.872950406,
+                                            -29.617888179
+                                        ],
+                                        [
+                                            152.872879023,
+                                            -29.618030947
+                                        ],
+                                        [
+                                            152.872879023,
+                                            -29.6180190499999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -478,11 +551,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/424547",
-                "created": "2021-08-28T07:31:00+10:00",
-                "updated": "2021-08-28T17:31:00+10:00",
+                "created": "2021-08-28T16:55:00+10:00",
+                "updated": "2021-08-29T02:55:00+10:00",
                 "location": "98 Schwinghammer Rd, Seelands, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 98 Schwinghammer Rd, Seelands, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2021 17:31",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 98 Schwinghammer Rd, Seelands, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2021 02:55",
                 "title": "incident: fire"
             }
         },
@@ -687,30 +760,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.3770561220001,
-                    -30.945969954999953
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Assist NSW Health",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423646",
-                "created": "2021-08-26T21:56:00+10:00",
-                "updated": "2021-08-27T07:56:00+10:00",
-                "location": "Buckley Drive Coonamble",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Buckley Drive Coonamble <br />COUNCIL AREA: Coonamble <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Aug 2021 07:56",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     147.3936402800001,
                     -35.12848189999994
                 ]
@@ -727,6 +776,30 @@
                 "location": "150 Copland Street EAST WAGGA WAGGA NSW",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 150 Copland Street EAST WAGGA WAGGA NSW <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Ambulance <br />UPDATED: 28 Aug 2021 20:35",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.3770561220001,
+                    -30.945969954999953
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Assist NSW Health",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423646",
+                "created": "2021-08-26T21:56:00+10:00",
+                "updated": "2021-08-27T07:56:00+10:00",
+                "location": "Buckley Drive Coonamble",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Buckley Drive Coonamble <br />COUNCIL AREA: Coonamble <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Aug 2021 07:56",
                 "title": "incident: other"
             }
         },
