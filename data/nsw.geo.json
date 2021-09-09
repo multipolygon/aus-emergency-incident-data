@@ -2412,10 +2412,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.0128092760001,
-                    -34.076754319999964
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.0128092760001,
+                            -34.076754319999964
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.012568253,
+                                            -34.076746229
+                                        ],
+                                        [
+                                            151.012663431,
+                                            -34.076758126
+                                        ],
+                                        [
+                                            151.012663431,
+                                            -34.07682951
+                                        ],
+                                        [
+                                            151.012556355,
+                                            -34.0768770989999
+                                        ],
+                                        [
+                                            151.012544458,
+                                            -34.076805715
+                                        ],
+                                        [
+                                            151.012568253,
+                                            -34.076746229
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2425,11 +2466,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426708",
-                "created": "2021-09-09T14:44:00+10:00",
-                "updated": "2021-09-10T00:44:00+10:00",
+                "created": "2021-09-09T15:02:00+10:00",
+                "updated": "2021-09-10T01:02:00+10:00",
                 "location": "Wilson Pde, Heathcote, NSW 2233",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Wilson Pde, Heathcote, NSW 2233 <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 00:44",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Wilson Pde, Heathcote, NSW 2233 <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 01:02",
                 "title": "incident: fire"
             }
         },
@@ -2486,30 +2527,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.09927845000004,
-                    -33.276906441999984
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Assist NSW Health",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/425391",
-                "created": "2021-09-09T06:10:00+10:00",
-                "updated": "2021-09-09T16:10:00+10:00",
-                "location": "105 Prince Street Orange NSW 2800",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 105 Prince Street Orange NSW 2800 <br />COUNCIL AREA: Orange <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Sep 2021 16:10",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.3770561220001,
                     -30.945969954999953
                 ]
@@ -2534,6 +2551,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.09927845000004,
+                    -33.276906441999984
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Assist NSW Health",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/425391",
+                "created": "2021-09-09T06:10:00+10:00",
+                "updated": "2021-09-09T16:10:00+10:00",
+                "location": "105 Prince Street Orange NSW 2800",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 105 Prince Street Orange NSW 2800 <br />COUNCIL AREA: Orange <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Sep 2021 16:10",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.00873518000003,
                     -33.37737992999996
                 ]
@@ -2550,6 +2591,30 @@
                 "location": "26 Union Street, Forbes",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 26 Union Street, Forbes <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 9 Sep 2021 16:36",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.19513200000006,
+                    -28.53220099999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Blue Knob Rd, Blue Knob",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426712",
+                "created": "2021-09-09T14:40:00+10:00",
+                "updated": "2021-09-10T00:40:00+10:00",
+                "location": "867 Blue Knob Rd, Blue Knob, NSW 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 867 Blue Knob Rd, Blue Knob, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 00:40",
                 "title": "incident: other"
             }
         },
@@ -2790,30 +2855,6 @@
                 "location": "60 /South Wolumla Rd, South Wolumla, NSW 2550",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 60 /South Wolumla Rd, South Wolumla, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Sep 2021 19:12",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.14010800000005,
-                    -33.10518899999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "The Gipps Way, Condobolin",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426711",
-                "created": "2021-09-09T14:35:00+10:00",
-                "updated": "2021-09-10T00:35:00+10:00",
-                "location": "The Gipps Way, Condobolin, NSW 2877",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: The Gipps Way, Condobolin, NSW 2877 <br />COUNCIL AREA: Lachlan <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 00:35",
                 "title": "incident: fire"
             }
         },
