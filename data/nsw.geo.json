@@ -1083,10 +1083,111 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.92570710100006,
-                    -30.755177886999945
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.92570710100006,
+                            -30.755177886999945
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.926023319,
+                                            -30.7554237749999
+                                        ],
+                                        [
+                                            152.926023319,
+                                            -30.7556141319999
+                                        ],
+                                        [
+                                            152.925868654,
+                                            -30.7557093099999
+                                        ],
+                                        [
+                                            152.925630708,
+                                            -30.7557331049999
+                                        ],
+                                        [
+                                            152.925416556,
+                                            -30.7557806949999
+                                        ],
+                                        [
+                                            152.925107226,
+                                            -30.7557568999999
+                                        ],
+                                        [
+                                            152.924869281,
+                                            -30.7557568999999
+                                        ],
+                                        [
+                                            152.924821691,
+                                            -30.7556498239999
+                                        ],
+                                        [
+                                            152.924786,
+                                            -30.7554713649999
+                                        ],
+                                        [
+                                            152.924774102,
+                                            -30.755185829
+                                        ],
+                                        [
+                                            152.924881178,
+                                            -30.755078753
+                                        ],
+                                        [
+                                            152.925131021,
+                                            -30.7550311639999
+                                        ],
+                                        [
+                                            152.925297583,
+                                            -30.75495978
+                                        ],
+                                        [
+                                            152.925392761,
+                                            -30.755019266
+                                        ],
+                                        [
+                                            152.925309481,
+                                            -30.755162034
+                                        ],
+                                        [
+                                            152.925297583,
+                                            -30.755376186
+                                        ],
+                                        [
+                                            152.925392761,
+                                            -30.7554475699999
+                                        ],
+                                        [
+                                            152.925642606,
+                                            -30.755495158
+                                        ],
+                                        [
+                                            152.925690194,
+                                            -30.7554237749999
+                                        ],
+                                        [
+                                            152.925737784,
+                                            -30.7553404939999
+                                        ],
+                                        [
+                                            152.926023319,
+                                            -30.7554237749999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1278,6 +1379,30 @@
                 "location": "75 Fencott Drive Jewells",
                 "size": 6,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 75 Fencott Drive Jewells <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 9 Sep 2021 08:43",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.29703760100006,
+                    -33.594620978999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Currawong Lodge HR ",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/424854",
+                "created": "2021-09-09T22:06:00+10:00",
+                "updated": "2021-09-10T08:06:00+10:00",
+                "location": "Currawong Beach",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Currawong Beach <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 08:06",
                 "title": "incident: fire"
             }
         },
@@ -2636,30 +2761,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.3770561220001,
-                    -30.945969954999953
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Assist NSW Health",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/423646",
-                "created": "2021-09-09T20:15:00+10:00",
-                "updated": "2021-09-10T06:15:00+10:00",
-                "location": "Buckley Drive Coonamble",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Buckley Drive Coonamble <br />COUNCIL AREA: Coonamble <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 06:15",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.00873518000003,
                     -33.37737992999996
                 ]
@@ -2869,6 +2970,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Oswald Park Pl, Kurrajong, NSW 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 07:42",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.76209300000005,
+                    -34.469123999999965
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sheaffes Rd, Dombarton",
+                "category": "other",
+                "subcategory": "search/rescue",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426726",
+                "created": "2021-09-09T22:20:00+10:00",
+                "updated": "2021-09-10T08:20:00+10:00",
+                "location": "289 Sheaffes Rd, Dombarton, NSW 2530",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 289 Sheaffes Rd, Dombarton, NSW 2530 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Search/Rescue <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 08:20",
+                "title": "incident: other"
             }
         },
         {
