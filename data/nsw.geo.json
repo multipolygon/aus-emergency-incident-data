@@ -1506,10 +1506,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.05972400000007,
-                    -30.19291999999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.05972400000007,
+                            -30.19291999999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.057655301,
+                                            -30.19538955
+                                        ],
+                                        [
+                                            153.058821236,
+                                            -30.194485356
+                                        ],
+                                        [
+                                            153.059416102,
+                                            -30.1938666959999
+                                        ],
+                                        [
+                                            153.059606459,
+                                            -30.1938666959999
+                                        ],
+                                        [
+                                            153.059891994,
+                                            -30.1938666959999
+                                        ],
+                                        [
+                                            153.060653422,
+                                            -30.193961874
+                                        ],
+                                        [
+                                            153.061153108,
+                                            -30.194318793
+                                        ],
+                                        [
+                                            153.061248287,
+                                            -30.1945329449999
+                                        ],
+                                        [
+                                            153.061081725,
+                                            -30.195151605
+                                        ],
+                                        [
+                                            153.061200698,
+                                            -30.1959844159999
+                                        ],
+                                        [
+                                            153.060367886,
+                                            -30.196127184
+                                        ],
+                                        [
+                                            153.057655301,
+                                            -30.19538955
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1519,11 +1584,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426838",
-                "created": "2021-09-10T23:02:00+10:00",
-                "updated": "2021-09-11T09:02:00+10:00",
+                "created": "2021-09-10T23:21:00+10:00",
+                "updated": "2021-09-11T09:21:00+10:00",
                 "location": "East Bank Forest Rd, Karangi, NSW 2450",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: East Bank Forest Rd, Karangi, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Sep 2021 09:02",
+                "size": 6,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: East Bank Forest Rd, Karangi, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Sep 2021 09:21",
                 "title": "incident: fire"
             }
         },
@@ -3478,11 +3543,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426626",
-                "created": "2021-09-10T07:31:00+10:00",
-                "updated": "2021-09-10T17:31:00+10:00",
+                "created": "2021-09-10T23:12:00+10:00",
+                "updated": "2021-09-11T09:12:00+10:00",
                 "location": "Bay Road Berrilee",
                 "size": 222,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Bay Road Berrilee  <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 222 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 17:31",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Bay Road Berrilee  <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 222 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Sep 2021 09:12",
                 "title": "incident: fire"
             }
         },
@@ -4121,6 +4186,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.13534855800003,
+                    -28.522116522999966
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Williams Rd Barkers Vale HR",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426609",
+                "created": "2021-09-10T23:21:00+10:00",
+                "updated": "2021-09-11T09:21:00+10:00",
+                "location": "996A Williams Rd Barkers Vale",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 996A Williams Rd Barkers Vale <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Sep 2021 09:21",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -4204,30 +4293,6 @@
                 "location": "105 Prince Street Orange NSW 2800",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 105 Prince Street Orange NSW 2800 <br />COUNCIL AREA: Orange <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Sep 2021 12:18",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.35330772400005,
-                    -32.139498867999976
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Assist NSW Health Merriwa ",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426731",
-                "created": "2021-09-10T06:01:00+10:00",
-                "updated": "2021-09-10T16:01:00+10:00",
-                "location": "Bow Street Merriwa",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bow Street Merriwa <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 10 Sep 2021 16:01",
                 "title": "incident: other"
             }
         },
@@ -4516,6 +4581,30 @@
                 "location": "Olive Av, Phegans Bay, NSW 2256",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Olive Av, Phegans Bay, NSW 2256 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Sep 2021 08:26",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.01129651000008,
+                    -33.64332186599995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pile Burn",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426848",
+                "created": "2021-09-10T22:30:00+10:00",
+                "updated": "2021-09-11T08:30:00+10:00",
+                "location": "38 Cranstons Rd, Dural",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 38 Cranstons Rd, Dural <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Sep 2021 08:30",
                 "title": "incident: fire"
             }
         },
