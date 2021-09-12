@@ -1163,10 +1163,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.4608669280001,
-                    -33.13593361499994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.4608669280001,
+                            -33.13593361499994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.460840753,
+                                            -33.131898048
+                                        ],
+                                        [
+                                            151.462922782,
+                                            -33.1320646099999
+                                        ],
+                                        [
+                                            151.46046004,
+                                            -33.1343132009999
+                                        ],
+                                        [
+                                            151.459639126,
+                                            -33.1355386239999
+                                        ],
+                                        [
+                                            151.458901493,
+                                            -33.13758496
+                                        ],
+                                        [
+                                            151.457200179,
+                                            -33.138370181
+                                        ],
+                                        [
+                                            151.455498864,
+                                            -33.1370733759999
+                                        ],
+                                        [
+                                            151.454975383,
+                                            -33.135324472
+                                        ],
+                                        [
+                                            151.455153842,
+                                            -33.1350984229999
+                                        ],
+                                        [
+                                            151.456069934,
+                                            -33.13511032
+                                        ],
+                                        [
+                                            151.456771875,
+                                            -33.1341228439999
+                                        ],
+                                        [
+                                            151.459377385,
+                                            -33.134384584
+                                        ],
+                                        [
+                                            151.460840753,
+                                            -33.131898048
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1364,41 +1433,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.080216559,
-                                            -30.180785608
-                                        ],
-                                        [
-                                            153.080632965,
-                                            -30.181023555
-                                        ],
-                                        [
-                                            153.080751937,
-                                            -30.1822132849999
-                                        ],
-                                        [
-                                            153.080276045,
-                                            -30.1825702039999
-                                        ],
-                                        [
-                                            153.079681181,
-                                            -30.1826891769999
-                                        ],
-                                        [
-                                            153.079740667,
-                                            -30.182451231
-                                        ],
-                                        [
-                                            153.080216559,
-                                            -30.180785608
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.057655301,
                                             -30.19538955
                                         ],
@@ -1445,6 +1479,41 @@
                                         [
                                             153.057655301,
                                             -30.19538955
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.080216559,
+                                            -30.180785608
+                                        ],
+                                        [
+                                            153.080632965,
+                                            -30.181023555
+                                        ],
+                                        [
+                                            153.080751937,
+                                            -30.1822132849999
+                                        ],
+                                        [
+                                            153.080276045,
+                                            -30.1825702039999
+                                        ],
+                                        [
+                                            153.079681181,
+                                            -30.1826891769999
+                                        ],
+                                        [
+                                            153.079740667,
+                                            -30.182451231
+                                        ],
+                                        [
+                                            153.080216559,
+                                            -30.180785608
                                         ]
                                     ]
                                 ]
@@ -1725,11 +1794,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/424958",
-                "created": "2021-09-11T06:45:00+10:00",
-                "updated": "2021-09-11T16:45:00+10:00",
+                "created": "2021-09-12T03:57:00+10:00",
+                "updated": "2021-09-12T13:57:00+10:00",
                 "location": "5km NNW of Coopernook",
                 "size": 2263,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 5km NNW of Coopernook <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2263 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 11 Sep 2021 16:45",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 5km NNW of Coopernook <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 2263 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 12 Sep 2021 13:57",
                 "title": "incident: fire"
             }
         },
@@ -2536,37 +2605,13 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.66758600000003,
-                    -34.22946299999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hume Mtwy, Wilton",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427063",
-                "created": "2021-09-12T03:18:00+10:00",
-                "updated": "2021-09-12T13:18:00+10:00",
-                "location": "Hume Mtwy, Wilton, NSW 2571",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Hume Mtwy, Wilton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 13:18",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
                         "type": "Point",
                         "coordinates": [
-                            149.37784194900007,
-                            -35.64174293699995
+                            149.42093968400002,
+                            -35.68340920299994
                         ]
                     },
                     {
@@ -3246,11 +3291,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427029",
-                "created": "2021-09-12T01:38:00+10:00",
-                "updated": "2021-09-12T11:38:00+10:00",
+                "created": "2021-09-12T03:58:00+10:00",
+                "updated": "2021-09-12T13:58:00+10:00",
                 "location": "Langley Vale Rd, Lansdowne Forest, NSW 2430",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Langley Vale Rd, Lansdowne Forest, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 12 Sep 2021 11:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Langley Vale Rd, Lansdowne Forest, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 12 Sep 2021 13:58",
                 "title": "incident: fire"
             }
         },
@@ -3530,6 +3575,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.18807900000002,
+                    -33.05059499999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Olney Arm Rd, Dairy Arm",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427079",
+                "created": "2021-09-12T04:06:00+10:00",
+                "updated": "2021-09-12T14:06:00+10:00",
+                "location": "178 Olney Arm Rd, Dairy Arm, NSW 2325",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 178 Olney Arm Rd, Dairy Arm, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 14:06",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -3542,29 +3611,6 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            151.320925767,
-                                            -32.732494357
-                                        ],
-                                        [
-                                            151.320940208,
-                                            -32.7324983999999
-                                        ],
-                                        [
-                                            151.320821236,
-                                            -32.732950498
-                                        ],
-                                        [
-                                            151.320925767,
-                                            -32.732494357
-                                        ]
-                                    ]
-                                ]
-                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -3635,6 +3681,29 @@
                                         [
                                             151.32035724,
                                             -32.732343735
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.320925767,
+                                            -32.732494357
+                                        ],
+                                        [
+                                            151.320940208,
+                                            -32.7324983999999
+                                        ],
+                                        [
+                                            151.320821236,
+                                            -32.732950498
+                                        ],
+                                        [
+                                            151.320925767,
+                                            -32.732494357
                                         ]
                                     ]
                                 ]
@@ -3935,13 +4004,13 @@
                 "sourceTitle": "Scone Rd, Cobark",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427067",
-                "created": "2021-09-12T03:26:00+10:00",
-                "updated": "2021-09-12T13:26:00+10:00",
+                "created": "2021-09-12T03:53:00+10:00",
+                "updated": "2021-09-12T13:53:00+10:00",
                 "location": "1968 Scone Rd, Cobark, NSW 2422",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1968 Scone Rd, Cobark, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 13:26",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1968 Scone Rd, Cobark, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 13:53",
                 "title": "incident: fire"
             }
         },
@@ -4155,22 +4224,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.40406800000005,
-                    -32.27736299999998
+                    152.2332580000001,
+                    -29.00552799999997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "The Bogan Way, Tottenham",
+                "sourceTitle": "Timbarra Rd, Timbarra",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "bushfire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427072",
-                "created": "2021-09-12T03:38:00+10:00",
-                "updated": "2021-09-12T13:38:00+10:00",
-                "location": "4671 The Bogan Way, Tottenham, NSW 2873",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427074",
+                "created": "2021-09-12T03:58:00+10:00",
+                "updated": "2021-09-12T13:58:00+10:00",
+                "location": "1305 Timbarra Rd, Timbarra, NSW 2372",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 4671 The Bogan Way, Tottenham, NSW 2873 <br />COUNCIL AREA: Lachlan <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 13:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1305 Timbarra Rd, Timbarra, NSW 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 13:58",
                 "title": "incident: fire"
             }
         },
@@ -4189,6 +4258,29 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.615662677,
+                                            -32.4628432979999
+                                        ],
+                                        [
+                                            151.615924419,
+                                            -32.462248432
+                                        ],
+                                        [
+                                            151.616376516,
+                                            -32.462058075
+                                        ],
+                                        [
+                                            151.615662677,
+                                            -32.4628432979999
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -4334,29 +4426,6 @@
                                         ]
                                     ]
                                 ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            151.615662677,
-                                            -32.4628432979999
-                                        ],
-                                        [
-                                            151.615924419,
-                                            -32.462248432
-                                        ],
-                                        [
-                                            151.616376516,
-                                            -32.462058075
-                                        ],
-                                        [
-                                            151.615662677,
-                                            -32.4628432979999
-                                        ]
-                                    ]
-                                ]
                             }
                         ]
                     }
@@ -4369,11 +4438,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426898",
-                "created": "2021-09-12T03:26:00+10:00",
-                "updated": "2021-09-12T13:26:00+10:00",
+                "created": "2021-09-12T04:08:00+10:00",
+                "updated": "2021-09-12T14:08:00+10:00",
                 "location": "611 Torryburn Rd, Torryburn, NSW 2421",
                 "size": 45,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 611 Torryburn Rd, Torryburn, NSW 2421 <br />COUNCIL AREA: Dungog <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 45 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 13:26",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 611 Torryburn Rd, Torryburn, NSW 2421 <br />COUNCIL AREA: Dungog <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 45 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 14:08",
                 "title": "incident: fire"
             }
         },
@@ -4713,52 +4782,6 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.475446298,
-                                            -30.8134096699999
-                                        ],
-                                        [
-                                            152.475615456,
-                                            -30.813958031
-                                        ],
-                                        [
-                                            152.47555597,
-                                            -30.813958031
-                                        ],
-                                        [
-                                            152.475446298,
-                                            -30.8134096699999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.475446298,
-                                            -30.8134096699999
-                                        ],
-                                        [
-                                            152.475355568,
-                                            -30.81311555
-                                        ],
-                                        [
-                                            152.475389408,
-                                            -30.813125219
-                                        ],
-                                        [
-                                            152.475446298,
-                                            -30.8134096699999
-                                        ]
-                                    ]
-                                ]
-                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -5229,11 +5252,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427041",
-                "created": "2021-09-12T02:52:00+10:00",
-                "updated": "2021-09-12T12:52:00+10:00",
+                "created": "2021-09-12T04:03:00+10:00",
+                "updated": "2021-09-12T14:03:00+10:00",
                 "location": "Wallace Rd, Ellenborough, NSW 2446",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Wallace Rd, Ellenborough, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 12:52",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Wallace Rd, Ellenborough, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 14:03",
                 "title": "incident: fire"
             }
         },
@@ -5355,8 +5378,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.76690900000006,
-                    -29.514426999999955
+                    152.76386261000005,
+                    -29.484735161999936
                 ]
             },
             "properties": {
@@ -5688,30 +5711,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.78834200100005,
-                    -34.20053900099998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Appin Rd, Appin",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427049",
-                "created": "2021-09-12T02:40:00+10:00",
-                "updated": "2021-09-12T12:40:00+10:00",
-                "location": "78 Appin Rd, Appin, NSW 2560",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 78 Appin Rd, Appin, NSW 2560 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 12:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.09927845000004,
                     -33.276906441999984
                 ]
@@ -5784,30 +5783,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.13006100000007,
-                    -33.61679699999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Barnetts Rd, Berowra Heights",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427058",
-                "created": "2021-09-12T03:36:00+10:00",
-                "updated": "2021-09-12T13:36:00+10:00",
-                "location": "Barnetts Rd, Berowra Heights, NSW 2082",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Barnetts Rd, Berowra Heights, NSW 2082 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 Sep 2021 13:36",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.6931830000001,
                     -31.640316999999982
                 ]
@@ -5856,6 +5831,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.10204625200004,
+                    -28.61760346799997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cawongla Rd, Cawongla",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427071",
+                "created": "2021-09-12T04:00:00+10:00",
+                "updated": "2021-09-12T14:00:00+10:00",
+                "location": "1825 Cawongla Rd, Cawongla, NSW 2474",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1825 Cawongla Rd, Cawongla, NSW 2474 <br />COUNCIL AREA: Kyogle <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 14:00",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.61899400000004,
                     -32.42210599999993
                 ]
@@ -5880,6 +5879,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.08021399900008,
+                    -29.764763999999957
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Corella Ct, Inverell",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427034",
+                "created": "2021-09-12T01:26:00+10:00",
+                "updated": "2021-09-12T11:26:00+10:00",
+                "location": "14 Corella Ct, Inverell, NSW 2360",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 14 Corella Ct, Inverell, NSW 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Out of control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 11:26",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.85216903700007,
                     -29.430776949999938
                 ]
@@ -5891,11 +5914,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/426536",
-                "created": "2021-09-11T05:01:00+10:00",
-                "updated": "2021-09-11T15:01:00+10:00",
+                "created": "2021-09-12T04:12:00+10:00",
+                "updated": "2021-09-12T14:12:00+10:00",
                 "location": "New England Highway Deepwater",
                 "size": 15,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Highway Deepwater <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 15 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Sep 2021 15:01",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Highway Deepwater <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 15 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 14:12",
                 "title": "incident: fire"
             }
         },
@@ -5921,6 +5944,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Boggabilla & Toomelah <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 10 Sep 2021 08:01",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.66758600000003,
+                    -34.22946299999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hume Mtwy, Wilton",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427077",
+                "created": "2021-09-12T04:11:00+10:00",
+                "updated": "2021-09-12T14:11:00+10:00",
+                "location": "Hume Mtwy, Wilton, NSW 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Mtwy, Wilton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 14:11",
+                "title": "incident: fire"
             }
         },
         {
@@ -5976,6 +6023,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.12489300000004,
+                    -31.89426499999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kramback St, Bundook",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427073",
+                "created": "2021-09-12T03:59:00+10:00",
+                "updated": "2021-09-12T13:59:00+10:00",
+                "location": "40 Kramback St, Bundook, NSW 2422",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 40 Kramback St, Bundook, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 13:59",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     144.90272400000003,
                     -35.814682999999945
                 ]
@@ -5993,6 +6064,54 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 38 Mathoura St, Mathoura, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Sep 2021 22:09",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.91651600000012,
+                    -34.491938999999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Military Road, Port Kembla",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427075",
+                "created": "2021-09-12T04:04:00+10:00",
+                "updated": "2021-09-12T14:04:00+10:00",
+                "location": "27 Military Road, Port Kembla, NSW 2505",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 27 Military Road, Port Kembla, NSW 2505 <br />COUNCIL AREA: Wollongong <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 Sep 2021 14:04",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.0360340000001,
+                    -32.76933199999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nelson Bay Rd, Bobs Farm",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427078",
+                "created": "2021-09-12T04:04:00+10:00",
+                "updated": "2021-09-12T14:04:00+10:00",
+                "location": "Nelson Bay Rd, Bobs Farm, NSW 2316",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Nelson Bay Rd, Bobs Farm, NSW 2316 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 14:04",
+                "title": "incident: other"
             }
         },
         {
@@ -6040,30 +6159,6 @@
                 "location": "1030 Old Hume Hwy, Alpine, NSW 2575",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1030 Old Hume Hwy, Alpine, NSW 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 13:28",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.28012400000011,
-                    -33.41950699999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old Pacific Hwy, Somersby",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427060",
-                "created": "2021-09-12T03:48:00+10:00",
-                "updated": "2021-09-12T13:48:00+10:00",
-                "location": "1090 Old Pacific Hwy, Somersby, NSW 2250",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1090 Old Pacific Hwy, Somersby, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 13:48",
                 "title": "incident: fire"
             }
         },
@@ -6249,6 +6344,30 @@
                 "location": "2443 The Bucketts Way, Wards River, NSW 2422",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2443 The Bucketts Way, Wards River, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Sep 2021 12:37",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.467124,
+                    -33.268520999999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Ridge, Wadalba",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/427076",
+                "created": "2021-09-12T03:58:00+10:00",
+                "updated": "2021-09-12T13:58:00+10:00",
+                "location": "The Ridge, Wadalba, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: The Ridge, Wadalba, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 Sep 2021 13:58",
                 "title": "incident: fire"
             }
         }
