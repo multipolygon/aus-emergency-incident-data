@@ -574,10 +574,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.95904159500003,
-                    -30.03407415399994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.95904159500003,
+                            -30.03407415399994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.962457966,
+                                            -30.038670678
+                                        ],
+                                        [
+                                            152.961653614,
+                                            -30.0397196709999
+                                        ],
+                                        [
+                                            152.959581045,
+                                            -30.039391168
+                                        ],
+                                        [
+                                            152.956855593,
+                                            -30.038341077
+                                        ],
+                                        [
+                                            152.958175572,
+                                            -30.035947958
+                                        ],
+                                        [
+                                            152.958426986,
+                                            -30.03549993
+                                        ],
+                                        [
+                                            152.960235715,
+                                            -30.035740937
+                                        ],
+                                        [
+                                            152.961943842,
+                                            -30.0362988439999
+                                        ],
+                                        [
+                                            152.962457966,
+                                            -30.038670678
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -587,11 +640,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430318",
-                "created": "2021-10-06T09:29:00+11:00",
-                "updated": "2021-10-06T20:29:00+11:00",
+                "created": "2021-10-06T09:48:00+11:00",
+                "updated": "2021-10-06T20:48:00+11:00",
                 "location": "Tallawudjah Creek Rd, Glenreagh, NSW 2450",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Tallawudjah Creek Rd, Glenreagh, NSW 2450 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2021 20:29",
+                "size": 40,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Tallawudjah Creek Rd, Glenreagh, NSW 2450 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 40 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2021 20:48",
                 "title": "incident: fire"
             }
         },
@@ -806,30 +859,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.48449200000005,
-                    -33.38277899999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bateau Bay Rd, Bateau Bay",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430320",
-                "created": "2021-10-06T09:46:00+11:00",
-                "updated": "2021-10-06T20:46:00+11:00",
-                "location": "Bateau Bay Rd, Bateau Bay, NSW 2261",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bateau Bay Rd, Bateau Bay, NSW 2261 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2021 20:46",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.25573900000006,
                     -34.29990399999997
                 ]
@@ -959,13 +988,13 @@
                 "sourceTitle": "Pacific Hwy, Bulahdelah",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430319",
-                "created": "2021-10-06T09:12:00+11:00",
-                "updated": "2021-10-06T20:12:00+11:00",
+                "created": "2021-10-06T09:47:00+11:00",
+                "updated": "2021-10-06T20:47:00+11:00",
                 "location": "Pacific Hwy, Bulahdelah, NSW 2423",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Bulahdelah, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2021 20:12",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Bulahdelah, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2021 20:47",
                 "title": "incident: fire"
             }
         },
