@@ -707,10 +707,83 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.724345684,
-                    -32.56894989899996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.724345684,
+                            -32.56894989899996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.722651002,
+                                            -32.570209964
+                                        ],
+                                        [
+                                            151.722710489,
+                                            -32.570150477
+                                        ],
+                                        [
+                                            151.723007922,
+                                            -32.570090991
+                                        ],
+                                        [
+                                            151.723424327,
+                                            -32.569983915
+                                        ],
+                                        [
+                                            151.723674171,
+                                            -32.569734072
+                                        ],
+                                        [
+                                            151.723912116,
+                                            -32.5687822859999
+                                        ],
+                                        [
+                                            151.724721133,
+                                            -32.568794184
+                                        ],
+                                        [
+                                            151.724031089,
+                                            -32.572303889
+                                        ],
+                                        [
+                                            151.723864528,
+                                            -32.572351479
+                                        ],
+                                        [
+                                            151.722758078,
+                                            -32.572065944
+                                        ],
+                                        [
+                                            151.722341672,
+                                            -32.571685229
+                                        ],
+                                        [
+                                            151.721960958,
+                                            -32.571316413
+                                        ],
+                                        [
+                                            151.721972856,
+                                            -32.57106657
+                                        ],
+                                        [
+                                            151.722651002,
+                                            -32.570209964
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -749,6 +822,30 @@
                 "location": "59 Belmore Rd, Burrangong, NSW 2594",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 59 Belmore Rd, Burrangong, NSW 2594 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2021 15:38",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.0440350010001,
+                    -28.85384499999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bent St, Casino",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430306",
+                "created": "2021-10-06T06:32:00+11:00",
+                "updated": "2021-10-06T17:32:00+11:00",
+                "location": "Bent St, Casino, NSW 2470",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bent St, Casino, NSW 2470 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Oct 2021 17:32",
                 "title": "incident: fire"
             }
         },
@@ -805,30 +902,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.0416564940001,
-                    -30.67276254799998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kamilaroi Hwy, Boggabri",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430301",
-                "created": "2021-10-06T05:42:00+11:00",
-                "updated": "2021-10-06T16:42:00+11:00",
-                "location": "Kamilaroi Hwy, Boggabri, NSW 2382",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kamilaroi Hwy, Boggabri, NSW 2382 <br />COUNCIL AREA: Gunnedah <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2021 16:42",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.7325330000001,
                     -33.788097999999934
                 ]
@@ -869,6 +942,30 @@
                 "location": "Putty Rd, East Kurrajong, NSW 2758",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Putty Rd, East Kurrajong, NSW 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2021 11:26",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.22229200000004,
+                    -33.81020499999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sailors Bay Rd, Northbridge",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430307",
+                "created": "2021-10-06T06:34:00+11:00",
+                "updated": "2021-10-06T17:34:00+11:00",
+                "location": "Sailors Bay Rd, Northbridge, NSW 2063",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sailors Bay Rd, Northbridge, NSW 2063 <br />COUNCIL AREA: Willoughby <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Oct 2021 17:34",
                 "title": "incident: fire"
             }
         },
