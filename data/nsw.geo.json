@@ -2245,10 +2245,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.24161900000001,
-                    -33.76306899999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.2373852720001,
+                            -33.76271941199997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.236882828,
+                                            -33.761071236
+                                        ],
+                                        [
+                                            151.238500861,
+                                            -33.761761279
+                                        ],
+                                        [
+                                            151.238596039,
+                                            -33.762820139
+                                        ],
+                                        [
+                                            151.237608563,
+                                            -33.7631175719999
+                                        ],
+                                        [
+                                            151.236644881,
+                                            -33.762320452
+                                        ],
+                                        [
+                                            151.236882828,
+                                            -33.761071236
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3085,13 +3126,13 @@
                 "sourceTitle": "Princes Hwy, Meroo Meadow",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430646",
-                "created": "2021-10-09T23:27:00+11:00",
-                "updated": "2021-10-10T10:27:00+11:00",
+                "created": "2021-10-09T23:43:00+11:00",
+                "updated": "2021-10-10T10:43:00+11:00",
                 "location": "Princes Hwy, Meroo Meadow, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Princes Hwy, Meroo Meadow, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2021 10:27",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Princes Hwy, Meroo Meadow, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2021 10:43",
                 "title": "incident: fire"
             }
         },
@@ -4121,6 +4162,30 @@
                 "location": "Pilliga Rd, Gilgooma, NSW 2829",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pilliga Rd, Gilgooma, NSW 2829 <br />COUNCIL AREA: Coonamble <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Oct 2021 19:42",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.81049200000007,
+                    -32.65285499999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Renshaw Mcgirr Way, Walmer",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430649",
+                "created": "2021-10-09T23:44:00+11:00",
+                "updated": "2021-10-10T10:44:00+11:00",
+                "location": "1931 Renshaw Mcgirr Way, Walmer, NSW 2820",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1931 Renshaw Mcgirr Way, Walmer, NSW 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Oct 2021 10:44",
                 "title": "incident: fire"
             }
         },
