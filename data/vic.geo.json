@@ -3707,14 +3707,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Calder Hwy",
+                "sourceTitle": "Johnson St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2021-10-10T15:42:00+11:00",
-                "updated": "2021-10-10T15:42:00+11:00",
-                "id": "ESTA:211008259",
-                "location": "Calder Hwy, Wycheproof",
+                "status": "under control",
+                "created": "2021-10-10T15:41:00+11:00",
+                "updated": "2021-10-10T15:57:00+11:00",
+                "id": "ESTA:211008257",
+                "location": "Johnson St, Birchip",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3722,8 +3722,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.2251711069532,
-                    -36.06983580407595
+                    142.91286907246112,
+                    -35.98361630373163
                 ]
             }
         },
@@ -3733,9 +3733,9 @@
                 "sourceTitle": "Simone St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2021-10-10T15:40:00+11:00",
-                "updated": "2021-10-10T15:40:00+11:00",
+                "updated": "2021-10-10T15:59:00+11:00",
                 "id": "ESTA:211008255",
                 "location": "Simone St, Kilmore",
                 "size": "Small",
@@ -3753,14 +3753,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Story St",
+                "sourceTitle": "Main St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2021-10-10T15:43:49+11:00",
-                "updated": "2021-10-10T15:43:49+11:00",
-                "id": "ESTA:211008252",
-                "location": "Story St, Parkville",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2021-10-10T16:07:58+11:00",
+                "updated": "2021-10-10T16:07:58+11:00",
+                "id": "ESTA:211008280",
+                "location": "Main St, Bacchus Marsh",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -3768,31 +3768,75 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.95668160421437,
-                    -37.79726646128553
+                    144.42604833933444,
+                    -37.67163758993693
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Johnson St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2021-10-10T16:08:00+11:00",
+                "updated": "2021-10-10T16:08:00+11:00",
+                "id": "ESTA:211050825",
+                "location": "Lexton",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.5056380687608,
+                    -37.2788771527802
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murray, Howlong",
                 "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2021-10-10T15:41:00+11:00",
-                "updated": "2021-10-10T15:41:00+11:00",
-                "id": "ESTA:211008257",
-                "location": "Johnson St, Birchip",
-                "size": "Small",
+                "subcategory": "other non-urgent alerts",
+                "status": "being controlled",
+                "created": "2021-10-10T15:59:00+11:00",
+                "updated": "2021-10-10T15:59:00+11:00",
+                "id": "2021-10-10T15:59:00.0000000:430677",
+                "location": "Murray, Howlong, Nsw 0000",
                 "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.91286907246112,
-                    -35.98361630373163
+                    146.622613,
+                    -35.9873949999999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Calder Hwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2021-10-10T15:42:00+11:00",
+                "updated": "2021-10-10T15:54:00+11:00",
+                "id": "ESTA:211008259",
+                "location": "Calder Hwy, Wycheproof",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.2251711069532,
+                    -36.06983580407595
                 ]
             }
         },
@@ -3845,29 +3889,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Acacia St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-10-10T15:01:00+11:00",
-                "updated": "2021-10-10T15:10:00+11:00",
-                "id": "ESTA:211008220",
-                "location": "Acacia St, Yarrawonga",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.9983799185846,
-                    -36.02812575004698
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
@@ -3908,6 +3929,52 @@
                 "coordinates": [
                     144.62138717631643,
                     -37.517652616153015
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Story St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2021-10-10T16:05:50+11:00",
+                "updated": "2021-10-10T16:05:50+11:00",
+                "id": "ESTA:211008252",
+                "location": "Story St, Parkville",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95668160421437,
+                    -37.79726646128553
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maroondah Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2021-10-10T16:06:01+11:00",
+                "updated": "2021-10-10T16:06:01+11:00",
+                "id": "ESTA:211008276",
+                "location": "Maroondah Hwy, Croydon",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2688845592758,
+                    -37.78870164336415
                 ]
             }
         }
