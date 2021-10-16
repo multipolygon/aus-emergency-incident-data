@@ -28,10 +28,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.97085952800012,
-                    -33.96550159599997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.97127211200007,
+                            -33.966418001999955
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.970879501,
+                                            -33.966334721
+                                        ],
+                                        [
+                                            150.970938987,
+                                            -33.9661443639999
+                                        ],
+                                        [
+                                            150.971379188,
+                                            -33.966394207
+                                        ],
+                                        [
+                                            150.971510058,
+                                            -33.9662871309999
+                                        ],
+                                        [
+                                            150.971640928,
+                                            -33.966358516
+                                        ],
+                                        [
+                                            150.971414879,
+                                            -33.966572667
+                                        ],
+                                        [
+                                            150.971438674,
+                                            -33.966548872
+                                        ],
+                                        [
+                                            150.970879501,
+                                            -33.966334721
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -41,11 +90,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430988",
-                "created": "2021-10-16T07:23:00+11:00",
-                "updated": "2021-10-16T18:23:00+11:00",
+                "created": "2021-10-16T07:43:00+11:00",
+                "updated": "2021-10-16T18:43:00+11:00",
                 "location": "Heathcote Rd, Holsworthy, NSW 2173",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Heathcote Rd, Holsworthy, NSW 2173 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2021 18:23",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Heathcote Rd, Holsworthy, NSW 2173 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2021 18:43",
                 "title": "incident: fire"
             }
         },
@@ -102,54 +151,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.75889700000005,
-                    -34.498688999999956
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Brooks Reach Rd, Horsley",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430978",
-                "created": "2021-10-16T04:40:00+11:00",
-                "updated": "2021-10-16T15:40:00+11:00",
-                "location": "47 Brooks Reach Rd, Horsley, NSW 2530",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 47 Brooks Reach Rd, Horsley, NSW 2530 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2021 15:40",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.69973100000004,
-                    -35.00775999999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Callala Beach Rd, Callala Beach",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430976",
-                "created": "2021-10-16T05:49:00+11:00",
-                "updated": "2021-10-16T16:49:00+11:00",
-                "location": "Callala Beach Rd, Callala Beach, NSW 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Callala Beach Rd, Callala Beach, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2021 16:49",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.16379356400012,
                     -34.698878097999966
                 ]
@@ -174,22 +175,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.8863500000001,
-                    -32.81274099999996
+                    150.799978,
+                    -34.571466999999984
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Putty Rd, Howes Valley",
+                "sourceTitle": "Pine St, Albion Park Rail",
                 "category": "other",
-                "subcategory": "flood/storm/tree down",
+                "subcategory": "fire alarm",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430982",
-                "created": "2021-10-16T05:18:00+11:00",
-                "updated": "2021-10-16T16:18:00+11:00",
-                "location": "Putty Rd, Howes Valley, NSW 2330",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/430990",
+                "created": "2021-10-16T07:41:00+11:00",
+                "updated": "2021-10-16T18:41:00+11:00",
+                "location": "2 Pine St, Albion Park Rail,  2527",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Putty Rd, Howes Valley, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Oct 2021 16:18",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2 Pine St, Albion Park Rail,  2527 <br />COUNCIL AREA: Shellharbour <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Oct 2021 18:41",
                 "title": "incident: other"
             }
         },
