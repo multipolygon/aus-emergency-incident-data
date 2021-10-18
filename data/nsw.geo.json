@@ -4,10 +4,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.83514900000011,
-                    -32.843771999999944
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.83514900000011,
+                            -32.843771999999944
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.824902478,
+                                            -32.849154507
+                                        ],
+                                        [
+                                            151.824842992,
+                                            -32.8488689709999
+                                        ],
+                                        [
+                                            151.825057144,
+                                            -32.8488451769999
+                                        ],
+                                        [
+                                            151.825247501,
+                                            -32.8487618959999
+                                        ],
+                                        [
+                                            151.825473549,
+                                            -32.84865482
+                                        ],
+                                        [
+                                            151.825652009,
+                                            -32.8487856899999
+                                        ],
+                                        [
+                                            151.825390268,
+                                            -32.848940355
+                                        ],
+                                        [
+                                            151.825247501,
+                                            -32.8489522519999
+                                        ],
+                                        [
+                                            151.824961966,
+                                            -32.84896415
+                                        ],
+                                        [
+                                            151.824902478,
+                                            -32.849154507
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -22,30 +79,6 @@
                 "location": "Nelson Bay Rd, Fullerton Cove, NSW 2318",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Nelson Bay Rd, Fullerton Cove, NSW 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2021 18:25",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.5207590000001,
-                    -28.490898999999956
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Brunswick Valley Way, Billinudgel",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/431124",
-                "created": "2021-10-18T07:43:00+11:00",
-                "updated": "2021-10-18T18:43:00+11:00",
-                "location": "Brunswick Valley Way, Billinudgel, NSW 2483",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Brunswick Valley Way, Billinudgel, NSW 2483 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2021 18:43",
                 "title": "incident: fire"
             }
         },
@@ -70,6 +103,30 @@
                 "location": "Culburra Rd, Culburra Beach, NSW 2540",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Culburra Rd, Culburra Beach, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2021 17:18",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.79876500000012,
+                    -32.535256999999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glen William Rd, Glen William",
+                "category": "other",
+                "subcategory": "medical",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/431126",
+                "created": "2021-10-18T07:52:00+11:00",
+                "updated": "2021-10-18T18:52:00+11:00",
+                "location": "606 Glen William Rd, Glen William, NSW 2321",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 606 Glen William Rd, Glen William, NSW 2321 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Oct 2021 18:52",
                 "title": "incident: other"
             }
         },
