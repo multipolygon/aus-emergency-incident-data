@@ -280,23 +280,64 @@
                 "sourceTitle": "Muscle Creek Rd, Muscle Creek",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/431928",
-                "created": "2021-10-29T04:03:00+11:00",
-                "updated": "2021-10-29T15:03:00+11:00",
+                "created": "2021-10-29T04:20:00+11:00",
+                "updated": "2021-10-29T15:20:00+11:00",
                 "location": "Muscle Creek Rd, Muscle Creek, NSW 2333",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Muscle Creek Rd, Muscle Creek, NSW 2333 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Oct 2021 15:03",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Muscle Creek Rd, Muscle Creek, NSW 2333 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Oct 2021 15:20",
                 "title": "incident: fire"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.9410180000001,
-                    -33.494284999999934
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.9410180000001,
+                            -33.494284999999934
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.942984588,
+                                            -33.492775088
+                                        ],
+                                        [
+                                            150.940844176,
+                                            -33.494545274
+                                        ],
+                                        [
+                                            150.940505499,
+                                            -33.4942441589999
+                                        ],
+                                        [
+                                            150.940059145,
+                                            -33.493831757
+                                        ],
+                                        [
+                                            150.942065842,
+                                            -33.4920371429999
+                                        ],
+                                        [
+                                            150.942984588,
+                                            -33.492775088
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -306,11 +347,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/431931",
-                "created": "2021-10-29T04:10:00+11:00",
-                "updated": "2021-10-29T15:10:00+11:00",
+                "created": "2021-10-29T04:16:00+11:00",
+                "updated": "2021-10-29T15:16:00+11:00",
                 "location": "118 Sackville Ferry Rd, South Maroota, NSW 2756",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 118 Sackville Ferry Rd, South Maroota, NSW 2756 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Oct 2021 15:10",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 118 Sackville Ferry Rd, South Maroota, NSW 2756 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Oct 2021 15:16",
                 "title": "incident: fire"
             }
         },
@@ -391,6 +432,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.77982300100007,
+                    -32.58610699999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grey St, Clarence Town",
+                "category": "other",
+                "subcategory": "medical",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/431935",
+                "created": "2021-10-29T04:42:00+11:00",
+                "updated": "2021-10-29T15:42:00+11:00",
+                "location": "47 Grey St, Clarence Town, NSW 2321",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 47 Grey St, Clarence Town, NSW 2321 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Oct 2021 15:42",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.3770720000001,
+                    -35.37191399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kingiman Rd, Woodburn",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/431933",
+                "created": "2021-10-29T04:18:00+11:00",
+                "updated": "2021-10-29T15:18:00+11:00",
+                "location": "56A Kingiman Rd, Woodburn, NSW 2538",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 56A Kingiman Rd, Woodburn, NSW 2538 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Oct 2021 15:18",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     146.69228553800008,
                     -33.08884492399994
                 ]
@@ -439,22 +528,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.2804479990001,
-                    -34.60916499999996
+                    151.18721500000004,
+                    -33.49649599999998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Old Argyle Rd, Exeter",
+                "sourceTitle": "Pacific Mtwy, Bar Point",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "vehicle/equipment fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/431932",
-                "created": "2021-10-29T03:56:00+11:00",
-                "updated": "2021-10-29T14:56:00+11:00",
-                "location": "Old Argyle Rd, Exeter, NSW 2579",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/431934",
+                "created": "2021-10-29T04:30:00+11:00",
+                "updated": "2021-10-29T15:30:00+11:00",
+                "location": "Pacific Mtwy, Bar Point, NSW 2083",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Old Argyle Rd, Exeter, NSW 2579 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Oct 2021 14:56",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Mtwy, Bar Point, NSW 2083 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Oct 2021 15:30",
                 "title": "incident: fire"
             }
         },
