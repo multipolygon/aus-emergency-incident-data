@@ -775,9 +775,9 @@
                 "sourceTitle": "Wimmera 7 - Sawpit Swamp - Roscrea Road",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet under control",
+                "status": "contained",
                 "created": "2021-11-08T15:31:00+11:00",
-                "updated": "2021-11-08T17:33:00+11:00",
+                "updated": "2021-11-08T18:35:00+11:00",
                 "id": 985337,
                 "location": "6Km Sw Murtoa",
                 "size": "4.00",
@@ -809,8 +809,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.447325,
-                    -36.691263
+                    142.4473,
+                    -36.6913
                 ]
             }
         },
@@ -887,21 +887,44 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
+                "category": "tree down",
+                "subcategory": "tree down",
                 "status": "complete",
-                "created": "2021-11-08T16:46:00+11:00",
-                "updated": "2021-11-08T18:28:00+11:00",
-                "id": "ESTA:211109206",
-                "location": "Stonehaven",
-                "title": "incident: rescue"
+                "created": "2021-11-08T16:51:00+11:00",
+                "updated": "2021-11-08T18:43:00+11:00",
+                "id": "ESTA:211153591",
+                "location": "Rosebud",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.26491075606705,
-                    -38.11314669572432
+                    144.9110788514682,
+                    -38.3726939671879
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Caroline Springs",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2021-11-08T18:48:35+11:00",
+                "updated": "2021-11-08T18:48:35+11:00",
+                "id": "ESTA:211109281",
+                "location": "Caroline Springs, Caroline Springs",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74642518388683,
+                    -37.739791257578624
                 ]
             }
         },
@@ -2226,75 +2249,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murray St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-11-08T17:53:00+11:00",
-                "updated": "2021-11-08T17:54:00+11:00",
-                "id": "ESTA:211109254",
-                "location": "Murray St, Rye",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.78964186046113,
-                    -38.370583519545704
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Christies Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2021-11-08T17:11:00+11:00",
-                "updated": "2021-11-08T17:50:00+11:00",
-                "id": "ESTA:211109227",
-                "location": "Christies Rd, Katunga",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.41369967510215,
-                    -35.9690700886972
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Howitt St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2021-11-08T16:42:00+11:00",
-                "updated": "2021-11-08T17:39:00+11:00",
-                "id": "ESTA:211109199",
-                "location": "Howitt St, Wendouree",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.84501897817685,
-                    -37.54180740422658
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -2341,6 +2295,52 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Murray St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2021-11-08T17:53:00+11:00",
+                "updated": "2021-11-08T17:54:00+11:00",
+                "id": "ESTA:211109254",
+                "location": "Murray St, Rye",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.78964186046113,
+                    -38.370583519545704
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Christies Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2021-11-08T17:11:00+11:00",
+                "updated": "2021-11-08T17:50:00+11:00",
+                "id": "ESTA:211109227",
+                "location": "Christies Rd, Katunga",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.41369967510215,
+                    -35.9690700886972
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Marshall Av",
                 "category": "other",
                 "subcategory": "other",
@@ -2368,40 +2368,18 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2021-11-08T16:51:00+11:00",
-                "updated": "2021-11-08T16:56:00+11:00",
-                "id": "ESTA:211153591",
-                "location": "Rosebud",
+                "created": "2021-10-29T12:00:00+11:00",
+                "updated": "2021-11-08T18:47:37+11:00",
+                "id": "ESTA:425134",
+                "location": "Altona",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9110788514682,
-                    -38.3726939671879
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2021-11-08T15:30:00+11:00",
-                "updated": "2021-11-08T16:38:00+11:00",
-                "id": "ESTA:211153575",
-                "location": "Carrum Downs",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.19266259565856,
-                    -38.09306260721077
+                    144.82235972399315,
+                    -37.863237207767845
                 ]
             }
         },
@@ -2411,19 +2389,19 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2021-11-08T13:07:00+11:00",
-                "updated": "2021-11-08T16:23:00+11:00",
-                "id": "ESTA:211153544",
-                "location": "Hoppers Crossing",
+                "status": "on scene",
+                "created": "2021-11-08T18:05:00+11:00",
+                "updated": "2021-11-08T18:36:00+11:00",
+                "id": "ESTA:211153602",
+                "location": "Kilmore",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.66805198099752,
-                    -37.875690026785705
+                    144.95412456991548,
+                    -37.2977608096668
                 ]
             }
         },
@@ -2446,28 +2424,6 @@
                 "coordinates": [
                     144.8822093339293,
                     -37.70840029671869
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2021-11-08T18:05:00+11:00",
-                "updated": "2021-11-08T18:31:00+11:00",
-                "id": "ESTA:211153602",
-                "location": "Kilmore",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95412456991548,
-                    -37.2977608096668
                 ]
             }
         },
@@ -2578,6 +2534,50 @@
                 "coordinates": [
                     144.73203683574368,
                     -38.338648131108705
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2021-11-08T15:30:00+11:00",
+                "updated": "2021-11-08T16:38:00+11:00",
+                "id": "ESTA:211153575",
+                "location": "Carrum Downs",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19266259565856,
+                    -38.09306260721077
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2021-11-08T13:07:00+11:00",
+                "updated": "2021-11-08T16:23:00+11:00",
+                "id": "ESTA:211153544",
+                "location": "Hoppers Crossing",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.66805198099752,
+                    -37.875690026785705
                 ]
             }
         },
