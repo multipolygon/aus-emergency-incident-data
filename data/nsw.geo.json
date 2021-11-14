@@ -52,10 +52,78 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.14479541800006,
-                    -32.741605636999964
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.14479541800006,
+                            -32.741605636999964
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.1456004,
+                                            -32.744612381
+                                        ],
+                                        [
+                                            151.145636092,
+                                            -32.7441602829999
+                                        ],
+                                        [
+                                            151.146028703,
+                                            -32.74421977
+                                        ],
+                                        [
+                                            151.145933525,
+                                            -32.7446599699999
+                                        ],
+                                        [
+                                            151.1456004,
+                                            -32.744612381
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.14268556,
+                                            -32.740817141
+                                        ],
+                                        [
+                                            151.142721252,
+                                            -32.740650579
+                                        ],
+                                        [
+                                            151.143958572,
+                                            -32.740817141
+                                        ],
+                                        [
+                                            151.143922881,
+                                            -32.740983703
+                                        ],
+                                        [
+                                            151.142697458,
+                                            -32.7408290389999
+                                        ],
+                                        [
+                                            151.14268556,
+                                            -32.740817141
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -78,6 +146,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.57791300000008,
+                    -32.19544399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Salisbury Rd, Salisbury",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/433043",
+                "created": "2021-11-14T05:36:00+11:00",
+                "updated": "2021-11-14T16:36:00+11:00",
+                "location": "2317 Salisbury Rd, Salisbury, NSW 2420",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2317 Salisbury Rd, Salisbury, NSW 2420 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2021 16:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.83076300000005,
                     -34.14166499999993
                 ]
@@ -89,11 +181,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/433039",
-                "created": "2021-11-14T05:08:00+11:00",
-                "updated": "2021-11-14T16:08:00+11:00",
+                "created": "2021-11-14T05:59:00+11:00",
+                "updated": "2021-11-14T16:59:00+11:00",
                 "location": "50 Winton Cl, Wedderburn, NSW 2560",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 50 Winton Cl, Wedderburn, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2021 16:08",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 50 Winton Cl, Wedderburn, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2021 16:59",
                 "title": "incident: fire"
             }
         },
@@ -255,13 +347,13 @@
                 "sourceTitle": "James Gibson Rd, Clunes",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/433042",
-                "created": "2021-11-14T05:24:00+11:00",
-                "updated": "2021-11-14T16:24:00+11:00",
+                "created": "2021-11-14T05:50:00+11:00",
+                "updated": "2021-11-14T16:50:00+11:00",
                 "location": "James Gibson Rd, Clunes, NSW 2480",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: James Gibson Rd, Clunes, NSW 2480 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2021 16:24",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: James Gibson Rd, Clunes, NSW 2480 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2021 16:50",
                 "title": "incident: other"
             }
         },
@@ -270,22 +362,46 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.8466800000001,
-                    -32.866098000999955
+                    150.97970700000008,
+                    -33.36898499999995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Putty Rd, Howes Valley",
+                "sourceTitle": "Settlers Rd, Wisemans Ferry",
                 "category": "other",
-                "subcategory": "medical",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/433021",
-                "created": "2021-11-14T02:51:00+11:00",
-                "updated": "2021-11-14T13:51:00+11:00",
-                "location": "5677 Putty Rd, Howes Valley, NSW 2330",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/433045",
+                "created": "2021-11-14T06:02:00+11:00",
+                "updated": "2021-11-14T17:02:00+11:00",
+                "location": "Settlers Rd, Wisemans Ferry, NSW 2775",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5677 Putty Rd, Howes Valley, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2021 13:51",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Settlers Rd, Wisemans Ferry, NSW 2775 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2021 17:02",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.2410000000001,
+                    -35.279499999999985
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wee Jasper Rd, Bombowlee",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/433044",
+                "created": "2021-11-14T05:50:00+11:00",
+                "updated": "2021-11-14T16:50:00+11:00",
+                "location": "Wee Jasper Rd, Bombowlee, NSW 2720",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wee Jasper Rd, Bombowlee, NSW 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2021 16:50",
                 "title": "incident: other"
             }
         },
