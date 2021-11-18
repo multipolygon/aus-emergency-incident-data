@@ -806,6 +806,83 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.1055438520001,
+                            -30.12068636099997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.107153283,
+                                            -30.121512727
+                                        ],
+                                        [
+                                            153.107224667,
+                                            -30.1217863649999
+                                        ],
+                                        [
+                                            153.106534623,
+                                            -30.122048107
+                                        ],
+                                        [
+                                            153.106296676,
+                                            -30.1220362089999
+                                        ],
+                                        [
+                                            153.106118217,
+                                            -30.121798263
+                                        ],
+                                        [
+                                            153.106058731,
+                                            -30.12154842
+                                        ],
+                                        [
+                                            153.106344266,
+                                            -30.121524625
+                                        ],
+                                        [
+                                            153.106784466,
+                                            -30.1214770349999
+                                        ],
+                                        [
+                                            153.107153283,
+                                            -30.121512727
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sherwood Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/434359",
+                "created": "2021-11-18T23:15:00+11:00",
+                "updated": "2021-11-19T10:15:00+11:00",
+                "location": "Sherwood Nature Reserve",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Sherwood Nature Reserve <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 19 Nov 2021 10:15",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     151.91531200000009,
@@ -872,30 +949,6 @@
                 "location": "5 Cameron St, Wauchope, NSW 2446",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 Cameron St, Wauchope, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Nov 2021 09:42",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.41840000000002,
-                    -33.48101699999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cullens Rd, Kincumber",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/434357",
-                "created": "2021-11-18T23:11:00+11:00",
-                "updated": "2021-11-19T10:11:00+11:00",
-                "location": "Cullens Rd, Kincumber, NSW 2251",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cullens Rd, Kincumber, NSW 2251 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2021 10:11",
                 "title": "incident: fire"
             }
         },
