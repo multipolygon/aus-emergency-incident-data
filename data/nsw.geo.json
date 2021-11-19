@@ -100,10 +100,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.135946256,
-                    -29.30237443599998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.135946256,
+                            -29.30237443599998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.134014415,
+                                            -29.303283192
+                                        ],
+                                        [
+                                            149.135632449,
+                                            -29.302260025
+                                        ],
+                                        [
+                                            149.139629943,
+                                            -29.3030452469999
+                                        ],
+                                        [
+                                            149.138987488,
+                                            -29.3062575189999
+                                        ],
+                                        [
+                                            149.136203519,
+                                            -29.3082800609999
+                                        ],
+                                        [
+                                            149.133586112,
+                                            -29.3070903299999
+                                        ],
+                                        [
+                                            149.132562943,
+                                            -29.3049726099999
+                                        ],
+                                        [
+                                            149.134038209,
+                                            -29.3031880139999
+                                        ],
+                                        [
+                                            149.134049839,
+                                            -29.303190561
+                                        ],
+                                        [
+                                            149.134014415,
+                                            -29.303283192
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -113,11 +170,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/434394",
-                "created": "2021-11-19T08:15:00+11:00",
-                "updated": "2021-11-19T19:15:00+11:00",
+                "created": "2021-11-19T08:39:00+11:00",
+                "updated": "2021-11-19T19:39:00+11:00",
                 "location": "Glencoe Rd, Bullarah, NSW 2400",
-                "size": 20,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Glencoe Rd, Bullarah, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2021 19:15",
+                "size": 30,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Glencoe Rd, Bullarah, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 30 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2021 19:39",
                 "title": "incident: fire"
             }
         },
@@ -251,30 +308,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.762559,
-                    -30.01905299999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bibaringa Rd, Nymboida",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/434391",
-                "created": "2021-11-19T06:31:00+11:00",
-                "updated": "2021-11-19T17:31:00+11:00",
-                "location": "1 Bibaringa Rd, Nymboida, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1 Bibaringa Rd, Nymboida, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2021 17:31",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.00942182500012,
                     -33.377236609999954
                 ]
@@ -380,13 +413,13 @@
                 "sourceTitle": "Wilwendan Cl, Wamberal",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/434397",
-                "created": "2021-11-19T08:14:00+11:00",
-                "updated": "2021-11-19T19:14:00+11:00",
+                "created": "2021-11-19T08:49:00+11:00",
+                "updated": "2021-11-19T19:49:00+11:00",
                 "location": "23 Wilwendan Cl, Wamberal, NSW 2260",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 23 Wilwendan Cl, Wamberal, NSW 2260 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2021 19:14",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 23 Wilwendan Cl, Wamberal, NSW 2260 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2021 19:49",
                 "title": "incident: fire"
             }
         },
