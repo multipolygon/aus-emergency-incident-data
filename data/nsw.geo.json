@@ -28,10 +28,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13037400000007,
-                    -35.21294699999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.07652282800007,
+                            -34.99516392299995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.075922876,
+                                            -34.9955596739999
+                                        ],
+                                        [
+                                            145.076803277,
+                                            -34.9957262359999
+                                        ],
+                                        [
+                                            145.076636714,
+                                            -34.9973204739999
+                                        ],
+                                        [
+                                            145.075756313,
+                                            -34.9975108319999
+                                        ],
+                                        [
+                                            145.075209038,
+                                            -34.996559046
+                                        ],
+                                        [
+                                            145.075922876,
+                                            -34.9955596739999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -407,6 +448,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Stingaree Point Dr, Dora Creek, NSW 2264 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Dec 2021 20:18",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.5264360000001,
+                    -32.70818099899998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Weblands St, Aberglasslyn",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/436166",
+                "created": "2021-12-01T09:40:00+11:00",
+                "updated": "2021-12-01T20:40:00+11:00",
+                "location": "Weblands St, Aberglasslyn, NSW 2320",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Weblands St, Aberglasslyn, NSW 2320 <br />COUNCIL AREA: Maitland <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Dec 2021 20:40",
+                "title": "incident: fire"
             }
         },
         {
