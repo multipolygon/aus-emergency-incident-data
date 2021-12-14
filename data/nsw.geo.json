@@ -52,10 +52,74 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.9361600000001,
-                    -34.17685099999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.9361600000001,
+                            -34.17685099999994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.946582756,
+                                            -34.175977556
+                                        ],
+                                        [
+                                            145.947570232,
+                                            -34.175834789
+                                        ],
+                                        [
+                                            145.947641616,
+                                            -34.178178558
+                                        ],
+                                        [
+                                            145.946083069,
+                                            -34.1764891399999
+                                        ],
+                                        [
+                                            145.946582756,
+                                            -34.175977556
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.951091835,
+                                            -34.180748375
+                                        ],
+                                        [
+                                            145.952245873,
+                                            -34.180784068
+                                        ],
+                                        [
+                                            145.951972234,
+                                            -34.183080247
+                                        ],
+                                        [
+                                            145.949533288,
+                                            -34.1829255829999
+                                        ],
+                                        [
+                                            145.951091835,
+                                            -34.180748375
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -65,11 +129,11 @@
                 "subcategory": "vehicle/equipment fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/437991",
-                "created": "2021-12-13T23:29:00+11:00",
-                "updated": "2021-12-14T10:29:00+11:00",
+                "created": "2021-12-14T00:35:00+11:00",
+                "updated": "2021-12-14T11:35:00+11:00",
                 "location": "Kidman Way, Warburn, NSW 2680",
-                "size": 2,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kidman Way, Warburn, NSW 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Dec 2021 10:29",
+                "size": 6,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kidman Way, Warburn, NSW 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Dec 2021 11:35",
                 "title": "incident: fire"
             }
         },
@@ -87,13 +151,13 @@
                 "sourceTitle": "Sussex Inlet Rd, Sussex Inlet",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/437995",
-                "created": "2021-12-13T23:24:00+11:00",
-                "updated": "2021-12-14T10:24:00+11:00",
+                "created": "2021-12-14T00:05:00+11:00",
+                "updated": "2021-12-14T11:05:00+11:00",
                 "location": "503 Sussex Inlet Rd, Sussex Inlet, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 503 Sussex Inlet Rd, Sussex Inlet, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Dec 2021 10:24",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 503 Sussex Inlet Rd, Sussex Inlet, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Dec 2021 11:05",
                 "title": "incident: other"
             }
         },
