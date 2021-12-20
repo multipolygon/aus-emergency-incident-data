@@ -426,10 +426,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.81407928500005,
-                    -29.597341919999963
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.81407928500005,
+                            -29.597341919999963
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.803103029,
+                                            -29.58198945
+                                        ],
+                                        [
+                                            146.809194443,
+                                            -29.5843808069999
+                                        ],
+                                        [
+                                            146.809194443,
+                                            -29.5843213209999
+                                        ],
+                                        [
+                                            146.811514417,
+                                            -29.590805352
+                                        ],
+                                        [
+                                            146.812109283,
+                                            -29.600085249
+                                        ],
+                                        [
+                                            146.805089873,
+                                            -29.59699195
+                                        ],
+                                        [
+                                            146.799712297,
+                                            -29.5865699129999
+                                        ],
+                                        [
+                                            146.800783054,
+                                            -29.584725829
+                                        ],
+                                        [
+                                            146.803103029,
+                                            -29.58198945
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -572,6 +625,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    146.40390600000012,
+                    -34.604682999999966
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Houghton Rd, Yanco",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/439709",
+                "created": "2021-12-20T11:04:00+11:00",
+                "updated": "2021-12-20T22:04:00+11:00",
+                "location": "Houghton Rd, Yanco, NSW 2703",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Houghton Rd, Yanco, NSW 2703 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2021 22:04",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.85706400000004,
                     -32.81987499999997
                 ]
@@ -581,13 +658,13 @@
                 "sourceTitle": "Lavis Lane, Williamtown",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/439706",
-                "created": "2021-12-20T10:32:00+11:00",
-                "updated": "2021-12-20T21:32:00+11:00",
+                "created": "2021-12-20T10:51:00+11:00",
+                "updated": "2021-12-20T21:51:00+11:00",
                 "location": "Lavis Lane, Williamtown, NSW 2318",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lavis Lane, Williamtown, NSW 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2021 21:32",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lavis Lane, Williamtown, NSW 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2021 21:51",
                 "title": "incident: other"
             }
         },
@@ -620,54 +697,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.60567600000002,
-                    -34.879483999999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Plunkett St, Nowra",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/439708",
-                "created": "2021-12-20T10:48:00+11:00",
-                "updated": "2021-12-20T21:48:00+11:00",
-                "location": "130 Plunkett St, Nowra, NSW 2541",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 130 Plunkett St, Nowra, NSW 2541 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 20 Dec 2021 21:48",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.94240500000012,
-                    -31.023143999999945
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rawson St, Smithtown",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/439705",
-                "created": "2021-12-20T10:48:00+11:00",
-                "updated": "2021-12-20T21:48:00+11:00",
-                "location": "Rawson St, Smithtown, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Rawson St, Smithtown, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2021 21:48",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.66628000000003,
                     -35.945191000999955
                 ]
@@ -677,13 +706,13 @@
                 "sourceTitle": "Snowy Mountains Hwy, Adaminaby",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/439707",
-                "created": "2021-12-20T10:34:00+11:00",
-                "updated": "2021-12-20T21:34:00+11:00",
+                "created": "2021-12-20T10:53:00+11:00",
+                "updated": "2021-12-20T21:53:00+11:00",
                 "location": "6193 Snowy Mountains Hwy, Adaminaby, NSW 2629",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6193 Snowy Mountains Hwy, Adaminaby, NSW 2629 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2021 21:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6193 Snowy Mountains Hwy, Adaminaby, NSW 2629 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Dec 2021 21:53",
                 "title": "incident: fire"
             }
         },
