@@ -726,11 +726,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/439560",
-                "created": "2021-12-30T02:17:00+11:00",
-                "updated": "2021-12-30T13:17:00+11:00",
+                "created": "2021-12-31T00:14:00+11:00",
+                "updated": "2021-12-31T11:14:00+11:00",
                 "location": "North of Top Hut Road, West to Mungo NP",
                 "size": 22248,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: North of Top Hut Road, West to Mungo NP <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 22248 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2021 13:17",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: North of Top Hut Road, West to Mungo NP <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 22248 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2021 11:14",
                 "title": "incident: fire"
             }
         },
@@ -1291,10 +1291,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.90687300000002,
-                    -35.82110299999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.90687300000002,
+                            -35.82110299999994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            144.909001587,
+                                            -35.8228324049999
+                                        ],
+                                        [
+                                            144.909299019,
+                                            -35.8243909519999
+                                        ],
+                                        [
+                                            144.909239533,
+                                            -35.825878116
+                                        ],
+                                        [
+                                            144.908894511,
+                                            -35.8258662179999
+                                        ],
+                                        [
+                                            144.908668463,
+                                            -35.8249739199999
+                                        ],
+                                        [
+                                            144.908894511,
+                                            -35.822927584
+                                        ],
+                                        [
+                                            144.908965895,
+                                            -35.8228324049999
+                                        ],
+                                        [
+                                            144.909001587,
+                                            -35.8228324049999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1304,11 +1353,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/440491",
-                "created": "2021-12-30T23:37:00+11:00",
-                "updated": "2021-12-31T10:37:00+11:00",
+                "created": "2021-12-31T00:06:00+11:00",
+                "updated": "2021-12-31T11:06:00+11:00",
                 "location": "2 Jones St, Mathoura, NSW 2710",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2 Jones St, Mathoura, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2021 10:37",
+                "size": 5,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2 Jones St, Mathoura, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2021 11:06",
                 "title": "incident: fire"
             }
         },
@@ -1378,6 +1427,75 @@
                 "location": "200 Kanimbla Road, Holbrook",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 200 Kanimbla Road, Holbrook <br />COUNCIL AREA: Greater Hume <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2021 09:11",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.59324600000002,
+                            -35.71287499999994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.601768009,
+                                            -35.699354306
+                                        ],
+                                        [
+                                            145.601708522,
+                                            -35.699354306
+                                        ],
+                                        [
+                                            145.601672829,
+                                            -35.699282922
+                                        ],
+                                        [
+                                            145.601696623,
+                                            -35.699199641
+                                        ],
+                                        [
+                                            145.601779905,
+                                            -35.699199641
+                                        ],
+                                        [
+                                            145.601815597,
+                                            -35.6993186139999
+                                        ],
+                                        [
+                                            145.601768009,
+                                            -35.699354306
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fullers Rd, Finley",
+                "category": "fire",
+                "subcategory": "haystack fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/440494",
+                "created": "2021-12-31T00:30:00+11:00",
+                "updated": "2021-12-31T11:30:00+11:00",
+                "location": "491 Fullers Rd, Finley, NSW 2713",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 491 Fullers Rd, Finley, NSW 2713 <br />COUNCIL AREA: Berrigan <br />STATUS: Being controlled <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2021 11:30",
                 "title": "incident: fire"
             }
         },
@@ -1551,22 +1669,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.0142369990001,
-                    -34.63402099999996
+                    152.08343700000012,
+                    -32.73043199999995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mackay St, Cootamundra",
+                "sourceTitle": "Muller St, Salamander Bay",
                 "category": "other",
                 "subcategory": "fire alarm",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/440489",
-                "created": "2021-12-30T22:38:00+11:00",
-                "updated": "2021-12-31T09:38:00+11:00",
-                "location": "121 Mackay St, Cootamundra,  2590",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/440500",
+                "created": "2021-12-31T00:42:00+11:00",
+                "updated": "2021-12-31T11:42:00+11:00",
+                "location": "4 Muller St, Salamander Bay,  2317",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 121 Mackay St, Cootamundra,  2590 <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 31 Dec 2021 09:38",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 Muller St, Salamander Bay,  2317 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 31 Dec 2021 11:42",
                 "title": "incident: other"
             }
         },
@@ -1575,23 +1693,47 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.84313899900008,
-                    -31.563369999999964
+                    150.59757700000011,
+                    -30.937134999999955
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ocean Dr, Lake Cathie",
+                "sourceTitle": "Oxley Hwy, Carroll",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/440484",
-                "created": "2021-12-30T22:06:00+11:00",
-                "updated": "2021-12-31T09:06:00+11:00",
-                "location": "Ocean Dr, Lake Cathie, NSW 2445",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/440498",
+                "created": "2021-12-31T00:32:00+11:00",
+                "updated": "2021-12-31T11:32:00+11:00",
+                "location": "Oxley Hwy, Carroll,  2340",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ocean Dr, Lake Cathie, NSW 2445 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2021 09:06",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Oxley Hwy, Carroll,  2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2021 11:32",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.8520840000001,
+                    -31.70236000099993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thunderbolts Way, Baxters Ridge",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/440495",
+                "created": "2021-12-31T00:22:00+11:00",
+                "updated": "2021-12-31T11:22:00+11:00",
+                "location": "Thunderbolts Way, Baxters Ridge, NSW 2422",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Thunderbolts Way, Baxters Ridge, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Dec 2021 11:22",
+                "title": "incident: fire"
             }
         }
     ]
