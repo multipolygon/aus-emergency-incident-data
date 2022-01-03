@@ -958,10 +958,91 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.5652880010001,
-                    -33.92479799999995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.5652880010001,
+                            -33.92479799999995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.565617222,
+                                            -33.924725737
+                                        ],
+                                        [
+                                            147.565759989,
+                                            -33.924797121
+                                        ],
+                                        [
+                                            147.565831372,
+                                            -33.925725111
+                                        ],
+                                        [
+                                            147.564713026,
+                                            -33.926272387
+                                        ],
+                                        [
+                                            147.562547716,
+                                            -33.927985599
+                                        ],
+                                        [
+                                            147.558550222,
+                                            -33.928318723
+                                        ],
+                                        [
+                                            147.557574643,
+                                            -33.928152161
+                                        ],
+                                        [
+                                            147.55678942,
+                                            -33.927985599
+                                        ],
+                                        [
+                                            147.556503885,
+                                            -33.927747653
+                                        ],
+                                        [
+                                            147.556099378,
+                                            -33.927152787
+                                        ],
+                                        [
+                                            147.556027993,
+                                            -33.926177208
+                                        ],
+                                        [
+                                            147.557312902,
+                                            -33.925058862
+                                        ],
+                                        [
+                                            147.558336071,
+                                            -33.924630559
+                                        ],
+                                        [
+                                            147.562857047,
+                                            -33.923726363
+                                        ],
+                                        [
+                                            147.564451286,
+                                            -33.923988105
+                                        ],
+                                        [
+                                            147.565617222,
+                                            -33.924725737
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -984,8 +1065,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.80319900000006,
-                    -35.04648499999996
+                    150.77889919300003,
+                    -35.07429753399998
                 ]
             },
             "properties": {
@@ -1132,11 +1213,11 @@
                 "subcategory": "other",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/440843",
-                "created": "2022-01-03T08:48:00+11:00",
-                "updated": "2022-01-03T19:48:00+11:00",
+                "created": "2022-01-03T09:06:00+11:00",
+                "updated": "2022-01-03T20:06:00+11:00",
                 "location": "72 Duncan St, Vincentia, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 72 Duncan St, Vincentia, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Jan 2022 19:48",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 72 Duncan St, Vincentia, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Jan 2022 20:06",
                 "title": "incident: fire"
             }
         },
@@ -1310,6 +1391,30 @@
                 "location": "77 Torkington Rd, Londonderry, NSW 2753",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 77 Torkington Rd, Londonderry, NSW 2753 <br />COUNCIL AREA: Penrith <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Jan 2022 17:33",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.81748200000004,
+                    -34.154376999999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Victoria Rd, Wedderburn",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/440845",
+                "created": "2022-01-03T08:58:00+11:00",
+                "updated": "2022-01-03T19:58:00+11:00",
+                "location": "21 Victoria Rd, Wedderburn, NSW 2560",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 21 Victoria Rd, Wedderburn, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Jan 2022 19:58",
                 "title": "incident: fire"
             }
         },
