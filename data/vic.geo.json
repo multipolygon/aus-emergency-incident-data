@@ -972,14 +972,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Washington Pl",
+                "sourceTitle": "Flemington St",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2022-01-04T18:28:34+11:00",
-                "updated": "2022-01-04T18:28:34+11:00",
-                "id": "ESTA:220102464",
-                "location": "Washington Pl, Point Cook",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2022-01-04T18:33:50+11:00",
+                "updated": "2022-01-04T18:33:50+11:00",
+                "id": "ESTA:220102475",
+                "location": "Flemington St, Travancore",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -987,44 +987,67 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74200374399288,
-                    -37.87838407706851
+                    144.93327081946666,
+                    -37.78132580113637
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kialla East",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "complete",
-                "created": "2022-01-04T18:05:28+11:00",
-                "updated": "2022-01-04T18:24:48+11:00",
-                "id": "ESTA:220150322",
-                "location": "Kialla East",
+                "created": "2022-01-04T18:04:00+11:00",
+                "updated": "2022-01-04T18:31:00+11:00",
+                "id": "ESTA:220150321",
+                "location": "Grantville",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.49817268276803,
-                    -36.440796223450036
+                    145.53913768534403,
+                    -38.41262868838437
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tipperary Cct",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Boyana Cr",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2022-01-04T18:27:32+11:00",
-                "updated": "2022-01-04T18:27:32+11:00",
-                "id": "ESTA:220102470",
-                "location": "Tipperary Cct, Pakenham",
+                "created": "2022-01-04T18:32:00+11:00",
+                "updated": "2022-01-04T18:34:00+11:00",
+                "id": "ESTA:220102479",
+                "location": "Boyana Cr, Croydon",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3001998520822,
+                    -37.79198142216911
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Laverton",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2022-01-04T18:38:36+11:00",
+                "updated": "2022-01-04T18:38:36+11:00",
+                "id": "ESTA:220102478",
+                "location": "Laverton, Laverton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -1032,31 +1055,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.49132712064963,
-                    -38.06682027692509
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mark St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2022-01-04T18:27:59+11:00",
-                "updated": "2022-01-04T18:27:59+11:00",
-                "id": "ESTA:220102473",
-                "location": "Mark St, Sunshine West",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.79140074225782,
-                    -37.78524458703255
+                    144.78503341728666,
+                    -37.8445015363566
                 ]
             }
         },
@@ -21140,6 +21140,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Tipperary Cct",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2022-01-04T18:35:20+11:00",
+                "updated": "2022-01-04T18:35:20+11:00",
+                "id": "ESTA:220102470",
+                "location": "Tipperary Cct, Pakenham",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.49132712064963,
+                    -38.06682027692509
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Washington Pl",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2022-01-04T18:14:00+11:00",
+                "updated": "2022-01-04T18:34:00+11:00",
+                "id": "ESTA:220102464",
+                "location": "Washington Pl, Point Cook",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74200092663025,
+                    -37.878384865115514
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nelson - Portland-Nelson Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "not yet under control",
+                "created": "2022-01-04T15:10:00+11:00",
+                "updated": "2022-01-04T18:24:00+11:00",
+                "id": "ESTA:220102347",
+                "location": "Nelson - Portland-Nelson Rd, Nelson",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.2123575429986,
+                    -38.10823210765315
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Station St",
                 "category": "other",
                 "subcategory": "other",
@@ -21209,29 +21278,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2022-01-04T15:10:00+11:00",
-                "updated": "2022-01-04T17:49:00+11:00",
-                "id": "ESTA:220102347",
-                "location": "Nelson",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.2123575429986,
-                    -38.10823210765315
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ora St",
                 "category": "other",
                 "subcategory": "other",
@@ -21255,29 +21301,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kara Ct",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2022-01-04T16:40:00+11:00",
-                "updated": "2022-01-04T17:36:00+11:00",
-                "id": "ESTA:220102414",
-                "location": "Kara Ct, Sebastopol",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.8288485694334,
-                    -37.58429431748855
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Fire-Langkoop-Edenhope Penola",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -21295,29 +21318,6 @@
                 "coordinates": [
                     140.97224856274923,
                     -37.1609348519035
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Flemington St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2022-01-04T18:29:00+11:00",
-                "updated": "2022-01-04T18:29:00+11:00",
-                "id": "ESTA:220102475",
-                "location": "Flemington St, Travancore",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93327081946666,
-                    -37.78132580113637
                 ]
             }
         },
@@ -21351,8 +21351,8 @@
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "under control",
-                "created": "2022-01-04T18:08:44+11:00",
-                "updated": "2022-01-04T18:08:44+11:00",
+                "created": "2022-01-04T18:36:42+11:00",
+                "updated": "2022-01-04T18:36:42+11:00",
                 "id": "ESTA:220102451",
                 "location": "Barkly St, St Kilda",
                 "size": "Small",
@@ -21374,8 +21374,8 @@
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2022-01-04T17:47:08+11:00",
-                "updated": "2022-01-04T17:47:08+11:00",
+                "created": "2022-01-04T18:38:47+11:00",
+                "updated": "2022-01-04T18:38:47+11:00",
                 "id": "ESTA:220102436",
                 "location": "Bokhara Rd, Caulfield South",
                 "size": "Small",
@@ -21396,9 +21396,9 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2022-01-04T18:00:00+11:00",
-                "updated": "2022-01-04T18:24:00+11:00",
+                "updated": "2022-01-04T18:31:00+11:00",
                 "id": "ESTA:220150319",
                 "location": "Bayswater",
                 "title": "incident: building damage"
@@ -21431,28 +21431,6 @@
                 "coordinates": [
                     145.498051468112,
                     -36.45659683488609
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2022-01-04T18:04:00+11:00",
-                "updated": "2022-01-04T18:07:00+11:00",
-                "id": "ESTA:220150321",
-                "location": "Grantville",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.53913768534403,
-                    -38.41262868838437
                 ]
             }
         }
