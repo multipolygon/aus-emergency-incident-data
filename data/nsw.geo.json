@@ -28,34 +28,123 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.6982660000001,
-                    -33.96352099999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kidman Way, Goolgowi",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441242",
-                "created": "2022-01-08T05:32:00+11:00",
-                "updated": "2022-01-08T16:32:00+11:00",
-                "location": "Kidman Way, Goolgowi, NSW 2652",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Kidman Way, Goolgowi, NSW 2652 <br />COUNCIL AREA: Carrathool <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2022 16:32",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.10220200000003,
-                    -29.618254999999976
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.10220200000003,
+                            -29.618254999999976
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.100428299,
+                                            -29.618856931
+                                        ],
+                                        [
+                                            150.100414022,
+                                            -29.618871208
+                                        ],
+                                        [
+                                            150.100295049,
+                                            -29.6204178579999
+                                        ],
+                                        [
+                                            150.100080898,
+                                            -29.62169087
+                                        ],
+                                        [
+                                            150.100640071,
+                                            -29.622797318
+                                        ],
+                                        [
+                                            150.100485406,
+                                            -29.623832384
+                                        ],
+                                        [
+                                            150.099224291,
+                                            -29.623998946
+                                        ],
+                                        [
+                                            150.098177329,
+                                            -29.6245938119999
+                                        ],
+                                        [
+                                            150.097915588,
+                                            -29.624224996
+                                        ],
+                                        [
+                                            150.097035188,
+                                            -29.624141715
+                                        ],
+                                        [
+                                            150.095785971,
+                                            -29.6238442819999
+                                        ],
+                                        [
+                                            150.094917468,
+                                            -29.6236420279999
+                                        ],
+                                        [
+                                            150.094322602,
+                                            -29.6234635669999
+                                        ],
+                                        [
+                                            150.093632558,
+                                            -29.6231780319999
+                                        ],
+                                        [
+                                            150.093109077,
+                                            -29.6231423409999
+                                        ],
+                                        [
+                                            150.092300061,
+                                            -29.6229281889999
+                                        ],
+                                        [
+                                            150.092157292,
+                                            -29.6226188589999
+                                        ],
+                                        [
+                                            150.092062114,
+                                            -29.621833637
+                                        ],
+                                        [
+                                            150.092692672,
+                                            -29.62169087
+                                        ],
+                                        [
+                                            150.094572445,
+                                            -29.621738458
+                                        ],
+                                        [
+                                            150.096371318,
+                                            -29.620736705
+                                        ],
+                                        [
+                                            150.09751346,
+                                            -29.619511282
+                                        ],
+                                        [
+                                            150.098155914,
+                                            -29.618119298
+                                        ],
+                                        [
+                                            150.100428299,
+                                            -29.618856931
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -246,6 +335,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.12647800000002,
+                    -29.871982999999943
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Guyra Rd, Gilgai",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441246",
+                "created": "2022-01-08T06:40:00+11:00",
+                "updated": "2022-01-08T17:40:00+11:00",
+                "location": "15247 Guyra Rd, Gilgai, NSW 2360",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 15247 Guyra Rd, Gilgai, NSW 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2022 17:40",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.05099000000007,
                     -33.60129799999993
                 ]
@@ -305,11 +418,11 @@
                 "subcategory": "assist other agency",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441029",
-                "created": "2022-01-08T04:42:00+11:00",
-                "updated": "2022-01-08T15:42:00+11:00",
+                "created": "2022-01-08T06:32:00+11:00",
+                "updated": "2022-01-08T17:32:00+11:00",
                 "location": "39 Rushby Street, Bateau Bay",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 39 Rushby Street, Bateau Bay <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 8 Jan 2022 15:42",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 39 Rushby Street, Bateau Bay <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 8 Jan 2022 17:32",
                 "title": "incident: other"
             }
         },
