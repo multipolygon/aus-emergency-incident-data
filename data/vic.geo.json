@@ -4366,14 +4366,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gorge Rd",
+                "sourceTitle": "Lovely Banks Rd",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2022-01-10T09:52:00+11:00",
-                "updated": "2022-01-10T10:23:00+11:00",
-                "id": "ESTA:220107077",
-                "location": "Gorge Rd, Nowa Nowa",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2022-01-10T10:47:14+11:00",
+                "updated": "2022-01-10T10:47:14+11:00",
+                "id": "ESTA:220107090",
+                "location": "Lovely Banks Rd, Lovely Banks",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4381,8 +4381,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.09398778368163,
-                    -37.726738446232
+                    144.32738317431148,
+                    -38.07025951572873
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Carlisle Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2022-01-10T10:39:00+11:00",
+                "updated": "2022-01-10T10:39:00+11:00",
+                "id": "ESTA:220107092",
+                "location": "Carlisle Rd, Carlisle River",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.41350690158362,
+                    -38.51367012819044
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2022-01-10T10:37:00+11:00",
+                "updated": "2022-01-10T10:37:00+11:00",
+                "id": "ESTA:220152443",
+                "location": "Mount Eliza",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.07708822493376,
+                    -38.20021224356539
                 ]
             }
         },
@@ -4392,9 +4437,9 @@
                 "sourceTitle": "East Bendigo",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2022-01-10T10:28:12+11:00",
-                "updated": "2022-01-10T10:28:12+11:00",
+                "status": "under control",
+                "created": "2022-01-10T10:33:56+11:00",
+                "updated": "2022-01-10T10:33:56+11:00",
                 "id": "ESTA:220107088",
                 "location": "East Bendigo, East Bendigo",
                 "size": "Small",
@@ -4406,51 +4451,6 @@
                 "coordinates": [
                     144.31928136150873,
                     -36.74312693978602
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Onshore Dr",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2022-01-10T10:19:47+11:00",
-                "updated": "2022-01-10T10:19:47+11:00",
-                "id": "ESTA:220107074",
-                "location": "Onshore Dr, Torquay",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.33294618205565,
-                    -38.31306423157462
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Creswick",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "responding",
-                "created": "2022-01-10T10:27:02+11:00",
-                "updated": "2022-01-10T10:31:11+11:00",
-                "id": "ESTA:220152442",
-                "location": "Jory St, Creswick",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.88687486711373,
-                    -37.41208676164063
                 ]
             }
         },
@@ -24749,6 +24749,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Gorge Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2022-01-10T09:52:00+11:00",
+                "updated": "2022-01-10T10:37:00+11:00",
+                "id": "ESTA:220107077",
+                "location": "Gorge Rd, Nowa Nowa",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.09398778368163,
+                    -37.726738446232
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Onshore Dr",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2022-01-10T09:45:00+11:00",
+                "updated": "2022-01-10T10:13:00+11:00",
+                "id": "ESTA:220107074",
+                "location": "Onshore Dr, Torquay",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.33294490733357,
+                    -38.31307276867553
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Myrtle St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2022-01-10T10:14:02+11:00",
+                "updated": "2022-01-10T10:14:02+11:00",
+                "id": "ESTA:220107081",
+                "location": "Myrtle St, Melton South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.56807896008723,
+                    -37.70123911131754
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Frankston-Dandenong Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -24864,69 +24933,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Graham St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2022-01-10T10:19:00+11:00",
-                "updated": "2022-01-10T10:20:00+11:00",
-                "id": "ESTA:220107086",
-                "location": "Graham St, Shepparton",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2022-01-10T10:31:00+11:00",
+                "updated": "2022-01-10T10:35:00+11:00",
+                "id": "ESTA:220152442",
+                "location": "Creswick",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.40463287121491,
-                    -36.36264553179634
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Myrtle St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2022-01-10T10:14:02+11:00",
-                "updated": "2022-01-10T10:14:02+11:00",
-                "id": "ESTA:220107081",
-                "location": "Myrtle St, Melton South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.56807896008723,
-                    -37.70123911131754
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elizabeth St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2022-01-10T10:10:35+11:00",
-                "updated": "2022-01-10T10:10:35+11:00",
-                "id": "ESTA:220107079",
-                "location": "Elizabeth St, Richmond",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.99977286012754,
-                    -37.81214992028703
+                    143.88685842938665,
+                    -37.41210019451371
                 ]
             }
         },
