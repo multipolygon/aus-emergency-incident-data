@@ -28,10 +28,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.81703400000004,
-                    -32.71419199999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.81703400000004,
+                            -32.71419199999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            144.944933835,
+                                            -32.7168292809999
+                                        ],
+                                        [
+                                            144.945885619,
+                                            -32.720279499
+                                        ],
+                                        [
+                                            144.946004593,
+                                            -32.720933851
+                                        ],
+                                        [
+                                            144.944636402,
+                                            -32.722718447
+                                        ],
+                                        [
+                                            144.943565645,
+                                            -32.723670231
+                                        ],
+                                        [
+                                            144.941840536,
+                                            -32.724265096
+                                        ],
+                                        [
+                                            144.94005594,
+                                            -32.724265096
+                                        ],
+                                        [
+                                            144.93904467,
+                                            -32.723253825
+                                        ],
+                                        [
+                                            144.941900022,
+                                            -32.719684634
+                                        ],
+                                        [
+                                            144.944933835,
+                                            -32.7168292809999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -78,6 +135,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    144.1015440000001,
+                    -35.08182899999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pretty Pine Rd, Moulamein",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441377",
+                "created": "2022-01-10T07:18:00+11:00",
+                "updated": "2022-01-10T18:18:00+11:00",
+                "location": "8398 Pretty Pine Rd, Moulamein, NSW 2733",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 8398 Pretty Pine Rd, Moulamein, NSW 2733 <br />COUNCIL AREA: Edward River <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jan 2022 18:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.59106300000008,
                     -34.89578899999998
                 ]
@@ -95,30 +176,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 92 Albatross Rd, South Nowra, NSW 2541 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Jan 2022 17:55",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.4330880000001,
-                    -33.46549099899994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Avoca Dr, Avoca Beach",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441376",
-                "created": "2022-01-10T07:10:00+11:00",
-                "updated": "2022-01-10T18:10:00+11:00",
-                "location": "Opp 172-174 Avoca Dr, Avoca Beach, NSW 2251",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Opp 172-174 Avoca Dr, Avoca Beach, NSW 2251 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Jan 2022 18:10",
-                "title": "incident: fire"
             }
         },
         {
@@ -239,30 +296,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kings Hwy, Carwoola,  2620 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jan 2022 17:50",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.53417600000012,
-                    -34.08490899999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kundabung St, Belimbla Park",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441370",
-                "created": "2022-01-10T07:09:00+11:00",
-                "updated": "2022-01-10T18:09:00+11:00",
-                "location": "Kundabung St, Belimbla Park, NSW 2570",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kundabung St, Belimbla Park, NSW 2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jan 2022 18:09",
-                "title": "incident: other"
             }
         },
         {
