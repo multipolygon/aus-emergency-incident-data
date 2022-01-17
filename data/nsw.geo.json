@@ -4,10 +4,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.54391700000008,
-                    -31.593336999999963
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.55146932600007,
+                            -31.598257769999975
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.558013961,
+                                            -31.577826833
+                                        ],
+                                        [
+                                            150.560509968,
+                                            -31.5783365679999
+                                        ],
+                                        [
+                                            150.561508371,
+                                            -31.580248067
+                                        ],
+                                        [
+                                            150.561009169,
+                                            -31.5819046989999
+                                        ],
+                                        [
+                                            150.559386765,
+                                            -31.5830516
+                                        ],
+                                        [
+                                            150.556765956,
+                                            -31.5835613319999
+                                        ],
+                                        [
+                                            150.555517954,
+                                            -31.582032133
+                                        ],
+                                        [
+                                            150.555393153,
+                                            -31.579993201
+                                        ],
+                                        [
+                                            150.556765956,
+                                            -31.578209135
+                                        ],
+                                        [
+                                            150.558013961,
+                                            -31.577826833
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -774,13 +831,37 @@
                 "sourceTitle": "Cabbage Tree Rd, Williamtown",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441883",
-                "created": "2022-01-17T04:56:00+11:00",
-                "updated": "2022-01-17T15:56:00+11:00",
-                "location": "626 Cabbage Tree Rd, Williamtown, NSW 2318",
+                "created": "2022-01-17T05:18:00+11:00",
+                "updated": "2022-01-17T16:18:00+11:00",
+                "location": "596 Cabbage Tree Rd, Williamtown, NSW 2318",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 626 Cabbage Tree Rd, Williamtown, NSW 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2022 15:56",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 596 Cabbage Tree Rd, Williamtown, NSW 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2022 16:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.2797680000001,
+                    -28.994335999999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "End Of Surry St, Coraki",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441886",
+                "created": "2022-01-17T05:32:00+11:00",
+                "updated": "2022-01-17T16:32:00+11:00",
+                "location": "End Of Surry St, Coraki, NSW 2471",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: End Of Surry St, Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 17 Jan 2022 16:32",
                 "title": "incident: fire"
             }
         },
@@ -813,6 +894,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.22058700000002,
+                    -33.693465999999944
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mona Vale Rd, Terrey Hills",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441884",
+                "created": "2022-01-17T05:21:00+11:00",
+                "updated": "2022-01-17T16:21:00+11:00",
+                "location": "Mona Vale Rd, Terrey Hills, NSW 2084",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mona Vale Rd, Terrey Hills, NSW 2084 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2022 16:21",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.29910700000005,
                     -32.31113899999997
                 ]
@@ -822,37 +927,13 @@
                 "sourceTitle": "Newmans Rd, Wootton",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441881",
-                "created": "2022-01-17T04:44:00+11:00",
-                "updated": "2022-01-17T15:44:00+11:00",
+                "created": "2022-01-17T05:02:00+11:00",
+                "updated": "2022-01-17T16:02:00+11:00",
                 "location": "189 Newmans Rd, Wootton, NSW 2423",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 189 Newmans Rd, Wootton, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2022 15:44",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.5089670000001,
-                    -28.797454999999957
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tintenbar Rd, Tintenbar",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/441879",
-                "created": "2022-01-17T05:10:00+11:00",
-                "updated": "2022-01-17T16:10:00+11:00",
-                "location": "Tintenbar Rd, Tintenbar, NSW 2478",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Tintenbar Rd, Tintenbar, NSW 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2022 16:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 189 Newmans Rd, Wootton, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2022 16:02",
                 "title": "incident: other"
             }
         }
