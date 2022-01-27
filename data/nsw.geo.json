@@ -28,10 +28,123 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.42658200000005,
-                    -34.57170099999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.42658200000005,
+                            -34.57170099999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.426049895,
+                                            -34.5738015439999
+                                        ],
+                                        [
+                                            146.425942819,
+                                            -34.573706365
+                                        ],
+                                        [
+                                            146.425776256,
+                                            -34.57368257
+                                        ],
+                                        [
+                                            146.425692975,
+                                            -34.573825337
+                                        ],
+                                        [
+                                            146.425942819,
+                                            -34.5739205159999
+                                        ],
+                                        [
+                                            146.425823846,
+                                            -34.5740275919999
+                                        ],
+                                        [
+                                            146.425788154,
+                                            -34.573980003
+                                        ],
+                                        [
+                                            146.425538311,
+                                            -34.573813441
+                                        ],
+                                        [
+                                            146.425502618,
+                                            -34.573730159
+                                        ],
+                                        [
+                                            146.425526413,
+                                            -34.573646878
+                                        ],
+                                        [
+                                            146.425574003,
+                                            -34.573504111
+                                        ],
+                                        [
+                                            146.426156971,
+                                            -34.573611187
+                                        ],
+                                        [
+                                            146.426359224,
+                                            -34.57368257
+                                        ],
+                                        [
+                                            146.426609068,
+                                            -34.573825337
+                                        ],
+                                        [
+                                            146.426728042,
+                                            -34.574229846
+                                        ],
+                                        [
+                                            146.426347328,
+                                            -34.574574868
+                                        ],
+                                        [
+                                            146.425692975,
+                                            -34.574848506
+                                        ],
+                                        [
+                                            146.425562106,
+                                            -34.574907992
+                                        ],
+                                        [
+                                            146.425526413,
+                                            -34.5748366089999
+                                        ],
+                                        [
+                                            146.425538311,
+                                            -34.5747771229999
+                                        ],
+                                        [
+                                            146.425788154,
+                                            -34.5743012309999
+                                        ],
+                                        [
+                                            146.425847641,
+                                            -34.574063284
+                                        ],
+                                        [
+                                            146.425966613,
+                                            -34.5739205159999
+                                        ],
+                                        [
+                                            146.426049895,
+                                            -34.5738015439999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -39,13 +152,13 @@
                 "sourceTitle": "Lillypilly Rd, Leeton",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/443482",
-                "created": "2022-01-27T01:04:00+11:00",
-                "updated": "2022-01-27T12:04:00+11:00",
+                "created": "2022-01-27T02:02:00+11:00",
+                "updated": "2022-01-27T13:02:00+11:00",
                 "location": "93 Lillypilly Rd, Leeton, NSW 2705",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 93 Lillypilly Rd, Leeton, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2022 12:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 93 Lillypilly Rd, Leeton, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2022 13:02",
                 "title": "incident: fire"
             }
         },
@@ -198,6 +311,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.72917400000006,
+                    -34.237108999999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Douglas Park Dr, Wilton",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/443485",
+                "created": "2022-01-27T02:19:00+11:00",
+                "updated": "2022-01-27T13:19:00+11:00",
+                "location": "Douglas Park Dr, Wilton, NSW 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Douglas Park Dr, Wilton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2022 13:19",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.45639500000004,
                     -33.01875999999993
                 ]
@@ -257,11 +394,11 @@
                 "subcategory": "flood/storm/tree down",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/443484",
-                "created": "2022-01-27T01:44:00+11:00",
-                "updated": "2022-01-27T12:44:00+11:00",
+                "created": "2022-01-27T02:00:00+11:00",
+                "updated": "2022-01-27T13:00:00+11:00",
                 "location": "136 Marconi Rd, Morisset, NSW 2264",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 136 Marconi Rd, Morisset, NSW 2264 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2022 12:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 136 Marconi Rd, Morisset, NSW 2264 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2022 13:00",
                 "title": "incident: other"
             }
         },
@@ -279,13 +416,13 @@
                 "sourceTitle": "Mary Gilmore Way, Bimbi",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/443471",
-                "created": "2022-01-26T23:50:00+11:00",
-                "updated": "2022-01-27T10:50:00+11:00",
+                "created": "2022-01-27T02:11:00+11:00",
+                "updated": "2022-01-27T13:11:00+11:00",
                 "location": "Mary Gilmore Way, Bimbi, NSW 2810",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mary Gilmore Way, Bimbi, NSW 2810 <br />COUNCIL AREA: Weddin <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2022 10:50",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mary Gilmore Way, Bimbi, NSW 2810 <br />COUNCIL AREA: Weddin <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2022 13:11",
                 "title": "incident: other"
             }
         },
@@ -335,30 +472,6 @@
                 "size": 4,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 288 Solly Rd, Mathoura, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2022 09:20",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.66226900000004,
-                    -34.162005000999955
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Stonebrook Meadows Rd, Razorback",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/443469",
-                "created": "2022-01-26T22:48:00+11:00",
-                "updated": "2022-01-27T09:48:00+11:00",
-                "location": "88 Stonebrook Meadows Rd, Razorback, NSW 2571",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 88 Stonebrook Meadows Rd, Razorback, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2022 09:48",
-                "title": "incident: other"
             }
         },
         {
