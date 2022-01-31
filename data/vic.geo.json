@@ -539,6 +539,29 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Victoria St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2022-02-01T05:22:00+11:00",
+                "updated": "2022-02-01T05:22:00+11:00",
+                "id": "ESTA:220200035",
+                "location": "Victoria St, Hastings",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19030035338096,
+                    -38.30345441421656
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -546,9 +569,9 @@
                 "category": "met",
                 "subcategory": "strong wind",
                 "status": "warning",
-                "created": "2022-02-01T00:00:00+11:00",
+                "created": "2022-02-01T05:00:00+11:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/d94fafe420f61c0e8f4134e67010cfe1",
+                "id": "IDV20600/8a008a6768eb5fde7bea67f546c014a3",
                 "location": "Port Phillip, Western Port, West Coast, Central Coast, Central Gippsland Coast and East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -2477,72 +2500,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Assist Ses",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2022-01-31T21:15:00+11:00",
-                "updated": "2022-01-31T21:15:00+11:00",
-                "id": "2022-01-31T21:15:00.0000000:443596",
-                "location": "1 Hoffman Road, Thurgoona",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.974550486,
-                    -36.0586488979999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Murnane Rd, Mathoura",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2022-01-31T16:37:00+11:00",
-                "updated": "2022-01-31T16:37:00+11:00",
-                "id": "2022-01-31T16:37:00.0000000:443779",
-                "location": "Murnane Rd, Mathoura, Nsw 2710",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.790921211,
-                    -35.7683828099999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Newholme Rd, Burraboi",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2022-01-31T16:35:00+11:00",
-                "updated": "2022-01-31T16:35:00+11:00",
-                "id": "2022-01-31T16:35:00.0000000:443152",
-                "location": "133 Newholme Rd, Burraboi, Nsw 2732",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.278018474,
-                    -35.299680656
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -2621,6 +2578,72 @@
                             -35.983701518
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Assist Ses",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2022-01-31T21:15:00+11:00",
+                "updated": "2022-01-31T21:15:00+11:00",
+                "id": "2022-01-31T21:15:00.0000000:443596",
+                "location": "1 Hoffman Road, Thurgoona",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.974550486,
+                    -36.0586488979999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murnane Rd, Mathoura",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2022-01-31T16:37:00+11:00",
+                "updated": "2022-01-31T16:37:00+11:00",
+                "id": "2022-01-31T16:37:00.0000000:443779",
+                "location": "Murnane Rd, Mathoura, Nsw 2710",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.790921211,
+                    -35.7683828099999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Newholme Rd, Burraboi",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2022-01-31T16:35:00+11:00",
+                "updated": "2022-01-31T16:35:00+11:00",
+                "id": "2022-01-31T16:35:00.0000000:443152",
+                "location": "133 Newholme Rd, Burraboi, Nsw 2732",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.278018474,
+                    -35.299680656
                 ]
             }
         },
@@ -33387,52 +33410,6 @@
                 "coordinates": [
                     144.97150843310635,
                     -37.773745397803594
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Fitzroy",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2022-02-01T05:09:13+11:00",
-                "updated": "2022-02-01T05:09:13+11:00",
-                "id": "ESTA:220200033",
-                "location": "Fitzroy, Fitzroy",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9757135305044,
-                    -37.79305509021049
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Victoria Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2022-02-01T05:07:20+11:00",
-                "updated": "2022-02-01T05:07:20+11:00",
-                "id": "ESTA:220200025",
-                "location": "Victoria Rd, Northcote",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01131669756523,
-                    -37.77060368890907
                 ]
             }
         },
