@@ -541,14 +541,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Victoria St",
+                "sourceTitle": "Hawthorn",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2022-01-31T20:00:53+11:00",
-                "updated": "2022-01-31T20:00:53+11:00",
-                "id": "ESTA:220115296",
-                "location": "Victoria St, Abbotsford",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2022-01-31T20:18:28+11:00",
+                "updated": "2022-01-31T20:18:28+11:00",
+                "id": "ESTA:220115293",
+                "location": "Hawthorn, Hawthorn",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -556,31 +556,156 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99230022472045,
-                    -37.80953675749219
+                    145.0316097135997,
+                    -37.8197952779907
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Taylor Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2022-01-31T19:59:00+11:00",
-                "updated": "2022-01-31T20:00:00+11:00",
-                "id": "ESTA:220115304",
-                "location": "Taylor Rd, Hurstbridge",
-                "size": "Small",
-                "title": "incident: other"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2022-01-31T19:34:00+11:00",
+                "updated": "2022-01-31T20:21:00+11:00",
+                "id": "ESTA:220156983",
+                "location": "Cockatoo",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.19874893634085,
-                    -37.64033030679704
+                    145.5069038874739,
+                    -37.946884196815134
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kyabram",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2022-01-31T17:10:36+11:00",
+                "updated": "2022-01-31T20:25:12+11:00",
+                "id": "ESTA:220115251",
+                "location": "Kyabram",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94984203360983,
+                    -36.3263004165587
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lake Tyers Beach",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2022-01-31T20:27:05+11:00",
+                "updated": "2022-01-31T20:29:08+11:00",
+                "id": "ESTA:220115306",
+                "location": "Lake Tyers Beach Rd, Lake Tyers Beach",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.07205571352858,
+                    -37.87557550168713
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bayly St, Mulwala",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "created": "2022-01-31T19:21:00+11:00",
+                "updated": "2022-01-31T19:21:00+11:00",
+                "id": "2022-01-31T19:21:00.0000000:443803",
+                "location": "Bayly St, Mulwala, Nsw 2647",
+                "title": "incident: fire"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.9602,
+                                    -35.9844
+                                ],
+                                [
+                                    145.9592,
+                                    -35.9844
+                                ],
+                                [
+                                    145.9585,
+                                    -35.9841
+                                ],
+                                [
+                                    145.9582,
+                                    -35.9832
+                                ],
+                                [
+                                    145.9585,
+                                    -35.9823
+                                ],
+                                [
+                                    145.959,
+                                    -35.9816
+                                ],
+                                [
+                                    145.9601,
+                                    -35.9816
+                                ],
+                                [
+                                    145.9606,
+                                    -35.9829
+                                ],
+                                [
+                                    145.9611,
+                                    -35.9837
+                                ],
+                                [
+                                    145.9611,
+                                    -35.984
+                                ],
+                                [
+                                    145.9607,
+                                    -35.9844
+                                ],
+                                [
+                                    145.9602,
+                                    -35.9844
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.960664749,
+                            -35.983701518
+                        ]
+                    }
                 ]
             }
         },
@@ -647,76 +772,6 @@
                 "coordinates": [
                     144.278018474,
                     -35.299680656
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bayly St, Mulwala",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "being controlled",
-                "created": "2022-01-31T19:21:00+11:00",
-                "updated": "2022-01-31T19:21:00+11:00",
-                "id": "2022-01-31T19:21:00.0000000:443803",
-                "location": "Bayly St, Mulwala, Nsw 2647",
-                "title": "incident: fire"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    145.9603,
-                                    -35.9832
-                                ],
-                                [
-                                    145.9607,
-                                    -35.9831
-                                ],
-                                [
-                                    145.9612,
-                                    -35.9832
-                                ],
-                                [
-                                    145.9615,
-                                    -35.9838
-                                ],
-                                [
-                                    145.9609,
-                                    -35.9842
-                                ],
-                                [
-                                    145.9605,
-                                    -35.9842
-                                ],
-                                [
-                                    145.9602,
-                                    -35.984
-                                ],
-                                [
-                                    145.96,
-                                    -35.9836
-                                ],
-                                [
-                                    145.9603,
-                                    -35.9832
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            145.960664749,
-                            -35.983701518
-                        ]
-                    }
                 ]
             }
         },
@@ -31443,23 +31498,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ballarat Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2022-01-31T19:57:00+11:00",
-                "updated": "2022-01-31T19:58:00+11:00",
-                "id": "ESTA:220115303",
-                "location": "Ballarat Rd, North Geelong",
+                "sourceTitle": "Taylor Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2022-01-31T19:59:00+11:00",
+                "updated": "2022-01-31T20:00:00+11:00",
+                "id": "ESTA:220115304",
+                "location": "Taylor Rd, Hurstbridge",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.33413973842156,
-                    -38.12023537770723
+                    145.19874893634085,
+                    -37.64033030679704
                 ]
             }
         },
@@ -31468,10 +31523,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Seymour Rd",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2022-01-31T19:49:31+11:00",
-                "updated": "2022-01-31T19:49:31+11:00",
+                "created": "2022-01-31T19:45:00+11:00",
+                "updated": "2022-01-31T19:48:00+11:00",
                 "id": "ESTA:220115301",
                 "location": "Seymour Rd, Devon Meadows",
                 "size": "Small",
@@ -31481,8 +31536,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.30767051695682,
-                    -38.15446406870088
+                    145.30767006386088,
+                    -38.154469594475124
                 ]
             }
         },
@@ -31493,8 +31548,8 @@
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2022-01-31T19:45:25+11:00",
-                "updated": "2022-01-31T19:45:25+11:00",
+                "created": "2022-01-31T20:14:36+11:00",
+                "updated": "2022-01-31T20:14:36+11:00",
                 "id": "ESTA:220115294",
                 "location": "Eleventh St, Mildura",
                 "size": "Small",
@@ -31535,37 +31590,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Newlands Rd",
+                "sourceTitle": "Victoria St",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2022-01-31T19:54:31+11:00",
-                "updated": "2022-01-31T19:54:31+11:00",
-                "id": "ESTA:220115295",
-                "location": "Newlands Rd, Coburg North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97255797050906,
-                    -37.728099588099376
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hawthorn",
-                "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2022-01-31T19:39:14+11:00",
-                "updated": "2022-01-31T19:39:14+11:00",
-                "id": "ESTA:220115293",
-                "location": "Hawthorn, Hawthorn",
+                "created": "2022-01-31T20:22:22+11:00",
+                "updated": "2022-01-31T20:22:22+11:00",
+                "id": "ESTA:220115296",
+                "location": "Victoria St, Abbotsford",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -31573,8 +31605,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0316097135997,
-                    -37.8197952779907
+                    144.99230022472045,
+                    -37.80953675749219
                 ]
             }
         },
@@ -31643,28 +31675,6 @@
                 "coordinates": [
                     145.9957755237799,
                     -38.49030174662265
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2022-01-31T19:34:00+11:00",
-                "updated": "2022-01-31T19:41:00+11:00",
-                "id": "ESTA:220156983",
-                "location": "Cockatoo",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.5069038874739,
-                    -37.946884196815134
                 ]
             }
         },
