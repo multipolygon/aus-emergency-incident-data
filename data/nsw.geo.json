@@ -28,10 +28,131 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.77729797400002,
-                    -32.41500845799993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.77729797400002,
+                            -32.41500845799993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.789764863,
+                                            -32.430746793
+                                        ],
+                                        [
+                                            149.789731498,
+                                            -32.430759461
+                                        ],
+                                        [
+                                            149.789626607,
+                                            -32.430733158
+                                        ],
+                                        [
+                                            149.789569873,
+                                            -32.430717715
+                                        ],
+                                        [
+                                            149.789509812,
+                                            -32.430685648
+                                        ],
+                                        [
+                                            149.789431857,
+                                            -32.430620576
+                                        ],
+                                        [
+                                            149.789363143,
+                                            -32.430581543
+                                        ],
+                                        [
+                                            149.789348742,
+                                            -32.4304792789999
+                                        ],
+                                        [
+                                            149.789331068,
+                                            -32.430453429
+                                        ],
+                                        [
+                                            149.789320504,
+                                            -32.4303844789999
+                                        ],
+                                        [
+                                            149.789326147,
+                                            -32.4302936989999
+                                        ],
+                                        [
+                                            149.789321058,
+                                            -32.4302198569999
+                                        ],
+                                        [
+                                            149.789315163,
+                                            -32.4301197899999
+                                        ],
+                                        [
+                                            149.789345055,
+                                            -32.4300857279999
+                                        ],
+                                        [
+                                            149.789340409,
+                                            -32.43002619
+                                        ],
+                                        [
+                                            149.789416234,
+                                            -32.4300221239999
+                                        ],
+                                        [
+                                            149.789505965,
+                                            -32.430012978
+                                        ],
+                                        [
+                                            149.789568248,
+                                            -32.430025912
+                                        ],
+                                        [
+                                            149.789610174,
+                                            -32.4301084799999
+                                        ],
+                                        [
+                                            149.789655277,
+                                            -32.430202908
+                                        ],
+                                        [
+                                            149.789715392,
+                                            -32.4303280139999
+                                        ],
+                                        [
+                                            149.78978675,
+                                            -32.430452873
+                                        ],
+                                        [
+                                            149.789826892,
+                                            -32.4305688809999
+                                        ],
+                                        [
+                                            149.789852466,
+                                            -32.430668511
+                                        ],
+                                        [
+                                            149.789853127,
+                                            -32.430689967
+                                        ],
+                                        [
+                                            149.789764863,
+                                            -32.430746793
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -215,54 +336,6 @@
                 "size": 2,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 133 Newholme Rd, Burraboi, NSW 2732 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Feb 2022 15:38",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.9720430000001,
-                    -33.35415199999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ridge St, Portland",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/444654",
-                "created": "2022-02-13T21:08:00+11:00",
-                "updated": "2022-02-14T08:08:00+11:00",
-                "location": "27 Ridge St, Portland, NSW 2847",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 27 Ridge St, Portland, NSW 2847 <br />COUNCIL AREA: Lithgow <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Feb 2022 08:08",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.75778484300008,
-                    -33.99397999599995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Springfield Rd, Catherine Field",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/444640",
-                "created": "2022-02-13T09:37:00+11:00",
-                "updated": "2022-02-13T20:37:00+11:00",
-                "location": "215 Springfield Rd, Catherine Field, NSW 2557",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 215 Springfield Rd, Catherine Field, NSW 2557 <br />COUNCIL AREA: Camden <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Feb 2022 20:37",
-                "title": "incident: other"
             }
         },
         {
