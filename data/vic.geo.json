@@ -63,6 +63,64 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            144.74809521193592,
+                            -37.64709927363483
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.71977108474158,
+                                    -37.634121411704164
+                                ],
+                                [
+                                    144.77641933913026,
+                                    -37.624060939011315
+                                ],
+                                [
+                                    144.7635447358601,
+                                    -37.670137608258344
+                                ],
+                                [
+                                    144.7460352754109,
+                                    -37.664430545778586
+                                ],
+                                [
+                                    144.73024242873404,
+                                    -37.661984527522286
+                                ],
+                                [
+                                    144.71977108474158,
+                                    -37.634121411704164
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2022-02-15T10:32:46+11:00",
+                "updated": "2022-02-15T10:32:46+11:00",
+                "id": "20104",
+                "location": "Diggers Rest",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             142.85529233903992,
                             -37.7234003779497
                         ]
@@ -487,36 +545,59 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bena",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2022-02-15T06:24:23+11:00",
-                "updated": "2022-02-15T10:15:31+11:00",
-                "id": "ESTA:220204669",
-                "location": "Bena",
-                "title": "incident: rescue"
+                "sourceTitle": "Woolsthorpe - Warrnambool-Caramut Road",
+                "category": "fire",
+                "subcategory": "planned burn",
+                "status": "in progress",
+                "created": "2022-02-15T10:29:49+11:00",
+                "updated": "2022-02-15T10:29:49+11:00",
+                "id": 3011110,
+                "location": "1Km N Of Woolsthorpe",
+                "size": "104.67",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.76168964567637,
-                    -38.40646551427294
+                    142.4658366,
+                    -38.1537483
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wright St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2022-02-15T10:30:00+11:00",
+                "updated": "2022-02-15T10:32:00+11:00",
+                "id": "ESTA:220251035",
+                "location": "Bairnsdale",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.61019238770407,
+                    -37.827171600894964
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Snowy Lane",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2022-02-15T10:21:10+11:00",
-                "updated": "2022-02-15T10:21:10+11:00",
-                "id": "ESTA:220204721",
-                "location": "Wright St, Westmeadows",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2022-02-15T10:35:00+11:00",
+                "updated": "2022-02-15T10:35:00+11:00",
+                "id": "ESTA:220204727",
+                "location": "Snowy Lane, Benalla",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -524,8 +605,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.87234879845974,
-                    -37.67690043117462
+                    146.01921512596348,
+                    -36.49443529496897
                 ]
             }
         },
@@ -32993,6 +33074,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Wright St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2022-02-15T10:21:10+11:00",
+                "updated": "2022-02-15T10:21:10+11:00",
+                "id": "ESTA:220204721",
+                "location": "Wright St, Westmeadows",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.87234879845974,
+                    -37.67690043117462
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Fletcher Rd",
                 "category": "fire",
                 "subcategory": "other",
@@ -33108,29 +33212,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hirata Bvd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2022-02-15T09:42:29+11:00",
-                "updated": "2022-02-15T09:42:29+11:00",
-                "id": "ESTA:220204705",
-                "location": "Hirata Bvd, Wyndham Vale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.618686211447,
-                    -37.870974106506566
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tahara - Murndal & Dohles Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -33154,35 +33235,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wallowa St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2022-02-15T09:31:49+11:00",
-                "updated": "2022-02-15T09:31:49+11:00",
-                "id": "ESTA:220204662",
-                "location": "Wallowa St, Cobram",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.65865863099913,
-                    -35.921344858881184
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Charles St",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "under control",
-                "created": "2022-02-15T10:00:42+11:00",
-                "updated": "2022-02-15T10:00:42+11:00",
+                "created": "2022-02-15T10:31:43+11:00",
+                "updated": "2022-02-15T10:31:43+11:00",
                 "id": "ESTA:220204688",
                 "location": "Charles St, St Albans",
                 "size": "Small",
@@ -33194,6 +33252,29 @@
                 "coordinates": [
                     144.79760152243836,
                     -37.72938251257511
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hirata Bvd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2022-02-15T09:42:29+11:00",
+                "updated": "2022-02-15T09:42:29+11:00",
+                "id": "ESTA:220204705",
+                "location": "Hirata Bvd, Wyndham Vale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.618686211447,
+                    -37.870974106506566
                 ]
             }
         },
