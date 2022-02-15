@@ -4,10 +4,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.53876607900008,
-                    -29.676609017999965
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.53876607900008,
+                            -29.676609017999965
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.539032541,
+                                            -29.676986604
+                                        ],
+                                        [
+                                            150.538782697,
+                                            -29.676903323
+                                        ],
+                                        [
+                                            150.538580442,
+                                            -29.676712966
+                                        ],
+                                        [
+                                            150.538556647,
+                                            -29.6765345059999
+                                        ],
+                                        [
+                                            150.538770799,
+                                            -29.6764155339999
+                                        ],
+                                        [
+                                            150.538925465,
+                                            -29.6762846629999
+                                        ],
+                                        [
+                                            150.539246691,
+                                            -29.676106204
+                                        ],
+                                        [
+                                            150.539032541,
+                                            -29.676986604
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -302,6 +351,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.2368980000001,
+                    -35.42209399999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Aprasia Av, Googong",
+                "category": "other",
+                "subcategory": "search/rescue",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/444764",
+                "created": "2022-02-15T04:32:00+11:00",
+                "updated": "2022-02-15T15:32:00+11:00",
+                "location": "Aprasia Av, Googong,  2620",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Aprasia Av, Googong,  2620 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Search/Rescue <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Feb 2022 15:32",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.8823430000001,
                     -34.59508600099997
                 ]
@@ -519,8 +592,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.37071600000002,
-                    -33.15901299999996
+                    151.36894226100003,
+                    -33.15807701399996
                 ]
             },
             "properties": {
@@ -559,6 +632,30 @@
                 "location": "2726 Glen Davis Rd, Glen Davis, NSW 2846",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2726 Glen Davis Rd, Glen Davis, NSW 2846 <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Feb 2022 20:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.35517300000004,
+                    -33.407536999999934
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Halcyon St, Wyoming",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/444767",
+                "created": "2022-02-15T05:10:00+11:00",
+                "updated": "2022-02-15T16:10:00+11:00",
+                "location": "50 Halcyon St, Wyoming, NSW 2250",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 50 Halcyon St, Wyoming, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Feb 2022 16:10",
                 "title": "incident: fire"
             }
         },
