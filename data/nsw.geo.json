@@ -148,10 +148,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.9273720000001,
-                    -30.193100999999956
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.9273720000001,
+                            -30.193100999999956
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.927221981,
+                                            -30.196128254
+                                        ],
+                                        [
+                                            149.926722294,
+                                            -30.198793251
+                                        ],
+                                        [
+                                            149.926389169,
+                                            -30.198721867
+                                        ],
+                                        [
+                                            149.926865063,
+                                            -30.1960330759999
+                                        ],
+                                        [
+                                            149.927221981,
+                                            -30.196128254
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -209,36 +246,12 @@
                 "subcategory": "structure fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445063",
-                "created": "2022-02-18T17:41:00+11:00",
-                "updated": "2022-02-19T04:41:00+11:00",
+                "created": "2022-02-19T03:37:00+11:00",
+                "updated": "2022-02-19T14:37:00+11:00",
                 "location": "44 Amaroo Rd, Molong, NSW 2866",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 44 Amaroo Rd, Molong, NSW 2866 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 04:41",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 44 Amaroo Rd, Molong, NSW 2866 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 14:37",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.493602,
-                    -32.17748999999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Anne Marie Pl, Tuncurry",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445073",
-                "created": "2022-02-18T22:14:00+11:00",
-                "updated": "2022-02-19T09:14:00+11:00",
-                "location": "12 Anne Marie Pl, Tuncurry, NSW 2428",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 12 Anne Marie Pl, Tuncurry, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Feb 2022 09:14",
-                "title": "incident: other"
             }
         },
         {
@@ -262,30 +275,6 @@
                 "location": "Berida-Bullagreen Rd, Collie, NSW 2827",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Berida-Bullagreen Rd, Collie, NSW 2827 <br />COUNCIL AREA: Gilgandra <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 12:40",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.38635900100007,
-                    -28.81267700099994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bruxner Hwy, Lindendale",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445089",
-                "created": "2022-02-19T01:38:00+11:00",
-                "updated": "2022-02-19T12:38:00+11:00",
-                "location": "1372 Bruxner Hwy, Lindendale, NSW 2480",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1372 Bruxner Hwy, Lindendale, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 12:38",
                 "title": "incident: other"
             }
         },
@@ -366,22 +355,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.72233400000005,
-                    -35.32570499999997
+                    149.68777656600003,
+                    -35.33683360799995
                 ]
             },
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Kings Hwy, Larbert",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
+                "subcategory": "burn off",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445097",
-                "created": "2022-02-19T02:52:00+11:00",
-                "updated": "2022-02-19T13:52:00+11:00",
-                "location": "Kings Hwy, Larbert,  2622",
+                "created": "2022-02-19T03:36:00+11:00",
+                "updated": "2022-02-19T14:36:00+11:00",
+                "location": "382 Foxs Elbow Road, Warri NSW 2622",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kings Hwy, Larbert,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 13:52",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 382 Foxs Elbow Road, Warri NSW 2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 14:36",
                 "title": "incident: fire"
             }
         },
@@ -407,30 +396,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mid Western Hwy, Gunbar, NSW 2711 <br />COUNCIL AREA: Carrathool <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 11:16",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.87103400000012,
-                    -32.059883999999954
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "New England Hwy, Scone",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445096",
-                "created": "2022-02-19T02:48:00+11:00",
-                "updated": "2022-02-19T13:48:00+11:00",
-                "location": "New England Hwy, Scone, NSW 2337",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Hwy, Scone, NSW 2337 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 13:48",
-                "title": "incident: other"
             }
         },
         {
@@ -497,11 +462,11 @@
                 "subcategory": "structure fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445053",
-                "created": "2022-02-18T15:30:00+11:00",
-                "updated": "2022-02-19T02:30:00+11:00",
+                "created": "2022-02-19T03:42:00+11:00",
+                "updated": "2022-02-19T14:42:00+11:00",
                 "location": "16 Pacific Cr, Maianbar, NSW 2230",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 16 Pacific Cr, Maianbar, NSW 2230 <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 02:30",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 16 Pacific Cr, Maianbar, NSW 2230 <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 14:42",
                 "title": "incident: fire"
             }
         },
@@ -638,14 +603,14 @@
                 "feedType": "incident",
                 "sourceTitle": "Yarramalong Rd, Alison",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "burn off",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445099",
-                "created": "2022-02-19T03:20:00+11:00",
-                "updated": "2022-02-19T14:20:00+11:00",
+                "created": "2022-02-19T03:46:00+11:00",
+                "updated": "2022-02-19T14:46:00+11:00",
                 "location": "Yarramalong Rd, Alison, NSW 2259",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Yarramalong Rd, Alison, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 14:20",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Yarramalong Rd, Alison, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2022 14:46",
                 "title": "incident: fire"
             }
         }
