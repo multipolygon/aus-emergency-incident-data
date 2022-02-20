@@ -987,34 +987,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clyde",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2022-02-20T20:50:37+11:00",
-                "updated": "2022-02-20T21:03:00+11:00",
-                "id": "ESTA:220206685",
-                "location": "Clyde",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.37050865568756,
-                    -38.12397689666225
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Western Hwy",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2022-02-20T21:03:00+11:00",
-                "updated": "2022-02-20T21:03:00+11:00",
+                "updated": "2022-02-20T21:22:00+11:00",
                 "id": "ESTA:220206687",
                 "location": "Western Hwy, Lillimur",
                 "size": "Small",
@@ -1026,6 +1004,51 @@
                 "coordinates": [
                     141.0842184457597,
                     -36.357527886573344
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2022-02-20T21:27:00+11:00",
+                "updated": "2022-02-20T21:28:00+11:00",
+                "id": "ESTA:220251289",
+                "location": "Nangeela",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.33345700169713,
+                    -37.48812403829537
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Avoca St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2022-02-20T21:27:26+11:00",
+                "updated": "2022-02-20T21:27:26+11:00",
+                "id": "ESTA:220206689",
+                "location": "Avoca St, Broadmeadows",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.92162994142768,
+                    -37.665463366302745
                 ]
             }
         },
@@ -1049,29 +1072,6 @@
                 "coordinates": [
                     145.41388362615075,
                     -38.14467855338976
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2022-02-20T20:27:00+11:00",
-                "updated": "2022-02-20T21:00:00+11:00",
-                "id": "ESTA:220206678",
-                "location": "Bells Beach",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.26746084440373,
-                    -38.37097634142868
                 ]
             }
         },
@@ -2470,8 +2470,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.972292,
-                    -35.6454409999999
+                    147.001758366,
+                    -35.667088051
                 ]
             }
         },
@@ -36356,6 +36356,29 @@
                 "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
+                "created": "2022-02-20T20:27:00+11:00",
+                "updated": "2022-02-20T21:00:00+11:00",
+                "id": "ESTA:220206678",
+                "location": "Bells Beach",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.26746084440373,
+                    -38.37097634142868
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2022-02-20T20:23:00+11:00",
                 "updated": "2022-02-20T20:33:00+11:00",
                 "id": "ESTA:220206677",
@@ -36369,29 +36392,6 @@
                 "coordinates": [
                     144.93732199705954,
                     -37.584409105859784
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Myrtleford-Stanley Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2022-02-20T19:50:00+11:00",
-                "updated": "2022-02-20T20:13:00+11:00",
-                "id": "ESTA:220206672",
-                "location": "Myrtleford-Stanley Rd, Stanley",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.75665698805395,
-                    -36.452394239525766
                 ]
             }
         },
@@ -36421,81 +36421,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Evans St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2022-02-20T21:08:33+11:00",
-                "updated": "2022-02-20T21:08:33+11:00",
-                "id": "ESTA:220206684",
-                "location": "Evans St, Port Melbourne",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9384374019933,
-                    -37.83551509924627
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Queens Gdns",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2022-02-20T21:05:54+11:00",
-                "updated": "2022-02-20T21:05:54+11:00",
-                "id": "ESTA:220206686",
-                "location": "Queens Gdns, Bundoora",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0975374869027,
-                    -37.68302886621553
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Caroline Springs",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2022-02-20T20:41:05+11:00",
-                "updated": "2022-02-20T20:41:05+11:00",
-                "id": "ESTA:220206680",
-                "location": "Caroline Springs, Caroline Springs",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7450067403451,
-                    -37.729750702156096
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2022-02-20T20:42:00+11:00",
-                "updated": "2022-02-20T21:04:00+11:00",
+                "updated": "2022-02-20T21:16:00+11:00",
                 "id": "ESTA:220251287",
                 "location": "Cornishtown",
                 "title": "incident: tree down"
@@ -36506,28 +36437,6 @@
                 "coordinates": [
                     146.55856967105805,
                     -36.117669006695785
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2022-02-20T20:20:00+11:00",
-                "updated": "2022-02-20T21:01:00+11:00",
-                "id": "ESTA:220251284",
-                "location": "Middle Park",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9636642822031,
-                    -37.856935453907255
                 ]
             }
         }
