@@ -513,10 +513,71 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.82837000000006,
-                    -34.65748099999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.82837000000006,
+                            -34.65748099999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            144.814857448,
+                                            -34.67605249
+                                        ],
+                                        [
+                                            144.815285752,
+                                            -34.6758383389999
+                                        ],
+                                        [
+                                            144.816808606,
+                                            -34.676219052
+                                        ],
+                                        [
+                                            144.818759764,
+                                            -34.676885302
+                                        ],
+                                        [
+                                            144.821305788,
+                                            -34.677979853
+                                        ],
+                                        [
+                                            144.821448555,
+                                            -34.678051238
+                                        ],
+                                        [
+                                            144.821305788,
+                                            -34.678503335
+                                        ],
+                                        [
+                                            144.820901279,
+                                            -34.6784557459999
+                                        ],
+                                        [
+                                            144.817308293,
+                                            -34.6771708369999
+                                        ],
+                                        [
+                                            144.815047805,
+                                            -34.6764807939999
+                                        ],
+                                        [
+                                            144.814857448,
+                                            -34.67605249
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -526,11 +587,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445805",
-                "created": "2022-02-26T08:43:00+11:00",
-                "updated": "2022-02-26T19:43:00+11:00",
+                "created": "2022-02-26T09:18:00+11:00",
+                "updated": "2022-02-26T20:18:00+11:00",
                 "location": "Cobb Hwy, Hay South, NSW 2711",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Cobb Hwy, Hay South, NSW 2711 <br />COUNCIL AREA: Hay <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Feb 2022 19:43",
+                "size": 5,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Cobb Hwy, Hay South, NSW 2711 <br />COUNCIL AREA: Hay <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Feb 2022 20:18",
                 "title": "incident: fire"
             }
         },
@@ -718,35 +779,11 @@
                 "subcategory": "mva/transport",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445796",
-                "created": "2022-02-26T08:15:00+11:00",
-                "updated": "2022-02-26T19:15:00+11:00",
+                "created": "2022-02-26T09:21:00+11:00",
+                "updated": "2022-02-26T20:21:00+11:00",
                 "location": "Pacific Hwy, Moonee Beach, NSW 2450",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Moonee Beach, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Feb 2022 19:15",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.7949870000001,
-                    -29.77943399999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Red Range Rd, Lambs Valley",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445803",
-                "created": "2022-02-26T07:54:00+11:00",
-                "updated": "2022-02-26T18:54:00+11:00",
-                "location": "Red Range Rd, Lambs Valley,  2370",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Red Range Rd, Lambs Valley,  2370 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Feb 2022 18:54",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Moonee Beach, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Feb 2022 20:21",
                 "title": "incident: other"
             }
         },
