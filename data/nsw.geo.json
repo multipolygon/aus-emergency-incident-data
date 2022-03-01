@@ -52,10 +52,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.1082550000001,
-                    -35.08003999999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.1082550000001,
+                            -35.08003999999994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.10618743,
+                                            -35.081407208
+                                        ],
+                                        [
+                                            148.106948857,
+                                            -35.081264441
+                                        ],
+                                        [
+                                            148.107888744,
+                                            -35.081181159
+                                        ],
+                                        [
+                                            148.108650171,
+                                            -35.0812525439999
+                                        ],
+                                        [
+                                            148.108888118,
+                                            -35.0813596199999
+                                        ],
+                                        [
+                                            148.109292627,
+                                            -35.0819425879999
+                                        ],
+                                        [
+                                            148.1094116,
+                                            -35.0822043279999
+                                        ],
+                                        [
+                                            148.109316422,
+                                            -35.0827278099999
+                                        ],
+                                        [
+                                            148.108602583,
+                                            -35.083108523
+                                        ],
+                                        [
+                                            148.107091624,
+                                            -35.0837628749999
+                                        ],
+                                        [
+                                            148.106104149,
+                                            -35.083025241
+                                        ],
+                                        [
+                                            148.105354618,
+                                            -35.082751604
+                                        ],
+                                        [
+                                            148.105271337,
+                                            -35.0822876089999
+                                        ],
+                                        [
+                                            148.105556872,
+                                            -35.0817284359999
+                                        ],
+                                        [
+                                            148.10618743,
+                                            -35.081407208
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -166,30 +243,6 @@
                 "location": "M1 (Mount Ousley Rd), Mount Pleasant, NSW 2500",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 (Mount Ousley Rd), Mount Pleasant, NSW 2500 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2022 14:46",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.8520810000001,
-                    -33.77316099999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "(Westlink Mtwy), Eastern Creek",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/446035",
-                "created": "2022-03-01T04:06:00+11:00",
-                "updated": "2022-03-01T15:06:00+11:00",
-                "location": "M7 (Westlink Mtwy), Eastern Creek, NSW 2766",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M7 (Westlink Mtwy), Eastern Creek, NSW 2766 <br />COUNCIL AREA: Blacktown <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Mar 2022 15:06",
                 "title": "incident: other"
             }
         },
@@ -519,13 +572,13 @@
                 "sourceTitle": "Sapphire Coast Dr, Bournda",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/446030",
-                "created": "2022-03-01T03:40:00+11:00",
-                "updated": "2022-03-01T14:40:00+11:00",
+                "created": "2022-03-01T04:20:00+11:00",
+                "updated": "2022-03-01T15:20:00+11:00",
                 "location": "Sapphire Coast Dr, Bournda, NSW 2548",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sapphire Coast Dr, Bournda, NSW 2548 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2022 14:40",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sapphire Coast Dr, Bournda, NSW 2548 <br />COUNCIL AREA: Bega Valley <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2022 15:20",
                 "title": "incident: other"
             }
         },
@@ -543,13 +596,13 @@
                 "sourceTitle": "Speedy Street, Molong",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/446034",
-                "created": "2022-03-01T03:18:00+11:00",
-                "updated": "2022-03-01T14:18:00+11:00",
+                "created": "2022-03-01T04:27:00+11:00",
+                "updated": "2022-03-01T15:27:00+11:00",
                 "location": "Speedy Street, Molong",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Speedy Street, Molong <br />COUNCIL AREA: Cabonne <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Mar 2022 14:18",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Speedy Street, Molong <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Mar 2022 15:27",
                 "title": "incident: fire"
             }
         },
