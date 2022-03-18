@@ -302,11 +302,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/448680",
-                "created": "2022-03-18T03:20:00+11:00",
-                "updated": "2022-03-18T14:20:00+11:00",
+                "created": "2022-03-18T05:50:00+11:00",
+                "updated": "2022-03-18T16:50:00+11:00",
                 "location": "Fishermans Lane, Wyangala, NSW 2808",
                 "size": 10,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Fishermans Lane, Wyangala, NSW 2808 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Mar 2022 14:20",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Fishermans Lane, Wyangala, NSW 2808 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Mar 2022 16:50",
                 "title": "incident: fire"
             }
         },
@@ -361,10 +361,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.22460134100004,
-                    -33.87320111099996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.22460134100004,
+                            -33.87320111099996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.232798582,
+                                            -33.88922916
+                                        ],
+                                        [
+                                            148.230728452,
+                                            -33.889133982
+                                        ],
+                                        [
+                                            148.22865832,
+                                            -33.877855337
+                                        ],
+                                        [
+                                            148.230419122,
+                                            -33.8777601579999
+                                        ],
+                                        [
+                                            148.232798582,
+                                            -33.88922916
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -372,13 +409,13 @@
                 "sourceTitle": "Parkwood",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/448694",
-                "created": "2022-03-18T05:23:00+11:00",
-                "updated": "2022-03-18T16:23:00+11:00",
+                "created": "2022-03-18T05:49:00+11:00",
+                "updated": "2022-03-18T16:49:00+11:00",
                 "location": "\"Parkwood\" 562 Cowra Road, Grenfell",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: \"Parkwood\" 562 Cowra Road, Grenfell <br />COUNCIL AREA: Weddin <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Mar 2022 16:23",
+                "size": 20,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: \"Parkwood\" 562 Cowra Road, Grenfell <br />COUNCIL AREA: Weddin <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Mar 2022 16:49",
                 "title": "incident: fire"
             }
         },
@@ -403,30 +440,6 @@
                 "location": "Bombala",
                 "size": 300,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Bombala <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 300 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 18 Mar 2022 15:22",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.39154600000006,
-                    -34.107054999999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Scenic Rd, Wirrimah",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/448695",
-                "created": "2022-03-18T05:00:00+11:00",
-                "updated": "2022-03-18T16:00:00+11:00",
-                "location": "2626 Scenic Rd, Wirrimah, NSW 2803",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2626 Scenic Rd, Wirrimah, NSW 2803 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Mar 2022 16:00",
                 "title": "incident: fire"
             }
         },
@@ -566,11 +579,11 @@
                 "subcategory": "assist other agency",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/445835",
-                "created": "2022-03-17T23:37:00+11:00",
-                "updated": "2022-03-18T10:37:00+11:00",
+                "created": "2022-03-18T06:00:00+11:00",
+                "updated": "2022-03-18T17:00:00+11:00",
                 "location": "24 Induna St, South Grafton NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 24 Induna St, South Grafton NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 18 Mar 2022 10:37",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 24 Induna St, South Grafton NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 18 Mar 2022 17:00",
                 "title": "incident: other"
             }
         },
@@ -852,38 +865,14 @@
                 "sourceTitle": "Service Rd, Cowra",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/448698",
-                "created": "2022-03-18T05:36:00+11:00",
-                "updated": "2022-03-18T16:36:00+11:00",
+                "created": "2022-03-18T05:54:00+11:00",
+                "updated": "2022-03-18T16:54:00+11:00",
                 "location": "21 Service Rd, Cowra, NSW 2794",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 21 Service Rd, Cowra, NSW 2794 <br />COUNCIL AREA: Cowra <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Mar 2022 16:36",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 21 Service Rd, Cowra, NSW 2794 <br />COUNCIL AREA: Cowra <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Mar 2022 16:54",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.61202287700007,
-                    -35.08809059899994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "SES Assistance  ",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/448613",
-                "created": "2022-03-17T10:17:00+11:00",
-                "updated": "2022-03-17T21:17:00+11:00",
-                "location": "445 The Wool Road St Georges Basin",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 445 The Wool Road St Georges Basin <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 17 Mar 2022 21:17",
-                "title": "incident: other"
             }
         },
         {
@@ -907,30 +896,6 @@
                 "location": "272 Strathallyn Lane, Narromine, NSW 2821",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 272 Strathallyn Lane, Narromine, NSW 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Mar 2022 15:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.86993100100005,
-                    -33.90777499999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wilson Rd, Green Valley",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/448697",
-                "created": "2022-03-18T05:42:00+11:00",
-                "updated": "2022-03-18T16:42:00+11:00",
-                "location": "Wilson Rd, Green Valley, NSW 2168",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wilson Rd, Green Valley, NSW 2168 <br />COUNCIL AREA: Liverpool <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Mar 2022 16:42",
                 "title": "incident: fire"
             }
         }
