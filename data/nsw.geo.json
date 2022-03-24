@@ -52,30 +52,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.96316400000012,
-                    -35.177471999999966
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bullenbong Rd, Tootool",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/449155",
-                "created": "2022-03-24T07:17:00+11:00",
-                "updated": "2022-03-24T18:17:00+11:00",
-                "location": "365 Bullenbong Rd, Tootool, NSW 2655",
-                "size": 50,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 365 Bullenbong Rd, Tootool, NSW 2655 <br />COUNCIL AREA: Lockhart <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 50 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Mar 2022 18:17",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -127,6 +103,37 @@
                                         [
                                             148.539650966,
                                             -31.810925089
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.54475241,
+                                            -31.80706491
+                                        ],
+                                        [
+                                            148.545537632,
+                                            -31.8060417419999
+                                        ],
+                                        [
+                                            148.546418032,
+                                            -31.8060417419999
+                                        ],
+                                        [
+                                            148.546846335,
+                                            -31.80613692
+                                        ],
+                                        [
+                                            148.54815504,
+                                            -31.8078501329999
+                                        ],
+                                        [
+                                            148.54475241,
+                                            -31.80706491
                                         ]
                                     ]
                                 ]
@@ -239,41 +246,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            148.529538256,
-                                            -31.805618892
-                                        ],
-                                        [
-                                            148.533464366,
-                                            -31.8069275949999
-                                        ],
-                                        [
-                                            148.533880772,
-                                            -31.808593217
-                                        ],
-                                        [
-                                            148.53631972,
-                                            -31.810139867
-                                        ],
-                                        [
-                                            148.538520721,
-                                            -31.8112701119999
-                                        ],
-                                        [
-                                            148.528467499,
-                                            -31.8121029229999
-                                        ],
-                                        [
-                                            148.529538256,
-                                            -31.805618892
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             148.546751157,
                                             -31.805946563
                                         ],
@@ -313,28 +285,32 @@
                                 "coordinates": [
                                     [
                                         [
-                                            148.54475241,
-                                            -31.80706491
+                                            148.529538256,
+                                            -31.805618892
                                         ],
                                         [
-                                            148.545537632,
-                                            -31.8060417419999
+                                            148.533464366,
+                                            -31.8069275949999
                                         ],
                                         [
-                                            148.546418032,
-                                            -31.8060417419999
+                                            148.533880772,
+                                            -31.808593217
                                         ],
                                         [
-                                            148.546846335,
-                                            -31.80613692
+                                            148.53631972,
+                                            -31.810139867
                                         ],
                                         [
-                                            148.54815504,
-                                            -31.8078501329999
+                                            148.538520721,
+                                            -31.8112701119999
                                         ],
                                         [
-                                            148.54475241,
-                                            -31.80706491
+                                            148.528467499,
+                                            -31.8121029229999
+                                        ],
+                                        [
+                                            148.529538256,
+                                            -31.805618892
                                         ]
                                     ]
                                 ]
@@ -669,6 +645,30 @@
                 "location": "Jenolan",
                 "size": 110,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Jenolan <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 110 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 24 Mar 2022 09:51",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.56982112000003,
+                    -33.554753468999934
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nangar Rd, Canowindra",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/449161",
+                "created": "2022-03-24T08:24:00+11:00",
+                "updated": "2022-03-24T19:24:00+11:00",
+                "location": "935 Nangar Rd, Canowindra, NSW 2804",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 935 Nangar Rd, Canowindra, NSW 2804 <br />COUNCIL AREA: Cabonne <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Mar 2022 19:24",
                 "title": "incident: fire"
             }
         },
@@ -1143,30 +1143,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.0589940000001,
-                    -29.009616999999935
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Carnarvon Hwy, Mungindi",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/449156",
-                "created": "2022-03-24T07:14:00+11:00",
-                "updated": "2022-03-24T18:14:00+11:00",
-                "location": "11094 Carnarvon Hwy, Mungindi,  2406",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 11094 Carnarvon Hwy, Mungindi,  2406 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Mar 2022 18:14",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.43300414100008,
                     -33.37375134699994
                 ]
@@ -1176,14 +1152,38 @@
                 "sourceTitle": "Coolong Cl, Tumbi Umbi",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/449159",
-                "created": "2022-03-24T08:10:00+11:00",
-                "updated": "2022-03-24T19:10:00+11:00",
+                "created": "2022-03-24T08:30:00+11:00",
+                "updated": "2022-03-24T19:30:00+11:00",
                 "location": "1 Coolong Cl, Tumbi Umbi, NSW 2261",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1 Coolong Cl, Tumbi Umbi, NSW 2261 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Mar 2022 19:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1 Coolong Cl, Tumbi Umbi, NSW 2261 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Mar 2022 19:30",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.3152110000001,
+                    -34.64938600099998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Erith St, Bundanoon",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/449162",
+                "created": "2022-03-24T08:26:00+11:00",
+                "updated": "2022-03-24T19:26:00+11:00",
+                "location": "162 - 174 Erith St, Bundanoon,  2578",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 162 - 174 Erith St, Bundanoon,  2578 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 24 Mar 2022 19:26",
+                "title": "incident: other"
             }
         },
         {
