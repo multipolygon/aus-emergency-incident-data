@@ -4,10 +4,103 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.9693000000001,
-                    -34.34082999999998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.9693000000001,
+                            -34.34082999999998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.968436269,
+                                            -34.3476056109999
+                                        ],
+                                        [
+                                            146.974527688,
+                                            -34.348343244
+                                        ],
+                                        [
+                                            146.975741214,
+                                            -34.348604984
+                                        ],
+                                        [
+                                            146.97659782,
+                                            -34.349318823
+                                        ],
+                                        [
+                                            146.976455052,
+                                            -34.350579937
+                                        ],
+                                        [
+                                            146.97840621,
+                                            -34.3516744889999
+                                        ],
+                                        [
+                                            146.979215227,
+                                            -34.3518172569999
+                                        ],
+                                        [
+                                            146.978905897,
+                                            -34.3529831929999
+                                        ],
+                                        [
+                                            146.97747822,
+                                            -34.353387701
+                                        ],
+                                        [
+                                            146.975931571,
+                                            -34.354172924
+                                        ],
+                                        [
+                                            146.975312911,
+                                            -34.354220512
+                                        ],
+                                        [
+                                            146.973433136,
+                                            -34.354196717
+                                        ],
+                                        [
+                                            146.972148228,
+                                            -34.354077745
+                                        ],
+                                        [
+                                            146.970672962,
+                                            -34.354339485
+                                        ],
+                                        [
+                                            146.968959749,
+                                            -34.354648816
+                                        ],
+                                        [
+                                            146.967294128,
+                                            -34.35529127
+                                        ],
+                                        [
+                                            146.9674131,
+                                            -34.3544584589999
+                                        ],
+                                        [
+                                            146.967674841,
+                                            -34.352864219
+                                        ],
+                                        [
+                                            146.968436269,
+                                            -34.3476056109999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -502,6 +595,54 @@
                 "location": "Link Rd, Kiandra, NSW 2629",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Link Rd, Kiandra, NSW 2629 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Apr 2022 11:22",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.29581200000007,
+                    -32.822919999999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Marrowbone Rd, Pokolbin",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/450325",
+                "created": "2022-04-08T03:10:00+10:00",
+                "updated": "2022-04-08T13:10:00+10:00",
+                "location": "Marrowbone Rd, Pokolbin, NSW 2320",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Marrowbone Rd, Pokolbin, NSW 2320 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Apr 2022 13:10",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.00841300000002,
+                    -33.57005699999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Northern Rd, Glenorie",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/450326",
+                "created": "2022-04-08T03:28:00+10:00",
+                "updated": "2022-04-08T13:28:00+10:00",
+                "location": "Old Northern Rd, Glenorie, NSW 2157",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Old Northern Rd, Glenorie, NSW 2157 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Apr 2022 13:28",
                 "title": "incident: other"
             }
         },
