@@ -28,10 +28,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.2987651830001,
-                    -32.61494209099993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.2987651830001,
+                            -32.61494209099993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.301882206,
+                                            -32.62216261
+                                        ],
+                                        [
+                                            147.289580393,
+                                            -32.620187657
+                                        ],
+                                        [
+                                            147.291793292,
+                                            -32.614619719
+                                        ],
+                                        [
+                                            147.296314268,
+                                            -32.613144453
+                                        ],
+                                        [
+                                            147.304142695,
+                                            -32.613477577
+                                        ],
+                                        [
+                                            147.304333051,
+                                            -32.6142390059999
+                                        ],
+                                        [
+                                            147.305570372,
+                                            -32.614810076
+                                        ],
+                                        [
+                                            147.305713139,
+                                            -32.617237126
+                                        ],
+                                        [
+                                            147.301882206,
+                                            -32.62216261
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -444,6 +497,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.9860890000001,
+                    -33.352416999999946
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Limestone Rd, Forbes",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/451580",
+                "created": "2022-04-25T04:14:00+10:00",
+                "updated": "2022-04-25T14:14:00+10:00",
+                "location": "Limestone Rd, Forbes, NSW 2871",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Limestone Rd, Forbes, NSW 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Apr 2022 14:14",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.1874103550001,
                     -31.473401141999943
                 ]
@@ -532,6 +609,30 @@
                 "location": "Taylors Rd, Bendick Murrell, NSW 2803",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Taylors Rd, Bendick Murrell, NSW 2803 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Apr 2022 14:05",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.574337,
+                    -33.780614999999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Warrawong Rd, Cowra",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/451579",
+                "created": "2022-04-25T04:03:00+10:00",
+                "updated": "2022-04-25T14:03:00+10:00",
+                "location": "97 Warrawong Rd, Cowra, NSW 2794",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 97 Warrawong Rd, Cowra, NSW 2794 <br />COUNCIL AREA: Cowra <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Apr 2022 14:03",
                 "title": "incident: fire"
             }
         }
