@@ -696,14 +696,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lockwood Rd",
+                "sourceTitle": "South Valley Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2022-05-09T09:06:00+10:00",
+                "updated": "2022-05-09T09:06:00+10:00",
+                "id": "ESTA:220506794",
+                "location": "South Valley Rd, Highton",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3177273142126,
+                    -38.19632119604364
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Koorlong Av",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2022-05-09T08:37:18+10:00",
-                "updated": "2022-05-09T08:37:18+10:00",
-                "id": "ESTA:220506646",
-                "location": "Lockwood Rd, Kangaroo Flat",
+                "created": "2022-05-09T08:11:00+10:00",
+                "updated": "2022-05-09T08:23:00+10:00",
+                "id": "ESTA:220506715",
+                "location": "Koorlong Av, Irymple",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -711,8 +734,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.23812561370582,
-                    -36.795834367946405
+                    142.16548606991992,
+                    -34.24016695894441
                 ]
             }
         },
@@ -720,43 +743,44 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2022-05-09T08:47:00+10:00",
-                "updated": "2022-05-09T08:47:00+10:00",
-                "id": "ESTA:220550300",
-                "location": "Blackburn",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.16377341820504,
-                    -37.82273739250509
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mickleham",
                 "category": "rescue",
-                "subcategory": "washaway",
-                "status": "responding",
-                "created": "2022-05-09T08:48:23+10:00",
-                "updated": "2022-05-09T08:48:38+10:00",
-                "id": "ESTA:220506763",
-                "location": "Mickleham",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2022-05-09T08:13:00+10:00",
+                "updated": "2022-05-09T09:14:00+10:00",
+                "id": "ESTA:220506718",
+                "location": "Wantirna South",
+                "size": "Small",
                 "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8845340714684,
-                    -37.53319635669277
+                    145.21284460121979,
+                    -37.8767715644206
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thomastown",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2022-05-09T09:13:02+10:00",
+                "updated": "2022-05-09T09:13:44+10:00",
+                "id": "ESTA:220506802",
+                "location": "Edgars Rd, Thomastown",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99882521786486,
+                    -37.679830414160136
                 ]
             }
         },
@@ -823,6 +847,64 @@
                 "coordinates": [
                     148.059031963,
                     -35.731986615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Napier St",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2022-02-12T11:00:00+11:00",
+                "updated": "2022-02-12T11:00:00+11:00",
+                "id": "18d21727ec92de1aef80858d63586206",
+                "location": "Napier St",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.2972,
+                            -36.7476
+                        ],
+                        [
+                            144.2972,
+                            -36.7475
+                        ],
+                        [
+                            144.2972,
+                            -36.7475
+                        ],
+                        [
+                            144.2973,
+                            -36.7475
+                        ],
+                        [
+                            144.2974,
+                            -36.7475
+                        ],
+                        [
+                            144.2975,
+                            -36.7476
+                        ],
+                        [
+                            144.2975,
+                            -36.7477
+                        ],
+                        [
+                            144.2973,
+                            -36.7477
+                        ],
+                        [
+                            144.2972,
+                            -36.7476
+                        ]
+                    ]
                 ]
             }
         },
@@ -1127,64 +1209,6 @@
                         [
                             144.2457,
                             -36.6381
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Napier St",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2022-02-12T11:00:00+11:00",
-                "updated": "2022-02-12T11:00:00+11:00",
-                "id": "18d21727ec92de1aef80858d63586206",
-                "location": "Napier St",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.2972,
-                            -36.7476
-                        ],
-                        [
-                            144.2972,
-                            -36.7475
-                        ],
-                        [
-                            144.2972,
-                            -36.7475
-                        ],
-                        [
-                            144.2973,
-                            -36.7475
-                        ],
-                        [
-                            144.2974,
-                            -36.7475
-                        ],
-                        [
-                            144.2975,
-                            -36.7476
-                        ],
-                        [
-                            144.2975,
-                            -36.7477
-                        ],
-                        [
-                            144.2973,
-                            -36.7477
-                        ],
-                        [
-                            144.2972,
-                            -36.7476
                         ]
                     ]
                 ]
@@ -17700,75 +17724,6 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2022-05-09T07:35:00+10:00",
-                "updated": "2022-05-09T07:53:00+10:00",
-                "id": "ESTA:220506687",
-                "location": "Bonnie Doon",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.8603291756875,
-                    -37.02656073343409
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Queen St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2022-05-09T07:20:00+10:00",
-                "updated": "2022-05-09T07:54:00+10:00",
-                "id": "ESTA:220506676",
-                "location": "Queen St, Wallan",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97401966921407,
-                    -37.41131681421025
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2022-05-09T08:07:00+10:00",
-                "updated": "2022-05-09T08:13:00+10:00",
-                "id": "ESTA:220506708",
-                "location": "Cranbourne East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2917541851868,
-                    -38.103367845991045
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
@@ -17791,14 +17746,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Koorlong Av",
+                "sourceTitle": "Lockwood Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2022-05-09T08:34:06+10:00",
-                "updated": "2022-05-09T08:34:06+10:00",
-                "id": "ESTA:220506715",
-                "location": "Koorlong Av, Irymple",
+                "created": "2022-05-09T08:55:06+10:00",
+                "updated": "2022-05-09T08:55:06+10:00",
+                "id": "ESTA:220506646",
+                "location": "Lockwood Rd, Kangaroo Flat",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -17806,54 +17761,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.16548836098934,
-                    -34.24016553192792
+                    144.23812561370582,
+                    -36.795834367946405
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "request for assistance",
-                "created": "2022-05-09T08:13:00+10:00",
-                "updated": "2022-05-09T08:25:00+10:00",
-                "id": "ESTA:220506718",
-                "location": "Wantirna South",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.21284460121979,
-                    -37.8767715644206
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lal Lal St",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Mickleham",
+                "category": "other",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2022-05-09T08:12:31+10:00",
-                "updated": "2022-05-09T08:12:31+10:00",
-                "id": "ESTA:220506630",
-                "location": "Lal Lal St, Canadian",
+                "created": "2022-05-09T09:02:44+10:00",
+                "updated": "2022-05-09T09:02:44+10:00",
+                "id": "ESTA:220506763",
+                "location": "Mickleham, Mickleham",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8762580176689,
-                    -37.5784384241871
+                    144.8845283106406,
+                    -37.533199966733775
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cranbourne North",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2022-05-09T09:00:30+10:00",
+                "updated": "2022-05-09T09:00:30+10:00",
+                "id": "ESTA:220506776",
+                "location": "Cranbourne North, Cranbourne North",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3290125098065,
+                    -38.07539120001027
                 ]
             }
         },
@@ -17877,6 +17832,28 @@
                 "coordinates": [
                     144.8072307145202,
                     -37.79260533710563
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2022-05-09T08:47:00+10:00",
+                "updated": "2022-05-09T08:49:00+10:00",
+                "id": "ESTA:220550300",
+                "location": "Blackburn",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16377341820504,
+                    -37.82273739250509
                 ]
             }
         }
