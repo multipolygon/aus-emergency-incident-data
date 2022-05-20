@@ -28,10 +28,171 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.84853744500003,
-                    -33.377845838999974
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.84853744500003,
+                            -33.377845838999974
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.84550484,
+                                            -33.376944361
+                                        ],
+                                        [
+                                            149.846742161,
+                                            -33.378062707
+                                        ],
+                                        [
+                                            149.846266268,
+                                            -33.378919314
+                                        ],
+                                        [
+                                            149.845576225,
+                                            -33.379204849
+                                        ],
+                                        [
+                                            149.844505467,
+                                            -33.379276233
+                                        ],
+                                        [
+                                            149.844648234,
+                                            -33.3796569469999
+                                        ],
+                                        [
+                                            149.844172342,
+                                            -33.3801328389999
+                                        ],
+                                        [
+                                            149.843720245,
+                                            -33.38096565
+                                        ],
+                                        [
+                                            149.844243726,
+                                            -33.3815843099999
+                                        ],
+                                        [
+                                            149.844172342,
+                                            -33.3822267639999
+                                        ],
+                                        [
+                                            149.842982612,
+                                            -33.383178549
+                                        ],
+                                        [
+                                            149.842435336,
+                                            -33.3837496199999
+                                        ],
+                                        [
+                                            149.842149801,
+                                            -33.383130959
+                                        ],
+                                        [
+                                            149.842363952,
+                                            -33.382797835
+                                        ],
+                                        [
+                                            149.842482925,
+                                            -33.3822505589999
+                                        ],
+                                        [
+                                            149.842173596,
+                                            -33.382179175
+                                        ],
+                                        [
+                                            149.841697702,
+                                            -33.382345737
+                                        ],
+                                        [
+                                            149.841316989,
+                                            -33.382321943
+                                        ],
+                                        [
+                                            149.841483552,
+                                            -33.382012613
+                                        ],
+                                        [
+                                            149.84188806,
+                                            -33.3813939529999
+                                        ],
+                                        [
+                                            149.841983239,
+                                            -33.380561142
+                                        ],
+                                        [
+                                            149.841602524,
+                                            -33.38003766
+                                        ],
+                                        [
+                                            149.841602524,
+                                            -33.379680741
+                                        ],
+                                        [
+                                            149.841650114,
+                                            -33.378871724
+                                        ],
+                                        [
+                                            149.840817303,
+                                            -33.3783482429999
+                                        ],
+                                        [
+                                            149.84065074,
+                                            -33.3774916369999
+                                        ],
+                                        [
+                                            149.840222438,
+                                            -33.376587442
+                                        ],
+                                        [
+                                            149.840198643,
+                                            -33.3764922629999
+                                        ],
+                                        [
+                                            149.840174848,
+                                            -33.374683873
+                                        ],
+                                        [
+                                            149.841031454,
+                                            -33.3743745429999
+                                        ],
+                                        [
+                                            149.841864265,
+                                            -33.374017624
+                                        ],
+                                        [
+                                            149.842697076,
+                                            -33.374041419
+                                        ],
+                                        [
+                                            149.843196763,
+                                            -33.3743745429999
+                                        ],
+                                        [
+                                            149.843625067,
+                                            -33.3748504349999
+                                        ],
+                                        [
+                                            149.84369645,
+                                            -33.375469095
+                                        ],
+                                        [
+                                            149.84550484,
+                                            -33.376944361
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -47,6 +208,30 @@
                 "size": 130,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Mount Schofield Road Sunny Corner State Forest <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 130 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 20 May 2022 08:25",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.6115910000001,
+                    -34.17072399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Argyle St, Picton",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/455035",
+                "created": "2022-05-20T01:00:00+10:00",
+                "updated": "2022-05-20T11:00:00+10:00",
+                "location": "162 Argyle St, Picton, NSW 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 162 Argyle St, Picton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 20 May 2022 11:00",
+                "title": "incident: other"
             }
         },
         {
@@ -78,23 +263,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.05379300000004,
-                    -33.60892499999994
+                    150.15177100000005,
+                    -35.863869000999955
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cobah Rd, Fiddletown",
-                "category": "fire",
-                "subcategory": "bushfire",
+                "sourceTitle": "George Bass Dr, Broulee",
+                "category": "other",
+                "subcategory": "mva/transport",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/455017",
-                "created": "2022-05-19T13:25:00+10:00",
-                "updated": "2022-05-19T23:25:00+10:00",
-                "location": "42 Cobah Rd, Fiddletown, NSW 2159",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/455036",
+                "created": "2022-05-20T00:56:00+10:00",
+                "updated": "2022-05-20T10:56:00+10:00",
+                "location": "George Bass Dr, Broulee, NSW 2537",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 42 Cobah Rd, Fiddletown, NSW 2159 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 May 2022 23:25",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: George Bass Dr, Broulee, NSW 2537 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 May 2022 10:56",
+                "title": "incident: other"
             }
         },
         {
