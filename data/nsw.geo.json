@@ -76,10 +76,71 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.97268100000008,
-                    -29.028119999999944
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.97268100000008,
+                            -29.028119999999944
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.972329738,
+                                            -29.0279745719999
+                                        ],
+                                        [
+                                            151.972413019,
+                                            -29.027915086
+                                        ],
+                                        [
+                                            151.972543889,
+                                            -29.0278080099999
+                                        ],
+                                        [
+                                            151.972734247,
+                                            -29.027879393
+                                        ],
+                                        [
+                                            151.972865117,
+                                            -29.0279745719999
+                                        ],
+                                        [
+                                            151.9729365,
+                                            -29.0281173399999
+                                        ],
+                                        [
+                                            151.972793733,
+                                            -29.0283076969999
+                                        ],
+                                        [
+                                            151.972591479,
+                                            -29.028355286
+                                        ],
+                                        [
+                                            151.972353532,
+                                            -29.02824821
+                                        ],
+                                        [
+                                            151.972305944,
+                                            -29.0281530309999
+                                        ],
+                                        [
+                                            151.972329738,
+                                            -29.0279745719999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -126,6 +187,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.63998600000002,
+                    -36.45034599999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pine Gr, Jindabyne",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/457175",
+                "created": "2022-06-21T04:56:00+10:00",
+                "updated": "2022-06-21T14:56:00+10:00",
+                "location": "63 Pine Gr, Jindabyne, NSW 2627",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 63 Pine Gr, Jindabyne, NSW 2627 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jun 2022 14:56",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.85535800000002,
                     -33.75348199999996
                 ]
@@ -135,13 +220,13 @@
                 "sourceTitle": "Power St, Glendenning",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/457176",
-                "created": "2022-06-21T05:18:00+10:00",
-                "updated": "2022-06-21T15:18:00+10:00",
+                "created": "2022-06-21T05:28:00+10:00",
+                "updated": "2022-06-21T15:28:00+10:00",
                 "location": "Power St, Glendenning, NSW 2761",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Power St, Glendenning, NSW 2761 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Jun 2022 15:18",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Power St, Glendenning, NSW 2761 <br />COUNCIL AREA: Blacktown <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Jun 2022 15:28",
                 "title": "incident: fire"
             }
         }
