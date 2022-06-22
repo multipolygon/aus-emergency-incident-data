@@ -217,10 +217,70 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.62035500000002,
-                    -32.35054299999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.62035500000002,
+                            -32.35054299999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.622327398,
+                                            -32.34987123
+                                        ],
+                                        [
+                                            150.622293227,
+                                            -32.349868789
+                                        ],
+                                        [
+                                            150.622328918,
+                                            -32.349868789
+                                        ],
+                                        [
+                                            150.622327398,
+                                            -32.34987123
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.622327398,
+                                            -32.34987123
+                                        ],
+                                        [
+                                            150.623792287,
+                                            -32.349975865
+                                        ],
+                                        [
+                                            150.622840503,
+                                            -32.351118006
+                                        ],
+                                        [
+                                            150.621876821,
+                                            -32.350594525
+                                        ],
+                                        [
+                                            150.622327398,
+                                            -32.34987123
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -228,13 +288,13 @@
                 "sourceTitle": "Rosemount Rd, Denman",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/457225",
-                "created": "2022-06-22T04:32:00+10:00",
-                "updated": "2022-06-22T14:32:00+10:00",
+                "created": "2022-06-22T05:22:00+10:00",
+                "updated": "2022-06-22T15:22:00+10:00",
                 "location": "310 Rosemount Rd, Denman, NSW 2328",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 310 Rosemount Rd, Denman, NSW 2328 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Jun 2022 14:32",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 310 Rosemount Rd, Denman, NSW 2328 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Jun 2022 15:22",
                 "title": "incident: fire"
             }
         },
@@ -260,30 +320,6 @@
                 "size": 10,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 500 Worondi Ck Rd, Gungal, NSW 2333 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Jun 2022 14:49",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.53685400000006,
-                    -33.14898599999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ballarat Av, Mannering Park",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/457227",
-                "created": "2022-06-22T05:10:00+10:00",
-                "updated": "2022-06-22T15:10:00+10:00",
-                "location": "9 Ballarat Av, Mannering Park, NSW 2259",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 9 Ballarat Av, Mannering Park, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Jun 2022 15:10",
-                "title": "incident: other"
             }
         },
         {
