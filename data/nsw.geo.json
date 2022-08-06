@@ -28,6 +28,103 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.58576679300006,
+                            -31.663499986999966
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.586112944,
+                                            -31.6626513209999
+                                        ],
+                                        [
+                                            149.586684014,
+                                            -31.6624847589999
+                                        ],
+                                        [
+                                            149.588087895,
+                                            -31.6625323489999
+                                        ],
+                                        [
+                                            149.58846861,
+                                            -31.662413376
+                                        ],
+                                        [
+                                            149.589777313,
+                                            -31.662913063
+                                        ],
+                                        [
+                                            149.589824903,
+                                            -31.6634603379999
+                                        ],
+                                        [
+                                            149.589586956,
+                                            -31.664269356
+                                        ],
+                                        [
+                                            149.58934901,
+                                            -31.664435918
+                                        ],
+                                        [
+                                            149.58842102,
+                                            -31.664364534
+                                        ],
+                                        [
+                                            149.587302674,
+                                            -31.664197972
+                                        ],
+                                        [
+                                            149.586755398,
+                                            -31.664055204
+                                        ],
+                                        [
+                                            149.586684014,
+                                            -31.6639838199999
+                                        ],
+                                        [
+                                            149.586160532,
+                                            -31.6627465
+                                        ],
+                                        [
+                                            149.586112944,
+                                            -31.6626513209999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gamble Creek Rd, Weetaliba",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462468",
+                "created": "2022-08-06T02:51:00+10:00",
+                "updated": "2022-08-06T12:51:00+10:00",
+                "location": "Gamble Creek Rd, Weetaliba, NSW 2395",
+                "size": 6,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Gamble Creek Rd, Weetaliba, NSW 2395 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 12:51",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     152.56371975100012,
@@ -70,6 +167,30 @@
                 "location": "320 King creek, King Creek",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 320 King creek, King Creek  <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Aug 2022 09:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.4486780000001,
+                    -33.21516799999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "(Pacific Mtwy), Bushells Ridge",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462475",
+                "created": "2022-08-06T02:24:00+10:00",
+                "updated": "2022-08-06T12:24:00+10:00",
+                "location": "M1 (Pacific Mtwy), Bushells Ridge, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 (Pacific Mtwy), Bushells Ridge, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 12:24",
                 "title": "incident: fire"
             }
         },
@@ -198,6 +319,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.87980100000004,
+                    -32.73493400099994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dangar Cct, Medowie",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462477",
+                "created": "2022-08-06T02:28:00+10:00",
+                "updated": "2022-08-06T12:28:00+10:00",
+                "location": "23 Dangar Cct, Medowie, NSW 2318",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 23 Dangar Cct, Medowie, NSW 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 12:28",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.27199649800002,
                     -33.698421820999954
                 ]
@@ -214,54 +359,6 @@
                 "location": "154 Elanora Rd Elanora Heights",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 154 Elanora Rd Elanora Heights <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 5 Aug 2022 04:27",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.69471900000008,
-                    -34.08253899999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elizabeth Macarthur Av, Camden South",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462465",
-                "created": "2022-08-06T01:10:00+10:00",
-                "updated": "2022-08-06T11:10:00+10:00",
-                "location": "Elizabeth Macarthur Av, Camden South, NSW 2570",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Elizabeth Macarthur Av, Camden South, NSW 2570 <br />COUNCIL AREA: Camden <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Aug 2022 11:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.24674630200002,
-                    -35.35030212099997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ellerton Drive, Queanbeyan",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462338",
-                "created": "2022-08-04T18:20:00+10:00",
-                "updated": "2022-08-05T04:20:00+10:00",
-                "location": "10 Ellerton Drive, Queanbeyan",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 10 Ellerton Drive, Queanbeyan <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 5 Aug 2022 04:20",
                 "title": "incident: other"
             }
         },
@@ -294,6 +391,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.79821200000004,
+                    -33.767334999999946
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Melbourne St, Oxley Park",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462478",
+                "created": "2022-08-06T02:56:00+10:00",
+                "updated": "2022-08-06T12:56:00+10:00",
+                "location": "2 Melbourne St, Oxley Park, NSW 2760",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2 Melbourne St, Oxley Park, NSW 2760 <br />COUNCIL AREA: Penrith <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Aug 2022 12:56",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.63969300000008,
+                    -33.44588999999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sams Way, Mountain Lagoon",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462464",
+                "created": "2022-08-06T02:29:00+10:00",
+                "updated": "2022-08-06T12:29:00+10:00",
+                "location": "121 Sams Way, Mountain Lagoon, NSW 2758",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 121 Sams Way, Mountain Lagoon, NSW 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 12:29",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.97364807500003,
                     -34.87990394099995
                 ]
@@ -310,6 +455,30 @@
                 "location": "1410 Laidlaw Street Yass",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1410 Laidlaw Street Yass <br />COUNCIL AREA: Yass Valley <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 5 Aug 2022 13:00",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.07792000100005,
+                    -34.495300000999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sturt Hwy, Hay South",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462474",
+                "created": "2022-08-06T02:42:00+10:00",
+                "updated": "2022-08-06T12:42:00+10:00",
+                "location": "24410 Sturt Hwy, Hay South, NSW 2711",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 24410 Sturt Hwy, Hay South, NSW 2711 <br />COUNCIL AREA: Hay <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 12:42",
                 "title": "incident: other"
             }
         },
@@ -359,6 +528,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Thornhill Rd, Bega, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 08:58",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.4398975370001,
+                    -35.25215531799995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Turallo Tce, Bungendore",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462473",
+                "created": "2022-08-06T02:13:00+10:00",
+                "updated": "2022-08-06T12:13:00+10:00",
+                "location": "9 Turallo Terrace, Bungendore",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 9 Turallo Terrace, Bungendore <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 12:13",
+                "title": "incident: other"
             }
         }
     ]
