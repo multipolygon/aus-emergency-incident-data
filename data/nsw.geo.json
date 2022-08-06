@@ -52,10 +52,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.79821200000004,
-                    -33.767334999999946
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.79821200000004,
+                            -33.767334999999946
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.801329507,
+                                            -33.766842035
+                                        ],
+                                        [
+                                            150.80157935,
+                                            -33.766782549
+                                        ],
+                                        [
+                                            150.801948167,
+                                            -33.76686583
+                                        ],
+                                        [
+                                            150.802007654,
+                                            -33.767151365
+                                        ],
+                                        [
+                                            150.801507967,
+                                            -33.7672465439999
+                                        ],
+                                        [
+                                            150.801377096,
+                                            -33.767151365
+                                        ],
+                                        [
+                                            150.801329507,
+                                            -33.766842035
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -102,46 +147,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.22664400000008,
-                    -28.750967999999943
+                    152.2140220000001,
+                    -32.42003299999993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Off/Nimbin Rd, Goolmangar",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462481",
-                "created": "2022-08-06T03:36:00+10:00",
-                "updated": "2022-08-06T13:36:00+10:00",
-                "location": "Off/Nimbin Rd, Goolmangar, NSW 2480",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Off/Nimbin Rd, Goolmangar, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 13:36",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.17717400000004,
-                    -30.166399998999964
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Settlers Rd, Emerald Beach",
+                "sourceTitle": "Pacific Hwy, Bulahdelah",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462480",
-                "created": "2022-08-06T03:43:00+10:00",
-                "updated": "2022-08-06T13:43:00+10:00",
-                "location": "Settlers Rd, Emerald Beach, NSW 2456",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462482",
+                "created": "2022-08-06T03:38:00+10:00",
+                "updated": "2022-08-06T13:38:00+10:00",
+                "location": "Pacific Hwy, Bulahdelah, NSW 2423",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Settlers Rd, Emerald Beach, NSW 2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 13:43",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Pacific Hwy, Bulahdelah, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 13:38",
                 "title": "incident: fire"
             }
         },
@@ -166,30 +187,6 @@
                 "location": "Allan Rd, Mulgoa, NSW 2745",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Allan Rd, Mulgoa, NSW 2745 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 09:32",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.71789200000012,
-                    -32.89668299999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Angus Av, Waratah West",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462484",
-                "created": "2022-08-06T03:46:00+10:00",
-                "updated": "2022-08-06T13:46:00+10:00",
-                "location": "Angus Av, Waratah West, NSW 2298",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Angus Av, Waratah West, NSW 2298 <br />COUNCIL AREA: Newcastle <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Aug 2022 13:46",
                 "title": "incident: fire"
             }
         },
@@ -238,6 +235,30 @@
                 "location": "110 Mt VIncent Road East Maitland",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 110 Mt VIncent Road East Maitland <br />COUNCIL AREA: Maitland <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Aug 2022 05:21",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.10462951600005,
+                    -35.05585438399993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Assist SES Gundagai",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462485",
+                "created": "2022-08-06T03:41:00+10:00",
+                "updated": "2022-08-06T13:41:00+10:00",
+                "location": "West St, Gundagai",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: West St, Gundagai <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 13:41",
                 "title": "incident: other"
             }
         },
@@ -342,30 +363,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.9379520000001,
-                    -33.64914599999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hill Climb Dr, Annangrove",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462479",
-                "created": "2022-08-06T03:00:00+10:00",
-                "updated": "2022-08-06T13:00:00+10:00",
-                "location": "15 Hill Climb Dr, Annangrove, NSW 2156",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 15 Hill Climb Dr, Annangrove, NSW 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 13:00",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.6215875150001,
                     -30.33929666299997
                 ]
@@ -382,30 +379,6 @@
                 "location": "180 Johnsens Road, Fernbrook",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 180 Johnsens Road, Fernbrook <br />COUNCIL AREA: Bellingen <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Aug 2022 16:20",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.75992800000006,
-                    -34.644844999999975
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Minnamurra Falls Rd, Jamberoo",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462483",
-                "created": "2022-08-06T03:38:00+10:00",
-                "updated": "2022-08-06T13:38:00+10:00",
-                "location": "Minnamurra Falls Rd, Jamberoo, NSW 2533",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Minnamurra Falls Rd, Jamberoo, NSW 2533 <br />COUNCIL AREA: Kiama <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 13:38",
                 "title": "incident: fire"
             }
         },
@@ -454,54 +427,6 @@
                 "location": "1410 Laidlaw Street Yass",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1410 Laidlaw Street Yass <br />COUNCIL AREA: Yass Valley <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 5 Aug 2022 13:00",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.07792000100005,
-                    -34.495300000999976
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sturt Hwy, Hay South",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462474",
-                "created": "2022-08-06T02:42:00+10:00",
-                "updated": "2022-08-06T12:42:00+10:00",
-                "location": "24410 Sturt Hwy, Hay South, NSW 2711",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 24410 Sturt Hwy, Hay South, NSW 2711 <br />COUNCIL AREA: Hay <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 12:42",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.22265999900003,
-                    -33.69317499999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thompson Dr, Terrey Hills",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/462461",
-                "created": "2022-08-06T00:11:00+10:00",
-                "updated": "2022-08-06T10:11:00+10:00",
-                "location": "Thompson Dr, Terrey Hills, NSW 2084",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Thompson Dr, Terrey Hills, NSW 2084 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Aug 2022 10:11",
                 "title": "incident: other"
             }
         },
