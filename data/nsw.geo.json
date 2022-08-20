@@ -822,10 +822,159 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.47556800000007,
-                    -30.18291199999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.47556800000007,
+                            -30.18291199999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.439077135,
+                                            -30.2155563869999
+                                        ],
+                                        [
+                                            152.439672,
+                                            -30.217103037
+                                        ],
+                                        [
+                                            152.43830381,
+                                            -30.21841174
+                                        ],
+                                        [
+                                            152.436876134,
+                                            -30.220434283
+                                        ],
+                                        [
+                                            152.436400242,
+                                            -30.221564526
+                                        ],
+                                        [
+                                            152.435805376,
+                                            -30.222278365
+                                        ],
+                                        [
+                                            152.435686403,
+                                            -30.223111176
+                                        ],
+                                        [
+                                            152.434258727,
+                                            -30.2234086079999
+                                        ],
+                                        [
+                                            152.432593104,
+                                            -30.2255501229999
+                                        ],
+                                        [
+                                            152.431224914,
+                                            -30.227691638
+                                        ],
+                                        [
+                                            152.428666993,
+                                            -30.228464963
+                                        ],
+                                        [
+                                            152.426941884,
+                                            -30.228405477
+                                        ],
+                                        [
+                                            152.42426499,
+                                            -30.2278106109999
+                                        ],
+                                        [
+                                            152.425395234,
+                                            -30.2256096089999
+                                        ],
+                                        [
+                                            152.426465992,
+                                            -30.223943988
+                                        ],
+                                        [
+                                            152.426168559,
+                                            -30.2229922019999
+                                        ],
+                                        [
+                                            152.424919342,
+                                            -30.220969661
+                                        ],
+                                        [
+                                            152.425276261,
+                                            -30.219660958
+                                        ],
+                                        [
+                                            152.426584965,
+                                            -30.218530713
+                                        ],
+                                        [
+                                            152.427893668,
+                                            -30.217103037
+                                        ],
+                                        [
+                                            152.428310074,
+                                            -30.215794333
+                                        ],
+                                        [
+                                            152.428726479,
+                                            -30.21448563
+                                        ],
+                                        [
+                                            152.428785966,
+                                            -30.2134743579999
+                                        ],
+                                        [
+                                            152.430154156,
+                                            -30.213652818
+                                        ],
+                                        [
+                                            152.430927481,
+                                            -30.214426143
+                                        ],
+                                        [
+                                            152.428250587,
+                                            -30.2199583899999
+                                        ],
+                                        [
+                                            152.42735829,
+                                            -30.221980932
+                                        ],
+                                        [
+                                            152.427893668,
+                                            -30.223765527
+                                        ],
+                                        [
+                                            152.428250587,
+                                            -30.225074231
+                                        ],
+                                        [
+                                            152.42973775,
+                                            -30.2251337169999
+                                        ],
+                                        [
+                                            152.431938751,
+                                            -30.2234680939999
+                                        ],
+                                        [
+                                            152.439017649,
+                                            -30.2155563869999
+                                        ],
+                                        [
+                                            152.439077135,
+                                            -30.2155563869999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1397,30 +1546,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.83879500000012,
-                    -29.473690998999928
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Anne St, Moree",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463582",
-                "created": "2022-08-20T08:52:00+10:00",
-                "updated": "2022-08-20T18:52:00+10:00",
-                "location": "Anne St, Moree, NSW 2400",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Anne St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 20 Aug 2022 18:52",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.5723180770001,
                     -32.77304946399994
                 ]
@@ -1437,6 +1562,30 @@
                 "location": "110 Mount Vincent Road East Maitland",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 110 Mount Vincent Road East Maitland <br />COUNCIL AREA: Maitland <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 11:09",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.83054600000003,
+                    -34.74797799999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Belinda St, Gerringong",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463585",
+                "created": "2022-08-20T08:56:00+10:00",
+                "updated": "2022-08-20T18:56:00+10:00",
+                "location": "159 Belinda St, Gerringong,  2534",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 159 Belinda St, Gerringong,  2534 <br />COUNCIL AREA: Kiama <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 18:56",
                 "title": "incident: other"
             }
         },
@@ -1469,22 +1618,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.90662600000007,
-                    -31.14026199999995
+                    152.52123600000004,
+                    -29.040471999999966
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Burgmanns Lane, Hillvue",
+                "sourceTitle": "Bulldog Rd, Bulldog",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463574",
-                "created": "2022-08-20T08:03:00+10:00",
-                "updated": "2022-08-20T18:03:00+10:00",
-                "location": "275 Burgmanns Lane, Hillvue, NSW 2340",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463587",
+                "created": "2022-08-20T09:02:00+10:00",
+                "updated": "2022-08-20T19:02:00+10:00",
+                "location": "261 Bulldog Rd, Bulldog, NSW 2469",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 275 Burgmanns Lane, Hillvue, NSW 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 18:03",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 261 Bulldog Rd, Bulldog, NSW 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 19:02",
                 "title": "incident: fire"
             }
         },
@@ -1509,30 +1658,6 @@
                 "location": "92 Burrill St, Huskisson, NSW 2540",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 92 Burrill St, Huskisson, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 18:38",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.6648160000001,
-                    -31.70472499999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Chelmsford Av, Gilgandra",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463581",
-                "created": "2022-08-20T08:32:00+10:00",
-                "updated": "2022-08-20T18:32:00+10:00",
-                "location": "Chelmsford Av, Gilgandra,  2827",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Chelmsford Av, Gilgandra,  2827 <br />COUNCIL AREA: Gilgandra <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 20 Aug 2022 18:32",
                 "title": "incident: other"
             }
         },
@@ -1637,22 +1762,46 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.62666300000012,
-                    -34.167596000999936
+                    152.21364300000005,
+                    -32.40319300099998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Remembrance Dvwy, Picton",
+                "sourceTitle": "North St, Bulahdelah",
                 "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463584",
-                "created": "2022-08-20T08:54:00+10:00",
-                "updated": "2022-08-20T18:54:00+10:00",
-                "location": "Remembrance Dvwy, Picton, NSW 2571",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463590",
+                "created": "2022-08-20T09:10:00+10:00",
+                "updated": "2022-08-20T19:10:00+10:00",
+                "location": "North St, Bulahdelah, NSW 2423",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Remembrance Dvwy, Picton, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 20 Aug 2022 18:54",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: North St, Bulahdelah, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 19:10",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.6581510000001,
+                    -34.15390299999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Remembrance Dvwy, Razorback",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463589",
+                "created": "2022-08-20T09:10:00+10:00",
+                "updated": "2022-08-20T19:10:00+10:00",
+                "location": "Remembrance Dvwy, Razorback, NSW 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Remembrance Dvwy, Razorback, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 19:10",
                 "title": "incident: fire"
             }
         },
@@ -1778,6 +1927,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.08698500000003,
+                    -32.36310199999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Mcgrane Way, Narromine",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463586",
+                "created": "2022-08-20T08:56:00+10:00",
+                "updated": "2022-08-20T18:56:00+10:00",
+                "location": "The Mcgrane Way, Narromine, NSW 2821",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: The Mcgrane Way, Narromine, NSW 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 18:56",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.4739780000001,
                     -28.676242998999953
                 ]
@@ -1794,6 +1967,30 @@
                 "location": "Tucka Tucka Rd, Toomelah, NSW 2409",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Tucka Tucka Rd, Toomelah, NSW 2409 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 12:10",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.64646400000004,
+                    -33.22835599999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yarrabandai Rd, Yarrabandai",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/463588",
+                "created": "2022-08-20T09:06:00+10:00",
+                "updated": "2022-08-20T19:06:00+10:00",
+                "location": "Yarrabandai Rd, Yarrabandai, NSW 2875",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Yarrabandai Rd, Yarrabandai, NSW 2875 <br />COUNCIL AREA: Forbes <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Aug 2022 19:06",
                 "title": "incident: fire"
             }
         }
