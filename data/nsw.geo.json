@@ -4,10 +4,119 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.41945800000008,
-                    -30.873855999999932
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.41945800000008,
+                            -30.873855999999932
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.415311081,
+                                            -30.872595399
+                                        ],
+                                        [
+                                            152.413766668,
+                                            -30.87135632
+                                        ],
+                                        [
+                                            152.415873167,
+                                            -30.870290391
+                                        ],
+                                        [
+                                            152.416987579,
+                                            -30.8697436049999
+                                        ],
+                                        [
+                                            152.420070086,
+                                            -30.86856237
+                                        ],
+                                        [
+                                            152.422729869,
+                                            -30.868801661
+                                        ],
+                                        [
+                                            152.423788495,
+                                            -30.868677094
+                                        ],
+                                        [
+                                            152.425318208,
+                                            -30.869025355
+                                        ],
+                                        [
+                                            152.42647581,
+                                            -30.8691244259999
+                                        ],
+                                        [
+                                            152.429003984,
+                                            -30.8695851749999
+                                        ],
+                                        [
+                                            152.430900407,
+                                            -30.8689838189999
+                                        ],
+                                        [
+                                            152.432599319,
+                                            -30.8692658919999
+                                        ],
+                                        [
+                                            152.435126632,
+                                            -30.870783171
+                                        ],
+                                        [
+                                            152.434950876,
+                                            -30.8721862359999
+                                        ],
+                                        [
+                                            152.433266869,
+                                            -30.8720227969999
+                                        ],
+                                        [
+                                            152.431807093,
+                                            -30.872940593
+                                        ],
+                                        [
+                                            152.430829522,
+                                            -30.872599994
+                                        ],
+                                        [
+                                            152.429775583,
+                                            -30.8736680329999
+                                        ],
+                                        [
+                                            152.428207775,
+                                            -30.87344121
+                                        ],
+                                        [
+                                            152.426023729,
+                                            -30.8728295129999
+                                        ],
+                                        [
+                                            152.424292482,
+                                            -30.873251363
+                                        ],
+                                        [
+                                            152.420596713,
+                                            -30.873703553
+                                        ],
+                                        [
+                                            152.415311081,
+                                            -30.872595399
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -39,13 +148,13 @@
                 "sourceTitle": "Red Hill Rd, Mayers Flat",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/466080",
-                "created": "2022-09-08T08:22:00+10:00",
-                "updated": "2022-09-08T18:22:00+10:00",
+                "created": "2022-09-08T08:55:00+10:00",
+                "updated": "2022-09-08T18:55:00+10:00",
                 "location": "Red Hill Rd, Mayers Flat, NSW 2423",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Red Hill Rd, Mayers Flat, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2022 18:22",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Red Hill Rd, Mayers Flat, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2022 18:55",
                 "title": "incident: fire"
             }
         },
@@ -222,22 +331,46 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.62263700000005,
-                    -32.18062999999995
+                    150.06567300000006,
+                    -36.43046999999996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Newell Hwy, Brocklehurst",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/466079",
-                "created": "2022-09-08T08:40:00+10:00",
-                "updated": "2022-09-08T18:40:00+10:00",
-                "location": "Newell Hwy, Brocklehurst, NSW 2830",
+                "sourceTitle": "Hart St, Bermagui",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/466083",
+                "created": "2022-09-08T09:14:00+10:00",
+                "updated": "2022-09-08T19:14:00+10:00",
+                "location": "29 Hart St, Bermagui, NSW 2546",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Newell Hwy, Brocklehurst, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2022 18:40",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 29 Hart St, Bermagui, NSW 2546 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2022 19:14",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.93190500000003,
+                    -30.08826399999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Meek St, Bourke",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/466082",
+                "created": "2022-09-08T08:52:00+10:00",
+                "updated": "2022-09-08T18:52:00+10:00",
+                "location": "Meek St, Bourke, NSW 2840",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Meek St, Bourke, NSW 2840 <br />COUNCIL AREA: Bourke <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Sep 2022 18:52",
                 "title": "incident: fire"
             }
         },
@@ -310,6 +443,30 @@
                 "location": "777 Swan Hill Rd, Murray Downs, NSW 2734",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 777 Swan Hill Rd, Murray Downs, NSW 2734 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2022 12:33",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.00023900000008,
+                    -32.67679099999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thompsons Rd, Bulga",
+                "category": "other",
+                "subcategory": "medical",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/466081",
+                "created": "2022-09-08T09:07:00+10:00",
+                "updated": "2022-09-08T19:07:00+10:00",
+                "location": "134 Thompsons Rd, Bulga, NSW 2330",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 134 Thompsons Rd, Bulga, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Sep 2022 19:07",
                 "title": "incident: other"
             }
         }
