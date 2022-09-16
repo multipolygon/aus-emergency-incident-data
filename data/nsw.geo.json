@@ -101,10 +101,119 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.8411480000001,
-                    -34.08050799999995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.8411480000001,
+                            -34.08050799999995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.842264629,
+                                            -34.080430157
+                                        ],
+                                        [
+                                            150.842704829,
+                                            -34.0803587729999
+                                        ],
+                                        [
+                                            150.843026057,
+                                            -34.080382567
+                                        ],
+                                        [
+                                            150.843311592,
+                                            -34.0805015399999
+                                        ],
+                                        [
+                                            150.843466256,
+                                            -34.080691897
+                                        ],
+                                        [
+                                            150.843561435,
+                                            -34.080882254
+                                        ],
+                                        [
+                                            150.843561435,
+                                            -34.081096406
+                                        ],
+                                        [
+                                            150.843109338,
+                                            -34.081572298
+                                        ],
+                                        [
+                                            150.842395499,
+                                            -34.0820838819999
+                                        ],
+                                        [
+                                            150.841634072,
+                                            -34.082738234
+                                        ],
+                                        [
+                                            150.841181974,
+                                            -34.0829761799999
+                                        ],
+                                        [
+                                            150.840884542,
+                                            -34.082833412
+                                        ],
+                                        [
+                                            150.840265881,
+                                            -34.0829523849999
+                                        ],
+                                        [
+                                            150.839897065,
+                                            -34.082595467
+                                        ],
+                                        [
+                                            150.839789989,
+                                            -34.082488391
+                                        ],
+                                        [
+                                            150.839908963,
+                                            -34.082286137
+                                        ],
+                                        [
+                                            150.839825682,
+                                            -34.082202856
+                                        ],
+                                        [
+                                            150.839944655,
+                                            -34.0821195729999
+                                        ],
+                                        [
+                                            150.840158806,
+                                            -34.0819768059999
+                                        ],
+                                        [
+                                            150.840920234,
+                                            -34.081370044
+                                        ],
+                                        [
+                                            150.84159838,
+                                            -34.080775178
+                                        ],
+                                        [
+                                            150.841883916,
+                                            -34.0805610259999
+                                        ],
+                                        [
+                                            150.842264629,
+                                            -34.080430157
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -112,13 +221,13 @@
                 "sourceTitle": "Peppin Cr, Airds",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/466599",
-                "created": "2022-09-16T05:54:00+10:00",
-                "updated": "2022-09-16T15:54:00+10:00",
+                "created": "2022-09-16T07:55:00+10:00",
+                "updated": "2022-09-16T17:55:00+10:00",
                 "location": "22 Peppin Cr, Airds, NSW 2560",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 22 Peppin Cr, Airds, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Sep 2022 15:54",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 22 Peppin Cr, Airds, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2022 17:55",
                 "title": "incident: fire"
             }
         },
@@ -223,6 +332,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.82968600000004,
+                    -31.060105999999962
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cochrane St, West Kempsey",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/466611",
+                "created": "2022-09-16T08:18:00+10:00",
+                "updated": "2022-09-16T18:18:00+10:00",
+                "location": "Cochrane St, West Kempsey, NSW 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cochrane St, West Kempsey, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Sep 2022 18:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.5613760000001,
                     -31.516378999999972
                 ]
@@ -271,30 +404,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.88874600000008,
-                    -31.113640998999983
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kenny Dr, West Tamworth",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/466610",
-                "created": "2022-09-16T07:38:00+10:00",
-                "updated": "2022-09-16T17:38:00+10:00",
-                "location": "64 Kenny Dr, West Tamworth, NSW 2340",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 64 Kenny Dr, West Tamworth, NSW 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Sep 2022 17:38",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.6150120000001,
                     -35.09850199999994
                 ]
@@ -312,30 +421,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3 Kirkham Way, Sanctuary Point, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2022 17:14",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.82273300000008,
-                    -33.54915799999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kurmond Rd, Wilberforce",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/466601",
-                "created": "2022-09-16T06:02:00+10:00",
-                "updated": "2022-09-16T16:02:00+10:00",
-                "location": "Unit B/140 Kurmond Rd, Wilberforce, NSW 2756",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit B/140 Kurmond Rd, Wilberforce, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2022 16:02",
-                "title": "incident: other"
             }
         },
         {
