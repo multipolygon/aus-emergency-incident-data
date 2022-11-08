@@ -597,10 +597,111 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.88111543700006,
-                    -32.733591769999975
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.88111543700006,
+                            -32.733591769999975
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.87928941,
+                                            -32.7296110899999
+                                        ],
+                                        [
+                                            151.881775947,
+                                            -32.729420733
+                                        ],
+                                        [
+                                            151.882001995,
+                                            -32.729420733
+                                        ],
+                                        [
+                                            151.882287531,
+                                            -32.729515911
+                                        ],
+                                        [
+                                            151.88246599,
+                                            -32.729599192
+                                        ],
+                                        [
+                                            151.88282291,
+                                            -32.729991803
+                                        ],
+                                        [
+                                            151.882989472,
+                                            -32.730122674
+                                        ],
+                                        [
+                                            151.883298802,
+                                            -32.730277338
+                                        ],
+                                        [
+                                            151.883429673,
+                                            -32.730396312
+                                        ],
+                                        [
+                                            151.883512954,
+                                            -32.730539079
+                                        ],
+                                        [
+                                            151.883703311,
+                                            -32.730729437
+                                        ],
+                                        [
+                                            151.883965051,
+                                            -32.73093169
+                                        ],
+                                        [
+                                            151.884131613,
+                                            -32.731074458
+                                        ],
+                                        [
+                                            151.88414351,
+                                            -32.731371891
+                                        ],
+                                        [
+                                            151.884107819,
+                                            -32.731693118
+                                        ],
+                                        [
+                                            151.884131613,
+                                            -32.7321214209999
+                                        ],
+                                        [
+                                            151.884274381,
+                                            -32.732549724
+                                        ],
+                                        [
+                                            151.884286279,
+                                            -32.732799567
+                                        ],
+                                        [
+                                            151.883810386,
+                                            -32.735357488
+                                        ],
+                                        [
+                                            151.87823055,
+                                            -32.734536573
+                                        ],
+                                        [
+                                            151.87928941,
+                                            -32.7296110899999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1119,11 +1220,11 @@
                 "subcategory": "assist other agency",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/470818",
-                "created": "2022-11-06T05:07:00+11:00",
-                "updated": "2022-11-06T16:07:00+11:00",
+                "created": "2022-11-08T00:31:00+11:00",
+                "updated": "2022-11-08T11:31:00+11:00",
                 "location": "Union St, Forbes",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Union St, Forbes <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 6 Nov 2022 16:07",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Union St, Forbes <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 8 Nov 2022 11:31",
                 "title": "incident: other"
             }
         },
@@ -1148,54 +1249,6 @@
                 "location": "North Wagga Wagga",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: North Wagga Wagga <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 6 Nov 2022 20:54",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.60169600000006,
-                    -28.738910999999973
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Broken Head Rd, Broken Head",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473277",
-                "created": "2022-11-07T22:04:00+11:00",
-                "updated": "2022-11-08T09:04:00+11:00",
-                "location": "951 Broken Head Rd, Broken Head, NSW 2481",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 951 Broken Head Rd, Broken Head, NSW 2481 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Nov 2022 09:04",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.6906170000001,
-                    -30.462459000999957
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Colin St, Carinda",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473281",
-                "created": "2022-11-07T23:08:00+11:00",
-                "updated": "2022-11-08T10:08:00+11:00",
-                "location": "Unit Flood/14 Colin St, Carinda, NSW 2831",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit Flood/14 Colin St, Carinda, NSW 2831 <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Nov 2022 10:08",
                 "title": "incident: other"
             }
         },
@@ -1276,23 +1329,71 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.324158,
-                    -33.64843899999994
+                    151.14501643100004,
+                    -33.70017712999993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rankins Springs Rd, Naradhan",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473280",
-                "created": "2022-11-07T23:02:00+11:00",
-                "updated": "2022-11-08T10:02:00+11:00",
-                "location": "Rankins Springs Rd, Naradhan, NSW 2669",
+                "sourceTitle": "Lovers Jump Creek HR",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473287",
+                "created": "2022-11-08T01:03:00+11:00",
+                "updated": "2022-11-08T12:03:00+11:00",
+                "location": "Stonecrop Rd, North Turramurra",
+                "size": 1,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Stonecrop Rd, North Turramurra <br />COUNCIL AREA: Ku-Ring-Gai <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Nov 2022 12:03",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.102571,
+                    -32.73451599999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mariner Cr, Salamander Bay",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473286",
+                "created": "2022-11-08T01:02:00+11:00",
+                "updated": "2022-11-08T12:02:00+11:00",
+                "location": "25 Mariner Cr, Salamander Bay, NSW 2317",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Rankins Springs Rd, Naradhan, NSW 2669 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Nov 2022 10:02",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 25 Mariner Cr, Salamander Bay, NSW 2317 <br />COUNCIL AREA: Port Stephens <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Nov 2022 12:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.8310669990001,
+                    -31.61984099999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ocean Dr, Grants Beach",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473288",
+                "created": "2022-11-08T01:02:00+11:00",
+                "updated": "2022-11-08T12:02:00+11:00",
+                "location": "Ocean Dr, Grants Beach, NSW 2445",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ocean Dr, Grants Beach, NSW 2445 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Nov 2022 12:02",
+                "title": "incident: fire"
             }
         },
         {
@@ -1311,11 +1412,11 @@
                 "subcategory": "assist other agency",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/470296",
-                "created": "2022-11-06T05:09:00+11:00",
-                "updated": "2022-11-06T16:09:00+11:00",
+                "created": "2022-11-08T00:33:00+11:00",
+                "updated": "2022-11-08T11:33:00+11:00",
                 "location": "147,090, 33.108",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 147,090, 33.108 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 6 Nov 2022 16:09",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 147,090, 33.108 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 8 Nov 2022 11:33",
                 "title": "incident: other"
             }
         },
@@ -1340,54 +1441,6 @@
                 "location": "321 Smiths Creek Rd, Smiths Creek, NSW 2484",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 321 Smiths Creek Rd, Smiths Creek, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Nov 2022 18:21",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.23385100000007,
-                    -34.18886599999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sturt Hwy, Gol Gol",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473229",
-                "created": "2022-11-07T05:23:00+11:00",
-                "updated": "2022-11-07T16:23:00+11:00",
-                "location": "Sturt Hwy, Gol Gol, NSW 2738",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sturt Hwy, Gol Gol, NSW 2738 <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Nov 2022 16:23",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.84693600000003,
-                    -36.675941999999964
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Union St, Bega",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473283",
-                "created": "2022-11-07T23:50:00+11:00",
-                "updated": "2022-11-08T10:50:00+11:00",
-                "location": "3/6 Union St, Bega, NSW 2550",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3/6 Union St, Bega, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Nov 2022 10:50",
                 "title": "incident: fire"
             }
         },
