@@ -4,10 +4,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.09247800000003,
-                    -29.567231999999933
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.09247800000003,
+                            -29.567231999999933
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.088379979,
+                                            -29.573560578
+                                        ],
+                                        [
+                                            153.091318613,
+                                            -29.5737033459999
+                                        ],
+                                        [
+                                            153.090902207,
+                                            -29.5759400389999
+                                        ],
+                                        [
+                                            153.088070649,
+                                            -29.575511735
+                                        ],
+                                        [
+                                            153.088379979,
+                                            -29.573560578
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -15,37 +52,13 @@
                 "sourceTitle": "Big River Way, Cowper",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473845",
-                "created": "2022-11-14T02:27:00+11:00",
-                "updated": "2022-11-14T13:27:00+11:00",
+                "created": "2022-11-14T04:47:00+11:00",
+                "updated": "2022-11-14T15:47:00+11:00",
                 "location": "Big River Way, Cowper, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Big River Way, Cowper, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 13:27",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.212171,
-                    -28.58234099899994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Blade Rd, Nimbin",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473861",
-                "created": "2022-11-14T03:54:00+11:00",
-                "updated": "2022-11-14T14:54:00+11:00",
-                "location": "46 Blade Rd, Nimbin, NSW 2480",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 46 Blade Rd, Nimbin, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 14:54",
+                "size": 7,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Big River Way, Cowper, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 7 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 15:47",
                 "title": "incident: fire"
             }
         },
@@ -551,6 +564,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.667412,
+                    -31.03437299999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Turners Flat Rd, Turners Flat",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473864",
+                "created": "2022-11-14T04:16:00+11:00",
+                "updated": "2022-11-14T15:16:00+11:00",
+                "location": "753 Turners Flat Rd, Turners Flat, NSW 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 753 Turners Flat Rd, Turners Flat, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 15:16",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.5723180770001,
                     -32.77304946399994
                 ]
@@ -623,54 +660,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.17146285900003,
-                    -34.92240933099998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Assist SES - Cootamundra Gundagai LGA",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473645",
-                "created": "2022-11-12T04:45:00+11:00",
-                "updated": "2022-11-12T15:45:00+11:00",
-                "location": "Cootamundra Gundagai LGA",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cootamundra Gundagai LGA <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 12 Nov 2022 15:45",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.51908207600002,
-                    -34.30466369099997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Assist SES - Hilltops LGA",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473644",
-                "created": "2022-11-12T04:42:00+11:00",
-                "updated": "2022-11-12T15:42:00+11:00",
-                "location": "Hilltops LGA",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hilltops LGA <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 12 Nov 2022 15:42",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     144.9456954000001,
                     -35.55129236099998
                 ]
@@ -730,11 +719,11 @@
                 "subcategory": "assist other agency",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473793",
-                "created": "2022-11-13T20:48:00+11:00",
-                "updated": "2022-11-14T07:48:00+11:00",
+                "created": "2022-11-14T04:36:00+11:00",
+                "updated": "2022-11-14T15:36:00+11:00",
                 "location": "Renshaw Road, Parkes",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Renshaw Road, Parkes <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 14 Nov 2022 07:48",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Renshaw Road, Parkes <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 14 Nov 2022 15:36",
                 "title": "incident: other"
             }
         },
@@ -983,30 +972,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.19377400000008,
-                    -33.17976599999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Back Yamma Rd, Parkes",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473834",
-                "created": "2022-11-14T00:46:00+11:00",
-                "updated": "2022-11-14T11:46:00+11:00",
-                "location": "399A Back Yamma Rd, Parkes, NSW 2870",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 399A Back Yamma Rd, Parkes, NSW 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 11:46",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.36911600000008,
                     -33.42831599999994
                 ]
@@ -1055,30 +1020,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.9194030000001,
-                    -33.58894699999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Boundary Rd, Maraylya",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473856",
-                "created": "2022-11-14T03:39:00+11:00",
-                "updated": "2022-11-14T14:39:00+11:00",
-                "location": "Boundary Rd, Maraylya, NSW 2765",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Boundary Rd, Maraylya, NSW 2765 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 14:39",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.73597400000006,
                     -33.28945099899994
                 ]
@@ -1103,6 +1044,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.4434950000001,
+                    -34.20274799999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Chews Lane, Bendick Murrell",
+                "category": "other",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473868",
+                "created": "2022-11-14T04:46:00+11:00",
+                "updated": "2022-11-14T15:46:00+11:00",
+                "location": "Chews Lane, Bendick Murrell, NSW 2803",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Chews Lane, Bendick Murrell, NSW 2803 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 15:46",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.04046559300002,
                     -31.444783321999978
                 ]
@@ -1119,6 +1084,30 @@
                 "location": "6236 Coonabarabran Rd, Yannergee, NSW 2343",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6236 Coonabarabran Rd, Yannergee, NSW 2343 <br />COUNCIL AREA: Liverpool Plains <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 01:17",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.71016600000007,
+                    -34.20707099999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Douglas Park Dr, Douglas Park",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473862",
+                "created": "2022-11-14T04:10:00+11:00",
+                "updated": "2022-11-14T15:10:00+11:00",
+                "location": "415 Douglas Park Dr, Douglas Park,  2569",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 415 Douglas Park Dr, Douglas Park,  2569 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 15:10",
                 "title": "incident: other"
             }
         },
@@ -1271,46 +1260,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.6965110000001,
-                    -33.18631499999998
+                    150.6069500000001,
+                    -34.239679999999964
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kiewa St, Manildra",
+                "sourceTitle": "Kammer Pl, Tahmoor",
                 "category": "other",
-                "subcategory": "fire alarm",
+                "subcategory": "other",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473846",
-                "created": "2022-11-14T02:28:00+11:00",
-                "updated": "2022-11-14T13:28:00+11:00",
-                "location": "Kiewa St, Manildra, NSW 2865",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473866",
+                "created": "2022-11-14T04:30:00+11:00",
+                "updated": "2022-11-14T15:30:00+11:00",
+                "location": "Kammer Pl, Tahmoor,  2573",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kiewa St, Manildra, NSW 2865 <br />COUNCIL AREA: Cabonne <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 13:28",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.18163299600008,
-                    -33.13323697299995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lookout Rd, Ophir",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473777",
-                "created": "2022-11-13T17:06:00+11:00",
-                "updated": "2022-11-14T04:06:00+11:00",
-                "location": "Ophir Campground, Lookout Rd, Ophir",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ophir Campground, Lookout Rd, Ophir <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 14 Nov 2022 04:06",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kammer Pl, Tahmoor,  2573 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 15:30",
                 "title": "incident: other"
             }
         },
@@ -1343,102 +1308,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.12011099900008,
-                    -33.22009699999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Newell Hwy, Tichborne",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473815",
-                "created": "2022-11-13T23:32:00+11:00",
-                "updated": "2022-11-14T10:32:00+11:00",
-                "location": "2176C Newell Hwy, Tichborne, NSW 2870",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2176C Newell Hwy, Tichborne, NSW 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 10:32",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.1222140000001,
-                    -33.22066499999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Newell Hwy, Tichborne",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473832",
-                "created": "2022-11-14T00:40:00+11:00",
-                "updated": "2022-11-14T11:40:00+11:00",
-                "location": "2176B Newell Hwy, Tichborne, NSW 2870",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2176B Newell Hwy, Tichborne, NSW 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 11:40",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.1189220000001,
-                    -33.225097999999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Newell Hwy, Tichborne",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473838",
-                "created": "2022-11-14T00:56:00+11:00",
-                "updated": "2022-11-14T11:56:00+11:00",
-                "location": "Newell Hwy, Tichborne, NSW 2870",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Newell Hwy, Tichborne, NSW 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 11:56",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.59637900000007,
-                    -33.746587999999974
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "North Logan Rd, Cowra",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473842",
-                "created": "2022-11-14T02:02:00+11:00",
-                "updated": "2022-11-14T13:02:00+11:00",
-                "location": "North Logan Rd, Cowra, NSW 2794",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: North Logan Rd, Cowra, NSW 2794 <br />COUNCIL AREA: Cowra <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 13:02",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.54587200000003,
                     -28.616250999999977
                 ]
@@ -1463,22 +1332,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.71990600000004,
-                    -30.75387999999998
+                    151.63268500000004,
+                    -33.09642699999995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "River St, Manilla",
+                "sourceTitle": "Parbury Rd, Swansea",
                 "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473859",
-                "created": "2022-11-14T03:58:00+11:00",
-                "updated": "2022-11-14T14:58:00+11:00",
-                "location": "River St, Manilla, NSW 2346",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473863",
+                "created": "2022-11-14T04:12:00+11:00",
+                "updated": "2022-11-14T15:12:00+11:00",
+                "location": "184 Parbury Rd, Swansea, NSW 2281",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: River St, Manilla, NSW 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Nov 2022 14:58",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 184 Parbury Rd, Swansea, NSW 2281 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Nov 2022 15:12",
                 "title": "incident: fire"
             }
         },
@@ -1535,22 +1404,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.1835450000001,
-                    -31.08794699999993
+                    151.17551300000002,
+                    -33.31875299999996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Wandobah Rd, Gunnedah",
+                "sourceTitle": "Wisemans Ferry Rd, Mangrove Mountain",
                 "category": "fire",
-                "subcategory": "vehicle/equipment fire",
+                "subcategory": "bushfire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473855",
-                "created": "2022-11-14T03:20:00+11:00",
-                "updated": "2022-11-14T14:20:00+11:00",
-                "location": "1349 Wandobah Rd, Gunnedah, NSW 2380",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/473867",
+                "created": "2022-11-14T04:36:00+11:00",
+                "updated": "2022-11-14T15:36:00+11:00",
+                "location": "Wisemans Ferry Rd, Mangrove Mountain, NSW 2250",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1349 Wandobah Rd, Gunnedah, NSW 2380 <br />COUNCIL AREA: Gunnedah <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 14:20",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wisemans Ferry Rd, Mangrove Mountain, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2022 15:36",
                 "title": "incident: fire"
             }
         }
