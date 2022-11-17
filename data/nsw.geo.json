@@ -4,10 +4,119 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.86153793300002,
-                    -28.384151458999952
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.86153793300002,
+                            -28.384151458999952
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.859763524,
+                                            -28.385618596
+                                        ],
+                                        [
+                                            152.85933522,
+                                            -28.3840481519999
+                                        ],
+                                        [
+                                            152.85933522,
+                                            -28.3840243569999
+                                        ],
+                                        [
+                                            152.858978301,
+                                            -28.383584157
+                                        ],
+                                        [
+                                            152.858728457,
+                                            -28.383274827
+                                        ],
+                                        [
+                                            152.857943235,
+                                            -28.3828822159999
+                                        ],
+                                        [
+                                            152.857360267,
+                                            -28.3825490909999
+                                        ],
+                                        [
+                                            152.856824889,
+                                            -28.3824896049999
+                                        ],
+                                        [
+                                            152.856515559,
+                                            -28.382370631
+                                        ],
+                                        [
+                                            152.85664643,
+                                            -28.382120788
+                                        ],
+                                        [
+                                            152.857431652,
+                                            -28.381656794
+                                        ],
+                                        [
+                                            152.857931338,
+                                            -28.381418847
+                                        ],
+                                        [
+                                            152.859002095,
+                                            -28.381585409
+                                        ],
+                                        [
+                                            152.860750999,
+                                            -28.381835253
+                                        ],
+                                        [
+                                            152.862904411,
+                                            -28.382477707
+                                        ],
+                                        [
+                                            152.864082245,
+                                            -28.383262929
+                                        ],
+                                        [
+                                            152.863463584,
+                                            -28.386629866
+                                        ],
+                                        [
+                                            152.863368406,
+                                            -28.386629866
+                                        ],
+                                        [
+                                            152.862785438,
+                                            -28.386439509
+                                        ],
+                                        [
+                                            152.861619502,
+                                            -28.386439509
+                                        ],
+                                        [
+                                            152.860679615,
+                                            -28.386510894
+                                        ],
+                                        [
+                                            152.860298902,
+                                            -28.386272947
+                                        ],
+                                        [
+                                            152.859763524,
+                                            -28.385618596
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1135,6 +1244,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.89727000000005,
+                    -33.92054499999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maxwells Av, Ashcroft",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474115",
+                "created": "2022-11-17T03:58:00+11:00",
+                "updated": "2022-11-17T14:58:00+11:00",
+                "location": "108 Maxwells Av, Ashcroft, NSW 2168",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 108 Maxwells Av, Ashcroft, NSW 2168 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 17 Nov 2022 14:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.12728400000003,
                     -33.66198099899998
                 ]
@@ -1168,13 +1301,13 @@
                 "sourceTitle": "Range Rd, Dirty Creek",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474112",
-                "created": "2022-11-17T03:16:00+11:00",
-                "updated": "2022-11-17T14:16:00+11:00",
+                "created": "2022-11-17T03:39:00+11:00",
+                "updated": "2022-11-17T14:39:00+11:00",
                 "location": "362/Range Rd, Dirty Creek, NSW 2456",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 362/Range Rd, Dirty Creek, NSW 2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Nov 2022 14:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 362/Range Rd, Dirty Creek, NSW 2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Nov 2022 14:39",
                 "title": "incident: fire"
             }
         },
@@ -1247,30 +1380,6 @@
                 "location": "6 Stagecoach Lane, Ebor, NSW 2453",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6 Stagecoach Lane, Ebor, NSW 2453 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Nov 2022 09:01",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.61493100000007,
-                    -32.603835000999936
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Victoria St, Paterson",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474105",
-                "created": "2022-11-17T02:12:00+11:00",
-                "updated": "2022-11-17T13:12:00+11:00",
-                "location": "21 Victoria St, Paterson, NSW 2421",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 21 Victoria St, Paterson, NSW 2421 <br />COUNCIL AREA: Dungog <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Nov 2022 13:12",
                 "title": "incident: fire"
             }
         },
