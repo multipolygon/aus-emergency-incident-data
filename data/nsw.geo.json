@@ -405,10 +405,111 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.9245800000001,
-                    -30.51980999999995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.9245800000001,
+                            -30.51980999999995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.97554054,
+                                            -30.5192318119999
+                                        ],
+                                        [
+                                            152.976480427,
+                                            -30.519445962
+                                        ],
+                                        [
+                                            152.976516119,
+                                            -30.519660114
+                                        ],
+                                        [
+                                            152.976040227,
+                                            -30.520326363
+                                        ],
+                                        [
+                                            152.975873665,
+                                            -30.520611898
+                                        ],
+                                        [
+                                            152.975683308,
+                                            -30.5210639969999
+                                        ],
+                                        [
+                                            152.97554054,
+                                            -30.5217302459999
+                                        ],
+                                        [
+                                            152.975445361,
+                                            -30.5220990619999
+                                        ],
+                                        [
+                                            152.975469156,
+                                            -30.522337008
+                                        ],
+                                        [
+                                            152.97540967,
+                                            -30.522301316
+                                        ],
+                                        [
+                                            152.975255004,
+                                            -30.522253727
+                                        ],
+                                        [
+                                            152.975076545,
+                                            -30.522027678
+                                        ],
+                                        [
+                                            152.975088442,
+                                            -30.5215636839999
+                                        ],
+                                        [
+                                            152.97510034,
+                                            -30.521194866
+                                        ],
+                                        [
+                                            152.975088442,
+                                            -30.5207308719999
+                                        ],
+                                        [
+                                            152.975040853,
+                                            -30.520421542
+                                        ],
+                                        [
+                                            152.97510034,
+                                            -30.5200884179999
+                                        ],
+                                        [
+                                            152.975266902,
+                                            -30.519719601
+                                        ],
+                                        [
+                                            152.975421567,
+                                            -30.519350784
+                                        ],
+                                        [
+                                            152.975552437,
+                                            -30.519243708
+                                        ],
+                                        [
+                                            152.97554054,
+                                            -30.5192318119999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -895,30 +996,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.6039770000001,
-                    -28.818192000999943
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Boulder Beach, Lennox Head",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474262",
-                "created": "2022-11-18T21:40:00+11:00",
-                "updated": "2022-11-19T08:40:00+11:00",
-                "location": "Unnamed Road, Lennox Head, NSW 2478",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unnamed Road, Lennox Head, NSW 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2022 08:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.713427001,
                     -34.151974999999936
                 ]
@@ -1015,6 +1092,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.0372940000001,
+                    -33.67140899999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Galston Rd, Dural",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474266",
+                "created": "2022-11-18T22:12:00+11:00",
+                "updated": "2022-11-19T09:12:00+11:00",
+                "location": "435 Galston Rd, Dural, NSW 2158",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 435 Galston Rd, Dural, NSW 2158 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2022 09:12",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.2370340000001,
                     -33.54181499999993
                 ]
@@ -1063,23 +1164,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.73319600000002,
-                    -31.636384998999972
+                    152.08820000000003,
+                    -32.611024999999984
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ocean Dr, Kew",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474263",
-                "created": "2022-11-18T21:57:00+11:00",
-                "updated": "2022-11-19T08:57:00+11:00",
-                "location": "Ocean Dr, Kew, NSW 2439",
+                "sourceTitle": "Pacific Hwy, Tea Gardens",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474267",
+                "created": "2022-11-18T22:28:00+11:00",
+                "updated": "2022-11-19T09:28:00+11:00",
+                "location": "Pacific Hwy, Tea Gardens, NSW 2324",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ocean Dr, Kew, NSW 2439 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2022 08:57",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Tea Gardens, NSW 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2022 09:28",
+                "title": "incident: other"
             }
         },
         {
