@@ -28,10 +28,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.84718600000008,
-                    -32.84709099999998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.84123420600008,
+                            -32.84409061699995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.841227942,
+                                            -32.841837637
+                                        ],
+                                        [
+                                            151.842477159,
+                                            -32.842384914
+                                        ],
+                                        [
+                                            151.842822181,
+                                            -32.843491362
+                                        ],
+                                        [
+                                            151.842798386,
+                                            -32.843681719
+                                        ],
+                                        [
+                                            151.842203521,
+                                            -32.844526429
+                                        ],
+                                        [
+                                            151.84031185,
+                                            -32.844490736
+                                        ],
+                                        [
+                                            151.841227942,
+                                            -32.841837637
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -46,6 +91,30 @@
                 "location": "Coxs Lane, Fullerton Cove, NSW 2318",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Coxs Lane, Fullerton Cove, NSW 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 09:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.74809500000003,
+                    -29.107880999999963
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dolgelly Rd, Garah",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474368",
+                "created": "2022-11-19T23:12:00+11:00",
+                "updated": "2022-11-20T10:12:00+11:00",
+                "location": "684 Dolgelly Rd, Garah, NSW 2405",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 684 Dolgelly Rd, Garah, NSW 2405 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 10:12",
                 "title": "incident: fire"
             }
         },
@@ -1037,13 +1106,13 @@
                 "sourceTitle": "Bendalong Rd, Bendalong",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474366",
-                "created": "2022-11-19T22:52:00+11:00",
-                "updated": "2022-11-20T09:52:00+11:00",
+                "created": "2022-11-19T23:25:00+11:00",
+                "updated": "2022-11-20T10:25:00+11:00",
                 "location": "Bendalong Rd, Bendalong, NSW 2539",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bendalong Rd, Bendalong, NSW 2539 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 09:52",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bendalong Rd, Bendalong, NSW 2539 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 10:25",
                 "title": "incident: other"
             }
         },
@@ -1117,6 +1186,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 10 Darlington St, Darlington Point, NSW 2706 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Nov 2022 15:32",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.86225319000005,
+                    -33.695589104999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Endeavour St, Oberon",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474369",
+                "created": "2022-11-19T23:15:00+11:00",
+                "updated": "2022-11-20T10:15:00+11:00",
+                "location": "Endeavour Street Oberon",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Endeavour Street Oberon <br />COUNCIL AREA: Oberon <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 20 Nov 2022 10:15",
+                "title": "incident: fire"
             }
         },
         {
@@ -1213,6 +1306,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 580 Marsh Rd, Port Stephens <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2022 13:50",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.99151400000005,
+                    -33.64236299999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Porters Rd, Kenthurst",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474370",
+                "created": "2022-11-19T23:22:00+11:00",
+                "updated": "2022-11-20T10:22:00+11:00",
+                "location": "53 Porters Rd, Kenthurst, NSW 2156",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 53 Porters Rd, Kenthurst, NSW 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 10:22",
+                "title": "incident: other"
             }
         },
         {
@@ -1332,6 +1449,30 @@
                 "location": "Balranald Shire",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Balranald Shire <br />COUNCIL AREA: Balranald <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 17 Nov 2022 16:59",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.7496440000001,
+                    -34.098792998999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Taber St, Menangle Park",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474367",
+                "created": "2022-11-19T23:04:00+11:00",
+                "updated": "2022-11-20T10:04:00+11:00",
+                "location": "11 Taber St, Menangle Park, NSW 2563",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 11 Taber St, Menangle Park, NSW 2563 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 10:04",
                 "title": "incident: other"
             }
         },
