@@ -30,6 +30,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.0179320000001,
+                    -30.348555999999974
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cassidys Rd, Bonville",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474444",
+                "created": "2022-11-20T07:30:00+11:00",
+                "updated": "2022-11-20T18:30:00+11:00",
+                "location": "221D Cassidys Rd, Bonville, NSW 2450",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 221D Cassidys Rd, Bonville, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 18:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     142.37182617200006,
                     -33.86813503199994
                 ]
@@ -586,10 +610,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.68962900000008,
-                    -29.841568999999936
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.68962900000008,
+                            -29.841568999999936
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.701360892,
+                                            -29.8234155599999
+                                        ],
+                                        [
+                                            152.698052245,
+                                            -29.8248991909999
+                                        ],
+                                        [
+                                            152.697494497,
+                                            -29.822869507
+                                        ],
+                                        [
+                                            152.695616369,
+                                            -29.8213728109999
+                                        ],
+                                        [
+                                            152.693788971,
+                                            -29.819319982
+                                        ],
+                                        [
+                                            152.693855077,
+                                            -29.8180351509999
+                                        ],
+                                        [
+                                            152.693413859,
+                                            -29.816027966
+                                        ],
+                                        [
+                                            152.696680547,
+                                            -29.813527802
+                                        ],
+                                        [
+                                            152.700083361,
+                                            -29.81242394
+                                        ],
+                                        [
+                                            152.701679132,
+                                            -29.813535499
+                                        ],
+                                        [
+                                            152.705749133,
+                                            -29.8150346209999
+                                        ],
+                                        [
+                                            152.705687277,
+                                            -29.818858572
+                                        ],
+                                        [
+                                            152.705549138,
+                                            -29.819276132
+                                        ],
+                                        [
+                                            152.705542779,
+                                            -29.8204579609999
+                                        ],
+                                        [
+                                            152.701360892,
+                                            -29.8234155599999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -622,49 +723,6 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.91909463,
-                                            -30.791459043
-                                        ],
-                                        [
-                                            152.920117798,
-                                            -30.79301759
-                                        ],
-                                        [
-                                            152.920260566,
-                                            -30.7937909149999
-                                        ],
-                                        [
-                                            152.918999452,
-                                            -30.793862298
-                                        ],
-                                        [
-                                            152.918226127,
-                                            -30.793612455
-                                        ],
-                                        [
-                                            152.916501017,
-                                            -30.79116161
-                                        ],
-                                        [
-                                            152.919058938,
-                                            -30.7914471459999
-                                        ],
-                                        [
-                                            152.919070835,
-                                            -30.7914471459999
-                                        ],
-                                        [
-                                            152.91909463,
-                                            -30.791459043
-                                        ]
-                                    ]
-                                ]
-                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -736,6 +794,49 @@
                                         [
                                             152.916477223,
                                             -30.791137815
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.91909463,
+                                            -30.791459043
+                                        ],
+                                        [
+                                            152.920117798,
+                                            -30.79301759
+                                        ],
+                                        [
+                                            152.920260566,
+                                            -30.7937909149999
+                                        ],
+                                        [
+                                            152.918999452,
+                                            -30.793862298
+                                        ],
+                                        [
+                                            152.918226127,
+                                            -30.793612455
+                                        ],
+                                        [
+                                            152.916501017,
+                                            -30.79116161
+                                        ],
+                                        [
+                                            152.919058938,
+                                            -30.7914471459999
+                                        ],
+                                        [
+                                            152.919070835,
+                                            -30.7914471459999
+                                        ],
+                                        [
+                                            152.91909463,
+                                            -30.791459043
                                         ]
                                     ]
                                 ]
@@ -1039,11 +1140,11 @@
                 "subcategory": "structure fire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474438",
-                "created": "2022-11-20T07:04:00+11:00",
-                "updated": "2022-11-20T18:04:00+11:00",
+                "created": "2022-11-20T07:21:00+11:00",
+                "updated": "2022-11-20T18:21:00+11:00",
                 "location": "100 Berkeley Rd, Fountaindale, NSW 2258",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 100 Berkeley Rd, Fountaindale, NSW 2258 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 18:04",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 100 Berkeley Rd, Fountaindale, NSW 2258 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 18:21",
                 "title": "incident: fire"
             }
         },
@@ -1148,23 +1249,47 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.07287700000006,
-                    -33.91555899999997
+                    150.82206600000006,
+                    -33.60167199999995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hampden Rd, Lakemba",
+                "sourceTitle": "Freemans Reach Rd, Freemans Reach",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474442",
-                "created": "2022-11-20T07:26:00+11:00",
-                "updated": "2022-11-20T18:26:00+11:00",
-                "location": "44 Hampden Rd, Lakemba,  2195",
+                "subcategory": "other",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474441",
+                "created": "2022-11-20T07:30:00+11:00",
+                "updated": "2022-11-20T18:30:00+11:00",
+                "location": "Freemans Reach Rd, Freemans Reach, NSW 2756",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 44 Hampden Rd, Lakemba,  2195 <br />COUNCIL AREA: Canterbury-Bankstown <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 20 Nov 2022 18:26",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Freemans Reach Rd, Freemans Reach, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 18:30",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.58428200000003,
+                    -32.89076099999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "George Booth Dr, Seahampton",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474445",
+                "created": "2022-11-20T07:34:00+11:00",
+                "updated": "2022-11-20T18:34:00+11:00",
+                "location": "22A George Booth Dr, Seahampton, NSW 2286",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 22A George Booth Dr, Seahampton, NSW 2286 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2022 18:34",
+                "title": "incident: other"
             }
         },
         {
