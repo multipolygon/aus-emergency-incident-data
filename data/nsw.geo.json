@@ -141,10 +141,139 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.11090087700006,
-                    -33.49157504999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.11090087700006,
+                            -33.49157504999994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.110946085,
+                                            -33.4942783289999
+                                        ],
+                                        [
+                                            151.110558233,
+                                            -33.494192668
+                                        ],
+                                        [
+                                            151.110379774,
+                                            -33.494156975
+                                        ],
+                                        [
+                                            151.109094864,
+                                            -33.494192668
+                                        ],
+                                        [
+                                            151.108868816,
+                                            -33.494002311
+                                        ],
+                                        [
+                                            151.108868816,
+                                            -33.493764364
+                                        ],
+                                        [
+                                            151.108999686,
+                                            -33.493633495
+                                        ],
+                                        [
+                                            151.109273324,
+                                            -33.493336062
+                                        ],
+                                        [
+                                            151.109499373,
+                                            -33.4929077589999
+                                        ],
+                                        [
+                                            151.109725422,
+                                            -33.492776889
+                                        ],
+                                        [
+                                            151.109915779,
+                                            -33.492622223
+                                        ],
+                                        [
+                                            151.110153724,
+                                            -33.492491354
+                                        ],
+                                        [
+                                            151.110320288,
+                                            -33.4923247909999
+                                        ],
+                                        [
+                                            151.110701001,
+                                            -33.492336688
+                                        ],
+                                        [
+                                            151.110784282,
+                                            -33.4926817109999
+                                        ],
+                                        [
+                                            151.111224482,
+                                            -33.4929077589999
+                                        ],
+                                        [
+                                            151.111331558,
+                                            -33.492872067
+                                        ],
+                                        [
+                                            151.111462429,
+                                            -33.492872067
+                                        ],
+                                        [
+                                            151.111617093,
+                                            -33.492955348
+                                        ],
+                                        [
+                                            151.111938321,
+                                            -33.493026732
+                                        ],
+                                        [
+                                            151.112235753,
+                                            -33.493026732
+                                        ],
+                                        [
+                                            151.112485596,
+                                            -33.493181396
+                                        ],
+                                        [
+                                            151.112640262,
+                                            -33.4933479589999
+                                        ],
+                                        [
+                                            151.11242611,
+                                            -33.494145079
+                                        ],
+                                        [
+                                            151.111724169,
+                                            -33.4943592299999
+                                        ],
+                                        [
+                                            151.111398184,
+                                            -33.4943021239999
+                                        ],
+                                        [
+                                            151.111172135,
+                                            -33.494432993
+                                        ],
+                                        [
+                                            151.110946085,
+                                            -33.4942783289999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1551,6 +1680,30 @@
                 "location": "Shakespear Drive, Winmalee, NSW 2777",
                 "size": 1,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Shakespear Drive, Winmalee, NSW 2777 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2022 19:28",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.15920600000004,
+                    -32.718966000999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Montevideo Pde, Nelson Bay",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474606",
+                "created": "2022-11-21T11:20:00+11:00",
+                "updated": "2022-11-21T22:20:00+11:00",
+                "location": "1 Montevideo Pde, Nelson Bay, NSW 2315",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1 Montevideo Pde, Nelson Bay, NSW 2315 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Nov 2022 22:20",
                 "title": "incident: fire"
             }
         },
