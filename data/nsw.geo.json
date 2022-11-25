@@ -21,45 +21,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            151.204737432,
-                                            -33.681222201
-                                        ],
-                                        [
-                                            151.204606164,
-                                            -33.68122662
-                                        ],
-                                        [
-                                            151.204462756,
-                                            -33.681097633
-                                        ],
-                                        [
-                                            151.204572725,
-                                            -33.6808884279999
-                                        ],
-                                        [
-                                            151.204633015,
-                                            -33.6809533059999
-                                        ],
-                                        [
-                                            151.204688058,
-                                            -33.681027919
-                                        ],
-                                        [
-                                            151.204767539,
-                                            -33.681135163
-                                        ],
-                                        [
-                                            151.204737432,
-                                            -33.681222201
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             151.205519868,
                                             -33.6814443709999
                                         ],
@@ -102,6 +63,45 @@
                                         [
                                             151.205519868,
                                             -33.6814443709999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.204737432,
+                                            -33.681222201
+                                        ],
+                                        [
+                                            151.204606164,
+                                            -33.68122662
+                                        ],
+                                        [
+                                            151.204462756,
+                                            -33.681097633
+                                        ],
+                                        [
+                                            151.204572725,
+                                            -33.6808884279999
+                                        ],
+                                        [
+                                            151.204633015,
+                                            -33.6809533059999
+                                        ],
+                                        [
+                                            151.204688058,
+                                            -33.681027919
+                                        ],
+                                        [
+                                            151.204767539,
+                                            -33.681135163
+                                        ],
+                                        [
+                                            151.204737432,
+                                            -33.681222201
                                         ]
                                     ]
                                 ]
@@ -867,10 +867,99 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.52480006200005,
-                    -33.20397096299996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.52480006200005,
+                            -33.20397096299996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.520826363,
+                                            -33.202721746
+                                        ],
+                                        [
+                                            151.521421228,
+                                            -33.203340407
+                                        ],
+                                        [
+                                            151.521147589,
+                                            -33.203959067
+                                        ],
+                                        [
+                                            151.525466311,
+                                            -33.2044825479999
+                                        ],
+                                        [
+                                            151.526084972,
+                                            -33.205791252
+                                        ],
+                                        [
+                                            151.526501377,
+                                            -33.207266518
+                                        ],
+                                        [
+                                            151.518661053,
+                                            -33.20619576
+                                        ],
+                                        [
+                                            151.517697371,
+                                            -33.207135647
+                                        ],
+                                        [
+                                            151.516674202,
+                                            -33.207004776
+                                        ],
+                                        [
+                                            151.51655523,
+                                            -33.20632663
+                                        ],
+                                        [
+                                            151.51655523,
+                                            -33.2059816089999
+                                        ],
+                                        [
+                                            151.516757483,
+                                            -33.2058150459999
+                                        ],
+                                        [
+                                            151.517269068,
+                                            -33.2055414079999
+                                        ],
+                                        [
+                                            151.518137571,
+                                            -33.205113105
+                                        ],
+                                        [
+                                            151.51867295,
+                                            -33.204756185
+                                        ],
+                                        [
+                                            151.519577145,
+                                            -33.2040899369999
+                                        ],
+                                        [
+                                            151.520279086,
+                                            -33.203495071
+                                        ],
+                                        [
+                                            151.520826363,
+                                            -33.202721746
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1518,6 +1607,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.1884960000001,
+                    -33.57639699999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, Cowan",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/475021",
+                "created": "2022-11-25T12:16:00+11:00",
+                "updated": "2022-11-25T23:16:00+11:00",
+                "location": "Pacific Hwy, Cowan, NSW 2081",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Cowan, NSW 2081 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 23:16",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.2481180000001,
                     -29.354615999999965
                 ]
@@ -1527,13 +1640,13 @@
                 "sourceTitle": "Pacific Hwy, Woombah",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/475020",
-                "created": "2022-11-25T11:22:00+11:00",
-                "updated": "2022-11-25T22:22:00+11:00",
+                "created": "2022-11-25T11:50:00+11:00",
+                "updated": "2022-11-25T22:50:00+11:00",
                 "location": "Pacific Hwy, Woombah, NSW 2469",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Woombah, NSW 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 22:22",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Woombah, NSW 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 22:50",
                 "title": "incident: fire"
             }
         },
@@ -1678,6 +1791,30 @@
                 "location": "Balranald Shire",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Balranald Shire <br />COUNCIL AREA: Balranald <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 17 Nov 2022 16:59",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.5358020000001,
+                    -35.04088399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Strontian Rd, Boree Creek",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/475022",
+                "created": "2022-11-25T12:08:00+11:00",
+                "updated": "2022-11-25T23:08:00+11:00",
+                "location": "Strontian Rd, Boree Creek, NSW 2652",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Strontian Rd, Boree Creek, NSW 2652 <br />COUNCIL AREA: Federation <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 23:08",
                 "title": "incident: other"
             }
         }
