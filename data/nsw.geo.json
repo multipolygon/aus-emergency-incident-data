@@ -21,6 +21,45 @@
                                 "coordinates": [
                                     [
                                         [
+                                            151.204737432,
+                                            -33.681222201
+                                        ],
+                                        [
+                                            151.204606164,
+                                            -33.68122662
+                                        ],
+                                        [
+                                            151.204462756,
+                                            -33.681097633
+                                        ],
+                                        [
+                                            151.204572725,
+                                            -33.6808884279999
+                                        ],
+                                        [
+                                            151.204633015,
+                                            -33.6809533059999
+                                        ],
+                                        [
+                                            151.204688058,
+                                            -33.681027919
+                                        ],
+                                        [
+                                            151.204767539,
+                                            -33.681135163
+                                        ],
+                                        [
+                                            151.204737432,
+                                            -33.681222201
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             151.205519868,
                                             -33.6814443709999
                                         ],
@@ -63,45 +102,6 @@
                                         [
                                             151.205519868,
                                             -33.6814443709999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            151.204737432,
-                                            -33.681222201
-                                        ],
-                                        [
-                                            151.204606164,
-                                            -33.68122662
-                                        ],
-                                        [
-                                            151.204462756,
-                                            -33.681097633
-                                        ],
-                                        [
-                                            151.204572725,
-                                            -33.6808884279999
-                                        ],
-                                        [
-                                            151.204633015,
-                                            -33.6809533059999
-                                        ],
-                                        [
-                                            151.204688058,
-                                            -33.681027919
-                                        ],
-                                        [
-                                            151.204767539,
-                                            -33.681135163
-                                        ],
-                                        [
-                                            151.204737432,
-                                            -33.681222201
                                         ]
                                     ]
                                 ]
@@ -864,10 +864,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.79318100000012,
-                    -33.887449999999944
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.79318100000012,
+                            -33.887449999999944
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.792586861,
+                                            -33.8880209169999
+                                        ],
+                                        [
+                                            150.792408401,
+                                            -33.887901944
+                                        ],
+                                        [
+                                            150.792586861,
+                                            -33.887735382
+                                        ],
+                                        [
+                                            150.792908087,
+                                            -33.8877234839999
+                                        ],
+                                        [
+                                            150.792908087,
+                                            -33.8876402029999
+                                        ],
+                                        [
+                                            150.79276532,
+                                            -33.887628306
+                                        ],
+                                        [
+                                            150.792872396,
+                                            -33.8875212299999
+                                        ],
+                                        [
+                                            150.793193623,
+                                            -33.8875569219999
+                                        ],
+                                        [
+                                            150.793157931,
+                                            -33.887782971
+                                        ],
+                                        [
+                                            150.793265007,
+                                            -33.887842457
+                                        ],
+                                        [
+                                            150.793157931,
+                                            -33.887901944
+                                        ],
+                                        [
+                                            150.793122239,
+                                            -33.8880804029999
+                                        ],
+                                        [
+                                            150.792586861,
+                                            -33.8880209169999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -875,13 +944,13 @@
                 "sourceTitle": "Devonshire Rd, Kemps Creek",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474972",
-                "created": "2022-11-25T03:57:00+11:00",
-                "updated": "2022-11-25T14:57:00+11:00",
+                "created": "2022-11-25T04:29:00+11:00",
+                "updated": "2022-11-25T15:29:00+11:00",
                 "location": "547 Devonshire Rd, Kemps Creek, NSW 2178",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 547 Devonshire Rd, Kemps Creek, NSW 2178 <br />COUNCIL AREA: Liverpool <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 14:57",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 547 Devonshire Rd, Kemps Creek, NSW 2178 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 15:29",
                 "title": "incident: fire"
             }
         },
@@ -3207,30 +3276,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.52840200000003,
-                    -34.82770599999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Browns Mountain Rd, Tapitallee",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474973",
-                "created": "2022-11-25T03:32:00+11:00",
-                "updated": "2022-11-25T14:32:00+11:00",
-                "location": "Browns Mountain Rd, Tapitallee, NSW 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Browns Mountain Rd, Tapitallee, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 14:32",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.47020200000009,
                     -30.931107999999938
                 ]
@@ -3336,13 +3381,13 @@
                 "sourceTitle": "Fisher Rd, Maraylya",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474976",
-                "created": "2022-11-25T04:00:00+11:00",
-                "updated": "2022-11-25T15:00:00+11:00",
+                "created": "2022-11-25T04:20:00+11:00",
+                "updated": "2022-11-25T15:20:00+11:00",
                 "location": "75 Fisher Rd, Maraylya, NSW 2765",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 75 Fisher Rd, Maraylya, NSW 2765 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 15:00",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 75 Fisher Rd, Maraylya, NSW 2765 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 15:20",
                 "title": "incident: fire"
             }
         },
@@ -3360,37 +3405,13 @@
                 "sourceTitle": "Hume Hwy, Tarcutta",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474978",
-                "created": "2022-11-25T04:04:00+11:00",
-                "updated": "2022-11-25T15:04:00+11:00",
+                "created": "2022-11-25T04:25:00+11:00",
+                "updated": "2022-11-25T15:25:00+11:00",
                 "location": "Hume Hwy, Tarcutta, NSW 2652",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Hwy, Tarcutta, NSW 2652 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 15:04",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.03437400000007,
-                    -32.41742599999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kidman Way, Gilgunnia",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474960",
-                "created": "2022-11-25T01:16:00+11:00",
-                "updated": "2022-11-25T12:16:00+11:00",
-                "location": "Kidman Way, Gilgunnia, NSW 2835",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kidman Way, Gilgunnia, NSW 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 12:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Hwy, Tarcutta, NSW 2652 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 15:25",
                 "title": "incident: other"
             }
         },
@@ -3568,6 +3589,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.80758100000003,
+                    -33.790971999999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Roper Rd, Colyton",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474981",
+                "created": "2022-11-25T04:24:00+11:00",
+                "updated": "2022-11-25T15:24:00+11:00",
+                "location": "Roper Rd, Colyton, NSW 2760",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Roper Rd, Colyton, NSW 2760 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Nov 2022 15:24",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     147.14355479900007,
                     -33.08463802399996
                 ]
@@ -3640,47 +3685,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.5967740000001,
-                    -35.085459998999966
+                    150.86727200000007,
+                    -32.046532999999954
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "The Wool Rd, St Georges Basin",
+                "sourceTitle": "St Aubins St, Scone",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474897",
-                "created": "2022-11-25T04:07:00+11:00",
-                "updated": "2022-11-25T15:07:00+11:00",
-                "location": "279B The Wool Rd, St Georges Basin, NSW 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 279B The Wool Rd, St Georges Basin, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 15:07",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.89834199900008,
-                    -30.66661500099997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wilson Rd, Congarinni North",
-                "category": "other",
-                "subcategory": "medical",
+                "subcategory": "grass fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474974",
-                "created": "2022-11-25T03:54:00+11:00",
-                "updated": "2022-11-25T14:54:00+11:00",
-                "location": "Wilson Rd, Congarinni North, NSW 2447",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474982",
+                "created": "2022-11-25T04:38:00+11:00",
+                "updated": "2022-11-25T15:38:00+11:00",
+                "location": "St Aubins St, Scone, NSW 2337",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wilson Rd, Congarinni North, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Nov 2022 14:54",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: St Aubins St, Scone, NSW 2337 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Nov 2022 15:38",
+                "title": "incident: fire"
             }
         },
         {
