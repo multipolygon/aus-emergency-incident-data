@@ -4,10 +4,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.99345300000004,
-                    -31.96824099899993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.99345300000004,
+                            -31.96824099899993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.982641028,
+                                            -31.960972921
+                                        ],
+                                        [
+                                            151.983799862,
+                                            -31.961027799
+                                        ],
+                                        [
+                                            151.984735846,
+                                            -31.9616588929999
+                                        ],
+                                        [
+                                            151.984178715,
+                                            -31.9624271819999
+                                        ],
+                                        [
+                                            151.983666151,
+                                            -31.963140591
+                                        ],
+                                        [
+                                            151.982975308,
+                                            -31.963195468
+                                        ],
+                                        [
+                                            151.982373606,
+                                            -31.962921079
+                                        ],
+                                        [
+                                            151.982106181,
+                                            -31.962262548
+                                        ],
+                                        [
+                                            151.982641028,
+                                            -31.960972921
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -17,11 +70,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/475924",
-                "created": "2022-12-06T03:52:00+11:00",
-                "updated": "2022-12-06T14:52:00+11:00",
+                "created": "2022-12-06T04:35:00+11:00",
+                "updated": "2022-12-06T15:35:00+11:00",
                 "location": "Beatties Island Rd, Tugrabakh, NSW 2422",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Beatties Island Rd, Tugrabakh, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2022 14:52",
+                "size": 4,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Beatties Island Rd, Tugrabakh, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2022 15:35",
                 "title": "incident: fire"
             }
         },
@@ -338,6 +391,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.022284,
+                    -33.755818999999974
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Garland Rd, Garland",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/475928",
+                "created": "2022-12-06T04:36:00+11:00",
+                "updated": "2022-12-06T15:36:00+11:00",
+                "location": "1050 Garland Rd, Garland, NSW 2797",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1050 Garland Rd, Garland, NSW 2797 <br />COUNCIL AREA: Blayney <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2022 15:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.39869234800005,
                     -33.20941584099995
                 ]
@@ -354,30 +431,6 @@
                 "location": "Cottesloe Road, Jilliby",
                 "size": 20,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Cottesloe Road, Jilliby <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Dec 2022 16:34",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.73422800000003,
-                    -33.82035799899995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mid Western Hwy, Cowra",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/475925",
-                "created": "2022-12-06T04:20:00+11:00",
-                "updated": "2022-12-06T15:20:00+11:00",
-                "location": "Mid Western Hwy, Cowra, NSW 2794",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Mid Western Hwy, Cowra, NSW 2794 <br />COUNCIL AREA: Cowra <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2022 15:20",
                 "title": "incident: fire"
             }
         },
@@ -1099,6 +1152,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.1581460000001,
+                    -35.25718999999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Olympic Hwy, The Rock",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/475929",
+                "created": "2022-12-06T04:38:00+11:00",
+                "updated": "2022-12-06T15:38:00+11:00",
+                "location": "5082 Olympic Hwy, The Rock, NSW 2655",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5082 Olympic Hwy, The Rock, NSW 2655 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2022 15:38",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.98868100000004,
                     -30.952668999999958
                 ]
@@ -1156,13 +1233,37 @@
                 "sourceTitle": "Sackville Rd, Sackville",
                 "category": "other",
                 "subcategory": "hazmat",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/475923",
-                "created": "2022-12-06T04:27:00+11:00",
-                "updated": "2022-12-06T15:27:00+11:00",
+                "created": "2022-12-06T04:36:00+11:00",
+                "updated": "2022-12-06T15:36:00+11:00",
                 "location": "Sackville Rd, Sackville, NSW 2756",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sackville Rd, Sackville, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: HAZMAT <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2022 15:27",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sackville Rd, Sackville, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: HAZMAT <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2022 15:36",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.92207336400008,
+                    -34.10299227599995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "SES Flood Assist",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474129",
+                "created": "2022-12-06T04:02:00+11:00",
+                "updated": "2022-12-06T15:02:00+11:00",
+                "location": "Wentworth",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wentworth <br />COUNCIL AREA: Wentworth <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 6 Dec 2022 15:02",
                 "title": "incident: other"
             }
         },
@@ -1195,23 +1296,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.92207336400008,
-                    -34.10299227599995
+                    153.3683840000001,
+                    -28.41921199999996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "SES Flood Assist",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
+                "sourceTitle": "Smiths Creek Rd, Smiths Creek",
+                "category": "fire",
+                "subcategory": "structure fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/474129",
-                "created": "2022-12-06T04:02:00+11:00",
-                "updated": "2022-12-06T15:02:00+11:00",
-                "location": "Wentworth",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/475930",
+                "created": "2022-12-06T04:40:00+11:00",
+                "updated": "2022-12-06T15:40:00+11:00",
+                "location": "Smiths Creek Rd, Smiths Creek, NSW 2484",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wentworth <br />COUNCIL AREA: Wentworth <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 6 Dec 2022 15:02",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Smiths Creek Rd, Smiths Creek, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2022 15:40",
+                "title": "incident: fire"
             }
         }
     ]
