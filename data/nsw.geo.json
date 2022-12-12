@@ -847,11 +847,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477463",
-                "created": "2022-12-12T11:47:00+11:00",
-                "updated": "2022-12-12T22:47:00+11:00",
+                "created": "2022-12-12T14:32:00+11:00",
+                "updated": "2022-12-13T01:32:00+11:00",
                 "location": "Nanya Station (GR264-417)",
-                "size": 100,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Nanya Station (GR264-417) <br />COUNCIL AREA: Unincorporated <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 100 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Dec 2022 22:47",
+                "size": 166,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Nanya Station (GR264-417) <br />COUNCIL AREA: Unincorporated <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 166 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Dec 2022 01:32",
                 "title": "incident: fire"
             }
         },
@@ -924,11 +924,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477464",
-                "created": "2022-12-11T08:53:00+11:00",
-                "updated": "2022-12-11T19:53:00+11:00",
+                "created": "2022-12-12T14:14:00+11:00",
+                "updated": "2022-12-13T01:14:00+11:00",
                 "location": "Nanya Station (GR218-417)",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Nanya Station (GR218-417) <br />COUNCIL AREA: Unincorporated <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Dec 2022 19:53",
+                "size": 181,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Nanya Station (GR218-417) <br />COUNCIL AREA: Unincorporated <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 181 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Dec 2022 01:14",
                 "title": "incident: fire"
             }
         },
@@ -1867,10 +1867,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.04110719900007,
-                    -33.02037086499996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            141.04110719900007,
+                            -33.02037086499996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            141.039818804,
+                                            -33.019216123
+                                        ],
+                                        [
+                                            141.040389874,
+                                            -33.018621257
+                                        ],
+                                        [
+                                            141.041270275,
+                                            -33.018740231
+                                        ],
+                                        [
+                                            141.041769962,
+                                            -33.019382686
+                                        ],
+                                        [
+                                            141.041888934,
+                                            -33.02007273
+                                        ],
+                                        [
+                                            141.04150822,
+                                            -33.021024514
+                                        ],
+                                        [
+                                            141.041127507,
+                                            -33.0214052269999
+                                        ],
+                                        [
+                                            141.040960945,
+                                            -33.022119065
+                                        ],
+                                        [
+                                            141.040699204,
+                                            -33.022285628
+                                        ],
+                                        [
+                                            141.040389874,
+                                            -33.021500406
+                                        ],
+                                        [
+                                            141.039771214,
+                                            -33.020310675
+                                        ],
+                                        [
+                                            141.039818804,
+                                            -33.019216123
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
