@@ -4547,10 +4547,119 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.48149109700012,
-                    -30.932621147999953
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.48149109700012,
+                            -30.932621147999953
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.479040983,
+                                            -30.948135809
+                                        ],
+                                        [
+                                            149.47865298,
+                                            -30.9491932519999
+                                        ],
+                                        [
+                                            149.4776278,
+                                            -30.949165191
+                                        ],
+                                        [
+                                            149.476980824,
+                                            -30.9487719169999
+                                        ],
+                                        [
+                                            149.476252063,
+                                            -30.9484279339999
+                                        ],
+                                        [
+                                            149.475958091,
+                                            -30.947765386
+                                        ],
+                                        [
+                                            149.475742836,
+                                            -30.9469342849999
+                                        ],
+                                        [
+                                            149.476555813,
+                                            -30.946250522
+                                        ],
+                                        [
+                                            149.477747584,
+                                            -30.945225399
+                                        ],
+                                        [
+                                            149.478939327,
+                                            -30.9442002659999
+                                        ],
+                                        [
+                                            149.481088485,
+                                            -30.942727196
+                                        ],
+                                        [
+                                            149.482837922,
+                                            -30.941858364
+                                        ],
+                                        [
+                                            149.483987803,
+                                            -30.94135899
+                                        ],
+                                        [
+                                            149.484980287,
+                                            -30.941196723
+                                        ],
+                                        [
+                                            149.486829974,
+                                            -30.9409940899999
+                                        ],
+                                        [
+                                            149.487170686,
+                                            -30.9413216209999
+                                        ],
+                                        [
+                                            149.486579824,
+                                            -30.942025037
+                                        ],
+                                        [
+                                            149.485636625,
+                                            -30.943021592
+                                        ],
+                                        [
+                                            149.483579094,
+                                            -30.943753203
+                                        ],
+                                        [
+                                            149.482830176,
+                                            -30.944769868
+                                        ],
+                                        [
+                                            149.481640319,
+                                            -30.94586659
+                                        ],
+                                        [
+                                            149.47951508,
+                                            -30.9471960299999
+                                        ],
+                                        [
+                                            149.479040983,
+                                            -30.948135809
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4706,6 +4815,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.71783700000003,
+                    -33.01274699999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Alison St, Redhead",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477687",
+                "created": "2022-12-13T10:12:00+11:00",
+                "updated": "2022-12-13T21:12:00+11:00",
+                "location": "Alison St, Redhead, NSW 2290",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Alison St, Redhead, NSW 2290 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 13 Dec 2022 21:12",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.50194800100007,
                     -32.38825399999996
                 ]
@@ -4771,30 +4904,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Dubbo, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 12 Dec 2022 15:30",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.6371210000001,
-                    -33.53674199999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bells Line Of Road, Kurrajong Heights",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477684",
-                "created": "2022-12-13T09:09:00+11:00",
-                "updated": "2022-12-13T20:09:00+11:00",
-                "location": "1194C Bells Line Of Road, Kurrajong Heights, NSW 2758",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1194C Bells Line Of Road, Kurrajong Heights, NSW 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Dec 2022 20:09",
-                "title": "incident: fire"
             }
         },
         {
