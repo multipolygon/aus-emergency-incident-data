@@ -2087,10 +2087,119 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.7955720000001,
-                    -32.862720999999965
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.7955720000001,
+                            -32.862720999999965
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.797336454,
+                                            -32.8595450999999
+                                        ],
+                                        [
+                                            150.797514914,
+                                            -32.8596521759999
+                                        ],
+                                        [
+                                            150.797598195,
+                                            -32.859925814
+                                        ],
+                                        [
+                                            150.79762199,
+                                            -32.8601518629999
+                                        ],
+                                        [
+                                            150.797729066,
+                                            -32.8604017069999
+                                        ],
+                                        [
+                                            150.798085984,
+                                            -32.8607348309999
+                                        ],
+                                        [
+                                            150.798395315,
+                                            -32.861056059
+                                        ],
+                                        [
+                                            150.798454801,
+                                            -32.8613772849999
+                                        ],
+                                        [
+                                            150.798300136,
+                                            -32.861674718
+                                        ],
+                                        [
+                                            150.798097882,
+                                            -32.861924562
+                                        ],
+                                        [
+                                            150.797848039,
+                                            -32.861948357
+                                        ],
+                                        [
+                                            150.797372146,
+                                            -32.861984048
+                                        ],
+                                        [
+                                            150.797062817,
+                                            -32.862031638
+                                        ],
+                                        [
+                                            150.796801075,
+                                            -32.862091124
+                                        ],
+                                        [
+                                            150.796527437,
+                                            -32.862091124
+                                        ],
+                                        [
+                                            150.79607534,
+                                            -32.861984048
+                                        ],
+                                        [
+                                            150.79602775,
+                                            -32.8619364589999
+                                        ],
+                                        [
+                                            150.796003957,
+                                            -32.8617936909999
+                                        ],
+                                        [
+                                            150.796230005,
+                                            -32.8615200529999
+                                        ],
+                                        [
+                                            150.796325183,
+                                            -32.861115545
+                                        ],
+                                        [
+                                            150.79651554,
+                                            -32.860580167
+                                        ],
+                                        [
+                                            150.796848665,
+                                            -32.86008048
+                                        ],
+                                        [
+                                            150.797336454,
+                                            -32.8595450999999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2098,13 +2207,13 @@
                 "sourceTitle": "Commission Rd, Howes Valley",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477882",
-                "created": "2022-12-15T08:17:00+11:00",
-                "updated": "2022-12-15T19:17:00+11:00",
+                "created": "2022-12-15T09:54:00+11:00",
+                "updated": "2022-12-15T20:54:00+11:00",
                 "location": "6220 Commission Rd, Howes Valley, NSW 2330",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 6220 Commission Rd, Howes Valley, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2022 19:17",
+                "size": 4,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 6220 Commission Rd, Howes Valley, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2022 20:54",
                 "title": "incident: fire"
             }
         },
@@ -2352,13 +2461,13 @@
                 "sourceTitle": "Halls Creek Rd, Halls Creek",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477886",
-                "created": "2022-12-15T07:29:00+11:00",
-                "updated": "2022-12-15T18:29:00+11:00",
+                "created": "2022-12-15T10:04:00+11:00",
+                "updated": "2022-12-15T21:04:00+11:00",
                 "location": "3381 Halls Creek Rd, Halls Creek, NSW 2346",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 3381 Halls Creek Rd, Halls Creek, NSW 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2022 18:29",
+                "size": 37,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 3381 Halls Creek Rd, Halls Creek, NSW 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 37 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2022 21:04",
                 "title": "incident: fire"
             }
         },
@@ -4446,30 +4555,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.55000000000007,
-                    -28.19939999999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kirkwood Rd, Tweed Heads South",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477898",
-                "created": "2022-12-15T09:36:00+11:00",
-                "updated": "2022-12-15T20:36:00+11:00",
-                "location": "Kirkwood Rd, Tweed Heads South, NSW 2486",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kirkwood Rd, Tweed Heads South, NSW 2486 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Dec 2022 20:36",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.03735900000004,
                     -29.11946899999998
                 ]
@@ -5221,11 +5306,35 @@
                 "subcategory": "burn off",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477891",
-                "created": "2022-12-15T07:42:00+11:00",
-                "updated": "2022-12-15T18:42:00+11:00",
+                "created": "2022-12-15T09:54:00+11:00",
+                "updated": "2022-12-15T20:54:00+11:00",
                 "location": "3197 Princes Hwy, Millingandi, NSW 2549",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3197 Princes Hwy, Millingandi, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2022 18:42",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3197 Princes Hwy, Millingandi, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2022 20:54",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.91019344300003,
+                    -29.814424504999977
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rowena St Rowena",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477900",
+                "created": "2022-12-15T00:05:00+11:00",
+                "updated": "2022-12-15T11:05:00+11:00",
+                "location": "Lot 1 Rowena St Rowena",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lot 1 Rowena St Rowena <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2022 11:05",
                 "title": "incident: fire"
             }
         },
@@ -5275,30 +5384,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Balranald Shire <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 14 Dec 2022 11:00",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.2179479990001,
-                    -33.88612900099997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South Dowling St, Surry Hills",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477899",
-                "created": "2022-12-15T09:46:00+11:00",
-                "updated": "2022-12-15T20:46:00+11:00",
-                "location": "South Dowling St, Surry Hills, NSW 2010",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: South Dowling St, Surry Hills, NSW 2010 <br />COUNCIL AREA: Sydney <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Dec 2022 20:46",
-                "title": "incident: fire"
             }
         },
         {
