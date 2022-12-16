@@ -717,10 +717,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.74991702800003,
-                    -34.282979728999976
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.74991702800003,
+                            -34.282979728999976
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.750055921,
+                                            -34.283955555
+                                        ],
+                                        [
+                                            145.750603196,
+                                            -34.2805767209999
+                                        ],
+                                        [
+                                            145.7510315,
+                                            -34.28062431
+                                        ],
+                                        [
+                                            145.750436634,
+                                            -34.2840031439999
+                                        ],
+                                        [
+                                            145.750055921,
+                                            -34.283955555
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1585,8 +1622,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.3536650000001,
-                    -34.816705999999954
+                    148.34625148800012,
+                    -34.81331003799994
                 ]
             },
             "properties": {
@@ -1594,13 +1631,13 @@
                 "sourceTitle": "Hume Hwy, Jugiong",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477940",
-                "created": "2022-12-16T02:32:00+11:00",
-                "updated": "2022-12-16T13:32:00+11:00",
+                "created": "2022-12-16T02:52:00+11:00",
+                "updated": "2022-12-16T13:52:00+11:00",
                 "location": "Hume Hwy, Jugiong, NSW 2726",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Hume Hwy, Jugiong, NSW 2726 <br />COUNCIL AREA: Hilltops <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Dec 2022 13:32",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Hume Hwy, Jugiong, NSW 2726 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Dec 2022 13:52",
                 "title": "incident: fire"
             }
         },
@@ -3578,11 +3615,11 @@
                 "subcategory": "assist other agency",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/468993",
-                "created": "2022-12-14T19:29:00+11:00",
-                "updated": "2022-12-15T06:29:00+11:00",
+                "created": "2022-12-16T02:42:00+11:00",
+                "updated": "2022-12-16T13:42:00+11:00",
                 "location": "Dubbo, NSW 2830",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Dubbo, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 15 Dec 2022 06:29",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Dubbo, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 16 Dec 2022 13:42",
                 "title": "incident: other"
             }
         },
@@ -3624,37 +3661,13 @@
                 "sourceTitle": "Ellis Rd, Coutts Crossing",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477942",
-                "created": "2022-12-16T02:40:00+11:00",
-                "updated": "2022-12-16T13:40:00+11:00",
+                "created": "2022-12-16T03:05:00+11:00",
+                "updated": "2022-12-16T14:05:00+11:00",
                 "location": "Ellis Rd, Coutts Crossing, NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ellis Rd, Coutts Crossing, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Dec 2022 13:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.43724100000009,
-                    -33.385426999999936
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eulimore Rd, Eugowra",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477941",
-                "created": "2022-12-16T02:40:00+11:00",
-                "updated": "2022-12-16T13:40:00+11:00",
-                "location": "Eulimore Rd, Eugowra, NSW 2806",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eulimore Rd, Eugowra, NSW 2806 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Dec 2022 13:40",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ellis Rd, Coutts Crossing, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Dec 2022 14:05",
                 "title": "incident: fire"
             }
         },
@@ -3808,30 +3821,6 @@
                 "location": "3197 Princes Hwy, Millingandi, NSW 2549",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3197 Princes Hwy, Millingandi, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2022 20:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.91019344300003,
-                    -29.814424504999977
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Rowena St Rowena",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/477900",
-                "created": "2022-12-15T00:05:00+11:00",
-                "updated": "2022-12-15T11:05:00+11:00",
-                "location": "Lot 1 Rowena St Rowena",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lot 1 Rowena St Rowena <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2022 11:05",
                 "title": "incident: fire"
             }
         },
