@@ -319,8 +319,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.4374600000001,
-                    -33.07798999999994
+                    151.4373450270001,
+                    -33.07730243499998
                 ]
             },
             "properties": {
@@ -698,10 +698,127 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.882245,
-                    -30.49136599999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.882245,
+                            -30.49136599999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.882230534,
+                                            -30.491301633
+                                        ],
+                                        [
+                                            150.879851074,
+                                            -30.488267821
+                                        ],
+                                        [
+                                            150.879018262,
+                                            -30.485650414
+                                        ],
+                                        [
+                                            150.880148507,
+                                            -30.484639143
+                                        ],
+                                        [
+                                            150.88127875,
+                                            -30.483092493
+                                        ],
+                                        [
+                                            150.882290022,
+                                            -30.4823786539999
+                                        ],
+                                        [
+                                            150.883836671,
+                                            -30.479523302
+                                        ],
+                                        [
+                                            150.885204861,
+                                            -30.478333571
+                                        ],
+                                        [
+                                            150.885740239,
+                                            -30.47767922
+                                        ],
+                                        [
+                                            150.887346376,
+                                            -30.476905895
+                                        ],
+                                        [
+                                            150.888952512,
+                                            -30.476905895
+                                        ],
+                                        [
+                                            150.890380188,
+                                            -30.4771438399999
+                                        ],
+                                        [
+                                            150.892105298,
+                                            -30.4779766519999
+                                        ],
+                                        [
+                                            150.892640676,
+                                            -30.478155112
+                                        ],
+                                        [
+                                            150.893057082,
+                                            -30.4792258689999
+                                        ],
+                                        [
+                                            150.891867352,
+                                            -30.4802371399999
+                                        ],
+                                        [
+                                            150.890320702,
+                                            -30.4837468449999
+                                        ],
+                                        [
+                                            150.890975053,
+                                            -30.485293494
+                                        ],
+                                        [
+                                            150.891569919,
+                                            -30.487137576
+                                        ],
+                                        [
+                                            150.889963783,
+                                            -30.488267821
+                                        ],
+                                        [
+                                            150.889309431,
+                                            -30.488684226
+                                        ],
+                                        [
+                                            150.888417134,
+                                            -30.489279091
+                                        ],
+                                        [
+                                            150.88710843,
+                                            -30.4902308759999
+                                        ],
+                                        [
+                                            150.883658212,
+                                            -30.49136112
+                                        ],
+                                        [
+                                            150.882230534,
+                                            -30.491301633
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -735,11 +852,35 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/478493",
-                "created": "2022-12-22T03:04:00+11:00",
-                "updated": "2022-12-22T14:04:00+11:00",
+                "created": "2022-12-22T03:58:00+11:00",
+                "updated": "2022-12-22T14:58:00+11:00",
                 "location": "Sugarloaf Rd, Tabulam, NSW 2469",
                 "size": 6,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Sugarloaf Rd, Tabulam, NSW 2469 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Dec 2022 14:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Sugarloaf Rd, Tabulam, NSW 2469 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Dec 2022 14:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.342214,
+                    -29.120138999999938
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Gap Rd, Woodburn",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/478525",
+                "created": "2022-12-22T04:04:00+11:00",
+                "updated": "2022-12-22T15:04:00+11:00",
+                "location": "60 The Gap Rd, Woodburn, NSW 2472",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 60 The Gap Rd, Woodburn, NSW 2472 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Dec 2022 15:04",
                 "title": "incident: fire"
             }
         },
@@ -867,6 +1008,29 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.253982928,
+                                            -31.231306291
+                                        ],
+                                        [
+                                            146.253957935,
+                                            -31.2313203379999
+                                        ],
+                                        [
+                                            146.253927369,
+                                            -31.231305951
+                                        ],
+                                        [
+                                            146.253982928,
+                                            -31.231306291
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -1001,29 +1165,6 @@
                                         ]
                                     ]
                                 ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            146.253982928,
-                                            -31.231306291
-                                        ],
-                                        [
-                                            146.253957935,
-                                            -31.2313203379999
-                                        ],
-                                        [
-                                            146.253927369,
-                                            -31.231305951
-                                        ],
-                                        [
-                                            146.253982928,
-                                            -31.231306291
-                                        ]
-                                    ]
-                                ]
                             }
                         ]
                     }
@@ -1066,30 +1207,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 110 Mount Vincent Road East Maitland <br />COUNCIL AREA: Maitland <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Dec 2022 21:49",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.41221300000007,
-                    -33.33691399999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Berkeley Rd, Fountaindale",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/478517",
-                "created": "2022-12-22T03:32:00+11:00",
-                "updated": "2022-12-22T14:32:00+11:00",
-                "location": "88 Berkeley Rd, Fountaindale, NSW 2258",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 88 Berkeley Rd, Fountaindale, NSW 2258 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Dec 2022 14:32",
-                "title": "incident: fire"
             }
         },
         {
@@ -1161,6 +1278,54 @@
                 "location": "Bourke",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bourke <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 22 Dec 2022 11:43",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.7189330000001,
+                    -31.63379299999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Homedale Rd, Kew",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/478524",
+                "created": "2022-12-22T03:56:00+11:00",
+                "updated": "2022-12-22T14:56:00+11:00",
+                "location": "18 Homedale Rd, Kew, NSW 2439",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 18 Homedale Rd, Kew, NSW 2439 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Dec 2022 14:56",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.81031900000005,
+                    -34.77257399999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hume Hwy, Bowning",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/478523",
+                "created": "2022-12-22T03:56:00+11:00",
+                "updated": "2022-12-22T14:56:00+11:00",
+                "location": "Hume Hwy, Bowning, NSW 2582",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Hwy, Bowning, NSW 2582 <br />COUNCIL AREA: Yass Valley <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Dec 2022 14:56",
                 "title": "incident: other"
             }
         },
@@ -1241,30 +1406,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.92622200000005,
-                    -32.93028799999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nevells Rd, Clandulla",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/478518",
-                "created": "2022-12-22T03:45:00+11:00",
-                "updated": "2022-12-22T14:45:00+11:00",
-                "location": "172 Nevells Rd, Clandulla, NSW 2848",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 172 Nevells Rd, Clandulla, NSW 2848 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Dec 2022 14:45",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     141.92207336400008,
                     -34.10299227599995
                 ]
@@ -1281,6 +1422,30 @@
                 "location": "Wentworth",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wentworth <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 21 Dec 2022 15:36",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.18558700000006,
+                    -32.50230499999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tinks Lane, Tomingley",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/478521",
+                "created": "2022-12-22T03:52:00+11:00",
+                "updated": "2022-12-22T14:52:00+11:00",
+                "location": "Tinks Lane, Tomingley, NSW 2869",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Tinks Lane, Tomingley, NSW 2869 <br />COUNCIL AREA: Narromine <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Dec 2022 14:52",
                 "title": "incident: other"
             }
         }
