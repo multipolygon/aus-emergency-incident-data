@@ -137,11 +137,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479032",
-                "created": "2022-12-27T12:50:00+11:00",
-                "updated": "2022-12-27T23:50:00+11:00",
+                "created": "2022-12-27T23:34:00+11:00",
+                "updated": "2022-12-28T10:34:00+11:00",
                 "location": "Tarcoon Byrock Rd, Byrock, NSW 2831",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Tarcoon Byrock Rd, Byrock, NSW 2831 <br />COUNCIL AREA: Brewarrina <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Dec 2022 23:50",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Tarcoon Byrock Rd, Byrock, NSW 2831 <br />COUNCIL AREA: Brewarrina <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 10:34",
                 "title": "incident: fire"
             }
         },
@@ -339,11 +339,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/478976",
-                "created": "2022-12-27T18:04:00+11:00",
-                "updated": "2022-12-28T05:04:00+11:00",
+                "created": "2022-12-27T23:44:00+11:00",
+                "updated": "2022-12-28T10:44:00+11:00",
                 "location": "Hill End Rd, Avisford, NSW 2850",
                 "size": 4,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Hill End Rd, Avisford, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 05:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Hill End Rd, Avisford, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 10:44",
                 "title": "incident: fire"
             }
         },
@@ -363,11 +363,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479018",
-                "created": "2022-12-27T18:05:00+11:00",
-                "updated": "2022-12-28T05:05:00+11:00",
+                "created": "2022-12-27T23:46:00+11:00",
+                "updated": "2022-12-28T10:46:00+11:00",
                 "location": "Hill End Rd, Grattai, NSW 2850",
                 "size": 3,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Hill End Rd, Grattai, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 05:05",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Hill End Rd, Grattai, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 10:46",
                 "title": "incident: fire"
             }
         },
@@ -728,10 +728,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.62190721000002,
-                    -33.72742889899996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.62453414000004,
+                            -33.717813500999966
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.624390603,
+                                            -33.7182727049999
+                                        ],
+                                        [
+                                            149.624200246,
+                                            -33.717868197
+                                        ],
+                                        [
+                                            149.624343013,
+                                            -33.717463688
+                                        ],
+                                        [
+                                            149.624759419,
+                                            -33.7174160979999
+                                        ],
+                                        [
+                                            149.625009263,
+                                            -33.7174160979999
+                                        ],
+                                        [
+                                            149.625342387,
+                                            -33.7177254279999
+                                        ],
+                                        [
+                                            149.625520846,
+                                            -33.718177527
+                                        ],
+                                        [
+                                            149.625294798,
+                                            -33.718463062
+                                        ],
+                                        [
+                                            149.625175825,
+                                            -33.718582034
+                                        ],
+                                        [
+                                            149.625009263,
+                                            -33.7183916769999
+                                        ],
+                                        [
+                                            149.624699933,
+                                            -33.718439267
+                                        ],
+                                        [
+                                            149.624390603,
+                                            -33.7182727049999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -769,36 +834,40 @@
                                 "coordinates": [
                                     [
                                         [
-                                            152.6133328,
-                                            -28.93818164
+                                            152.612439593,
+                                            -28.9426722589999
                                         ],
                                         [
-                                            152.614170599,
-                                            -28.937788395
+                                            152.613431508,
+                                            -28.9423678109999
                                         ],
                                         [
-                                            152.618080324,
-                                            -28.9381918559999
+                                            152.615675544,
+                                            -28.942956898
                                         ],
                                         [
-                                            152.618318434,
-                                            -28.939380789
+                                            152.618060439,
+                                            -28.942680169
                                         ],
                                         [
-                                            152.613741411,
-                                            -28.939632057
+                                            152.61834235,
+                                            -28.943600633
                                         ],
                                         [
-                                            152.612697839,
-                                            -28.939197954
+                                            152.612923369,
+                                            -28.943795162
                                         ],
                                         [
-                                            152.612242194,
-                                            -28.9388251349999
+                                            152.611687829,
+                                            -28.9434590819999
                                         ],
                                         [
-                                            152.6133328,
-                                            -28.93818164
+                                            152.611148367,
+                                            -28.943170449
+                                        ],
+                                        [
+                                            152.612439593,
+                                            -28.9426722589999
                                         ]
                                     ]
                                 ]
@@ -875,6 +944,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.54270000000008,
+                    -28.269708999999978
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cudgen Rd, Cudgen",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479070",
+                "created": "2022-12-27T23:46:00+11:00",
+                "updated": "2022-12-28T10:46:00+11:00",
+                "location": "529 Cudgen Rd, Cudgen, NSW 2487",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 529 Cudgen Rd, Cudgen, NSW 2487 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 10:46",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.13828000000012,
+                    -33.70368999999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Esk St, North Wahroonga",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479072",
+                "created": "2022-12-27T23:38:00+11:00",
+                "updated": "2022-12-28T10:38:00+11:00",
+                "location": "7 Esk St, North Wahroonga, NSW 2076",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 7 Esk St, North Wahroonga, NSW 2076 <br />COUNCIL AREA: Ku-Ring-Gai <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 10:38",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.5493980000001,
                     -33.27028299999995
                 ]
@@ -884,13 +1001,13 @@
                 "sourceTitle": "Evans Rd, Noraville",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479068",
-                "created": "2022-12-27T23:34:00+11:00",
-                "updated": "2022-12-28T10:34:00+11:00",
+                "created": "2022-12-27T23:48:00+11:00",
+                "updated": "2022-12-28T10:48:00+11:00",
                 "location": "Evans Rd, Noraville, NSW 2263",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Evans Rd, Noraville, NSW 2263 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Dec 2022 10:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Evans Rd, Noraville, NSW 2263 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Dec 2022 10:48",
                 "title": "incident: fire"
             }
         },
@@ -956,13 +1073,13 @@
                 "sourceTitle": "Kneales Lane, Weethalle",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479066",
-                "created": "2022-12-27T23:17:00+11:00",
-                "updated": "2022-12-28T10:17:00+11:00",
+                "created": "2022-12-27T23:45:00+11:00",
+                "updated": "2022-12-28T10:45:00+11:00",
                 "location": "411 Kneales Lane, Weethalle, NSW 2669",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 411 Kneales Lane, Weethalle, NSW 2669 <br />COUNCIL AREA: Bland <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 10:17",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 411 Kneales Lane, Weethalle, NSW 2669 <br />COUNCIL AREA: Bland <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 10:45",
                 "title": "incident: fire"
             }
         },
@@ -1036,6 +1153,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mount Grace Rd, Euabalong, NSW 2877 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 04:59",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.96462200000008,
+                    -30.69544500099994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, North Macksville",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479071",
+                "created": "2022-12-27T23:38:00+11:00",
+                "updated": "2022-12-28T10:38:00+11:00",
+                "location": "5755 Pacific Hwy, North Macksville, NSW 2447",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5755 Pacific Hwy, North Macksville, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2022 10:38",
+                "title": "incident: other"
             }
         },
         {
