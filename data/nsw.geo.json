@@ -135,13 +135,13 @@
                 "sourceTitle": "Castlereagh Hwy, Walgett",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479289",
-                "created": "2022-12-30T03:32:00+11:00",
-                "updated": "2022-12-30T14:32:00+11:00",
+                "created": "2022-12-30T04:40:00+11:00",
+                "updated": "2022-12-30T15:40:00+11:00",
                 "location": "Castlereagh Hwy, Walgett, NSW 2832",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Castlereagh Hwy, Walgett, NSW 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 14:32",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Castlereagh Hwy, Walgett, NSW 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 15:40",
                 "title": "incident: fire"
             }
         },
@@ -1287,32 +1287,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.23454200000003,
-                    -33.47550499999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Greghamstown Rd, Blayney",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479265",
-                "created": "2022-12-30T01:14:00+11:00",
-                "updated": "2022-12-30T12:14:00+11:00",
-                "location": "505 Greghamstown Rd, Blayney, NSW 2799",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 505 Greghamstown Rd, Blayney, NSW 2799 <br />COUNCIL AREA: Blayney <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 12:14",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.59756800000002,
-                    -34.507956999999976
+                    143.61231995100002,
+                    -34.46382490399998
                 ]
             },
             "properties": {
@@ -1785,11 +1761,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479202",
-                "created": "2022-12-29T22:23:00+11:00",
-                "updated": "2022-12-30T09:23:00+11:00",
+                "created": "2022-12-30T04:55:00+11:00",
+                "updated": "2022-12-30T15:55:00+11:00",
                 "location": "Old Glen Innes Rd, Dalmorton, NSW 2460",
-                "size": 67,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Old Glen Innes Rd, Dalmorton, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 67 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 09:23",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Old Glen Innes Rd, Dalmorton, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 15:55",
                 "title": "incident: fire"
             }
         },
@@ -2193,10 +2169,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.24623870100004,
-                    -32.36360730499996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.24623870100004,
+                            -32.36360730499996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.250947126,
+                                            -32.3669539539999
+                                        ],
+                                        [
+                                            151.250340363,
+                                            -32.366775495
+                                        ],
+                                        [
+                                            151.248805611,
+                                            -32.367025338
+                                        ],
+                                        [
+                                            151.248579562,
+                                            -32.3667041099999
+                                        ],
+                                        [
+                                            151.248401103,
+                                            -32.366668419
+                                        ],
+                                        [
+                                            151.248401103,
+                                            -32.3652883309999
+                                        ],
+                                        [
+                                            151.251732348,
+                                            -32.3648719249999
+                                        ],
+                                        [
+                                            151.250947126,
+                                            -32.3669539539999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2315,6 +2340,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.88578500000006,
+                    -33.71035599999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mid Western Hwy, Woodstock",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479299",
+                "created": "2022-12-30T04:50:00+11:00",
+                "updated": "2022-12-30T15:50:00+11:00",
+                "location": "8150 Mid Western Hwy, Woodstock, NSW 2793",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8150 Mid Western Hwy, Woodstock, NSW 2793 <br />COUNCIL AREA: Cowra <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 15:50",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     147.81943400000011,
                     -34.29726699999998
                 ]
@@ -2331,30 +2380,6 @@
                 "location": "4822 Milvale Rd, Milvale, NSW 2594",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4822 Milvale Rd, Milvale, NSW 2594 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 04:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.94852300000002,
-                    -30.082795999999973
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Moculta St, Bourke",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479283",
-                "created": "2022-12-30T04:30:00+11:00",
-                "updated": "2022-12-30T15:30:00+11:00",
-                "location": "Moculta St, Bourke, NSW 2840",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Moculta St, Bourke, NSW 2840 <br />COUNCIL AREA: Bourke <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Dec 2022 15:30",
                 "title": "incident: fire"
             }
         },
@@ -2387,22 +2412,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.91786300100011,
-                    -33.73834299999993
+                    150.84304900000006,
+                    -34.696035999999935
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mtwy, Acacia Gardens",
+                "sourceTitle": "Princes Hwy, Kiama Heights",
                 "category": "other",
                 "subcategory": "mva/transport",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479297",
-                "created": "2022-12-30T04:26:00+11:00",
-                "updated": "2022-12-30T15:26:00+11:00",
-                "location": "Westlink M7 Mtwy, Acacia Gardens, NSW 2763",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479292",
+                "created": "2022-12-30T03:52:00+11:00",
+                "updated": "2022-12-30T14:52:00+11:00",
+                "location": "Princes Hwy, Kiama Heights, NSW 2533",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Westlink M7 Mtwy, Acacia Gardens, NSW 2763 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Dec 2022 15:26",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Princes Hwy, Kiama Heights, NSW 2533 <br />COUNCIL AREA: Kiama <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Dec 2022 14:52",
                 "title": "incident: other"
             }
         },
@@ -2411,23 +2436,47 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.63182100000006,
-                    -35.056247998999936
+                    150.15385200000003,
+                    -35.76258399999995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Port Jervis Rd, Worrowing Heights",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479288",
-                "created": "2022-12-30T04:01:00+11:00",
-                "updated": "2022-12-30T15:01:00+11:00",
-                "location": "Port Jervis Rd, Worrowing Heights, NSW 2540",
+                "sourceTitle": "Princes Hwy, Mogo",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479301",
+                "created": "2022-12-30T04:54:00+11:00",
+                "updated": "2022-12-30T15:54:00+11:00",
+                "location": "Princes Hwy, Mogo, NSW 2536",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Port Jervis Rd, Worrowing Heights, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 15:01",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Princes Hwy, Mogo, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 15:54",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.99137500000006,
+                    -35.77448800099995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Saleyards Rd, Tumbarumba",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479298",
+                "created": "2022-12-30T04:46:00+11:00",
+                "updated": "2022-12-30T15:46:00+11:00",
+                "location": "Saleyards Rd, Tumbarumba, NSW 2653",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Saleyards Rd, Tumbarumba, NSW 2653 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 15:46",
+                "title": "incident: fire"
             }
         },
         {
@@ -2492,13 +2541,13 @@
                 "sourceTitle": "Tathra Bermagui Rd, Wapengo",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479290",
-                "created": "2022-12-30T03:36:00+11:00",
-                "updated": "2022-12-30T14:36:00+11:00",
+                "created": "2022-12-30T04:54:00+11:00",
+                "updated": "2022-12-30T15:54:00+11:00",
                 "location": "Tathra Bermagui Rd, Wapengo,  2550",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Tathra Bermagui Rd, Wapengo,  2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 14:36",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Tathra Bermagui Rd, Wapengo,  2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Dec 2022 15:54",
                 "title": "incident: other"
             }
         },
