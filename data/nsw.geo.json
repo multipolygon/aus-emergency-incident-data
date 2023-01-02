@@ -1528,10 +1528,131 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.32606983300002,
-                    -31.374213932999965
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.32606983300002,
+                            -31.374213932999965
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.325570268,
+                                            -31.375310305
+                                        ],
+                                        [
+                                            152.325546473,
+                                            -31.37492959
+                                        ],
+                                        [
+                                            152.32573683,
+                                            -31.3742157529999
+                                        ],
+                                        [
+                                            152.325879598,
+                                            -31.373727963
+                                        ],
+                                        [
+                                            152.325879598,
+                                            -31.3729308429999
+                                        ],
+                                        [
+                                            152.326319798,
+                                            -31.37285946
+                                        ],
+                                        [
+                                            152.326510155,
+                                            -31.372871357
+                                        ],
+                                        [
+                                            152.326617231,
+                                            -31.372454951
+                                        ],
+                                        [
+                                            152.326391183,
+                                            -31.3721813139999
+                                        ],
+                                        [
+                                            152.325820112,
+                                            -31.371943367
+                                        ],
+                                        [
+                                            152.325808215,
+                                            -31.3718719829999
+                                        ],
+                                        [
+                                            152.326676718,
+                                            -31.371979059
+                                        ],
+                                        [
+                                            152.327509529,
+                                            -31.372217005
+                                        ],
+                                        [
+                                            152.328306648,
+                                            -31.3727404869999
+                                        ],
+                                        [
+                                            152.328794438,
+                                            -31.373049817
+                                        ],
+                                        [
+                                            152.329091871,
+                                            -31.373501914
+                                        ],
+                                        [
+                                            152.329377406,
+                                            -31.374120574
+                                        ],
+                                        [
+                                            152.329543968,
+                                            -31.374608364
+                                        ],
+                                        [
+                                            152.329591558,
+                                            -31.375583943
+                                        ],
+                                        [
+                                            152.329175152,
+                                            -31.375952759
+                                        ],
+                                        [
+                                            152.328592184,
+                                            -31.3761074239999
+                                        ],
+                                        [
+                                            152.327699885,
+                                            -31.37603604
+                                        ],
+                                        [
+                                            152.32666482,
+                                            -31.375905169
+                                        ],
+                                        [
+                                            152.325855803,
+                                            -31.375643429
+                                        ],
+                                        [
+                                            152.325629754,
+                                            -31.375464969
+                                        ],
+                                        [
+                                            152.325570268,
+                                            -31.375310305
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2124,6 +2245,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.55212800000004,
+                    -28.88161299999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Ballina Beach Rd, South Ballina",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479683",
+                "created": "2023-01-02T09:22:00+11:00",
+                "updated": "2023-01-02T20:22:00+11:00",
+                "location": "South Ballina Beach Rd, South Ballina, NSW 2478",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: South Ballina Beach Rd, South Ballina, NSW 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jan 2023 20:22",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2386,46 +2531,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.58582,
-                    -31.956436999999937
+                    145.9325970000001,
+                    -30.090777999999943
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Coronation St, Old Bar",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479672",
-                "created": "2023-01-02T08:27:00+11:00",
-                "updated": "2023-01-02T19:27:00+11:00",
-                "location": "6 Coronation St, Old Bar, NSW 2430",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6 Coronation St, Old Bar, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jan 2023 19:27",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.00367100000005,
-                    -33.855395999999985
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eve St, Guildford",
+                "sourceTitle": "Charles St, Bourke",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479678",
-                "created": "2023-01-02T09:10:00+11:00",
-                "updated": "2023-01-02T20:10:00+11:00",
-                "location": "52 Eve St, Guildford, NSW 2161",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/479682",
+                "created": "2023-01-02T09:22:00+11:00",
+                "updated": "2023-01-02T20:22:00+11:00",
+                "location": "Charles St, Bourke, NSW 2840",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 52 Eve St, Guildford, NSW 2161 <br />COUNCIL AREA: Cumberland <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 2 Jan 2023 20:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Charles St, Bourke, NSW 2840 <br />COUNCIL AREA: Bourke <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 2 Jan 2023 20:22",
                 "title": "incident: fire"
             }
         },
