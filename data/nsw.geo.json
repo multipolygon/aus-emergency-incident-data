@@ -2120,10 +2120,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.19144725800004,
-                    -32.691651612999976
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.19144725800004,
+                            -32.691651612999976
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.190676834,
+                                            -32.693527053
+                                        ],
+                                        [
+                                            148.191033754,
+                                            -32.690838261
+                                        ],
+                                        [
+                                            148.192092614,
+                                            -32.6909572339999
+                                        ],
+                                        [
+                                            148.191902258,
+                                            -32.6936579219999
+                                        ],
+                                        [
+                                            148.190676834,
+                                            -32.693550848
+                                        ],
+                                        [
+                                            148.190676834,
+                                            -32.693527053
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2133,11 +2174,35 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480616",
-                "created": "2023-01-12T18:13:00+11:00",
-                "updated": "2023-01-13T05:13:00+11:00",
+                "created": "2023-01-12T19:40:00+11:00",
+                "updated": "2023-01-13T06:40:00+11:00",
                 "location": "Newell Highway, Peak Hill, NSW 2869",
                 "size": 3,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Newell Highway, Peak Hill, NSW 2869 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2023 05:13",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Newell Highway, Peak Hill, NSW 2869 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2023 06:40",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.1969160000001,
+                    -32.462497998999936
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, Bulahdelah",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480669",
+                "created": "2023-01-12T19:44:00+11:00",
+                "updated": "2023-01-13T06:44:00+11:00",
+                "location": "Pacific Hwy, Bulahdelah, NSW 2423",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Pacific Hwy, Bulahdelah, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2023 06:44",
                 "title": "incident: fire"
             }
         },
@@ -2185,72 +2250,88 @@
                                 "coordinates": [
                                     [
                                         [
-                                            146.052627394,
-                                            -34.26520148
+                                            146.052542649,
+                                            -34.2652032619999
                                         ],
                                         [
-                                            146.053187445,
-                                            -34.265259407
+                                            146.052335461,
+                                            -34.2657447889999
                                         ],
                                         [
-                                            146.053194665,
-                                            -34.265256478
+                                            146.05223516,
+                                            -34.265714193
                                         ],
                                         [
-                                            146.053102375,
-                                            -34.2654795829999
+                                            146.052145379,
+                                            -34.265707549
                                         ],
                                         [
-                                            146.053085949,
-                                            -34.265667451
+                                            146.051933602,
+                                            -34.265682082
                                         ],
                                         [
-                                            146.053038935,
-                                            -34.265693954
+                                            146.051911452,
+                                            -34.265735627
                                         ],
                                         [
-                                            146.052986894,
-                                            -34.265851714
+                                            146.051814223,
+                                            -34.2657527979999
                                         ],
                                         [
-                                            146.052845528,
-                                            -34.265961057
+                                            146.051749762,
+                                            -34.265731424
                                         ],
                                         [
-                                            146.052751535,
-                                            -34.266011077
+                                            146.051703336,
+                                            -34.2657042179999
                                         ],
                                         [
-                                            146.052696844,
-                                            -34.266082282
+                                            146.051704119,
+                                            -34.265632608
                                         ],
                                         [
-                                            146.052678092,
-                                            -34.266153757
+                                            146.051740612,
+                                            -34.2655821559999
                                         ],
                                         [
-                                            146.052612653,
-                                            -34.2662218959999
+                                            146.051777171,
+                                            -34.265525735
                                         ],
                                         [
-                                            146.052374376,
-                                            -34.265990334
+                                            146.051810232,
+                                            -34.2654603359999
                                         ],
                                         [
-                                            146.052364734,
-                                            -34.265885822
+                                            146.051800593,
+                                            -34.265355824
                                         ],
                                         [
-                                            146.052420501,
-                                            -34.265716154
+                                            146.051830093,
+                                            -34.2652874139999
                                         ],
                                         [
-                                            146.052538991,
-                                            -34.2653977589999
+                                            146.051801898,
+                                            -34.265236473
                                         ],
                                         [
-                                            146.052627394,
-                                            -34.26520148
+                                            146.051740933,
+                                            -34.265224078
+                                        ],
+                                        [
+                                            146.051709371,
+                                            -34.265152224
+                                        ],
+                                        [
+                                            146.051781738,
+                                            -34.265108009
+                                        ],
+                                        [
+                                            146.051975476,
+                                            -34.2651393099999
+                                        ],
+                                        [
+                                            146.052542649,
+                                            -34.2652032619999
                                         ]
                                     ]
                                 ]
@@ -2370,97 +2451,6 @@
                                         [
                                             146.050470726,
                                             -34.274784299
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            146.052542649,
-                                            -34.2652032619999
-                                        ],
-                                        [
-                                            146.052335461,
-                                            -34.2657447889999
-                                        ],
-                                        [
-                                            146.05223516,
-                                            -34.265714193
-                                        ],
-                                        [
-                                            146.052145379,
-                                            -34.265707549
-                                        ],
-                                        [
-                                            146.051933602,
-                                            -34.265682082
-                                        ],
-                                        [
-                                            146.051911452,
-                                            -34.265735627
-                                        ],
-                                        [
-                                            146.051814223,
-                                            -34.2657527979999
-                                        ],
-                                        [
-                                            146.051749762,
-                                            -34.265731424
-                                        ],
-                                        [
-                                            146.051703336,
-                                            -34.2657042179999
-                                        ],
-                                        [
-                                            146.051704119,
-                                            -34.265632608
-                                        ],
-                                        [
-                                            146.051740612,
-                                            -34.2655821559999
-                                        ],
-                                        [
-                                            146.051777171,
-                                            -34.265525735
-                                        ],
-                                        [
-                                            146.051810232,
-                                            -34.2654603359999
-                                        ],
-                                        [
-                                            146.051800593,
-                                            -34.265355824
-                                        ],
-                                        [
-                                            146.051830093,
-                                            -34.2652874139999
-                                        ],
-                                        [
-                                            146.051801898,
-                                            -34.265236473
-                                        ],
-                                        [
-                                            146.051740933,
-                                            -34.265224078
-                                        ],
-                                        [
-                                            146.051709371,
-                                            -34.265152224
-                                        ],
-                                        [
-                                            146.051781738,
-                                            -34.265108009
-                                        ],
-                                        [
-                                            146.051975476,
-                                            -34.2651393099999
-                                        ],
-                                        [
-                                            146.052542649,
-                                            -34.2652032619999
                                         ]
                                     ]
                                 ]
@@ -2616,6 +2606,81 @@
                                         [
                                             146.057560449,
                                             -34.2649715479999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.052627394,
+                                            -34.26520148
+                                        ],
+                                        [
+                                            146.053187445,
+                                            -34.265259407
+                                        ],
+                                        [
+                                            146.053194665,
+                                            -34.265256478
+                                        ],
+                                        [
+                                            146.053102375,
+                                            -34.2654795829999
+                                        ],
+                                        [
+                                            146.053085949,
+                                            -34.265667451
+                                        ],
+                                        [
+                                            146.053038935,
+                                            -34.265693954
+                                        ],
+                                        [
+                                            146.052986894,
+                                            -34.265851714
+                                        ],
+                                        [
+                                            146.052845528,
+                                            -34.265961057
+                                        ],
+                                        [
+                                            146.052751535,
+                                            -34.266011077
+                                        ],
+                                        [
+                                            146.052696844,
+                                            -34.266082282
+                                        ],
+                                        [
+                                            146.052678092,
+                                            -34.266153757
+                                        ],
+                                        [
+                                            146.052612653,
+                                            -34.2662218959999
+                                        ],
+                                        [
+                                            146.052374376,
+                                            -34.265990334
+                                        ],
+                                        [
+                                            146.052364734,
+                                            -34.265885822
+                                        ],
+                                        [
+                                            146.052420501,
+                                            -34.265716154
+                                        ],
+                                        [
+                                            146.052538991,
+                                            -34.2653977589999
+                                        ],
+                                        [
+                                            146.052627394,
+                                            -34.26520148
                                         ]
                                     ]
                                 ]
@@ -3034,33 +3099,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.553636685,
-                                            -30.403143026
-                                        ],
-                                        [
-                                            149.553640337,
-                                            -30.403163277
-                                        ],
-                                        [
-                                            149.552424301,
-                                            -30.4010585779999
-                                        ],
-                                        [
-                                            149.55302653,
-                                            -30.401914006
-                                        ],
-                                        [
-                                            149.553636685,
-                                            -30.403143026
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             149.556737156,
                                             -30.3964002619999
                                         ],
@@ -3327,6 +3365,33 @@
                                         [
                                             149.556737156,
                                             -30.3964002619999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.553636685,
+                                            -30.403143026
+                                        ],
+                                        [
+                                            149.553640337,
+                                            -30.403163277
+                                        ],
+                                        [
+                                            149.552424301,
+                                            -30.4010585779999
+                                        ],
+                                        [
+                                            149.55302653,
+                                            -30.401914006
+                                        ],
+                                        [
+                                            149.553636685,
+                                            -30.403143026
                                         ]
                                     ]
                                 ]
@@ -5651,13 +5716,13 @@
                 "sourceTitle": "Castlereagh Hwy, Cullen Bullen",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480668",
-                "created": "2023-01-12T19:24:00+11:00",
-                "updated": "2023-01-13T06:24:00+11:00",
+                "created": "2023-01-12T19:42:00+11:00",
+                "updated": "2023-01-13T06:42:00+11:00",
                 "location": "Castlereagh Hwy, Cullen Bullen, NSW 2790",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Castlereagh Hwy, Cullen Bullen, NSW 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2023 06:24",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Castlereagh Hwy, Cullen Bullen, NSW 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Being controlled <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2023 06:42",
                 "title": "incident: fire"
             }
         },
@@ -5771,13 +5836,13 @@
                 "sourceTitle": "New England Hwy Belford",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480664",
-                "created": "2023-01-12T18:24:00+11:00",
-                "updated": "2023-01-13T05:24:00+11:00",
+                "created": "2023-01-12T19:36:00+11:00",
+                "updated": "2023-01-13T06:36:00+11:00",
                 "location": "New England Hwy (A15), Belford, NSW 2335",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Hwy (A15), Belford, NSW 2335 <br />COUNCIL AREA: Singleton <br />STATUS: Being controlled <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2023 05:24",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Hwy (A15), Belford, NSW 2335 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2023 06:36",
                 "title": "incident: fire"
             }
         },
