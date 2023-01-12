@@ -575,10 +575,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.81648778900012,
-                    -32.757162034999965
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.81648778900012,
+                            -32.757162034999965
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.816150543,
+                                            -32.753239933
+                                        ],
+                                        [
+                                            148.819553172,
+                                            -32.755857341
+                                        ],
+                                        [
+                                            148.81660264,
+                                            -32.7600213979999
+                                        ],
+                                        [
+                                            148.812176843,
+                                            -32.758665105
+                                        ],
+                                        [
+                                            148.816150543,
+                                            -32.753239933
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2060,11 +2097,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480616",
-                "created": "2023-01-12T07:52:00+11:00",
-                "updated": "2023-01-12T18:52:00+11:00",
+                "created": "2023-01-12T09:19:00+11:00",
+                "updated": "2023-01-12T20:19:00+11:00",
                 "location": "Newell Highway, Peak Hill, NSW 2869",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Newell Highway, Peak Hill, NSW 2869 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 18:52",
+                "size": 3,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Newell Highway, Peak Hill, NSW 2869 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 20:19",
                 "title": "incident: fire"
             }
         },
@@ -2231,81 +2268,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            146.052627394,
-                                            -34.26520148
-                                        ],
-                                        [
-                                            146.053187445,
-                                            -34.265259407
-                                        ],
-                                        [
-                                            146.053194665,
-                                            -34.265256478
-                                        ],
-                                        [
-                                            146.053102375,
-                                            -34.2654795829999
-                                        ],
-                                        [
-                                            146.053085949,
-                                            -34.265667451
-                                        ],
-                                        [
-                                            146.053038935,
-                                            -34.265693954
-                                        ],
-                                        [
-                                            146.052986894,
-                                            -34.265851714
-                                        ],
-                                        [
-                                            146.052845528,
-                                            -34.265961057
-                                        ],
-                                        [
-                                            146.052751535,
-                                            -34.266011077
-                                        ],
-                                        [
-                                            146.052696844,
-                                            -34.266082282
-                                        ],
-                                        [
-                                            146.052678092,
-                                            -34.266153757
-                                        ],
-                                        [
-                                            146.052612653,
-                                            -34.2662218959999
-                                        ],
-                                        [
-                                            146.052374376,
-                                            -34.265990334
-                                        ],
-                                        [
-                                            146.052364734,
-                                            -34.265885822
-                                        ],
-                                        [
-                                            146.052420501,
-                                            -34.265716154
-                                        ],
-                                        [
-                                            146.052538991,
-                                            -34.2653977589999
-                                        ],
-                                        [
-                                            146.052627394,
-                                            -34.26520148
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             146.057560449,
                                             -34.2649715479999
                                         ],
@@ -2452,6 +2414,81 @@
                                         [
                                             146.057560449,
                                             -34.2649715479999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.052627394,
+                                            -34.26520148
+                                        ],
+                                        [
+                                            146.053187445,
+                                            -34.265259407
+                                        ],
+                                        [
+                                            146.053194665,
+                                            -34.265256478
+                                        ],
+                                        [
+                                            146.053102375,
+                                            -34.2654795829999
+                                        ],
+                                        [
+                                            146.053085949,
+                                            -34.265667451
+                                        ],
+                                        [
+                                            146.053038935,
+                                            -34.265693954
+                                        ],
+                                        [
+                                            146.052986894,
+                                            -34.265851714
+                                        ],
+                                        [
+                                            146.052845528,
+                                            -34.265961057
+                                        ],
+                                        [
+                                            146.052751535,
+                                            -34.266011077
+                                        ],
+                                        [
+                                            146.052696844,
+                                            -34.266082282
+                                        ],
+                                        [
+                                            146.052678092,
+                                            -34.266153757
+                                        ],
+                                        [
+                                            146.052612653,
+                                            -34.2662218959999
+                                        ],
+                                        [
+                                            146.052374376,
+                                            -34.265990334
+                                        ],
+                                        [
+                                            146.052364734,
+                                            -34.265885822
+                                        ],
+                                        [
+                                            146.052420501,
+                                            -34.265716154
+                                        ],
+                                        [
+                                            146.052538991,
+                                            -34.2653977589999
+                                        ],
+                                        [
+                                            146.052627394,
+                                            -34.26520148
                                         ]
                                     ]
                                 ]
@@ -2955,37 +2992,13 @@
                 "sourceTitle": "River Rd, Jingellic",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480630",
-                "created": "2023-01-12T08:04:00+11:00",
-                "updated": "2023-01-12T19:04:00+11:00",
+                "created": "2023-01-12T09:20:00+11:00",
+                "updated": "2023-01-12T20:20:00+11:00",
                 "location": "3173 River Rd, Jingellic, NSW 2642",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 3173 River Rd, Jingellic, NSW 2642 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 19:04",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.45861000000002,
-                    -32.815759999999955
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Scott St, Weston",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480631",
-                "created": "2023-01-12T08:36:00+11:00",
-                "updated": "2023-01-12T19:36:00+11:00",
-                "location": "Scott St, Weston, NSW 2326",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Scott St, Weston, NSW 2326 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 Jan 2023 19:36",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 3173 River Rd, Jingellic, NSW 2642 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 20:20",
                 "title": "incident: fire"
             }
         },
@@ -4738,13 +4751,37 @@
                 "sourceTitle": "Tonderburine-Tooraweenah Rd, Tonderburine",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480632",
-                "created": "2023-01-12T08:22:00+11:00",
-                "updated": "2023-01-12T19:22:00+11:00",
+                "created": "2023-01-12T09:18:00+11:00",
+                "updated": "2023-01-12T20:18:00+11:00",
                 "location": "Tonderburine-Tooraweenah Rd, Tonderburine, NSW 2828",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Tonderburine-Tooraweenah Rd, Tonderburine, NSW 2828 <br />COUNCIL AREA: Gilgandra <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 20:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.43537803900006,
+                    -32.531106173999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Upper Piambong Rd, Piambong",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480634",
+                "created": "2023-01-12T09:22:00+11:00",
+                "updated": "2023-01-12T20:22:00+11:00",
+                "location": "724 Upper Piambong Rd, Piambong, NSW 2850",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Tonderburine-Tooraweenah Rd, Tonderburine, NSW 2828 <br />COUNCIL AREA: Gilgandra <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 19:22",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 724 Upper Piambong Rd, Piambong, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 20:22",
                 "title": "incident: fire"
             }
         },
@@ -5335,30 +5372,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.62093400000003,
-                    -34.90211799999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Basil St, Worrigee",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480638",
-                "created": "2023-01-12T09:10:00+11:00",
-                "updated": "2023-01-12T20:10:00+11:00",
-                "location": "Basil St, Worrigee, NSW 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Basil St, Worrigee, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 Jan 2023 20:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.22210500000006,
                     -35.20599099899994
                 ]
@@ -5471,6 +5484,30 @@
                 "location": "Middle Head Rd, Mosman, NSW 2088",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Middle Head Rd, Mosman, NSW 2088 <br />COUNCIL AREA: Mosman <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 Jan 2023 18:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.81974800000012,
+                    -31.09301499999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Middleton St, South Kempsey",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480642",
+                "created": "2023-01-12T09:26:00+11:00",
+                "updated": "2023-01-12T20:26:00+11:00",
+                "location": "Middleton St, South Kempsey, NSW 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Middleton St, South Kempsey, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 Jan 2023 20:26",
                 "title": "incident: fire"
             }
         },
@@ -5599,30 +5636,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.43537803900006,
-                    -32.531106173999945
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Upper Piambong Rd, Piambong",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480634",
-                "created": "2023-01-12T08:26:00+11:00",
-                "updated": "2023-01-12T19:26:00+11:00",
-                "location": "724 Upper Piambong Rd, Piambong, NSW 2850",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 724 Upper Piambong Rd, Piambong, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 19:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.70548200000007,
                     -32.50630599999994
                 ]
@@ -5632,13 +5645,13 @@
                 "sourceTitle": "Wollar Rd, Cross Roads",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480635",
-                "created": "2023-01-12T08:44:00+11:00",
-                "updated": "2023-01-12T19:44:00+11:00",
+                "created": "2023-01-12T09:22:00+11:00",
+                "updated": "2023-01-12T20:22:00+11:00",
                 "location": "Wollar Rd, Cross Roads, NSW 2850",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wollar Rd, Cross Roads, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 19:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wollar Rd, Cross Roads, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2023 20:22",
                 "title": "incident: fire"
             }
         }
