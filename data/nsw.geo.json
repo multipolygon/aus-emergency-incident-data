@@ -1186,10 +1186,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.9664160000001,
-                    -33.449746999999945
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.9664160000001,
+                            -33.449746999999945
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.961597053,
+                                            -33.4510659269999
+                                        ],
+                                        [
+                                            147.961977767,
+                                            -33.449162357
+                                        ],
+                                        [
+                                            147.966415463,
+                                            -33.4497572229999
+                                        ],
+                                        [
+                                            147.96637977,
+                                            -33.4498761959999
+                                        ],
+                                        [
+                                            147.965796802,
+                                            -33.449840504
+                                        ],
+                                        [
+                                            147.965261424,
+                                            -33.44994758
+                                        ],
+                                        [
+                                            147.961585156,
+                                            -33.451089721
+                                        ],
+                                        [
+                                            147.961597053,
+                                            -33.4510659269999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3067,11 +3116,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480745",
-                "created": "2023-01-13T13:17:00+11:00",
-                "updated": "2023-01-14T00:17:00+11:00",
+                "created": "2023-01-13T20:34:00+11:00",
+                "updated": "2023-01-14T07:34:00+11:00",
                 "location": "Newell Hwy, Tomingley, NSW 2869",
                 "size": 4,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Newell Hwy, Tomingley, NSW 2869 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 00:17",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Newell Hwy, Tomingley, NSW 2869 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 07:34",
                 "title": "incident: fire"
             }
         },
@@ -3357,11 +3406,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480688",
-                "created": "2023-01-13T09:52:00+11:00",
-                "updated": "2023-01-13T20:52:00+11:00",
+                "created": "2023-01-13T20:41:00+11:00",
+                "updated": "2023-01-14T07:41:00+11:00",
                 "location": "1550 Rockies Rd, Euchareena, NSW 2866",
                 "size": 4,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1550 Rockies Rd, Euchareena, NSW 2866 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2023 20:52",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1550 Rockies Rd, Euchareena, NSW 2866 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 07:41",
                 "title": "incident: fire"
             }
         },
@@ -4204,6 +4253,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.81316400000003,
+                    -34.77085999999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Burke Pde, Gerroa",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480805",
+                "created": "2023-01-13T20:28:00+11:00",
+                "updated": "2023-01-14T07:28:00+11:00",
+                "location": "13 Burke Pde, Gerroa, NSW 2534",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 Burke Pde, Gerroa, NSW 2534 <br />COUNCIL AREA: Kiama <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 07:28",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     147.66284678800002,
                     -34.03402867699998
                 ]
@@ -4239,11 +4312,11 @@
                 "subcategory": "haystack fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480748",
-                "created": "2023-01-13T19:45:00+11:00",
-                "updated": "2023-01-14T06:45:00+11:00",
+                "created": "2023-01-13T20:38:00+11:00",
+                "updated": "2023-01-14T07:38:00+11:00",
                 "location": "Ceres Siding Rd, Narromine, NSW 2821",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ceres Siding Rd, Narromine, NSW 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 06:45",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ceres Siding Rd, Narromine, NSW 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 07:38",
                 "title": "incident: fire"
             }
         },
