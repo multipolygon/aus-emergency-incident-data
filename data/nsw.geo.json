@@ -1488,10 +1488,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.14489000000003,
-                    -33.072048999999936
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.14385692300004,
+                            -33.07051653599996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.143773646,
+                                            -33.070001287
+                                        ],
+                                        [
+                                            147.145535361,
+                                            -33.071020797
+                                        ],
+                                        [
+                                            147.144354639,
+                                            -33.0713884909999
+                                        ],
+                                        [
+                                            147.143136433,
+                                            -33.070836952
+                                        ],
+                                        [
+                                            147.143773646,
+                                            -33.070001287
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1501,11 +1538,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480942",
-                "created": "2023-01-14T20:31:00+11:00",
-                "updated": "2023-01-15T07:31:00+11:00",
+                "created": "2023-01-14T20:45:00+11:00",
+                "updated": "2023-01-15T07:45:00+11:00",
                 "location": "7 Galari Cct, Condobolin, NSW 2877",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 7 Galari Cct, Condobolin, NSW 2877 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2023 07:31",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 7 Galari Cct, Condobolin, NSW 2877 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2023 07:45",
                 "title": "incident: fire"
             }
         },
@@ -5088,13 +5125,13 @@
                 "sourceTitle": "Alpine Way, Jindabyne",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480943",
-                "created": "2023-01-14T20:34:00+11:00",
-                "updated": "2023-01-15T07:34:00+11:00",
+                "created": "2023-01-14T20:44:00+11:00",
+                "updated": "2023-01-15T07:44:00+11:00",
                 "location": "Alpine Way, Jindabyne, NSW 2627",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Alpine Way, Jindabyne, NSW 2627 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Jan 2023 07:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Alpine Way, Jindabyne, NSW 2627 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Jan 2023 07:44",
                 "title": "incident: other"
             }
         },
