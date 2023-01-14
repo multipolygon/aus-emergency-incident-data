@@ -285,10 +285,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.94219493800006,
-                    -29.09839452799997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.94198595400007,
+                            -29.098098610999955
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.941105554,
+                                            -29.095647766
+                                        ],
+                                        [
+                                            147.945614631,
+                                            -29.0944580359999
+                                        ],
+                                        [
+                                            147.946947129,
+                                            -29.094124912
+                                        ],
+                                        [
+                                            147.94733974,
+                                            -29.09466029
+                                        ],
+                                        [
+                                            147.946875746,
+                                            -29.095552588
+                                        ],
+                                        [
+                                            147.944579566,
+                                            -29.0969326759999
+                                        ],
+                                        [
+                                            147.941962159,
+                                            -29.097813076
+                                        ],
+                                        [
+                                            147.941105554,
+                                            -29.095647766
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -303,6 +352,30 @@
                 "location": "New Angledool",
                 "size": 5,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: New Angledool <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 16:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.12970400000006,
+                    -32.60159799999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Baden Park Rd, Ivanhoe",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480893",
+                "created": "2023-01-14T07:04:00+11:00",
+                "updated": "2023-01-14T18:04:00+11:00",
+                "location": "Baden Park Rd, Ivanhoe, NSW 2878",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Baden Park Rd, Ivanhoe, NSW 2878 <br />COUNCIL AREA: Central Darling <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 18:04",
                 "title": "incident: fire"
             }
         },
@@ -1471,10 +1544,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.17045078500007,
-                    -33.878866509999966
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.17313957200008,
+                            -33.88027038399997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.172497117,
+                                            -33.8798658759999
+                                        ],
+                                        [
+                                            149.173734438,
+                                            -33.8801752059999
+                                        ],
+                                        [
+                                            149.173401313,
+                                            -33.88112699
+                                        ],
+                                        [
+                                            149.172711269,
+                                            -33.8811745799999
+                                        ],
+                                        [
+                                            149.172211582,
+                                            -33.8805321249999
+                                        ],
+                                        [
+                                            149.172497117,
+                                            -33.8798658759999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1596,10 +1710,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.3053960000001,
-                    -33.86281699999995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.31368290500006,
+                            -33.864656416999935
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.312279022,
+                                            -33.8647278
+                                        ],
+                                        [
+                                            149.312469379,
+                                            -33.864085346
+                                        ],
+                                        [
+                                            149.31361152,
+                                            -33.864109141
+                                        ],
+                                        [
+                                            149.313563931,
+                                            -33.8651561039999
+                                        ],
+                                        [
+                                            149.312945271,
+                                            -33.8651561039999
+                                        ],
+                                        [
+                                            149.312279022,
+                                            -33.8647278
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1980,30 +2135,6 @@
                 "location": "Glendon Rd, Clydesdale, NSW 2330",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Glendon Rd, Clydesdale, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 16:06",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.24639416200012,
-                    -35.36549571099994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Greenleigh ",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480875",
-                "created": "2023-01-14T05:28:00+11:00",
-                "updated": "2023-01-14T16:28:00+11:00",
-                "location": "Severne st",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Severne st <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 16:28",
                 "title": "incident: fire"
             }
         },
@@ -2950,11 +3081,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480885",
-                "created": "2023-01-14T06:14:00+11:00",
-                "updated": "2023-01-14T17:14:00+11:00",
+                "created": "2023-01-14T06:48:00+11:00",
+                "updated": "2023-01-14T17:48:00+11:00",
                 "location": "6132 Ivanhoe Rd, Pan Ban, NSW 2648",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 6132 Ivanhoe Rd, Pan Ban, NSW 2648 <br />COUNCIL AREA: Wentworth <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 17:14",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 6132 Ivanhoe Rd, Pan Ban, NSW 2648 <br />COUNCIL AREA: Wentworth <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 17:48",
                 "title": "incident: fire"
             }
         },
@@ -3280,11 +3411,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480757",
-                "created": "2023-01-14T04:45:00+11:00",
-                "updated": "2023-01-14T15:45:00+11:00",
+                "created": "2023-01-14T06:51:00+11:00",
+                "updated": "2023-01-14T17:51:00+11:00",
                 "location": "377 Mandagery Rd, Mandagery, NSW 2870",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 377 Mandagery Rd, Mandagery, NSW 2870 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 15:45",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 377 Mandagery Rd, Mandagery, NSW 2870 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 17:51",
                 "title": "incident: fire"
             }
         },
@@ -3645,11 +3776,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480877",
-                "created": "2023-01-14T05:55:00+11:00",
-                "updated": "2023-01-14T16:55:00+11:00",
+                "created": "2023-01-14T06:45:00+11:00",
+                "updated": "2023-01-14T17:45:00+11:00",
                 "location": "8360 Nerriga Rd, Tomboye,  2622",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 8360 Nerriga Rd, Tomboye,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 16:55",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 8360 Nerriga Rd, Tomboye,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 17:45",
                 "title": "incident: fire"
             }
         },
@@ -5326,6 +5457,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.0569220000001,
+                    -35.29739799999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Adelong Falls Rd, Adelong",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480895",
+                "created": "2023-01-14T07:06:00+11:00",
+                "updated": "2023-01-14T18:06:00+11:00",
+                "location": "Adelong Falls Rd, Adelong, NSW 2729",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Adelong Falls Rd, Adelong, NSW 2729 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 18:06",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.5723180770001,
                     -32.77304946399994
                 ]
@@ -5385,11 +5540,11 @@
                 "subcategory": "burn off",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480888",
-                "created": "2023-01-14T06:26:00+11:00",
-                "updated": "2023-01-14T17:26:00+11:00",
+                "created": "2023-01-14T06:55:00+11:00",
+                "updated": "2023-01-14T17:55:00+11:00",
                 "location": "547 Brolga Rd, North Yalgogrin, NSW 2671",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 547 Brolga Rd, North Yalgogrin, NSW 2671 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 17:26",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 547 Brolga Rd, North Yalgogrin, NSW 2671 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 17:55",
                 "title": "incident: fire"
             }
         },
@@ -5518,6 +5673,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.24615621500004,
+                    -35.36814286099997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Greenleigh ",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480875",
+                "created": "2023-01-14T07:05:00+11:00",
+                "updated": "2023-01-14T18:05:00+11:00",
+                "location": "63 Severne St Greenleigh",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 63 Severne St Greenleigh <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 18:05",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.31267300000002,
                     -29.514336999999955
                 ]
@@ -5566,54 +5745,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.8161960000001,
-                    -33.72864699999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Luxford Rd, Bidwill",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480879",
-                "created": "2023-01-14T06:00:00+11:00",
-                "updated": "2023-01-14T17:00:00+11:00",
-                "location": "584 Luxford Rd, Bidwill, NSW 2770",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 584 Luxford Rd, Bidwill, NSW 2770 <br />COUNCIL AREA: Blacktown <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Jan 2023 17:00",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.84603200000004,
-                    -33.906658999999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Middleton Dr, Middleton Grange",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480874",
-                "created": "2023-01-14T05:18:00+11:00",
-                "updated": "2023-01-14T16:18:00+11:00",
-                "location": "179 Middleton Dr, Middleton Grange, NSW 2171",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 179 Middleton Dr, Middleton Grange, NSW 2171 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Jan 2023 16:18",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     147.57963180600007,
                     -33.398043566999945
                 ]
@@ -5631,30 +5762,6 @@
                 "size": 1,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Murphys Rd, Warroo, NSW 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 17:19",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.04320700000005,
-                    -33.57958499999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Peebles Rd, Fiddletown",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480891",
-                "created": "2023-01-14T06:32:00+11:00",
-                "updated": "2023-01-14T17:32:00+11:00",
-                "location": "23-25 Peebles Rd, Fiddletown, NSW 2159",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 23-25 Peebles Rd, Fiddletown, NSW 2159 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 17:32",
-                "title": "incident: other"
             }
         },
         {
@@ -5767,13 +5874,13 @@
                 "sourceTitle": "Somersby Falls Rd, Somersby",
                 "category": "other",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480882",
-                "created": "2023-01-14T06:04:00+11:00",
-                "updated": "2023-01-14T17:04:00+11:00",
+                "created": "2023-01-14T07:02:00+11:00",
+                "updated": "2023-01-14T18:02:00+11:00",
                 "location": "Somersby Falls Rd, Somersby, NSW 2250",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Somersby Falls Rd, Somersby, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 17:04",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Somersby Falls Rd, Somersby, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 18:02",
                 "title": "incident: other"
             }
         },
@@ -5798,6 +5905,30 @@
                 "location": "Terrible Billy firetrail",
                 "size": 1,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Terrible Billy firetrail <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 14 Jan 2023 14:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.01352800000006,
+                    -34.08125999999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Avenue, Heathcote",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480892",
+                "created": "2023-01-14T06:56:00+11:00",
+                "updated": "2023-01-14T17:56:00+11:00",
+                "location": "15 The Avenue, Heathcote, NSW 2233",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 15 The Avenue, Heathcote, NSW 2233 <br />COUNCIL AREA: Sutherland <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Jan 2023 17:56",
                 "title": "incident: fire"
             }
         }
