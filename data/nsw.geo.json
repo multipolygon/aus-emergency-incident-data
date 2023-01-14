@@ -1205,10 +1205,95 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.18599000000006,
-                    -34.830806999999936
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.18599000000006,
+                            -34.830806999999936
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.185892846,
+                                            -34.8306630779999
+                                        ],
+                                        [
+                                            147.185892846,
+                                            -34.830841537
+                                        ],
+                                        [
+                                            147.185892846,
+                                            -34.8309843059999
+                                        ],
+                                        [
+                                            147.186023715,
+                                            -34.831650555
+                                        ],
+                                        [
+                                            147.186118894,
+                                            -34.8321383439999
+                                        ],
+                                        [
+                                            147.186095099,
+                                            -34.8326380309999
+                                        ],
+                                        [
+                                            147.18591664,
+                                            -34.83304254
+                                        ],
+                                        [
+                                            147.185702489,
+                                            -34.833149614
+                                        ],
+                                        [
+                                            147.185357467,
+                                            -34.8333280749999
+                                        ],
+                                        [
+                                            147.185048136,
+                                            -34.833375663
+                                        ],
+                                        [
+                                            147.184750704,
+                                            -34.83304254
+                                        ],
+                                        [
+                                            147.184619834,
+                                            -34.8328283879999
+                                        ],
+                                        [
+                                            147.184667423,
+                                            -34.832293009
+                                        ],
+                                        [
+                                            147.184774499,
+                                            -34.831817116
+                                        ],
+                                        [
+                                            147.184881574,
+                                            -34.8312698409999
+                                        ],
+                                        [
+                                            147.185309878,
+                                            -34.8309129209999
+                                        ],
+                                        [
+                                            147.185892846,
+                                            -34.8306630779999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1218,11 +1303,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480855",
-                "created": "2023-01-14T04:09:00+11:00",
-                "updated": "2023-01-14T15:09:00+11:00",
+                "created": "2023-01-14T04:29:00+11:00",
+                "updated": "2023-01-14T15:29:00+11:00",
                 "location": "55 Cains Lane, Coolamon, NSW 2701",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 55 Cains Lane, Coolamon, NSW 2701 <br />COUNCIL AREA: Coolamon <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 15:09",
+                "size": 3,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 55 Cains Lane, Coolamon, NSW 2701 <br />COUNCIL AREA: Coolamon <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 15:29",
                 "title": "incident: fire"
             }
         },
@@ -1498,6 +1583,30 @@
                 "location": "-33.45232, 150.71801",
                 "size": 1,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: -33.45232, 150.71801 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 04:09",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.24868700000002,
+                    -33.86021999999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Copperhannia Trig Trl, Copperhannia",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480863",
+                "created": "2023-01-14T04:20:00+11:00",
+                "updated": "2023-01-14T15:20:00+11:00",
+                "location": "Copperhannia Trig Trl, Copperhannia, NSW 2795",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Copperhannia Trig Trl, Copperhannia, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 15:20",
                 "title": "incident: fire"
             }
         },
@@ -4248,6 +4357,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.15236473100003,
+                    -33.854236809999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rocky Bridge Creek, Bathurst",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480860",
+                "created": "2023-01-14T03:52:00+11:00",
+                "updated": "2023-01-14T14:52:00+11:00",
+                "location": "Rocky Bridge Creek",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Rocky Bridge Creek <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 14:52",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     146.2420177460001,
                     -35.974324828999954
                 ]
@@ -5210,6 +5343,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.94690400000002,
+                    -30.278573999999935
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dairyville Rd, Upper Orara",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480864",
+                "created": "2023-01-14T04:24:00+11:00",
+                "updated": "2023-01-14T15:24:00+11:00",
+                "location": "802 Dairyville Rd, Upper Orara, NSW 2450",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 802 Dairyville Rd, Upper Orara, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 15:24",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.77997207600004,
                     -33.50489480899995
                 ]
@@ -5282,8 +5439,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.5358520000001,
-                    -33.12055099999998
+                    151.52794361100007,
+                    -33.123743641999965
                 ]
             },
             "properties": {
@@ -5298,6 +5455,30 @@
                 "location": "Lakeview Rd, Morisset Park, NSW 2264",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lakeview Rd, Morisset Park, NSW 2264 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Jan 2023 14:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.75368100000003,
+                    -32.92052999999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maitland Road, Wickham",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480866",
+                "created": "2023-01-14T04:26:00+11:00",
+                "updated": "2023-01-14T15:26:00+11:00",
+                "location": "110 Maitland Road, Wickham, NSW 2293",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 110 Maitland Road, Wickham, NSW 2293 <br />COUNCIL AREA: Newcastle <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Jan 2023 15:26",
                 "title": "incident: fire"
             }
         },
@@ -5371,30 +5552,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Johns River, NSW 2443 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 08:05",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.08885500000008,
-                    -33.70026399999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Quarry Rd, Hornsby",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480851",
-                "created": "2023-01-14T03:58:00+11:00",
-                "updated": "2023-01-14T14:58:00+11:00",
-                "location": "Quarry Rd, Hornsby, NSW 2077",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Quarry Rd, Hornsby, NSW 2077 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 14:58",
-                "title": "incident: other"
             }
         },
         {
@@ -5506,14 +5663,14 @@
                 "feedType": "incident",
                 "sourceTitle": "Watagan Forest Dr, Jilliby",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
+                "subcategory": "burn off",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480859",
-                "created": "2023-01-14T03:50:00+11:00",
-                "updated": "2023-01-14T14:50:00+11:00",
+                "created": "2023-01-14T04:17:00+11:00",
+                "updated": "2023-01-14T15:17:00+11:00",
                 "location": "51 Watagan Forest Dr, Jilliby, NSW 2259",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 51 Watagan Forest Dr, Jilliby, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 14:50",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 51 Watagan Forest Dr, Jilliby, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2023 15:17",
                 "title": "incident: fire"
             }
         }
