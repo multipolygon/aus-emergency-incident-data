@@ -928,10 +928,106 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4274859310001,
-                    -35.02516669999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.4274859310001,
+                            -35.02516669999994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.417929115,
+                                            -35.0222677909999
+                                        ],
+                                        [
+                                            145.417968196,
+                                            -35.022287521
+                                        ],
+                                        [
+                                            145.417920604,
+                                            -35.022287521
+                                        ],
+                                        [
+                                            145.417929115,
+                                            -35.0222677909999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.417929115,
+                                            -35.0222677909999
+                                        ],
+                                        [
+                                            145.416742767,
+                                            -35.0216688589999
+                                        ],
+                                        [
+                                            145.420181092,
+                                            -35.013293157
+                                        ],
+                                        [
+                                            145.426450973,
+                                            -35.003120962
+                                        ],
+                                        [
+                                            145.432459112,
+                                            -35.001514825
+                                        ],
+                                        [
+                                            145.436028304,
+                                            -35.0073445049999
+                                        ],
+                                        [
+                                            145.433113464,
+                                            -35.01632697
+                                        ],
+                                        [
+                                            145.432102193,
+                                            -35.0240007319999
+                                        ],
+                                        [
+                                            145.42496381,
+                                            -35.0287596539999
+                                        ],
+                                        [
+                                            145.421156671,
+                                            -35.0282837619999
+                                        ],
+                                        [
+                                            145.419824173,
+                                            -35.027760281
+                                        ],
+                                        [
+                                            145.425594366,
+                                            -35.018718329
+                                        ],
+                                        [
+                                            145.420538011,
+                                            -35.0162198949999
+                                        ],
+                                        [
+                                            145.417929115,
+                                            -35.0222677909999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -946,6 +1042,30 @@
                 "location": "Carrathool Rd, Four Corners, NSW 2716",
                 "size": 270,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Carrathool Rd, Four Corners, NSW 2716 <br />COUNCIL AREA: Edward River <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 270 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2023 09:59",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.7571170000001,
+                    -33.985184999999944
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Catherine Fields Rd, Catherine Field",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/481270",
+                "created": "2023-01-17T03:24:00+11:00",
+                "updated": "2023-01-17T14:24:00+11:00",
+                "location": "277 Catherine Fields Rd, Catherine Field, NSW 2557",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 277 Catherine Fields Rd, Catherine Field, NSW 2557 <br />COUNCIL AREA: Camden <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2023 14:24",
                 "title": "incident: fire"
             }
         },
@@ -3549,11 +3669,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/480217",
-                "created": "2023-01-16T07:55:00+11:00",
-                "updated": "2023-01-16T18:55:00+11:00",
+                "created": "2023-01-17T03:14:00+11:00",
+                "updated": "2023-01-17T14:14:00+11:00",
                 "location": "801 Ironmungie Rd, Bungarby, NSW 2630",
                 "size": 10,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 801 Ironmungie Rd, Bungarby, NSW 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2023 18:55",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 801 Ironmungie Rd, Bungarby, NSW 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2023 14:14",
                 "title": "incident: fire"
             }
         },
@@ -5415,11 +5535,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/481251",
-                "created": "2023-01-17T01:50:00+11:00",
-                "updated": "2023-01-17T12:50:00+11:00",
+                "created": "2023-01-17T03:15:00+11:00",
+                "updated": "2023-01-17T14:15:00+11:00",
                 "location": "186 Silverton Rd, Metz, NSW 2350",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 186 Silverton Rd, Metz, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2023 12:50",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 186 Silverton Rd, Metz, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Jan 2023 14:15",
                 "title": "incident: fire"
             }
         },
@@ -5622,8 +5742,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.50361800000007,
-                    -35.11943599899996
+                    150.50050735500008,
+                    -35.11260690199998
                 ]
             },
             "properties": {
