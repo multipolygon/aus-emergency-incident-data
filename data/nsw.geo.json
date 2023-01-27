@@ -586,10 +586,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.64434700000004,
-                    -31.49676500099997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.64434700000004,
+                            -31.49676500099997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.641733573,
+                                            -31.4938699479999
+                                        ],
+                                        [
+                                            150.643113661,
+                                            -31.493239391
+                                        ],
+                                        [
+                                            150.644196315,
+                                            -31.493822359
+                                        ],
+                                        [
+                                            150.646266446,
+                                            -31.495047781
+                                        ],
+                                        [
+                                            150.646837516,
+                                            -31.4967371989999
+                                        ],
+                                        [
+                                            150.646004706,
+                                            -31.4977722639999
+                                        ],
+                                        [
+                                            150.644089239,
+                                            -31.498057799
+                                        ],
+                                        [
+                                            150.642066697,
+                                            -31.496261306
+                                        ],
+                                        [
+                                            150.641233886,
+                                            -31.494833629
+                                        ],
+                                        [
+                                            150.641733573,
+                                            -31.4938699479999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -597,23 +654,64 @@
                 "sourceTitle": "Bolah Gap Rd, Quirindi",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482167",
-                "created": "2023-01-27T02:04:00+11:00",
-                "updated": "2023-01-27T13:04:00+11:00",
+                "created": "2023-01-27T02:43:00+11:00",
+                "updated": "2023-01-27T13:43:00+11:00",
                 "location": "24 Bolah Gap Rd, Quirindi, NSW 2343",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 24 Bolah Gap Rd, Quirindi, NSW 2343 <br />COUNCIL AREA: Liverpool Plains <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:04",
+                "size": 18,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 24 Bolah Gap Rd, Quirindi, NSW 2343 <br />COUNCIL AREA: Liverpool Plains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 18 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:43",
                 "title": "incident: fire"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.56757700000003,
-                    -33.11154199999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.5767022330001,
+                            -33.121845065999935
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.576392099,
+                                            -33.121496024
+                                        ],
+                                        [
+                                            149.57696317,
+                                            -33.1214722299999
+                                        ],
+                                        [
+                                            149.576844197,
+                                            -33.1220314029999
+                                        ],
+                                        [
+                                            149.57634451,
+                                            -33.122067095
+                                        ],
+                                        [
+                                            149.576392099,
+                                            -33.121460333
+                                        ],
+                                        [
+                                            149.576392099,
+                                            -33.121496024
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -621,13 +719,13 @@
                 "sourceTitle": "Box Ridge Rd, Turondale",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482163",
-                "created": "2023-01-27T01:48:00+11:00",
-                "updated": "2023-01-27T12:48:00+11:00",
+                "created": "2023-01-27T02:39:00+11:00",
+                "updated": "2023-01-27T13:39:00+11:00",
                 "location": "Box Ridge Rd, Turondale, NSW 2795",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Box Ridge Rd, Turondale, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 12:48",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Box Ridge Rd, Turondale, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:39",
                 "title": "incident: fire"
             }
         },
@@ -1379,6 +1477,30 @@
                 "location": "Koree St, Pindimar, NSW 2324",
                 "size": 10,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Koree St, Pindimar, NSW 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 12:34",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.24913883200009,
+                    -35.31956363499995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kowen Road Fire ",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482173",
+                "created": "2023-01-27T02:54:00+11:00",
+                "updated": "2023-01-27T13:54:00+11:00",
+                "location": "Kowen Road",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Kowen Road <br />COUNCIL AREA: ACT <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: ACT Rural Fire Service <br />UPDATED: 27 Jan 2023 13:54",
                 "title": "incident: fire"
             }
         },
@@ -2648,6 +2770,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.4051809990001,
+                    -34.337658999999974
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sturt Hwy, Mallee",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482172",
+                "created": "2023-01-27T02:40:00+11:00",
+                "updated": "2023-01-27T13:40:00+11:00",
+                "location": "Sturt Hwy, Mallee, NSW 2738",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Sturt Hwy, Mallee, NSW 2738 <br />COUNCIL AREA: Wentworth <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:40",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2718,8 +2864,8 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            149.3857383630001,
-                            -32.96555337299998
+                            149.38985824600002,
+                            -32.96269086199993
                         ]
                     },
                     {
@@ -2730,52 +2876,80 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.386699159,
-                                            -32.9660259459999
+                                            149.390022433,
+                                            -32.963394189
                                         ],
                                         [
-                                            149.386061224,
-                                            -32.9663248589999
+                                            149.389927852,
+                                            -32.9635632129999
                                         ],
                                         [
-                                            149.385991701,
-                                            -32.9662688719999
+                                            149.389474096,
+                                            -32.963548079
                                         ],
                                         [
-                                            149.385371836,
-                                            -32.9659798499999
+                                            149.389188312,
+                                            -32.963458047
                                         ],
                                         [
-                                            149.384784327,
-                                            -32.965002296
+                                            149.389001968,
+                                            -32.9633780419999
                                         ],
                                         [
-                                            149.384760661,
-                                            -32.9641285399999
+                                            149.388911829,
+                                            -32.9631886939999
                                         ],
                                         [
-                                            149.385091571,
-                                            -32.963792548
+                                            149.38916661,
+                                            -32.9626582989999
                                         ],
                                         [
-                                            149.385634528,
-                                            -32.963753433
+                                            149.389301403,
+                                            -32.9624049
                                         ],
                                         [
-                                            149.386062813,
-                                            -32.963874168
+                                            149.38930108,
+                                            -32.9623929639999
                                         ],
                                         [
-                                            149.386705482,
-                                            -32.964377718
+                                            149.389567194,
+                                            -32.9622803459999
                                         ],
                                         [
-                                            149.386936177,
-                                            -32.9653621379999
+                                            149.389718736,
+                                            -32.962122167
                                         ],
                                         [
-                                            149.386699159,
-                                            -32.9660259459999
+                                            149.389829744,
+                                            -32.9620364259999
+                                        ],
+                                        [
+                                            149.390071102,
+                                            -32.962055656
+                                        ],
+                                        [
+                                            149.390145788,
+                                            -32.9621975279999
+                                        ],
+                                        [
+                                            149.390139079,
+                                            -32.962472342
+                                        ],
+                                        [
+                                            149.390145884,
+                                            -32.962723011
+                                        ],
+                                        [
+                                            149.390167498,
+                                            -32.962997279
+                                        ],
+                                        [
+                                            149.390186517,
+                                            -32.963176053
+                                        ],
+                                        [
+                                            149.390022433,
+                                            -32.963394189
                                         ]
                                     ]
                                 ]
@@ -4265,11 +4439,11 @@
                 "subcategory": "other",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482160",
-                "created": "2023-01-27T01:36:00+11:00",
-                "updated": "2023-01-27T12:36:00+11:00",
+                "created": "2023-01-27T02:53:00+11:00",
+                "updated": "2023-01-27T13:53:00+11:00",
                 "location": "Kamilaroi Hwy, Brewarrina, NSW 2839",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kamilaroi Hwy, Brewarrina, NSW 2839 <br />COUNCIL AREA: Brewarrina <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 12:36",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kamilaroi Hwy, Brewarrina, NSW 2839 <br />COUNCIL AREA: Brewarrina <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:53",
                 "title": "incident: fire"
             }
         },
@@ -4287,13 +4461,13 @@
                 "sourceTitle": "Kings Rd, Federal",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482168",
-                "created": "2023-01-27T02:06:00+11:00",
-                "updated": "2023-01-27T13:06:00+11:00",
+                "created": "2023-01-27T02:24:00+11:00",
+                "updated": "2023-01-27T13:24:00+11:00",
                 "location": "41 Kings Rd, Federal, NSW 2480",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 41 Kings Rd, Federal, NSW 2480 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:06",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 41 Kings Rd, Federal, NSW 2480 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:24",
                 "title": "incident: other"
             }
         },
@@ -4311,13 +4485,13 @@
                 "sourceTitle": "Kyogle Rd, Mount Burrell",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482166",
-                "created": "2023-01-27T02:02:00+11:00",
-                "updated": "2023-01-27T13:02:00+11:00",
+                "created": "2023-01-27T02:31:00+11:00",
+                "updated": "2023-01-27T13:31:00+11:00",
                 "location": "4013 Kyogle Rd, Mount Burrell, NSW 2484",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4013 Kyogle Rd, Mount Burrell, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:02",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4013 Kyogle Rd, Mount Burrell, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:31",
                 "title": "incident: other"
             }
         },
@@ -4374,30 +4548,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.1270790000001,
-                    -36.22311899999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy, Narooma",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482170",
-                "created": "2023-01-27T02:10:00+11:00",
-                "updated": "2023-01-27T13:10:00+11:00",
-                "location": "183 Princes Hwy, Narooma,  2546",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 183 Princes Hwy, Narooma,  2546 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 27 Jan 2023 13:10",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     141.926676035,
                     -34.103631906999965
                 ]
@@ -4439,30 +4589,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3840 Trunkey Rd, Caloola, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 10:12",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.6227120000001,
-                    -35.43563899999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Western Rd, Urangeline",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482169",
-                "created": "2023-01-27T02:08:00+11:00",
-                "updated": "2023-01-27T13:08:00+11:00",
-                "location": "Western Rd, Urangeline, NSW 2656",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Western Rd, Urangeline, NSW 2656 <br />COUNCIL AREA: Lockhart <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 13:08",
-                "title": "incident: fire"
             }
         }
     ]
