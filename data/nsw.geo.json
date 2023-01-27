@@ -21,6 +21,29 @@
                                 "coordinates": [
                                     [
                                         [
+                                            149.425931282,
+                                            -32.9400408139999
+                                        ],
+                                        [
+                                            149.425931479,
+                                            -32.940047975
+                                        ],
+                                        [
+                                            149.425928582,
+                                            -32.940045644
+                                        ],
+                                        [
+                                            149.425931282,
+                                            -32.9400408139999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             149.425422433,
                                             -32.9391732139999
                                         ],
@@ -251,29 +274,6 @@
                                         [
                                             149.425422433,
                                             -32.9391732139999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.425931282,
-                                            -32.9400408139999
-                                        ],
-                                        [
-                                            149.425931479,
-                                            -32.940047975
-                                        ],
-                                        [
-                                            149.425928582,
-                                            -32.940045644
-                                        ],
-                                        [
-                                            149.425931282,
-                                            -32.9400408139999
                                         ]
                                     ]
                                 ]
@@ -1451,13 +1451,13 @@
                 "sourceTitle": "Davis Rd, Swan Bay",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482194",
-                "created": "2023-01-27T05:45:00+11:00",
-                "updated": "2023-01-27T16:45:00+11:00",
+                "created": "2023-01-27T06:55:00+11:00",
+                "updated": "2023-01-27T17:55:00+11:00",
                 "location": "167 Davis Rd, Swan Bay, NSW 2324",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 167 Davis Rd, Swan Bay, NSW 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 16:45",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 167 Davis Rd, Swan Bay, NSW 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 17:55",
                 "title": "incident: fire"
             }
         },
@@ -1638,16 +1638,12 @@
                                             -34.124713796
                                         ],
                                         [
-                                            149.612724201,
-                                            -34.1278862519999
+                                            149.622929258,
+                                            -34.124688536
                                         ],
                                         [
-                                            149.612564502,
-                                            -34.1237702829999
-                                        ],
-                                        [
-                                            149.621221191,
-                                            -34.11923179
+                                            149.622859319,
+                                            -34.124749698
                                         ],
                                         [
                                             149.622848661,
@@ -1665,12 +1661,16 @@
                                             -34.124713796
                                         ],
                                         [
-                                            149.622929258,
-                                            -34.124688536
+                                            149.612724201,
+                                            -34.1278862519999
                                         ],
                                         [
-                                            149.622859319,
-                                            -34.124749698
+                                            149.612564502,
+                                            -34.1237702829999
+                                        ],
+                                        [
+                                            149.621221191,
+                                            -34.11923179
                                         ],
                                         [
                                             149.622848661,
@@ -1841,10 +1841,83 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.64251500000012,
-                    -34.20266499999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.64251500000012,
+                            -34.20266499999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.639211382,
+                                            -34.200595009
+                                        ],
+                                        [
+                                            149.642857414,
+                                            -34.201175086
+                                        ],
+                                        [
+                                            149.643295525,
+                                            -34.1990465809999
+                                        ],
+                                        [
+                                            149.64332961,
+                                            -34.198986165
+                                        ],
+                                        [
+                                            149.643840399,
+                                            -34.199244065
+                                        ],
+                                        [
+                                            149.644030355,
+                                            -34.200762378
+                                        ],
+                                        [
+                                            149.645230122,
+                                            -34.202408691
+                                        ],
+                                        [
+                                            149.645106517,
+                                            -34.203067973
+                                        ],
+                                        [
+                                            149.64180615,
+                                            -34.205585006
+                                        ],
+                                        [
+                                            149.626858054,
+                                            -34.203122301
+                                        ],
+                                        [
+                                            149.62526802,
+                                            -34.200439256
+                                        ],
+                                        [
+                                            149.629797553,
+                                            -34.194613541
+                                        ],
+                                        [
+                                            149.636477842,
+                                            -34.1957571089999
+                                        ],
+                                        [
+                                            149.639211382,
+                                            -34.200595009
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2724,13 +2797,13 @@
                 "sourceTitle": "Upper Horton Rd, Upper Horton",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482203",
-                "created": "2023-01-27T05:48:00+11:00",
-                "updated": "2023-01-27T16:48:00+11:00",
+                "created": "2023-01-27T06:47:00+11:00",
+                "updated": "2023-01-27T17:47:00+11:00",
                 "location": "Upper Horton Rd, Upper Horton, NSW 2347",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Upper Horton Rd, Upper Horton, NSW 2347 <br />COUNCIL AREA: Gwydir <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 16:48",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Upper Horton Rd, Upper Horton, NSW 2347 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 17:47",
                 "title": "incident: fire"
             }
         },
@@ -4176,11 +4249,11 @@
                 "subcategory": "vehicle/equipment fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482195",
-                "created": "2023-01-27T05:23:00+11:00",
-                "updated": "2023-01-27T16:23:00+11:00",
+                "created": "2023-01-27T06:48:00+11:00",
+                "updated": "2023-01-27T17:48:00+11:00",
                 "location": "Eugowra Rd, Parkes, NSW 2870",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eugowra Rd, Parkes, NSW 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 16:23",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eugowra Rd, Parkes, NSW 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 17:48",
                 "title": "incident: fire"
             }
         },
@@ -4205,30 +4278,6 @@
                 "location": "Bourke",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bourke <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 27 Jan 2023 01:07",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.40222000000006,
-                    -33.26370799999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hue Hue Rd, Alison",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482209",
-                "created": "2023-01-27T06:30:00+11:00",
-                "updated": "2023-01-27T17:30:00+11:00",
-                "location": "135 Hue Hue Rd, Alison, NSW 2259",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 135 Hue Hue Rd, Alison, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 17:30",
                 "title": "incident: other"
             }
         },
@@ -4302,30 +4351,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wentworth <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 26 Jan 2023 17:38",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.33802400000002,
-                    -32.828385999999966
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Stonebridge Dr, Cessnock",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482205",
-                "created": "2023-01-27T06:28:00+11:00",
-                "updated": "2023-01-27T17:28:00+11:00",
-                "location": "Stonebridge Dr, Cessnock, NSW 2325",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Stonebridge Dr, Cessnock, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 27 Jan 2023 17:28",
-                "title": "incident: fire"
             }
         },
         {
