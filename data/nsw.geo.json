@@ -4,10 +4,86 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.9709372530001,
-                    -32.692075959999954
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.9709372530001,
+                            -32.692075959999954
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.971494135,
+                                            -32.694044162
+                                        ],
+                                        [
+                                            151.971491904,
+                                            -32.694039254
+                                        ],
+                                        [
+                                            151.971499519,
+                                            -32.6940449639999
+                                        ],
+                                        [
+                                            151.971494135,
+                                            -32.694044162
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.971494135,
+                                            -32.694044162
+                                        ],
+                                        [
+                                            151.971610877,
+                                            -32.6943009939999
+                                        ],
+                                        [
+                                            151.971527596,
+                                            -32.6943604799999
+                                        ],
+                                        [
+                                            151.971372931,
+                                            -32.694372377
+                                        ],
+                                        [
+                                            151.971337239,
+                                            -32.6944437609999
+                                        ],
+                                        [
+                                            151.971253958,
+                                            -32.694467556
+                                        ],
+                                        [
+                                            151.971194472,
+                                            -32.694265302
+                                        ],
+                                        [
+                                            151.971301548,
+                                            -32.694015458
+                                        ],
+                                        [
+                                            151.971494135,
+                                            -32.694044162
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -923,83 +999,6 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            149.5767022330001,
-                            -33.121845065999935
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.577082143,
-                                            -33.122180119
-                                        ],
-                                        [
-                                            149.577046452,
-                                            -33.122180119
-                                        ],
-                                        [
-                                            149.576879889,
-                                            -33.1220135569999
-                                        ],
-                                        [
-                                            149.576820403,
-                                            -33.122025455
-                                        ],
-                                        [
-                                            149.576737122,
-                                            -33.121870789
-                                        ],
-                                        [
-                                            149.576808505,
-                                            -33.1218231999999
-                                        ],
-                                        [
-                                            149.577010759,
-                                            -33.1217637139999
-                                        ],
-                                        [
-                                            149.577165424,
-                                            -33.121894584
-                                        ],
-                                        [
-                                            149.577082143,
-                                            -33.122180119
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Box Ridge Rd, Turondale",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482163",
-                "created": "2023-01-27T04:36:00+11:00",
-                "updated": "2023-01-27T15:36:00+11:00",
-                "location": "Box Ridge Rd, Turondale, NSW 2795",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Box Ridge Rd, Turondale, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 15:36",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
                             148.4711420000001,
                             -34.906856999999945
                         ]
@@ -1461,12 +1460,16 @@
                                             -34.124713796
                                         ],
                                         [
-                                            149.622929258,
-                                            -34.124688536
+                                            149.612724201,
+                                            -34.1278862519999
                                         ],
                                         [
-                                            149.622859319,
-                                            -34.124749698
+                                            149.612564502,
+                                            -34.1237702829999
+                                        ],
+                                        [
+                                            149.621221191,
+                                            -34.11923179
                                         ],
                                         [
                                             149.622848661,
@@ -1484,16 +1487,12 @@
                                             -34.124713796
                                         ],
                                         [
-                                            149.612724201,
-                                            -34.1278862519999
+                                            149.622929258,
+                                            -34.124688536
                                         ],
                                         [
-                                            149.612564502,
-                                            -34.1237702829999
-                                        ],
-                                        [
-                                            149.621221191,
-                                            -34.11923179
+                                            149.622859319,
+                                            -34.124749698
                                         ],
                                         [
                                             149.622848661,
@@ -1675,13 +1674,13 @@
                 "sourceTitle": "Lawlers Lane, Bangalow",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482260",
-                "created": "2023-01-28T00:38:00+11:00",
-                "updated": "2023-01-28T11:38:00+11:00",
+                "created": "2023-01-28T01:58:00+11:00",
+                "updated": "2023-01-28T12:58:00+11:00",
                 "location": "119 Lawlers Lane, Bangalow, NSW 2479",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 119 Lawlers Lane, Bangalow, NSW 2479 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2023 11:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 119 Lawlers Lane, Bangalow, NSW 2479 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2023 12:58",
                 "title": "incident: fire"
             }
         },
@@ -1963,6 +1962,30 @@
                 "location": "4520 Barrier Highway Little Topar",
                 "size": 937,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 4520 Barrier Highway Little Topar <br />COUNCIL AREA: Unincorporated <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 937 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2023 10:25",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.5604380000001,
+                    -34.44185399999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murrumbidgee River Rd, Carrathool",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482265",
+                "created": "2023-01-28T02:13:00+11:00",
+                "updated": "2023-01-28T13:13:00+11:00",
+                "location": "5574 Murrumbidgee River Rd, Carrathool, NSW 2711",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 5574 Murrumbidgee River Rd, Carrathool, NSW 2711 <br />COUNCIL AREA: Carrathool <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2023 13:13",
                 "title": "incident: fire"
             }
         },
@@ -3603,30 +3626,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.3461449990001,
-                    -30.971075999999982
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Campfire Rd, Woolbrook",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482224",
-                "created": "2023-01-27T11:15:00+11:00",
-                "updated": "2023-01-27T22:15:00+11:00",
-                "location": "Campfire Rd, Woolbrook, NSW 2354",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Campfire Rd, Woolbrook, NSW 2354 <br />COUNCIL AREA: Walcha <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2023 22:15",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.22146225000006,
                     -33.19092809299997
                 ]
@@ -3723,6 +3722,78 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.41343299900007,
+                    -28.767964999999947
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mckenzie Rd, Eltham",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482267",
+                "created": "2023-01-28T02:08:00+11:00",
+                "updated": "2023-01-28T13:08:00+11:00",
+                "location": "67 Mckenzie Rd, Eltham, NSW 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 67 Mckenzie Rd, Eltham, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2023 13:08",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.3393370000001,
+                    -35.485221999999965
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy, Termeil",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482266",
+                "created": "2023-01-28T01:52:00+11:00",
+                "updated": "2023-01-28T12:52:00+11:00",
+                "location": "Princes Hwy, Termeil, NSW 2539",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Princes Hwy, Termeil, NSW 2539 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2023 12:52",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.51070600000003,
+                    -32.73013099999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Royston Cct, Farley",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482264",
+                "created": "2023-01-28T01:26:00+11:00",
+                "updated": "2023-01-28T12:26:00+11:00",
+                "location": "Unit A/17 Royston Cct, Farley, NSW 2320",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit A/17 Royston Cct, Farley, NSW 2320 <br />COUNCIL AREA: Maitland <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2023 12:26",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     141.926676035,
                     -34.103631906999965
                 ]
@@ -3740,6 +3811,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wentworth <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 28 Jan 2023 04:35",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.82949000000008,
+                    -33.791394999999966
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Western Mtwy, Minchinbury",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482268",
+                "created": "2023-01-28T02:20:00+11:00",
+                "updated": "2023-01-28T13:20:00+11:00",
+                "location": "Western Mtwy, Minchinbury, NSW 2770",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Western Mtwy, Minchinbury, NSW 2770 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Jan 2023 13:20",
+                "title": "incident: fire"
             }
         }
     ]
