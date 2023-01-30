@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.3697193155993,
+                            -36.83768638300189
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.3553855906258,
+                                    -36.83375434718261
+                                ],
+                                [
+                                    145.36341075999871,
+                                    -36.84852278122076
+                                ],
+                                [
+                                    145.38405304057278,
+                                    -36.8409671945345
+                                ],
+                                [
+                                    145.3753841410364,
+                                    -36.82684998478302
+                                ],
+                                [
+                                    145.3553855906258,
+                                    -36.83375434718261
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2023-01-31T04:40:45+11:00",
+                "updated": "2023-01-31T04:40:46+11:00",
+                "id": "28695",
+                "location": "Locksley, Longwood",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             142.2020170645808,
                             -34.1942018739487
                         ]
@@ -407,45 +461,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cuthbert Pl",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2023-01-31T04:26:00+11:00",
-                "updated": "2023-01-31T04:27:00+11:00",
-                "id": "ESTA:230118475",
-                "location": "Cuthbert Pl, Burnside",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.74582893701222,
-                    -37.750793225326326
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Brookfield",
+                "sourceTitle": "Docklands",
                 "category": "fire",
-                "subcategory": "fire",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2023-01-31T04:31:00+11:00",
-                "updated": "2023-01-31T04:32:02+11:00",
-                "id": "ESTA:230118476",
-                "location": "Clarkes Rd, Brookfield",
+                "created": "2023-01-31T04:38:17+11:00",
+                "updated": "2023-01-31T04:42:01+11:00",
+                "id": "ESTA:230118479",
+                "location": "North Wharf Rd, Docklands",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.5441822960761,
-                    -37.713018218860505
+                    144.93608566669766,
+                    -37.819654973808255
                 ]
             }
         },
@@ -455,7 +486,7 @@
                 "sourceTitle": "Clarkes Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2023-01-31T04:33:00+11:00",
                 "updated": "2023-01-31T04:35:00+11:00",
                 "id": "ESTA:230118477",
@@ -478,9 +509,9 @@
                 "sourceTitle": "Hume Fwy",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2023-01-31T04:09:00+11:00",
-                "updated": "2023-01-31T04:09:00+11:00",
+                "updated": "2023-01-31T04:47:00+11:00",
                 "id": "ESTA:230118471",
                 "location": "Hume Fwy, Locksley",
                 "size": "Small",
@@ -503,7 +534,7 @@
                 "subcategory": "structure fire",
                 "status": "safe",
                 "created": "2023-01-31T04:32:52+11:00",
-                "updated": "2023-01-31T04:35:40+11:00",
+                "updated": "2023-01-31T04:47:06+11:00",
                 "id": "ESTA:230118478",
                 "location": "North Wharf Rd, Docklands",
                 "title": "incident: fire"
@@ -514,6 +545,28 @@
                 "coordinates": [
                     144.93606570480637,
                     -37.81963771675686
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ses Flood Assist",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2023-01-30T20:09:00+11:00",
+                "updated": "2023-01-30T20:09:00+11:00",
+                "id": "2023-01-30T20:09:00.0000000:474129",
+                "location": "Wentworth",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.926676035,
+                    -34.103631907
                 ]
             }
         },
@@ -564,28 +617,6 @@
                             -36.697457001
                         ]
                     }
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ses Flood Assist",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2023-01-30T20:09:00+11:00",
-                "updated": "2023-01-30T20:09:00+11:00",
-                "id": "2023-01-30T20:09:00.0000000:474129",
-                "location": "Wentworth",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.926676035,
-                    -34.103631907
                 ]
             }
         },
@@ -22364,6 +22395,29 @@
                 "coordinates": [
                     145.3160011927504,
                     -37.90021017682617
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cuthbert Pl",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2023-01-31T04:26:00+11:00",
+                "updated": "2023-01-31T04:43:00+11:00",
+                "id": "ESTA:230118475",
+                "location": "Cuthbert Pl, Burnside",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74582893701222,
+                    -37.750793225326326
                 ]
             }
         }
