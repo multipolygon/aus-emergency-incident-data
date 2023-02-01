@@ -1387,10 +1387,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.47114569200005,
-                    -33.46603274499995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.47114569200005,
+                            -33.46603274499995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.470467546,
+                                            -33.466722789
+                                        ],
+                                        [
+                                            149.470895848,
+                                            -33.4659851559999
+                                        ],
+                                        [
+                                            149.471407432,
+                                            -33.4653427019999
+                                        ],
+                                        [
+                                            149.471978503,
+                                            -33.46468835
+                                        ],
+                                        [
+                                            149.472264038,
+                                            -33.464807322
+                                        ],
+                                        [
+                                            149.471562097,
+                                            -33.46618741
+                                        ],
+                                        [
+                                            149.470907745,
+                                            -33.4669845299999
+                                        ],
+                                        [
+                                            149.470467546,
+                                            -33.466722789
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1971,22 +2020,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.90176300000007,
-                    -33.74525999999997
+                    150.5026640000001,
+                    -34.96802999999994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cobham St, Kings Park",
+                "sourceTitle": "Braidwood Rd, Parma",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "vehicle/equipment fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482627",
-                "created": "2023-02-01T06:14:00+11:00",
-                "updated": "2023-02-01T17:14:00+11:00",
-                "location": "7 Cobham St, Kings Park, NSW 2148",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482628",
+                "created": "2023-02-01T06:32:00+11:00",
+                "updated": "2023-02-01T17:32:00+11:00",
+                "location": "Braidwood Rd, Parma, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 7 Cobham St, Kings Park, NSW 2148 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Feb 2023 17:14",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Braidwood Rd, Parma, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Feb 2023 17:32",
                 "title": "incident: fire"
             }
         },
@@ -2115,6 +2164,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.8228590000001,
+                    -36.66655499999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ridge St, Bega",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482626",
+                "created": "2023-02-01T06:10:00+11:00",
+                "updated": "2023-02-01T17:10:00+11:00",
+                "location": "23 - 45 Ridge St, Bega,  2550",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 23 - 45 Ridge St, Bega,  2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Feb 2023 17:10",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     141.926676035,
                     -34.103631906999965
                 ]
@@ -2148,13 +2221,13 @@
                 "sourceTitle": "Thunderbolts Way, Rocky River",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482623",
-                "created": "2023-02-01T05:57:00+11:00",
-                "updated": "2023-02-01T16:57:00+11:00",
+                "created": "2023-02-01T06:29:00+11:00",
+                "updated": "2023-02-01T17:29:00+11:00",
                 "location": "354 Thunderbolts Way, Rocky River, NSW 2358",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 354 Thunderbolts Way, Rocky River, NSW 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Feb 2023 16:57",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 354 Thunderbolts Way, Rocky River, NSW 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Feb 2023 17:29",
                 "title": "incident: other"
             }
         },
