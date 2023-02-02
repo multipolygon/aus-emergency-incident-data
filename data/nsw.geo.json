@@ -1214,30 +1214,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.62575800000002,
-                    -33.13096399999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cams Wharf Rd, Catherine Hill Bay",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482751",
-                "created": "2023-02-02T14:42:00+11:00",
-                "updated": "2023-02-03T01:42:00+11:00",
-                "location": "Cams Wharf Rd, Catherine Hill Bay, NSW 2281",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Cams Wharf Rd, Catherine Hill Bay, NSW 2281 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Feb 2023 01:42",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2373,10 +2349,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.8582938840001,
-                    -33.40962696999998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.8582938840001,
+                            -33.40962696999998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.856597977,
+                                            -33.407206408
+                                        ],
+                                        [
+                                            146.861808996,
+                                            -33.407825069
+                                        ],
+                                        [
+                                            146.861380694,
+                                            -33.411215801
+                                        ],
+                                        [
+                                            146.855991214,
+                                            -33.4103472969999
+                                        ],
+                                        [
+                                            146.856597977,
+                                            -33.407206408
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2384,13 +2397,13 @@
                 "sourceTitle": "Weja Rd, Tullibigeal",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482748",
-                "created": "2023-02-02T13:42:00+11:00",
-                "updated": "2023-02-03T00:42:00+11:00",
+                "created": "2023-02-02T14:52:00+11:00",
+                "updated": "2023-02-03T01:52:00+11:00",
                 "location": "979 Weja Rd, Tullibigeal, NSW 2669",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 979 Weja Rd, Tullibigeal, NSW 2669 <br />COUNCIL AREA: Lachlan <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Feb 2023 00:42",
+                "size": 18,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 979 Weja Rd, Tullibigeal, NSW 2669 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 18 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Feb 2023 01:52",
                 "title": "incident: fire"
             }
         },
@@ -2488,6 +2501,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bourke <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 2 Feb 2023 04:57",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.54537300000004,
+                    -32.86238599999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "George Booth Dr, Stockrington",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482755",
+                "created": "2023-02-02T15:00:00+11:00",
+                "updated": "2023-02-03T02:00:00+11:00",
+                "location": "George Booth Dr, Stockrington, NSW 2322",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: George Booth Dr, Stockrington, NSW 2322 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Feb 2023 02:00",
+                "title": "incident: fire"
             }
         },
         {
