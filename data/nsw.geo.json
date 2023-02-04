@@ -574,10 +574,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.45453600000008,
-                    -32.30389399999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.45453600000008,
+                            -32.30389399999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.452491183,
+                                            -32.305923623
+                                        ],
+                                        [
+                                            149.453157432,
+                                            -32.305423936
+                                        ],
+                                        [
+                                            149.454133011,
+                                            -32.305614293
+                                        ],
+                                        [
+                                            149.454430443,
+                                            -32.306375722
+                                        ],
+                                        [
+                                            149.453157432,
+                                            -32.306851614
+                                        ],
+                                        [
+                                            149.452717232,
+                                            -32.3065422839999
+                                        ],
+                                        [
+                                            149.452491183,
+                                            -32.305923623
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -587,11 +632,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482872",
-                "created": "2023-02-03T23:42:00+11:00",
-                "updated": "2023-02-04T10:42:00+11:00",
+                "created": "2023-02-04T00:27:00+11:00",
+                "updated": "2023-02-04T11:27:00+11:00",
                 "location": "955 Castlereagh Hwy, Beryl, NSW 2852",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 955 Castlereagh Hwy, Beryl, NSW 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 10:42",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 955 Castlereagh Hwy, Beryl, NSW 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 11:27",
                 "title": "incident: fire"
             }
         },
@@ -1261,30 +1306,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.4080560000001,
-                    -32.834874999999954
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "David St, Kearsley",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482869",
-                "created": "2023-02-03T23:45:00+11:00",
-                "updated": "2023-02-04T10:45:00+11:00",
-                "location": "David St, Kearsley, NSW 2325",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: David St, Kearsley, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 10:45",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.90854644700005,
                     -31.989143427999977
                 ]
@@ -1301,30 +1322,6 @@
                 "location": "150.92, -31.98",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 150.92, -31.98 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 08:31",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.45103800000004,
-                    -32.30754299999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Laheys Creek Rd, Beryl",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482873",
-                "created": "2023-02-03T23:44:00+11:00",
-                "updated": "2023-02-04T10:44:00+11:00",
-                "location": "162 Laheys Creek Rd, Beryl, NSW 2852",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 162 Laheys Creek Rd, Beryl, NSW 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 10:44",
                 "title": "incident: fire"
             }
         },
@@ -1355,24 +1352,273 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.9084684180001,
-                    -35.24518448699996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.9084684180001,
+                            -35.24518448699996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.907532,
+                                            -35.244446001
+                                        ],
+                                        [
+                                            149.907684,
+                                            -35.244537001
+                                        ],
+                                        [
+                                            149.907867,
+                                            -35.2446170009999
+                                        ],
+                                        [
+                                            149.908065999,
+                                            -35.244644001
+                                        ],
+                                        [
+                                            149.908249,
+                                            -35.244621001
+                                        ],
+                                        [
+                                            149.908401,
+                                            -35.244511001
+                                        ],
+                                        [
+                                            149.908599999,
+                                            -35.2445260009999
+                                        ],
+                                        [
+                                            149.908722,
+                                            -35.2446590009999
+                                        ],
+                                        [
+                                            149.908829001,
+                                            -35.244801002
+                                        ],
+                                        [
+                                            149.908935999,
+                                            -35.244946001
+                                        ],
+                                        [
+                                            149.909058,
+                                            -35.245079001
+                                        ],
+                                        [
+                                            149.909148999,
+                                            -35.24522
+                                        ],
+                                        [
+                                            149.909224999,
+                                            -35.245373001
+                                        ],
+                                        [
+                                            149.909271,
+                                            -35.245529
+                                        ],
+                                        [
+                                            149.909302001,
+                                            -35.245693
+                                        ],
+                                        [
+                                            149.909164,
+                                            -35.245819
+                                        ],
+                                        [
+                                            149.909012001,
+                                            -35.2459299999999
+                                        ],
+                                        [
+                                            149.908844,
+                                            -35.246006001
+                                        ],
+                                        [
+                                            149.908661,
+                                            -35.2460780009999
+                                        ],
+                                        [
+                                            149.908493,
+                                            -35.2461700009999
+                                        ],
+                                        [
+                                            149.908325,
+                                            -35.246254001
+                                        ],
+                                        [
+                                            149.908142,
+                                            -35.246342
+                                        ],
+                                        [
+                                            149.907928,
+                                            -35.246403001
+                                        ],
+                                        [
+                                            149.907715,
+                                            -35.246418002
+                                        ],
+                                        [
+                                            149.907532,
+                                            -35.246429
+                                        ],
+                                        [
+                                            149.907318,
+                                            -35.246449001
+                                        ],
+                                        [
+                                            149.90712,
+                                            -35.2464639999999
+                                        ],
+                                        [
+                                            149.906921,
+                                            -35.246498001
+                                        ],
+                                        [
+                                            149.906723,
+                                            -35.246536001
+                                        ],
+                                        [
+                                            149.906525,
+                                            -35.2465589999999
+                                        ],
+                                        [
+                                            149.906326,
+                                            -35.2465589999999
+                                        ],
+                                        [
+                                            149.906127999,
+                                            -35.246544001
+                                        ],
+                                        [
+                                            149.905929999,
+                                            -35.246502001
+                                        ],
+                                        [
+                                            149.905762001,
+                                            -35.246407
+                                        ],
+                                        [
+                                            149.905669999,
+                                            -35.246265001
+                                        ],
+                                        [
+                                            149.905594,
+                                            -35.246117001
+                                        ],
+                                        [
+                                            149.905547999,
+                                            -35.245953002
+                                        ],
+                                        [
+                                            149.905487001,
+                                            -35.245792001
+                                        ],
+                                        [
+                                            149.905411,
+                                            -35.245640001
+                                        ],
+                                        [
+                                            149.905319,
+                                            -35.2454910009999
+                                        ],
+                                        [
+                                            149.905228,
+                                            -35.2453419999999
+                                        ],
+                                        [
+                                            149.905120999,
+                                            -35.245285
+                                        ],
+                                        [
+                                            149.905211999,
+                                            -35.245258001
+                                        ],
+                                        [
+                                            149.905350001,
+                                            -35.2451320009999
+                                        ],
+                                        [
+                                            149.905517999,
+                                            -35.2450180019999
+                                        ],
+                                        [
+                                            149.905700999,
+                                            -35.2449340009999
+                                        ],
+                                        [
+                                            149.905869001,
+                                            -35.2448620009999
+                                        ],
+                                        [
+                                            149.906051999,
+                                            -35.2447740009999
+                                        ],
+                                        [
+                                            149.906219,
+                                            -35.244675002
+                                        ],
+                                        [
+                                            149.90624213,
+                                            -35.244661371
+                                        ],
+                                        [
+                                            149.906274912,
+                                            -35.244642052
+                                        ],
+                                        [
+                                            149.906387,
+                                            -35.2445759999999
+                                        ],
+                                        [
+                                            149.906555001,
+                                            -35.244492001
+                                        ],
+                                        [
+                                            149.906754,
+                                            -35.2444649999999
+                                        ],
+                                        [
+                                            149.906952001,
+                                            -35.2444839999999
+                                        ],
+                                        [
+                                            149.907135,
+                                            -35.244427001
+                                        ],
+                                        [
+                                            149.907333,
+                                            -35.2444110009999
+                                        ],
+                                        [
+                                            149.907532,
+                                            -35.244446001
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Nerriga Rd, Marlowe",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
+                "subcategory": "grass fire",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482868",
-                "created": "2023-02-03T22:52:00+11:00",
-                "updated": "2023-02-04T09:52:00+11:00",
+                "created": "2023-02-04T00:56:00+11:00",
+                "updated": "2023-02-04T11:56:00+11:00",
                 "location": "Nerriga Rd, Marlowe,  2622",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Nerriga Rd, Marlowe,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 09:52",
+                "size": 6,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Nerriga Rd, Marlowe,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 11:56",
                 "title": "incident: fire"
             }
         },
@@ -1885,11 +2131,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482301",
-                "created": "2023-02-03T08:26:00+11:00",
-                "updated": "2023-02-03T19:26:00+11:00",
+                "created": "2023-02-03T23:29:00+11:00",
+                "updated": "2023-02-04T10:29:00+11:00",
                 "location": "Tee Tree Creek Rd",
                 "size": 57,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Tee Tree Creek Rd <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 57 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Feb 2023 19:26",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Tee Tree Creek Rd <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 57 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 10:29",
                 "title": "incident: fire"
             }
         },
@@ -2007,6 +2253,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.0956470000001,
+                    -30.053379999999947
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Andersons Mountain Rd, Upper Corindi",
+                "category": "other",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482874",
+                "created": "2023-02-03T23:52:00+11:00",
+                "updated": "2023-02-04T10:52:00+11:00",
+                "location": "Andersons Mountain Rd, Upper Corindi, NSW 2456",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Andersons Mountain Rd, Upper Corindi, NSW 2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 10:52",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.80969643600008,
                     -32.05655420199997
                 ]
@@ -2103,23 +2373,47 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.2930960000001,
-                    -33.63802099999998
+                    149.11268800000005,
+                    -33.33668099999994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kevin Av, Scotland Island",
+                "sourceTitle": "Huntley Rd, Spring Creek",
                 "category": "other",
                 "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482863",
-                "created": "2023-02-03T22:14:00+11:00",
-                "updated": "2023-02-04T09:14:00+11:00",
-                "location": "Kevin Av, Scotland Island, NSW 2105",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482877",
+                "created": "2023-02-04T00:56:00+11:00",
+                "updated": "2023-02-04T11:56:00+11:00",
+                "location": "417 Huntley Rd, Spring Creek, NSW 2800",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kevin Av, Scotland Island, NSW 2105 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 4 Feb 2023 09:14",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 417 Huntley Rd, Spring Creek, NSW 2800 <br />COUNCIL AREA: Orange <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 11:56",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.8227280000001,
+                    -33.52593399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Moles Rd, Wilberforce",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482879",
+                "created": "2023-02-04T00:58:00+11:00",
+                "updated": "2023-02-04T11:58:00+11:00",
+                "location": "3 Moles Rd, Wilberforce, NSW 2756",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3 Moles Rd, Wilberforce, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 11:58",
+                "title": "incident: fire"
             }
         },
         {
@@ -2167,6 +2461,30 @@
                 "location": "13 Central Rd, Port Macquarie",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 Central Rd, Port Macquarie <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 3 Feb 2023 16:27",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.67636100000004,
+                    -32.95628099999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Putty Valley Rd, Putty",
+                "category": "other",
+                "subcategory": "medical",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482878",
+                "created": "2023-02-04T00:56:00+11:00",
+                "updated": "2023-02-04T11:56:00+11:00",
+                "location": "Unit A/216 Putty Valley Rd, Putty, NSW 2330",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit A/216 Putty Valley Rd, Putty, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 11:56",
                 "title": "incident: other"
             }
         },
