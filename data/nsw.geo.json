@@ -2058,10 +2058,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.05730700000004,
-                    -29.314493999999968
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.05730700000004,
+                            -29.314493999999968
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.056569945,
+                                            -29.315198054
+                                        ],
+                                        [
+                                            151.059187352,
+                                            -29.3131755119999
+                                        ],
+                                        [
+                                            151.066206763,
+                                            -29.312045267
+                                        ],
+                                        [
+                                            151.066861114,
+                                            -29.3131160249999
+                                        ],
+                                        [
+                                            151.066325736,
+                                            -29.314781648
+                                        ],
+                                        [
+                                            151.062756543,
+                                            -29.315495486
+                                        ],
+                                        [
+                                            151.059068379,
+                                            -29.3161498379999
+                                        ],
+                                        [
+                                            151.056569945,
+                                            -29.315198054
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2100,30 +2149,6 @@
                 "location": "1218 Wallangra Rd, Wallangra, NSW 2360",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 1218 Wallangra Rd, Wallangra, NSW 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 18:05",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.78740167600006,
-                    -31.47385866299993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Warrew Cr, King Creek",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/482906",
-                "created": "2023-02-04T05:25:00+11:00",
-                "updated": "2023-02-04T16:25:00+11:00",
-                "location": "Warrew Cr, King Creek, NSW 2446",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Warrew Cr, King Creek, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2023 16:25",
                 "title": "incident: fire"
             }
         },
@@ -2411,29 +2436,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.853286299,
-                                            -32.664369004
-                                        ],
-                                        [
-                                            149.853288401,
-                                            -32.664369743
-                                        ],
-                                        [
-                                            149.853285617,
-                                            -32.6643710029999
-                                        ],
-                                        [
-                                            149.853286299,
-                                            -32.664369004
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             149.853112312,
                                             -32.6637706289999
                                         ],
@@ -2620,6 +2622,29 @@
                                         [
                                             149.853112312,
                                             -32.6637706289999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.853286299,
+                                            -32.664369004
+                                        ],
+                                        [
+                                            149.853288401,
+                                            -32.664369743
+                                        ],
+                                        [
+                                            149.853285617,
+                                            -32.6643710029999
+                                        ],
+                                        [
+                                            149.853286299,
+                                            -32.664369004
                                         ]
                                     ]
                                 ]
