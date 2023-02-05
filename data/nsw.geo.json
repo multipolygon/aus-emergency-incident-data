@@ -1270,13 +1270,13 @@
                 "sourceTitle": "Donald Ross Dr, Darlington Point",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/483032",
-                "created": "2023-02-05T04:38:00+11:00",
-                "updated": "2023-02-05T15:38:00+11:00",
+                "created": "2023-02-05T05:20:00+11:00",
+                "updated": "2023-02-05T16:20:00+11:00",
                 "location": "Donald Ross Dr, Darlington Point, NSW 2706",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Donald Ross Dr, Darlington Point, NSW 2706 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 15:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Donald Ross Dr, Darlington Point, NSW 2706 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 16:20",
                 "title": "incident: fire"
             }
         },
@@ -1307,10 +1307,94 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.48655299900008,
-                    -32.23954299999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.51115035700002,
+                            -32.23883840499997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.49686182,
+                                            -32.237760134
+                                        ],
+                                        [
+                                            150.495877207,
+                                            -32.237890987
+                                        ],
+                                        [
+                                            150.496206044,
+                                            -32.237676861
+                                        ],
+                                        [
+                                            150.49686182,
+                                            -32.237760134
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.494326269,
+                                            -32.23847398
+                                        ],
+                                        [
+                                            150.496015687,
+                                            -32.237891012
+                                        ],
+                                        [
+                                            150.497443363,
+                                            -32.237998088
+                                        ],
+                                        [
+                                            150.498609299,
+                                            -32.2374865039999
+                                        ],
+                                        [
+                                            150.499810927,
+                                            -32.23728425
+                                        ],
+                                        [
+                                            150.501833469,
+                                            -32.2388308989999
+                                        ],
+                                        [
+                                            150.500334408,
+                                            -32.239235408
+                                        ],
+                                        [
+                                            150.497871667,
+                                            -32.2393543809999
+                                        ],
+                                        [
+                                            150.496194146,
+                                            -32.239175922
+                                        ],
+                                        [
+                                            150.494992518,
+                                            -32.2388190029999
+                                        ],
+                                        [
+                                            150.494326269,
+                                            -32.23847398
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1661,8 +1745,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.84881200000007,
-                    -36.94399199999998
+                    149.84917044700012,
+                    -36.94424123299996
                 ]
             },
             "properties": {
@@ -1674,9 +1758,9 @@
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/483036",
                 "created": "2023-02-05T04:52:00+11:00",
                 "updated": "2023-02-05T15:52:00+11:00",
-                "location": "Mount Darragh Rd, South Pambula, NSW 2549",
+                "location": "148 Mount Darragh Rd, South Pambula, NSW 2549",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Mount Darragh Rd, South Pambula, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 15:52",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 148 Mount Darragh Rd, South Pambula, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 15:52",
                 "title": "incident: fire"
             }
         },
@@ -2447,30 +2531,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.18542000000002,
-                    -34.511090999999965
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Conapaira St, Whitton",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/483031",
-                "created": "2023-02-05T04:54:00+11:00",
-                "updated": "2023-02-05T15:54:00+11:00",
-                "location": "12 Conapaira St, Whitton, NSW 2705",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 12 Conapaira St, Whitton, NSW 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 15:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.56000000000006,
                     -33.448099999999954
                 ]
@@ -2528,13 +2588,13 @@
                 "sourceTitle": "Evan St, Penrith",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/483041",
-                "created": "2023-02-05T05:10:00+11:00",
-                "updated": "2023-02-05T16:10:00+11:00",
+                "created": "2023-02-05T05:16:00+11:00",
+                "updated": "2023-02-05T16:16:00+11:00",
                 "location": "Evan St, Penrith, NSW 2750",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Evan St, Penrith, NSW 2750 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 5 Feb 2023 16:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Evan St, Penrith, NSW 2750 <br />COUNCIL AREA: Penrith <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 5 Feb 2023 16:16",
                 "title": "incident: fire"
             }
         },
@@ -2560,6 +2620,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bourke <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 5 Feb 2023 00:29",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.95969599900002,
+                    -30.06737899999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kamilaroi Hwy, Burren Junction",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/483040",
+                "created": "2023-02-05T05:00:00+11:00",
+                "updated": "2023-02-05T16:00:00+11:00",
+                "location": "Kamilaroi Hwy, Burren Junction, NSW 2386",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kamilaroi Hwy, Burren Junction, NSW 2386 <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 16:00",
+                "title": "incident: fire"
             }
         },
         {
@@ -2674,11 +2758,11 @@
                 "subcategory": "other",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/483038",
-                "created": "2023-02-05T04:54:00+11:00",
-                "updated": "2023-02-05T15:54:00+11:00",
+                "created": "2023-02-05T05:10:00+11:00",
+                "updated": "2023-02-05T16:10:00+11:00",
                 "location": "668 Split Rock Dam Rd, Upper Manilla, NSW 2346",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 668 Split Rock Dam Rd, Upper Manilla, NSW 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 15:54",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 668 Split Rock Dam Rd, Upper Manilla, NSW 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 16:10",
                 "title": "incident: fire"
             }
         },
@@ -2751,6 +2835,30 @@
                 "location": "105 Warks Hill Rd, Kurrajong Heights, NSW 2758",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 105 Warks Hill Rd, Kurrajong Heights, NSW 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 15:22",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.74817900000005,
+                    -31.265706999999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Werris Creek Rd, Currabubula",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/483042",
+                "created": "2023-02-05T05:12:00+11:00",
+                "updated": "2023-02-05T16:12:00+11:00",
+                "location": "3452 Werris Creek Rd, Currabubula, NSW 2342",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3452 Werris Creek Rd, Currabubula, NSW 2342 <br />COUNCIL AREA: Liverpool Plains <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Feb 2023 16:12",
                 "title": "incident: fire"
             }
         }
