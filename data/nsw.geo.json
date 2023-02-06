@@ -1165,13 +1165,13 @@
                 "sourceTitle": "Coraki Ellangowan Rd, West Coraki",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/483164",
-                "created": "2023-02-06T06:59:00+11:00",
-                "updated": "2023-02-06T17:59:00+11:00",
+                "created": "2023-02-06T07:26:00+11:00",
+                "updated": "2023-02-06T18:26:00+11:00",
                 "location": "865 Coraki Ellangowan Rd, West Coraki, NSW 2471",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 865 Coraki Ellangowan Rd, West Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Feb 2023 17:59",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 865 Coraki Ellangowan Rd, West Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Feb 2023 18:26",
                 "title": "incident: fire"
             }
         },
@@ -1347,10 +1347,99 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.44353300000012,
-                    -32.96228699999995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.44353300000012,
+                            -32.96228699999995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.442300803,
+                                            -32.96068900900014
+                                        ],
+                                        [
+                                            149.4428004899998,
+                                            -32.96240221999991
+                                        ],
+                                        [
+                                            149.44349053400006,
+                                            -32.9644247630001
+                                        ],
+                                        [
+                                            149.44363852400014,
+                                            -32.96452400300007
+                                        ],
+                                        [
+                                            149.44346673900012,
+                                            -32.96430578999995
+                                        ],
+                                        [
+                                            149.4455130760001,
+                                            -32.965781055999884
+                                        ],
+                                        [
+                                            149.44363852400014,
+                                            -32.96452400300007
+                                        ],
+                                        [
+                                            149.44434714000008,
+                                            -32.965424136999914
+                                        ],
+                                        [
+                                            149.44563204899993,
+                                            -32.96582864499992
+                                        ],
+                                        [
+                                            149.44810668800005,
+                                            -32.96449614699987
+                                        ],
+                                        [
+                                            149.4492012399999,
+                                            -32.962164275000006
+                                        ],
+                                        [
+                                            149.44948677600013,
+                                            -32.95947548400005
+                                        ],
+                                        [
+                                            149.448082894,
+                                            -32.95802401299995
+                                        ],
+                                        [
+                                            149.446250709,
+                                            -32.957357763999944
+                                        ],
+                                        [
+                                            149.44510856700003,
+                                            -32.95683428300014
+                                        ],
+                                        [
+                                            149.44399022099984,
+                                            -32.95740535300009
+                                        ],
+                                        [
+                                            149.44377606899985,
+                                            -32.95811919200005
+                                        ],
+                                        [
+                                            149.442300803,
+                                            -32.96068900900014
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1832,49 +1921,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            150.499135084,
-                                            -32.237986075
-                                        ],
-                                        [
-                                            150.499313543,
-                                            -32.2381169459999
-                                        ],
-                                        [
-                                            150.499111289,
-                                            -32.238521454
-                                        ],
-                                        [
-                                            150.498361759,
-                                            -32.2388664759999
-                                        ],
-                                        [
-                                            150.497981045,
-                                            -32.238723708
-                                        ],
-                                        [
-                                            150.497790688,
-                                            -32.238295406
-                                        ],
-                                        [
-                                            150.498159504,
-                                            -32.238164535
-                                        ],
-                                        [
-                                            150.49870678,
-                                            -32.2380574589999
-                                        ],
-                                        [
-                                            150.499135084,
-                                            -32.237986075
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             150.502597199,
                                             -32.238830784
                                         ],
@@ -1965,6 +2011,49 @@
                                         [
                                             150.502597199,
                                             -32.238830784
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.499135084,
+                                            -32.237986075
+                                        ],
+                                        [
+                                            150.499313543,
+                                            -32.2381169459999
+                                        ],
+                                        [
+                                            150.499111289,
+                                            -32.238521454
+                                        ],
+                                        [
+                                            150.498361759,
+                                            -32.2388664759999
+                                        ],
+                                        [
+                                            150.497981045,
+                                            -32.238723708
+                                        ],
+                                        [
+                                            150.497790688,
+                                            -32.238295406
+                                        ],
+                                        [
+                                            150.498159504,
+                                            -32.238164535
+                                        ],
+                                        [
+                                            150.49870678,
+                                            -32.2380574589999
+                                        ],
+                                        [
+                                            150.499135084,
+                                            -32.237986075
                                         ]
                                     ]
                                 ]
@@ -3200,30 +3289,6 @@
                 "location": "Werai South Rd, Wakool, NSW 2710",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Werai South Rd, Wakool, NSW 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Feb 2023 14:50",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.54015700000002,
-                    -33.94606399999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Arkstone Rd, Burraga",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/483162",
-                "created": "2023-02-06T06:06:00+11:00",
-                "updated": "2023-02-06T17:06:00+11:00",
-                "location": "Arkstone Rd, Burraga, NSW 2795",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Arkstone Rd, Burraga, NSW 2795 <br />COUNCIL AREA: Oberon <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Feb 2023 17:06",
                 "title": "incident: fire"
             }
         },
