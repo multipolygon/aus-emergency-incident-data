@@ -589,11 +589,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485872",
-                "created": "2023-02-21T05:14:00+11:00",
-                "updated": "2023-02-21T16:14:00+11:00",
+                "created": "2023-02-21T05:35:00+11:00",
+                "updated": "2023-02-21T16:35:00+11:00",
                 "location": "320 Beragoo Rd, Grattai, NSW 2850",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 320 Beragoo Rd, Grattai, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 16:14",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 320 Beragoo Rd, Grattai, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 16:35",
                 "title": "incident: fire"
             }
         },
@@ -1056,13 +1056,13 @@
                 "sourceTitle": "Colleen Hagney Lane, Peel",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485852",
-                "created": "2023-02-21T04:00:00+11:00",
-                "updated": "2023-02-21T15:00:00+11:00",
+                "created": "2023-02-21T05:39:00+11:00",
+                "updated": "2023-02-21T16:39:00+11:00",
                 "location": "Colleen Hagney Lane, Peel, NSW 2795",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Colleen Hagney Lane, Peel, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 15:00",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Colleen Hagney Lane, Peel, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 16:39",
                 "title": "incident: fire"
             }
         },
@@ -2889,10 +2889,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.13766700000008,
-                    -32.39903799999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.13766700000008,
+                            -32.39903799999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.138134381,
+                                            -32.3964962759999
+                                        ],
+                                        [
+                                            149.137723922,
+                                            -32.3974956509999
+                                        ],
+                                        [
+                                            149.137039828,
+                                            -32.3973945239999
+                                        ],
+                                        [
+                                            149.137105264,
+                                            -32.397085193
+                                        ],
+                                        [
+                                            149.137099314,
+                                            -32.397097091
+                                        ],
+                                        [
+                                            149.136343836,
+                                            -32.3957110549999
+                                        ],
+                                        [
+                                            149.137378901,
+                                            -32.395354136
+                                        ],
+                                        [
+                                            149.138057047,
+                                            -32.3952887
+                                        ],
+                                        [
+                                            149.138419915,
+                                            -32.395538544
+                                        ],
+                                        [
+                                            149.138134381,
+                                            -32.3964962759999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4049,6 +4106,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.69382900000005,
+                    -33.31338299999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Limekilns Rd, Clear Creek",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485860",
+                "created": "2023-02-21T05:40:00+11:00",
+                "updated": "2023-02-21T16:40:00+11:00",
+                "location": "Limekilns Rd, Clear Creek, NSW 2795",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Limekilns Rd, Clear Creek, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 16:40",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.67915999900003,
                     -33.32463999999993
                 ]
@@ -4073,30 +4154,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.69382900000005,
-                    -33.31338299999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Limekilns Rd, Clear Creek",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485860",
-                "created": "2023-02-21T04:24:00+11:00",
-                "updated": "2023-02-21T15:24:00+11:00",
-                "location": "Limekilns Rd, Clear Creek, NSW 2795",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Limekilns Rd, Clear Creek, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 15:24",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.73353400100007,
                     -33.20563300099997
                 ]
@@ -4106,13 +4163,13 @@
                 "sourceTitle": "Limekilns Rd, Paling Yards",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485855",
-                "created": "2023-02-21T04:22:00+11:00",
-                "updated": "2023-02-21T15:22:00+11:00",
+                "created": "2023-02-21T05:38:00+11:00",
+                "updated": "2023-02-21T16:38:00+11:00",
                 "location": "Limekilns Rd, Paling Yards, NSW 2795",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Limekilns Rd, Paling Yards, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 15:22",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Limekilns Rd, Paling Yards, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 16:38",
                 "title": "incident: fire"
             }
         },
@@ -4691,22 +4748,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.1527420000001,
-                    -35.61520699999994
+                    149.24477577100004,
+                    -32.42563982699994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Monaro Hwy, Williamsdale",
+                "sourceTitle": "Mollys Mountain, Goolma",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "bushfire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485847",
-                "created": "2023-02-21T03:36:00+11:00",
-                "updated": "2023-02-21T14:36:00+11:00",
-                "location": "Monaro Hwy, Williamsdale, NSW 2620",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485882",
+                "created": "2023-02-21T05:40:00+11:00",
+                "updated": "2023-02-21T16:40:00+11:00",
+                "location": "Unnamed Road, Goolma, NSW 2852",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Monaro Hwy, Williamsdale, NSW 2620 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 14:36",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Unnamed Road, Goolma, NSW 2852 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 16:40",
                 "title": "incident: fire"
             }
         },
@@ -6004,6 +6061,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.72003900000004,
+                    -33.27152899999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Scenic Dr, Cudal",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485873",
+                "created": "2023-02-21T05:39:00+11:00",
+                "updated": "2023-02-21T16:39:00+11:00",
+                "location": "Scenic Dr, Cudal, NSW 2864",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Scenic Dr, Cudal, NSW 2864 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 16:39",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.333704,
                     -34.23756899999995
                 ]
@@ -6543,33 +6624,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            151.227275627,
-                                            -32.671469879
-                                        ],
-                                        [
-                                            151.227561162,
-                                            -32.6697328719999
-                                        ],
-                                        [
-                                            151.227822902,
-                                            -32.6697566669999
-                                        ],
-                                        [
-                                            151.227537367,
-                                            -32.6716364399999
-                                        ],
-                                        [
-                                            151.227275627,
-                                            -32.671469879
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             151.202854997,
                                             -32.669043245
                                         ],
@@ -6588,6 +6642,33 @@
                                         [
                                             151.202854997,
                                             -32.669043245
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.227275627,
+                                            -32.671469879
+                                        ],
+                                        [
+                                            151.227561162,
+                                            -32.6697328719999
+                                        ],
+                                        [
+                                            151.227822902,
+                                            -32.6697566669999
+                                        ],
+                                        [
+                                            151.227537367,
+                                            -32.6716364399999
+                                        ],
+                                        [
+                                            151.227275627,
+                                            -32.671469879
                                         ]
                                     ]
                                 ]
@@ -6707,33 +6788,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            151.205137112,
-                                            -32.675495922
-                                        ],
-                                        [
-                                            151.210193467,
-                                            -32.67347338
-                                        ],
-                                        [
-                                            151.207814006,
-                                            -32.675341257
-                                        ],
-                                        [
-                                            151.205470237,
-                                            -32.6759956079999
-                                        ],
-                                        [
-                                            151.205137112,
-                                            -32.675495922
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             151.225945509,
                                             -32.6641851589999
                                         ],
@@ -6838,6 +6892,33 @@
                                         [
                                             151.226323842,
                                             -32.681582588
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.205137112,
+                                            -32.675495922
+                                        ],
+                                        [
+                                            151.210193467,
+                                            -32.67347338
+                                        ],
+                                        [
+                                            151.207814006,
+                                            -32.675341257
+                                        ],
+                                        [
+                                            151.205470237,
+                                            -32.6759956079999
+                                        ],
+                                        [
+                                            151.205137112,
+                                            -32.675495922
                                         ]
                                     ]
                                 ]
@@ -8804,6 +8885,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.68477200000007,
+                    -33.563417999999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Valetta Lane, Moorbel",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485878",
+                "created": "2023-02-21T05:47:00+11:00",
+                "updated": "2023-02-21T16:47:00+11:00",
+                "location": "Valetta Lane, Moorbel, NSW 2804",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Valetta Lane, Moorbel, NSW 2804 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 16:47",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -10558,13 +10663,13 @@
                 "sourceTitle": "Arina Rd, Bargo",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485848",
-                "created": "2023-02-21T04:27:00+11:00",
-                "updated": "2023-02-21T15:27:00+11:00",
+                "created": "2023-02-21T05:48:00+11:00",
+                "updated": "2023-02-21T16:48:00+11:00",
                 "location": "305 Arina Rd, Bargo, NSW 2574",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 305 Arina Rd, Bargo, NSW 2574 <br />COUNCIL AREA: Wollondilly <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 15:27",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 305 Arina Rd, Bargo, NSW 2574 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 16:48",
                 "title": "incident: other"
             }
         },
@@ -10669,22 +10774,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.02964200000008,
-                    -29.59487299999995
+                    149.1108012200001,
+                    -33.273022483999966
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lawrence Rd, Southgate",
+                "sourceTitle": "McLachlan St ",
                 "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485831",
-                "created": "2023-02-21T03:13:00+11:00",
-                "updated": "2023-02-21T14:13:00+11:00",
-                "location": "1549 Lawrence Rd, Southgate, NSW 2460",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485880",
+                "created": "2023-02-21T05:44:00+11:00",
+                "updated": "2023-02-21T16:44:00+11:00",
+                "location": "270 McLachlan St Orange",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1549 Lawrence Rd, Southgate, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Feb 2023 14:13",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 270 McLachlan St Orange <br />COUNCIL AREA: Orange <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 21 Feb 2023 16:44",
                 "title": "incident: other"
             }
         },
@@ -10693,22 +10798,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.5382390000001,
-                    -33.42971599999993
+                    153.09323900000004,
+                    -30.354970999999978
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mid Western Hwy, Robin Hill",
+                "sourceTitle": "Minorie Dr, Toormina",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485843",
-                "created": "2023-02-21T03:46:00+11:00",
-                "updated": "2023-02-21T14:46:00+11:00",
-                "location": "Mid Western Hwy, Robin Hill, NSW 2795",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485881",
+                "created": "2023-02-21T05:38:00+11:00",
+                "updated": "2023-02-21T16:38:00+11:00",
+                "location": "Minorie Dr, Toormina, NSW 2452",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mid Western Hwy, Robin Hill, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Feb 2023 14:46",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Minorie Dr, Toormina, NSW 2452 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Feb 2023 16:38",
                 "title": "incident: fire"
             }
         },
@@ -10757,30 +10862,6 @@
                 "location": "Wentworth",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wentworth <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 20 Feb 2023 21:06",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.91172218400004,
-                    -33.999566021999954
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Simmos Beach",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485879",
-                "created": "2023-02-21T04:55:00+11:00",
-                "updated": "2023-02-21T15:55:00+11:00",
-                "location": "simmos Beach fifth av holsworthy",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: simmos Beach fifth av holsworthy <br />COUNCIL AREA: Campbelltown <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 21 Feb 2023 15:55",
                 "title": "incident: other"
             }
         },
