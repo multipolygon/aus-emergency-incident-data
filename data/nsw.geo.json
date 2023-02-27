@@ -250,10 +250,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.94225500000005,
-                    -29.471258999999975
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.94225500000005,
+                            -29.471258999999975
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.915575939,
+                                            -29.4795787689999
+                                        ],
+                                        [
+                                            151.91313705,
+                                            -29.480551125
+                                        ],
+                                        [
+                                            151.907618889,
+                                            -29.4783078839999
+                                        ],
+                                        [
+                                            151.903992167,
+                                            -29.4741702379999
+                                        ],
+                                        [
+                                            151.904718884,
+                                            -29.4676012379999
+                                        ],
+                                        [
+                                            151.908269828,
+                                            -29.461061405
+                                        ],
+                                        [
+                                            151.912611592,
+                                            -29.463062366
+                                        ],
+                                        [
+                                            151.915441945,
+                                            -29.4662879799999
+                                        ],
+                                        [
+                                            151.919565956,
+                                            -29.470404747
+                                        ],
+                                        [
+                                            151.921150121,
+                                            -29.4736089969999
+                                        ],
+                                        [
+                                            151.920437935,
+                                            -29.47734392
+                                        ],
+                                        [
+                                            151.918515807,
+                                            -29.4786583649999
+                                        ],
+                                        [
+                                            151.915575939,
+                                            -29.4795787689999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -261,13 +330,13 @@
                 "sourceTitle": "Bezzants Rd, Deepwater",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486523",
-                "created": "2023-02-27T03:06:00+11:00",
-                "updated": "2023-02-27T14:06:00+11:00",
+                "created": "2023-02-27T04:30:00+11:00",
+                "updated": "2023-02-27T15:30:00+11:00",
                 "location": "1136 Bezzants Rd, Deepwater,  2371",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1136 Bezzants Rd, Deepwater,  2371 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 14:06",
+                "size": 234,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1136 Bezzants Rd, Deepwater,  2371 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 234 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:30",
                 "title": "incident: fire"
             }
         },
@@ -1832,13 +1901,13 @@
                 "sourceTitle": "Five Chain Lane, Cooks Myalls",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486528",
-                "created": "2023-02-27T04:10:00+11:00",
-                "updated": "2023-02-27T15:10:00+11:00",
+                "created": "2023-02-27T04:35:00+11:00",
+                "updated": "2023-02-27T15:35:00+11:00",
                 "location": "Five Chain Lane, Cooks Myalls, NSW 2870",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Five Chain Lane, Cooks Myalls, NSW 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:10",
+                "size": 15,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Five Chain Lane, Cooks Myalls, NSW 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 15 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:35",
                 "title": "incident: fire"
             }
         },
@@ -2096,30 +2165,6 @@
                 "location": "Geegullalong Road, Murringo NSW 2586",
                 "size": 250,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Geegullalong Road, Murringo NSW 2586 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 250 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 00:39",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.16919135600006,
-                    -36.366715227999975
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Geehi Campground Accs, Geehi",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486326",
-                "created": "2023-02-26T23:13:00+11:00",
-                "updated": "2023-02-27T10:13:00+11:00",
-                "location": "Geehi Campground Accs, Geehi, NSW 2642",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Geehi Campground Accs, Geehi, NSW 2642 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 10:13",
                 "title": "incident: fire"
             }
         },
@@ -2977,6 +3022,65 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.615995603,
+                                            -33.7845383449999
+                                        ],
+                                        [
+                                            149.615198484,
+                                            -33.784907163
+                                        ],
+                                        [
+                                            149.615484019,
+                                            -33.7858708439999
+                                        ],
+                                        [
+                                            149.614936743,
+                                            -33.7858351519999
+                                        ],
+                                        [
+                                            149.614710695,
+                                            -33.786073098
+                                        ],
+                                        [
+                                            149.614329981,
+                                            -33.7860968919999
+                                        ],
+                                        [
+                                            149.613568553,
+                                            -33.785609103
+                                        ],
+                                        [
+                                            149.612616768,
+                                            -33.7861682769999
+                                        ],
+                                        [
+                                            149.612628666,
+                                            -33.7842766049999
+                                        ],
+                                        [
+                                            149.614234803,
+                                            -33.7838364049999
+                                        ],
+                                        [
+                                            149.615246073,
+                                            -33.7840029669999
+                                        ],
+                                        [
+                                            149.615995603,
+                                            -33.784514551
+                                        ],
+                                        [
+                                            149.615995603,
+                                            -33.7845383449999
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -3018,6 +3122,30 @@
                 "location": "284 Humula Eight Mile Rd, Humula, NSW 2652",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 284 Humula Eight Mile Rd, Humula, NSW 2652 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 00:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.56230300000004,
+                    -33.91683200099993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Judds Lane, Weethalle",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486530",
+                "created": "2023-02-27T04:14:00+11:00",
+                "updated": "2023-02-27T15:14:00+11:00",
+                "location": "Judds Lane, Weethalle, NSW 2669",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Judds Lane, Weethalle, NSW 2669 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:14",
                 "title": "incident: fire"
             }
         },
@@ -3303,6 +3431,30 @@
                 "location": "7346 Kidman Way, Darlington Point, NSW 2706",
                 "size": 123,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 7346 Kidman Way, Darlington Point, NSW 2706 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 123 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 13:46",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.4740260000001,
+                    -33.299413999999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lake Cargelligo Rd, Lake Cargelligo",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486532",
+                "created": "2023-02-27T04:36:00+11:00",
+                "updated": "2023-02-27T15:36:00+11:00",
+                "location": "Lake Cargelligo Rd, Lake Cargelligo, NSW 2672",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Lake Cargelligo Rd, Lake Cargelligo, NSW 2672 <br />COUNCIL AREA: Lachlan <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:36",
                 "title": "incident: fire"
             }
         },
@@ -6348,6 +6500,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.93743200000006,
+                    -33.303309999999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yarrangong Rd, Yarragong",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486529",
+                "created": "2023-02-27T04:23:00+11:00",
+                "updated": "2023-02-27T15:23:00+11:00",
+                "location": "120 Yarrangong Rd, Yarragong, NSW 2871",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 120 Yarrangong Rd, Yarragong, NSW 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:23",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.08169364900004,
                     -28.817170234999935
                 ]
@@ -6372,23 +6548,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.73515987400003,
-                    -33.97607202299997
+                    150.20230300000003,
+                    -35.75782899999996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bringelly Rd, Bringelly",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486519",
-                "created": "2023-02-27T02:40:00+11:00",
-                "updated": "2023-02-27T13:40:00+11:00",
-                "location": "953 Bringelly Rd, Bringelly, NSW 2556",
+                "sourceTitle": "Eric Fenning Dr, Surf Beach",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486531",
+                "created": "2023-02-27T04:16:00+11:00",
+                "updated": "2023-02-27T15:16:00+11:00",
+                "location": "34 Eric Fenning Dr, Surf Beach, NSW 2536",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 953 Bringelly Rd, Bringelly, NSW 2556 <br />COUNCIL AREA: Camden <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 13:40",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 34 Eric Fenning Dr, Surf Beach, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:16",
+                "title": "incident: fire"
             }
         },
         {
@@ -6509,6 +6685,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wentworth <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 27 Feb 2023 00:35",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.58872500000007,
+                    -33.42317899999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Willawang Rd, Warroo",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486533",
+                "created": "2023-02-27T04:34:00+11:00",
+                "updated": "2023-02-27T15:34:00+11:00",
+                "location": "547 Willawang Rd, Warroo, NSW 2871",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 547 Willawang Rd, Warroo, NSW 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:34",
+                "title": "incident: fire"
             }
         }
     ]
