@@ -129,10 +129,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.3140840000001,
-                    -30.583797999999945
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.4002836740001,
+                            -30.60162344799994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.400093317,
+                                            -30.601444988
+                                        ],
+                                        [
+                                            151.400319366,
+                                            -30.6013141189999
+                                        ],
+                                        [
+                                            151.400533518,
+                                            -30.601492578
+                                        ],
+                                        [
+                                            151.400402647,
+                                            -30.601837599
+                                        ],
+                                        [
+                                            151.400129009,
+                                            -30.601742421
+                                        ],
+                                        [
+                                            151.400117112,
+                                            -30.6017305239999
+                                        ],
+                                        [
+                                            151.400093317,
+                                            -30.601444988
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1887,30 +1932,6 @@
                 "location": "3615 Coulsons Creek Rd, Merriwa, NSW 2329",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 3615 Coulsons Creek Rd, Merriwa, NSW 2329 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 18:24",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.7205560000001,
-                    -30.467375999999945
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Donald Rd, Armidale",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486579",
-                "created": "2023-02-27T07:56:00+11:00",
-                "updated": "2023-02-27T18:56:00+11:00",
-                "location": "Donald Rd, Armidale, NSW 2350",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Donald Rd, Armidale, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 18:56",
                 "title": "incident: fire"
             }
         },
@@ -3785,30 +3806,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.56230300000004,
-                    -33.91683200099993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Judds Lane, Weethalle",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486530",
-                "created": "2023-02-27T04:14:00+11:00",
-                "updated": "2023-02-27T15:14:00+11:00",
-                "location": "Judds Lane, Weethalle, NSW 2669",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Judds Lane, Weethalle, NSW 2669 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:14",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -4112,30 +4109,6 @@
                 "location": "Kidman Way, Tabbita, NSW 2652",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Kidman Way, Tabbita, NSW 2652 <br />COUNCIL AREA: Carrathool <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 18:48",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.3613580000001,
-                    -30.618113999999935
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kingstown Rd, Balala",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486568",
-                "created": "2023-02-27T07:18:00+11:00",
-                "updated": "2023-02-27T18:18:00+11:00",
-                "location": "Kingstown Rd, Balala, NSW 2358",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Kingstown Rd, Balala, NSW 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 18:18",
                 "title": "incident: fire"
             }
         },
@@ -4866,13 +4839,13 @@
                 "sourceTitle": "Marra Station 8620 West Tilpa Road",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/485938",
-                "created": "2023-02-27T02:19:00+11:00",
-                "updated": "2023-02-27T13:19:00+11:00",
+                "created": "2023-02-27T09:01:00+11:00",
+                "updated": "2023-02-27T20:01:00+11:00",
                 "location": "8620 West Tilpa Rd Wilcannia",
                 "size": 645,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 8620 West Tilpa Rd Wilcannia <br />COUNCIL AREA: Central Darling <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 645 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 13:19",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 8620 West Tilpa Rd Wilcannia <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 645 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 20:01",
                 "title": "incident: fire"
             }
         },
@@ -7377,6 +7350,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.27137100000004,
+                    -29.277448999999933
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Valley Rd, Ashford",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486584",
+                "created": "2023-02-27T08:50:00+11:00",
+                "updated": "2023-02-27T19:50:00+11:00",
+                "location": "538 South Valley Rd, Ashford, NSW 2361",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 538 South Valley Rd, Ashford, NSW 2361 <br />COUNCIL AREA: Inverell <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 19:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.84027500000002,
                     -35.90754999999996
                 ]
@@ -7482,13 +7479,37 @@
                 "sourceTitle": "Watsons Creek-Tilmunda Rd, Watsons Creek",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486582",
-                "created": "2023-02-27T08:22:00+11:00",
-                "updated": "2023-02-27T19:22:00+11:00",
+                "created": "2023-02-27T08:56:00+11:00",
+                "updated": "2023-02-27T19:56:00+11:00",
                 "location": "Watsons Creek-Tilmunda Rd, Watsons Creek, NSW 2355",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Watsons Creek-Tilmunda Rd, Watsons Creek, NSW 2355 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 19:22",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Watsons Creek-Tilmunda Rd, Watsons Creek, NSW 2355 <br />COUNCIL AREA: Tamworth <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 19:56",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.19629600000007,
+                    -32.69798399999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yaccaba Head Trk, Hawks Nest",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486588",
+                "created": "2023-02-27T09:12:00+11:00",
+                "updated": "2023-02-27T20:12:00+11:00",
+                "location": "Yaccaba Head Trk, Hawks Nest, NSW 2324",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Yaccaba Head Trk, Hawks Nest, NSW 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 20:12",
                 "title": "incident: fire"
             }
         },
@@ -7545,23 +7566,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.20827200000008,
-                    -34.01165299999997
+                    152.33413599900007,
+                    -32.18731999999994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bridges St, Kurnell",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486583",
-                "created": "2023-02-27T08:45:00+11:00",
-                "updated": "2023-02-27T19:45:00+11:00",
-                "location": "19 Bridges St, Kurnell, NSW 2231",
+                "sourceTitle": "Acacia Dr, Coolongolook",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486586",
+                "created": "2023-02-27T08:58:00+11:00",
+                "updated": "2023-02-27T19:58:00+11:00",
+                "location": "15 Acacia Dr, Coolongolook, NSW 2423",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 19 Bridges St, Kurnell, NSW 2231 <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 19:45",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 15 Acacia Dr, Coolongolook, NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 19:58",
+                "title": "incident: fire"
             }
         },
         {
@@ -7569,22 +7590,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.1656680000001,
-                    -35.372743999999955
+                    151.73273400000005,
+                    -30.56929299999996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "East Gilmore Rd, Gilmore",
+                "sourceTitle": "Castledoyle Rd, Castle Doyle",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486566",
-                "created": "2023-02-27T08:19:00+11:00",
-                "updated": "2023-02-27T19:19:00+11:00",
-                "location": "151 East Gilmore Rd, Gilmore, NSW 2720",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486587",
+                "created": "2023-02-27T09:10:00+11:00",
+                "updated": "2023-02-27T20:10:00+11:00",
+                "location": "703 Castledoyle Rd, Castle Doyle, NSW 2350",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 151 East Gilmore Rd, Gilmore, NSW 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 19:19",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 703 Castledoyle Rd, Castle Doyle, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 20:10",
                 "title": "incident: fire"
             }
         },
@@ -7609,6 +7630,30 @@
                 "location": "Bourke",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bourke <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 27 Feb 2023 00:32",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.49687300000005,
+                    -32.16692199999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Flora Pde, Tuncurry",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486585",
+                "created": "2023-02-27T08:56:00+11:00",
+                "updated": "2023-02-27T19:56:00+11:00",
+                "location": "22 Flora Pde, Tuncurry,  2428",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 22 Flora Pde, Tuncurry,  2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 27 Feb 2023 19:56",
                 "title": "incident: other"
             }
         },
@@ -7650,13 +7695,13 @@
                 "sourceTitle": "Gundaroo Rd, Bellmount Forest",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486567",
-                "created": "2023-02-27T07:14:00+11:00",
-                "updated": "2023-02-27T18:14:00+11:00",
+                "created": "2023-02-27T08:49:00+11:00",
+                "updated": "2023-02-27T19:49:00+11:00",
                 "location": "5806 Gundaroo Rd, Bellmount Forest, NSW 2581",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5806 Gundaroo Rd, Bellmount Forest, NSW 2581 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 18:14",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5806 Gundaroo Rd, Bellmount Forest, NSW 2581 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 19:49",
                 "title": "incident: other"
             }
         },
@@ -7770,37 +7815,13 @@
                 "sourceTitle": "Upper Bingara Rd, Upper Bingara",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486573",
-                "created": "2023-02-27T07:32:00+11:00",
-                "updated": "2023-02-27T18:32:00+11:00",
+                "created": "2023-02-27T08:50:00+11:00",
+                "updated": "2023-02-27T19:50:00+11:00",
                 "location": "702 Upper Bingara Rd, Upper Bingara, NSW 2404",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 702 Upper Bingara Rd, Upper Bingara, NSW 2404 <br />COUNCIL AREA: Gwydir <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 18:32",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.58872500000007,
-                    -33.42317899999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Willawang Rd, Warroo",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/486533",
-                "created": "2023-02-27T04:34:00+11:00",
-                "updated": "2023-02-27T15:34:00+11:00",
-                "location": "547 Willawang Rd, Warroo, NSW 2871",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 547 Willawang Rd, Warroo, NSW 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 15:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 702 Upper Bingara Rd, Upper Bingara, NSW 2404 <br />COUNCIL AREA: Gwydir <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Feb 2023 19:50",
                 "title": "incident: fire"
             }
         }
