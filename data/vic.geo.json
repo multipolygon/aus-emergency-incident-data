@@ -658,14 +658,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Zurcas Lane",
+                "sourceTitle": "Murray Esp",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2023-03-02T17:21:00+11:00",
-                "updated": "2023-03-02T17:21:00+11:00",
-                "id": "ESTA:230300606",
-                "location": "Zurcas Lane, Shepparton",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2023-03-02T17:11:00+11:00",
+                "updated": "2023-03-02T17:35:00+11:00",
+                "id": "ESTA:230300599",
+                "location": "Murray Esp, Echuca",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -673,8 +673,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.42667932749,
-                    -36.38916071674366
+                    144.74923150148325,
+                    -36.12376405363174
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2023-03-02T17:38:00+11:00",
+                "updated": "2023-03-02T17:48:00+11:00",
+                "id": "ESTA:230350071",
+                "location": "Prahran",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98920991273587,
+                    -37.84834486728233
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-03-02T17:44:00+11:00",
+                "updated": "2023-03-02T17:46:00+11:00",
+                "id": "ESTA:230350072",
+                "location": "Reservoir",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99814400865876,
+                    -37.71699623625698
                 ]
             }
         },
@@ -727,67 +771,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murray Esp",
+                "sourceTitle": "Werribee",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2023-03-02T17:11:00+11:00",
-                "updated": "2023-03-02T17:24:00+11:00",
-                "id": "ESTA:230300599",
-                "location": "Murray Esp, Echuca",
-                "size": "Small",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2023-03-02T17:44:39+11:00",
+                "updated": "2023-03-02T17:47:07+11:00",
+                "id": "ESTA:230300612",
+                "location": "Heaths Rd, Werribee",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.74923150148325,
-                    -36.12376405363174
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Prahran",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "responding",
-                "created": "2023-03-02T17:36:49+11:00",
-                "updated": "2023-03-02T17:38:02+11:00",
-                "id": "ESTA:230350071",
-                "location": "Charles St, Prahran",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98922724674412,
-                    -37.84833793393709
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Prahran",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2023-03-02T17:36:49+11:00",
-                "updated": "2023-03-02T17:38:02+11:00",
-                "id": "ESTA:230300611",
-                "location": "Charles St, Prahran",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98922724674412,
-                    -37.84833793393709
+                    144.67470727228613,
+                    -37.876908468415294
                 ]
             }
         },
@@ -41792,6 +41791,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Zurcas Lane",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2023-03-02T17:21:00+11:00",
+                "updated": "2023-03-02T17:21:00+11:00",
+                "id": "ESTA:230300606",
+                "location": "Zurcas Lane, Shepparton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.42667932749,
+                    -36.38916071674366
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Lt Ryrie St",
                 "category": "other",
                 "subcategory": "other",
@@ -41841,9 +41863,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2023-03-02T17:13:00+11:00",
-                "updated": "2023-03-02T17:31:00+11:00",
+                "updated": "2023-03-02T17:42:00+11:00",
                 "id": "ESTA:230350070",
                 "location": "Scoresby",
                 "title": "incident: tree down"
