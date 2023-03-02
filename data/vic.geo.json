@@ -795,9 +795,9 @@
                 "sourceTitle": "Mclennan St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2023-03-03T01:47:00+11:00",
-                "updated": "2023-03-03T01:47:00+11:00",
+                "updated": "2023-03-03T01:59:00+11:00",
                 "id": "ESTA:230300702",
                 "location": "Mclennan St, Mooroopna",
                 "size": "Small",
@@ -809,6 +809,51 @@
                 "coordinates": [
                     145.36025992703534,
                     -36.394135450657195
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-03-03T02:00:00+11:00",
+                "updated": "2023-03-03T02:01:00+11:00",
+                "id": "ESTA:230350087",
+                "location": "Craigieburn",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91733623001727,
+                    -37.57418987780148
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hertford St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2023-03-03T00:50:00+11:00",
+                "updated": "2023-03-03T02:05:00+11:00",
+                "id": "ESTA:230300695",
+                "location": "Hertford St, Sebastopol",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.82807834438466,
+                    -37.58727730936712
                 ]
             }
         },
@@ -37843,116 +37888,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Goulburn 39 - Loop Track Warby Ovens National Park - Loop Track Warby Ovens National Park",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2023-01-13T11:00:00+11:00",
-                "updated": "2023-01-13T11:00:00+11:00",
-                "id": "9d8b3e34feed3b65263cd603aa406ee0",
-                "location": "Goulburn 39 - Loop Track Warby Ovens National Park - Loop Track Warby Ovens National Park",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            146.2368,
-                            -36.143
-                        ],
-                        [
-                            146.2369,
-                            -36.143
-                        ],
-                        [
-                            146.237,
-                            -36.1429
-                        ],
-                        [
-                            146.2372,
-                            -36.1429
-                        ],
-                        [
-                            146.2373,
-                            -36.1429
-                        ],
-                        [
-                            146.2376,
-                            -36.143
-                        ],
-                        [
-                            146.2376,
-                            -36.1431
-                        ],
-                        [
-                            146.2377,
-                            -36.1434
-                        ],
-                        [
-                            146.2376,
-                            -36.1435
-                        ],
-                        [
-                            146.2374,
-                            -36.1436
-                        ],
-                        [
-                            146.2371,
-                            -36.1436
-                        ],
-                        [
-                            146.2371,
-                            -36.1436
-                        ],
-                        [
-                            146.2371,
-                            -36.1437
-                        ],
-                        [
-                            146.237,
-                            -36.1437
-                        ],
-                        [
-                            146.2369,
-                            -36.1436
-                        ],
-                        [
-                            146.2368,
-                            -36.1436
-                        ],
-                        [
-                            146.2367,
-                            -36.1436
-                        ],
-                        [
-                            146.2367,
-                            -36.1435
-                        ],
-                        [
-                            146.2367,
-                            -36.1433
-                        ],
-                        [
-                            146.2367,
-                            -36.1433
-                        ],
-                        [
-                            146.2367,
-                            -36.1432
-                        ],
-                        [
-                            146.2368,
-                            -36.143
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Upper Murray 5 - Dartmouth - Italian Point",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -38703,6 +38638,116 @@
                         [
                             147.42,
                             -35.9559
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Goulburn 39 - Loop Track Warby Ovens National Park - Loop Track Warby Ovens National Park",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2023-01-13T11:00:00+11:00",
+                "updated": "2023-01-13T11:00:00+11:00",
+                "id": "9d8b3e34feed3b65263cd603aa406ee0",
+                "location": "Goulburn 39 - Loop Track Warby Ovens National Park - Loop Track Warby Ovens National Park",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            146.2368,
+                            -36.143
+                        ],
+                        [
+                            146.2369,
+                            -36.143
+                        ],
+                        [
+                            146.237,
+                            -36.1429
+                        ],
+                        [
+                            146.2372,
+                            -36.1429
+                        ],
+                        [
+                            146.2373,
+                            -36.1429
+                        ],
+                        [
+                            146.2376,
+                            -36.143
+                        ],
+                        [
+                            146.2376,
+                            -36.1431
+                        ],
+                        [
+                            146.2377,
+                            -36.1434
+                        ],
+                        [
+                            146.2376,
+                            -36.1435
+                        ],
+                        [
+                            146.2374,
+                            -36.1436
+                        ],
+                        [
+                            146.2371,
+                            -36.1436
+                        ],
+                        [
+                            146.2371,
+                            -36.1436
+                        ],
+                        [
+                            146.2371,
+                            -36.1437
+                        ],
+                        [
+                            146.237,
+                            -36.1437
+                        ],
+                        [
+                            146.2369,
+                            -36.1436
+                        ],
+                        [
+                            146.2368,
+                            -36.1436
+                        ],
+                        [
+                            146.2367,
+                            -36.1436
+                        ],
+                        [
+                            146.2367,
+                            -36.1435
+                        ],
+                        [
+                            146.2367,
+                            -36.1433
+                        ],
+                        [
+                            146.2367,
+                            -36.1433
+                        ],
+                        [
+                            146.2367,
+                            -36.1432
+                        ],
+                        [
+                            146.2368,
+                            -36.143
                         ]
                     ]
                 ]
@@ -41831,29 +41876,6 @@
                 "coordinates": [
                     145.32439838099413,
                     -37.29915893160802
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hertford St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2023-03-03T00:50:00+11:00",
-                "updated": "2023-03-03T00:50:00+11:00",
-                "id": "ESTA:230300695",
-                "location": "Hertford St, Sebastopol",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.82807834438466,
-                    -37.58727730936712
                 ]
             }
         },
