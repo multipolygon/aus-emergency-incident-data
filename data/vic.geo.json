@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            144.42261561053954,
+                            -37.655313962041554
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.41682203906794,
+                                    -37.65218826298842
+                                ],
+                                [
+                                    144.428173147622,
+                                    -37.65033646515545
+                                ],
+                                [
+                                    144.42868813175102,
+                                    -37.66029145892766
+                                ],
+                                [
+                                    144.41654308932803,
+                                    -37.65942512170962
+                                ],
+                                [
+                                    144.41682203906794,
+                                    -37.65218826298842
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Warning",
+                "category": "warning",
+                "subcategory": "cbrne",
+                "status": "moderate",
+                "created": "2023-03-09T15:08:16+11:00",
+                "updated": "2023-03-09T15:08:16+11:00",
+                "id": "29087",
+                "location": "Darley",
+                "title": "warning: warning"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             142.85626508680622,
                             -37.72376240567957
                         ]
@@ -101,60 +155,6 @@
                 "id": "29052",
                 "location": "Lake Bolac",
                 "title": "warning: community update"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            144.42261561053954,
-                            -37.655313962041554
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    144.41682203906794,
-                                    -37.65218826298842
-                                ],
-                                [
-                                    144.428173147622,
-                                    -37.65033646515545
-                                ],
-                                [
-                                    144.42868813175102,
-                                    -37.66029145892766
-                                ],
-                                [
-                                    144.41654308932803,
-                                    -37.65942512170962
-                                ],
-                                [
-                                    144.41682203906794,
-                                    -37.65218826298842
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Advice",
-                "category": "advice",
-                "subcategory": "cbrne",
-                "status": "minor",
-                "created": "2023-03-09T14:43:19+11:00",
-                "updated": "2023-03-09T14:43:20+11:00",
-                "id": "29085",
-                "location": "Darley",
-                "title": "warning: advice"
             }
         },
         {
@@ -390,16 +390,15 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "The Broadway -",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
                 "created": "2023-03-09T14:24:00+11:00",
-                "updated": "2023-03-09T14:26:00+11:00",
-                "id": "ESTA:230303067",
-                "location": "The Broadway -, Moriac",
-                "size": "Small",
-                "title": "incident: other"
+                "updated": "2023-03-09T15:02:00+11:00",
+                "id": "ESTA:230350580",
+                "location": "Moriac",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
@@ -413,36 +412,169 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Brunswick West",
+                "sourceTitle": "Melbourne",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2023-03-09T14:50:03+11:00",
+                "updated": "2023-03-09T15:05:21+11:00",
+                "id": "ESTA:230303080",
+                "location": "Exhibition St, Melbourne",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96999559814125,
+                    -37.812024033493735
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2023-03-09T15:06:00+11:00",
+                "updated": "2023-03-09T15:06:00+11:00",
+                "id": "ESTA:230303084",
+                "location": "Golden Point (Ballarat)",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.87055343409185,
+                    -37.56995093696429
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bentleigh East",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "responding",
-                "created": "2023-03-09T14:35:46+11:00",
-                "updated": "2023-03-09T14:38:21+11:00",
-                "id": "ESTA:230303075",
-                "location": "Brunswick West",
+                "created": "2023-03-09T15:05:45+11:00",
+                "updated": "2023-03-09T15:07:30+11:00",
+                "id": "ESTA:230303087",
+                "location": "Bentleigh East",
                 "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94574576254445,
-                    -37.75327740740567
+                    145.05922965841586,
+                    -37.92117608386092
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Clifton Springs Rd",
+                "sourceTitle": "Glenroy",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2023-03-09T15:05:11+11:00",
+                "updated": "2023-03-09T15:07:31+11:00",
+                "id": "ESTA:230303088",
+                "location": "Glenroy",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91614114578545,
+                    -37.70627679671223
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bentleigh East",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2023-03-09T15:04:56+11:00",
+                "updated": "2023-03-09T15:08:41+11:00",
+                "id": "ESTA:230303085",
+                "location": "Bentleigh East",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05898272610523,
+                    -37.921144251385726
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bentleigh East",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2023-03-09T15:05:17+11:00",
+                "updated": "2023-03-09T15:10:32+11:00",
+                "id": "ESTA:230303090",
+                "location": "Bentleigh East",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05898272610523,
+                    -37.921144251385726
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glenroy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-03-09T15:08:27+11:00",
+                "updated": "2023-03-09T15:10:45+11:00",
+                "id": "ESTA:230303089",
+                "location": "Glenroy",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.91668773779017,
+                    -37.70929933690157
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Oneill Lane",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "safe",
-                "created": "2023-03-09T13:47:00+11:00",
-                "updated": "2023-03-09T14:29:00+11:00",
-                "id": "ESTA:230303055",
-                "location": "Clifton Springs Rd, Drysdale",
+                "status": "responding",
+                "created": "2023-03-09T15:12:00+11:00",
+                "updated": "2023-03-09T15:12:00+11:00",
+                "id": "ESTA:230303091",
+                "location": "Oneill Lane, Sandy Creek",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -450,97 +582,98 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.571885544861,
-                    -38.16865353638235
+                    147.11908383088283,
+                    -36.35819241172201
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Woodmason Rd",
-                "category": "fire",
+                "sourceTitle": "Flora Hill",
+                "category": "other",
                 "subcategory": "other",
+                "status": "responding",
+                "created": "2023-03-09T15:13:00+11:00",
+                "updated": "2023-03-09T15:13:16+11:00",
+                "id": "ESTA:230303092",
+                "location": "Flora Hill",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.29127051075238,
+                    -36.77877124518713
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kings Park",
+                "category": "fire",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2023-03-09T14:39:00+11:00",
-                "updated": "2023-03-09T14:46:00+11:00",
-                "id": "ESTA:230303076",
-                "location": "Woodmason Rd, Boronia",
-                "size": "Small",
+                "created": "2023-03-09T15:00:03+11:00",
+                "updated": "2023-03-09T15:14:09+11:00",
+                "id": "ESTA:230303083",
+                "location": "Cresmont Ct, Kings Park",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.27982206712022,
-                    -37.85185975250821
+                    144.77342123725643,
+                    -37.727577827636516
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Thornhill Park",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2023-03-09T14:46:09+11:00",
-                "updated": "2023-03-09T14:46:30+11:00",
-                "id": "ESTA:230303077",
-                "location": "Thornhill Park",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.63423800357748,
-                    -37.731372701749216
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thornhill Park",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2023-03-09T14:47:39+11:00",
-                "updated": "2023-03-09T14:47:52+11:00",
-                "id": "ESTA:230303079",
-                "location": "Thornhill Park",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.63423800357748,
-                    -37.731372701749216
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bairnsdale",
+                "sourceTitle": "Giles St",
                 "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2023-03-09T14:46:23+11:00",
-                "updated": "2023-03-09T14:48:18+11:00",
+                "created": "2023-03-09T14:47:00+11:00",
+                "updated": "2023-03-09T15:04:00+11:00",
                 "id": "ESTA:230303078",
                 "location": "Giles St, Bairnsdale",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.61604342023048,
-                    -37.8386916130292
+                    147.6160266416689,
+                    -37.83870494319
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Monze Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-03-09T15:14:00+11:00",
+                "updated": "2023-03-09T15:14:00+11:00",
+                "id": "ESTA:230303093",
+                "location": "Monze Dr, Langwarrin",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20723636299064,
+                    -38.14899596495064
                 ]
             }
         },
@@ -45783,98 +45916,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Railway Access Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-03-09T13:42:00+11:00",
-                "updated": "2023-03-09T13:51:00+11:00",
-                "id": "ESTA:230303054",
-                "location": "Railway Access Rd, Chiltern",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.61136363795706,
-                    -36.15563659648725
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Norman Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-03-09T13:35:00+11:00",
-                "updated": "2023-03-09T13:57:00+11:00",
-                "id": "ESTA:230303050",
-                "location": "Norman Rd, Mount Martha",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.03412152384288,
-                    -38.25816392247481
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nagambie-Heathcote Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-03-09T12:58:00+11:00",
-                "updated": "2023-03-09T14:04:00+11:00",
-                "id": "ESTA:230303038",
-                "location": "Nagambie-Heathcote Rd, Heathcote",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7622854725854,
-                    -36.93177404497023
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Halletts Way",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "not yet under control",
-                "created": "2023-03-09T14:15:00+11:00",
-                "updated": "2023-03-09T14:15:00+11:00",
-                "id": "ESTA:230303065",
-                "location": "Halletts Way, Darley",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.42225083011866,
-                    -37.655416057069516
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ash Gr",
                 "category": "other",
                 "subcategory": "other",
@@ -45898,6 +45939,121 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "The Broadway -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-03-09T14:24:00+11:00",
+                "updated": "2023-03-09T14:26:00+11:00",
+                "id": "ESTA:230303067",
+                "location": "The Broadway -, Moriac",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.17387617219768,
+                    -38.242644991177706
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clifton Springs Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2023-03-09T13:47:00+11:00",
+                "updated": "2023-03-09T14:29:00+11:00",
+                "id": "ESTA:230303055",
+                "location": "Clifton Springs Rd, Drysdale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.571885544861,
+                    -38.16865353638235
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Woodmason Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-03-09T14:39:00+11:00",
+                "updated": "2023-03-09T14:46:00+11:00",
+                "id": "ESTA:230303076",
+                "location": "Woodmason Rd, Boronia",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27982206712022,
+                    -37.85185975250821
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Halletts Way",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "not yet under control",
+                "created": "2023-03-09T14:15:00+11:00",
+                "updated": "2023-03-09T14:48:00+11:00",
+                "id": "ESTA:230303065",
+                "location": "Halletts Way, Darley",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.42225083011866,
+                    -37.655416057069516
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "under control",
+                "created": "2023-03-09T14:46:00+11:00",
+                "updated": "2023-03-09T15:00:00+11:00",
+                "id": "ESTA:230303077",
+                "location": "Thornhill Park",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.63422618751673,
+                    -37.7313750825207
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
@@ -45914,28 +46070,6 @@
                 "coordinates": [
                     142.8009183685642,
                     -37.88868287936604
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2023-03-09T14:24:00+11:00",
-                "updated": "2023-03-09T14:26:00+11:00",
-                "id": "ESTA:230350580",
-                "location": "Moriac",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.17387617219768,
-                    -38.242644991177706
                 ]
             }
         }
