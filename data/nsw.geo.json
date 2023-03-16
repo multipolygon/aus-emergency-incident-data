@@ -178,11 +178,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/488329",
-                "created": "2023-03-16T02:36:00+11:00",
-                "updated": "2023-03-16T13:36:00+11:00",
+                "created": "2023-03-16T03:45:00+11:00",
+                "updated": "2023-03-16T14:45:00+11:00",
                 "location": "64 Craigs Rd, Curraweela, NSW 2580",
                 "size": 254,
-                "description": "ALERT LEVEL: Watch and Act <br />LOCATION: 64 Craigs Rd, Curraweela, NSW 2580 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 254 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 13:36",
+                "description": "ALERT LEVEL: Emergency Warning <br />LOCATION: 64 Craigs Rd, Curraweela, NSW 2580 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 254 ha <br />MAJOR FIRE UPDATE AS AT 16 Mar 2023 2:47PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=11135' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 14:45",
                 "title": "incident: fire"
             }
         },
@@ -3074,6 +3074,29 @@
                                 "coordinates": [
                                     [
                                         [
+                                            148.504585803,
+                                            -32.423023728
+                                        ],
+                                        [
+                                            148.504550967,
+                                            -32.423074619
+                                        ],
+                                        [
+                                            148.504573068,
+                                            -32.42292945
+                                        ],
+                                        [
+                                            148.504585803,
+                                            -32.423023728
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             148.509856043,
                                             -32.4065692349999
                                         ],
@@ -5583,29 +5606,6 @@
                                         ]
                                     ]
                                 ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            148.504585803,
-                                            -32.423023728
-                                        ],
-                                        [
-                                            148.504550967,
-                                            -32.423074619
-                                        ],
-                                        [
-                                            148.504573068,
-                                            -32.42292945
-                                        ],
-                                        [
-                                            148.504585803,
-                                            -32.423023728
-                                        ]
-                                    ]
-                                ]
                             }
                         ]
                     }
@@ -7772,30 +7772,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.84548950500005,
-                    -31.444924712999978
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kidman Way, Cobar",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/487900",
-                "created": "2023-03-14T16:20:00+11:00",
-                "updated": "2023-03-15T03:20:00+11:00",
-                "location": "565 Kidman Way, Cobar, NSW 2835",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 565 Kidman Way, Cobar, NSW 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2023 03:20",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -7947,6 +7923,30 @@
                 "location": "Kidman Way, Cobar, NSW 2835",
                 "size": 8,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Kidman Way, Cobar, NSW 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 11:17",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.84548950500005,
+                    -31.444924712999978
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kidman Way, Cobar",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/487900",
+                "created": "2023-03-14T16:20:00+11:00",
+                "updated": "2023-03-15T03:20:00+11:00",
+                "location": "565 Kidman Way, Cobar, NSW 2835",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 565 Kidman Way, Cobar, NSW 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2023 03:20",
                 "title": "incident: fire"
             }
         },
@@ -8136,14 +8136,14 @@
                 "feedType": "incident",
                 "sourceTitle": "Mollyan Rd, Mollyan",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/488345",
-                "created": "2023-03-16T02:24:00+11:00",
-                "updated": "2023-03-16T13:24:00+11:00",
+                "created": "2023-03-16T03:33:00+11:00",
+                "updated": "2023-03-16T14:33:00+11:00",
                 "location": "Mollyan Rd, Mollyan, NSW 2842",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Mollyan Rd, Mollyan, NSW 2842 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 13:24",
+                "size": 12,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Mollyan Rd, Mollyan, NSW 2842 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 12 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 14:33",
                 "title": "incident: fire"
             }
         },
@@ -10809,11 +10809,11 @@
                 "subcategory": "mva/transport",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/488351",
-                "created": "2023-03-16T03:09:00+11:00",
-                "updated": "2023-03-16T14:09:00+11:00",
+                "created": "2023-03-16T03:34:00+11:00",
+                "updated": "2023-03-16T14:34:00+11:00",
                 "location": "Bobs Range Rd, Orangeville, NSW 2570",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bobs Range Rd, Orangeville, NSW 2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 14:09",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Bobs Range Rd, Orangeville, NSW 2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 14:34",
                 "title": "incident: other"
             }
         },
@@ -10894,6 +10894,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.90474400000005,
+                    -33.63907699999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Pitt Town Rd, Box Hill",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/488356",
+                "created": "2023-03-16T03:42:00+11:00",
+                "updated": "2023-03-16T14:42:00+11:00",
+                "location": "Old Pitt Town Rd, Box Hill, NSW 2765",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Old Pitt Town Rd, Box Hill, NSW 2765 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 14:42",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.6721930010001,
                     -35.03876199999996
                 ]
@@ -10927,14 +10951,38 @@
                 "sourceTitle": "Pacific Hwy, Dirty Creek",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/488343",
-                "created": "2023-03-16T02:28:00+11:00",
-                "updated": "2023-03-16T13:28:00+11:00",
+                "created": "2023-03-16T03:45:00+11:00",
+                "updated": "2023-03-16T14:45:00+11:00",
                 "location": "Pacific Hwy, Dirty Creek, NSW 2456",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Dirty Creek, NSW 2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 13:28",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Dirty Creek, NSW 2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 14:45",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.40507200000002,
+                    -33.25354799999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Mtwy (Southbound), Wyong",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/488357",
+                "created": "2023-03-16T03:42:00+11:00",
+                "updated": "2023-03-16T14:42:00+11:00",
+                "location": "M1 Pacific Mtwy (Southbound), Wyong, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 Pacific Mtwy (Southbound), Wyong, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 14:42",
+                "title": "incident: fire"
             }
         },
         {
@@ -10999,13 +11047,13 @@
                 "sourceTitle": "Richmond Cr, Campbelltown",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/488354",
-                "created": "2023-03-16T03:30:00+11:00",
-                "updated": "2023-03-16T14:30:00+11:00",
+                "created": "2023-03-16T03:38:00+11:00",
+                "updated": "2023-03-16T14:38:00+11:00",
                 "location": "Richmond Cr, Campbelltown, NSW 2560",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Richmond Cr, Campbelltown, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Mar 2023 14:30",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Richmond Cr, Campbelltown, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Mar 2023 14:38",
                 "title": "incident: fire"
             }
         },
@@ -11031,6 +11079,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wentworth <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 14 Mar 2023 04:18",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.5499470000001,
+                    -34.23017299999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "West Pde, Couridjah",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/488355",
+                "created": "2023-03-16T03:38:00+11:00",
+                "updated": "2023-03-16T14:38:00+11:00",
+                "location": "260 West Pde, Couridjah, NSW 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 260 West Pde, Couridjah, NSW 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Mar 2023 14:38",
+                "title": "incident: fire"
             }
         }
     ]
