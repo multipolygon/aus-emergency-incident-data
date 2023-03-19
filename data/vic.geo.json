@@ -981,22 +981,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "South Yarra",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "complete",
+                "created": "2023-03-20T06:17:00+11:00",
+                "updated": "2023-03-20T06:39:00+11:00",
+                "id": "ESTA:230351158",
+                "location": "Cremorne",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9913746814154,
+                    -37.825104431249244
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Epping St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2023-03-20T06:31:25+11:00",
-                "updated": "2023-03-20T06:34:08+11:00",
-                "id": "ESTA:230307671",
-                "location": "Wilson St, South Yarra",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-03-20T06:46:00+11:00",
+                "updated": "2023-03-20T06:46:00+11:00",
+                "id": "ESTA:230307673",
+                "location": "Epping St, Kyneton",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99577774052702,
-                    -37.84368907731068
+                    144.46084519803898,
+                    -37.25170432848714
                 ]
             }
         },
@@ -2702,50 +2725,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Elderberry Establishment Hr",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "under control",
-                "created": "2023-03-19T21:24:00+11:00",
-                "updated": "2023-03-19T21:24:00+11:00",
-                "id": "2023-03-19T21:24:00.0000000:488073",
-                "location": "Bombala",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.168930054,
-                    -37.1471821
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "East Barham Rd, Barham",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2023-03-18T11:06:00+11:00",
-                "updated": "2023-03-18T11:06:00+11:00",
-                "id": "2023-03-18T11:06:00.0000000:486038",
-                "location": "East Barham Rd, Barham, Nsw 2732",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.17696,
-                    -35.635438
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Ses Flood Assist",
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
@@ -2794,28 +2773,6 @@
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "under control",
-                "created": "2023-03-19T16:02:00+11:00",
-                "updated": "2023-03-19T16:02:00+11:00",
-                "id": "2023-03-19T16:02:00.0000000:488649",
-                "location": "Old Adcocks Rd, Tocumwal, Nsw 2714",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.569499,
-                    -35.753731999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old Adcocks Rd, Tocumwal",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
                 "created": "2023-03-20T02:53:00+11:00",
                 "updated": "2023-03-20T02:53:00+11:00",
                 "id": "2023-03-20T02:53:00.0000000:488748",
@@ -2828,6 +2785,28 @@
                 "coordinates": [
                     145.572025001,
                     -35.739568
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Adcocks Rd, Tocumwal",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2023-03-19T16:02:00+11:00",
+                "updated": "2023-03-19T16:02:00+11:00",
+                "id": "2023-03-19T16:02:00.0000000:488649",
+                "location": "Old Adcocks Rd, Tocumwal, Nsw 2714",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.569499,
+                    -35.753731999
                 ]
             }
         },
@@ -2850,6 +2829,50 @@
                 "coordinates": [
                     149.521131992,
                     -36.963516485
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elderberry Establishment Hr",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "under control",
+                "created": "2023-03-19T21:24:00+11:00",
+                "updated": "2023-03-19T21:24:00+11:00",
+                "id": "2023-03-19T21:24:00.0000000:488073",
+                "location": "Bombala",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.168930054,
+                    -37.1471821
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "East Barham Rd, Barham",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2023-03-18T11:06:00+11:00",
+                "updated": "2023-03-18T11:06:00+11:00",
+                "id": "2023-03-18T11:06:00.0000000:486038",
+                "location": "East Barham Rd, Barham, Nsw 2732",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.17696,
+                    -35.635438
                 ]
             }
         },
@@ -50196,28 +50219,6 @@
                 "coordinates": [
                     142.46680623749998,
                     -36.62496059525397
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "request for assistance",
-                "created": "2023-03-20T06:17:00+11:00",
-                "updated": "2023-03-20T06:22:00+11:00",
-                "id": "ESTA:230351158",
-                "location": "Cremorne",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9913746814154,
-                    -37.825104431249244
                 ]
             }
         }
