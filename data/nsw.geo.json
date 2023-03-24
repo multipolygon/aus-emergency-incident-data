@@ -1343,6 +1343,29 @@
                                 "coordinates": [
                                     [
                                         [
+                                            148.865318302,
+                                            -36.398501941
+                                        ],
+                                        [
+                                            148.865318247,
+                                            -36.398502129
+                                        ],
+                                        [
+                                            148.865318018,
+                                            -36.3985017009999
+                                        ],
+                                        [
+                                            148.865318302,
+                                            -36.398501941
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             148.877649935,
                                             -36.4125060499999
                                         ],
@@ -1392,29 +1415,6 @@
                                         [
                                             148.87643911,
                                             -36.3991738989999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            148.865318302,
-                                            -36.398501941
-                                        ],
-                                        [
-                                            148.865318247,
-                                            -36.398502129
-                                        ],
-                                        [
-                                            148.865318018,
-                                            -36.3985017009999
-                                        ],
-                                        [
-                                            148.865318302,
-                                            -36.398501941
                                         ]
                                     ]
                                 ]
@@ -3760,64 +3760,68 @@
                                 "coordinates": [
                                     [
                                         [
-                                            146.227849288,
-                                            -31.6898037459999
+                                            146.228330529,
+                                            -31.684303664
                                         ],
                                         [
-                                            146.22796826,
-                                            -31.6899227179999
+                                            146.228330529,
+                                            -31.6845416099999
                                         ],
                                         [
-                                            146.232370263,
-                                            -31.6895658
+                                            146.249507732,
+                                            -31.6871590169999
                                         ],
                                         [
-                                            146.242363999,
-                                            -31.692659099
+                                            146.25605125,
+                                            -31.691204101
                                         ],
                                         [
-                                            146.248312652,
-                                            -31.695752398
+                                            146.256408169,
+                                            -31.692274859
                                         ],
                                         [
-                                            146.256759738,
-                                            -31.6986077509999
+                                            146.259501468,
+                                            -31.6946543189999
                                         ],
                                         [
-                                            146.260685849,
-                                            -31.698845698
+                                            146.259382495,
+                                            -31.6977476179999
                                         ],
                                         [
-                                            146.262113526,
-                                            -31.705389215
+                                            146.262356821,
+                                            -31.70441011
                                         ],
                                         [
-                                            146.260685849,
-                                            -31.71026711
+                                            146.261642983,
+                                            -31.707979301
                                         ],
                                         [
-                                            146.256045901,
-                                            -31.714193221
+                                            146.260096333,
+                                            -31.710239789
                                         ],
                                         [
-                                            146.253904386,
-                                            -31.7200229009999
+                                            146.256170223,
+                                            -31.7130951419999
                                         ],
                                         [
-                                            146.251762871,
-                                            -31.721926469
+                                            146.254028708,
+                                            -31.719876606
                                         ],
                                         [
-                                            146.249621356,
-                                            -31.7252577149999
+                                            146.251292328,
+                                            -31.721661201
                                         ],
                                         [
-                                            146.223804203,
-                                            -31.7174054939999
+                                            146.249388759,
+                                            -31.72511142
                                         ],
                                         [
-                                            146.227849288,
-                                            -31.6898037459999
+                                            146.224047499,
+                                            -31.716902279
+                                        ],
+                                        [
+                                            146.228330529,
+                                            -31.684303664
                                         ]
                                     ]
                                 ]
@@ -3831,13 +3835,13 @@
                 "sourceTitle": "Restdown Station",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/489247",
-                "created": "2023-03-24T06:45:00+11:00",
-                "updated": "2023-03-24T17:45:00+11:00",
+                "created": "2023-03-24T08:01:00+11:00",
+                "updated": "2023-03-24T19:01:00+11:00",
                 "location": "Rest Downes, Rosevale Rd, Canbelego, NSW 2835",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Rest Downes, Rosevale Rd, Canbelego, NSW 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Mar 2023 17:45",
+                "size": 1200,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Rest Downes, Rosevale Rd, Canbelego, NSW 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1200 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Mar 2023 19:01",
                 "title": "incident: fire"
             }
         },
@@ -3977,10 +3981,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.35133362300007,
-                    -30.258483592999937
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.35133362300007,
+                            -30.258483592999937
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.319699004,
+                                            -30.280832672
+                                        ],
+                                        [
+                                            145.317944151,
+                                            -30.281219334
+                                        ],
+                                        [
+                                            145.317498001,
+                                            -30.2798213999999
+                                        ],
+                                        [
+                                            145.317170826,
+                                            -30.2779475749999
+                                        ],
+                                        [
+                                            145.317111339,
+                                            -30.276490155
+                                        ],
+                                        [
+                                            145.316486732,
+                                            -30.2750624779999
+                                        ],
+                                        [
+                                            145.315624176,
+                                            -30.273783518
+                                        ],
+                                        [
+                                            145.315683663,
+                                            -30.272950707
+                                        ],
+                                        [
+                                            145.316516475,
+                                            -30.272355842
+                                        ],
+                                        [
+                                            145.317468259,
+                                            -30.272564044
+                                        ],
+                                        [
+                                            145.31856876,
+                                            -30.273456343
+                                        ],
+                                        [
+                                            145.320055923,
+                                            -30.275240938
+                                        ],
+                                        [
+                                            145.321691803,
+                                            -30.277798859
+                                        ],
+                                        [
+                                            145.32112668,
+                                            -30.2796131969999
+                                        ],
+                                        [
+                                            145.319699004,
+                                            -30.280832672
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -5653,13 +5734,13 @@
                 "sourceTitle": "Nerriwee Tree Alight",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/489223",
-                "created": "2023-03-24T05:49:00+11:00",
-                "updated": "2023-03-24T16:49:00+11:00",
+                "created": "2023-03-24T07:52:00+11:00",
+                "updated": "2023-03-24T18:52:00+11:00",
                 "location": "1458 Kenebri Rd Baradine",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1458 Kenebri Rd Baradine <br />COUNCIL AREA: Warrumbungle <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 24 Mar 2023 16:49",
+                "size": 1,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1458 Kenebri Rd Baradine <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 24 Mar 2023 18:52",
                 "title": "incident: fire"
             }
         },
