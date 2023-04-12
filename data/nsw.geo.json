@@ -30,8 +30,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.73895200000004,
-                    -31.509721999999954
+                    145.7487788200001,
+                    -31.508784684999966
                 ]
             },
             "properties": {
@@ -100,10 +100,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.96460000000002,
-                    -30.53545399999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.96460000000002,
+                            -30.53545399999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.945308062,
+                                            -30.5550447269999
+                                        ],
+                                        [
+                                            147.946569177,
+                                            -30.556163075
+                                        ],
+                                        [
+                                            147.947473371,
+                                            -30.560969585
+                                        ],
+                                        [
+                                            147.94297619,
+                                            -30.563039717
+                                        ],
+                                        [
+                                            147.942143379,
+                                            -30.557091064
+                                        ],
+                                        [
+                                            147.945308062,
+                                            -30.5550447269999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -111,13 +152,13 @@
                 "sourceTitle": "Carinda Rd, Gungalman",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491805",
-                "created": "2023-04-12T03:40:00+10:00",
-                "updated": "2023-04-12T13:40:00+10:00",
+                "created": "2023-04-12T04:56:00+10:00",
+                "updated": "2023-04-12T14:56:00+10:00",
                 "location": "6737 Carinda Rd, Gungalman, NSW 2829",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 6737 Carinda Rd, Gungalman, NSW 2829 <br />COUNCIL AREA: Coonamble <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Apr 2023 13:40",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 6737 Carinda Rd, Gungalman, NSW 2829 <br />COUNCIL AREA: Coonamble <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Apr 2023 14:56",
                 "title": "incident: fire"
             }
         },
@@ -1244,6 +1285,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    146.90165100000002,
+                    -34.35753299999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ariah St, Ardlethan",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491813",
+                "created": "2023-04-12T05:09:00+10:00",
+                "updated": "2023-04-12T15:09:00+10:00",
+                "location": "Ariah St, Ardlethan, NSW 2665",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ariah St, Ardlethan, NSW 2665 <br />COUNCIL AREA: Coolamon <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Apr 2023 15:09",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.5629550000001,
                     -33.25382799999994
                 ]
@@ -1279,11 +1344,11 @@
                 "subcategory": "structure fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491809",
-                "created": "2023-04-12T04:38:00+10:00",
-                "updated": "2023-04-12T14:38:00+10:00",
+                "created": "2023-04-12T05:02:00+10:00",
+                "updated": "2023-04-12T15:02:00+10:00",
                 "location": "12 Cumbil Rd, Baradine, NSW 2396",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 12 Cumbil Rd, Baradine, NSW 2396 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Apr 2023 14:38",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 12 Cumbil Rd, Baradine, NSW 2396 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Apr 2023 15:02",
                 "title": "incident: fire"
             }
         },
@@ -1325,13 +1390,13 @@
                 "sourceTitle": "Hume Hwy, Tarcutta",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491804",
-                "created": "2023-04-12T04:18:00+10:00",
-                "updated": "2023-04-12T14:18:00+10:00",
+                "created": "2023-04-12T04:28:00+10:00",
+                "updated": "2023-04-12T14:28:00+10:00",
                 "location": "Hume Hwy, Tarcutta, NSW 2652",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Hwy, Tarcutta, NSW 2652 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Apr 2023 14:18",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Hwy, Tarcutta, NSW 2652 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Apr 2023 14:28",
                 "title": "incident: other"
             }
         },
@@ -1405,54 +1470,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Wentworth <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 11 Apr 2023 15:01",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.2744960000001,
-                    -28.99337799999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Surry St, Coraki",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491810",
-                "created": "2023-04-12T04:26:00+10:00",
-                "updated": "2023-04-12T14:26:00+10:00",
-                "location": "Surry St, Coraki, NSW 2471",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Surry St, Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 12 Apr 2023 14:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.86916800000006,
-                    -34.49423699999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Taylors Lane, Hay",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491807",
-                "created": "2023-04-12T04:47:00+10:00",
-                "updated": "2023-04-12T14:47:00+10:00",
-                "location": "Taylors Lane, Hay, NSW 2711",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Taylors Lane, Hay, NSW 2711 <br />COUNCIL AREA: Hay <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Apr 2023 14:47",
-                "title": "incident: fire"
             }
         },
         {
