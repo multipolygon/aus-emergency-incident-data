@@ -548,10 +548,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.16262054900005,
-                    -29.049807113999975
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.16262054900005,
+                            -29.049807113999975
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.170031914,
+                                            -29.0465129739999
+                                        ],
+                                        [
+                                            147.170103299,
+                                            -29.046465385
+                                        ],
+                                        [
+                                            147.17609954,
+                                            -29.045632573
+                                        ],
+                                        [
+                                            147.178407617,
+                                            -29.046727126
+                                        ],
+                                        [
+                                            147.182428906,
+                                            -29.046917483
+                                        ],
+                                        [
+                                            147.180311186,
+                                            -29.0504390849999
+                                        ],
+                                        [
+                                            147.178978687,
+                                            -29.0554597469999
+                                        ],
+                                        [
+                                            147.176623022,
+                                            -29.053104081
+                                        ],
+                                        [
+                                            147.172673116,
+                                            -29.0510577439999
+                                        ],
+                                        [
+                                            147.169365665,
+                                            -29.050343907
+                                        ],
+                                        [
+                                            147.169460843,
+                                            -29.0475361429999
+                                        ],
+                                        [
+                                            147.170031914,
+                                            -29.0465129739999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -583,13 +648,13 @@
                 "sourceTitle": "Harrisons Lane, Lawrence",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491965",
-                "created": "2023-04-14T04:58:00+10:00",
-                "updated": "2023-04-14T14:58:00+10:00",
+                "created": "2023-04-14T06:08:00+10:00",
+                "updated": "2023-04-14T16:08:00+10:00",
                 "location": "Harrisons Lane, Lawrence, NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Harrisons Lane, Lawrence, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 14:58",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Harrisons Lane, Lawrence, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 16:08",
                 "title": "incident: fire"
             }
         },
@@ -766,30 +831,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.86855300000002,
-                    -31.736229999999978
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Giro Rd, Giro",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491948",
-                "created": "2023-04-14T00:53:00+10:00",
-                "updated": "2023-04-14T10:53:00+10:00",
-                "location": "Giro Rd, Giro, NSW 2422",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Giro Rd, Giro, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 10:53",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.68238300000007,
                     -33.58575199999996
                 ]
@@ -871,13 +912,13 @@
                 "sourceTitle": "Moonee Swamp Rd, Deniliquin",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491962",
-                "created": "2023-04-14T05:21:00+10:00",
-                "updated": "2023-04-14T15:21:00+10:00",
+                "created": "2023-04-14T06:10:00+10:00",
+                "updated": "2023-04-14T16:10:00+10:00",
                 "location": "Moonee Swamp Rd CONARGO RD, Deniliquin, NSW 2710",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Moonee Swamp Rd CONARGO RD, Deniliquin, NSW 2710 <br />COUNCIL AREA: Edward River <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 15:21",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Moonee Swamp Rd CONARGO RD, Deniliquin, NSW 2710 <br />COUNCIL AREA: Edward River <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 16:10",
                 "title": "incident: fire"
             }
         },
@@ -921,11 +962,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491964",
-                "created": "2023-04-14T04:43:00+10:00",
-                "updated": "2023-04-14T14:43:00+10:00",
+                "created": "2023-04-14T06:07:00+10:00",
+                "updated": "2023-04-14T16:07:00+10:00",
                 "location": "404 Ootha North Rd, Ootha, NSW 2875",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 404 Ootha North Rd, Ootha, NSW 2875 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 14:43",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 404 Ootha North Rd, Ootha, NSW 2875 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 16:07",
                 "title": "incident: fire"
             }
         },
@@ -943,14 +984,38 @@
                 "sourceTitle": "Pacific Mtwy (Northbound), Somersby",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491970",
-                "created": "2023-04-14T05:24:00+10:00",
-                "updated": "2023-04-14T15:24:00+10:00",
+                "created": "2023-04-14T05:58:00+10:00",
+                "updated": "2023-04-14T15:58:00+10:00",
                 "location": "M1 Pacific Mtwy (Northbound), Somersby, NSW 2250",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 Pacific Mtwy (Northbound), Somersby, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 15:24",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 Pacific Mtwy (Northbound), Somersby, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 15:58",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.53154200100005,
+                    -35.08525499999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy, Bewong",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491973",
+                "created": "2023-04-14T05:50:00+10:00",
+                "updated": "2023-04-14T15:50:00+10:00",
+                "location": "Princes Hwy, Bewong, NSW 2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Princes Hwy, Bewong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Apr 2023 15:50",
+                "title": "incident: other"
             }
         },
         {
@@ -975,30 +1040,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1 Pooncarie Road, Menindee, NSW 2879 <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Apr 2023 02:08",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.23813629200004,
-                    -33.54152877499996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Riverview Ave, Dangar Island",
-                "category": "other",
-                "subcategory": "medical",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491959",
-                "created": "2023-04-14T05:48:00+10:00",
-                "updated": "2023-04-14T15:48:00+10:00",
-                "location": "130 Riverview Ave, Dangar Island",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 130 Riverview Ave, Dangar Island <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Ambulance <br />UPDATED: 14 Apr 2023 15:48",
-                "title": "incident: other"
             }
         },
         {
