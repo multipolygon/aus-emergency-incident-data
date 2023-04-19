@@ -1091,10 +1091,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.44721000000004,
-                    -32.21681799999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.44932556100002,
+                            -32.229414808999934
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.449078896,
+                                            -32.228908125
+                                        ],
+                                        [
+                                            148.449840323,
+                                            -32.228551207
+                                        ],
+                                        [
+                                            148.450661238,
+                                            -32.228491719
+                                        ],
+                                        [
+                                            148.450637443,
+                                            -32.2285036169999
+                                        ],
+                                        [
+                                            148.452552909,
+                                            -32.228777255
+                                        ],
+                                        [
+                                            148.452481525,
+                                            -32.2293483249999
+                                        ],
+                                        [
+                                            148.452100812,
+                                            -32.2296457579999
+                                        ],
+                                        [
+                                            148.452267373,
+                                            -32.2315731219999
+                                        ],
+                                        [
+                                            148.450197243,
+                                            -32.231025845
+                                        ],
+                                        [
+                                            148.449435816,
+                                            -32.2298718069999
+                                        ],
+                                        [
+                                            148.448864744,
+                                            -32.2289438179999
+                                        ],
+                                        [
+                                            148.448805258,
+                                            -32.22888433
+                                        ],
+                                        [
+                                            148.449078896,
+                                            -32.228908125
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1622,30 +1691,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.51687800000002,
-                    -30.69720499999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sanctuary Dr, Uralla",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492431",
-                "created": "2023-04-19T03:17:00+10:00",
-                "updated": "2023-04-19T13:17:00+10:00",
-                "location": "190 Sanctuary Dr, Uralla, NSW 2358",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 190 Sanctuary Dr, Uralla, NSW 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:17",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.78460693300008,
                     -34.40209415099997
                 ]
@@ -1766,32 +1811,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.92865200000006,
-                    -33.58222799999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cattai Ridge Rd, Maraylya",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492423",
-                "created": "2023-04-19T03:16:00+10:00",
-                "updated": "2023-04-19T13:16:00+10:00",
-                "location": "Cattai Ridge Rd, Maraylya, NSW 2765",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cattai Ridge Rd, Maraylya, NSW 2765 <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:16",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.6131640000001,
-                    -34.40594599999997
+                    143.6813966190001,
+                    -33.98436372799995
                 ]
             },
             "properties": {
@@ -1855,6 +1876,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Hwy, Jennings, NSW 4383 <br />COUNCIL AREA: Tenterfield <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:30",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.8751440000001,
+                    -30.928998999999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, Collombatti",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492438",
+                "created": "2023-04-19T03:34:00+10:00",
+                "updated": "2023-04-19T13:34:00+10:00",
+                "location": "Pacific Hwy, Collombatti, NSW 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Collombatti, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:34",
+                "title": "incident: fire"
             }
         },
         {
@@ -1943,13 +1988,13 @@
                 "sourceTitle": "Surry St, Coraki",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492406",
-                "created": "2023-04-19T00:10:00+10:00",
-                "updated": "2023-04-19T10:10:00+10:00",
+                "created": "2023-04-19T03:46:00+10:00",
+                "updated": "2023-04-19T13:46:00+10:00",
                 "location": "Surry St, Coraki, NSW 2471",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Surry St, Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Apr 2023 10:10",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Surry St, Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Apr 2023 13:46",
                 "title": "incident: fire"
             }
         },
@@ -1998,54 +2043,6 @@
                 "location": "Sydney Rd, Kelso, NSW 2795",
                 "size": 25,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sydney Rd, Kelso, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 25 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 09:50",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.89613500000007,
-                    -33.90894900099994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tumbarumba Cr, Heckenberg",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492434",
-                "created": "2023-04-19T03:32:00+10:00",
-                "updated": "2023-04-19T13:32:00+10:00",
-                "location": "69 Tumbarumba Cr, Heckenberg, NSW 2168",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 69 Tumbarumba Cr, Heckenberg, NSW 2168 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Apr 2023 13:32",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.86106300000006,
-                    -34.374806999999976
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Xs Clive Bissell Dr, Mount Keira",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492426",
-                "created": "2023-04-19T03:34:00+10:00",
-                "updated": "2023-04-19T13:34:00+10:00",
-                "location": "Mount Ousley Rd (M1), Mount Keira, NSW 2500",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mount Ousley Rd (M1), Mount Keira, NSW 2500 <br />COUNCIL AREA: Wollongong <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:34",
                 "title": "incident: fire"
             }
         }
