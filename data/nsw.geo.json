@@ -357,10 +357,91 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.06909823400008,
-                    -35.38147508999998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.06909823400008,
+                            -35.38147508999998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.069814336,
+                                            -35.382183992
+                                        ],
+                                        [
+                                            149.069543846,
+                                            -35.3822360679999
+                                        ],
+                                        [
+                                            149.069465168,
+                                            -35.382129296
+                                        ],
+                                        [
+                                            149.069400762,
+                                            -35.3820519829999
+                                        ],
+                                        [
+                                            149.06923132,
+                                            -35.3817403579999
+                                        ],
+                                        [
+                                            149.068975209,
+                                            -35.3815042169999
+                                        ],
+                                        [
+                                            149.068600727,
+                                            -35.381383834
+                                        ],
+                                        [
+                                            149.068602981,
+                                            -35.380934275
+                                        ],
+                                        [
+                                            149.068793275,
+                                            -35.380642856
+                                        ],
+                                        [
+                                            149.069016728,
+                                            -35.380674579
+                                        ],
+                                        [
+                                            149.069015946,
+                                            -35.3807906119999
+                                        ],
+                                        [
+                                            149.069222903,
+                                            -35.381165656
+                                        ],
+                                        [
+                                            149.06955304,
+                                            -35.3815478029999
+                                        ],
+                                        [
+                                            149.069714752,
+                                            -35.381744097
+                                        ],
+                                        [
+                                            149.06997053,
+                                            -35.382081738
+                                        ],
+                                        [
+                                            149.069814336,
+                                            -35.382183992
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1085,6 +1166,30 @@
                 "location": "6.5km NE Baerami",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 6.5km NE Baerami <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 19 Apr 2023 13:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.95780134400002,
+                    -30.03161645299997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "North Bluff HR Test Burns",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/491885",
+                "created": "2023-04-19T03:53:00+10:00",
+                "updated": "2023-04-19T13:53:00+10:00",
+                "location": "41 Kangaroo Creek Road Glenreagh",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 41 Kangaroo Creek Road Glenreagh <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:53",
                 "title": "incident: fire"
             }
         },
@@ -1822,11 +1927,11 @@
                 "subcategory": "mva/transport",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492437",
-                "created": "2023-04-19T03:32:00+10:00",
-                "updated": "2023-04-19T13:32:00+10:00",
+                "created": "2023-04-19T03:54:00+10:00",
+                "updated": "2023-04-19T13:54:00+10:00",
                 "location": "Ivanhoe Rd, Balranald, NSW 2715",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ivanhoe Rd, Balranald, NSW 2715 <br />COUNCIL AREA: Balranald <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:32",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ivanhoe Rd, Balranald, NSW 2715 <br />COUNCIL AREA: Balranald <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:54",
                 "title": "incident: other"
             }
         },
@@ -1955,54 +2060,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.05898100000002,
-                    -30.356964999999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Strouds Rd, Bonville",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492400",
-                "created": "2023-04-19T00:16:00+10:00",
-                "updated": "2023-04-19T10:16:00+10:00",
-                "location": "5 Strouds Rd, Bonville, NSW 2450",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 Strouds Rd, Bonville, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 10:16",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.276742,
-                    -28.993879999999933
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Surry St, Coraki",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492406",
-                "created": "2023-04-19T03:46:00+10:00",
-                "updated": "2023-04-19T13:46:00+10:00",
-                "location": "Surry St, Coraki, NSW 2471",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Surry St, Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Apr 2023 13:46",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.90577600000006,
                     -31.00021399999997
                 ]
@@ -2012,13 +2069,13 @@
                 "sourceTitle": "Sutherlands Lane, Bellimbopinni",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492430",
-                "created": "2023-04-19T03:31:00+10:00",
-                "updated": "2023-04-19T13:31:00+10:00",
+                "created": "2023-04-19T03:59:00+10:00",
+                "updated": "2023-04-19T13:59:00+10:00",
                 "location": "5 Sutherlands Lane, Bellimbopinni, NSW 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 Sutherlands Lane, Bellimbopinni, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:31",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 Sutherlands Lane, Bellimbopinni, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 13:59",
                 "title": "incident: fire"
             }
         },
