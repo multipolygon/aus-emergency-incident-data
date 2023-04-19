@@ -445,10 +445,103 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.99687500000005,
-                    -29.871519999999975
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.99687500000005,
+                            -29.871519999999975
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.991303657,
+                                            -29.8791892409999
+                                        ],
+                                        [
+                                            152.991731959,
+                                            -29.8791416509999
+                                        ],
+                                        [
+                                            152.992184057,
+                                            -29.879094062
+                                        ],
+                                        [
+                                            152.992588566,
+                                            -29.8791892409999
+                                        ],
+                                        [
+                                            152.992874101,
+                                            -29.8792844189999
+                                        ],
+                                        [
+                                            152.993016868,
+                                            -29.879569955
+                                        ],
+                                        [
+                                            152.993183431,
+                                            -29.8801648199999
+                                        ],
+                                        [
+                                            152.993183431,
+                                            -29.880688301
+                                        ],
+                                        [
+                                            152.993040663,
+                                            -29.8811403989999
+                                        ],
+                                        [
+                                            152.992874101,
+                                            -29.88135455
+                                        ],
+                                        [
+                                            152.992398209,
+                                            -29.881497318
+                                        ],
+                                        [
+                                            152.991874727,
+                                            -29.881640085
+                                        ],
+                                        [
+                                            152.991517808,
+                                            -29.8816162909999
+                                        ],
+                                        [
+                                            152.991232273,
+                                            -29.881378344
+                                        ],
+                                        [
+                                            152.990970532,
+                                            -29.8805931219999
+                                        ],
+                                        [
+                                            152.990922943,
+                                            -29.8799506679999
+                                        ],
+                                        [
+                                            152.990922943,
+                                            -29.8794747759999
+                                        ],
+                                        [
+                                            152.991018121,
+                                            -29.8793320079999
+                                        ],
+                                        [
+                                            152.991303657,
+                                            -29.8791892409999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -456,13 +549,13 @@
                 "sourceTitle": "Gumtree Rd, Lanitza",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492471",
-                "created": "2023-04-19T06:56:00+10:00",
-                "updated": "2023-04-19T16:56:00+10:00",
+                "created": "2023-04-19T08:56:00+10:00",
+                "updated": "2023-04-19T18:56:00+10:00",
                 "location": "42 Gumtree Rd, Lanitza, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 42 Gumtree Rd, Lanitza, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 16:56",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 42 Gumtree Rd, Lanitza, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 18:56",
                 "title": "incident: fire"
             }
         },
@@ -1951,22 +2044,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.38041600000008,
-                    -32.82058299999994
+                    152.83505900000011,
+                    -31.58868100099994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Old Maitland Rd, Cessnock",
+                "sourceTitle": "Ocean Dr, Bonny Hills",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492475",
-                "created": "2023-04-19T07:16:00+10:00",
-                "updated": "2023-04-19T17:16:00+10:00",
-                "location": "Old Maitland Rd, Cessnock, NSW 2325",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/492480",
+                "created": "2023-04-19T09:08:00+10:00",
+                "updated": "2023-04-19T19:08:00+10:00",
+                "location": "Ocean Dr, Bonny Hills, NSW 2445",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Old Maitland Rd, Cessnock, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 17:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ocean Dr, Bonny Hills, NSW 2445 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Apr 2023 19:08",
                 "title": "incident: fire"
             }
         },
