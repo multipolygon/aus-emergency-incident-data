@@ -39,13 +39,13 @@
                 "sourceTitle": "Ballimore Rd, Geurie",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/493317",
-                "created": "2023-04-28T08:40:00+10:00",
-                "updated": "2023-04-28T18:40:00+10:00",
+                "created": "2023-04-28T08:49:00+10:00",
+                "updated": "2023-04-28T18:49:00+10:00",
                 "location": "Ballimore Rd, Geurie, NSW 2818",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Ballimore Rd, Geurie, NSW 2818 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Apr 2023 18:40",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Ballimore Rd, Geurie, NSW 2818 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Apr 2023 18:49",
                 "title": "incident: fire"
             }
         },
@@ -4924,10 +4924,107 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.71340100100008,
-                    -31.655200999999977
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.71340100100008,
+                            -31.655200999999977
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.693244345,
+                                            -31.627492784
+                                        ],
+                                        [
+                                            147.693672648,
+                                            -31.6283018
+                                        ],
+                                        [
+                                            147.695278784,
+                                            -31.6300150129999
+                                        ],
+                                        [
+                                            147.69621867,
+                                            -31.631252332
+                                        ],
+                                        [
+                                            147.696301952,
+                                            -31.63152597
+                                        ],
+                                        [
+                                            147.696242465,
+                                            -31.632120835
+                                        ],
+                                        [
+                                            147.696147287,
+                                            -31.6321565279999
+                                        ],
+                                        [
+                                            147.696159184,
+                                            -31.6321565279999
+                                        ],
+                                        [
+                                            147.696147287,
+                                            -31.632180321
+                                        ],
+                                        [
+                                            147.694624432,
+                                            -31.632418268
+                                        ],
+                                        [
+                                            147.693601263,
+                                            -31.632358782
+                                        ],
+                                        [
+                                            147.69185236,
+                                            -31.6313951
+                                        ],
+                                        [
+                                            147.691293186,
+                                            -31.630752645
+                                        ],
+                                        [
+                                            147.6907935,
+                                            -31.630609878
+                                        ],
+                                        [
+                                            147.689889305,
+                                            -31.6299912179999
+                                        ],
+                                        [
+                                            147.689496694,
+                                            -31.629479633
+                                        ],
+                                        [
+                                            147.68981792,
+                                            -31.628944255
+                                        ],
+                                        [
+                                            147.690317607,
+                                            -31.628504054
+                                        ],
+                                        [
+                                            147.691519236,
+                                            -31.6278972929999
+                                        ],
+                                        [
+                                            147.693244345,
+                                            -31.627492784
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -5909,6 +6006,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.83996500000012,
+                    -29.470526999999947
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Alice St, Moree",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/493318",
+                "created": "2023-04-28T08:48:00+10:00",
+                "updated": "2023-04-28T18:48:00+10:00",
+                "location": "Alice St, Moree,  2400",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Alice St, Moree,  2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Apr 2023 18:48",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.9587610000001,
                     -33.655870999999934
                 ]
@@ -5933,22 +6054,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.56148100100006,
-                    -34.73262299999993
+                    150.47616900000003,
+                    -35.00458699999996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glenmurray Rd, Kangaroo Valley",
+                "sourceTitle": "Braidwood Rd, Yerriyong",
                 "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/493300",
-                "created": "2023-04-28T05:57:00+10:00",
-                "updated": "2023-04-28T15:57:00+10:00",
-                "location": "115B Glenmurray Rd, Kangaroo Valley, NSW 2577",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/493321",
+                "created": "2023-04-28T08:56:00+10:00",
+                "updated": "2023-04-28T18:56:00+10:00",
+                "location": "Braidwood Rd, Yerriyong, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 115B Glenmurray Rd, Kangaroo Valley, NSW 2577 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Apr 2023 15:57",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Braidwood Rd, Yerriyong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Apr 2023 18:56",
                 "title": "incident: fire"
             }
         },
@@ -6094,6 +6215,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Sapphire Coast Dr, Bournda, NSW 2548 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Apr 2023 15:16",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.71079254200004,
+                    -33.53802331099996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Slopes Rd, The Slopes",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/493320",
+                "created": "2023-04-28T09:08:00+10:00",
+                "updated": "2023-04-28T19:08:00+10:00",
+                "location": "440 Slopes Rd, The Slopes, NSW",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 440 Slopes Rd, The Slopes, NSW <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Apr 2023 19:08",
+                "title": "incident: fire"
             }
         },
         {
