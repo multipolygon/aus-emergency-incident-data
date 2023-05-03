@@ -2,6 +2,64 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            143.61070144299788,
+                            -38.33515186995608
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    143.60543358449527,
+                                    -38.332374799222045
+                                ],
+                                [
+                                    143.6135660422228,
+                                    -38.330506427932896
+                                ],
+                                [
+                                    143.61635553960397,
+                                    -38.33779448661974
+                                ],
+                                [
+                                    143.60742914799854,
+                                    -38.33979731197926
+                                ],
+                                [
+                                    143.60504734639179,
+                                    -38.33245895895736
+                                ],
+                                [
+                                    143.60543358449527,
+                                    -38.332374799222045
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "cbrne",
+                "status": "minor",
+                "created": "2023-05-04T09:12:41+10:00",
+                "updated": "2023-05-04T09:12:42+10:00",
+                "id": "29292",
+                "location": "Colac East, Colac",
+                "title": "warning: advice"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Murray Sunset - Mengler Road West",
@@ -233,23 +291,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "not yet under control",
-                "created": "2023-05-04T08:35:00+10:00",
-                "updated": "2023-05-04T08:35:00+10:00",
-                "id": "ESTA:230502893",
-                "location": "Princes Hwy, Colac East",
+                "sourceTitle": "Donnybrook Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-05-04T09:12:00+10:00",
+                "updated": "2023-05-04T09:12:00+10:00",
+                "id": "ESTA:230502937",
+                "location": "Donnybrook Rd, Mickleham",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.6106477988214,
-                    -38.33521934408665
+                    144.93271340299825,
+                    -37.538934742750556
                 ]
             }
         },
@@ -259,9 +317,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2023-05-04T09:00:00+10:00",
-                "updated": "2023-05-04T09:06:00+10:00",
+                "updated": "2023-05-04T09:13:00+10:00",
                 "id": "ESTA:230550247",
                 "location": "Yarraville",
                 "title": "incident: tree down"
@@ -272,6 +330,29 @@
                 "coordinates": [
                     144.8813685187997,
                     -37.82379809416622
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Louisiana Av",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-05-04T08:37:00+10:00",
+                "updated": "2023-05-04T09:14:00+10:00",
+                "id": "ESTA:230502897",
+                "location": "Louisiana Av, Wangaratta",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.29265363696845,
+                    -36.33649586266456
                 ]
             }
         },
@@ -28311,6 +28392,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "not yet under control",
+                "created": "2023-05-04T08:35:00+10:00",
+                "updated": "2023-05-04T08:35:00+10:00",
+                "id": "ESTA:230502893",
+                "location": "Princes Hwy, Colac East",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.6106477988214,
+                    -38.33521934408665
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Pigeon Bank Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -28351,52 +28455,6 @@
                 "coordinates": [
                     145.29467105973,
                     -37.885654905488686
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Louisiana Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2023-05-04T08:37:00+10:00",
-                "updated": "2023-05-04T08:53:00+10:00",
-                "id": "ESTA:230502897",
-                "location": "Louisiana Av, Wangaratta",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.29265363696845,
-                    -36.33649586266456
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kenswick St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2023-05-04T09:00:00+10:00",
-                "updated": "2023-05-04T09:00:00+10:00",
-                "id": "ESTA:230502917",
-                "location": "Kenswick St, Point Cook",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7713332466353,
-                    -37.91116873780318
                 ]
             }
         },
