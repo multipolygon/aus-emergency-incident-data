@@ -6,30 +6,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.30663500000003,
-                    -31.291474999999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Booroomugga Rd, Canbelego",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/495129",
-                "created": "2023-05-08T05:19:00+10:00",
-                "updated": "2023-05-08T15:19:00+10:00",
-                "location": "2141 Booroomugga Rd, Canbelego, NSW 2835",
-                "size": 5,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2141 Booroomugga Rd, Canbelego, NSW 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 May 2023 15:19",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     147.97103405000007,
                     -35.652623597999934
                 ]
@@ -477,10 +453,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.76768493600002,
-                    -30.439263754999956
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.76768493600002,
+                            -30.439263754999956
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.768235483,
+                                            -30.433401735
+                                        ],
+                                        [
+                                            149.768235483,
+                                            -30.433258967
+                                        ],
+                                        [
+                                            149.769496598,
+                                            -30.4340203949999
+                                        ],
+                                        [
+                                            149.770876685,
+                                            -30.433711065
+                                        ],
+                                        [
+                                            149.779276183,
+                                            -30.4366140069999
+                                        ],
+                                        [
+                                            149.780989395,
+                                            -30.436709185
+                                        ],
+                                        [
+                                            149.780251762,
+                                            -30.438945879
+                                        ],
+                                        [
+                                            149.775968732,
+                                            -30.439873868
+                                        ],
+                                        [
+                                            149.772185389,
+                                            -30.439754896
+                                        ],
+                                        [
+                                            149.769044501,
+                                            -30.439136236
+                                        ],
+                                        [
+                                            149.766831602,
+                                            -30.4393265919999
+                                        ],
+                                        [
+                                            149.76626053,
+                                            -30.438945879
+                                        ],
+                                        [
+                                            149.768235483,
+                                            -30.433401735
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -767,30 +812,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.05217100000004,
-                    -28.865478999999937
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hickey St, Casino",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/495144",
-                "created": "2023-05-08T06:48:00+10:00",
-                "updated": "2023-05-08T16:48:00+10:00",
-                "location": "Hickey St, Casino, NSW 2470",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hickey St, Casino, NSW 2470 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 May 2023 16:48",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.27295600000002,
                     -33.37638199999998
                 ]
@@ -975,6 +996,30 @@
                 "location": "264 Tarean Rd, Karuah, NSW 2324",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 264 Tarean Rd, Karuah, NSW 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 May 2023 17:00",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.83576599900005,
+                    -34.51054799999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Water St, Hay",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/495146",
+                "created": "2023-05-08T07:04:00+10:00",
+                "updated": "2023-05-08T17:04:00+10:00",
+                "location": "Water St, Hay, NSW 2711",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Water St, Hay, NSW 2711 <br />COUNCIL AREA: Hay <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 May 2023 17:04",
                 "title": "incident: fire"
             }
         }
