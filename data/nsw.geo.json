@@ -1323,10 +1323,135 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.23160800000005,
-                    -29.59559299999995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.23672866900006,
+                            -29.593289357999936
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.235778516,
+                                            -29.591688387
+                                        ],
+                                        [
+                                            151.236291009,
+                                            -29.591700042
+                                        ],
+                                        [
+                                            151.236779997,
+                                            -29.5912054259999
+                                        ],
+                                        [
+                                            151.237647055,
+                                            -29.591502799
+                                        ],
+                                        [
+                                            151.238323509,
+                                            -29.592105224
+                                        ],
+                                        [
+                                            151.238374792,
+                                            -29.5927978399999
+                                        ],
+                                        [
+                                            151.238716497,
+                                            -29.593394243
+                                        ],
+                                        [
+                                            151.239050459,
+                                            -29.593823874
+                                        ],
+                                        [
+                                            151.23905052,
+                                            -29.5947068319999
+                                        ],
+                                        [
+                                            151.238938569,
+                                            -29.59523581
+                                        ],
+                                        [
+                                            151.239379613,
+                                            -29.595736812
+                                        ],
+                                        [
+                                            151.238662644,
+                                            -29.595732422
+                                        ],
+                                        [
+                                            151.237535387,
+                                            -29.5957127529999
+                                        ],
+                                        [
+                                            151.236581271,
+                                            -29.5957465929999
+                                        ],
+                                        [
+                                            151.23532462,
+                                            -29.595880641
+                                        ],
+                                        [
+                                            151.234620995,
+                                            -29.595428307
+                                        ],
+                                        [
+                                            151.23515066,
+                                            -29.5948093559999
+                                        ],
+                                        [
+                                            151.234175547,
+                                            -29.59439051
+                                        ],
+                                        [
+                                            151.234087862,
+                                            -29.593677704
+                                        ],
+                                        [
+                                            151.234042364,
+                                            -29.593285565
+                                        ],
+                                        [
+                                            151.233966286,
+                                            -29.592822918
+                                        ],
+                                        [
+                                            151.233981198,
+                                            -29.5922615929999
+                                        ],
+                                        [
+                                            151.233675996,
+                                            -29.5915684299999
+                                        ],
+                                        [
+                                            151.233323335,
+                                            -29.5909998449999
+                                        ],
+                                        [
+                                            151.233939428,
+                                            -29.591037671
+                                        ],
+                                        [
+                                            151.234806476,
+                                            -29.591335064
+                                        ],
+                                        [
+                                            151.235778516,
+                                            -29.591688387
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2944,6 +3069,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Scratch Road Pilliga Forest <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 12 May 2023 10:05",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.98787699900004,
+                    -34.862098999999944
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Stringybark Pl, Manton",
+                "category": "other",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/495527",
+                "created": "2023-05-12T09:10:00+10:00",
+                "updated": "2023-05-12T19:10:00+10:00",
+                "location": "4 Stringybark Pl, Manton, NSW 2582",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 Stringybark Pl, Manton, NSW 2582 <br />COUNCIL AREA: Yass Valley <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 May 2023 19:10",
+                "title": "incident: other"
             }
         }
     ]
