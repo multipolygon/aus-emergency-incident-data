@@ -2,6 +2,60 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.08308800163024,
+                            -37.79165494917305
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.0768009037006,
+                                    -37.7867713900647
+                                ],
+                                [
+                                    145.07684381904244,
+                                    -37.79609765924183
+                                ],
+                                [
+                                    145.08937509955993,
+                                    -37.7965385082814
+                                ],
+                                [
+                                    145.08928926886725,
+                                    -37.78704271633748
+                                ],
+                                [
+                                    145.0768009037006,
+                                    -37.7867713900647
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2023-05-17T07:41:50+10:00",
+                "updated": "2023-05-17T07:41:51+10:00",
+                "id": "29310",
+                "location": "Balwyn North",
+                "title": "warning: community update"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Wyperfeld - Ginap Track North",
@@ -394,6 +448,28 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Bunyip",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "unknown",
+                "created": "2023-05-17T06:17:50+10:00",
+                "updated": "2023-05-17T07:34:21+10:00",
+                "id": "ESTA:230515710",
+                "location": "Bunyip-Modella Rd, Bunyip",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.71115102205763,
+                    -38.12007200419579
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Centenary Park Dr",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -420,9 +496,9 @@
                 "sourceTitle": "Marriott Bvd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2023-05-17T07:30:00+10:00",
-                "updated": "2023-05-17T07:30:00+10:00",
+                "updated": "2023-05-17T07:41:00+10:00",
                 "id": "ESTA:230515742",
                 "location": "Marriott Bvd, Weir Views",
                 "size": "Small",
@@ -440,14 +516,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bunyip-Modella Rd",
+                "sourceTitle": "Balwyn North",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "structure fire",
                 "status": "safe",
-                "created": "2023-05-17T06:19:00+10:00",
-                "updated": "2023-05-17T06:36:00+10:00",
-                "id": "ESTA:230515710",
-                "location": "Bunyip-Modella Rd, Bunyip",
+                "created": "2023-05-17T06:49:42+10:00",
+                "updated": "2023-05-17T07:43:20+10:00",
+                "id": "ESTA:230515725",
+                "location": "Corby St, Balwyn North",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0831523746408,
+                    -37.79162119695003
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Burkinshaw St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-05-17T07:44:00+10:00",
+                "updated": "2023-05-17T07:44:00+10:00",
+                "id": "ESTA:230515748",
+                "location": "Burkinshaw St, Barooga",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -455,8 +553,53 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.71113985444583,
-                    -38.12008209251981
+                    145.6865987626691,
+                    -35.906213807511584
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-05-17T07:37:00+10:00",
+                "updated": "2023-05-17T07:45:00+10:00",
+                "id": "ESTA:230515746",
+                "location": "Dean",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.9802335840269,
+                    -37.443129430921445
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mulgrave",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2023-05-17T07:44:14+10:00",
+                "updated": "2023-05-17T07:46:00+10:00",
+                "id": "ESTA:230515749",
+                "location": "Mulgrave",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1587750174512,
+                    -37.91870226510207
                 ]
             }
         },
@@ -20441,29 +20584,6 @@
                             -35.3861
                         ]
                     ]
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Surkitt Bvd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2023-05-17T06:20:00+10:00",
-                "updated": "2023-05-17T06:38:00+10:00",
-                "id": "ESTA:230515711",
-                "location": "Surkitt Bvd, Sale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.0670558888128,
-                    -38.079086381774026
                 ]
             }
         },
