@@ -2,6 +2,60 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.98436911402777,
+                            -37.97165670428406
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    146.97876866160794,
+                                    -37.97644376957575
+                                ],
+                                [
+                                    146.9902270585166,
+                                    -37.976511426773065
+                                ],
+                                [
+                                    146.98975498972945,
+                                    -37.96680198179505
+                                ],
+                                [
+                                    146.97851116953893,
+                                    -37.966869647878426
+                                ],
+                                [
+                                    146.97876866160794,
+                                    -37.97644376957575
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "cbrne",
+                "status": "minor",
+                "created": "2023-05-27T18:23:31+10:00",
+                "updated": "2023-05-27T18:23:31+10:00",
+                "id": "29332",
+                "location": "Maffra",
+                "title": "warning: advice"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Beaconsfield Upper - Fraser Ave",
@@ -165,46 +219,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Northern Hwy",
+                "sourceTitle": "Ringwood",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2023-05-27T17:11:00+10:00",
-                "updated": "2023-05-27T17:29:00+10:00",
-                "id": "ESTA:230524551",
-                "location": "Northern Hwy, Moranding",
-                "size": "Small",
+                "created": "2023-05-27T18:14:21+10:00",
+                "updated": "2023-05-27T18:19:38+10:00",
+                "id": "ESTA:230524603",
+                "location": "Albert St, Ringwood",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9375017868338,
-                    -37.24052252056963
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "not yet under control",
-                "created": "2023-05-27T17:52:00+10:00",
-                "updated": "2023-05-27T17:53:00+10:00",
-                "id": "ESTA:230524591",
-                "location": "Princes Hwy, Dandenong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.19794033369237,
-                    -37.96993480275803
+                    145.2262919923711,
+                    -37.818511917613364
                 ]
             }
         },
@@ -15983,29 +16013,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Powerscourt St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "not yet under control",
-                "created": "2023-05-27T17:41:00+10:00",
-                "updated": "2023-05-27T17:41:00+10:00",
-                "id": "ESTA:230524583",
-                "location": "Powerscourt St, Maffra",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.98439057169543,
-                    -37.9713016403512
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Lower Plains Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -16029,14 +16036,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mccrae St",
+                "sourceTitle": "Princes Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-05-27T17:52:00+10:00",
+                "updated": "2023-05-27T18:16:00+10:00",
+                "id": "ESTA:230524591",
+                "location": "Princes Hwy, Dandenong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.19794033369237,
+                    -37.96993480275803
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Heatherton Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "safe",
-                "created": "2023-05-27T17:05:00+10:00",
-                "updated": "2023-05-27T17:21:00+10:00",
-                "id": "ESTA:230524547",
-                "location": "Mccrae St, Dandenong",
+                "status": "responding",
+                "created": "2023-05-27T18:17:00+10:00",
+                "updated": "2023-05-27T18:17:00+10:00",
+                "id": "ESTA:230524605",
+                "location": "Heatherton Rd, Clayton South",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -16044,8 +16074,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.21668174964583,
-                    -37.987189836584555
+                    145.12647750417466,
+                    -37.959454766653984
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Eucalyptus Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-05-27T18:18:00+10:00",
+                "updated": "2023-05-27T18:19:00+10:00",
+                "id": "ESTA:230524608",
+                "location": "Eucalyptus Rd, Eltham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16420854266045,
+                    -37.72298943248718
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Northern Hwy",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2023-05-27T17:11:00+10:00",
+                "updated": "2023-05-27T17:29:00+10:00",
+                "id": "ESTA:230524551",
+                "location": "Northern Hwy, Moranding",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9375017868338,
+                    -37.24052252056963
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Powerscourt St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "not yet under control",
+                "created": "2023-05-27T17:41:00+10:00",
+                "updated": "2023-05-27T17:41:00+10:00",
+                "id": "ESTA:230524583",
+                "location": "Powerscourt St, Maffra",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.98439057169543,
+                    -37.9713016403512
                 ]
             }
         }
