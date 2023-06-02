@@ -326,10 +326,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.49549102700007,
-                    -30.49847318099995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.49549102700007,
+                            -30.49847318099995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.493233622,
+                                            -30.4991956219999
+                                        ],
+                                        [
+                                            151.490782777,
+                                            -30.49717308
+                                        ],
+                                        [
+                                            151.491401437,
+                                            -30.494841208
+                                        ],
+                                        [
+                                            151.492472194,
+                                            -30.4948887969999
+                                        ],
+                                        [
+                                            151.493614335,
+                                            -30.495198127
+                                        ],
+                                        [
+                                            151.494304379,
+                                            -30.4953171
+                                        ],
+                                        [
+                                            151.494732683,
+                                            -30.495447971
+                                        ],
+                                        [
+                                            151.493233622,
+                                            -30.4991956219999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -339,11 +388,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/497080",
-                "created": "2023-06-02T00:41:00+10:00",
-                "updated": "2023-06-02T10:41:00+10:00",
+                "created": "2023-06-02T05:38:00+10:00",
+                "updated": "2023-06-02T15:38:00+10:00",
                 "location": "4 Rocklea Rd invergowrie",
-                "size": 32,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 4 Rocklea Rd invergowrie <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 32 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jun 2023 10:41",
+                "size": 11,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 4 Rocklea Rd invergowrie <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 11 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jun 2023 15:38",
                 "title": "incident: fire"
             }
         },
@@ -1217,11 +1266,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/497194",
-                "created": "2023-06-01T23:48:00+10:00",
-                "updated": "2023-06-02T09:48:00+10:00",
+                "created": "2023-06-02T05:35:00+10:00",
+                "updated": "2023-06-02T15:35:00+10:00",
                 "location": "Ku Ring Gai NP",
                 "size": 375,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Ku Ring Gai NP <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 375 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 2 Jun 2023 09:48",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Ku Ring Gai NP <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 375 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 2 Jun 2023 15:35",
                 "title": "incident: fire"
             }
         },
@@ -2815,6 +2864,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.52127100000007,
+                    -30.918519999999944
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Warbro Brook Rd, Toorooka",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/497508",
+                "created": "2023-06-02T05:38:00+10:00",
+                "updated": "2023-06-02T15:38:00+10:00",
+                "location": "690 Warbro Brook Rd, Toorooka, NSW 2440",
+                "size": 20,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 690 Warbro Brook Rd, Toorooka, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jun 2023 15:38",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.91651535000005,
                     -31.367562342999975
                 ]
@@ -2951,6 +3024,30 @@
                 "location": "Cemetery Rd, Helensburgh, NSW 2508",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cemetery Rd, Helensburgh, NSW 2508 <br />COUNCIL AREA: Wollongong <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Jun 2023 23:27",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.58197000100006,
+                    -33.18020699999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Chain Valley Bay Rd, Chain Valley Bay",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/497530",
+                "created": "2023-06-02T05:30:00+10:00",
+                "updated": "2023-06-02T15:30:00+10:00",
+                "location": "Chain Valley Bay Rd, Chain Valley Bay, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Chain Valley Bay Rd, Chain Valley Bay, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jun 2023 15:30",
                 "title": "incident: fire"
             }
         },
@@ -3127,30 +3224,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.70562100000006,
-                    -34.02200399999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mckellar St, Cobbitty",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/497373",
-                "created": "2023-06-01T08:33:00+10:00",
-                "updated": "2023-06-01T18:33:00+10:00",
-                "location": "Mckellar St, Cobbitty, NSW 2570",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mckellar St, Cobbitty, NSW 2570 <br />COUNCIL AREA: Camden <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Jun 2023 18:33",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.8052160000001,
                     -34.74665099999993
                 ]
@@ -3239,30 +3312,6 @@
                 "location": "Varleys Rd, Tocumwal, NSW 2714",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Varleys Rd, Tocumwal, NSW 2714 <br />COUNCIL AREA: Berrigan <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jun 2023 00:34",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.52127100000007,
-                    -30.918519999999944
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Warbro Brook Rd, Toorooka",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/497508",
-                "created": "2023-06-02T03:06:00+10:00",
-                "updated": "2023-06-02T13:06:00+10:00",
-                "location": "690 Warbro Brook Rd, Toorooka, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 690 Warbro Brook Rd, Toorooka, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jun 2023 13:06",
                 "title": "incident: fire"
             }
         },
