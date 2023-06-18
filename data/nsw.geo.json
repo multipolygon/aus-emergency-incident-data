@@ -750,10 +750,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.13366800000006,
-                    -29.28960499899995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.1358613980001,
+                            -29.284138086999974
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.133772441,
+                                            -29.2832418899999
+                                        ],
+                                        [
+                                            153.13448628,
+                                            -29.2829325599999
+                                        ],
+                                        [
+                                            153.134771815,
+                                            -29.2827897929999
+                                        ],
+                                        [
+                                            153.135247707,
+                                            -29.282884972
+                                        ],
+                                        [
+                                            153.138507568,
+                                            -29.285026487
+                                        ],
+                                        [
+                                            153.137865114,
+                                            -29.2853834049999
+                                        ],
+                                        [
+                                            153.137460605,
+                                            -29.285764119
+                                        ],
+                                        [
+                                            153.136960918,
+                                            -29.2858355029999
+                                        ],
+                                        [
+                                            153.133772441,
+                                            -29.2832418899999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -761,13 +814,13 @@
                 "sourceTitle": "Jackybulbin Flat Road, Jacky Bulbin Flat",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500013",
-                "created": "2023-06-18T08:17:00+10:00",
-                "updated": "2023-06-18T18:17:00+10:00",
+                "created": "2023-06-18T08:55:00+10:00",
+                "updated": "2023-06-18T18:55:00+10:00",
                 "location": "6 Jackybulbin Flat Road, Jacky Bulbin Flat, NSW 2463",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 6 Jackybulbin Flat Road, Jacky Bulbin Flat, NSW 2463 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Jun 2023 18:17",
+                "size": 6,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 6 Jackybulbin Flat Road, Jacky Bulbin Flat, NSW 2463 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Jun 2023 18:55",
                 "title": "incident: fire"
             }
         },
@@ -1434,6 +1487,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.69855000000007,
+                    -34.14987999999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mary Gilmore Wy, Morangarell",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500022",
+                "created": "2023-06-18T09:08:00+10:00",
+                "updated": "2023-06-18T19:08:00+10:00",
+                "location": "Mary Gilmore Wy, Morangarell,  2666",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mary Gilmore Wy, Morangarell,  2666 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Jun 2023 19:08",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.71894400000008,
                     -34.45890099999997
                 ]
@@ -1450,30 +1527,6 @@
                 "location": "Meads Lane, Boorowa, NSW 2586",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Meads Lane, Boorowa, NSW 2586 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Jun 2023 00:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.81974800000012,
-                    -31.09301499999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Middleton St, South Kempsey",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500021",
-                "created": "2023-06-18T08:42:00+10:00",
-                "updated": "2023-06-18T18:42:00+10:00",
-                "location": "Middleton St, South Kempsey, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Middleton St, South Kempsey, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Jun 2023 18:42",
                 "title": "incident: fire"
             }
         },
