@@ -172,10 +172,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.28428649900002,
-                    -33.42903453099996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.28428649900002,
+                            -33.42903453099996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.285725893,
+                                            -33.4335227839999
+                                        ],
+                                        [
+                                            149.289794771,
+                                            -33.4341652379999
+                                        ],
+                                        [
+                                            149.288700219,
+                                            -33.440970497
+                                        ],
+                                        [
+                                            149.284179244,
+                                            -33.44047081
+                                        ],
+                                        [
+                                            149.285725893,
+                                            -33.4335227839999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -185,11 +222,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/499034",
-                "created": "2023-06-21T22:52:00+10:00",
-                "updated": "2023-06-22T08:52:00+10:00",
+                "created": "2023-06-23T00:40:00+10:00",
+                "updated": "2023-06-23T10:40:00+10:00",
                 "location": "vittoria",
                 "size": 140,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: vittoria <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 140 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 22 Jun 2023 08:52",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: vittoria <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 140 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 23 Jun 2023 10:40",
                 "title": "incident: fire"
             }
         },
@@ -294,23 +331,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.20753700000012,
-                    -29.315782999999954
+                    149.62821006700005,
+                    -32.185746422999955
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "County Boundary Rd, Pallamallawa",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500438",
-                "created": "2023-06-22T22:52:00+10:00",
-                "updated": "2023-06-23T08:52:00+10:00",
-                "location": "County Boundary Rd, Pallamallawa, NSW 2399",
+                "sourceTitle": "Blue Springs Rd, Bungaba",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500444",
+                "created": "2023-06-23T00:56:00+10:00",
+                "updated": "2023-06-23T10:56:00+10:00",
+                "location": "1424 Blue Springs Rd, Bungaba, NSW 2852",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: County Boundary Rd, Pallamallawa, NSW 2399 <br />COUNCIL AREA: Gwydir <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 08:52",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1424 Blue Springs Rd, Bungaba, NSW 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Being controlled <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 10:56",
+                "title": "incident: fire"
             }
         },
         {
@@ -342,30 +379,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.127473,
-                    -33.51703299999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mckanes Falls Rd, South Bowenfels",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500440",
-                "created": "2023-06-22T23:20:00+10:00",
-                "updated": "2023-06-23T09:20:00+10:00",
-                "location": "Mckanes Falls Rd, South Bowenfels, NSW 2790",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mckanes Falls Rd, South Bowenfels, NSW 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 09:20",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.08198300100003,
                     -32.47312699999998
                 ]
@@ -382,30 +395,6 @@
                 "location": "New England Hwy, Camberwell, NSW 2330",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Hwy, Camberwell, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 07:53",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.61224300000003,
-                    -33.13437899999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pacific Hwy, Catherine Hill Bay",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500441",
-                "created": "2023-06-22T23:44:00+10:00",
-                "updated": "2023-06-23T09:44:00+10:00",
-                "location": "Pacific Hwy, Catherine Hill Bay, NSW 2281",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Catherine Hill Bay, NSW 2281 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 09:44",
                 "title": "incident: other"
             }
         },
@@ -438,23 +427,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.5754290000001,
-                    -28.78382399999998
+                    152.79942600000004,
+                    -31.31650899999994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ross Lane, Lennox Head",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500437",
-                "created": "2023-06-22T23:14:00+10:00",
-                "updated": "2023-06-23T09:14:00+10:00",
-                "location": "Ross Lane, Lennox Head, NSW 2478",
+                "sourceTitle": "Riverview Cl, Telegraph Point",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500442",
+                "created": "2023-06-23T00:30:00+10:00",
+                "updated": "2023-06-23T10:30:00+10:00",
+                "location": "40 Riverview Cl, Telegraph Point, NSW 2441",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ross Lane, Lennox Head, NSW 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 09:14",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 40 Riverview Cl, Telegraph Point, NSW 2441 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 10:30",
+                "title": "incident: fire"
             }
         },
         {
@@ -899,22 +888,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.43296600000008,
-                    -33.138128000999984
+                    145.5434540000001,
+                    -35.809477999999956
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "The Bridle Trk, Bruinbun",
+                "sourceTitle": "Tuppal Rd, Tocumwal",
                 "category": "other",
-                "subcategory": "mva/transport",
+                "subcategory": "flood/storm/tree down",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500439",
-                "created": "2023-06-22T23:42:00+10:00",
-                "updated": "2023-06-23T09:42:00+10:00",
-                "location": "The Bridle Trk, Bruinbun, NSW 2795",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500443",
+                "created": "2023-06-23T00:38:00+10:00",
+                "updated": "2023-06-23T10:38:00+10:00",
+                "location": "141 Tuppal Rd, Tocumwal, NSW 2714",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: The Bridle Trk, Bruinbun, NSW 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 09:42",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 141 Tuppal Rd, Tocumwal, NSW 2714 <br />COUNCIL AREA: Berrigan <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 10:38",
                 "title": "incident: other"
             }
         }
