@@ -582,10 +582,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.19213000000002,
-                    -36.02112399999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.19213000000002,
+                            -36.02112399999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.192872621,
+                                            -36.0202838929999
+                                        ],
+                                        [
+                                            149.196376719,
+                                            -36.019804592
+                                        ],
+                                        [
+                                            149.200210616,
+                                            -36.0200841829999
+                                        ],
+                                        [
+                                            149.204333083,
+                                            -36.021202553
+                                        ],
+                                        [
+                                            149.205858398,
+                                            -36.0236389999999
+                                        ],
+                                        [
+                                            149.206559218,
+                                            -36.02619527
+                                        ],
+                                        [
+                                            149.200746536,
+                                            -36.028751541
+                                        ],
+                                        [
+                                            149.197407337,
+                                            -36.0271538709999
+                                        ],
+                                        [
+                                            149.194521609,
+                                            -36.0248372519999
+                                        ],
+                                        [
+                                            149.192790172,
+                                            -36.023319463
+                                        ],
+                                        [
+                                            149.1923367,
+                                            -36.021721794
+                                        ],
+                                        [
+                                            149.192872621,
+                                            -36.0202838929999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -752,6 +817,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.22203000000002,
+                    -33.93322999999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Compton Rd, Wyalong",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500576",
+                "created": "2023-06-24T05:28:00+10:00",
+                "updated": "2023-06-24T15:28:00+10:00",
+                "location": "Compton Rd, Wyalong, NSW 2671",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Compton Rd, Wyalong, NSW 2671 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 24 Jun 2023 15:28",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.57509700000003,
                     -34.21258699899994
                 ]
@@ -833,13 +922,13 @@
                 "sourceTitle": "Gilmour Cl, Glenhaven",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500573",
-                "created": "2023-06-24T05:02:00+10:00",
-                "updated": "2023-06-24T15:02:00+10:00",
+                "created": "2023-06-24T05:28:00+10:00",
+                "updated": "2023-06-24T15:28:00+10:00",
                 "location": "8 Gilmour Cl, Glenhaven, NSW 2156",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8 Gilmour Cl, Glenhaven, NSW 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Jun 2023 15:02",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8 Gilmour Cl, Glenhaven, NSW 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Jun 2023 15:28",
                 "title": "incident: fire"
             }
         },
@@ -912,6 +1001,30 @@
                 "location": "18 Hyperno St, Gables, NSW 2765",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 18 Hyperno St, Gables, NSW 2765 <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Jun 2023 17:04",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.58499400000005,
+                    -28.81338599999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ibis Pl, Lennox Head",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500575",
+                "created": "2023-06-24T05:33:00+10:00",
+                "updated": "2023-06-24T15:33:00+10:00",
+                "location": "Ibis Pl, Lennox Head, NSW 2478",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ibis Pl, Lennox Head, NSW 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Jun 2023 15:33",
                 "title": "incident: fire"
             }
         },
@@ -1033,6 +1146,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 565 Old Razorback Rd, Cawdor, NSW 2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Jun 2023 10:22",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.6721930010001,
+                    -35.03876199999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Owen St, Huskisson",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500577",
+                "created": "2023-06-24T05:34:00+10:00",
+                "updated": "2023-06-24T15:34:00+10:00",
+                "location": "75 Owen St, Huskisson,  2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 75 Owen St, Huskisson,  2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Jun 2023 15:34",
+                "title": "incident: other"
             }
         },
         {
