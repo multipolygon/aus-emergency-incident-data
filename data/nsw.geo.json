@@ -429,10 +429,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.694280982,
-                    -31.945052275999956
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.694280982,
+                            -31.945052275999956
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.688747779,
+                                            -31.9459058219999
+                                        ],
+                                        [
+                                            148.687879276,
+                                            -31.945525108
+                                        ],
+                                        [
+                                            148.687439076,
+                                            -31.945084908
+                                        ],
+                                        [
+                                            148.687308206,
+                                            -31.9446804
+                                        ],
+                                        [
+                                            148.687355794,
+                                            -31.944121227
+                                        ],
+                                        [
+                                            148.687736508,
+                                            -31.943657232
+                                        ],
+                                        [
+                                            148.688486039,
+                                            -31.94362154
+                                        ],
+                                        [
+                                            148.689794742,
+                                            -31.944882654
+                                        ],
+                                        [
+                                            148.689604385,
+                                            -31.9450611139999
+                                        ],
+                                        [
+                                            148.688747779,
+                                            -31.9459058219999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -495,30 +552,6 @@
                 "location": "Bombala",
                 "size": 180,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Bombala <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 180 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 23 Jun 2023 14:59",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.50823200000002,
-                    -31.930931999999984
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pampoolah Rd, Pampoolah",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500564",
-                "created": "2023-06-24T03:55:00+10:00",
-                "updated": "2023-06-24T13:55:00+10:00",
-                "location": "247 Pampoolah Rd, Pampoolah, NSW 2430",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 247 Pampoolah Rd, Pampoolah, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Jun 2023 13:55",
                 "title": "incident: fire"
             }
         },
@@ -887,6 +920,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.68656900000008,
+                    -31.528588999999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kamilaroi Hwy, Quirindi",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500571",
+                "created": "2023-06-24T04:38:00+10:00",
+                "updated": "2023-06-24T14:38:00+10:00",
+                "location": "1284 Kamilaroi Hwy, Quirindi, NSW 2343",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1284 Kamilaroi Hwy, Quirindi, NSW 2343 <br />COUNCIL AREA: Liverpool Plains <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Jun 2023 14:38",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.16187572400008,
                     -32.07053812299995
                 ]
@@ -920,13 +977,13 @@
                 "sourceTitle": "Lambert St, Wingham",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500572",
-                "created": "2023-06-24T04:38:00+10:00",
-                "updated": "2023-06-24T14:38:00+10:00",
+                "created": "2023-06-24T04:48:00+10:00",
+                "updated": "2023-06-24T14:48:00+10:00",
                 "location": "Lambert St, Wingham, NSW 2429",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lambert St, Wingham, NSW 2429 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 24 Jun 2023 14:38",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lambert St, Wingham, NSW 2429 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 24 Jun 2023 14:48",
                 "title": "incident: fire"
             }
         },
@@ -952,30 +1009,6 @@
                 "size": 1,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2839 Macleay Valley Way, Barraganyatti, NSW 2441 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Jun 2023 12:38",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.8680240000001,
-                    -32.74588399999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Medowie Rd, Medowie",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500569",
-                "created": "2023-06-24T04:16:00+10:00",
-                "updated": "2023-06-24T14:16:00+10:00",
-                "location": "Unit 135/717 Medowie Rd, Medowie, NSW 2318",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit 135/717 Medowie Rd, Medowie, NSW 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Jun 2023 14:16",
-                "title": "incident: other"
             }
         },
         {
