@@ -366,10 +366,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.6106880000001,
-                    -29.771204999999952
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.5824732540001,
+                            -29.790806118999967
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.588259146,
+                                            -29.7951223219999
+                                        ],
+                                        [
+                                            152.583983732,
+                                            -29.7962550849999
+                                        ],
+                                        [
+                                            152.576553035,
+                                            -29.7925065119999
+                                        ],
+                                        [
+                                            152.574589684,
+                                            -29.790685475
+                                        ],
+                                        [
+                                            152.574809491,
+                                            -29.790495157
+                                        ],
+                                        [
+                                            152.576792934,
+                                            -29.787540636
+                                        ],
+                                        [
+                                            152.579967125,
+                                            -29.787837297
+                                        ],
+                                        [
+                                            152.582043986,
+                                            -29.7887034899999
+                                        ],
+                                        [
+                                            152.586966273,
+                                            -29.7899606199999
+                                        ],
+                                        [
+                                            152.588259146,
+                                            -29.7951223219999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -377,13 +434,13 @@
                 "sourceTitle": "Doboy Rd, Buccarumbi",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500775",
-                "created": "2023-06-25T23:34:00+10:00",
-                "updated": "2023-06-26T09:34:00+10:00",
+                "created": "2023-06-26T07:05:00+10:00",
+                "updated": "2023-06-26T17:05:00+10:00",
                 "location": "685 Doboy Rd, Buccarumbi, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 685 Doboy Rd, Buccarumbi, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 09:34",
+                "size": 78,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 685 Doboy Rd, Buccarumbi, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 78 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 17:05",
                 "title": "incident: fire"
             }
         },
@@ -575,6 +632,30 @@
                 "location": "Granite Lane, Tabulam, NSW 2469",
                 "size": 100,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Granite Lane, Tabulam, NSW 2469 <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 100 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 02:23",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.5743440000001,
+                    -31.96646099999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Harrogate Lane, Old Bar",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500836",
+                "created": "2023-06-26T06:24:00+10:00",
+                "updated": "2023-06-26T16:24:00+10:00",
+                "location": "Harrogate Lane, Old Bar, NSW 2430",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Harrogate Lane, Old Bar, NSW 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 16:24",
                 "title": "incident: fire"
             }
         },
@@ -1320,30 +1401,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.17010000000005,
-                    -35.79688999999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Monaro Hwy, Michelago",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500808",
-                "created": "2023-06-26T04:02:00+10:00",
-                "updated": "2023-06-26T14:02:00+10:00",
-                "location": "5266 Monaro Hwy, Michelago,  2620",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 5266 Monaro Hwy, Michelago,  2620 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 14:02",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.86072254200008,
                     -30.828033845999983
                 ]
@@ -1906,13 +1963,13 @@
                 "sourceTitle": "Rothlyn Rd, Bredbo",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500570",
-                "created": "2023-06-26T02:23:00+10:00",
-                "updated": "2023-06-26T12:23:00+10:00",
+                "created": "2023-06-26T07:00:00+10:00",
+                "updated": "2023-06-26T17:00:00+10:00",
                 "location": "Rothlyn Rd, Bredbo, NSW 2626",
                 "size": 85,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Rothlyn Rd, Bredbo, NSW 2626 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 85 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 12:23",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Rothlyn Rd, Bredbo, NSW 2626 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 85 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 17:00",
                 "title": "incident: fire"
             }
         },
@@ -2322,30 +2379,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.53533799900003,
-                    -32.19055199999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Burrawong Pl, Forster",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500843",
-                "created": "2023-06-26T06:46:00+10:00",
-                "updated": "2023-06-26T16:46:00+10:00",
-                "location": "5 Burrawong Pl, Forster, NSW 2428",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 Burrawong Pl, Forster, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 26 Jun 2023 16:46",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.58500000000004,
                     -34.28789999999998
                 ]
@@ -2379,13 +2412,13 @@
                 "sourceTitle": "Glenview Rd, Wentworth Falls",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500839",
-                "created": "2023-06-26T06:46:00+10:00",
-                "updated": "2023-06-26T16:46:00+10:00",
+                "created": "2023-06-26T07:10:00+10:00",
+                "updated": "2023-06-26T17:10:00+10:00",
                 "location": "Glenview Rd, Wentworth Falls, NSW 2782",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Glenview Rd, Wentworth Falls, NSW 2782 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 26 Jun 2023 16:46",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Glenview Rd, Wentworth Falls, NSW 2782 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 26 Jun 2023 17:10",
                 "title": "incident: fire"
             }
         },
@@ -2490,46 +2523,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.34340200000008,
-                    -33.39975399999997
+                    152.53533799900003,
+                    -32.19055199999997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Manns Rd, Narara",
+                "sourceTitle": "Marine Dr, Forster",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500842",
-                "created": "2023-06-26T06:46:00+10:00",
-                "updated": "2023-06-26T16:46:00+10:00",
-                "location": "4 Manns Rd, Narara, NSW 2250",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500843",
+                "created": "2023-06-26T07:00:00+10:00",
+                "updated": "2023-06-26T17:00:00+10:00",
+                "location": "Marine Dr, Forster, NSW 2428",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 Manns Rd, Narara, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 26 Jun 2023 16:46",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.56936300000007,
-                    -33.17249499999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mulloway Rd, Chain Valley Bay",
-                "category": "fire",
-                "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500821",
-                "created": "2023-06-26T04:58:00+10:00",
-                "updated": "2023-06-26T14:58:00+10:00",
-                "location": "Mulloway Rd, Chain Valley Bay, NSW 2259",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mulloway Rd, Chain Valley Bay, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 14:58",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Marine Dr, Forster, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 26 Jun 2023 17:00",
                 "title": "incident: fire"
             }
         },
@@ -2578,6 +2587,30 @@
                 "location": "2306 Newell Hwy, Dandry, NSW 2357",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2306 Newell Hwy, Dandry, NSW 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jun 2023 16:28",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.31403000000012,
+                    -32.24541999999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, Coolongolook",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500840",
+                "created": "2023-06-26T06:38:00+10:00",
+                "updated": "2023-06-26T16:38:00+10:00",
+                "location": "Pacific Hwy, Coolongolook,  2423",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Coolongolook,  2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 16:38",
                 "title": "incident: fire"
             }
         },
@@ -2650,6 +2683,30 @@
                 "location": "South Kiama Dr, Kiama Heights, NSW 2533",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: South Kiama Dr, Kiama Heights, NSW 2533 <br />COUNCIL AREA: Kiama <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 26 Jun 2023 05:32",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.67288000000008,
+                    -30.511369999999943
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Taylor St, Armidale",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500844",
+                "created": "2023-06-26T06:58:00+10:00",
+                "updated": "2023-06-26T16:58:00+10:00",
+                "location": "Taylor St, Armidale,  2350",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Taylor St, Armidale,  2350 <br />COUNCIL AREA: Armidale <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 26 Jun 2023 16:58",
                 "title": "incident: fire"
             }
         },
