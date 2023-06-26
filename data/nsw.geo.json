@@ -368,30 +368,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.80447500000002,
-                    -29.407938999999942
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Coaldale Rd, Coaldale",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500812",
-                "created": "2023-06-26T04:10:00+10:00",
-                "updated": "2023-06-26T14:10:00+10:00",
-                "location": "2243 Coaldale Rd, Coaldale, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2243 Coaldale Rd, Coaldale, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 14:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.58688735900012,
                     -30.19632007299998
                 ]
@@ -432,30 +408,6 @@
                 "location": "685 Doboy Rd, Buccarumbi, NSW 2460",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 685 Doboy Rd, Buccarumbi, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 09:34",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.4438169990001,
-                    -32.13921199999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dubbo-Burroway Rd, Burroway",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500822",
-                "created": "2023-06-26T05:10:00+10:00",
-                "updated": "2023-06-26T15:10:00+10:00",
-                "location": "Dubbo-Burroway Rd, Burroway, NSW 2821",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Dubbo-Burroway Rd, Burroway, NSW 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 15:10",
                 "title": "incident: fire"
             }
         },
@@ -1142,14 +1094,14 @@
                 "feedType": "incident",
                 "sourceTitle": "Kingfisher Rd, Wyndham",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500774",
-                "created": "2023-06-26T04:11:00+10:00",
-                "updated": "2023-06-26T14:11:00+10:00",
+                "created": "2023-06-26T06:10:00+10:00",
+                "updated": "2023-06-26T16:10:00+10:00",
                 "location": "Kingfisher Rd, Wyndham, NSW 2550",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Kingfisher Rd, Wyndham, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 14:11",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Kingfisher Rd, Wyndham, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 16:10",
                 "title": "incident: fire"
             }
         },
@@ -1265,6 +1217,83 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.4674453780001,
+                            -35.07674903099996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.467652977,
+                                            -35.076861928
+                                        ],
+                                        [
+                                            150.467867128,
+                                            -35.076612085
+                                        ],
+                                        [
+                                            150.468331123,
+                                            -35.076552599
+                                        ],
+                                        [
+                                            150.468580966,
+                                            -35.07658829
+                                        ],
+                                        [
+                                            150.468723734,
+                                            -35.076826237
+                                        ],
+                                        [
+                                            150.468628556,
+                                            -35.0769571079999
+                                        ],
+                                        [
+                                            150.46821215,
+                                            -35.077111772
+                                        ],
+                                        [
+                                            150.467783847,
+                                            -35.07707608
+                                        ],
+                                        [
+                                            150.467652977,
+                                            -35.076861928
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maddens Rd, Wandandian",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500825",
+                "created": "2023-06-26T05:50:00+10:00",
+                "updated": "2023-06-26T15:50:00+10:00",
+                "location": "24 Maddens Rd, Wandandian, NSW 2540",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 24 Maddens Rd, Wandandian, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 15:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     153.39133600000002,
@@ -1326,11 +1355,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500350",
-                "created": "2023-06-25T23:17:00+10:00",
-                "updated": "2023-06-26T09:17:00+10:00",
+                "created": "2023-06-26T06:04:00+10:00",
+                "updated": "2023-06-26T16:04:00+10:00",
                 "location": "Bombala",
                 "size": 180,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Bombala <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 180 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 26 Jun 2023 09:17",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Bombala <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 180 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 26 Jun 2023 16:04",
                 "title": "incident: fire"
             }
         },
@@ -1504,30 +1533,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.57089500000006,
-                    -33.54434699999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nangar Rd, Canowindra",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500824",
-                "created": "2023-06-26T05:16:00+10:00",
-                "updated": "2023-06-26T15:16:00+10:00",
-                "location": "Nangar Rd, Canowindra, NSW 2804",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Nangar Rd, Canowindra, NSW 2804 <br />COUNCIL AREA: Cabonne <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 15:16",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     144.45339202900004,
                     -31.322553872999947
                 ]
@@ -1539,11 +1544,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/499529",
-                "created": "2023-06-26T01:47:00+10:00",
-                "updated": "2023-06-26T11:47:00+10:00",
+                "created": "2023-06-26T06:04:00+10:00",
+                "updated": "2023-06-26T16:04:00+10:00",
                 "location": "144.453, -31.323",
                 "size": 6408,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 144.453, -31.323 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 6408 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 26 Jun 2023 11:47",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 144.453, -31.323 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 6408 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 26 Jun 2023 16:04",
                 "title": "incident: fire"
             }
         },
@@ -1948,8 +1953,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.72031600100001,
-                    -30.76233099999996
+                    150.720051527,
+                    -30.76357685399995
                 ]
             },
             "properties": {
@@ -1961,9 +1966,9 @@
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500816",
                 "created": "2023-06-26T04:24:00+10:00",
                 "updated": "2023-06-26T14:24:00+10:00",
-                "location": "Rushes Creek Rd, Manilla, NSW 2346",
+                "location": "472 Rushes Creek Rd, Manilla, NSW 2346",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Rushes Creek Rd, Manilla, NSW 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 14:24",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 472 Rushes Creek Rd, Manilla, NSW 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 14:24",
                 "title": "incident: fire"
             }
         },
@@ -2173,30 +2178,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.86339900000007,
-                    -36.63527799999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Angledale Rd, Angledale",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500512",
-                "created": "2023-06-25T16:18:00+10:00",
-                "updated": "2023-06-26T02:18:00+10:00",
-                "location": "484 Angledale Rd, Angledale, NSW 2550",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 484 Angledale Rd, Angledale, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 02:18",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.44288600100003,
                     -33.53661000099993
                 ]
@@ -2341,6 +2322,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.4538950000001,
+                    -33.18612499899996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hue Hue Rd, Wyee",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500820",
+                "created": "2023-06-26T04:44:00+10:00",
+                "updated": "2023-06-26T14:44:00+10:00",
+                "location": "1222 Hue Hue Rd, Wyee, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1222 Hue Hue Rd, Wyee, NSW 2259 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 14:44",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.99308200000007,
+                    -35.143853999999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hume Hwy, Tumblong",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500833",
+                "created": "2023-06-26T06:00:00+10:00",
+                "updated": "2023-06-26T16:00:00+10:00",
+                "location": "Hume Hwy, Tumblong,  2729",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Hume Hwy, Tumblong,  2729 <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 16:00",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.30216900000005,
                     -28.275091999999972
                 ]
@@ -2389,23 +2418,47 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.48385600000006,
-                    -35.084720999999945
+                    151.56936300000007,
+                    -33.17249499999997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Maddens Rd, Wandandian",
+                "sourceTitle": "Mulloway Rd, Chain Valley Bay",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "vehicle/equipment fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500825",
-                "created": "2023-06-26T05:16:00+10:00",
-                "updated": "2023-06-26T15:16:00+10:00",
-                "location": "24 Maddens Rd, Wandandian, NSW 2540",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500821",
+                "created": "2023-06-26T04:58:00+10:00",
+                "updated": "2023-06-26T14:58:00+10:00",
+                "location": "Mulloway Rd, Chain Valley Bay, NSW 2259",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 24 Maddens Rd, Wandandian, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 15:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mulloway Rd, Chain Valley Bay, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 14:58",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.01326500000005,
+                    -32.76672999999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nelson Bay Rd, Bobs Farm",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500823",
+                "created": "2023-06-26T05:12:00+10:00",
+                "updated": "2023-06-26T15:12:00+10:00",
+                "location": "Nelson Bay Rd, Bobs Farm, NSW 2316",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Nelson Bay Rd, Bobs Farm, NSW 2316 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 15:12",
+                "title": "incident: other"
             }
         },
         {
@@ -2430,6 +2483,54 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2306 Newell Hwy, Dandry, NSW 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jun 2023 16:28",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.46597600000007,
+                    -28.97704699999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Hwy, East Wardell",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500832",
+                "created": "2023-06-26T05:50:00+10:00",
+                "updated": "2023-06-26T15:50:00+10:00",
+                "location": "11018- 11050 Pacific Hwy, East Wardell, NSW 2477",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 11018- 11050 Pacific Hwy, East Wardell, NSW 2477 <br />COUNCIL AREA: Ballina <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 15:50",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.15438200000006,
+                    -33.623486999999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pacific Mtwy, Berowra",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500834",
+                "created": "2023-06-26T06:12:00+10:00",
+                "updated": "2023-06-26T16:12:00+10:00",
+                "location": "Pacific Mtwy, Berowra, NSW 2081",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Mtwy, Berowra, NSW 2081 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 26 Jun 2023 16:12",
+                "title": "incident: other"
             }
         },
         {
@@ -2542,13 +2643,13 @@
                 "sourceTitle": "Toorawandi Rd, Ulamambri",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500782",
-                "created": "2023-06-26T01:14:00+10:00",
-                "updated": "2023-06-26T11:14:00+10:00",
+                "created": "2023-06-26T06:00:00+10:00",
+                "updated": "2023-06-26T16:00:00+10:00",
                 "location": "Toorawandi Rd, Ulamambri, NSW 2357",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Toorawandi Rd, Ulamambri, NSW 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 11:14",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Toorawandi Rd, Ulamambri, NSW 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 16:00",
                 "title": "incident: fire"
             }
         },
