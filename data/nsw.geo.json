@@ -807,10 +807,103 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.5106270000001,
-                    -28.96799599999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.5106270000001,
+                            -28.96799599999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.51285135,
+                                            -28.963348649
+                                        ],
+                                        [
+                                            152.513729254,
+                                            -28.964336913
+                                        ],
+                                        [
+                                            152.514028885,
+                                            -28.965591745
+                                        ],
+                                        [
+                                            152.51497624,
+                                            -28.9662518879999
+                                        ],
+                                        [
+                                            152.514396829,
+                                            -28.9667572669999
+                                        ],
+                                        [
+                                            152.513240227,
+                                            -28.967290407
+                                        ],
+                                        [
+                                            152.511576413,
+                                            -28.967403781
+                                        ],
+                                        [
+                                            152.510658662,
+                                            -28.967669105
+                                        ],
+                                        [
+                                            152.509371604,
+                                            -28.9670673959999
+                                        ],
+                                        [
+                                            152.508186109,
+                                            -28.9665257459999
+                                        ],
+                                        [
+                                            152.506659494,
+                                            -28.9663410489999
+                                        ],
+                                        [
+                                            152.505101922,
+                                            -28.965529349
+                                        ],
+                                        [
+                                            152.505582377,
+                                            -28.964426623
+                                        ],
+                                        [
+                                            152.508874565,
+                                            -28.964498384
+                                        ],
+                                        [
+                                            152.509690602,
+                                            -28.9642028489999
+                                        ],
+                                        [
+                                            152.509998339,
+                                            -28.963726353
+                                        ],
+                                        [
+                                            152.509932141,
+                                            -28.9633678979999
+                                        ],
+                                        [
+                                            152.512276703,
+                                            -28.962839096
+                                        ],
+                                        [
+                                            152.51285135,
+                                            -28.963348649
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1518,83 +1611,6 @@
                 "location": "vittoria",
                 "size": 140,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: vittoria <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 140 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 27 Jun 2023 08:03",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            150.4674453780001,
-                            -35.07674903099996
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            150.467652977,
-                                            -35.076861928
-                                        ],
-                                        [
-                                            150.467867128,
-                                            -35.076612085
-                                        ],
-                                        [
-                                            150.468331123,
-                                            -35.076552599
-                                        ],
-                                        [
-                                            150.468580966,
-                                            -35.07658829
-                                        ],
-                                        [
-                                            150.468723734,
-                                            -35.076826237
-                                        ],
-                                        [
-                                            150.468628556,
-                                            -35.0769571079999
-                                        ],
-                                        [
-                                            150.46821215,
-                                            -35.077111772
-                                        ],
-                                        [
-                                            150.467783847,
-                                            -35.07707608
-                                        ],
-                                        [
-                                            150.467652977,
-                                            -35.076861928
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Maddens Rd, Wandandian",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500825",
-                "created": "2023-06-26T11:02:00+10:00",
-                "updated": "2023-06-26T21:02:00+10:00",
-                "location": "24 Maddens Rd, Wandandian, NSW 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 24 Maddens Rd, Wandandian, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jun 2023 21:02",
                 "title": "incident: fire"
             }
         },
