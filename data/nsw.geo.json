@@ -17,11 +17,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500670",
-                "created": "2023-06-26T18:09:00+10:00",
-                "updated": "2023-06-27T04:09:00+10:00",
+                "created": "2023-06-27T04:19:00+10:00",
+                "updated": "2023-06-27T14:19:00+10:00",
                 "location": "1134 Mooral Creek Rd, Strathcedar, NSW 2429",
-                "size": 7,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1134 Mooral Creek Rd, Strathcedar, NSW 2429 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 7 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 04:09",
+                "size": 50,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1134 Mooral Creek Rd, Strathcedar, NSW 2429 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 50 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 14:19",
                 "title": "incident: fire"
             }
         },
@@ -368,8 +368,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.3942070180001,
-                    -28.87702686199998
+                    152.36653518100002,
+                    -28.875914517999945
                 ]
             },
             "properties": {
@@ -927,6 +927,30 @@
                 "location": "685 Doboy Rd, Buccarumbi, NSW 2460",
                 "size": 78,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 685 Doboy Rd, Buccarumbi, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 78 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 12:42",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.4495729990001,
+                    -33.08336699999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Freemans Dr, Cooranbong",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500924",
+                "created": "2023-06-27T04:04:00+10:00",
+                "updated": "2023-06-27T14:04:00+10:00",
+                "location": "480 Freemans Dr, Cooranbong, NSW 2265",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 480 Freemans Dr, Cooranbong, NSW 2265 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 14:04",
                 "title": "incident: fire"
             }
         },
@@ -1545,24 +1569,113 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.94230500000003,
-                    -28.747784998999975
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.95131683300008,
+                            -28.745536985999934
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.949314089,
+                                            -28.7467896279999
+                                        ],
+                                        [
+                                            152.949908955,
+                                            -28.746908601
+                                        ],
+                                        [
+                                            152.950361052,
+                                            -28.7475034669999
+                                        ],
+                                        [
+                                            152.950753663,
+                                            -28.74819351
+                                        ],
+                                        [
+                                            152.950349155,
+                                            -28.748835964
+                                        ],
+                                        [
+                                            152.949694803,
+                                            -28.7492642679999
+                                        ],
+                                        [
+                                            152.948873889,
+                                            -28.749133397
+                                        ],
+                                        [
+                                            152.948183845,
+                                            -28.749002526
+                                        ],
+                                        [
+                                            152.947517596,
+                                            -28.74925237
+                                        ],
+                                        [
+                                            152.947053601,
+                                            -28.749299959
+                                        ],
+                                        [
+                                            152.94604233,
+                                            -28.7496211869999
+                                        ],
+                                        [
+                                            152.945756795,
+                                            -28.749418932
+                                        ],
+                                        [
+                                            152.945614028,
+                                            -28.7492404729999
+                                        ],
+                                        [
+                                            152.946887039,
+                                            -28.7485385319999
+                                        ],
+                                        [
+                                            152.947636569,
+                                            -28.7480864349999
+                                        ],
+                                        [
+                                            152.948433689,
+                                            -28.747598645
+                                        ],
+                                        [
+                                            152.949064245,
+                                            -28.747075163
+                                        ],
+                                        [
+                                            152.949314089,
+                                            -28.7467896279999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mcdonalds Bridge Rd, Stratheden",
+                "sourceTitle": "McDonalds Bridge Rd, Stratheden",
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500917",
                 "created": "2023-06-27T03:08:00+10:00",
                 "updated": "2023-06-27T13:08:00+10:00",
-                "location": "480 Mcdonalds Bridge Rd, Stratheden, NSW 2470",
+                "location": "480 McDonalds Bridge Rd, Stratheden, NSW 2470",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 480 Mcdonalds Bridge Rd, Stratheden, NSW 2470 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 13:08",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 480 McDonalds Bridge Rd, Stratheden, NSW 2470 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 13:08",
                 "title": "incident: fire"
             }
         },
@@ -1881,22 +1994,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.91576900000007,
-                    -30.74579799999998
+                    152.8772100000001,
+                    -29.13912499999998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Pacific Hwy, Way Way",
+                "sourceTitle": "Old Tenterfield Rd, Kippenduff",
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500923",
-                "created": "2023-06-27T04:02:00+10:00",
-                "updated": "2023-06-27T14:02:00+10:00",
-                "location": "Pacific Hwy, Way Way, NSW 2447",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500926",
+                "created": "2023-06-27T04:20:00+10:00",
+                "updated": "2023-06-27T14:20:00+10:00",
+                "location": "2034 Old Tenterfield Rd, Kippenduff, NSW 2469",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Pacific Hwy, Way Way, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 14:02",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2034 Old Tenterfield Rd, Kippenduff, NSW 2469 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 14:20",
                 "title": "incident: fire"
             }
         },
@@ -2044,6 +2157,37 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.191843809,
+                                            -35.989211794
+                                        ],
+                                        [
+                                            149.193271485,
+                                            -35.9888072859999
+                                        ],
+                                        [
+                                            149.19272421,
+                                            -35.9897352749999
+                                        ],
+                                        [
+                                            149.192771798,
+                                            -35.99033014
+                                        ],
+                                        [
+                                            149.192367291,
+                                            -35.9907108539999
+                                        ],
+                                        [
+                                            149.191843809,
+                                            -35.989211794
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -2242,37 +2386,6 @@
                                         [
                                             149.201028528,
                                             -35.992328888
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.191843809,
-                                            -35.989211794
-                                        ],
-                                        [
-                                            149.193271485,
-                                            -35.9888072859999
-                                        ],
-                                        [
-                                            149.19272421,
-                                            -35.9897352749999
-                                        ],
-                                        [
-                                            149.192771798,
-                                            -35.99033014
-                                        ],
-                                        [
-                                            149.192367291,
-                                            -35.9907108539999
-                                        ],
-                                        [
-                                            149.191843809,
-                                            -35.989211794
                                         ]
                                     ]
                                 ]
@@ -2510,13 +2623,13 @@
                 "sourceTitle": "Big River Way, Ulmarra",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500909",
-                "created": "2023-06-27T02:48:00+10:00",
-                "updated": "2023-06-27T12:48:00+10:00",
+                "created": "2023-06-27T04:20:00+10:00",
+                "updated": "2023-06-27T14:20:00+10:00",
                 "location": "2940 Big River Way, Ulmarra, NSW 2462",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2940 Big River Way, Ulmarra, NSW 2462 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 12:48",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2940 Big River Way, Ulmarra, NSW 2462 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 14:20",
                 "title": "incident: fire"
             }
         },
@@ -2582,13 +2695,13 @@
                 "sourceTitle": "Gardiner St, Coonabarabran",
                 "category": "fire",
                 "subcategory": "hazard reduction",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500908",
-                "created": "2023-06-27T02:44:00+10:00",
-                "updated": "2023-06-27T12:44:00+10:00",
+                "created": "2023-06-27T04:23:00+10:00",
+                "updated": "2023-06-27T14:23:00+10:00",
                 "location": "Gardiner St, Coonabarabran, NSW 2357",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Gardiner St, Coonabarabran, NSW 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Out of control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 12:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Gardiner St, Coonabarabran, NSW 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 14:23",
                 "title": "incident: fire"
             }
         },
@@ -2597,22 +2710,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.51002500000004,
-                    -32.48847499999994
+                    149.5078539850001,
+                    -32.48749274199997
                 ]
             },
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Kaludabah Rd, Cullenbone",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
+                "subcategory": "burn off",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500922",
-                "created": "2023-06-27T03:58:00+10:00",
-                "updated": "2023-06-27T13:58:00+10:00",
-                "location": "Kaludabah Rd, Cullenbone, NSW 2850",
+                "created": "2023-06-27T04:37:00+10:00",
+                "updated": "2023-06-27T14:37:00+10:00",
+                "location": "31 Kaludabah Rd, Cullenbone, NSW 2850",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kaludabah Rd, Cullenbone, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 13:58",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 31 Kaludabah Rd, Cullenbone, NSW 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 14:37",
                 "title": "incident: fire"
             }
         },
@@ -2669,6 +2782,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.0939330000001,
+                    -35.107830999999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nerriga Rd, Nerriga",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500925",
+                "created": "2023-06-27T04:18:00+10:00",
+                "updated": "2023-06-27T14:18:00+10:00",
+                "location": "6008 Nerriga Rd, Nerriga,  2622",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6008 Nerriga Rd, Nerriga,  2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 14:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.4498248100001,
                     -30.75935811499994
                 ]
@@ -2693,22 +2830,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.33862800000009,
-                    -28.32078599999994
+                    152.91576900000007,
+                    -30.74579799999998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Numinbah Rd, North Arm",
+                "sourceTitle": "Pacific Hwy, Way Way",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500905",
-                "created": "2023-06-27T02:27:00+10:00",
-                "updated": "2023-06-27T12:27:00+10:00",
-                "location": "617 Numinbah Rd, North Arm, NSW 2484",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/500923",
+                "created": "2023-06-27T04:34:00+10:00",
+                "updated": "2023-06-27T14:34:00+10:00",
+                "location": "Pacific Hwy, Way Way, NSW 2447",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 617 Numinbah Rd, North Arm, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 12:27",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pacific Hwy, Way Way, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jun 2023 14:34",
                 "title": "incident: fire"
             }
         },
