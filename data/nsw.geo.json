@@ -269,10 +269,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.09085999900003,
-                    -29.69187999999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.09085999900003,
+                            -29.69187999999997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.076920241,
+                                            -29.683777832
+                                        ],
+                                        [
+                                            153.080756188,
+                                            -29.687519906
+                                        ],
+                                        [
+                                            153.087990422,
+                                            -29.6863431519999
+                                        ],
+                                        [
+                                            153.089644785,
+                                            -29.691125789
+                                        ],
+                                        [
+                                            153.085235749,
+                                            -29.691803287
+                                        ],
+                                        [
+                                            153.089792545,
+                                            -29.6952394049999
+                                        ],
+                                        [
+                                            153.078233217,
+                                            -29.697616446
+                                        ],
+                                        [
+                                            153.074581347,
+                                            -29.693245396
+                                        ],
+                                        [
+                                            153.073959611,
+                                            -29.686201943
+                                        ],
+                                        [
+                                            153.076920241,
+                                            -29.683777832
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -515,11 +572,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501017",
-                "created": "2023-06-29T03:24:00+10:00",
-                "updated": "2023-06-29T13:24:00+10:00",
+                "created": "2023-06-29T06:46:00+10:00",
+                "updated": "2023-06-29T16:46:00+10:00",
                 "location": "Farnsworth Ave, Warragamba",
                 "size": 4,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Farnsworth Ave, Warragamba <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 29 Jun 2023 13:24",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Farnsworth Ave, Warragamba <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 29 Jun 2023 16:46",
                 "title": "incident: fire"
             }
         },
@@ -679,10 +736,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.1811110000001,
-                    -29.763732999999945
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.1895797200001,
+                            -29.761713992999944
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.190717448,
+                                            -29.761299895
+                                        ],
+                                        [
+                                            153.190276561,
+                                            -29.7633301989999
+                                        ],
+                                        [
+                                            153.189625895,
+                                            -29.7629729559999
+                                        ],
+                                        [
+                                            153.188701221,
+                                            -29.762437012
+                                        ],
+                                        [
+                                            153.188565217,
+                                            -29.761785883
+                                        ],
+                                        [
+                                            153.188686469,
+                                            -29.7607708739999
+                                        ],
+                                        [
+                                            153.189175167,
+                                            -29.759779857
+                                        ],
+                                        [
+                                            153.190576374,
+                                            -29.7590614919999
+                                        ],
+                                        [
+                                            153.190717448,
+                                            -29.761299895
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1013,6 +1123,30 @@
                 "location": "Bombala",
                 "size": 180,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Bombala <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 180 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 28 Jun 2023 16:21",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.56707100000006,
+                    -30.94419899899998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Moparrabah Rd, Moparrabah",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501116",
+                "created": "2023-06-29T06:40:00+10:00",
+                "updated": "2023-06-29T16:40:00+10:00",
+                "location": "583 Moparrabah Rd, Moparrabah, NSW 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 583 Moparrabah Rd, Moparrabah, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jun 2023 16:40",
                 "title": "incident: fire"
             }
         },
@@ -1613,72 +1747,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.193239878,
-                                            -29.754579899
-                                        ],
-                                        [
-                                            153.196571124,
-                                            -29.7393513489999
-                                        ],
-                                        [
-                                            153.1979988,
-                                            -29.7398272409999
-                                        ],
-                                        [
-                                            153.195381393,
-                                            -29.7548178439999
-                                        ],
-                                        [
-                                            153.193239878,
-                                            -29.754579899
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            153.206287032,
-                                            -29.6980590439999
-                                        ],
-                                        [
-                                            153.209820041,
-                                            -29.694643802
-                                        ],
-                                        [
-                                            153.216839451,
-                                            -29.695595586
-                                        ],
-                                        [
-                                            153.228855729,
-                                            -29.678106548
-                                        ],
-                                        [
-                                            153.231949028,
-                                            -29.6809619009999
-                                        ],
-                                        [
-                                            153.22183632,
-                                            -29.696190451
-                                        ],
-                                        [
-                                            153.213270259,
-                                            -29.699045805
-                                        ],
-                                        [
-                                            153.206287032,
-                                            -29.6980590439999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.195687116,
                                             -29.6971354149999
                                         ],
@@ -1760,6 +1828,72 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.193239878,
+                                            -29.754579899
+                                        ],
+                                        [
+                                            153.196571124,
+                                            -29.7393513489999
+                                        ],
+                                        [
+                                            153.1979988,
+                                            -29.7398272409999
+                                        ],
+                                        [
+                                            153.195381393,
+                                            -29.7548178439999
+                                        ],
+                                        [
+                                            153.193239878,
+                                            -29.754579899
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.206287032,
+                                            -29.6980590439999
+                                        ],
+                                        [
+                                            153.209820041,
+                                            -29.694643802
+                                        ],
+                                        [
+                                            153.216839451,
+                                            -29.695595586
+                                        ],
+                                        [
+                                            153.228855729,
+                                            -29.678106548
+                                        ],
+                                        [
+                                            153.231949028,
+                                            -29.6809619009999
+                                        ],
+                                        [
+                                            153.22183632,
+                                            -29.696190451
+                                        ],
+                                        [
+                                            153.213270259,
+                                            -29.699045805
+                                        ],
+                                        [
+                                            153.206287032,
+                                            -29.6980590439999
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -1777,30 +1911,6 @@
                 "location": "Candole Forest Road, Bookram, NSW 2460",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Candole Forest Road, Bookram, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 29 Jun 2023 12:27",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.61665200000004,
-                    -28.642781999999954
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lawson St, Byron Bay",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501114",
-                "created": "2023-06-29T06:38:00+10:00",
-                "updated": "2023-06-29T16:38:00+10:00",
-                "location": "Lawson St, Byron Bay, NSW 2481",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Lawson St, Byron Bay, NSW 2481 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 29 Jun 2023 16:38",
                 "title": "incident: fire"
             }
         },
@@ -1892,11 +2002,11 @@
                 "subcategory": "other",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501085",
-                "created": "2023-06-29T02:30:00+10:00",
-                "updated": "2023-06-29T12:30:00+10:00",
+                "created": "2023-06-29T06:41:00+10:00",
+                "updated": "2023-06-29T16:41:00+10:00",
                 "location": "31 Smalls Rd, Arcadia, NSW 2159",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 31 Smalls Rd, Arcadia, NSW 2159 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jun 2023 12:30",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 31 Smalls Rd, Arcadia, NSW 2159 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jun 2023 16:41",
                 "title": "incident: other"
             }
         },
@@ -1905,23 +2015,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.98885700000005,
-                    -36.41480700099993
+                    153.2763890000001,
+                    -28.993693999999948
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Westrops Rd, Coolagolite",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501109",
-                "created": "2023-06-29T05:55:00+10:00",
-                "updated": "2023-06-29T15:55:00+10:00",
-                "location": "533 Westrops Rd, Coolagolite, NSW 2550",
+                "sourceTitle": "Surry St, Coraki",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501117",
+                "created": "2023-06-29T06:46:00+10:00",
+                "updated": "2023-06-29T16:46:00+10:00",
+                "location": "Surry St, Coraki, NSW 2471",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 533 Westrops Rd, Coolagolite, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Jun 2023 15:55",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Surry St, Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 29 Jun 2023 16:46",
+                "title": "incident: fire"
             }
         }
     ]
