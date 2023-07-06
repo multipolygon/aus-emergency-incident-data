@@ -4,10 +4,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.6537360000001,
-                    -36.340044999999975
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.6537360000001,
+                            -36.340044999999975
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.658319545,
+                                            -36.342907144
+                                        ],
+                                        [
+                                            148.657746729,
+                                            -36.343218392
+                                        ],
+                                        [
+                                            148.657228614,
+                                            -36.343164266
+                                        ],
+                                        [
+                                            148.657237805,
+                                            -36.342731547
+                                        ],
+                                        [
+                                            148.657391599,
+                                            -36.342461434
+                                        ],
+                                        [
+                                            148.657658581,
+                                            -36.342329298
+                                        ],
+                                        [
+                                            148.658108035,
+                                            -36.3422627479999
+                                        ],
+                                        [
+                                            148.658405592,
+                                            -36.342337582
+                                        ],
+                                        [
+                                            148.658468918,
+                                            -36.342637085
+                                        ],
+                                        [
+                                            148.658319545,
+                                            -36.342907144
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -87,13 +144,37 @@
                 "sourceTitle": "Wollombi Rd, Broke",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501780",
-                "created": "2023-07-06T03:04:00+10:00",
-                "updated": "2023-07-06T13:04:00+10:00",
+                "created": "2023-07-06T04:25:00+10:00",
+                "updated": "2023-07-06T14:25:00+10:00",
                 "location": "218 Wollombi Rd, Broke, NSW 2330",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 218 Wollombi Rd, Broke, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Jul 2023 13:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 218 Wollombi Rd, Broke, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Jul 2023 14:25",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.27424300000007,
+                    -28.88941699999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Coraki Rd, South Gundurimba",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501786",
+                "created": "2023-07-06T04:22:00+10:00",
+                "updated": "2023-07-06T14:22:00+10:00",
+                "location": "309 Coraki Rd, South Gundurimba, NSW 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 309 Coraki Rd, South Gundurimba, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Jul 2023 14:22",
                 "title": "incident: fire"
             }
         },
