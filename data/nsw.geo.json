@@ -223,6 +223,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.58800000000008,
+                    -28.416399998999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clarence Way, Muli Muli",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502005",
+                "created": "2023-07-08T07:30:00+10:00",
+                "updated": "2023-07-08T17:30:00+10:00",
+                "location": "Clarence Way, Muli Muli, NSW 2476",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Clarence Way, Muli Muli, NSW 2476 <br />COUNCIL AREA: Kyogle <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 17:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.3015480030001,
                     -33.603991632999964
                 ]
@@ -247,30 +271,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.3146710000001,
-                    -32.87432999999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Coricudgy Rd, Kelgoola",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501993",
-                "created": "2023-07-08T06:59:00+10:00",
-                "updated": "2023-07-08T16:59:00+10:00",
-                "location": "1860 Coricudgy Rd, Kelgoola, NSW 2849",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1860 Coricudgy Rd, Kelgoola, NSW 2849 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 16:59",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.75699000100008,
                     -34.91087399999998
                 ]
@@ -280,13 +280,13 @@
                 "sourceTitle": "Flora St, Culburra Beach",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501999",
-                "created": "2023-07-08T07:12:00+10:00",
-                "updated": "2023-07-08T17:12:00+10:00",
+                "created": "2023-07-08T07:33:00+10:00",
+                "updated": "2023-07-08T17:33:00+10:00",
                 "location": "Flora St, Culburra Beach, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Flora St, Culburra Beach, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 17:12",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Flora St, Culburra Beach, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 17:33",
                 "title": "incident: fire"
             }
         },
@@ -521,13 +521,13 @@
                 "sourceTitle": "Kamilaroi Hwy, Walgett",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501996",
-                "created": "2023-07-08T07:18:00+10:00",
-                "updated": "2023-07-08T17:18:00+10:00",
+                "created": "2023-07-08T07:25:00+10:00",
+                "updated": "2023-07-08T17:25:00+10:00",
                 "location": "41745 Kamilaroi Hwy, Walgett, NSW 2832",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 41745 Kamilaroi Hwy, Walgett, NSW 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 17:18",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 41745 Kamilaroi Hwy, Walgett, NSW 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 17:25",
                 "title": "incident: fire"
             }
         },
@@ -699,97 +699,48 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            151.52292360800004,
-                            -30.520614129999956
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            151.522269256,
-                                            -30.520935358
-                                        ],
-                                        [
-                                            151.522269256,
-                                            -30.5207331039999
-                                        ],
-                                        [
-                                            151.522352537,
-                                            -30.5206736179999
-                                        ],
-                                        [
-                                            151.522400127,
-                                            -30.520578439
-                                        ],
-                                        [
-                                            151.522530997,
-                                            -30.520471363
-                                        ],
-                                        [
-                                            151.522638073,
-                                            -30.5203048
-                                        ],
-                                        [
-                                            151.522804636,
-                                            -30.5201739309999
-                                        ],
-                                        [
-                                            151.523161555,
-                                            -30.520126341
-                                        ],
-                                        [
-                                            151.523423295,
-                                            -30.5202572119999
-                                        ],
-                                        [
-                                            151.523542268,
-                                            -30.52035239
-                                        ],
-                                        [
-                                            151.523625549,
-                                            -30.520566542
-                                        ],
-                                        [
-                                            151.523256733,
-                                            -30.521042434
-                                        ],
-                                        [
-                                            151.522780841,
-                                            -30.521137612
-                                        ],
-                                        [
-                                            151.522269256,
-                                            -30.520935358
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
+                "type": "Point",
+                "coordinates": [
+                    151.29475700000012,
+                    -32.610041999999964
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tabulum Rd, Invergowrie",
+                "sourceTitle": "Standen Dr, Lower Belford",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501978",
-                "created": "2023-07-08T06:32:00+10:00",
-                "updated": "2023-07-08T16:32:00+10:00",
-                "location": "49 Tabulum Rd, Invergowrie, NSW 2350",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 49 Tabulum Rd, Invergowrie, NSW 2350 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 16:32",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502004",
+                "created": "2023-07-08T07:26:00+10:00",
+                "updated": "2023-07-08T17:26:00+10:00",
+                "location": "663 /Standen Dr, Lower Belford, NSW 2335",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 663 /Standen Dr, Lower Belford, NSW 2335 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 17:26",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.305922,
+                    -33.54690199999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Diamond Rd, Pearl Beach",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502003",
+                "created": "2023-07-08T07:22:00+10:00",
+                "updated": "2023-07-08T17:22:00+10:00",
+                "location": "Diamond Rd, Pearl Beach, NSW 2256",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Diamond Rd, Pearl Beach, NSW 2256 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 17:22",
                 "title": "incident: fire"
             }
         },
@@ -894,6 +845,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.6692270000001,
+                    -31.48276199999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Merinda Rd, Quirindi",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502002",
+                "created": "2023-07-08T07:20:00+10:00",
+                "updated": "2023-07-08T17:20:00+10:00",
+                "location": "21 Merinda Rd, Quirindi, NSW 2343",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 21 Merinda Rd, Quirindi, NSW 2343 <br />COUNCIL AREA: Liverpool Plains <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 17:20",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.55038999900012,
                     -28.720017999999982
                 ]
@@ -911,30 +886,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 318 Old Byron Bay Rd, Newrybar, NSW 2479 <br />COUNCIL AREA: Ballina <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Jul 2023 13:19",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.27520900000002,
-                    -33.433599999999956
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Piles Creek Loop Trk, Somersby",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501976",
-                "created": "2023-07-08T05:04:00+10:00",
-                "updated": "2023-07-08T15:04:00+10:00",
-                "location": "Piles Creek Loop Trk, Somersby, NSW 2250",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Piles Creek Loop Trk, Somersby, NSW 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:04",
-                "title": "incident: other"
             }
         },
         {
