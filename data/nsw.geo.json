@@ -28,10 +28,107 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.0031580000001,
-                    -33.06607800099994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.0031580000001,
+                            -33.06607800099994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.999727718,
+                                            -33.0628880909999
+                                        ],
+                                        [
+                                            151.00033448,
+                                            -33.062709632
+                                        ],
+                                        [
+                                            151.000846064,
+                                            -33.0627453239999
+                                        ],
+                                        [
+                                            151.001845438,
+                                            -33.063256907
+                                        ],
+                                        [
+                                            151.002357022,
+                                            -33.06342347
+                                        ],
+                                        [
+                                            151.002547379,
+                                            -33.063673313
+                                        ],
+                                        [
+                                            151.002452201,
+                                            -33.0638636699999
+                                        ],
+                                        [
+                                            151.002345125,
+                                            -33.0644109469999
+                                        ],
+                                        [
+                                            151.002083384,
+                                            -33.064541816
+                                        ],
+                                        [
+                                            151.001643184,
+                                            -33.0644466379999
+                                        ],
+                                        [
+                                            151.001357649,
+                                            -33.064506125
+                                        ],
+                                        [
+                                            151.001226778,
+                                            -33.0646607899999
+                                        ],
+                                        [
+                                            151.001012626,
+                                            -33.0653032439999
+                                        ],
+                                        [
+                                            151.00064381,
+                                            -33.0653151409999
+                                        ],
+                                        [
+                                            151.000417761,
+                                            -33.065041503
+                                        ],
+                                        [
+                                            151.000263096,
+                                            -33.0645537139999
+                                        ],
+                                        [
+                                            150.999989458,
+                                            -33.0642443839999
+                                        ],
+                                        [
+                                            150.999941869,
+                                            -33.0637328
+                                        ],
+                                        [
+                                            150.999692026,
+                                            -33.0634948539999
+                                        ],
+                                        [
+                                            150.999727718,
+                                            -33.0628880909999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -41,11 +138,35 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501931",
-                "created": "2023-07-08T02:05:00+10:00",
-                "updated": "2023-07-08T12:05:00+10:00",
+                "created": "2023-07-08T05:41:00+10:00",
+                "updated": "2023-07-08T15:41:00+10:00",
                 "location": "559 Boree Valley Rd, Laguna, NSW 2325",
-                "size": 4,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 559 Boree Valley Rd, Laguna, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 12:05",
+                "size": 5,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 559 Boree Valley Rd, Laguna, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:41",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.27257500000007,
+                    -28.737807999999973
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Borton Rd, Tullera",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501984",
+                "created": "2023-07-08T05:34:00+10:00",
+                "updated": "2023-07-08T15:34:00+10:00",
+                "location": "302 Borton Rd, Tullera, NSW 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 302 Borton Rd, Tullera, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:34",
                 "title": "incident: fire"
             }
         },
@@ -542,13 +663,13 @@
                 "sourceTitle": "Tabulum Rd, Invergowrie",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501978",
-                "created": "2023-07-08T05:06:00+10:00",
-                "updated": "2023-07-08T15:06:00+10:00",
+                "created": "2023-07-08T05:32:00+10:00",
+                "updated": "2023-07-08T15:32:00+10:00",
                 "location": "49 Tabulum Rd, Invergowrie, NSW 2350",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 49 Tabulum Rd, Invergowrie, NSW 2350 <br />COUNCIL AREA: Uralla <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:06",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 49 Tabulum Rd, Invergowrie, NSW 2350 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:32",
                 "title": "incident: fire"
             }
         },
@@ -566,38 +687,14 @@
                 "sourceTitle": "Battunga Dr, Tomerong",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501980",
-                "created": "2023-07-08T05:14:00+10:00",
-                "updated": "2023-07-08T15:14:00+10:00",
+                "created": "2023-07-08T05:36:00+10:00",
+                "updated": "2023-07-08T15:36:00+10:00",
                 "location": "Battunga Dr, Tomerong, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Battunga Dr, Tomerong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:14",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Battunga Dr, Tomerong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:36",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.82506000000012,
-                    -33.91363999999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Bonnie Rock Rd, Austral",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501979",
-                "created": "2023-07-08T05:34:00+10:00",
-                "updated": "2023-07-08T15:34:00+10:00",
-                "location": "34 Bonnie Rock Rd, Austral, NSW 2179",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 34 Bonnie Rock Rd, Austral, NSW 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:34",
-                "title": "incident: other"
             }
         },
         {
@@ -638,13 +735,13 @@
                 "sourceTitle": "Drive In Rd, South Pambula",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501961",
-                "created": "2023-07-08T04:23:00+10:00",
-                "updated": "2023-07-08T14:23:00+10:00",
+                "created": "2023-07-08T05:42:00+10:00",
+                "updated": "2023-07-08T15:42:00+10:00",
                 "location": "Pipeclay Link Trl, South Pambula, NSW 2549",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pipeclay Link Trl, South Pambula, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 14:23",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Pipeclay Link Trl, South Pambula, NSW 2549 <br />COUNCIL AREA: Bega Valley <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:42",
                 "title": "incident: fire"
             }
         },
@@ -693,6 +790,30 @@
                 "location": "563 Hawks Head Rd, Brogo, NSW 2550",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 563 Hawks Head Rd, Brogo, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Jul 2023 16:39",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.2389676570001,
+                    -28.721001530999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hayden Rd, Koonorigan",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501977",
+                "created": "2023-07-08T05:44:00+10:00",
+                "updated": "2023-07-08T15:44:00+10:00",
+                "location": "62 Hayden Rd, Koonorigan, NSW 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 62 Hayden Rd, Koonorigan, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:44",
                 "title": "incident: fire"
             }
         },
@@ -790,54 +911,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3 Malia Cr, Windella, NSW 2320 <br />COUNCIL AREA: Maitland <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 11:15",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.24647900000002,
-                    -33.92928799999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Munda St, Randwick",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501974",
-                "created": "2023-07-08T05:02:00+10:00",
-                "updated": "2023-07-08T15:02:00+10:00",
-                "location": "Munda St, Randwick, NSW 2031",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Munda St, Randwick, NSW 2031 <br />COUNCIL AREA: Randwick <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Jul 2023 15:02",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.24085593300003,
-                    -28.719863031999978
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nimbin Rd, Koonorigan",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501977",
-                "created": "2023-07-08T05:04:00+10:00",
-                "updated": "2023-07-08T15:04:00+10:00",
-                "location": "62 Hayden rd, Koonorigan, NSW 2480",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 62 Hayden rd, Koonorigan, NSW 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:04",
-                "title": "incident: fire"
             }
         },
         {
@@ -958,30 +1031,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Princes Hwy, Narooma, NSW 2546 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 14:34",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.86893300000008,
-                    -36.47327199899996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy, Quaama",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/501975",
-                "created": "2023-07-08T05:25:00+10:00",
-                "updated": "2023-07-08T15:25:00+10:00",
-                "location": "1180 Princes Hwy, Quaama, NSW 2550",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1180 Princes Hwy, Quaama, NSW 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jul 2023 15:25",
-                "title": "incident: other"
             }
         },
         {
