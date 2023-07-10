@@ -320,13 +320,13 @@
                 "sourceTitle": "Mado Pl, Seelands",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502250",
-                "created": "2023-07-10T06:38:00+10:00",
-                "updated": "2023-07-10T16:38:00+10:00",
+                "created": "2023-07-10T07:22:00+10:00",
+                "updated": "2023-07-10T17:22:00+10:00",
                 "location": "Mado Pl, Seelands, NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Mado Pl, Seelands, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Mado Pl, Seelands, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 17:22",
                 "title": "incident: fire"
             }
         },
@@ -344,13 +344,13 @@
                 "sourceTitle": "Mahogany Rd, Nambucca Heads",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502244",
-                "created": "2023-07-10T06:14:00+10:00",
-                "updated": "2023-07-10T16:14:00+10:00",
+                "created": "2023-07-10T07:20:00+10:00",
+                "updated": "2023-07-10T17:20:00+10:00",
                 "location": "Mahogany Rd, Nambucca Heads, NSW 2448",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Mahogany Rd, Nambucca Heads, NSW 2448 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:14",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Mahogany Rd, Nambucca Heads, NSW 2448 <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 17:20",
                 "title": "incident: fire"
             }
         },
@@ -643,10 +643,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.01232900000002,
-                    -30.187033999999983
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.01232900000002,
+                            -30.187033999999983
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.00436717,
+                                            -30.1854814829999
+                                        ],
+                                        [
+                                            153.004652706,
+                                            -30.1852197429999
+                                        ],
+                                        [
+                                            153.005009624,
+                                            -30.185267331
+                                        ],
+                                        [
+                                            153.005271366,
+                                            -30.185374407
+                                        ],
+                                        [
+                                            153.005402235,
+                                            -30.1856956349999
+                                        ],
+                                        [
+                                            153.005366544,
+                                            -30.186385679
+                                        ],
+                                        [
+                                            153.0051167,
+                                            -30.1866236239999
+                                        ],
+                                        [
+                                            153.004509937,
+                                            -30.186552241
+                                        ],
+                                        [
+                                            153.003819894,
+                                            -30.186445165
+                                        ],
+                                        [
+                                            153.003784202,
+                                            -30.1863737809999
+                                        ],
+                                        [
+                                            153.003926969,
+                                            -30.185707532
+                                        ],
+                                        [
+                                            153.00436717,
+                                            -30.1854814829999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -654,37 +719,13 @@
                 "sourceTitle": "Orara Way, Coramba",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502239",
-                "created": "2023-07-10T06:19:00+10:00",
-                "updated": "2023-07-10T16:19:00+10:00",
-                "location": "458 Orara Way, Coramba, NSW 2450",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 458 Orara Way, Coramba, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:19",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.44023513800005,
-                    -35.19077715999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy, Mondayong",
-                "category": "fire",
-                "subcategory": "bushfire",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502070",
-                "created": "2023-07-09T09:41:00+10:00",
-                "updated": "2023-07-09T19:41:00+10:00",
-                "location": "Princes Hwy, Bendalong Rd, Mondayong, NSW 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Princes Hwy, Bendalong Rd, Mondayong, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jul 2023 19:41",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502239",
+                "created": "2023-07-10T07:20:00+10:00",
+                "updated": "2023-07-10T17:20:00+10:00",
+                "location": "458 Orara Way, Coramba, NSW 2450",
+                "size": 2,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 458 Orara Way, Coramba, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 17:20",
                 "title": "incident: fire"
             }
         },
@@ -702,13 +743,13 @@
                 "sourceTitle": "Range Rd, Singleton Military Area",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502233",
-                "created": "2023-07-10T06:57:00+10:00",
-                "updated": "2023-07-10T16:57:00+10:00",
+                "created": "2023-07-10T07:22:00+10:00",
+                "updated": "2023-07-10T17:22:00+10:00",
                 "location": "Range Rd, Singleton Military Area, NSW 2331",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Range Rd, Singleton Military Area, NSW 2331 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:57",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Range Rd, Singleton Military Area, NSW 2331 <br />COUNCIL AREA: Singleton <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 17:22",
                 "title": "incident: fire"
             }
         },
@@ -865,20 +906,20 @@
                                 "coordinates": [
                                     [
                                         [
-                                            152.798756098,
-                                            -30.529516475
+                                            152.798661333,
+                                            -30.5296682709999
                                         ],
                                         [
-                                            152.798743009,
-                                            -30.529535455
+                                            152.798612339,
+                                            -30.529590844
                                         ],
                                         [
-                                            152.798749008,
-                                            -30.5294922529999
+                                            152.7987272,
+                                            -30.5294355779999
                                         ],
                                         [
-                                            152.798756098,
-                                            -30.529516475
+                                            152.798661333,
+                                            -30.5296682709999
                                         ]
                                     ]
                                 ]
@@ -1001,20 +1042,20 @@
                                 "coordinates": [
                                     [
                                         [
-                                            152.798661333,
-                                            -30.5296682709999
+                                            152.798756098,
+                                            -30.529516475
                                         ],
                                         [
-                                            152.798612339,
-                                            -30.529590844
+                                            152.798743009,
+                                            -30.529535455
                                         ],
                                         [
-                                            152.7987272,
-                                            -30.5294355779999
+                                            152.798749008,
+                                            -30.5294922529999
                                         ],
                                         [
-                                            152.798661333,
-                                            -30.5296682709999
+                                            152.798756098,
+                                            -30.529516475
                                         ]
                                     ]
                                 ]
@@ -1115,22 +1156,94 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.67591299900005,
-                    -33.54816100099998
+                    151.3950000000001,
+                    -32.85988999999995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Comleroy Rd, Kurrajong",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502255",
-                "created": "2023-07-10T07:07:00+10:00",
-                "updated": "2023-07-10T17:07:00+10:00",
-                "location": "43 Comleroy Rd, Kurrajong, NSW 2758",
+                "sourceTitle": "Allandale St, Kearsley",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502248",
+                "created": "2023-07-10T06:20:00+10:00",
+                "updated": "2023-07-10T16:20:00+10:00",
+                "location": "7 Allandale St, Kearsley,  2325",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 43 Comleroy Rd, Kurrajong, NSW 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 17:07",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 7 Allandale St, Kearsley,  2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Jul 2023 16:20",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.18054200000006,
+                    -28.41332799999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brays Creek Rd, Brays Creek",
+                "category": "other",
+                "subcategory": "search/rescue",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502252",
+                "created": "2023-07-10T06:48:00+10:00",
+                "updated": "2023-07-10T16:48:00+10:00",
+                "location": "844 Brays Creek Rd, Brays Creek, NSW 2484",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 844 Brays Creek Rd, Brays Creek, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Search/Rescue <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:48",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.06206400000008,
+                    -33.63489699999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "End Of  Mansfield Rd, Galston",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502257",
+                "created": "2023-07-10T07:08:00+10:00",
+                "updated": "2023-07-10T17:08:00+10:00",
+                "location": "End Of  Mansfield Rd, Galston, NSW 2159",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: End Of  Mansfield Rd, Galston, NSW 2159 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 17:08",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.31639000000007,
+                    -28.684069999999963
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "James St, Dunoon",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502254",
+                "created": "2023-07-10T06:52:00+10:00",
+                "updated": "2023-07-10T16:52:00+10:00",
+                "location": "95 James St, Dunoon,  2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 95 James St, Dunoon,  2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:52",
                 "title": "incident: fire"
             }
         },
@@ -1299,6 +1412,30 @@
                 "location": "1118 /Trungley Hall Rd, Temora, NSW 2666",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1118 /Trungley Hall Rd, Temora, NSW 2666 <br />COUNCIL AREA: Temora <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:52",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.47003400000006,
+                    -33.26650999999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Van Stappen Rd, Wadalba",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502249",
+                "created": "2023-07-10T06:24:00+10:00",
+                "updated": "2023-07-10T16:24:00+10:00",
+                "location": "Van Stappen Rd, Wadalba, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Van Stappen Rd, Wadalba, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:24",
                 "title": "incident: fire"
             }
         }
