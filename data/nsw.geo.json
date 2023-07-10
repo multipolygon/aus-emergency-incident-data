@@ -263,30 +263,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.84872900000005,
-                    -29.574946999999952
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Greberts Rd, Whiteman Creek",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502126",
-                "created": "2023-07-10T01:35:00+10:00",
-                "updated": "2023-07-10T11:35:00+10:00",
-                "location": "Greberts Rd, Whiteman Creek, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Greberts Rd, Whiteman Creek, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 11:35",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.44844100000012,
                     -32.83610599999997
                 ]
@@ -375,6 +351,30 @@
                 "location": "Bombala",
                 "size": 50,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Bombala <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 50 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 10 Jul 2023 13:53",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.0014480000001,
+                    -30.633722999999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mahogany Rd, Nambucca Heads",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502244",
+                "created": "2023-07-10T06:14:00+10:00",
+                "updated": "2023-07-10T16:14:00+10:00",
+                "location": "Mahogany Rd, Nambucca Heads, NSW 2448",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Mahogany Rd, Nambucca Heads, NSW 2448 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:14",
                 "title": "incident: fire"
             }
         },
@@ -522,10 +522,131 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.67739900000004,
-                    -32.47321299999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.67739900000004,
+                            -32.47321299999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.679837074,
+                                            -32.470263568
+                                        ],
+                                        [
+                                            150.684286665,
+                                            -32.469954238
+                                        ],
+                                        [
+                                            150.686618537,
+                                            -32.471405709
+                                        ],
+                                        [
+                                            150.687903446,
+                                            -32.4726430279999
+                                        ],
+                                        [
+                                            150.688236571,
+                                            -32.4734758399999
+                                        ],
+                                        [
+                                            150.688997999,
+                                            -32.4743324459999
+                                        ],
+                                        [
+                                            150.689331124,
+                                            -32.475498382
+                                        ],
+                                        [
+                                            150.690473265,
+                                            -32.475355615
+                                        ],
+                                        [
+                                            150.691258487,
+                                            -32.475664944
+                                        ],
+                                        [
+                                            150.691900941,
+                                            -32.4762598089999
+                                        ],
+                                        [
+                                            150.692234066,
+                                            -32.477021237
+                                        ],
+                                        [
+                                            150.691829557,
+                                            -32.477877844
+                                        ],
+                                        [
+                                            150.690639827,
+                                            -32.478639271
+                                        ],
+                                        [
+                                            150.689925988,
+                                            -32.4787344489999
+                                        ],
+                                        [
+                                            150.687570322,
+                                            -32.478591681
+                                        ],
+                                        [
+                                            150.685500191,
+                                            -32.4782109669999
+                                        ],
+                                        [
+                                            150.684334255,
+                                            -32.4772829779999
+                                        ],
+                                        [
+                                            150.682668632,
+                                            -32.475545972
+                                        ],
+                                        [
+                                            150.682049972,
+                                            -32.47507008
+                                        ],
+                                        [
+                                            150.681383723,
+                                            -32.474499008
+                                        ],
+                                        [
+                                            150.681050599,
+                                            -32.4744752139999
+                                        ],
+                                        [
+                                            150.679908457,
+                                            -32.474855928
+                                        ],
+                                        [
+                                            150.679384976,
+                                            -32.47471316
+                                        ],
+                                        [
+                                            150.678575959,
+                                            -32.474499008
+                                        ],
+                                        [
+                                            150.6779573,
+                                            -32.473761376
+                                        ],
+                                        [
+                                            150.679837074,
+                                            -32.470263568
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -557,13 +678,13 @@
                 "sourceTitle": "Orara Way, Coramba",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502239",
-                "created": "2023-07-10T05:54:00+10:00",
-                "updated": "2023-07-10T15:54:00+10:00",
+                "created": "2023-07-10T06:19:00+10:00",
+                "updated": "2023-07-10T16:19:00+10:00",
                 "location": "458 Orara Way, Coramba, NSW 2450",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 458 Orara Way, Coramba, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 15:54",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 458 Orara Way, Coramba, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:19",
                 "title": "incident: fire"
             }
         },
@@ -751,10 +872,109 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.7829170220001,
-                    -30.515089899999964
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.79819488600003,
+                            -30.530993319999936
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.798756098,
+                                            -30.529516475
+                                        ],
+                                        [
+                                            152.798743009,
+                                            -30.529535455
+                                        ],
+                                        [
+                                            152.798749008,
+                                            -30.5294922529999
+                                        ],
+                                        [
+                                            152.798756098,
+                                            -30.529516475
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.79876417,
+                                            -30.5295440519999
+                                        ],
+                                        [
+                                            152.798756098,
+                                            -30.529516475
+                                        ],
+                                        [
+                                            152.798772803,
+                                            -30.5294922529999
+                                        ],
+                                        [
+                                            152.79876417,
+                                            -30.5295440519999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.798772803,
+                                            -30.529539843
+                                        ],
+                                        [
+                                            152.799043177,
+                                            -30.5304636239999
+                                        ],
+                                        [
+                                            152.79642577,
+                                            -30.5324623719999
+                                        ],
+                                        [
+                                            152.796973047,
+                                            -30.531677149
+                                        ],
+                                        [
+                                            152.797567911,
+                                            -30.530868132
+                                        ],
+                                        [
+                                            152.798305545,
+                                            -30.530178088
+                                        ],
+                                        [
+                                            152.798751643,
+                                            -30.529531247
+                                        ],
+                                        [
+                                            152.798638669,
+                                            -30.53034465
+                                        ],
+                                        [
+                                            152.798772803,
+                                            -30.529539843
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -762,13 +982,13 @@
                 "sourceTitle": "Rickerbys Rd, Kalang ",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502245",
-                "created": "2023-07-10T01:00:00+10:00",
-                "updated": "2023-07-10T11:00:00+10:00",
+                "created": "2023-07-10T06:18:00+10:00",
+                "updated": "2023-07-10T16:18:00+10:00",
                 "location": "Rickerbys Rd Kalang",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Rickerbys Rd Kalang <br />COUNCIL AREA: Bellingen <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 10 Jul 2023 11:00",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Rickerbys Rd Kalang <br />COUNCIL AREA: Bellingen <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 10 Jul 2023 16:18",
                 "title": "incident: fire"
             }
         },
@@ -786,13 +1006,37 @@
                 "sourceTitle": "Roller Coaster Rd, Temagog",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502226",
-                "created": "2023-07-10T04:42:00+10:00",
-                "updated": "2023-07-10T14:42:00+10:00",
+                "created": "2023-07-10T06:35:00+10:00",
+                "updated": "2023-07-10T16:35:00+10:00",
                 "location": "Roller Coaster Rd, Temagog, NSW 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Roller Coaster Rd, Temagog, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 14:42",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Roller Coaster Rd, Temagog, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:35",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.58907127400005,
+                    -32.262540600999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Stubbo Solar Farm Hazard Reduction",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502246",
+                "created": "2023-07-10T06:13:00+10:00",
+                "updated": "2023-07-10T16:13:00+10:00",
+                "location": "465 Blue Springs Rd, Stubbo NSW 2852",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 465 Blue Springs Rd, Stubbo NSW 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:13",
                 "title": "incident: fire"
             }
         },
@@ -858,13 +1102,13 @@
                 "sourceTitle": "Eastern Arterial Rd, East Lindfield",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502243",
-                "created": "2023-07-10T06:12:00+10:00",
-                "updated": "2023-07-10T16:12:00+10:00",
+                "created": "2023-07-10T06:24:00+10:00",
+                "updated": "2023-07-10T16:24:00+10:00",
                 "location": "Eastern Arterial Rd, East Lindfield, NSW 2070",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eastern Arterial Rd, East Lindfield, NSW 2070 <br />COUNCIL AREA: Ku-Ring-Gai <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Jul 2023 16:12",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Eastern Arterial Rd, East Lindfield, NSW 2070 <br />COUNCIL AREA: Ku-Ring-Gai <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Jul 2023 16:24",
                 "title": "incident: fire"
             }
         },
@@ -932,11 +1176,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502076",
-                "created": "2023-07-10T01:43:00+10:00",
-                "updated": "2023-07-10T11:43:00+10:00",
+                "created": "2023-07-10T06:18:00+10:00",
+                "updated": "2023-07-10T16:18:00+10:00",
                 "location": "2750 Orara Way, Kremnos, NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2750 Orara Way, Kremnos, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 11:43",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2750 Orara Way, Kremnos, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:18",
                 "title": "incident: fire"
             }
         },
@@ -956,11 +1200,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502075",
-                "created": "2023-07-10T02:16:00+10:00",
-                "updated": "2023-07-10T12:16:00+10:00",
+                "created": "2023-07-10T06:19:00+10:00",
+                "updated": "2023-07-10T16:19:00+10:00",
                 "location": "4770 Pringles Way, Lawrence, NSW 2460",
                 "size": 29,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4770 Pringles Way, Lawrence, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 29 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 12:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4770 Pringles Way, Lawrence, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 29 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:19",
                 "title": "incident: fire"
             }
         },
@@ -1041,32 +1285,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.53807400000005,
-                    -32.34418699999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Red Gum Rd, Boomerang Beach",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502236",
-                "created": "2023-07-10T05:38:00+10:00",
-                "updated": "2023-07-10T15:38:00+10:00",
-                "location": "Unit 38/4 Red Gum Rd, Boomerang Beach, NSW 2428",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unit 38/4 Red Gum Rd, Boomerang Beach, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 15:38",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.53390600000012,
-                    -34.414113999999984
+                    147.54958820500008,
+                    -34.27885056899993
                 ]
             },
             "properties": {
@@ -1076,11 +1296,11 @@
                 "subcategory": "structure fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/502242",
-                "created": "2023-07-10T06:00:00+10:00",
-                "updated": "2023-07-10T16:00:00+10:00",
+                "created": "2023-07-10T06:23:00+10:00",
+                "updated": "2023-07-10T16:23:00+10:00",
                 "location": "1118 /Trungley Hall Rd, Temora, NSW 2666",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1118 /Trungley Hall Rd, Temora, NSW 2666 <br />COUNCIL AREA: Temora <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:00",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1118 /Trungley Hall Rd, Temora, NSW 2666 <br />COUNCIL AREA: Temora <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jul 2023 16:23",
                 "title": "incident: fire"
             }
         }
