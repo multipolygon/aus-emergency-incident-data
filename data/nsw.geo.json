@@ -320,10 +320,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.64902500000005,
-                    -29.332257999999968
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.6502114640001,
+                            -29.32532690599993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.657140456,
+                                            -29.32641194
+                                        ],
+                                        [
+                                            152.655867444,
+                                            -29.327244752
+                                        ],
+                                        [
+                                            152.653630751,
+                                            -29.3272566479999
+                                        ],
+                                        [
+                                            152.651168008,
+                                            -29.3266141939999
+                                        ],
+                                        [
+                                            152.649859304,
+                                            -29.3256148209999
+                                        ],
+                                        [
+                                            152.649359618,
+                                            -29.3252816959999
+                                        ],
+                                        [
+                                            152.649645154,
+                                            -29.32499616
+                                        ],
+                                        [
+                                            152.649978278,
+                                            -29.324912879
+                                        ],
+                                        [
+                                            152.651572517,
+                                            -29.3248890839999
+                                        ],
+                                        [
+                                            152.654297001,
+                                            -29.3249366749999
+                                        ],
+                                        [
+                                            152.656843023,
+                                            -29.325412566
+                                        ],
+                                        [
+                                            152.657140456,
+                                            -29.32641194
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -727,13 +792,13 @@
                 "sourceTitle": "Walmer Av, Sanctuary Point",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505192",
-                "created": "2023-07-25T07:06:00+10:00",
-                "updated": "2023-07-25T17:06:00+10:00",
+                "created": "2023-07-25T07:39:00+10:00",
+                "updated": "2023-07-25T17:39:00+10:00",
                 "location": "Walmer Av, Sanctuary Point, NSW 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Walmer Av, Sanctuary Point, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 17:06",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Walmer Av, Sanctuary Point, NSW 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 17:39",
                 "title": "incident: fire"
             }
         },
@@ -926,54 +991,6 @@
                 "location": "Newcastle Link Rd, Cameron Park, NSW 2285",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Newcastle Link Rd, Cameron Park, NSW 2285 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 16:02",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.02902199900007,
-                    -33.68422799899997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old Northern Rd, Dural",
-                "category": "other",
-                "subcategory": "search/rescue",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505173",
-                "created": "2023-07-25T05:58:00+10:00",
-                "updated": "2023-07-25T15:58:00+10:00",
-                "location": "895 Old Northern Rd, Dural, NSW 2158",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 895 Old Northern Rd, Dural, NSW 2158 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Search/Rescue <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 15:58",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.56305400000008,
-                    -28.394902999999942
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Overall Dr, Pottsville",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505186",
-                "created": "2023-07-25T06:20:00+10:00",
-                "updated": "2023-07-25T16:20:00+10:00",
-                "location": "28-40 Overall Dr, Pottsville, NSW 2489",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 28-40 Overall Dr, Pottsville, NSW 2489 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 16:20",
                 "title": "incident: other"
             }
         },
