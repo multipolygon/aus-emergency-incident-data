@@ -30,30 +30,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.75224800000012,
-                    -31.03470699999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Armidale Rd, Yarravel",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505202",
-                "created": "2023-07-25T07:56:00+10:00",
-                "updated": "2023-07-25T17:56:00+10:00",
-                "location": "402 Armidale Rd, Yarravel, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 402 Armidale Rd, Yarravel, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 17:56",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.01992225000004,
                     -33.673211384999945
                 ]
@@ -320,10 +296,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.8522670000001,
-                    -29.801593999999966
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.859166694,
+                            -29.79906630599993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.859767508,
+                                            -29.799726607
+                                        ],
+                                        [
+                                            152.859702073,
+                                            -29.800178705
+                                        ],
+                                        [
+                                            152.857941271,
+                                            -29.799970502
+                                        ],
+                                        [
+                                            152.857798504,
+                                            -29.8001073209999
+                                        ],
+                                        [
+                                            152.857625992,
+                                            -29.799970502
+                                        ],
+                                        [
+                                            152.857750914,
+                                            -29.7989056929999
+                                        ],
+                                        [
+                                            152.85816732,
+                                            -29.798727233
+                                        ],
+                                        [
+                                            152.859392743,
+                                            -29.7988818979999
+                                        ],
+                                        [
+                                            152.859690175,
+                                            -29.7992804579999
+                                        ],
+                                        [
+                                            152.859767508,
+                                            -29.799726607
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -735,30 +768,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.05450600000006,
-                    -34.27692899999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Remembrance Dr, Griffith",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505187",
-                "created": "2023-07-25T06:28:00+10:00",
-                "updated": "2023-07-25T16:28:00+10:00",
-                "location": "Remembrance Dr, Griffith, NSW 2680",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Remembrance Dr, Griffith, NSW 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 16:28",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.8430790000001,
                     -34.79822799999994
                 ]
@@ -768,13 +777,13 @@
                 "sourceTitle": "Robinson Rd, Gundary",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505199",
-                "created": "2023-07-25T07:36:00+10:00",
-                "updated": "2023-07-25T17:36:00+10:00",
+                "created": "2023-07-25T08:23:00+10:00",
+                "updated": "2023-07-25T18:23:00+10:00",
                 "location": "Lot 28/77 Robinson Rd, Gundary,  2580",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Lot 28/77 Robinson Rd, Gundary,  2580 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 17:36",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Lot 28/77 Robinson Rd, Gundary,  2580 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 18:23",
                 "title": "incident: fire"
             }
         },
@@ -864,13 +873,13 @@
                 "sourceTitle": "Braemar Pl, Urliup",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505200",
-                "created": "2023-07-25T07:38:00+10:00",
-                "updated": "2023-07-25T17:38:00+10:00",
+                "created": "2023-07-25T08:19:00+10:00",
+                "updated": "2023-07-25T18:19:00+10:00",
                 "location": "30 Braemar Pl, Urliup, NSW 2484",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 30 Braemar Pl, Urliup, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 17:38",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 30 Braemar Pl, Urliup, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 18:19",
                 "title": "incident: fire"
             }
         },
@@ -896,6 +905,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1322 Freemans Dr, Cooranbong, NSW 2265 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 18:01",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.49911500000007,
+                    -32.22002599999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gidgee Rd, Dubbo",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505205",
+                "created": "2023-07-25T08:22:00+10:00",
+                "updated": "2023-07-25T18:22:00+10:00",
+                "location": "29L Gidgee Rd, Dubbo, NSW 2830",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 29L Gidgee Rd, Dubbo, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 18:22",
+                "title": "incident: fire"
             }
         },
         {
@@ -1032,13 +1065,13 @@
                 "sourceTitle": "St Peter Cl, Hinchinbrook",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505203",
-                "created": "2023-07-25T08:08:00+10:00",
-                "updated": "2023-07-25T18:08:00+10:00",
+                "created": "2023-07-25T08:16:00+10:00",
+                "updated": "2023-07-25T18:16:00+10:00",
                 "location": "13 St Peter Cl, Hinchinbrook, NSW 2168",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 St Peter Cl, Hinchinbrook, NSW 2168 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Jul 2023 18:08",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 St Peter Cl, Hinchinbrook, NSW 2168 <br />COUNCIL AREA: Liverpool <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Jul 2023 18:16",
                 "title": "incident: fire"
             }
         },
@@ -1064,6 +1097,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 32 Thompson St, Scotland Island, NSW 2105 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 17:56",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.65716600000007,
+                    -34.03171599999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Werombi Rd, Brownlow Hill",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505204",
+                "created": "2023-07-25T08:14:00+10:00",
+                "updated": "2023-07-25T18:14:00+10:00",
+                "location": "425 Werombi Rd, Brownlow Hill,  2570",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 425 Werombi Rd, Brownlow Hill,  2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Jul 2023 18:14",
+                "title": "incident: other"
             }
         }
     ]
