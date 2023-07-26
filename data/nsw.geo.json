@@ -1065,10 +1065,103 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.84136200000012,
-                    -31.010896999999943
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.84136200000012,
+                            -31.010896999999943
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.840061484,
+                                            -31.012326367
+                                        ],
+                                        [
+                                            152.840406506,
+                                            -31.01187427
+                                        ],
+                                        [
+                                            152.841037063,
+                                            -31.011541145
+                                        ],
+                                        [
+                                            152.841762799,
+                                            -31.011457864
+                                        ],
+                                        [
+                                            152.842524226,
+                                            -31.011338891
+                                        ],
+                                        [
+                                            152.843178578,
+                                            -31.0113864809999
+                                        ],
+                                        [
+                                            152.843321346,
+                                            -31.011541145
+                                        ],
+                                        [
+                                            152.843487908,
+                                            -31.0119456539999
+                                        ],
+                                        [
+                                            152.843238065,
+                                            -31.012326367
+                                        ],
+                                        [
+                                            152.842916837,
+                                            -31.012540519
+                                        ],
+                                        [
+                                            152.842476638,
+                                            -31.0124691359999
+                                        ],
+                                        [
+                                            152.842036437,
+                                            -31.0125524169999
+                                        ],
+                                        [
+                                            152.841596237,
+                                            -31.012588109
+                                        ],
+                                        [
+                                            152.840929987,
+                                            -31.0126594929999
+                                        ],
+                                        [
+                                            152.840727734,
+                                            -31.0126594929999
+                                        ],
+                                        [
+                                            152.84029943,
+                                            -31.0126594929999
+                                        ],
+                                        [
+                                            152.840109073,
+                                            -31.0126119029999
+                                        ],
+                                        [
+                                            152.840073381,
+                                            -31.012338265
+                                        ],
+                                        [
+                                            152.840061484,
+                                            -31.012326367
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1156,6 +1249,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Billa St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jul 2023 00:50",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.74872800000003,
+                    -33.78549000099997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kent Rd, Orchard Hills",
+                "category": "other",
+                "subcategory": "search/rescue",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505355",
+                "created": "2023-07-26T22:24:00+10:00",
+                "updated": "2023-07-27T08:24:00+10:00",
+                "location": "69 Kent Rd, Orchard Hills, NSW 2748",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 69 Kent Rd, Orchard Hills, NSW 2748 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Search/Rescue <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jul 2023 08:24",
+                "title": "incident: other"
             }
         },
         {
