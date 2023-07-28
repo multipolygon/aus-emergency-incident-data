@@ -118,11 +118,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505404",
-                "created": "2023-07-27T09:49:00+10:00",
-                "updated": "2023-07-27T19:49:00+10:00",
+                "created": "2023-07-28T00:19:00+10:00",
+                "updated": "2023-07-28T10:19:00+10:00",
                 "location": "545 Ainsworth Rd, Mongogarie, NSW 2469",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 545 Ainsworth Rd, Mongogarie, NSW 2469 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jul 2023 19:49",
+                "size": 30,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 545 Ainsworth Rd, Mongogarie, NSW 2469 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 30 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jul 2023 10:19",
                 "title": "incident: fire"
             }
         },
@@ -147,30 +147,6 @@
                 "location": "Armidale Rd, Mooneba, NSW 2440",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Armidale Rd, Mooneba, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 28 Jul 2023 10:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.73293,
-                    -33.912552999999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Badgerys Creek Rd, Bringelly",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505511",
-                "created": "2023-07-28T03:29:00+10:00",
-                "updated": "2023-07-28T13:29:00+10:00",
-                "location": "297 Badgerys Creek Rd, Bringelly, NSW 2556",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 297 Badgerys Creek Rd, Bringelly, NSW 2556 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jul 2023 13:29",
                 "title": "incident: fire"
             }
         },
@@ -345,6 +321,111 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.3917551070001,
+                            -31.55011621699998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.391424013,
+                                            -31.5503254239999
+                                        ],
+                                        [
+                                            149.391804727,
+                                            -31.550230246
+                                        ],
+                                        [
+                                            149.392149749,
+                                            -31.5501350669999
+                                        ],
+                                        [
+                                            149.392280619,
+                                            -31.550254041
+                                        ],
+                                        [
+                                            149.392566154,
+                                            -31.550313527
+                                        ],
+                                        [
+                                            149.392923074,
+                                            -31.5502183479999
+                                        ],
+                                        [
+                                            149.39347035,
+                                            -31.550027991
+                                        ],
+                                        [
+                                            149.393815371,
+                                            -31.54994471
+                                        ],
+                                        [
+                                            149.394564902,
+                                            -31.54994471
+                                        ],
+                                        [
+                                            149.394553005,
+                                            -31.5508845969999
+                                        ],
+                                        [
+                                            149.394457826,
+                                            -31.5511582349999
+                                        ],
+                                        [
+                                            149.393541733,
+                                            -31.551122544
+                                        ],
+                                        [
+                                            149.392352004,
+                                            -31.550920289
+                                        ],
+                                        [
+                                            149.391590575,
+                                            -31.550480089
+                                        ],
+                                        [
+                                            149.391376425,
+                                            -31.5503492189999
+                                        ],
+                                        [
+                                            149.391424013,
+                                            -31.5503254239999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grass Fire Binnaway",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505527",
+                "created": "2023-07-28T05:25:00+10:00",
+                "updated": "2023-07-28T15:25:00+10:00",
+                "location": "Ironbark Street, Binnaway, NSW 2395",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Ironbark Street, Binnaway, NSW 2395 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jul 2023 15:25",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     150.23300600000005,
@@ -356,13 +437,13 @@
                 "sourceTitle": "Hume Hwy, Sutton Forest",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505530",
-                "created": "2023-07-28T04:30:00+10:00",
-                "updated": "2023-07-28T14:30:00+10:00",
+                "created": "2023-07-28T05:25:00+10:00",
+                "updated": "2023-07-28T15:25:00+10:00",
                 "location": "13020 Hume Hwy, Sutton Forest, NSW 2577",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 13020 Hume Hwy, Sutton Forest, NSW 2577 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jul 2023 14:30",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 13020 Hume Hwy, Sutton Forest, NSW 2577 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jul 2023 15:25",
                 "title": "incident: fire"
             }
         },
@@ -1323,10 +1404,103 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.52339124800005,
-                    -28.518849200999966
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.5237211870001,
+                            -28.519701408999936
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.524128138,
+                                            -28.520268281
+                                        ],
+                                        [
+                                            153.523833515,
+                                            -28.5203657439999
+                                        ],
+                                        [
+                                            153.523410647,
+                                            -28.5202316049999
+                                        ],
+                                        [
+                                            153.523238425,
+                                            -28.5201299559999
+                                        ],
+                                        [
+                                            153.523225242,
+                                            -28.52010035
+                                        ],
+                                        [
+                                            153.52318407,
+                                            -28.520007877
+                                        ],
+                                        [
+                                            153.52318713,
+                                            -28.519894302
+                                        ],
+                                        [
+                                            153.523258099,
+                                            -28.519718472
+                                        ],
+                                        [
+                                            153.523261452,
+                                            -28.519384212
+                                        ],
+                                        [
+                                            153.523247571,
+                                            -28.5191881119999
+                                        ],
+                                        [
+                                            153.52330013,
+                                            -28.519071863
+                                        ],
+                                        [
+                                            153.523412824,
+                                            -28.519041777
+                                        ],
+                                        [
+                                            153.523676904,
+                                            -28.5191465039999
+                                        ],
+                                        [
+                                            153.523859405,
+                                            -28.519243807
+                                        ],
+                                        [
+                                            153.52407976,
+                                            -28.5194941249999
+                                        ],
+                                        [
+                                            153.524240406,
+                                            -28.519855121
+                                        ],
+                                        [
+                                            153.524292694,
+                                            -28.5199824439999
+                                        ],
+                                        [
+                                            153.524241232,
+                                            -28.5201714149999
+                                        ],
+                                        [
+                                            153.524128138,
+                                            -28.520268281
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1336,11 +1510,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505526",
-                "created": "2023-07-28T05:05:00+10:00",
-                "updated": "2023-07-28T15:05:00+10:00",
+                "created": "2023-07-28T05:26:00+10:00",
+                "updated": "2023-07-28T15:26:00+10:00",
                 "location": "2480 Coolamon Scenic Drive, Ocean Shores, NSW 2483",
                 "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2480 Coolamon Scenic Drive, Ocean Shores, NSW 2483 <br />COUNCIL AREA: Byron <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jul 2023 15:05",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2480 Coolamon Scenic Drive, Ocean Shores, NSW 2483 <br />COUNCIL AREA: Byron <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jul 2023 15:26",
                 "title": "incident: fire"
             }
         },
@@ -2029,30 +2203,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.45251464800003,
-                    -31.449457279999933
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Grass Fire Binnaway",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505527",
-                "created": "2023-07-28T04:24:00+10:00",
-                "updated": "2023-07-28T14:24:00+10:00",
-                "location": "Ironbark Street, Binnaway, NSW 2395",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ironbark Street, Binnaway, NSW 2395 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jul 2023 14:24",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.8108390000001,
                     -34.65449899999993
                 ]
@@ -2166,6 +2316,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Oxley Hwy, Carroll, NSW 2340 <br />COUNCIL AREA: Gunnedah <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jul 2023 15:14",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.55569300000002,
+                    -28.54183699999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "South Beach Rd, Brunswick Heads",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505541",
+                "created": "2023-07-28T05:30:00+10:00",
+                "updated": "2023-07-28T15:30:00+10:00",
+                "location": "South Beach Rd, Brunswick Heads, NSW 2483",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: South Beach Rd, Brunswick Heads, NSW 2483 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Jul 2023 15:30",
+                "title": "incident: fire"
             }
         }
     ]
