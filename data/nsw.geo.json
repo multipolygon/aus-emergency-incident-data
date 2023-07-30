@@ -788,11 +788,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505539",
-                "created": "2023-07-30T04:51:00+10:00",
-                "updated": "2023-07-30T14:51:00+10:00",
+                "created": "2023-07-30T11:40:00+10:00",
+                "updated": "2023-07-30T21:40:00+10:00",
                 "location": "1115 The Bucketts way, Gangat NSW 2422",
                 "size": 4,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1115 The Bucketts way, Gangat NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 14:51",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1115 The Bucketts way, Gangat NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 21:40",
                 "title": "incident: fire"
             }
         },
@@ -810,13 +810,13 @@
                 "sourceTitle": "Bunya Pine Ct, West Kempsey",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505889",
-                "created": "2023-07-30T04:29:00+10:00",
-                "updated": "2023-07-30T14:29:00+10:00",
+                "created": "2023-07-30T11:45:00+10:00",
+                "updated": "2023-07-30T21:45:00+10:00",
                 "location": "Bunya Pine Ct, West Kempsey, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Bunya Pine Ct, West Kempsey, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Jul 2023 14:29",
+                "size": 3,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Bunya Pine Ct, West Kempsey, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Jul 2023 21:45",
                 "title": "incident: fire"
             }
         },
@@ -834,23 +834,72 @@
                 "sourceTitle": "Cathcart Rd, Coolumbooka",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505917",
-                "created": "2023-07-30T04:56:00+10:00",
-                "updated": "2023-07-30T14:56:00+10:00",
+                "created": "2023-07-30T11:45:00+10:00",
+                "updated": "2023-07-30T21:45:00+10:00",
                 "location": "891 Cathcart Rd, Coolumbooka, NSW 2632",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 891 Cathcart Rd, Coolumbooka, NSW 2632 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 14:56",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 891 Cathcart Rd, Coolumbooka, NSW 2632 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 21:45",
                 "title": "incident: fire"
             }
         },
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.84590400000002,
-                    -33.848615999999936
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.84590400000002,
+                            -33.848615999999936
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.846211241,
+                                            -33.848959059
+                                        ],
+                                        [
+                                            150.845533095,
+                                            -33.8489709569999
+                                        ],
+                                        [
+                                            150.845604478,
+                                            -33.8483641939999
+                                        ],
+                                        [
+                                            150.84577104,
+                                            -33.847852611
+                                        ],
+                                        [
+                                            150.846056575,
+                                            -33.847935892
+                                        ],
+                                        [
+                                            150.846199344,
+                                            -33.848078659
+                                        ],
+                                        [
+                                            150.846270727,
+                                            -33.8483285029999
+                                        ],
+                                        [
+                                            150.846211241,
+                                            -33.848959059
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -858,13 +907,13 @@
                 "sourceTitle": "Cobham St, Horsley Park",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505991",
-                "created": "2023-07-30T10:40:00+10:00",
-                "updated": "2023-07-30T20:40:00+10:00",
+                "created": "2023-07-30T11:41:00+10:00",
+                "updated": "2023-07-30T21:41:00+10:00",
                 "location": "42-50 Cobham St, Horsley Park, NSW 2175",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 42-50 Cobham St, Horsley Park, NSW 2175 <br />COUNCIL AREA: Fairfield <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 20:40",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 42-50 Cobham St, Horsley Park, NSW 2175 <br />COUNCIL AREA: Fairfield <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 21:41",
                 "title": "incident: fire"
             }
         },
@@ -1190,11 +1239,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505937",
-                "created": "2023-07-30T06:43:00+10:00",
-                "updated": "2023-07-30T16:43:00+10:00",
+                "created": "2023-07-30T11:46:00+10:00",
+                "updated": "2023-07-30T21:46:00+10:00",
                 "location": "188 Curlew Dr, Lanitza, NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 188 Curlew Dr, Lanitza, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 16:43",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 188 Curlew Dr, Lanitza, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 21:46",
                 "title": "incident: fire"
             }
         },
@@ -3848,6 +3897,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.16968000000008,
+                    -32.890019999999936
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wollombi Rd, Sweetmans Creek",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505994",
+                "created": "2023-07-30T11:14:00+10:00",
+                "updated": "2023-07-30T21:14:00+10:00",
+                "location": "2214 Wollombi Rd, Sweetmans Creek, NSW 2325",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2214 Wollombi Rd, Sweetmans Creek, NSW 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 21:14",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.837261,
                     -31.39251799999994
                 ]
@@ -3859,35 +3932,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505830",
-                "created": "2023-07-30T04:45:00+10:00",
-                "updated": "2023-07-30T14:45:00+10:00",
+                "created": "2023-07-30T11:42:00+10:00",
+                "updated": "2023-07-30T21:42:00+10:00",
                 "location": "335 Blackmans Point Rd, Blackmans Point, NSW 2444",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 335 Blackmans Point Rd, Blackmans Point, NSW 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 14:45",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.62497400000007,
-                    -31.956178999999963
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Caledonia St, Eumungerie",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505982",
-                "created": "2023-07-30T10:11:00+10:00",
-                "updated": "2023-07-30T20:11:00+10:00",
-                "location": "Caledonia St, Eumungerie, NSW 2831",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Caledonia St, Eumungerie, NSW 2831 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 20:11",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 335 Blackmans Point Rd, Blackmans Point, NSW 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 21:42",
                 "title": "incident: fire"
             }
         },
@@ -4117,6 +4166,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.94200000000012,
+                    -33.61699999999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mcclymonts Rd, Kenthurst",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505996",
+                "created": "2023-07-30T11:26:00+10:00",
+                "updated": "2023-07-30T21:26:00+10:00",
+                "location": "257 Mcclymonts Rd, Kenthurst, NSW 2156",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 257 Mcclymonts Rd, Kenthurst, NSW 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 21:26",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.2592770000001,
                     -32.117910999999935
                 ]
@@ -4246,6 +4319,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.49044300000003,
+                    -32.184316998999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Point Rd, Tuncurry",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505993",
+                "created": "2023-07-30T11:44:00+10:00",
+                "updated": "2023-07-30T21:44:00+10:00",
+                "location": "Point Rd, Tuncurry, NSW 2428",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Point Rd, Tuncurry, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 21:44",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.78616261500008,
                     -32.272447145999934
                 ]
@@ -4294,30 +4391,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.19530300000008,
-                    -29.46601499999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South Arm Rd, South Arm",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505987",
-                "created": "2023-07-30T10:08:00+10:00",
-                "updated": "2023-07-30T20:08:00+10:00",
-                "location": "South Arm Rd, South Arm, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: South Arm Rd, South Arm, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Jul 2023 20:08",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.44460800000002,
                     -30.988977999999975
                 ]
@@ -4335,6 +4408,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Stephen St, Carroll, NSW 2340 <br />COUNCIL AREA: Gunnedah <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 19:18",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.47837900000002,
+                    -32.09033499999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Lakes Way, Darawank",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/505995",
+                "created": "2023-07-30T11:22:00+10:00",
+                "updated": "2023-07-30T21:22:00+10:00",
+                "location": "The Lakes Way, Darawank, NSW 2428",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: The Lakes Way, Darawank, NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Jul 2023 21:22",
+                "title": "incident: other"
             }
         }
     ]
