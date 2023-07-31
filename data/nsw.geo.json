@@ -2136,10 +2136,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.54468599900008,
-                    -33.578213999999946
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.5331478160001,
+                            -33.58571454999998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.532695719,
+                                            -33.585500398
+                                        ],
+                                        [
+                                            149.534325649,
+                                            -33.585643165
+                                        ],
+                                        [
+                                            149.533647503,
+                                            -33.587011355
+                                        ],
+                                        [
+                                            149.532897973,
+                                            -33.586928074
+                                        ],
+                                        [
+                                            149.532517259,
+                                            -33.586190442
+                                        ],
+                                        [
+                                            149.532695719,
+                                            -33.585500398
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3921,30 +3962,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.45757100000003,
-                    -32.72913699999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old North Rd, Lochinvar",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/506051",
-                "created": "2023-07-31T02:58:00+10:00",
-                "updated": "2023-07-31T12:58:00+10:00",
-                "location": "331 Old North Rd, Lochinvar, NSW 2321",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 331 Old North Rd, Lochinvar, NSW 2321 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Jul 2023 12:58",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -4544,8 +4561,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.5836779990001,
-                    -30.98955899899994
+                    152.58540109700004,
+                    -30.945642904999943
                 ]
             },
             "properties": {
@@ -5025,6 +5042,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.6170830000001,
+                    -30.97893499999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Harleen Lane, Temagog",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/506079",
+                "created": "2023-07-31T04:30:00+10:00",
+                "updated": "2023-07-31T14:30:00+10:00",
+                "location": "79 Harleen Lane, Temagog, NSW 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 79 Harleen Lane, Temagog, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Jul 2023 14:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.0367930000001,
                     -33.649760999999955
                 ]
@@ -5042,30 +5083,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 20 Johnson Rd, Galston, NSW 2159 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Jul 2023 11:44",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.52653500000008,
-                    -28.892774999999972
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Jubullum St, Tabulam",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/506070",
-                "created": "2023-07-31T03:22:00+10:00",
-                "updated": "2023-07-31T13:22:00+10:00",
-                "location": "14 Jubullum St, Tabulam, NSW 2469",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 14 Jubullum St, Tabulam, NSW 2469 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Jul 2023 13:22",
-                "title": "incident: fire"
             }
         },
         {
@@ -5202,13 +5219,13 @@
                 "sourceTitle": "Skye Rd, Barrington",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/506066",
-                "created": "2023-07-31T03:33:00+10:00",
-                "updated": "2023-07-31T13:33:00+10:00",
+                "created": "2023-07-31T04:34:00+10:00",
+                "updated": "2023-07-31T14:34:00+10:00",
                 "location": "Skye Rd, Barrington, NSW 2422",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Skye Rd, Barrington, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Jul 2023 13:33",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Skye Rd, Barrington, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Jul 2023 14:34",
                 "title": "incident: fire"
             }
         },
