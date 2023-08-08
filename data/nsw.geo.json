@@ -52,6 +52,103 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.82954700000005,
+                            -29.478717999999958
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.829485114,
+                                            -29.475876737
+                                        ],
+                                        [
+                                            149.829568395,
+                                            -29.483681369
+                                        ],
+                                        [
+                                            149.829294757,
+                                            -29.483705164
+                                        ],
+                                        [
+                                            149.828664199,
+                                            -29.4837408559999
+                                        ],
+                                        [
+                                            149.828450047,
+                                            -29.483836034
+                                        ],
+                                        [
+                                            149.827969398,
+                                            -29.4838860039999
+                                        ],
+                                        [
+                                            149.827779041,
+                                            -29.483874106
+                                        ],
+                                        [
+                                            149.827493506,
+                                            -29.4837789279999
+                                        ],
+                                        [
+                                            149.827291251,
+                                            -29.483624262
+                                        ],
+                                        [
+                                            149.826922435,
+                                            -29.4834695979999
+                                        ],
+                                        [
+                                            149.826803462,
+                                            -29.482565402
+                                        ],
+                                        [
+                                            149.826803462,
+                                            -29.4787344709999
+                                        ],
+                                        [
+                                            149.826815359,
+                                            -29.475772041
+                                        ],
+                                        [
+                                            149.829485114,
+                                            -29.475876737
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Chester St, Moree",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507191",
+                "created": "2023-08-08T09:52:00+10:00",
+                "updated": "2023-08-08T19:52:00+10:00",
+                "location": "409 Chester St, Moree, NSW 2400",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 409 Chester St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Aug 2023 19:52",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     153.05591225600006,
@@ -342,35 +439,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507087",
-                "created": "2023-08-07T10:05:00+10:00",
-                "updated": "2023-08-07T20:05:00+10:00",
+                "created": "2023-08-08T10:06:00+10:00",
+                "updated": "2023-08-08T20:06:00+10:00",
                 "location": "3693 Elcombe Rd, Bingara, NSW 2404",
                 "size": 100,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 3693 Elcombe Rd, Bingara, NSW 2404 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 100 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Aug 2023 20:05",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.7472130000001,
-                    -33.712522999999976
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eighth Av, Llandilo",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507247",
-                "created": "2023-08-08T09:46:00+10:00",
-                "updated": "2023-08-08T19:46:00+10:00",
-                "location": "315 Eighth Av, Llandilo, NSW 2747",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 315 Eighth Av, Llandilo, NSW 2747 <br />COUNCIL AREA: Penrith <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 19:46",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 3693 Elcombe Rd, Bingara, NSW 2404 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 100 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 20:06",
                 "title": "incident: fire"
             }
         },
@@ -1356,11 +1429,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507081",
-                "created": "2023-08-07T16:48:00+10:00",
-                "updated": "2023-08-08T02:48:00+10:00",
+                "created": "2023-08-08T09:55:00+10:00",
+                "updated": "2023-08-08T19:55:00+10:00",
                 "location": "262 Mosquito Creek Rd, Warialda, NSW 2402",
                 "size": 50,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 262 Mosquito Creek Rd, Warialda, NSW 2402 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 50 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 02:48",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 262 Mosquito Creek Rd, Warialda, NSW 2402 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 50 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 19:55",
                 "title": "incident: fire"
             }
         },
@@ -2851,127 +2924,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.9182380000001,
-                    -31.834352998999975
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Castlereagh Hwy, Mendooran",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507240",
-                "created": "2023-08-08T08:40:00+10:00",
-                "updated": "2023-08-08T18:40:00+10:00",
-                "location": "Castlereagh Hwy, Mendooran, NSW 2842",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Castlereagh Hwy, Mendooran, NSW 2842 <br />COUNCIL AREA: Gilgandra <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 18:40",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            149.82954700000005,
-                            -29.478717999999958
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.829485114,
-                                            -29.475876737
-                                        ],
-                                        [
-                                            149.829568395,
-                                            -29.483681369
-                                        ],
-                                        [
-                                            149.829294757,
-                                            -29.483705164
-                                        ],
-                                        [
-                                            149.828664199,
-                                            -29.4837408559999
-                                        ],
-                                        [
-                                            149.828450047,
-                                            -29.483836034
-                                        ],
-                                        [
-                                            149.827969398,
-                                            -29.4838860039999
-                                        ],
-                                        [
-                                            149.827779041,
-                                            -29.483874106
-                                        ],
-                                        [
-                                            149.827493506,
-                                            -29.4837789279999
-                                        ],
-                                        [
-                                            149.827291251,
-                                            -29.483624262
-                                        ],
-                                        [
-                                            149.826922435,
-                                            -29.4834695979999
-                                        ],
-                                        [
-                                            149.826803462,
-                                            -29.482565402
-                                        ],
-                                        [
-                                            149.826803462,
-                                            -29.4787344709999
-                                        ],
-                                        [
-                                            149.826815359,
-                                            -29.475772041
-                                        ],
-                                        [
-                                            149.829485114,
-                                            -29.475876737
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Chester St, Moree",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507191",
-                "created": "2023-08-08T03:34:00+10:00",
-                "updated": "2023-08-08T13:34:00+10:00",
-                "location": "409 Chester St, Moree, NSW 2400",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 409 Chester St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Aug 2023 13:34",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.80859700000008,
                     -31.29028399999993
                 ]
@@ -3020,6 +2972,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.03953500000011,
+                    -30.892762999999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gregory St, South West Rocks",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507246",
+                "created": "2023-08-08T09:14:00+10:00",
+                "updated": "2023-08-08T19:14:00+10:00",
+                "location": "88 Gregory St, South West Rocks, NSW 2431",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 88 Gregory St, South West Rocks, NSW 2431 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Aug 2023 19:14",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.71679500000005,
                     -33.79093799999998
                 ]
@@ -3036,30 +3012,6 @@
                 "location": "190 Homestead Rd, Orchard Hills, NSW 2748",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 190 Homestead Rd, Orchard Hills, NSW 2748 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 18:56",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.41866400000004,
-                    -34.82427299999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hume Hwy, Berremangra",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507231",
-                "created": "2023-08-08T09:32:00+10:00",
-                "updated": "2023-08-08T19:32:00+10:00",
-                "location": "5423 Hume Hwy, Berremangra, NSW 2582",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5423 Hume Hwy, Berremangra, NSW 2582 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 19:32",
                 "title": "incident: fire"
             }
         },
@@ -3140,30 +3092,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.92609900000002,
-                    -34.50675199999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Sturt Hwy, Hay South",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507243",
-                "created": "2023-08-08T09:10:00+10:00",
-                "updated": "2023-08-08T19:10:00+10:00",
-                "location": "25746 Sturt Hwy, Hay South, NSW 2711",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 25746 Sturt Hwy, Hay South, NSW 2711 <br />COUNCIL AREA: Hay <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 19:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.4015240000001,
                     -28.332257999999968
                 ]
@@ -3172,14 +3100,14 @@
                 "feedType": "incident",
                 "sourceTitle": "Tweed Valley Way, South Murwillumbah",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "out of control",
+                "subcategory": "burn off",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507248",
-                "created": "2023-08-08T09:40:00+10:00",
-                "updated": "2023-08-08T19:40:00+10:00",
+                "created": "2023-08-08T09:51:00+10:00",
+                "updated": "2023-08-08T19:51:00+10:00",
                 "location": "330 Tweed Valley Way, South Murwillumbah, NSW 2484",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 330 Tweed Valley Way, South Murwillumbah, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Aug 2023 19:40",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 330 Tweed Valley Way, South Murwillumbah, NSW 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Aug 2023 19:51",
                 "title": "incident: fire"
             }
         },
