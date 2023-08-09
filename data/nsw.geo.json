@@ -30,6 +30,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.95040100000006,
+                    -32.71569199999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Back Peak Hill Rd, Peak Hill",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507310",
+                "created": "2023-08-09T02:48:00+10:00",
+                "updated": "2023-08-09T12:48:00+10:00",
+                "location": "Back Peak Hill Rd, Peak Hill, NSW 2869",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Back Peak Hill Rd, Peak Hill, NSW 2869 <br />COUNCIL AREA: Parkes <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 12:48",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.76273608200006,
                     -28.92454238099998
                 ]
@@ -173,10 +197,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.74480600000004,
-                    -32.50624399999998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.74480600000004,
+                            -32.50624399999998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.741761942,
+                                            -32.507518057
+                                        ],
+                                        [
+                                            151.742880288,
+                                            -32.5069469869999
+                                        ],
+                                        [
+                                            151.743927251,
+                                            -32.5071611389999
+                                        ],
+                                        [
+                                            151.744379349,
+                                            -32.5089219389999
+                                        ],
+                                        [
+                                            151.743641716,
+                                            -32.5098737239999
+                                        ],
+                                        [
+                                            151.742808905,
+                                            -32.5097309559999
+                                        ],
+                                        [
+                                            151.742023683,
+                                            -32.5087791719999
+                                        ],
+                                        [
+                                            151.741761942,
+                                            -32.507518057
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -256,13 +329,13 @@
                 "sourceTitle": "Dry Plains Rd, Dairymans Plains",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507305",
-                "created": "2023-08-09T01:46:00+10:00",
-                "updated": "2023-08-09T11:46:00+10:00",
+                "created": "2023-08-09T02:32:00+10:00",
+                "updated": "2023-08-09T12:32:00+10:00",
                 "location": "149 Dry Plains Rd, Dairymans Plains, NSW 2630",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 149 Dry Plains Rd, Dairymans Plains, NSW 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 11:46",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 149 Dry Plains Rd, Dairymans Plains, NSW 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 12:32",
                 "title": "incident: fire"
             }
         },
@@ -3485,54 +3558,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.10335800000007,
-                    -32.95956399999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Glen Alice Rd, Bogee",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507301",
-                "created": "2023-08-09T01:12:00+10:00",
-                "updated": "2023-08-09T11:12:00+10:00",
-                "location": "2379 Glen Alice Rd, Bogee, NSW 2849",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2379 Glen Alice Rd, Bogee, NSW 2849 <br />COUNCIL AREA: Lithgow <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 11:12",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.86118800000008,
-                    -34.37444999999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mount Ousley Rd, Cataract",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507287",
-                "created": "2023-08-08T22:32:00+10:00",
-                "updated": "2023-08-09T08:32:00+10:00",
-                "location": "Mount Ousley Rd, Cataract, NSW 2560",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Mount Ousley Rd, Cataract, NSW 2560 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 08:32",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     142.23219400000005,
                     -34.186800999999946
                 ]
@@ -3568,11 +3593,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507249",
-                "created": "2023-08-08T10:49:00+10:00",
-                "updated": "2023-08-08T20:49:00+10:00",
+                "created": "2023-08-09T02:24:00+10:00",
+                "updated": "2023-08-09T12:24:00+10:00",
                 "location": "Swan Hill Rd, Moulamein, NSW 2733",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Swan Hill Rd, Moulamein, NSW 2733 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 20:49",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Swan Hill Rd, Moulamein, NSW 2733 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 12:24",
                 "title": "incident: fire"
             }
         },
