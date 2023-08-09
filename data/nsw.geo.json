@@ -1373,6 +1373,79 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.94086694700002,
+                            -29.757885705999968
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.940077267,
+                                            -29.757550753
+                                        ],
+                                        [
+                                            152.940208138,
+                                            -29.757277116
+                                        ],
+                                        [
+                                            152.941933247,
+                                            -29.7577054189999
+                                        ],
+                                        [
+                                            152.942968312,
+                                            -29.757776803
+                                        ],
+                                        [
+                                            152.942956415,
+                                            -29.7582645919999
+                                        ],
+                                        [
+                                            152.941338382,
+                                            -29.7581218239999
+                                        ],
+                                        [
+                                            152.939982089,
+                                            -29.75805044
+                                        ],
+                                        [
+                                            152.940077267,
+                                            -29.757550753
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Foleys Road",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507354",
+                "created": "2023-08-09T06:48:00+10:00",
+                "updated": "2023-08-09T16:48:00+10:00",
+                "location": "Foleys Rd, Divines SF, 7km south of Grafton",
+                "size": 2,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Foleys Rd, Divines SF, 7km south of Grafton  <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 9 Aug 2023 16:48",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     152.11481094300007,
@@ -2188,30 +2261,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.49914741600003,
-                    -32.904740136999976
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Maitland Rd, Mulbring",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507232",
-                "created": "2023-08-08T10:21:00+10:00",
-                "updated": "2023-08-08T20:21:00+10:00",
-                "location": "Maitland Rd, Mulbring, NSW 2323",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Maitland Rd, Mulbring, NSW 2323 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 20:21",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.48719200000005,
                     -32.897625999999946
                 ]
@@ -2228,6 +2277,30 @@
                 "location": "90 Maitland Rd, Mulbring, NSW 2323",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 90 Maitland Rd, Mulbring, NSW 2323 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 16:22",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.49914741600003,
+                    -32.904740136999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maitland Rd, Mulbring",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507232",
+                "created": "2023-08-08T10:21:00+10:00",
+                "updated": "2023-08-08T20:21:00+10:00",
+                "location": "Maitland Rd, Mulbring, NSW 2323",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Maitland Rd, Mulbring, NSW 2323 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Aug 2023 20:21",
                 "title": "incident: fire"
             }
         },
@@ -2484,36 +2557,152 @@
                                             -29.3195615889999
                                         ],
                                         [
-                                            152.647043648,
-                                            -29.3205665529999
+                                            152.646438071,
+                                            -29.319765264
                                         ],
                                         [
-                                            152.647419915,
-                                            -29.32208392
+                                            152.647851124,
+                                            -29.3197989619999
                                         ],
                                         [
-                                            152.647552877,
-                                            -29.323039466
+                                            152.648545449,
+                                            -29.320305623
                                         ],
                                         [
-                                            152.647157761,
-                                            -29.323038422
+                                            152.648984987,
+                                            -29.321621448
                                         ],
                                         [
-                                            152.646722225,
-                                            -29.322905931
+                                            152.648647297,
+                                            -29.322104356
                                         ],
                                         [
-                                            152.646623693,
-                                            -29.322773817
+                                            152.648706473,
+                                            -29.322346411
                                         ],
                                         [
-                                            152.645630354,
-                                            -29.322664238
+                                            152.649137511,
+                                            -29.322642029
                                         ],
                                         [
-                                            152.64547974,
-                                            -29.3220907219999
+                                            152.649196798,
+                                            -29.3228525329999
+                                        ],
+                                        [
+                                            152.6491116,
+                                            -29.3231993819999
+                                        ],
+                                        [
+                                            152.649482924,
+                                            -29.323410703
+                                        ],
+                                        [
+                                            152.649625753,
+                                            -29.3237581499999
+                                        ],
+                                        [
+                                            152.64948037,
+                                            -29.3241574269999
+                                        ],
+                                        [
+                                            152.648533191,
+                                            -29.3238814859999
+                                        ],
+                                        [
+                                            152.647910129,
+                                            -29.3235853589999
+                                        ],
+                                        [
+                                            152.647237616,
+                                            -29.3237097919999
+                                        ],
+                                        [
+                                            152.646674964,
+                                            -29.323298128
+                                        ],
+                                        [
+                                            152.645880175,
+                                            -29.3233763609999
+                                        ],
+                                        [
+                                            152.645990341,
+                                            -29.323454074
+                                        ],
+                                        [
+                                            152.646131888,
+                                            -29.3241696279999
+                                        ],
+                                        [
+                                            152.646166332,
+                                            -29.324621964
+                                        ],
+                                        [
+                                            152.646110506,
+                                            -29.324554829
+                                        ],
+                                        [
+                                            152.6460581,
+                                            -29.324684781
+                                        ],
+                                        [
+                                            152.645950377,
+                                            -29.3246003579999
+                                        ],
+                                        [
+                                            152.645698636,
+                                            -29.3245155499999
+                                        ],
+                                        [
+                                            152.645590841,
+                                            -29.324452161
+                                        ],
+                                        [
+                                            152.645807631,
+                                            -29.3242318719999
+                                        ],
+                                        [
+                                            152.645797696,
+                                            -29.324178639
+                                        ],
+                                        [
+                                            152.645771918,
+                                            -29.3241476379999
+                                        ],
+                                        [
+                                            152.645554592,
+                                            -29.3240027319999
+                                        ],
+                                        [
+                                            152.645304516,
+                                            -29.323957086
+                                        ],
+                                        [
+                                            152.645015497,
+                                            -29.324240286
+                                        ],
+                                        [
+                                            152.64489632,
+                                            -29.32399807
+                                        ],
+                                        [
+                                            152.645428863,
+                                            -29.323456934
+                                        ],
+                                        [
+                                            152.645235781,
+                                            -29.323010342
+                                        ],
+                                        [
+                                            152.644689296,
+                                            -29.3213997359999
+                                        ],
+                                        [
+                                            152.645386054,
+                                            -29.32120176
+                                        ],
+                                        [
+                                            152.64545516,
+                                            -29.3214826879999
                                         ],
                                         [
                                             152.645419496,
@@ -2625,11 +2814,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507204",
-                "created": "2023-08-08T23:57:00+10:00",
-                "updated": "2023-08-09T09:57:00+10:00",
+                "created": "2023-08-09T07:08:00+10:00",
+                "updated": "2023-08-09T17:08:00+10:00",
                 "location": "88 Mundine Rd, Upper Fine Flower, NSW 2460",
                 "size": 124,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 88 Mundine Rd, Upper Fine Flower, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 124 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 09:57",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 88 Mundine Rd, Upper Fine Flower, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 124 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 17:08",
                 "title": "incident: fire"
             }
         },
@@ -5113,6 +5302,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.9665979990001,
+                    -34.86726699999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Yass River Rd, Manton",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507349",
+                "created": "2023-08-09T06:36:00+10:00",
+                "updated": "2023-08-09T16:36:00+10:00",
+                "location": "Yass River Rd, Manton, NSW 2582",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Yass River Rd, Manton, NSW 2582 <br />COUNCIL AREA: Yass Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 16:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.40497600000003,
                     -33.26463199899996
                 ]
@@ -5161,22 +5374,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.8362310000001,
-                    -29.481210999999973
+                    151.9099510000001,
+                    -31.97370899999993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Boland Dr, Moree",
+                "sourceTitle": "Barrington East Rd, Barrington",
                 "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507348",
-                "created": "2023-08-09T06:44:00+10:00",
-                "updated": "2023-08-09T16:44:00+10:00",
-                "location": "Boland Dr, Moree, NSW 2400",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507350",
+                "created": "2023-08-09T06:36:00+10:00",
+                "updated": "2023-08-09T16:36:00+10:00",
+                "location": "Barrington East Rd, Barrington, NSW 2422",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Boland Dr, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 9 Aug 2023 16:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Barrington East Rd, Barrington, NSW 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 16:36",
                 "title": "incident: fire"
             }
         },
@@ -5225,6 +5438,30 @@
                 "location": "4559 Burley Griffin Way, Cunningar, NSW 2587",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4559 Burley Griffin Way, Cunningar, NSW 2587 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 13:11",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.97904700000004,
+                    -35.01884899999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Connells Lane, Jeir",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507347",
+                "created": "2023-08-09T06:22:00+10:00",
+                "updated": "2023-08-09T16:22:00+10:00",
+                "location": "Connells Lane, Jeir, NSW 2582",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Connells Lane, Jeir, NSW 2582 <br />COUNCIL AREA: Yass Valley <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 16:22",
                 "title": "incident: fire"
             }
         },
@@ -5305,6 +5542,78 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.7360940000001,
+                    -34.84908399999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jerry Bailey Rd, Shoalhaven Heads",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507351",
+                "created": "2023-08-09T06:40:00+10:00",
+                "updated": "2023-08-09T16:40:00+10:00",
+                "location": "Jerry Bailey Rd, Shoalhaven Heads, NSW 2535",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Jerry Bailey Rd, Shoalhaven Heads, NSW 2535 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 16:40",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.64174500000001,
+                    -31.964340999999934
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Moorefield Rd, Leadville",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507352",
+                "created": "2023-08-09T06:40:00+10:00",
+                "updated": "2023-08-09T16:40:00+10:00",
+                "location": "Moorefield Rd, Leadville, NSW 2844",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Moorefield Rd, Leadville, NSW 2844 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 16:40",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.03279300000008,
+                    -33.477679999999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Western Rd, Rydal",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507355",
+                "created": "2023-08-09T06:50:00+10:00",
+                "updated": "2023-08-09T16:50:00+10:00",
+                "location": "Old Western Rd, Rydal, NSW 2790",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Old Western Rd, Rydal, NSW 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 16:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.02705100000003,
                     -32.64878700099996
                 ]
@@ -5321,6 +5630,54 @@
                 "location": "Putty Rd, Bulga, NSW 2330",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Putty Rd, Bulga, NSW 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 15:48",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.5125200000001,
+                    -32.25656699999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rosedale Rd, Minore",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507356",
+                "created": "2023-08-09T06:56:00+10:00",
+                "updated": "2023-08-09T16:56:00+10:00",
+                "location": "Rosedale Rd, Minore, NSW 2830",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Rosedale Rd, Minore, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 16:56",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.1348650000001,
+                    -28.825766999999928
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Spring Grove Rd, Spring Grove",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507334",
+                "created": "2023-08-09T05:14:00+10:00",
+                "updated": "2023-08-09T15:14:00+10:00",
+                "location": "680 Spring Grove Rd, Spring Grove, NSW 2470",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 680 Spring Grove Rd, Spring Grove, NSW 2470 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Aug 2023 15:14",
                 "title": "incident: fire"
             }
         },
