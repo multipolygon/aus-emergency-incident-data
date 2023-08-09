@@ -1420,14 +1420,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Britannia Creek Rd",
+                "sourceTitle": "Lysterfield",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "responding",
+                "created": "2023-08-09T23:19:50+10:00",
+                "updated": "2023-08-09T23:24:56+10:00",
+                "id": "ESTA:230850506",
+                "location": "Wellington Rd, Lysterfield",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27977318189537,
+                    -37.92644894778398
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Westernport Rd",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-08-09T22:26:00+10:00",
-                "updated": "2023-08-09T23:07:00+10:00",
-                "id": "ESTA:230807588",
-                "location": "Britannia Creek Rd, Wesburn",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-08-09T23:23:00+10:00",
+                "updated": "2023-08-09T23:23:00+10:00",
+                "id": "ESTA:230807598",
+                "location": "Westernport Rd, Lang Lang East",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -1435,30 +1457,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.6462333849582,
-                    -37.78378595429617
+                    145.65271698006333,
+                    -38.25106514601984
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2023-08-09T23:11:00+10:00",
-                "updated": "2023-08-09T23:12:00+10:00",
-                "id": "ESTA:230850505",
-                "location": "Lysterfield",
-                "title": "incident: tree down"
+                "sourceTitle": "Gelantipy Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2023-08-09T23:28:00+10:00",
+                "updated": "2023-08-09T23:28:00+10:00",
+                "id": "ESTA:230807599",
+                "location": "Gelantipy Rd, W Tree",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2797688796656,
-                    -37.92646082892566
+                    148.2345142395001,
+                    -37.338941994557665
                 ]
             }
         },
@@ -2642,29 +2665,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Green St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2023-08-09T19:25:00+10:00",
-                "updated": "2023-08-09T19:52:00+10:00",
-                "id": "ESTA:230807532",
-                "location": "Green St, Wangaratta",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.31367429798578,
-                    -36.35744360193032
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Balmoral Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -2688,12 +2688,80 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Britannia Creek Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2023-08-09T22:26:00+10:00",
+                "updated": "2023-08-09T23:07:00+10:00",
+                "id": "ESTA:230807588",
+                "location": "Britannia Creek Rd, Wesburn",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.6462333849582,
+                    -37.78378595429617
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Green St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-08-09T19:25:00+10:00",
+                "updated": "2023-08-09T23:33:00+10:00",
+                "id": "ESTA:230807532",
+                "location": "Green St, Wangaratta",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.31367429798578,
+                    -36.35744360193032
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-08-09T23:11:00+10:00",
+                "updated": "2023-08-09T23:17:00+10:00",
+                "id": "ESTA:230850505",
+                "location": "Lysterfield",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2797688796656,
+                    -37.92646082892566
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2023-08-09T22:59:00+10:00",
-                "updated": "2023-08-09T23:01:00+10:00",
+                "updated": "2023-08-09T23:30:00+10:00",
                 "id": "ESTA:230850504",
                 "location": "Kealba",
                 "title": "incident: tree down"
