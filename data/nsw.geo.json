@@ -1151,10 +1151,91 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.3456115770001,
-                    -31.85356058399998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.3456115770001,
+                            -31.85356058399998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.340261696,
+                                            -31.8515859779999
+                                        ],
+                                        [
+                                            147.339029136,
+                                            -31.849860868
+                                        ],
+                                        [
+                                            147.337582422,
+                                            -31.847245841
+                                        ],
+                                        [
+                                            147.336866206,
+                                            -31.8447426499999
+                                        ],
+                                        [
+                                            147.336778166,
+                                            -31.842201384
+                                        ],
+                                        [
+                                            147.337011353,
+                                            -31.8404834139999
+                                        ],
+                                        [
+                                            147.340256938,
+                                            -31.842467884
+                                        ],
+                                        [
+                                            147.341932078,
+                                            -31.8430389549999
+                                        ],
+                                        [
+                                            147.343885616,
+                                            -31.843783725
+                                        ],
+                                        [
+                                            147.346510162,
+                                            -31.8457753329999
+                                        ],
+                                        [
+                                            147.347088371,
+                                            -31.848647344
+                                        ],
+                                        [
+                                            147.345596448,
+                                            -31.849256485
+                                        ],
+                                        [
+                                            147.34452569,
+                                            -31.849599128
+                                        ],
+                                        [
+                                            147.343930826,
+                                            -31.849956047
+                                        ],
+                                        [
+                                            147.342748233,
+                                            -31.8516073929999
+                                        ],
+                                        [
+                                            147.340261696,
+                                            -31.8515859779999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1835,6 +1916,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.75355100000002,
+                    -34.64569299999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jamberoo Mountain Rd, Jamberoo",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508465",
+                "created": "2023-08-16T06:34:00+10:00",
+                "updated": "2023-08-16T16:34:00+10:00",
+                "location": "Jamberoo Mountain Rd, Jamberoo, NSW 2533",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Jamberoo Mountain Rd, Jamberoo, NSW 2533 <br />COUNCIL AREA: Kiama <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 16:34",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2175,13 +2280,13 @@
                 "sourceTitle": "Milvale Lane, Stockinbingal",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508457",
-                "created": "2023-08-16T05:44:00+10:00",
-                "updated": "2023-08-16T15:44:00+10:00",
+                "created": "2023-08-16T06:28:00+10:00",
+                "updated": "2023-08-16T16:28:00+10:00",
                 "location": "Milvale Lane, Stockinbingal,  2725",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Milvale Lane, Stockinbingal,  2725 <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 15:44",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Milvale Lane, Stockinbingal,  2725 <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 16:28",
                 "title": "incident: fire"
             }
         },
@@ -2933,6 +3038,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.7985500000001,
+                    -29.726278999999977
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old Glen Innes Rd, Chambigne",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508445",
+                "created": "2023-08-16T04:34:00+10:00",
+                "updated": "2023-08-16T14:34:00+10:00",
+                "location": "Old Glen Innes Rd, Chambigne, NSW 2460",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Old Glen Innes Rd, Chambigne, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 14:34",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -3359,30 +3488,6 @@
                 "location": "1315 Old Glen Innes Rd, Chambigne, NSW 2460",
                 "size": 625,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 1315 Old Glen Innes Rd, Chambigne, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 625 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 10:22",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.7985500000001,
-                    -29.726278999999977
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old Glen Innes Rd, Chambigne",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508445",
-                "created": "2023-08-16T04:34:00+10:00",
-                "updated": "2023-08-16T14:34:00+10:00",
-                "location": "Old Glen Innes Rd, Chambigne, NSW 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Old Glen Innes Rd, Chambigne, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 14:34",
                 "title": "incident: fire"
             }
         },
@@ -7024,11 +7129,35 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508351",
-                "created": "2023-08-15T22:53:00+10:00",
-                "updated": "2023-08-16T08:53:00+10:00",
+                "created": "2023-08-16T06:27:00+10:00",
+                "updated": "2023-08-16T16:27:00+10:00",
                 "location": "Summerland Way, Warragai Creek, NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Summerland Way, Warragai Creek, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 08:53",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Summerland Way, Warragai Creek, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 16:27",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.56716013000005,
+                    -28.891632839999943
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Tabulam HR",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508412",
+                "created": "2023-08-16T06:05:00+10:00",
+                "updated": "2023-08-16T16:05:00+10:00",
+                "location": "3 Barnes St Tabulam",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 3 Barnes St Tabulam <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 16:05",
                 "title": "incident: fire"
             }
         },
@@ -7350,6 +7479,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.06022500000006,
+                    -36.44232899999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Alexander Dr, Bermagui",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508463",
+                "created": "2023-08-16T06:20:00+10:00",
+                "updated": "2023-08-16T16:20:00+10:00",
+                "location": "Alexander Dr, Bermagui, NSW 2546",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Alexander Dr, Bermagui, NSW 2546 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 16:20",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.56738800000005,
+                    -28.89173599999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Barnes St, Tabulam",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508464",
+                "created": "2023-08-16T06:28:00+10:00",
+                "updated": "2023-08-16T16:28:00+10:00",
+                "location": "3 Barnes St, Tabulam, NSW 2469",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3 Barnes St, Tabulam, NSW 2469 <br />COUNCIL AREA: Kyogle <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 16:28",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.23773400000005,
                     -32.54794799999996
                 ]
@@ -7494,30 +7671,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.827084,
-                    -31.11807099999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Macleay Valley Way, South Kempsey",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508422",
-                "created": "2023-08-16T02:12:00+10:00",
-                "updated": "2023-08-16T12:12:00+10:00",
-                "location": "490 Macleay Valley Way, South Kempsey, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 490 Macleay Valley Way, South Kempsey, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Aug 2023 12:12",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.6099610000001,
                     -34.87152599999996
                 ]
@@ -7606,6 +7759,30 @@
                 "location": "Phillis Rd, Wantagong, NSW 2644",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Phillis Rd, Wantagong, NSW 2644 <br />COUNCIL AREA: Greater Hume <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 15:40",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.6016850000001,
+                    -34.86575099999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy, Nowra",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508466",
+                "created": "2023-08-16T06:36:00+10:00",
+                "updated": "2023-08-16T16:36:00+10:00",
+                "location": "Princes Hwy, Nowra, NSW 2541",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Princes Hwy, Nowra, NSW 2541 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Aug 2023 16:36",
                 "title": "incident: fire"
             }
         },
