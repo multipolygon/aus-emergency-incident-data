@@ -276,13 +276,13 @@
                 "sourceTitle": "Beranghi Rd, Crescent Head",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509543",
-                "created": "2023-08-17T03:26:00+10:00",
-                "updated": "2023-08-17T13:26:00+10:00",
+                "created": "2023-08-17T05:45:00+10:00",
+                "updated": "2023-08-17T15:45:00+10:00",
                 "location": "311 Beranghi Rd, Crescent Head, NSW 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 311 Beranghi Rd, Crescent Head, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 13:26",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 311 Beranghi Rd, Crescent Head, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 15:45",
                 "title": "incident: fire"
             }
         },
@@ -1373,11 +1373,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509550",
-                "created": "2023-08-17T04:02:00+10:00",
-                "updated": "2023-08-17T14:02:00+10:00",
+                "created": "2023-08-17T05:36:00+10:00",
+                "updated": "2023-08-17T15:36:00+10:00",
                 "location": "Cypress Way, Pilliga, NSW 2388",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Cypress Way, Pilliga, NSW 2388 <br />COUNCIL AREA: Narrabri <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 14:02",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Cypress Way, Pilliga, NSW 2388 <br />COUNCIL AREA: Narrabri <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 15:36",
                 "title": "incident: fire"
             }
         },
@@ -1444,6 +1444,33 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.545405516,
+                                            -29.0741529049999
+                                        ],
+                                        [
+                                            152.544714704,
+                                            -29.0754577709999
+                                        ],
+                                        [
+                                            152.54358446,
+                                            -29.076231096
+                                        ],
+                                        [
+                                            152.541442945,
+                                            -29.0772423669999
+                                        ],
+                                        [
+                                            152.545405516,
+                                            -29.0741529049999
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -1593,33 +1620,6 @@
                                         ]
                                     ]
                                 ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.545405516,
-                                            -29.0741529049999
-                                        ],
-                                        [
-                                            152.544714704,
-                                            -29.0754577709999
-                                        ],
-                                        [
-                                            152.54358446,
-                                            -29.076231096
-                                        ],
-                                        [
-                                            152.541442945,
-                                            -29.0772423669999
-                                        ],
-                                        [
-                                            152.545405516,
-                                            -29.0741529049999
-                                        ]
-                                    ]
-                                ]
                             }
                         ]
                     }
@@ -1655,29 +1655,6 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            153.141585815,
-                                            -29.7172253909999
-                                        ],
-                                        [
-                                            153.141574251,
-                                            -29.717220943
-                                        ],
-                                        [
-                                            153.141598046,
-                                            -29.717220943
-                                        ],
-                                        [
-                                            153.141585815,
-                                            -29.7172253909999
-                                        ]
-                                    ]
-                                ]
-                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -1753,6 +1730,29 @@
                                         [
                                             153.141074564,
                                             -29.7174113
+                                        ],
+                                        [
+                                            153.141585815,
+                                            -29.7172253909999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.141585815,
+                                            -29.7172253909999
+                                        ],
+                                        [
+                                            153.141574251,
+                                            -29.717220943
+                                        ],
+                                        [
+                                            153.141598046,
+                                            -29.717220943
                                         ],
                                         [
                                             153.141585815,
@@ -2184,10 +2184,199 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.6929490010001,
-                    -36.36585999999994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.6929490010001,
+                            -36.36585999999994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.699045181,
+                                            -36.3682041169999
+                                        ],
+                                        [
+                                            148.699045181,
+                                            -36.368446349
+                                        ],
+                                        [
+                                            148.698732375,
+                                            -36.3683414459999
+                                        ],
+                                        [
+                                            148.698423385,
+                                            -36.368124009
+                                        ],
+                                        [
+                                            148.698034288,
+                                            -36.367849349
+                                        ],
+                                        [
+                                            148.697702407,
+                                            -36.367639541
+                                        ],
+                                        [
+                                            148.697481156,
+                                            -36.367462158
+                                        ],
+                                        [
+                                            148.697351456,
+                                            -36.367237092
+                                        ],
+                                        [
+                                            148.697202683,
+                                            -36.366987228
+                                        ],
+                                        [
+                                            148.697050094,
+                                            -36.3667373659999
+                                        ],
+                                        [
+                                            148.696901322,
+                                            -36.366502762
+                                        ],
+                                        [
+                                            148.696702957,
+                                            -36.36618042
+                                        ],
+                                        [
+                                            148.696542741,
+                                            -36.3659553529999
+                                        ],
+                                        [
+                                            148.696352005,
+                                            -36.365753174
+                                        ],
+                                        [
+                                            148.696001053,
+                                            -36.36557579
+                                        ],
+                                        [
+                                            148.69560051,
+                                            -36.365480423
+                                        ],
+                                        [
+                                            148.695280074,
+                                            -36.365430832
+                                        ],
+                                        [
+                                            148.694910049,
+                                            -36.365375518
+                                        ],
+                                        [
+                                            148.694658279,
+                                            -36.3652210229999
+                                        ],
+                                        [
+                                            148.694810867,
+                                            -36.3649234769999
+                                        ],
+                                        [
+                                            148.695051194,
+                                            -36.364738465
+                                        ],
+                                        [
+                                            148.695199967,
+                                            -36.3646011349999
+                                        ],
+                                        [
+                                            148.695299149,
+                                            -36.364673614
+                                        ],
+                                        [
+                                            148.695692063,
+                                            -36.3647212979999
+                                        ],
+                                        [
+                                            148.696039199,
+                                            -36.3647708889999
+                                        ],
+                                        [
+                                            148.696382522,
+                                            -36.364810943
+                                        ],
+                                        [
+                                            148.696802139,
+                                            -36.3648586269999
+                                        ],
+                                        [
+                                            148.697172166,
+                                            -36.3648986819999
+                                        ],
+                                        [
+                                            148.697523117,
+                                            -36.36497116
+                                        ],
+                                        [
+                                            148.697832107,
+                                            -36.3651161189999
+                                        ],
+                                        [
+                                            148.698183059,
+                                            -36.365238189
+                                        ],
+                                        [
+                                            148.698534011,
+                                            -36.3652954089999
+                                        ],
+                                        [
+                                            148.698854446,
+                                            -36.36530304
+                                        ],
+                                        [
+                                            148.699064254,
+                                            -36.365535736
+                                        ],
+                                        [
+                                            148.699064254,
+                                            -36.365802764
+                                        ],
+                                        [
+                                            148.69905281,
+                                            -36.3661479949999
+                                        ],
+                                        [
+                                            148.699045181,
+                                            -36.366397858
+                                        ],
+                                        [
+                                            148.69904518,
+                                            -36.366687774
+                                        ],
+                                        [
+                                            148.699045181,
+                                            -36.3670043939999
+                                        ],
+                                        [
+                                            148.699045181,
+                                            -36.367284774
+                                        ],
+                                        [
+                                            148.699045181,
+                                            -36.367614746
+                                        ],
+                                        [
+                                            148.699045182,
+                                            -36.367954254
+                                        ],
+                                        [
+                                            148.699045181,
+                                            -36.3682041169999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3825,11 +4014,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508417",
-                "created": "2023-08-17T02:46:00+10:00",
-                "updated": "2023-08-17T12:46:00+10:00",
+                "created": "2023-08-17T05:23:00+10:00",
+                "updated": "2023-08-17T15:23:00+10:00",
                 "location": "56 Pallal Rd, Pallal, NSW 2404",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 56 Pallal Rd, Pallal, NSW 2404 <br />COUNCIL AREA: Gwydir <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 12:46",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 56 Pallal Rd, Pallal, NSW 2404 <br />COUNCIL AREA: Gwydir <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 15:23",
                 "title": "incident: fire"
             }
         },
@@ -3838,8 +4027,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.62638100000004,
-                    -31.45378600099997
+                    152.59000580400004,
+                    -31.450823327999956
                 ]
             },
             "properties": {
@@ -5931,13 +6120,13 @@
                 "sourceTitle": "Summerland Way, Dilkoon",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507854",
-                "created": "2023-08-17T02:44:00+10:00",
-                "updated": "2023-08-17T12:44:00+10:00",
+                "created": "2023-08-17T05:31:00+10:00",
+                "updated": "2023-08-17T15:31:00+10:00",
                 "location": "Summerland Way, Clifden, NSW 2460",
                 "size": 1488,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Summerland Way, Clifden, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1488 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 12:44",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Summerland Way, Clifden, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1488 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 15:31",
                 "title": "incident: fire"
             }
         },
@@ -6246,30 +6435,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.9290000000001,
-                    -30.79069999999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Clayholes Rd, Way Way",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509561",
-                "created": "2023-08-17T04:48:00+10:00",
-                "updated": "2023-08-17T14:48:00+10:00",
-                "location": "Clayholes Rd, Way Way, NSW 2447",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Clayholes Rd, Way Way, NSW 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 14:48",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.67437700000005,
                     -33.98963599999996
                 ]
@@ -6286,30 +6451,6 @@
                 "location": "330 Cut Hill Rd, Cobbitty, NSW 2570",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 330 Cut Hill Rd, Cobbitty, NSW 2570 <br />COUNCIL AREA: Camden <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 13:55",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.9026550000001,
-                    -30.36450599999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cypress Way, Pilliga",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509555",
-                "created": "2023-08-17T04:28:00+10:00",
-                "updated": "2023-08-17T14:28:00+10:00",
-                "location": "Cypress Way, Pilliga, NSW 2388",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Cypress Way, Pilliga, NSW 2388 <br />COUNCIL AREA: Narrabri <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 14:28",
                 "title": "incident: fire"
             }
         },
@@ -6471,38 +6612,14 @@
                 "sourceTitle": "Kangaloon Rd, Glenquarry",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509563",
-                "created": "2023-08-17T04:56:00+10:00",
-                "updated": "2023-08-17T14:56:00+10:00",
+                "created": "2023-08-17T05:46:00+10:00",
+                "updated": "2023-08-17T15:46:00+10:00",
                 "location": "Kangaloon Rd, Glenquarry, NSW 2576",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kangaloon Rd, Glenquarry, NSW 2576 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 14:56",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Kangaloon Rd, Glenquarry, NSW 2576 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 15:46",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.28294100000005,
-                    -30.740354999999965
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kempsey Rd, Lower Creek",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/508433",
-                "created": "2023-08-16T03:42:00+10:00",
-                "updated": "2023-08-16T13:42:00+10:00",
-                "location": "8476 Kempsey Rd, Lower Creek, NSW 2440",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8476 Kempsey Rd, Lower Creek, NSW 2440 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Aug 2023 13:42",
-                "title": "incident: fire"
             }
         },
         {
@@ -6744,30 +6861,6 @@
                 "location": "116 moulders rd, Orangeville, NSW 2570",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 116 moulders rd, Orangeville, NSW 2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 11:59",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.27993800100012,
-                    -33.12451500099996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Naroo Cct, Glen Davis",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509520",
-                "created": "2023-08-17T00:14:00+10:00",
-                "updated": "2023-08-17T10:14:00+10:00",
-                "location": "2 Naroo Cct, Glen Davis, NSW 2846",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2 Naroo Cct, Glen Davis, NSW 2846 <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 10:14",
                 "title": "incident: fire"
             }
         },
