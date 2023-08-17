@@ -2136,10 +2136,123 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.32201200100008,
-                    -31.742835999999954
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.32201200100008,
+                            -31.742835999999954
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.31552775,
+                                            -31.7374426069999
+                                        ],
+                                        [
+                                            149.321857116,
+                                            -31.7353724769999
+                                        ],
+                                        [
+                                            149.3219285,
+                                            -31.736395645
+                                        ],
+                                        [
+                                            149.322142652,
+                                            -31.736871537
+                                        ],
+                                        [
+                                            149.322142652,
+                                            -31.73725225
+                                        ],
+                                        [
+                                            149.321952295,
+                                            -31.737371224
+                                        ],
+                                        [
+                                            149.321452608,
+                                            -31.737061894
+                                        ],
+                                        [
+                                            149.321167073,
+                                            -31.737109483
+                                        ],
+                                        [
+                                            149.320810153,
+                                            -31.737347429
+                                        ],
+                                        [
+                                            149.320619796,
+                                            -31.738037473
+                                        ],
+                                        [
+                                            149.320286672,
+                                            -31.7384895709999
+                                        ],
+                                        [
+                                            149.319715601,
+                                            -31.738703722
+                                        ],
+                                        [
+                                            149.318740022,
+                                            -31.7387751059999
+                                        ],
+                                        [
+                                            149.317978595,
+                                            -31.7384419809999
+                                        ],
+                                        [
+                                            149.317526497,
+                                            -31.738180241
+                                        ],
+                                        [
+                                            149.317240962,
+                                            -31.738013678
+                                        ],
+                                        [
+                                            149.316884043,
+                                            -31.7381326509999
+                                        ],
+                                        [
+                                            149.316527123,
+                                            -31.7384895709999
+                                        ],
+                                        [
+                                            149.316146409,
+                                            -31.7387751059999
+                                        ],
+                                        [
+                                            149.315765695,
+                                            -31.7389178729999
+                                        ],
+                                        [
+                                            149.31552775,
+                                            -31.7387988999999
+                                        ],
+                                        [
+                                            149.315289803,
+                                            -31.738394393
+                                        ],
+                                        [
+                                            149.315361187,
+                                            -31.7374426069999
+                                        ],
+                                        [
+                                            149.31552775,
+                                            -31.7374426069999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -5050,11 +5163,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/507883",
-                "created": "2023-08-17T00:17:00+10:00",
-                "updated": "2023-08-17T10:17:00+10:00",
+                "created": "2023-08-17T01:54:00+10:00",
+                "updated": "2023-08-17T11:54:00+10:00",
                 "location": "130 Reardons Lane, Swan Bay, NSW 2471",
                 "size": 27,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 130 Reardons Lane, Swan Bay, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 27 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 10:17",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 130 Reardons Lane, Swan Bay, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 27 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 11:54",
                 "title": "incident: fire"
             }
         },
@@ -7170,30 +7283,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.72659300100008,
-                    -33.429119999999955
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Towers Rd, Tullibigeal",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509535",
-                "created": "2023-08-17T02:10:00+10:00",
-                "updated": "2023-08-17T12:10:00+10:00",
-                "location": "Towers Rd, Tullibigeal, NSW 2669",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Towers Rd, Tullibigeal, NSW 2669 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 12:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.9296731940001,
                     -36.84710859499995
                 ]
@@ -7275,13 +7364,13 @@
                 "sourceTitle": "Caoura Rd, Tallong",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509509",
-                "created": "2023-08-16T23:29:00+10:00",
-                "updated": "2023-08-17T09:29:00+10:00",
+                "created": "2023-08-17T02:22:00+10:00",
+                "updated": "2023-08-17T12:22:00+10:00",
                 "location": "319 Caoura Rd, Tallong,  2579",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 319 Caoura Rd, Tallong,  2579 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 09:29",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 319 Caoura Rd, Tallong,  2579 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 12:22",
                 "title": "incident: fire"
             }
         },
@@ -7651,23 +7740,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.95238700000004,
-                    -32.38969999999995
+                    150.95558166500007,
+                    -32.31023259699998
                 ]
             },
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "New England Hwy, Muswellbrook",
-                "category": "fire",
-                "subcategory": "hazard reduction",
+                "category": "other",
+                "subcategory": "hazmat",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509536",
-                "created": "2023-08-17T02:12:00+10:00",
-                "updated": "2023-08-17T12:12:00+10:00",
+                "created": "2023-08-17T02:33:00+10:00",
+                "updated": "2023-08-17T12:33:00+10:00",
                 "location": "New England Hwy, Muswellbrook, NSW 2333",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Hwy, Muswellbrook, NSW 2333 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Out of control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 12:12",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: New England Hwy, Muswellbrook, NSW 2333 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Out of control <br />TYPE: HAZMAT <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Aug 2023 12:33",
+                "title": "incident: other"
             }
         },
         {
