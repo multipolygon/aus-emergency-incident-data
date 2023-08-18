@@ -351,11 +351,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509675",
-                "created": "2023-08-18T02:58:00+10:00",
-                "updated": "2023-08-18T12:58:00+10:00",
+                "created": "2023-08-18T03:55:00+10:00",
+                "updated": "2023-08-18T13:55:00+10:00",
                 "location": "65 Bennetts Rd, Dobies Bight, NSW 2470",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 65 Bennetts Rd, Dobies Bight, NSW 2470 <br />COUNCIL AREA: Kyogle <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 12:58",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 65 Bennetts Rd, Dobies Bight, NSW 2470 <br />COUNCIL AREA: Kyogle <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:55",
                 "title": "incident: fire"
             }
         },
@@ -373,13 +373,13 @@
                 "sourceTitle": "Blackbutt Rd, Kremnos",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509678",
-                "created": "2023-08-18T03:04:00+10:00",
-                "updated": "2023-08-18T13:04:00+10:00",
+                "created": "2023-08-18T04:06:00+10:00",
+                "updated": "2023-08-18T14:06:00+10:00",
                 "location": "Blackbutt Rd, Kremnos, NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Blackbutt Rd, Kremnos, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Blackbutt Rd, Kremnos, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 14:06",
                 "title": "incident: fire"
             }
         },
@@ -1445,10 +1445,95 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.83503341300002,
-                    -31.186650424999982
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.83503341300002,
+                            -31.186650424999982
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.824619697,
+                                            -31.189265279
+                                        ],
+                                        [
+                                            152.833126271,
+                                            -31.187352382
+                                        ],
+                                        [
+                                            152.834434974,
+                                            -31.186837371
+                                        ],
+                                        [
+                                            152.837111868,
+                                            -31.186395934
+                                        ],
+                                        [
+                                            152.841454384,
+                                            -31.187352382
+                                        ],
+                                        [
+                                            152.843060521,
+                                            -31.1882352559999
+                                        ],
+                                        [
+                                            152.844428711,
+                                            -31.190810309
+                                        ],
+                                        [
+                                            152.84460717,
+                                            -31.1928703519999
+                                        ],
+                                        [
+                                            152.843714872,
+                                            -31.1947096759999
+                                        ],
+                                        [
+                                            152.841989763,
+                                            -31.195224686
+                                        ],
+                                        [
+                                            152.839015437,
+                                            -31.19559255
+                                        ],
+                                        [
+                                            152.834137541,
+                                            -31.1947096759999
+                                        ],
+                                        [
+                                            152.830806297,
+                                            -31.1941210909999
+                                        ],
+                                        [
+                                            152.826820699,
+                                            -31.1928703519999
+                                        ],
+                                        [
+                                            152.825214563,
+                                            -31.19206105
+                                        ],
+                                        [
+                                            152.824143805,
+                                            -31.1914724649999
+                                        ],
+                                        [
+                                            152.824619697,
+                                            -31.189265279
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1479,14 +1564,14 @@
                 "feedType": "incident",
                 "sourceTitle": "Chain O Ponds Rd, Collombatti",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "bushfire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509641",
-                "created": "2023-08-18T01:02:00+10:00",
-                "updated": "2023-08-18T11:02:00+10:00",
-                "location": "801 Chain O Ponds Rd, Collombatti, NSW 2440",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509640",
+                "created": "2023-08-18T01:00:00+10:00",
+                "updated": "2023-08-18T11:00:00+10:00",
+                "location": "135 Chain O Ponds Rd, Collombatti, NSW 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 801 Chain O Ponds Rd, Collombatti, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 11:02",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 135 Chain O Ponds Rd, Collombatti, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 11:00",
                 "title": "incident: fire"
             }
         },
@@ -1503,14 +1588,14 @@
                 "feedType": "incident",
                 "sourceTitle": "Chain O Ponds Rd, Collombatti",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "grass fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509640",
-                "created": "2023-08-18T01:00:00+10:00",
-                "updated": "2023-08-18T11:00:00+10:00",
-                "location": "135 Chain O Ponds Rd, Collombatti, NSW 2440",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509641",
+                "created": "2023-08-18T01:02:00+10:00",
+                "updated": "2023-08-18T11:02:00+10:00",
+                "location": "801 Chain O Ponds Rd, Collombatti, NSW 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 135 Chain O Ponds Rd, Collombatti, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 11:00",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 801 Chain O Ponds Rd, Collombatti, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 11:02",
                 "title": "incident: fire"
             }
         },
@@ -1607,30 +1692,6 @@
                 "location": "Dome Mountain, Upper Fine Flower, NSW 2460",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Dome Mountain, Upper Fine Flower, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 11:59",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.01955500000008,
-                    -30.141603999999973
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "East Bank Rd, Nana Glen",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509679",
-                "created": "2023-08-18T03:43:00+10:00",
-                "updated": "2023-08-18T13:43:00+10:00",
-                "location": "1180 East Bank Rd, Nana Glen, NSW 2450",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1180 East Bank Rd, Nana Glen, NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:43",
                 "title": "incident: fire"
             }
         },
@@ -2218,13 +2279,13 @@
                 "sourceTitle": "Lake Innes Dr, Lake Innes",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509677",
-                "created": "2023-08-18T03:00:00+10:00",
-                "updated": "2023-08-18T13:00:00+10:00",
+                "created": "2023-08-18T03:55:00+10:00",
+                "updated": "2023-08-18T13:55:00+10:00",
                 "location": "Lake Innes Dr, Lake Innes, NSW 2446",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Lake Innes Dr, Lake Innes, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:00",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Lake Innes Dr, Lake Innes, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:55",
                 "title": "incident: fire"
             }
         },
@@ -3144,6 +3205,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.6444080000001,
+                    -29.660950999999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Opal Fields, Grawin Opal Fields",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509693",
+                "created": "2023-08-18T03:58:00+10:00",
+                "updated": "2023-08-18T13:58:00+10:00",
+                "location": "Opal Fields, Grawin Opal Fields, NSW 2832",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Opal Fields, Grawin Opal Fields, NSW 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.85886599900005,
                     -30.976691999999957
                 ]
@@ -3253,8 +3338,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.8566830000001,
-                    -34.05551499999996
+                    150.85284233100003,
+                    -34.05799270799997
                 ]
             },
             "properties": {
@@ -3264,11 +3349,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509662",
-                "created": "2023-08-18T03:25:00+10:00",
-                "updated": "2023-08-18T13:25:00+10:00",
+                "created": "2023-08-18T03:53:00+10:00",
+                "updated": "2023-08-18T13:53:00+10:00",
                 "location": "Peter Meadows Rd, Kentlyn, NSW 2560",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Peter Meadows Rd, Kentlyn, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:25",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Peter Meadows Rd, Kentlyn, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:53",
                 "title": "incident: fire"
             }
         },
@@ -4005,13 +4090,13 @@
                 "sourceTitle": "Rose Valley Rd, Rose Valley",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509681",
-                "created": "2023-08-18T03:22:00+10:00",
-                "updated": "2023-08-18T13:22:00+10:00",
+                "created": "2023-08-18T03:46:00+10:00",
+                "updated": "2023-08-18T13:46:00+10:00",
                 "location": "1318 Rose Valley Rd, Rose Valley, NSW 2630",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1318 Rose Valley Rd, Rose Valley, NSW 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:22",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1318 Rose Valley Rd, Rose Valley, NSW 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:46",
                 "title": "incident: fire"
             }
         },
@@ -4389,22 +4474,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.98327800000004,
-                    -29.479006999999967
+                    152.98930168200002,
+                    -29.50910575499995
                 ]
             },
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Summerland Way, Dilkoon",
                 "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
+                "subcategory": "bushfire",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509672",
-                "created": "2023-08-18T02:48:00+10:00",
-                "updated": "2023-08-18T12:48:00+10:00",
+                "created": "2023-08-18T03:52:00+10:00",
+                "updated": "2023-08-18T13:52:00+10:00",
                 "location": "2954 Summerland Way, Dilkoon, NSW 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2954 Summerland Way, Dilkoon, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 12:48",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2954 Summerland Way, Dilkoon, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:52",
                 "title": "incident: fire"
             }
         },
@@ -4429,6 +4514,30 @@
                 "location": "Swan Lane, Clarenza, NSW 2460",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Swan Lane, Clarenza, NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 12:54",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.62740400000007,
+                    -31.333086999999978
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "The Cedars Rd, Bellangry",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509680",
+                "created": "2023-08-18T03:20:00+10:00",
+                "updated": "2023-08-18T13:20:00+10:00",
+                "location": "The Cedars Rd, Bellangry, NSW 2446",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: The Cedars Rd, Bellangry, NSW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Aug 2023 13:20",
                 "title": "incident: fire"
             }
         },
@@ -4845,6 +4954,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.80924099900005,
+                    -31.060621999999967
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Frank Archibald St, Greenhill",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509699",
+                "created": "2023-08-18T04:12:00+10:00",
+                "updated": "2023-08-18T14:12:00+10:00",
+                "location": "Frank Archibald St, Greenhill, NSW 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Frank Archibald St, Greenhill, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Aug 2023 14:12",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.48185100000012,
                     -35.07797899999997
                 ]
@@ -4902,13 +5035,13 @@
                 "sourceTitle": "Ironbark Dr, Townsend",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509689",
-                "created": "2023-08-18T03:40:00+10:00",
-                "updated": "2023-08-18T13:40:00+10:00",
+                "created": "2023-08-18T03:56:00+10:00",
+                "updated": "2023-08-18T13:56:00+10:00",
                 "location": "Ironbark Dr, Townsend, NSW 2463",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ironbark Dr, Townsend, NSW 2463 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Aug 2023 13:40",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Ironbark Dr, Townsend, NSW 2463 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Aug 2023 13:56",
                 "title": "incident: fire"
             }
         },
@@ -5174,6 +5307,30 @@
                 "location": "Rivergum Dr, Morisset, NSW 2264",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Rivergum Dr, Morisset, NSW 2264 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Aug 2023 11:16",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.81346800000006,
+                    -31.062018999999964
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Roberts St, West Kempsey",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/509692",
+                "created": "2023-08-18T04:06:00+10:00",
+                "updated": "2023-08-18T14:06:00+10:00",
+                "location": "Roberts St, West Kempsey, NSW 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Roberts St, West Kempsey, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Aug 2023 14:06",
                 "title": "incident: fire"
             }
         },
