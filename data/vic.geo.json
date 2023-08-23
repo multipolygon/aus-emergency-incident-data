@@ -1062,6 +1062,7 @@
             }
         },
         {
+            "type": "Feature",
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Old Hut Creek Rd, Nullica",
@@ -1074,12 +1075,63 @@
                 "location": "Old Hut Creek Rd, Nullica, Nsw 2551",
                 "title": "incident: fire"
             },
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.757801,
-                    -37.049298
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.7663,
+                                    -37.0447
+                                ],
+                                [
+                                    149.765,
+                                    -37.0459
+                                ],
+                                [
+                                    149.7626,
+                                    -37.0464
+                                ],
+                                [
+                                    149.7621,
+                                    -37.0451
+                                ],
+                                [
+                                    149.7631,
+                                    -37.0444
+                                ],
+                                [
+                                    149.7643,
+                                    -37.0448
+                                ],
+                                [
+                                    149.7649,
+                                    -37.0447
+                                ],
+                                [
+                                    149.7658,
+                                    -37.0435
+                                ],
+                                [
+                                    149.7674,
+                                    -37.044
+                                ],
+                                [
+                                    149.7663,
+                                    -37.0447
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.757801,
+                            -37.049298
+                        ]
+                    }
                 ]
             }
         },
