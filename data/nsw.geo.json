@@ -464,13 +464,13 @@
                 "sourceTitle": "1455 PAPPINBARRA RD, HOLLISDALE  2446",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511526",
-                "created": "2023-08-29T00:52:00+10:00",
-                "updated": "2023-08-29T10:52:00+10:00",
+                "created": "2023-08-29T03:24:00+10:00",
+                "updated": "2023-08-29T13:24:00+10:00",
                 "location": "1455 PAPPINBARRA RD, HOLLISDALE  2446",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1455 PAPPINBARRA RD, HOLLISDALE  2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 10:52",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1455 PAPPINBARRA RD, HOLLISDALE  2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 13:24",
                 "title": "incident: fire"
             }
         },
@@ -1103,10 +1103,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.74349975500002,
-                    -34.54242324799998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.74349975500002,
+                            -34.54242324799998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.741774361,
+                                            -34.543249507
+                                        ],
+                                        [
+                                            150.742190767,
+                                            -34.5433327879999
+                                        ],
+                                        [
+                                            150.742321636,
+                                            -34.5434755549999
+                                        ],
+                                        [
+                                            150.742285945,
+                                            -34.543618323
+                                        ],
+                                        [
+                                            150.742238355,
+                                            -34.54376109
+                                        ],
+                                        [
+                                            150.741905232,
+                                            -34.5436897069999
+                                        ],
+                                        [
+                                            150.741726772,
+                                            -34.543594529
+                                        ],
+                                        [
+                                            150.741679182,
+                                            -34.543463658
+                                        ],
+                                        [
+                                            150.741774361,
+                                            -34.543249507
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1114,13 +1167,13 @@
                 "sourceTitle": "27 NORTH MARSHALL MOUNT RD, MARSHALL MOUNT  2530",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511704",
-                "created": "2023-08-29T02:58:00+10:00",
-                "updated": "2023-08-29T12:58:00+10:00",
+                "created": "2023-08-29T03:22:00+10:00",
+                "updated": "2023-08-29T13:22:00+10:00",
                 "location": "27 NORTH MARSHALL MOUNT RD, MARSHALL MOUNT  2530",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 27 NORTH MARSHALL MOUNT RD, MARSHALL MOUNT  2530 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 12:58",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 27 NORTH MARSHALL MOUNT RD, MARSHALL MOUNT  2530 <br />COUNCIL AREA: Wollongong <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 13:22",
                 "title": "incident: fire"
             }
         },
@@ -1138,13 +1191,13 @@
                 "sourceTitle": "330 MARTELLS RD, BRIERFIELD  2454",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511705",
-                "created": "2023-08-29T03:01:00+10:00",
-                "updated": "2023-08-29T13:01:00+10:00",
+                "created": "2023-08-29T03:31:00+10:00",
+                "updated": "2023-08-29T13:31:00+10:00",
                 "location": "330 MARTELLS RD, BRIERFIELD  2454",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 330 MARTELLS RD, BRIERFIELD  2454 <br />COUNCIL AREA: Bellingen <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 13:01",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 330 MARTELLS RD, BRIERFIELD  2454 <br />COUNCIL AREA: Bellingen <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 13:31",
                 "title": "incident: fire"
             }
         },
@@ -2061,6 +2114,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.64176940900006,
+                    -32.952713012999936
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "627 PUTTY VALLEY RD, PUTTY  2330",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511712",
+                "created": "2023-08-29T03:25:00+10:00",
+                "updated": "2023-08-29T13:25:00+10:00",
+                "location": "627 PUTTY VALLEY RD, PUTTY  2330",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 627 PUTTY VALLEY RD, PUTTY  2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 13:25",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2513,6 +2590,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.680105492,
+                    -30.9055524205
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "88 OLD COAST RD, KUNDABUNG  2441",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511693",
+                "created": "2023-08-29T01:44:00+10:00",
+                "updated": "2023-08-29T11:44:00+10:00",
+                "location": "88 OLD COAST RD, KUNDABUNG  2441",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 88 OLD COAST RD, KUNDABUNG  2441 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 11:44",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2632,30 +2733,6 @@
                 "location": "88 OLD COAST RD, KUNDABUNG  2441",
                 "size": 2,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 88 OLD COAST RD, KUNDABUNG  2441 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 10:25",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.680105492,
-                    -30.9055524205
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "88 OLD COAST RD, KUNDABUNG  2441",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511693",
-                "created": "2023-08-29T01:44:00+10:00",
-                "updated": "2023-08-29T11:44:00+10:00",
-                "location": "88 OLD COAST RD, KUNDABUNG  2441",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 88 OLD COAST RD, KUNDABUNG  2441 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 11:44",
                 "title": "incident: fire"
             }
         },
@@ -7818,6 +7895,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.19149780300006,
+                    -33.46086502099996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MORGANS RD, MOUNT WHITE  2250",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511710",
+                "created": "2023-08-29T03:21:00+10:00",
+                "updated": "2023-08-29T13:21:00+10:00",
+                "location": "MORGANS RD, MOUNT WHITE  2250",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: MORGANS RD, MOUNT WHITE  2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 13:21",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.24484252900004,
                     -31.359720229999937
                 ]
@@ -9880,30 +9981,6 @@
                 "location": "40 GEORGE BOOTH DR, SEAHAMPTON NSW 2286",
                 "size": 41,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 40 GEORGE BOOTH DR, SEAHAMPTON NSW 2286 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 41 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 29 Aug 2023 09:47",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.7574768060001,
-                    -33.70515060399998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "SIXTH AV, LLANDILO  2747",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511709",
-                "created": "2023-08-29T03:09:00+10:00",
-                "updated": "2023-08-29T13:09:00+10:00",
-                "location": "SIXTH AV, LLANDILO  2747",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: SIXTH AV, LLANDILO  2747 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 13:09",
                 "title": "incident: fire"
             }
         },
@@ -14519,6 +14596,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.76335144000006,
+                    -33.70692062399996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "206 SIXTH AV, LLANDILO  2747",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511709",
+                "created": "2023-08-29T03:32:00+10:00",
+                "updated": "2023-08-29T13:32:00+10:00",
+                "location": "206 SIXTH AV, LLANDILO  2747",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 206 SIXTH AV, LLANDILO  2747 <br />COUNCIL AREA: Penrith <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 13:32",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     146.08959960900006,
                     -34.26160430899995
                 ]
@@ -15039,30 +15140,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.22257995600012,
-                    -31.273983000999976
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "HOMELEIGH DR, COONABARABRAN  2357",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511215",
-                "created": "2023-08-28T09:32:00+10:00",
-                "updated": "2023-08-28T19:32:00+10:00",
-                "location": "HOMELEIGH DR, COONABARABRAN  2357",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: HOMELEIGH DR, COONABARABRAN  2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Aug 2023 19:32",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     147.38932800300006,
                     -31.004121779999934
                 ]
@@ -15152,6 +15229,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 376 SCHOOL LANE, SOUTHGATE NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 12:53",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.60751342800006,
+                    -34.25144195599995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ROCKFORD RD, BARGO  2574",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511711",
+                "created": "2023-08-29T03:22:00+10:00",
+                "updated": "2023-08-29T13:22:00+10:00",
+                "location": "ROCKFORD RD, BARGO  2574",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ROCKFORD RD, BARGO  2574 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 13:22",
+                "title": "incident: other"
             }
         },
         {
