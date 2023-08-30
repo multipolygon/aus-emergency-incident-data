@@ -299,30 +299,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.94845581100003,
-                    -32.20843124399994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "133 BURTONS RD, WARDS RIVER  2422",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511866",
-                "created": "2023-08-30T01:33:00+10:00",
-                "updated": "2023-08-30T11:33:00+10:00",
-                "location": "133 BURTONS RD, WARDS RIVER  2422",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 133 BURTONS RD, WARDS RIVER  2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 11:33",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.7358398440001,
                     -30.518941879999943
                 ]
@@ -516,13 +492,13 @@
                 "sourceTitle": "1596 NOWENDOC RD, MOUNT GEORGE  2424",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511888",
-                "created": "2023-08-30T02:26:00+10:00",
-                "updated": "2023-08-30T12:26:00+10:00",
+                "created": "2023-08-30T04:01:00+10:00",
+                "updated": "2023-08-30T14:01:00+10:00",
                 "location": "1596 NOWENDOC RD, MOUNT GEORGE  2424",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1596 NOWENDOC RD, MOUNT GEORGE  2424 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 12:26",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1596 NOWENDOC RD, MOUNT GEORGE  2424 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 14:01",
                 "title": "incident: fire"
             }
         },
@@ -1095,10 +1071,119 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.70660400300005,
-                    -34.73542022699996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.70645276200003,
+                            -34.73495039499994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.706583632,
+                                            -34.7345934759999
+                                        ],
+                                        [
+                                            150.707071421,
+                                            -34.734771935
+                                        ],
+                                        [
+                                            150.70703573,
+                                            -34.734902806
+                                        ],
+                                        [
+                                            150.706964345,
+                                            -34.7350098819999
+                                        ],
+                                        [
+                                            150.70685727,
+                                            -34.7350336769999
+                                        ],
+                                        [
+                                            150.706762091,
+                                            -34.735045573
+                                        ],
+                                        [
+                                            150.706583632,
+                                            -34.735045573
+                                        ],
+                                        [
+                                            150.706547941,
+                                            -34.7351169579999
+                                        ],
+                                        [
+                                            150.706536043,
+                                            -34.735224033
+                                        ],
+                                        [
+                                            150.706500351,
+                                            -34.7353668
+                                        ],
+                                        [
+                                            150.706524146,
+                                            -34.735485774
+                                        ],
+                                        [
+                                            150.70641707,
+                                            -34.7354262879999
+                                        ],
+                                        [
+                                            150.706179123,
+                                            -34.7352359299999
+                                        ],
+                                        [
+                                            150.706083945,
+                                            -34.735164546
+                                        ],
+                                        [
+                                            150.706024459,
+                                            -34.734855216
+                                        ],
+                                        [
+                                            150.706024459,
+                                            -34.734807627
+                                        ],
+                                        [
+                                            150.706167226,
+                                            -34.734807627
+                                        ],
+                                        [
+                                            150.706309994,
+                                            -34.7347600379999
+                                        ],
+                                        [
+                                            150.706500351,
+                                            -34.7346767569999
+                                        ],
+                                        [
+                                            150.706524146,
+                                            -34.734605373
+                                        ],
+                                        [
+                                            150.706547941,
+                                            -34.734581578
+                                        ],
+                                        [
+                                            150.706557458,
+                                            -34.734588717
+                                        ],
+                                        [
+                                            150.706583632,
+                                            -34.7345934759999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1106,13 +1191,13 @@
                 "sourceTitle": "21 BRYAN CL, BROUGHTON VALE  2535",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511898",
-                "created": "2023-08-30T03:11:00+10:00",
-                "updated": "2023-08-30T13:11:00+10:00",
+                "created": "2023-08-30T03:52:00+10:00",
+                "updated": "2023-08-30T13:52:00+10:00",
                 "location": "21 BRYAN CL, BROUGHTON VALE  2535",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 21 BRYAN CL, BROUGHTON VALE  2535 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 13:11",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 21 BRYAN CL, BROUGHTON VALE  2535 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 13:52",
                 "title": "incident: fire"
             }
         },
@@ -1130,13 +1215,13 @@
                 "sourceTitle": "224 INNES LANE, MOTO  2426",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511879",
-                "created": "2023-08-30T02:10:00+10:00",
-                "updated": "2023-08-30T12:10:00+10:00",
+                "created": "2023-08-30T03:56:00+10:00",
+                "updated": "2023-08-30T13:56:00+10:00",
                 "location": "224 INNES LANE, MOTO  2426",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 224 INNES LANE, MOTO  2426 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 12:10",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 224 INNES LANE, MOTO  2426 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 13:56",
                 "title": "incident: fire"
             }
         },
@@ -2934,13 +3019,13 @@
                 "sourceTitle": "ALBANY FARM 319 KINDEE RD, KINDEE  2446",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511885",
-                "created": "2023-08-30T02:21:00+10:00",
-                "updated": "2023-08-30T12:21:00+10:00",
+                "created": "2023-08-30T03:59:00+10:00",
+                "updated": "2023-08-30T13:59:00+10:00",
                 "location": "ALBANY FARM 319 KINDEE RD, KINDEE  2446",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: ALBANY FARM 319 KINDEE RD, KINDEE  2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 12:21",
+                "size": 5,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: ALBANY FARM 319 KINDEE RD, KINDEE  2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 13:59",
                 "title": "incident: fire"
             }
         },
@@ -4255,30 +4340,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.80825700000003,
-                    -33.63334099999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Berger Rd, South Windsor",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511877",
-                "created": "2023-08-30T02:27:00+10:00",
-                "updated": "2023-08-30T12:27:00+10:00",
-                "location": "35 Berger Rd, South Windsor, NSW 2756",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 35 Berger Rd, South Windsor, NSW 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Aug 2023 12:27",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -5028,6 +5089,30 @@
                 "location": "DISCOVERY RD, CLOUDS CREEK  2453",
                 "size": 245,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: DISCOVERY RD, CLOUDS CREEK  2453 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 245 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 11:19",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.60709400000007,
+                    -34.88539499999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elizabeth Av, Nowra",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511909",
+                "created": "2023-08-30T04:12:00+10:00",
+                "updated": "2023-08-30T14:12:00+10:00",
+                "location": "Elizabeth Av, Nowra, NSW 2541",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Elizabeth Av, Nowra, NSW 2541 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Aug 2023 14:12",
                 "title": "incident: fire"
             }
         },
@@ -6040,6 +6125,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.613828,
+                    -32.25496499999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hopetoun St, Dubbo",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511913",
+                "created": "2023-08-30T04:07:00+10:00",
+                "updated": "2023-08-30T14:07:00+10:00",
+                "location": "Hopetoun St, Dubbo, NSW 2830",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Hopetoun St, Dubbo, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 30 Aug 2023 14:07",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -6851,11 +6960,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511722",
-                "created": "2023-08-29T23:04:00+10:00",
-                "updated": "2023-08-30T09:04:00+10:00",
+                "created": "2023-08-30T04:07:00+10:00",
+                "updated": "2023-08-30T14:07:00+10:00",
                 "location": "525 TRAPYARD RD, WANG WAUK NSW 2423",
                 "size": 30,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 525 TRAPYARD RD, WANG WAUK NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 30 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Aug 2023 09:04",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 525 TRAPYARD RD, WANG WAUK NSW 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 30 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 30 Aug 2023 14:07",
                 "title": "incident: fire"
             }
         },
@@ -9512,11 +9621,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511712",
-                "created": "2023-08-30T00:11:00+10:00",
-                "updated": "2023-08-30T10:11:00+10:00",
+                "created": "2023-08-30T04:03:00+10:00",
+                "updated": "2023-08-30T14:03:00+10:00",
                 "location": "627 PUTTY VALLEY RD, PUTTY  2330",
                 "size": 8,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 627 PUTTY VALLEY RD, PUTTY  2330 <br />COUNCIL AREA: Singleton <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 10:11",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 627 PUTTY VALLEY RD, PUTTY  2330 <br />COUNCIL AREA: Singleton <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 14:03",
                 "title": "incident: fire"
             }
         },
@@ -9565,30 +9674,6 @@
                 "location": "110 OSLAND RD, FREEMANS WATERHOLE NSW 2323",
                 "size": 3,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 110 OSLAND RD, FREEMANS WATERHOLE NSW 2323 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 11:13",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.89976501400008,
-                    -32.153923034999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ROUCHEL RD, ABERDEEN  2336",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511887",
-                "created": "2023-08-30T02:23:00+10:00",
-                "updated": "2023-08-30T12:23:00+10:00",
-                "location": "ROUCHEL RD, ABERDEEN  2336",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: ROUCHEL RD, ABERDEEN  2336 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 12:23",
                 "title": "incident: fire"
             }
         },
@@ -9677,14 +9762,14 @@
                 "feedType": "incident",
                 "sourceTitle": "SIMMONS FLAT RD, CORINDI BEACH  2456",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511894",
-                "created": "2023-08-30T02:43:00+10:00",
-                "updated": "2023-08-30T12:43:00+10:00",
+                "created": "2023-08-30T04:00:00+10:00",
+                "updated": "2023-08-30T14:00:00+10:00",
                 "location": "SIMMONS FLAT RD, CORINDI BEACH  2456",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: SIMMONS FLAT RD, CORINDI BEACH  2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 12:43",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: SIMMONS FLAT RD, CORINDI BEACH  2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 14:00",
                 "title": "incident: fire"
             }
         },
@@ -9865,11 +9950,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511724",
-                "created": "2023-08-30T00:06:00+10:00",
-                "updated": "2023-08-30T10:06:00+10:00",
+                "created": "2023-08-30T03:56:00+10:00",
+                "updated": "2023-08-30T13:56:00+10:00",
                 "location": "MITCHELL LINE OF ROAD, MOUNT THORLEY  2330",
                 "size": 106,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: MITCHELL LINE OF ROAD, MOUNT THORLEY  2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 106 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 10:06",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: MITCHELL LINE OF ROAD, MOUNT THORLEY  2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 106 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 13:56",
                 "title": "incident: fire"
             }
         },
@@ -13576,11 +13661,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511374",
-                "created": "2023-08-30T00:07:00+10:00",
-                "updated": "2023-08-30T10:07:00+10:00",
+                "created": "2023-08-30T04:01:00+10:00",
+                "updated": "2023-08-30T14:01:00+10:00",
                 "location": "399 WOLLOMBI RD, BROKE  2330",
                 "size": 8,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 399 WOLLOMBI RD, BROKE  2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 10:07",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 399 WOLLOMBI RD, BROKE  2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 14:01",
                 "title": "incident: fire"
             }
         },
@@ -13696,11 +13781,35 @@
                 "subcategory": "burn off",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511734",
-                "created": "2023-08-30T00:00:00+10:00",
-                "updated": "2023-08-30T10:00:00+10:00",
+                "created": "2023-08-30T04:02:00+10:00",
+                "updated": "2023-08-30T14:02:00+10:00",
                 "location": "13 LESTER CL, WATTLE PONDS  2330",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 LESTER CL, WATTLE PONDS  2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 10:00",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 13 LESTER CL, WATTLE PONDS  2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 14:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.7740783690001,
+                    -33.87621688799993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "1605 ELIZABETH DR, KEMPS CREEK  2178",
+                "category": "fire",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511910",
+                "created": "2023-08-30T04:01:00+10:00",
+                "updated": "2023-08-30T14:01:00+10:00",
+                "location": "1605 ELIZABETH DR, KEMPS CREEK  2178",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1605 ELIZABETH DR, KEMPS CREEK  2178 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 14:01",
                 "title": "incident: fire"
             }
         },
@@ -13925,6 +14034,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.03030395500002,
+                    -30.38474845899998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "492B PINE CREEK WAY, BONVILLE  2450",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511908",
+                "created": "2023-08-30T04:04:00+10:00",
+                "updated": "2023-08-30T14:04:00+10:00",
+                "location": "492B PINE CREEK WAY, BONVILLE  2450",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 492B PINE CREEK WAY, BONVILLE  2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 14:04",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.0445861810001,
                     -36.08150482199994
                 ]
@@ -13965,30 +14098,6 @@
                 "location": "65 SHAWNS CREEK RD, COONABARABRAN  2357",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 65 SHAWNS CREEK RD, COONABARABRAN  2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 17:21",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.45919799800004,
-                    -31.936792372999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "7086 THE BUCKETTS WAY, TAREE SOUTH  2430",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511902",
-                "created": "2023-08-30T03:26:00+10:00",
-                "updated": "2023-08-30T13:26:00+10:00",
-                "location": "7086 THE BUCKETTS WAY, TAREE SOUTH  2430",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 7086 THE BUCKETTS WAY, TAREE SOUTH  2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 13:26",
                 "title": "incident: fire"
             }
         },
@@ -14480,11 +14589,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511551",
-                "created": "2023-08-30T00:16:00+10:00",
-                "updated": "2023-08-30T10:16:00+10:00",
+                "created": "2023-08-30T03:52:00+10:00",
+                "updated": "2023-08-30T13:52:00+10:00",
                 "location": "OPP THUNDERBOLT PARK CURRICABARK RD, CONEAC  2422",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OPP THUNDERBOLT PARK CURRICABARK RD, CONEAC  2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 10:16",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OPP THUNDERBOLT PARK CURRICABARK RD, CONEAC  2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 13:52",
                 "title": "incident: fire"
             }
         },
@@ -14509,30 +14618,6 @@
                 "location": "TAMBA 8688 BLACK STUMP WAY, TAMBAR SPRINGS NSW 2381",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: TAMBA 8688 BLACK STUMP WAY, TAMBAR SPRINGS NSW 2381 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Aug 2023 18:34",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.91441345300007,
-                    -31.793920516999947
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "THUNDERBOLTS WAY, BRETTI  2422",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/511893",
-                "created": "2023-08-30T02:42:00+10:00",
-                "updated": "2023-08-30T12:42:00+10:00",
-                "location": "THUNDERBOLTS WAY, BRETTI  2422",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: THUNDERBOLTS WAY, BRETTI  2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2023 12:42",
                 "title": "incident: fire"
             }
         },
