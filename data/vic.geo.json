@@ -95,34 +95,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Alfredton",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2023-08-31T05:36:28+10:00",
-                "updated": "2023-08-31T12:58:00+10:00",
-                "id": "ESTA:230824824",
-                "location": "Goldwood Dr, Alfredton",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.80901099244284,
-                    -37.54850708082752
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Bendigo",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "safe",
                 "created": "2023-08-31T12:52:08+10:00",
-                "updated": "2023-08-31T12:59:24+10:00",
+                "updated": "2023-08-31T13:18:07+10:00",
                 "id": "ESTA:230825094",
                 "location": "Don St, Bendigo",
                 "title": "incident: hazardous material"
@@ -139,14 +117,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Disney St",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2023-08-31T12:25:00+10:00",
-                "updated": "2023-08-31T12:38:00+10:00",
-                "id": "ESTA:230825082",
-                "location": "Disney St, Crib Point",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2023-08-31T13:20:00+10:00",
+                "updated": "2023-08-31T13:20:00+10:00",
+                "id": "ESTA:230825113",
+                "location": "Rushworth",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -154,8 +132,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1914496001715,
-                    -38.35338600104919
+                    144.9604915727021,
+                    -36.584209751135496
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thomastown",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2023-08-31T13:18:29+10:00",
+                "updated": "2023-08-31T13:20:06+10:00",
+                "id": "ESTA:230825114",
+                "location": "High St, Thomastown",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.01428404370645,
+                    -37.68033502564463
                 ]
             }
         },
@@ -1450,6 +1450,28 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "173 Spring Hill Rd, East Jindabyne  2627",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2023-08-30T11:25:00+10:00",
+                "updated": "2023-08-30T11:25:00+10:00",
+                "id": "2023-08-30T11:25:00.0000000:511717",
+                "location": "173 Spring Hill Rd, East Jindabyne  2627",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.658462524,
+                    -36.374313355
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -1560,28 +1582,6 @@
                             -37.049297333
                         ]
                     }
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "173 Spring Hill Rd, East Jindabyne  2627",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2023-08-30T11:25:00+10:00",
-                "updated": "2023-08-30T11:25:00+10:00",
-                "id": "2023-08-30T11:25:00.0000000:511717",
-                "location": "173 Spring Hill Rd, East Jindabyne  2627",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.658462524,
-                    -36.374313355
                 ]
             }
         },
@@ -1848,23 +1848,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murray Valley Hwy",
-                "category": "fire",
-                "subcategory": "building fire",
+                "sourceTitle": "Disney St",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2023-08-31T11:59:00+10:00",
-                "updated": "2023-08-31T12:17:00+10:00",
-                "id": "ESTA:230825059",
-                "location": "Murray Valley Hwy, Yarrawonga",
+                "created": "2023-08-31T12:25:00+10:00",
+                "updated": "2023-08-31T12:38:00+10:00",
+                "id": "ESTA:230825082",
+                "location": "Disney St, Crib Point",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.01823622393124,
-                    -36.01287346099087
+                    145.1914496001715,
+                    -38.35338600104919
                 ]
             }
         },
@@ -1894,29 +1894,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2023-08-31T12:47:00+10:00",
-                "updated": "2023-08-31T13:01:00+10:00",
-                "id": "ESTA:230825091",
-                "location": "Bairnsdale",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.63444678757133,
-                    -37.82516873664753
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Kalimna Av",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -1934,6 +1911,29 @@
                 "coordinates": [
                     145.1496552836881,
                     -37.926640156156914
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-08-31T12:47:00+10:00",
+                "updated": "2023-08-31T13:15:00+10:00",
+                "id": "ESTA:230825091",
+                "location": "Bairnsdale",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.63444678757133,
+                    -37.82516873664753
                 ]
             }
         },
@@ -1965,9 +1965,9 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2023-08-31T12:47:00+10:00",
-                "updated": "2023-08-31T13:06:00+10:00",
+                "updated": "2023-08-31T13:12:00+10:00",
                 "id": "ESTA:230851230",
                 "location": "Bairnsdale",
                 "title": "incident: building damage"
