@@ -98,9 +98,9 @@
                 "sourceTitle": "Disney St",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "responding",
+                "status": "safe",
                 "created": "2023-08-31T12:25:00+10:00",
-                "updated": "2023-08-31T12:25:00+10:00",
+                "updated": "2023-08-31T12:38:00+10:00",
                 "id": "ESTA:230825082",
                 "location": "Disney St, Crib Point",
                 "size": "Small",
@@ -121,9 +121,9 @@
                 "sourceTitle": "Palmer St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
-                "status": "under control",
+                "status": "safe",
                 "created": "2023-08-31T12:14:00+10:00",
-                "updated": "2023-08-31T12:28:00+10:00",
+                "updated": "2023-08-31T12:40:00+10:00",
                 "id": "ESTA:230825074",
                 "location": "Palmer St, Romsey",
                 "size": "Small",
@@ -141,23 +141,45 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murray Valley Hwy",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2023-08-31T11:59:00+10:00",
-                "updated": "2023-08-31T12:17:00+10:00",
-                "id": "ESTA:230825059",
-                "location": "Murray Valley Hwy, Yarrawonga",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-08-31T12:47:00+10:00",
+                "updated": "2023-08-31T12:47:00+10:00",
+                "id": "ESTA:230825091",
+                "location": "Bairnsdale",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.01823622393124,
-                    -36.01287346099087
+                    147.63444678757133,
+                    -37.82516873664753
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2023-08-31T12:47:00+10:00",
+                "updated": "2023-08-31T12:48:00+10:00",
+                "id": "ESTA:230851230",
+                "location": "Bairnsdale",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.63444678757133,
+                    -37.82516873664753
                 ]
             }
         },
@@ -1850,29 +1872,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hearthstone Cct",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-08-31T11:29:00+10:00",
-                "updated": "2023-08-31T11:48:00+10:00",
-                "id": "ESTA:230825040",
-                "location": "Hearthstone Cct, Clyde North",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.35037189777543,
-                    -38.102466355873375
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -1890,6 +1889,29 @@
                 "coordinates": [
                     145.5760029562732,
                     -38.26027051676502
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murray Valley Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2023-08-31T11:59:00+10:00",
+                "updated": "2023-08-31T12:17:00+10:00",
+                "id": "ESTA:230825059",
+                "location": "Murray Valley Hwy, Yarrawonga",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.01823622393124,
+                    -36.01287346099087
                 ]
             }
         },
