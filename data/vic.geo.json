@@ -95,6 +95,50 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Alfredton",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2023-08-31T05:36:28+10:00",
+                "updated": "2023-08-31T12:58:00+10:00",
+                "id": "ESTA:230824824",
+                "location": "Goldwood Dr, Alfredton",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.80901099244284,
+                    -37.54850708082752
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bendigo",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2023-08-31T12:52:08+10:00",
+                "updated": "2023-08-31T12:59:24+10:00",
+                "id": "ESTA:230825094",
+                "location": "Don St, Bendigo",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.26802683846054,
+                    -36.75871022100534
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Disney St",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -112,74 +156,6 @@
                 "coordinates": [
                     145.1914496001715,
                     -38.35338600104919
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Palmer St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2023-08-31T12:14:00+10:00",
-                "updated": "2023-08-31T12:40:00+10:00",
-                "id": "ESTA:230825074",
-                "location": "Palmer St, Romsey",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7473189213572,
-                    -37.34507511158005
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2023-08-31T12:47:00+10:00",
-                "updated": "2023-08-31T12:47:00+10:00",
-                "id": "ESTA:230825091",
-                "location": "Bairnsdale",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.63444678757133,
-                    -37.82516873664753
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2023-08-31T12:47:00+10:00",
-                "updated": "2023-08-31T12:48:00+10:00",
-                "id": "ESTA:230851230",
-                "location": "Bairnsdale",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.63444678757133,
-                    -37.82516873664753
                 ]
             }
         },
@@ -1826,29 +1802,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kalimna Av",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2023-08-30T20:55:00+10:00",
-                "updated": "2023-08-30T21:53:00+10:00",
-                "id": "ESTA:230824752",
-                "location": "Kalimna Av, Mulgrave",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1496552836881,
-                    -37.926640156156914
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Hunter Av",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -1918,6 +1871,75 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Palmer St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2023-08-31T12:14:00+10:00",
+                "updated": "2023-08-31T12:40:00+10:00",
+                "id": "ESTA:230825074",
+                "location": "Palmer St, Romsey",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7473189213572,
+                    -37.34507511158005
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2023-08-31T12:47:00+10:00",
+                "updated": "2023-08-31T13:01:00+10:00",
+                "id": "ESTA:230825091",
+                "location": "Bairnsdale",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.63444678757133,
+                    -37.82516873664753
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kalimna Av",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2023-08-30T20:55:00+10:00",
+                "updated": "2023-08-31T13:09:00+10:00",
+                "id": "ESTA:230824752",
+                "location": "Kalimna Av, Mulgrave",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1496552836881,
+                    -37.926640156156914
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
@@ -1934,6 +1956,28 @@
                 "coordinates": [
                     146.56750951415336,
                     -36.16518705362424
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2023-08-31T12:47:00+10:00",
+                "updated": "2023-08-31T13:06:00+10:00",
+                "id": "ESTA:230851230",
+                "location": "Bairnsdale",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.63444678757133,
+                    -37.82516873664753
                 ]
             }
         }
