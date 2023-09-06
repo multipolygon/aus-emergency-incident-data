@@ -2,6 +2,76 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.2119143920611,
+                            -37.873839452928706
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.2158840614012,
+                                    -37.8687580875795
+                                ],
+                                [
+                                    145.21691402966823,
+                                    -37.86919850266464
+                                ],
+                                [
+                                    145.21764359051542,
+                                    -37.873839640052395
+                                ],
+                                [
+                                    145.21571240002487,
+                                    -37.87909020939687
+                                ],
+                                [
+                                    145.20970425183515,
+                                    -37.87898858902584
+                                ],
+                                [
+                                    145.20618519360676,
+                                    -37.87682065437771
+                                ],
+                                [
+                                    145.20867428356814,
+                                    -37.871773184330515
+                                ],
+                                [
+                                    145.21429619366336,
+                                    -37.86858869646055
+                                ],
+                                [
+                                    145.2158840614012,
+                                    -37.8687580875795
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2023-09-06T20:07:00+10:00",
+                "updated": "2023-09-06T20:07:01+10:00",
+                "id": "29975",
+                "location": "Wantirna South",
+                "title": "warning: community update"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Newmerella - Newmerella Recreation Reserve 2",
@@ -165,12 +235,57 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Delbridge Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-09-06T19:59:00+10:00",
+                "updated": "2023-09-06T19:59:00+10:00",
+                "id": "ESTA:230905627",
+                "location": "Delbridge Dr, Mernda",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.08876777253863,
+                    -37.593574391301374
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2023-09-06T19:12:00+10:00",
+                "updated": "2023-09-06T20:04:00+10:00",
+                "id": "ESTA:230950227",
+                "location": "East Bairnsdale",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.66010119612002,
+                    -37.83506824632624
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Wakley Cr",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2023-09-06T19:30:00+10:00",
-                "updated": "2023-09-06T19:30:00+10:00",
+                "updated": "2023-09-06T20:10:00+10:00",
                 "id": "ESTA:230905623",
                 "location": "Wakley Cr, Wantirna South",
                 "size": "Small",
@@ -182,29 +297,6 @@
                 "coordinates": [
                     145.21554073865326,
                     -37.869638915117974
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Byrne St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2023-09-06T19:41:00+10:00",
-                "updated": "2023-09-06T19:41:00+10:00",
-                "id": "ESTA:230905624",
-                "location": "Byrne St, Moyhu",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.37893201268915,
-                    -36.57714657083188
                 ]
             }
         },
@@ -6229,52 +6321,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Marshall St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-09-06T18:53:00+10:00",
-                "updated": "2023-09-06T18:55:00+10:00",
-                "id": "ESTA:230905611",
-                "location": "Marshall St, Heyfield",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.77441455310424,
-                    -37.984425496251426
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gray St",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2023-09-06T18:46:00+10:00",
-                "updated": "2023-09-06T18:59:00+10:00",
-                "id": "ESTA:230905606",
-                "location": "Gray St, Hamilton",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.02528038762478,
-                    -37.74245276274982
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Lancers Dr",
                 "category": "fire",
                 "subcategory": "other",
@@ -6321,22 +6367,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2023-09-06T19:12:00+10:00",
-                "updated": "2023-09-06T19:16:00+10:00",
-                "id": "ESTA:230950227",
-                "location": "East Bairnsdale",
-                "title": "incident: tree down"
+                "sourceTitle": "Byrne St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2023-09-06T19:41:00+10:00",
+                "updated": "2023-09-06T19:50:00+10:00",
+                "id": "ESTA:230905624",
+                "location": "Byrne St, Moyhu",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.66010119612002,
-                    -37.83506824632624
+                    146.37893201268915,
+                    -36.57714657083188
                 ]
             }
         },
