@@ -165,73 +165,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Barkly St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2023-09-06T14:21:00+10:00",
-                "updated": "2023-09-06T14:21:00+10:00",
-                "id": "ESTA:230905450",
-                "location": "Barkly St, Golden Point (Ballarat)",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.86412656942124,
-                    -37.56825997998636
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2023-09-06T14:21:00+10:00",
-                "updated": "2023-09-06T14:24:00+10:00",
-                "id": "ESTA:230950216",
-                "location": "Golden Point (Ballarat)",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.86412656942124,
-                    -37.56825997998636
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Melbourne",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2023-09-06T14:24:47+10:00",
-                "updated": "2023-09-06T14:25:39+10:00",
-                "id": "ESTA:230905456",
-                "location": "Collins St, Melbourne",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9584034837417,
-                    -37.81807376216375
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Hardys Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -260,7 +193,7 @@
                 "subcategory": "other",
                 "status": "responding",
                 "created": "2023-09-06T14:26:03+10:00",
-                "updated": "2023-09-06T14:26:13+10:00",
+                "updated": "2023-09-06T14:28:03+10:00",
                 "id": "ESTA:230905458",
                 "location": "Birdwood St, Balwyn",
                 "title": "incident: other"
@@ -277,12 +210,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2023-09-06T14:21:00+10:00",
+                "updated": "2023-09-06T14:31:00+10:00",
+                "id": "ESTA:230950216",
+                "location": "Golden Point (Ballarat)",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.86412656942124,
+                    -37.56825997998636
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Cheltenham",
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "safe",
                 "created": "2023-09-06T14:24:41+10:00",
-                "updated": "2023-09-06T14:27:05+10:00",
+                "updated": "2023-09-06T14:31:31+10:00",
                 "id": "ESTA:230905455",
                 "location": "Cheltenham",
                 "title": "incident: fire"
@@ -293,6 +248,94 @@
                 "coordinates": [
                     145.05768813359157,
                     -37.96724445234174
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hawkesdale",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2023-09-06T11:55:51+10:00",
+                "updated": "2023-09-06T14:32:48+10:00",
+                "id": "ESTA:230905368",
+                "location": "Hawkesdale",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.33021722239857,
+                    -38.14861394323925
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Melbourne",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2023-09-06T14:24:47+10:00",
+                "updated": "2023-09-06T14:33:38+10:00",
+                "id": "ESTA:230905456",
+                "location": "Collins St, Melbourne",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9584034837417,
+                    -37.81807376216375
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2023-09-06T12:45:00+10:00",
+                "updated": "2023-09-06T14:34:00+10:00",
+                "id": "ESTA:230950210",
+                "location": "Langwarrin",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2098414881509,
+                    -38.167996128709284
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Croydon",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2023-09-06T14:27:12+10:00",
+                "updated": "2023-09-06T14:34:36+10:00",
+                "id": "ESTA:230905459",
+                "location": "Croydon",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.28598457949124,
+                    -37.81044808921044
                 ]
             }
         },
@@ -6918,52 +6961,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bakers Bridge Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-09-06T13:11:00+10:00",
-                "updated": "2023-09-06T13:31:00+10:00",
-                "id": "ESTA:230905407",
-                "location": "Bakers Bridge Rd, Sutherlands Creek",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.2538922098961,
-                    -38.04588904485684
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-09-06T11:57:00+10:00",
-                "updated": "2023-09-06T13:36:00+10:00",
-                "id": "ESTA:230905368",
-                "location": "Hawkesdale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.3302066105745,
-                    -38.148622132172406
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Avalon Dr",
                 "category": "fire",
                 "subcategory": "other",
@@ -7056,66 +7053,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2023-09-06T10:43:00+10:00",
-                "updated": "2023-09-06T10:51:00+10:00",
-                "id": "ESTA:230950204",
-                "location": "Glen Iris",
-                "title": "incident: tree down"
+                "sourceTitle": "Barkly St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-09-06T14:21:00+10:00",
+                "updated": "2023-09-06T14:33:00+10:00",
+                "id": "ESTA:230905450",
+                "location": "Barkly St, Golden Point (Ballarat)",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.06918430405005,
-                    -37.8614082238648
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2023-09-06T12:45:00+10:00",
-                "updated": "2023-09-06T13:12:00+10:00",
-                "id": "ESTA:230950210",
-                "location": "Langwarrin",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2098414881509,
-                    -38.167996128709284
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2023-09-06T13:45:00+10:00",
-                "updated": "2023-09-06T14:18:00+10:00",
-                "id": "ESTA:230950212",
-                "location": "Healesville",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.52170762964138,
-                    -37.66271946147202
+                    143.86412656942124,
+                    -37.56825997998636
                 ]
             }
         },
@@ -7138,6 +7092,28 @@
                 "coordinates": [
                     145.15327404018262,
                     -37.84969024535885
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-09-06T10:43:00+10:00",
+                "updated": "2023-09-06T10:51:00+10:00",
+                "id": "ESTA:230950204",
+                "location": "Glen Iris",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06918430405005,
+                    -37.8614082238648
                 ]
             }
         }
