@@ -134,6 +134,41 @@
                                 "coordinates": [
                                     [
                                         [
+                                            152.690891718,
+                                            -31.4960166
+                                        ],
+                                        [
+                                            152.693889839,
+                                            -31.496492492
+                                        ],
+                                        [
+                                            152.694199169,
+                                            -31.497063563
+                                        ],
+                                        [
+                                            152.691819708,
+                                            -31.497015974
+                                        ],
+                                        [
+                                            152.691129664,
+                                            -31.4969445909999
+                                        ],
+                                        [
+                                            152.690725156,
+                                            -31.496682849
+                                        ],
+                                        [
+                                            152.690891718,
+                                            -31.4960166
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             152.694746445,
                                             -31.494803076
                                         ],
@@ -172,41 +207,6 @@
                                         [
                                             152.694746445,
                                             -31.494803076
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.690891718,
-                                            -31.4960166
-                                        ],
-                                        [
-                                            152.693889839,
-                                            -31.496492492
-                                        ],
-                                        [
-                                            152.694199169,
-                                            -31.497063563
-                                        ],
-                                        [
-                                            152.691819708,
-                                            -31.497015974
-                                        ],
-                                        [
-                                            152.691129664,
-                                            -31.4969445909999
-                                        ],
-                                        [
-                                            152.690725156,
-                                            -31.496682849
-                                        ],
-                                        [
-                                            152.690891718,
-                                            -31.4960166
                                         ]
                                     ]
                                 ]
@@ -1166,10 +1166,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.82325744600007,
-                    -33.07074737599993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.82325744600007,
+                            -33.07074737599993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.819363038,
+                                            -33.0584359119999
+                                        ],
+                                        [
+                                            147.82407437,
+                                            -33.058174172
+                                        ],
+                                        [
+                                            147.82562102,
+                                            -33.0582693499999
+                                        ],
+                                        [
+                                            147.83237869,
+                                            -33.0640276459999
+                                        ],
+                                        [
+                                            147.823836425,
+                                            -33.072022634
+                                        ],
+                                        [
+                                            147.821718704,
+                                            -33.065407732
+                                        ],
+                                        [
+                                            147.821504553,
+                                            -33.0637183159999
+                                        ],
+                                        [
+                                            147.820790714,
+                                            -33.0626951469999
+                                        ],
+                                        [
+                                            147.819815135,
+                                            -33.062933094
+                                        ],
+                                        [
+                                            147.819505805,
+                                            -33.061124703
+                                        ],
+                                        [
+                                            147.820076876,
+                                            -33.0609105519999
+                                        ],
+                                        [
+                                            147.819363038,
+                                            -33.0584359119999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1177,13 +1242,13 @@
                 "sourceTitle": "BLOW CLEAR RD, BOGAN GATE",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513162",
-                "created": "2023-09-07T10:28:00+10:00",
-                "updated": "2023-09-07T20:28:00+10:00",
+                "created": "2023-09-07T10:48:00+10:00",
+                "updated": "2023-09-07T20:48:00+10:00",
                 "location": "BLOW CLEAR RD, BOGAN GATE 2876",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BLOW CLEAR RD, BOGAN GATE 2876 <br />COUNCIL AREA: Parkes <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 20:28",
+                "size": 60,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BLOW CLEAR RD, BOGAN GATE 2876 <br />COUNCIL AREA: Parkes <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 60 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 20:48",
                 "title": "incident: fire"
             }
         },
@@ -2201,30 +2266,6 @@
                 "location": "460 GREENWELL POINT RD, BRUNDEE 2540",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 460 GREENWELL POINT RD, BRUNDEE 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 18:19",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.60275268500004,
-                    -34.881420135999974
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gundagai Rd, Junee",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513145",
-                "created": "2023-09-07T09:41:00+10:00",
-                "updated": "2023-09-07T19:41:00+10:00",
-                "location": "5919 Gundagai Rd, Junee, NSW 2663",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 5919 Gundagai Rd, Junee, NSW 2663 <br />COUNCIL AREA: Junee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 7 Sep 2023 19:41",
                 "title": "incident: fire"
             }
         },
@@ -4438,6 +4479,37 @@
                                 "coordinates": [
                                     [
                                         [
+                                            149.915867432,
+                                            -36.3809110509999
+                                        ],
+                                        [
+                                            149.916295734,
+                                            -36.3808872559999
+                                        ],
+                                        [
+                                            149.916236248,
+                                            -36.3811608939999
+                                        ],
+                                        [
+                                            149.915891225,
+                                            -36.381172791
+                                        ],
+                                        [
+                                            149.915867432,
+                                            -36.3809467419999
+                                        ],
+                                        [
+                                            149.915867432,
+                                            -36.3809110509999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             149.912405315,
                                             -36.3809110509999
                                         ],
@@ -4599,37 +4671,6 @@
                                         ]
                                     ]
                                 ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.915867432,
-                                            -36.3809110509999
-                                        ],
-                                        [
-                                            149.916295734,
-                                            -36.3808872559999
-                                        ],
-                                        [
-                                            149.916236248,
-                                            -36.3811608939999
-                                        ],
-                                        [
-                                            149.915891225,
-                                            -36.381172791
-                                        ],
-                                        [
-                                            149.915867432,
-                                            -36.3809467419999
-                                        ],
-                                        [
-                                            149.915867432,
-                                            -36.3809110509999
-                                        ]
-                                    ]
-                                ]
                             }
                         ]
                     }
@@ -4776,54 +4817,6 @@
                 "location": "420 LIONS RD, COUGAL NSW 2474",
                 "size": 17,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 420 LIONS RD, COUGAL NSW 2474 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 17 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 7 Sep 2023 17:34",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.21066284200003,
-                    -33.720752715999936
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "NEVILLE CEMETERY KENTUCKY RD, NEVILLE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513154",
-                "created": "2023-09-07T10:10:00+10:00",
-                "updated": "2023-09-07T20:10:00+10:00",
-                "location": "NEVILLE CEMETERY KENTUCKY RD, NEVILLE 2799",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: NEVILLE CEMETERY KENTUCKY RD, NEVILLE 2799 <br />COUNCIL AREA: Blayney <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 20:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.09742736900012,
-                    -33.276756285999966
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Newell Highway, Daroobalgie",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513159",
-                "created": "2023-09-07T10:24:00+10:00",
-                "updated": "2023-09-07T20:24:00+10:00",
-                "location": "NEWELL (A39) HWY, DAROOBALGIE 2870",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: NEWELL (A39) HWY, DAROOBALGIE 2870 <br />COUNCIL AREA: Forbes <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 20:24",
                 "title": "incident: fire"
             }
         },
@@ -5449,29 +5442,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            150.625763376,
-                                            -32.958480042
-                                        ],
-                                        [
-                                            150.625701839,
-                                            -32.9584628119999
-                                        ],
-                                        [
-                                            150.625701839,
-                                            -32.958439018
-                                        ],
-                                        [
-                                            150.625763376,
-                                            -32.958480042
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             150.639143519,
                                             -32.951867272
                                         ],
@@ -5486,6 +5456,29 @@
                                         [
                                             150.639143519,
                                             -32.951867272
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.625763376,
+                                            -32.958480042
+                                        ],
+                                        [
+                                            150.625701839,
+                                            -32.9584628119999
+                                        ],
+                                        [
+                                            150.625701839,
+                                            -32.958439018
+                                        ],
+                                        [
+                                            150.625763376,
+                                            -32.958480042
                                         ]
                                     ]
                                 ]
@@ -6764,8 +6757,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.229755403,
-                    -37.18806012199997
+                    149.229751587,
+                    -37.188060760999974
                 ]
             },
             "properties": {
@@ -6791,8 +6784,8 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            148.79903411600003,
-                            -36.50225419699996
+                            148.79902649000007,
+                            -36.50225448599997
                         ]
                     },
                     {
@@ -8582,13 +8575,13 @@
                 "sourceTitle": "TREWEEKES GAP LANE, GUNNINGBLAND",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513158",
-                "created": "2023-09-07T10:22:00+10:00",
-                "updated": "2023-09-07T20:22:00+10:00",
+                "created": "2023-09-07T10:50:00+10:00",
+                "updated": "2023-09-07T20:50:00+10:00",
                 "location": "TREWEEKES GAP LANE, GUNNINGBLAND 2876",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: TREWEEKES GAP LANE, GUNNINGBLAND 2876 <br />COUNCIL AREA: Parkes <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 20:22",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: TREWEEKES GAP LANE, GUNNINGBLAND 2876 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 20:50",
                 "title": "incident: fire"
             }
         },
@@ -8961,22 +8954,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.0748596190001,
-                    -30.952119826999933
+                    152.12734985400004,
+                    -32.58735656699997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "BARADINE AERODROME RD, BARADINE",
+                "sourceTitle": " Viney Creek Road, Nerong",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513124",
-                "created": "2023-09-07T09:30:00+10:00",
-                "updated": "2023-09-07T19:30:00+10:00",
-                "location": "BARADINE AERODROME RD, BARADINE 2396",
+                "subcategory": "truck fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513169",
+                "created": "2023-09-07T11:04:00+10:00",
+                "updated": "2023-09-07T21:04:00+10:00",
+                "location": "Viney Creek Road, Nerong",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BARADINE AERODROME RD, BARADINE 2396 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 19:30",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION:  Viney Creek Road, Nerong <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Truck Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 21:04",
                 "title": "incident: fire"
             }
         },
@@ -11118,6 +11111,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.20780944800003,
+                    -35.28961944599996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GOCUP RD, TUMUT",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513166",
+                "created": "2023-09-07T11:01:00+10:00",
+                "updated": "2023-09-07T21:01:00+10:00",
+                "location": "GOCUP RD, TUMUT 2720",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GOCUP RD, TUMUT 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 21:01",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.07629394600008,
                     -34.961460113999976
                 ]
@@ -11310,30 +11327,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.9727020260001,
-                    -32.79636001599994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mudgee Street, Rylstone",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513163",
-                "created": "2023-09-07T10:38:00+10:00",
-                "updated": "2023-09-07T20:38:00+10:00",
-                "location": "29 MUDGEE ST, RYLSTONE 2849",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 29 MUDGEE ST, RYLSTONE 2849 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 20:38",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.02172851600005,
                     -32.76747894299996
                 ]
@@ -11351,6 +11344,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NELSON BAY RD, BOBS FARM 2316 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 16:05",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.15829467800006,
+                    -34.502105712999935
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Olympic Highway, Wallendbeen",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513171",
+                "created": "2023-09-07T11:05:00+10:00",
+                "updated": "2023-09-07T21:05:00+10:00",
+                "location": "2287 Olympic Highway, Wallendbeen",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2287 Olympic Highway, Wallendbeen <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 21:05",
+                "title": "incident: other"
             }
         },
         {
@@ -11382,6 +11399,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.04339599700006,
+                    -30.46336746199995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ROWLEY ST, MYLESTOM",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513164",
+                "created": "2023-09-07T10:58:00+10:00",
+                "updated": "2023-09-07T20:58:00+10:00",
+                "location": "ROWLEY ST, MYLESTOM 2454",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ROWLEY ST, MYLESTOM 2454 <br />COUNCIL AREA: Bellingen <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 20:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.18290710400004,
                     -35.32364273099995
                 ]
@@ -11391,13 +11432,13 @@
                 "sourceTitle": "SNOWY MOUNTAINS HWY, GILMORE",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/513155",
-                "created": "2023-09-07T10:11:00+10:00",
-                "updated": "2023-09-07T20:11:00+10:00",
+                "created": "2023-09-07T10:50:00+10:00",
+                "updated": "2023-09-07T20:50:00+10:00",
                 "location": "SNOWY MOUNTAINS HWY, GILMORE 2720",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SNOWY MOUNTAINS HWY, GILMORE 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Sep 2023 20:11",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SNOWY MOUNTAINS HWY, GILMORE 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: State Emergency Service <br />UPDATED: 7 Sep 2023 20:50",
                 "title": "incident: other"
             }
         },
