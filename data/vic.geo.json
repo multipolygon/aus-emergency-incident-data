@@ -260,6 +260,51 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Maxwell St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2023-09-14T06:13:00+10:00",
+                "updated": "2023-09-14T06:20:00+10:00",
+                "id": "ESTA:230911909",
+                "location": "Maxwell St, Shepparton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4140128044089,
+                    -36.387019027461506
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2023-09-14T06:20:00+10:00",
+                "updated": "2023-09-14T06:24:00+10:00",
+                "id": "ESTA:230952064",
+                "location": "Eaglemont",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05250709304727,
+                    -37.76594997593645
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Warburton Hwy",
                 "category": "fire",
                 "subcategory": "other",
@@ -277,74 +322,6 @@
                 "coordinates": [
                     145.64922272947584,
                     -37.77177942078751
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2023-09-14T06:06:00+10:00",
-                "updated": "2023-09-14T06:06:00+10:00",
-                "id": "ESTA:230911904",
-                "location": "Epping",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9936196407779,
-                    -37.634000001974975
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Derrimut",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2023-09-14T06:02:26+10:00",
-                "updated": "2023-09-14T06:08:54+10:00",
-                "id": "ESTA:230911906",
-                "location": "Robinsons Rd, Derrimut",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.75210443970386,
-                    -37.80152330614916
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Maxwell St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2023-09-14T06:13:00+10:00",
-                "updated": "2023-09-14T06:13:00+10:00",
-                "id": "ESTA:230911909",
-                "location": "Maxwell St, Shepparton",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4140128044089,
-                    -36.387019027461506
                 ]
             }
         },
@@ -1187,29 +1164,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lake Mokoan Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "not yet under control",
-                "created": "2023-09-12T11:17:00+10:00",
-                "updated": "2023-09-13T15:40:00+10:00",
-                "id": "ESTA:230910284",
-                "location": "Lake Mokoan Rd, Winton North",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.06241824681177,
-                    -36.43928703267705
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Countess Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -1296,6 +1250,52 @@
                 "coordinates": [
                     145.1376914990068,
                     -36.88931437074549
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-09-14T06:06:00+10:00",
+                "updated": "2023-09-14T06:20:00+10:00",
+                "id": "ESTA:230911904",
+                "location": "Epping",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9936196407779,
+                    -37.634000001974975
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lake Mokoan Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "not yet under control",
+                "created": "2023-09-12T11:17:00+10:00",
+                "updated": "2023-09-13T15:40:00+10:00",
+                "id": "ESTA:230910284",
+                "location": "Lake Mokoan Rd, Winton North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.06241824681177,
+                    -36.43928703267705
                 ]
             }
         }
