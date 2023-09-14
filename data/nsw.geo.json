@@ -1271,10 +1271,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.52548289300012,
-                    -32.19311370899993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.52548289300012,
+                            -32.19311370899993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.523622836,
+                                            -32.191624593
+                                        ],
+                                        [
+                                            152.526942185,
+                                            -32.1920885869999
+                                        ],
+                                        [
+                                            152.527096849,
+                                            -32.193337804
+                                        ],
+                                        [
+                                            152.526716136,
+                                            -32.194920146
+                                        ],
+                                        [
+                                            152.525633481,
+                                            -32.19375421
+                                        ],
+                                        [
+                                            152.525490714,
+                                            -32.193361599
+                                        ],
+                                        [
+                                            152.524550826,
+                                            -32.192933296
+                                        ],
+                                        [
+                                            152.524027345,
+                                            -32.1921718679999
+                                        ],
+                                        [
+                                            152.523527658,
+                                            -32.1921123819999
+                                        ],
+                                        [
+                                            152.523622836,
+                                            -32.191624593
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1289,30 +1346,6 @@
                 "location": "71 BOUNDARY ST, FORSTER NSW 2428",
                 "size": 6,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 71 BOUNDARY ST, FORSTER NSW 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Sep 2023 09:30",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.66963195800008,
-                    -35.32064819399994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BRINDABELLA RD, BRINDABELLA",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515223",
-                "created": "2023-09-14T05:00:00+10:00",
-                "updated": "2023-09-14T15:00:00+10:00",
-                "location": "BRINDABELLA RD, BRINDABELLA 2611",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BRINDABELLA RD, BRINDABELLA 2611 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 15:00",
                 "title": "incident: fire"
             }
         },
@@ -2361,30 +2394,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.02101135200007,
-                    -33.68371963499993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Derriwong Road, Dural",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515226",
-                "created": "2023-09-14T05:15:00+10:00",
-                "updated": "2023-09-14T15:15:00+10:00",
-                "location": "39 Derriwong Road, Dural",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 39 Derriwong Road, Dural <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 15:15",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.83453369100005,
                     -33.70063781699997
                 ]
@@ -2394,37 +2403,13 @@
                 "sourceTitle": "Excelsior Av, Marsden Park",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515225",
-                "created": "2023-09-14T05:23:00+10:00",
-                "updated": "2023-09-14T15:23:00+10:00",
+                "created": "2023-09-14T05:35:00+10:00",
+                "updated": "2023-09-14T15:35:00+10:00",
                 "location": "Excelsior Av, Marsden Park, NSW 2765",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Excelsior Av, Marsden Park, NSW 2765 <br />COUNCIL AREA: Blacktown <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Sep 2023 15:23",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.23075600000004,
-                    -35.30657999999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Fitzroy St, Tumut",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515228",
-                "created": "2023-09-14T05:19:00+10:00",
-                "updated": "2023-09-14T15:19:00+10:00",
-                "location": "Fitzroy St, Tumut, NSW 2720",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Fitzroy St, Tumut, NSW 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Sep 2023 15:19",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Excelsior Av, Marsden Park, NSW 2765 <br />COUNCIL AREA: Blacktown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Sep 2023 15:35",
                 "title": "incident: fire"
             }
         },
@@ -2776,69 +2761,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.022007611,
-                                            -29.983467499
-                                        ],
-                                        [
-                                            153.021818372,
-                                            -29.983539164
-                                        ],
-                                        [
-                                            153.021740199,
-                                            -29.983535595
-                                        ],
-                                        [
-                                            153.021703158,
-                                            -29.983471132
-                                        ],
-                                        [
-                                            153.021649652,
-                                            -29.983374435
-                                        ],
-                                        [
-                                            153.021612614,
-                                            -29.983331462
-                                        ],
-                                        [
-                                            153.021592024,
-                                            -29.9832490869999
-                                        ],
-                                        [
-                                            153.021670181,
-                                            -29.983188185
-                                        ],
-                                        [
-                                            153.021896466,
-                                            -29.9831917299999
-                                        ],
-                                        [
-                                            153.021929391,
-                                            -29.983245449
-                                        ],
-                                        [
-                                            153.022015797,
-                                            -29.98327767
-                                        ],
-                                        [
-                                            153.022069299,
-                                            -29.9833492939999
-                                        ],
-                                        [
-                                            153.022073429,
-                                            -29.98342809
-                                        ],
-                                        [
-                                            153.022007611,
-                                            -29.983467499
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.021201221,
                                             -29.983481958
                                         ],
@@ -2909,6 +2831,69 @@
                                         [
                                             153.021201221,
                                             -29.983481958
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.022007611,
+                                            -29.983467499
+                                        ],
+                                        [
+                                            153.021818372,
+                                            -29.983539164
+                                        ],
+                                        [
+                                            153.021740199,
+                                            -29.983535595
+                                        ],
+                                        [
+                                            153.021703158,
+                                            -29.983471132
+                                        ],
+                                        [
+                                            153.021649652,
+                                            -29.983374435
+                                        ],
+                                        [
+                                            153.021612614,
+                                            -29.983331462
+                                        ],
+                                        [
+                                            153.021592024,
+                                            -29.9832490869999
+                                        ],
+                                        [
+                                            153.021670181,
+                                            -29.983188185
+                                        ],
+                                        [
+                                            153.021896466,
+                                            -29.9831917299999
+                                        ],
+                                        [
+                                            153.021929391,
+                                            -29.983245449
+                                        ],
+                                        [
+                                            153.022015797,
+                                            -29.98327767
+                                        ],
+                                        [
+                                            153.022069299,
+                                            -29.9833492939999
+                                        ],
+                                        [
+                                            153.022073429,
+                                            -29.98342809
+                                        ],
+                                        [
+                                            153.022007611,
+                                            -29.983467499
                                         ]
                                     ]
                                 ]
@@ -4540,8 +4525,8 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            152.8453093490001,
-                            -29.61857704299996
+                            152.83898925800008,
+                            -29.62374687099998
                         ]
                     },
                     {
@@ -4658,30 +4643,6 @@
                 "location": "170 MASSEY RD, MYLNEFORD NSW 2460",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 170 MASSEY RD, MYLNEFORD NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 14:49",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.850091001,
-                    -29.46877999999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mcelhone St, Moree",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515227",
-                "created": "2023-09-14T05:20:00+10:00",
-                "updated": "2023-09-14T15:20:00+10:00",
-                "location": "Mcelhone St, Moree, NSW 2400",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Mcelhone St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Sep 2023 15:20",
                 "title": "incident: fire"
             }
         },
@@ -5427,8 +5388,8 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            149.1565918922425,
-                            -35.844986711406
+                            149.1552272719365,
+                            -35.844136053823505
                         ]
                     },
                     {
@@ -6197,30 +6158,6 @@
                 "location": "5 NGADJUNG CL, JERVIS BAY ACT 2540",
                 "size": 46,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 5 NGADJUNG CL, JERVIS BAY ACT 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 46 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Sep 2023 16:58",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.1070098880001,
-                    -34.34535980199996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "River Island Road, Bullio",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515199",
-                "created": "2023-09-14T04:08:00+10:00",
-                "updated": "2023-09-14T14:08:00+10:00",
-                "location": "80 River Island Road, Bullio",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 80 River Island Road, Bullio <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 14:08",
                 "title": "incident: fire"
             }
         },
@@ -7087,30 +7024,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.6061096190001,
-                    -33.09580612199994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "TURONDALE RD, TURONDALE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515222",
-                "created": "2023-09-14T05:04:00+10:00",
-                "updated": "2023-09-14T15:04:00+10:00",
-                "location": "2650 TURONDALE RD, TURONDALE 2795",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2650 TURONDALE RD, TURONDALE 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 15:04",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -7830,11 +7743,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515147",
-                "created": "2023-09-14T03:06:00+10:00",
-                "updated": "2023-09-14T13:06:00+10:00",
+                "created": "2023-09-14T05:42:00+10:00",
+                "updated": "2023-09-14T15:42:00+10:00",
                 "location": "751 Koorin Road, Tumbi Umbi",
                 "size": 0,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 751 Koorin Road, Tumbi Umbi <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 13:06",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 751 Koorin Road, Tumbi Umbi <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 15:42",
                 "title": "incident: fire"
             }
         },
@@ -7902,11 +7815,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515144",
-                "created": "2023-09-14T03:58:00+10:00",
-                "updated": "2023-09-14T13:58:00+10:00",
+                "created": "2023-09-14T05:35:00+10:00",
+                "updated": "2023-09-14T15:35:00+10:00",
                 "location": "SHORT ST, RYLSTONE 2849",
                 "size": 0,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: SHORT ST, RYLSTONE 2849 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 13:58",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: SHORT ST, RYLSTONE 2849 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 15:35",
                 "title": "incident: fire"
             }
         },
@@ -9580,6 +9493,119 @@
                                 "coordinates": [
                                     [
                                         [
+                                            147.298660291,
+                                            -35.1190201209999
+                                        ],
+                                        [
+                                            147.299207566,
+                                            -35.118449051
+                                        ],
+                                        [
+                                            147.299493102,
+                                            -35.11862751
+                                        ],
+                                        [
+                                            147.299540692,
+                                            -35.118782176
+                                        ],
+                                        [
+                                            147.299600178,
+                                            -35.119043916
+                                        ],
+                                        [
+                                            147.299493102,
+                                            -35.119317554
+                                        ],
+                                        [
+                                            147.299421718,
+                                            -35.119543603
+                                        ],
+                                        [
+                                            147.298660291,
+                                            -35.1190201209999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.294305877,
+                                            -35.1039184749999
+                                        ],
+                                        [
+                                            147.294543823,
+                                            -35.102276646
+                                        ],
+                                        [
+                                            147.294805563,
+                                            -35.102014906
+                                        ],
+                                        [
+                                            147.295257662,
+                                            -35.1026097709999
+                                        ],
+                                        [
+                                            147.295781142,
+                                            -35.102990485
+                                        ],
+                                        [
+                                            147.295221969,
+                                            -35.103775707
+                                        ],
+                                        [
+                                            147.295067305,
+                                            -35.103704324
+                                        ],
+                                        [
+                                            147.294793667,
+                                            -35.1039184749999
+                                        ],
+                                        [
+                                            147.294305877,
+                                            -35.1039184749999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.295214687,
+                                            -35.102587957
+                                        ],
+                                        [
+                                            147.294774486,
+                                            -35.10208827
+                                        ],
+                                        [
+                                            147.294822076,
+                                            -35.102028783
+                                        ],
+                                        [
+                                            147.295642989,
+                                            -35.1021001679999
+                                        ],
+                                        [
+                                            147.295452633,
+                                            -35.102421394
+                                        ],
+                                        [
+                                            147.295214687,
+                                            -35.102587957
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             147.293401683,
                                             -35.1084774989999
                                         ],
@@ -9626,119 +9652,6 @@
                                         [
                                             147.293401683,
                                             -35.1084774989999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            147.298660291,
-                                            -35.1190201209999
-                                        ],
-                                        [
-                                            147.299207566,
-                                            -35.118449051
-                                        ],
-                                        [
-                                            147.299493102,
-                                            -35.11862751
-                                        ],
-                                        [
-                                            147.299540692,
-                                            -35.118782176
-                                        ],
-                                        [
-                                            147.299600178,
-                                            -35.119043916
-                                        ],
-                                        [
-                                            147.299493102,
-                                            -35.119317554
-                                        ],
-                                        [
-                                            147.299421718,
-                                            -35.119543603
-                                        ],
-                                        [
-                                            147.298660291,
-                                            -35.1190201209999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            147.295214687,
-                                            -35.102587957
-                                        ],
-                                        [
-                                            147.294774486,
-                                            -35.10208827
-                                        ],
-                                        [
-                                            147.294822076,
-                                            -35.102028783
-                                        ],
-                                        [
-                                            147.295642989,
-                                            -35.1021001679999
-                                        ],
-                                        [
-                                            147.295452633,
-                                            -35.102421394
-                                        ],
-                                        [
-                                            147.295214687,
-                                            -35.102587957
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            147.294305877,
-                                            -35.1039184749999
-                                        ],
-                                        [
-                                            147.294543823,
-                                            -35.102276646
-                                        ],
-                                        [
-                                            147.294805563,
-                                            -35.102014906
-                                        ],
-                                        [
-                                            147.295257662,
-                                            -35.1026097709999
-                                        ],
-                                        [
-                                            147.295781142,
-                                            -35.102990485
-                                        ],
-                                        [
-                                            147.295221969,
-                                            -35.103775707
-                                        ],
-                                        [
-                                            147.295067305,
-                                            -35.103704324
-                                        ],
-                                        [
-                                            147.294793667,
-                                            -35.1039184749999
-                                        ],
-                                        [
-                                            147.294305877,
-                                            -35.1039184749999
                                         ]
                                     ]
                                 ]
@@ -10115,6 +10028,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.02101135200007,
+                    -33.68371963499993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Derriwong Road, Dural",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515226",
+                "created": "2023-09-14T05:42:00+10:00",
+                "updated": "2023-09-14T15:42:00+10:00",
+                "location": "39 Derriwong Road, Dural",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 39 Derriwong Road, Dural <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 15:42",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.4067840570001,
                     -33.985206603999984
                 ]
@@ -10222,11 +10159,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/514011",
-                "created": "2023-09-14T00:12:00+10:00",
-                "updated": "2023-09-14T10:12:00+10:00",
+                "created": "2023-09-14T05:31:00+10:00",
+                "updated": "2023-09-14T15:31:00+10:00",
                 "location": "19 HILLSIDE AV, ST IVES CHASE 2075",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 19 HILLSIDE AV, ST IVES CHASE 2075 <br />COUNCIL AREA: Ku-Ring-Gai <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 10:12",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 19 HILLSIDE AV, ST IVES CHASE 2075 <br />COUNCIL AREA: Ku-Ring-Gai <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 15:31",
                 "title": "incident: fire"
             }
         },
@@ -10246,11 +10183,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/514025",
-                "created": "2023-09-14T01:31:00+10:00",
-                "updated": "2023-09-14T11:31:00+10:00",
+                "created": "2023-09-14T05:40:00+10:00",
+                "updated": "2023-09-14T15:40:00+10:00",
                 "location": "30 MYALL FOREST RD, BULAHDELAH 2423",
                 "size": 100,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 30 MYALL FOREST RD, BULAHDELAH 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 100 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 14 Sep 2023 11:31",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 30 MYALL FOREST RD, BULAHDELAH 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 100 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 14 Sep 2023 15:40",
                 "title": "incident: fire"
             }
         },
@@ -11061,30 +10998,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: THE CIRCLE RD, MUMBIL 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Sep 2023 22:50",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.36755371100003,
-                    -28.263719557999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "TOMEWIN RD, TOMEWIN",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515214",
-                "created": "2023-09-14T04:52:00+10:00",
-                "updated": "2023-09-14T14:52:00+10:00",
-                "location": "669 TOMEWIN RD, TOMEWIN 2484",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 669 TOMEWIN RD, TOMEWIN 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Sep 2023 14:52",
-                "title": "incident: other"
             }
         },
         {
