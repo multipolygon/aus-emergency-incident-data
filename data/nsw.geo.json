@@ -891,10 +891,43 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.32839965900007,
-                    -36.16263580399993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.32839965900007,
+                            -36.16263580399993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.332119692,
+                                            -36.166092955
+                                        ],
+                                        [
+                                            149.329720146,
+                                            -36.167679096
+                                        ],
+                                        [
+                                            149.32878473,
+                                            -36.1640797759999
+                                        ],
+                                        [
+                                            149.332119692,
+                                            -36.166092955
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1648,6 +1681,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.27424621600005,
+                    -36.94279861399997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BUCKY SPRINGS RD, ROSEMEATH",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515577",
+                "created": "2023-09-16T03:18:00+10:00",
+                "updated": "2023-09-16T13:18:00+10:00",
+                "location": "338 BUCKY SPRINGS RD, ROSEMEATH 2632",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 338 BUCKY SPRINGS RD, ROSEMEATH 2632 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2023 13:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -1782,57 +1839,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            150.789174903,
-                                            -32.861222617
-                                        ],
-                                        [
-                                            150.790090996,
-                                            -32.861805585
-                                        ],
-                                        [
-                                            150.790281353,
-                                            -32.862412348
-                                        ],
-                                        [
-                                            150.790281353,
-                                            -32.863292749
-                                        ],
-                                        [
-                                            150.790150482,
-                                            -32.863792436
-                                        ],
-                                        [
-                                            150.790566888,
-                                            -32.8643754039999
-                                        ],
-                                        [
-                                            150.791459186,
-                                            -32.86425643
-                                        ],
-                                        [
-                                            150.790697758,
-                                            -32.864994063
-                                        ],
-                                        [
-                                            150.790102894,
-                                            -32.8650416529999
-                                        ],
-                                        [
-                                            150.789317671,
-                                            -32.864863193
-                                        ],
-                                        [
-                                            150.789174903,
-                                            -32.861222617
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             150.786020208,
                                             -32.859997381
                                         ],
@@ -1902,6 +1908,57 @@
                                         [
                                             150.786020208,
                                             -32.859997381
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.789174903,
+                                            -32.861222617
+                                        ],
+                                        [
+                                            150.790090996,
+                                            -32.861805585
+                                        ],
+                                        [
+                                            150.790281353,
+                                            -32.862412348
+                                        ],
+                                        [
+                                            150.790281353,
+                                            -32.863292749
+                                        ],
+                                        [
+                                            150.790150482,
+                                            -32.863792436
+                                        ],
+                                        [
+                                            150.790566888,
+                                            -32.8643754039999
+                                        ],
+                                        [
+                                            150.791459186,
+                                            -32.86425643
+                                        ],
+                                        [
+                                            150.790697758,
+                                            -32.864994063
+                                        ],
+                                        [
+                                            150.790102894,
+                                            -32.8650416529999
+                                        ],
+                                        [
+                                            150.789317671,
+                                            -32.864863193
+                                        ],
+                                        [
+                                            150.789174903,
+                                            -32.861222617
                                         ]
                                     ]
                                 ]
@@ -2435,30 +2492,6 @@
                 "location": "LLANWYN 852 CONGEWAI RD, CONGEWAI 2325",
                 "size": 4,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: LLANWYN 852 CONGEWAI RD, CONGEWAI 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2023 08:02",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.41983032200005,
-                    -35.24205017099996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "COTTERILLS RD, ARGALONG",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515557",
-                "created": "2023-09-16T02:19:00+10:00",
-                "updated": "2023-09-16T12:19:00+10:00",
-                "location": "COTTERILLS RD, ARGALONG 2720",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: COTTERILLS RD, ARGALONG 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2023 12:19",
                 "title": "incident: fire"
             }
         },
@@ -3591,6 +3624,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.85687255800008,
+                    -29.453620910999973
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GWYDIRFIELD RD, MOREE",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515580",
+                "created": "2023-09-16T03:29:00+10:00",
+                "updated": "2023-09-16T13:29:00+10:00",
+                "location": "GWYDIRFIELD RD, MOREE 2400",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: GWYDIRFIELD RD, MOREE 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2023 13:29",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.3545379640001,
                     -34.46260833699995
                 ]
@@ -3701,69 +3758,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.022007611,
-                                            -29.983467499
-                                        ],
-                                        [
-                                            153.021818372,
-                                            -29.983539164
-                                        ],
-                                        [
-                                            153.021740199,
-                                            -29.983535595
-                                        ],
-                                        [
-                                            153.021703158,
-                                            -29.983471132
-                                        ],
-                                        [
-                                            153.021649652,
-                                            -29.983374435
-                                        ],
-                                        [
-                                            153.021612614,
-                                            -29.983331462
-                                        ],
-                                        [
-                                            153.021592024,
-                                            -29.9832490869999
-                                        ],
-                                        [
-                                            153.021670181,
-                                            -29.983188185
-                                        ],
-                                        [
-                                            153.021896466,
-                                            -29.9831917299999
-                                        ],
-                                        [
-                                            153.021929391,
-                                            -29.983245449
-                                        ],
-                                        [
-                                            153.022015797,
-                                            -29.98327767
-                                        ],
-                                        [
-                                            153.022069299,
-                                            -29.9833492939999
-                                        ],
-                                        [
-                                            153.022073429,
-                                            -29.98342809
-                                        ],
-                                        [
-                                            153.022007611,
-                                            -29.983467499
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.021201221,
                                             -29.983481958
                                         ],
@@ -3834,6 +3828,69 @@
                                         [
                                             153.021201221,
                                             -29.983481958
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.022007611,
+                                            -29.983467499
+                                        ],
+                                        [
+                                            153.021818372,
+                                            -29.983539164
+                                        ],
+                                        [
+                                            153.021740199,
+                                            -29.983535595
+                                        ],
+                                        [
+                                            153.021703158,
+                                            -29.983471132
+                                        ],
+                                        [
+                                            153.021649652,
+                                            -29.983374435
+                                        ],
+                                        [
+                                            153.021612614,
+                                            -29.983331462
+                                        ],
+                                        [
+                                            153.021592024,
+                                            -29.9832490869999
+                                        ],
+                                        [
+                                            153.021670181,
+                                            -29.983188185
+                                        ],
+                                        [
+                                            153.021896466,
+                                            -29.9831917299999
+                                        ],
+                                        [
+                                            153.021929391,
+                                            -29.983245449
+                                        ],
+                                        [
+                                            153.022015797,
+                                            -29.98327767
+                                        ],
+                                        [
+                                            153.022069299,
+                                            -29.9833492939999
+                                        ],
+                                        [
+                                            153.022073429,
+                                            -29.98342809
+                                        ],
+                                        [
+                                            153.022007611,
+                                            -29.983467499
                                         ]
                                     ]
                                 ]
@@ -9224,6 +9281,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.84534000000008,
+                    -29.45748999999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Webb Av, Moree",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515578",
+                "created": "2023-09-16T03:28:00+10:00",
+                "updated": "2023-09-16T13:28:00+10:00",
+                "location": "Webb Av, Moree, NSW 2400",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Webb Av, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 16 Sep 2023 13:28",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.54647827100007,
                     -28.45553016699995
                 ]
@@ -12020,30 +12101,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.58415222200006,
-                    -33.704116821999946
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "GREAT WESTERN HWY, VALLEY HEIGHTS",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515555",
-                "created": "2023-09-16T02:43:00+10:00",
-                "updated": "2023-09-16T12:43:00+10:00",
-                "location": "GREAT WESTERN HWY, VALLEY HEIGHTS 2777",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GREAT WESTERN HWY, VALLEY HEIGHTS 2777 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2023 12:43",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.55474853500004,
                     -32.44869995199997
                 ]
@@ -12140,6 +12197,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.5205841070001,
+                    -34.388984679999965
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "HUME HWY (NORTHBOUND), YERRINBOOL",
+                "category": "fire",
+                "subcategory": "car fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515579",
+                "created": "2023-09-16T03:28:00+10:00",
+                "updated": "2023-09-16T13:28:00+10:00",
+                "location": "ET196 HUME HWY (NORTHBOUND), YERRINBOOL 2575",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ET196 HUME HWY (NORTHBOUND), YERRINBOOL 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2023 13:28",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.56916809100005,
                     -28.70944404599993
                 ]
@@ -12156,6 +12237,30 @@
                 "location": "256 MIDGEN FLAT RD, NEWRYBAR 2479",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 256 MIDGEN FLAT RD, NEWRYBAR 2479 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Sep 2023 18:29",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.50047302200005,
+                    -33.08216476399997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Minnie Street, Dora Creek",
+                "category": "fire",
+                "subcategory": "fire alarm",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515575",
+                "created": "2023-09-16T03:23:00+10:00",
+                "updated": "2023-09-16T13:23:00+10:00",
+                "location": "1 Minnie Street, Dora Creek",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1 Minnie Street, Dora Creek <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Being controlled <br />TYPE: Fire Alarm <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2023 13:23",
                 "title": "incident: fire"
             }
         },
@@ -12893,6 +12998,30 @@
                 "location": "1492 STROUD HILL ROAD, MAIN CREEK 2420",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1492 STROUD HILL ROAD, MAIN CREEK 2420 <br />COUNCIL AREA: Dungog <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2023 02:13",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.28213500900006,
+                    -33.63652419999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "STURDEE LANE, ELVINA BAY",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/515576",
+                "created": "2023-09-16T03:26:00+10:00",
+                "updated": "2023-09-16T13:26:00+10:00",
+                "location": "1A STURDEE LANE, ELVINA BAY 2105",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1A STURDEE LANE, ELVINA BAY 2105 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Sep 2023 13:26",
                 "title": "incident: fire"
             }
         },
