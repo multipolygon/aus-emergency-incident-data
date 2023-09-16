@@ -165,22 +165,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mooroolbark",
+                "sourceTitle": "Hoppers Crossing",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "unknown",
-                "created": "2023-09-17T03:51:14+10:00",
-                "updated": "2023-09-17T05:27:40+10:00",
-                "id": "ESTA:230915921",
-                "location": "Hayrick Lane, Mooroolbark",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2023-09-17T06:07:47+10:00",
+                "updated": "2023-09-17T06:08:42+10:00",
+                "id": "ESTA:230915933",
+                "location": "Hoppers Crossing",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3212776585475,
-                    -37.77280026005322
+                    144.73230650188128,
+                    -37.86822466498018
                 ]
             }
         },
@@ -873,6 +873,28 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rainbow Dr, East Jindabyne",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2023-09-17T04:19:00+10:00",
+                "updated": "2023-09-17T04:19:00+10:00",
+                "id": "2023-09-17T04:19:00.0000000:515695",
+                "location": "Rainbow Dr, East Jindabyne 2627",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.634872437,
+                    -36.4064178469999
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -917,64 +939,6 @@
                         "coordinates": [
                             148.599716186,
                             -36.526138306
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Delegate Rd, Lords Hill",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2023-09-16T18:04:00+10:00",
-                "updated": "2023-09-16T18:04:00+10:00",
-                "id": "2023-09-16T18:04:00.0000000:515601",
-                "location": "Delegate Rd, Lords Hill 2632",
-                "title": "incident: fire"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.1175,
-                                    -36.9427
-                                ],
-                                [
-                                    149.1189,
-                                    -36.9435
-                                ],
-                                [
-                                    149.1185,
-                                    -36.9447
-                                ],
-                                [
-                                    149.1168,
-                                    -36.9438
-                                ],
-                                [
-                                    149.1173,
-                                    -36.9429
-                                ],
-                                [
-                                    149.1175,
-                                    -36.9427
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            149.117187501,
-                            -36.943000793
                         ]
                     }
                 ]
@@ -1039,24 +1003,60 @@
             }
         },
         {
+            "type": "Feature",
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Rainbow Dr, East Jindabyne",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
+                "sourceTitle": "Delegate Rd, Lords Hill",
+                "category": "fire",
+                "subcategory": "grass fire",
                 "status": "under control",
-                "created": "2023-09-17T04:19:00+10:00",
-                "updated": "2023-09-17T04:19:00+10:00",
-                "id": "2023-09-17T04:19:00.0000000:515695",
-                "location": "Rainbow Dr, East Jindabyne 2627",
-                "title": "incident: other"
+                "created": "2023-09-16T18:04:00+10:00",
+                "updated": "2023-09-16T18:04:00+10:00",
+                "id": "2023-09-16T18:04:00.0000000:515601",
+                "location": "Delegate Rd, Lords Hill 2632",
+                "title": "incident: fire"
             },
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.634872437,
-                    -36.4064178469999
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.1175,
+                                    -36.9427
+                                ],
+                                [
+                                    149.1189,
+                                    -36.9435
+                                ],
+                                [
+                                    149.1185,
+                                    -36.9447
+                                ],
+                                [
+                                    149.1168,
+                                    -36.9438
+                                ],
+                                [
+                                    149.1173,
+                                    -36.9429
+                                ],
+                                [
+                                    149.1175,
+                                    -36.9427
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.117187501,
+                            -36.943000793
+                        ]
+                    }
                 ]
             }
         },
@@ -1430,16 +1430,16 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue vehicle into structure",
-                "status": "complete",
+                "sourceTitle": "Thames Prom",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2023-09-17T05:16:00+10:00",
-                "updated": "2023-09-17T05:39:00+10:00",
+                "updated": "2023-09-17T05:29:00+10:00",
                 "id": "ESTA:230915930",
-                "location": "Chelsea",
+                "location": "Thames Prom, Chelsea",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -1456,9 +1456,9 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue vehicle into structure",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2023-09-17T05:17:00+10:00",
-                "updated": "2023-09-17T05:20:00+10:00",
+                "updated": "2023-09-17T06:08:00+10:00",
                 "id": "ESTA:230952211",
                 "location": "Chelsea",
                 "title": "incident: rescue"
@@ -1478,9 +1478,9 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2023-09-17T05:16:00+10:00",
-                "updated": "2023-09-17T05:20:00+10:00",
+                "updated": "2023-09-17T06:08:00+10:00",
                 "id": "ESTA:230952210",
                 "location": "Chelsea",
                 "title": "incident: building damage"
