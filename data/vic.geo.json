@@ -165,23 +165,67 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Frenchmans Lane",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2023-09-17T01:57:00+10:00",
-                "updated": "2023-09-17T02:25:00+10:00",
-                "id": "ESTA:230915906",
-                "location": "Frenchmans Lane, Mount Clear",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2023-09-17T02:16:00+10:00",
+                "updated": "2023-09-17T02:41:00+10:00",
+                "id": "ESTA:230952205",
+                "location": "Thornbury",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8535472606825,
-                    -37.611361998151615
+                    145.014113946226,
+                    -37.76467817442064
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2023-09-17T02:41:00+10:00",
+                "updated": "2023-09-17T02:43:00+10:00",
+                "id": "ESTA:230952207",
+                "location": "Ascot Vale",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9213130525182,
+                    -37.7792442723885
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dinsdale Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-09-17T02:47:00+10:00",
+                "updated": "2023-09-17T02:47:00+10:00",
+                "id": "ESTA:230915911",
+                "location": "Dinsdale Rd, St Andrews",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29059622873282,
+                    -37.59325530870574
                 ]
             }
         },
@@ -1533,64 +1577,6 @@
                 "category": "fire",
                 "subcategory": "grass fire",
                 "status": "under control",
-                "created": "2023-09-16T18:51:00+10:00",
-                "updated": "2023-09-16T18:51:00+10:00",
-                "id": "2023-09-16T18:51:00.0000000:515179",
-                "location": "1065 Delegate Rd, Lords Hill 2632",
-                "title": "incident: fire"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.1219,
-                                    -36.9512
-                                ],
-                                [
-                                    149.1237,
-                                    -36.9523
-                                ],
-                                [
-                                    149.1225,
-                                    -36.954
-                                ],
-                                [
-                                    149.1195,
-                                    -36.953
-                                ],
-                                [
-                                    149.1201,
-                                    -36.9511
-                                ],
-                                [
-                                    149.1219,
-                                    -36.9512
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            149.120483398,
-                            -36.947807312
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Delegate Rd, Lords Hill",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
                 "created": "2023-09-16T18:04:00+10:00",
                 "updated": "2023-09-16T18:04:00+10:00",
                 "id": "2023-09-16T18:04:00.0000000:515601",
@@ -1636,6 +1622,64 @@
                         "coordinates": [
                             149.117187501,
                             -36.943000793
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Delegate Rd, Lords Hill",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2023-09-16T18:51:00+10:00",
+                "updated": "2023-09-16T18:51:00+10:00",
+                "id": "2023-09-16T18:51:00.0000000:515179",
+                "location": "1065 Delegate Rd, Lords Hill 2632",
+                "title": "incident: fire"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.1219,
+                                    -36.9512
+                                ],
+                                [
+                                    149.1237,
+                                    -36.9523
+                                ],
+                                [
+                                    149.1225,
+                                    -36.954
+                                ],
+                                [
+                                    149.1195,
+                                    -36.953
+                                ],
+                                [
+                                    149.1201,
+                                    -36.9511
+                                ],
+                                [
+                                    149.1219,
+                                    -36.9512
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.120483398,
+                            -36.947807312
                         ]
                     }
                 ]
@@ -1988,44 +2032,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue vehicle into structure",
-                "status": "request for assistance",
-                "created": "2023-09-17T02:17:00+10:00",
-                "updated": "2023-09-17T02:16:51+10:00",
-                "id": "ESTA:230952206",
-                "location": "Thornbury",
-                "title": "incident: rescue"
+                "sourceTitle": "Frenchmans Lane",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2023-09-17T01:57:00+10:00",
+                "updated": "2023-09-17T02:25:00+10:00",
+                "id": "ESTA:230915906",
+                "location": "Frenchmans Lane, Mount Clear",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.014113946226,
-                    -37.76467817442064
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2023-09-17T02:16:00+10:00",
-                "updated": "2023-09-17T02:18:00+10:00",
-                "id": "ESTA:230952205",
-                "location": "Thornbury",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.014113946226,
-                    -37.76467817442064
+                    143.8535472606825,
+                    -37.611361998151615
                 ]
             }
         }
