@@ -98,9 +98,9 @@
                 "sourceTitle": "Selby - Black Hill Candling",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2023-09-17T11:48:18+10:00",
-                "updated": "2023-09-17T11:48:18+10:00",
+                "status": "patrolled",
+                "created": "2023-09-17T17:26:38+10:00",
+                "updated": "2023-09-17T17:26:38+10:00",
                 "id": 3009730,
                 "location": "2.2Km E Of Belgrave",
                 "size": "0.60",
@@ -210,10 +210,33 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "River Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-09-17T17:21:00+10:00",
+                "updated": "2023-09-17T17:21:00+10:00",
+                "id": "ESTA:230916919",
+                "location": "River Rd, Yalca",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.28750169297848,
+                    -35.86104146618568
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Mcedward St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2023-09-17T17:11:00+10:00",
                 "updated": "2023-09-17T17:11:00+10:00",
                 "id": "ESTA:230916908",
@@ -233,22 +256,66 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bentleigh East",
-                "category": "other",
+                "sourceTitle": "Kariah",
+                "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2023-09-17T17:14:15+10:00",
-                "updated": "2023-09-17T17:16:39+10:00",
-                "id": "ESTA:230916916",
-                "location": "Malane St, Bentleigh East",
-                "title": "incident: other"
+                "status": "safe",
+                "created": "2023-09-17T17:24:11+10:00",
+                "updated": "2023-09-17T17:27:18+10:00",
+                "id": "ESTA:230916928",
+                "location": "Kariah",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.05483827594534,
-                    -37.92014328209572
+                    143.22680869121365,
+                    -38.14706052675713
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2023-09-17T17:30:00+10:00",
+                "updated": "2023-09-17T17:32:00+10:00",
+                "id": "ESTA:230916932",
+                "location": "Bairnsdale",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.6268019662569,
+                    -37.82678694903604
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maidstone",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2023-09-17T17:30:01+10:00",
+                "updated": "2023-09-17T17:30:12+10:00",
+                "id": "ESTA:230916935",
+                "location": "Richelieu St, Maidstone",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.87135940031155,
+                    -37.78774865097234
                 ]
             }
         },
@@ -278,23 +345,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sproules Rd",
+                "sourceTitle": "Fawcett",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-09-17T14:57:00+10:00",
-                "updated": "2023-09-17T17:04:00+10:00",
-                "id": "ESTA:230916752",
-                "location": "Sproules Rd, Wallington",
-                "size": "Small",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-09-17T17:32:25+10:00",
+                "updated": "2023-09-17T17:33:02+10:00",
+                "id": "ESTA:230916938",
+                "location": "Spring Creek Rd, Fawcett",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.52192082487005,
-                    -38.23116093637148
+                    145.68010002578123,
+                    -37.13803302814067
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "William St, Walla Walla",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "created": "2023-09-17T15:14:00+10:00",
+                "updated": "2023-09-17T15:14:00+10:00",
+                "id": "2023-09-17T15:14:00.0000000:515818",
+                "location": "William St, Walla Walla 2659",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.902404785,
+                    -35.767318726
                 ]
             }
         },
@@ -541,6 +629,45 @@
                             [
                                 [
                                     149.8641,
+                                    -37.0869
+                                ],
+                                [
+                                    149.8645,
+                                    -37.0869
+                                ],
+                                [
+                                    149.8646,
+                                    -37.0871
+                                ],
+                                [
+                                    149.8641,
+                                    -37.0872
+                                ],
+                                [
+                                    149.8637,
+                                    -37.0871
+                                ],
+                                [
+                                    149.8635,
+                                    -37.087
+                                ],
+                                [
+                                    149.8631,
+                                    -37.0868
+                                ],
+                                [
+                                    149.8641,
+                                    -37.0869
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.8641,
                                     -37.0867
                                 ],
                                 [
@@ -579,45 +706,6 @@
                         ]
                     },
                     {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.8641,
-                                    -37.0869
-                                ],
-                                [
-                                    149.8645,
-                                    -37.0869
-                                ],
-                                [
-                                    149.8646,
-                                    -37.0871
-                                ],
-                                [
-                                    149.8641,
-                                    -37.0872
-                                ],
-                                [
-                                    149.8637,
-                                    -37.0871
-                                ],
-                                [
-                                    149.8635,
-                                    -37.087
-                                ],
-                                [
-                                    149.8631,
-                                    -37.0868
-                                ],
-                                [
-                                    149.8641,
-                                    -37.0869
-                                ]
-                            ]
-                        ]
-                    },
-                    {
                         "type": "Point",
                         "coordinates": [
                             149.864105225,
@@ -646,28 +734,6 @@
                 "coordinates": [
                     148.634872437,
                     -36.4064178469999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "William St, Walla Walla",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "created": "2023-09-17T15:14:00+10:00",
-                "updated": "2023-09-17T15:14:00+10:00",
-                "id": "2023-09-17T15:14:00.0000000:515818",
-                "location": "William St, Walla Walla 2659",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.902404785,
-                    -35.767318726
                 ]
             }
         },
@@ -1104,6 +1170,29 @@
                 "coordinates": [
                     145.95620038739693,
                     -38.04742386019594
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sproules Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2023-09-17T14:57:00+10:00",
+                "updated": "2023-09-17T17:04:00+10:00",
+                "id": "ESTA:230916752",
+                "location": "Sproules Rd, Wallington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.52192082487005,
+                    -38.23116093637148
                 ]
             }
         },
