@@ -455,7 +455,7 @@
                 "updated": "Invalid date",
                 "id": 995173,
                 "location": "6Km Sw Of Newmerella",
-                "size": null,
+                "size": "16.00",
                 "title": "incident: fire"
             },
             "type": "Feature",
@@ -519,9 +519,9 @@
                 "sourceTitle": "White Hills - Koomba St",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2023-09-19T13:17:41+10:00",
-                "updated": "2023-09-19T13:17:41+10:00",
+                "status": "patrolled",
+                "created": "2023-09-19T17:31:02+10:00",
+                "updated": "2023-09-19T17:31:02+10:00",
                 "id": 3006209,
                 "location": "3Km Ne Of Bendigo",
                 "size": "1.27",
@@ -611,9 +611,9 @@
                 "sourceTitle": "White Hills - Knight St",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2023-09-19T13:15:55+10:00",
-                "updated": "2023-09-19T13:15:55+10:00",
+                "status": "patrolled",
+                "created": "2023-09-19T17:34:58+10:00",
+                "updated": "2023-09-19T17:34:58+10:00",
                 "id": 3011863,
                 "location": "3Km N Of Bendigo",
                 "size": "1.39",
@@ -654,22 +654,180 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Murrumbeena",
+                "sourceTitle": "Allan Dr",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2023-09-19T17:13:38+10:00",
-                "updated": "2023-09-19T17:21:53+10:00",
-                "id": "ESTA:230919227",
-                "location": "Irving Av, Murrumbeena",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-09-19T17:31:00+10:00",
+                "updated": "2023-09-19T17:31:00+10:00",
+                "id": "ESTA:230919242",
+                "location": "Allan Dr, Mallacoota",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.06810630641465,
-                    -37.905654790231836
+                    149.75888024393916,
+                    -37.556864659661635
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Docklands",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2023-09-19T17:16:39+10:00",
+                "updated": "2023-09-19T17:35:14+10:00",
+                "id": "ESTA:230919231",
+                "location": "Bourke St, Docklands",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94299452028957,
+                    -37.81984910041347
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Malakoff Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-09-19T17:34:00+10:00",
+                "updated": "2023-09-19T17:34:00+10:00",
+                "id": "ESTA:230919244",
+                "location": "Malakoff Rd, Beechworth",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.66927285303117,
+                    -36.35114070797003
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2023-09-19T17:38:00+10:00",
+                "updated": "2023-09-19T17:41:00+10:00",
+                "id": "ESTA:230952322",
+                "location": "Diggers Rest",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.70708822125656,
+                    -37.62433454541901
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bendoc",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2023-09-19T15:06:20+10:00",
+                "updated": "2023-09-19T17:41:15+10:00",
+                "id": "ESTA:230919131",
+                "location": "Bendoc-Orbost Rd, Bendoc",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.7736557403002,
+                    -37.24861112200919
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Forest Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-09-19T17:27:00+10:00",
+                "updated": "2023-09-19T17:41:00+10:00",
+                "id": "ESTA:230919239",
+                "location": "Forest Rd, Lara",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.39484335967688,
+                    -38.029276144188174
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sunshine West",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2023-09-19T17:40:12+10:00",
+                "updated": "2023-09-19T17:43:09+10:00",
+                "id": "ESTA:230919249",
+                "location": "Drinkwater Cr, Sunshine West",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.813468066111,
+                    -37.797078121000276
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Indigo Cl",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-09-19T17:32:00+10:00",
+                "updated": "2023-09-19T17:44:00+10:00",
+                "id": "ESTA:230919243",
+                "location": "Indigo Cl, Greensborough",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.11694326605877,
+                    -37.68035536630109
                 ]
             }
         },
@@ -679,197 +837,63 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2023-09-19T16:35:00+10:00",
-                "updated": "2023-09-19T17:17:00+10:00",
-                "id": "ESTA:230952319",
-                "location": "Drouin",
+                "status": "complete",
+                "created": "2023-09-19T17:07:00+10:00",
+                "updated": "2023-09-19T17:46:00+10:00",
+                "id": "ESTA:230952321",
+                "location": "Lorne",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.85752232584608,
-                    -38.136404148737526
+                    143.97597464736242,
+                    -38.544287649906664
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Beaumaris",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Pine Lodge",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2023-09-19T17:15:40+10:00",
-                "updated": "2023-09-19T17:25:10+10:00",
-                "id": "ESTA:230919230",
-                "location": "Oak St, Beaumaris",
-                "title": "incident: fire"
+                "created": "2023-09-19T14:00:54+10:00",
+                "updated": "2023-09-19T17:46:45+10:00",
+                "id": "ESTA:230919063",
+                "location": "Sidebottoms Rd, Pine Lodge",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.04098103590607,
-                    -37.98585282302935
+                    145.55925646796078,
+                    -36.35159702895171
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Capel Sound",
+                "sourceTitle": "Docklands",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2023-09-19T17:13:31+10:00",
-                "updated": "2023-09-19T17:26:02+10:00",
-                "id": "ESTA:230919229",
-                "location": "Pt Nepean Rd, Capel Sound",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.8791519058205,
-                    -38.362258044770684
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lara",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2023-09-19T17:25:48+10:00",
-                "updated": "2023-09-19T17:29:47+10:00",
-                "id": "ESTA:230919239",
-                "location": "Forest Rd, Lara",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.39485507040126,
-                    -38.02926505225043
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hobbs Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2023-09-18T12:44:00+10:00",
-                "updated": "2023-09-19T14:33:00+10:00",
-                "id": "ESTA:230917933",
-                "location": "Hobbs Rd, Bonang",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.69891118235458,
-                    -37.05984477361474
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Greensborough",
-                "category": "fire",
-                "subcategory": "building fire",
+                "subcategory": "fire",
                 "status": "responding",
-                "created": "2023-09-19T17:30:47+10:00",
-                "updated": "2023-09-19T17:31:44+10:00",
-                "id": "ESTA:230919243",
-                "location": "Indigo Cl, Greensborough",
+                "created": "2023-09-19T17:47:31+10:00",
+                "updated": "2023-09-19T17:48:57+10:00",
+                "id": "ESTA:230919252",
+                "location": "Bourke St, Docklands",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1169532902068,
-                    -37.6803471777154
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Balaclava Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2023-09-19T17:19:00+10:00",
-                "updated": "2023-09-19T17:19:00+10:00",
-                "id": "ESTA:230919233",
-                "location": "Balaclava Rd, Beechworth",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.69652454668267,
-                    -36.350545886689886
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mallacoota",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2023-09-19T17:29:47+10:00",
-                "updated": "2023-09-19T17:33:45+10:00",
-                "id": "ESTA:230919242",
-                "location": "Allan Dr, Mallacoota",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.7588896306657,
-                    -37.5568588339195
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beechworth",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2023-09-19T17:31:56+10:00",
-                "updated": "2023-09-19T17:34:05+10:00",
-                "id": "ESTA:230919244",
-                "location": "Malakoff Rd, Beechworth",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.66927958370255,
-                    -36.351123183183326
+                    144.94299452028957,
+                    -37.81984910041347
                 ]
             }
         },
@@ -6802,28 +6826,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kywong Howlong Rd, Brocklesby",
-                "category": "transport",
-                "subcategory": "motor vehicle accident",
-                "status": "under control",
-                "created": "2023-09-19T12:58:00+10:00",
-                "updated": "2023-09-19T12:58:00+10:00",
-                "id": "2023-09-19T12:58:00.0000000:516131",
-                "location": "2449 Kywong Howlong Rd, Brocklesby 2642",
-                "title": "incident: transport"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.705184936,
-                    -35.776039123
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -6900,145 +6902,6 @@
                         "coordinates": [
                             [
                                 [
-                                    149.2495,
-                                    -37.1856
-                                ],
-                                [
-                                    149.251,
-                                    -37.1859
-                                ],
-                                [
-                                    149.2521,
-                                    -37.1858
-                                ],
-                                [
-                                    149.2546,
-                                    -37.1862
-                                ],
-                                [
-                                    149.2549,
-                                    -37.1865
-                                ],
-                                [
-                                    149.2556,
-                                    -37.1864
-                                ],
-                                [
-                                    149.2561,
-                                    -37.1861
-                                ],
-                                [
-                                    149.2584,
-                                    -37.1861
-                                ],
-                                [
-                                    149.2594,
-                                    -37.1862
-                                ],
-                                [
-                                    149.2595,
-                                    -37.1874
-                                ],
-                                [
-                                    149.2586,
-                                    -37.1883
-                                ],
-                                [
-                                    149.2579,
-                                    -37.1884
-                                ],
-                                [
-                                    149.2586,
-                                    -37.1887
-                                ],
-                                [
-                                    149.2563,
-                                    -37.1895
-                                ],
-                                [
-                                    149.2557,
-                                    -37.1924
-                                ],
-                                [
-                                    149.2542,
-                                    -37.1927
-                                ],
-                                [
-                                    149.2524,
-                                    -37.1912
-                                ],
-                                [
-                                    149.2515,
-                                    -37.1914
-                                ],
-                                [
-                                    149.2499,
-                                    -37.1936
-                                ],
-                                [
-                                    149.2491,
-                                    -37.1928
-                                ],
-                                [
-                                    149.2476,
-                                    -37.1929
-                                ],
-                                [
-                                    149.246,
-                                    -37.1903
-                                ],
-                                [
-                                    149.2453,
-                                    -37.1905
-                                ],
-                                [
-                                    149.2453,
-                                    -37.19
-                                ],
-                                [
-                                    149.2431,
-                                    -37.1887
-                                ],
-                                [
-                                    149.2417,
-                                    -37.1887
-                                ],
-                                [
-                                    149.2416,
-                                    -37.1868
-                                ],
-                                [
-                                    149.2413,
-                                    -37.186
-                                ],
-                                [
-                                    149.2404,
-                                    -37.1853
-                                ],
-                                [
-                                    149.24,
-                                    -37.1844
-                                ],
-                                [
-                                    149.2458,
-                                    -37.1845
-                                ],
-                                [
-                                    149.2476,
-                                    -37.1849
-                                ],
-                                [
-                                    149.2495,
-                                    -37.1856
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
                                     149.2326,
                                     -37.1766
                                 ],
@@ -7085,6 +6948,108 @@
                                 [
                                     149.2326,
                                     -37.1766
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.2518,
+                                    -37.1858
+                                ],
+                                [
+                                    149.2546,
+                                    -37.1862
+                                ],
+                                [
+                                    149.2549,
+                                    -37.1865
+                                ],
+                                [
+                                    149.2556,
+                                    -37.1864
+                                ],
+                                [
+                                    149.2561,
+                                    -37.1861
+                                ],
+                                [
+                                    149.2584,
+                                    -37.1861
+                                ],
+                                [
+                                    149.2594,
+                                    -37.1862
+                                ],
+                                [
+                                    149.2595,
+                                    -37.1874
+                                ],
+                                [
+                                    149.2586,
+                                    -37.1883
+                                ],
+                                [
+                                    149.2576,
+                                    -37.1884
+                                ],
+                                [
+                                    149.256,
+                                    -37.1878
+                                ],
+                                [
+                                    149.254,
+                                    -37.1868
+                                ],
+                                [
+                                    149.2517,
+                                    -37.1865
+                                ],
+                                [
+                                    149.2518,
+                                    -37.1858
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.2381,
+                                    -37.1802
+                                ],
+                                [
+                                    149.2383,
+                                    -37.1801
+                                ],
+                                [
+                                    149.2384,
+                                    -37.1803
+                                ],
+                                [
+                                    149.2384,
+                                    -37.1806
+                                ],
+                                [
+                                    149.238,
+                                    -37.1806
+                                ],
+                                [
+                                    149.2379,
+                                    -37.1805
+                                ],
+                                [
+                                    149.2379,
+                                    -37.1803
+                                ],
+                                [
+                                    149.2381,
+                                    -37.1802
                                 ]
                             ]
                         ]
@@ -7205,6 +7170,145 @@
                         "coordinates": [
                             [
                                 [
+                                    149.2495,
+                                    -37.1856
+                                ],
+                                [
+                                    149.251,
+                                    -37.1859
+                                ],
+                                [
+                                    149.2521,
+                                    -37.1858
+                                ],
+                                [
+                                    149.2546,
+                                    -37.1862
+                                ],
+                                [
+                                    149.2549,
+                                    -37.1865
+                                ],
+                                [
+                                    149.2556,
+                                    -37.1864
+                                ],
+                                [
+                                    149.2561,
+                                    -37.1861
+                                ],
+                                [
+                                    149.2584,
+                                    -37.1861
+                                ],
+                                [
+                                    149.2594,
+                                    -37.1862
+                                ],
+                                [
+                                    149.2595,
+                                    -37.1874
+                                ],
+                                [
+                                    149.2586,
+                                    -37.1883
+                                ],
+                                [
+                                    149.2579,
+                                    -37.1884
+                                ],
+                                [
+                                    149.2586,
+                                    -37.1887
+                                ],
+                                [
+                                    149.2563,
+                                    -37.1895
+                                ],
+                                [
+                                    149.2557,
+                                    -37.1924
+                                ],
+                                [
+                                    149.2542,
+                                    -37.1927
+                                ],
+                                [
+                                    149.2524,
+                                    -37.1912
+                                ],
+                                [
+                                    149.2515,
+                                    -37.1914
+                                ],
+                                [
+                                    149.2499,
+                                    -37.1936
+                                ],
+                                [
+                                    149.2491,
+                                    -37.1928
+                                ],
+                                [
+                                    149.2476,
+                                    -37.1929
+                                ],
+                                [
+                                    149.246,
+                                    -37.1903
+                                ],
+                                [
+                                    149.2453,
+                                    -37.1905
+                                ],
+                                [
+                                    149.2453,
+                                    -37.19
+                                ],
+                                [
+                                    149.2431,
+                                    -37.1887
+                                ],
+                                [
+                                    149.2417,
+                                    -37.1887
+                                ],
+                                [
+                                    149.2416,
+                                    -37.1868
+                                ],
+                                [
+                                    149.2413,
+                                    -37.186
+                                ],
+                                [
+                                    149.2404,
+                                    -37.1853
+                                ],
+                                [
+                                    149.24,
+                                    -37.1844
+                                ],
+                                [
+                                    149.2458,
+                                    -37.1845
+                                ],
+                                [
+                                    149.2476,
+                                    -37.1849
+                                ],
+                                [
+                                    149.2495,
+                                    -37.1856
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
                                     149.2326,
                                     -37.1766
                                 ],
@@ -7390,108 +7494,6 @@
                                 [
                                     149.2495,
                                     -37.1856
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.2518,
-                                    -37.1858
-                                ],
-                                [
-                                    149.2546,
-                                    -37.1862
-                                ],
-                                [
-                                    149.2549,
-                                    -37.1865
-                                ],
-                                [
-                                    149.2556,
-                                    -37.1864
-                                ],
-                                [
-                                    149.2561,
-                                    -37.1861
-                                ],
-                                [
-                                    149.2584,
-                                    -37.1861
-                                ],
-                                [
-                                    149.2594,
-                                    -37.1862
-                                ],
-                                [
-                                    149.2595,
-                                    -37.1874
-                                ],
-                                [
-                                    149.2586,
-                                    -37.1883
-                                ],
-                                [
-                                    149.2576,
-                                    -37.1884
-                                ],
-                                [
-                                    149.256,
-                                    -37.1878
-                                ],
-                                [
-                                    149.254,
-                                    -37.1868
-                                ],
-                                [
-                                    149.2517,
-                                    -37.1865
-                                ],
-                                [
-                                    149.2518,
-                                    -37.1858
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.2381,
-                                    -37.1802
-                                ],
-                                [
-                                    149.2383,
-                                    -37.1801
-                                ],
-                                [
-                                    149.2384,
-                                    -37.1803
-                                ],
-                                [
-                                    149.2384,
-                                    -37.1806
-                                ],
-                                [
-                                    149.238,
-                                    -37.1806
-                                ],
-                                [
-                                    149.2379,
-                                    -37.1805
-                                ],
-                                [
-                                    149.2379,
-                                    -37.1803
-                                ],
-                                [
-                                    149.2381,
-                                    -37.1802
                                 ]
                             ]
                         ]
@@ -8871,23 +8873,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ferntree Gully Rd",
-                "category": "other",
-                "subcategory": "other",
+                "sourceTitle": "Hobbs Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2023-09-19T15:23:00+10:00",
-                "updated": "2023-09-19T16:25:00+10:00",
-                "id": "ESTA:230919143",
-                "location": "Ferntree Gully Rd, Ferntree Gully",
+                "created": "2023-09-18T12:44:00+10:00",
+                "updated": "2023-09-19T17:31:00+10:00",
+                "id": "ESTA:230917933",
+                "location": "Hobbs Rd, Bonang",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.27618240144216,
-                    -37.884168920824806
+                    148.69891118235458,
+                    -37.05984477361474
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Balaclava Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2023-09-19T17:19:00+10:00",
+                "updated": "2023-09-19T17:33:00+10:00",
+                "id": "ESTA:230919233",
+                "location": "Balaclava Rd, Beechworth",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.69652454668267,
+                    -36.350545886689886
                 ]
             }
         },
@@ -8910,28 +8935,6 @@
                 "coordinates": [
                     144.74494401538746,
                     -37.888867431869265
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2023-09-19T17:07:00+10:00",
-                "updated": "2023-09-19T17:21:00+10:00",
-                "id": "ESTA:230952321",
-                "location": "Lorne",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.97597464736242,
-                    -38.544287649906664
                 ]
             }
         }
