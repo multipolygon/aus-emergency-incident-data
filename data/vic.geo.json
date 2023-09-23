@@ -163,73 +163,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2023-09-23T23:00:00+10:00",
-                "updated": "2023-09-23T23:01:00+10:00",
-                "id": "ESTA:230952522",
-                "location": "Noble Park",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.18485535435795,
-                    -37.962740373662655
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "flooding",
-                "subcategory": "flooding",
-                "status": "complete",
-                "created": "2023-09-23T22:42:00+10:00",
-                "updated": "2023-09-23T23:04:00+10:00",
-                "id": "ESTA:230952520",
-                "location": "St Kilda",
-                "title": "incident: flooding"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97856528707365,
-                    -37.8594272122175
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Evans St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2023-09-23T23:12:00+10:00",
-                "updated": "2023-09-23T23:13:00+10:00",
-                "id": "ESTA:230925719",
-                "location": "Evans St, Sunbury",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.72823587287493,
-                    -37.58207348590766
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -449,6 +382,60 @@
                         "coordinates": [
                             [
                                 [
+                                    149.2557,
+                                    -37.1715
+                                ],
+                                [
+                                    149.2554,
+                                    -37.1712
+                                ],
+                                [
+                                    149.2556,
+                                    -37.1711
+                                ],
+                                [
+                                    149.2557,
+                                    -37.1715
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.2551,
+                                    -37.1711
+                                ],
+                                [
+                                    149.255,
+                                    -37.1712
+                                ],
+                                [
+                                    149.255,
+                                    -37.1713
+                                ],
+                                [
+                                    149.2549,
+                                    -37.1712
+                                ],
+                                [
+                                    149.2551,
+                                    -37.1711
+                                ],
+                                [
+                                    149.2551,
+                                    -37.1711
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
                                     149.2551,
                                     -37.1712
                                 ],
@@ -550,60 +537,6 @@
                                 [
                                     149.255,
                                     -37.1713
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.2557,
-                                    -37.1715
-                                ],
-                                [
-                                    149.2554,
-                                    -37.1712
-                                ],
-                                [
-                                    149.2556,
-                                    -37.1711
-                                ],
-                                [
-                                    149.2557,
-                                    -37.1715
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.2551,
-                                    -37.1711
-                                ],
-                                [
-                                    149.255,
-                                    -37.1712
-                                ],
-                                [
-                                    149.255,
-                                    -37.1713
-                                ],
-                                [
-                                    149.2549,
-                                    -37.1712
-                                ],
-                                [
-                                    149.2551,
-                                    -37.1711
-                                ],
-                                [
-                                    149.2551,
-                                    -37.1711
                                 ]
                             ]
                         ]
@@ -3090,6 +3023,51 @@
                 "location": "Lodge St, Noble Park",
                 "size": "Small",
                 "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18485535435795,
+                    -37.962740373662655
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Evans St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-09-23T23:12:00+10:00",
+                "updated": "2023-09-23T23:21:00+10:00",
+                "id": "ESTA:230925719",
+                "location": "Evans St, Sunbury",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.72823587287493,
+                    -37.58207348590766
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-09-23T23:00:00+10:00",
+                "updated": "2023-09-23T23:01:00+10:00",
+                "id": "ESTA:230952522",
+                "location": "Noble Park",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
