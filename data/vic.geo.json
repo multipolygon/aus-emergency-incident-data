@@ -2,6 +2,60 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            142.20232383252647,
+                            -36.716651914981114
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    142.19971672536607,
+                                    -36.715482281021515
+                                ],
+                                [
+                                    142.20486656667413,
+                                    -36.7154306786849
+                                ],
+                                [
+                                    142.20493093968688,
+                                    -36.717821550546674
+                                ],
+                                [
+                                    142.19971672536607,
+                                    -36.717873151277324
+                                ],
+                                [
+                                    142.19971672536607,
+                                    -36.715482281021515
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "cbrne",
+                "status": "minor",
+                "created": "2023-09-28T15:51:21+10:00",
+                "updated": "2023-09-28T15:51:22+10:00",
+                "id": "30050",
+                "location": "Horsham",
+                "title": "warning: advice"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Beaufort - Box Tk",
@@ -234,23 +288,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Grandview Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2023-09-28T15:11:00+10:00",
-                "updated": "2023-09-28T15:36:00+10:00",
-                "id": "ESTA:230932040",
-                "location": "Grandview Rd, Torquay",
+                "sourceTitle": "Saxton St",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2023-09-28T14:51:00+10:00",
+                "updated": "2023-09-28T15:47:00+10:00",
+                "id": "ESTA:230932010",
+                "location": "Saxton St, Numurkah",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.31978352694296,
-                    -38.321422265474084
+                    145.4322109165815,
+                    -36.08821931980389
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2023-09-28T15:05:00+10:00",
+                "updated": "2023-09-28T16:01:00+10:00",
+                "id": "ESTA:230932032",
+                "location": "Horsham",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.20231310368666,
+                    -36.71665192468766
                 ]
             }
         },
@@ -280,135 +357,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Minterns Rd",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2023-09-28T14:52:00+10:00",
-                "updated": "2023-09-28T15:39:00+10:00",
-                "id": "ESTA:230932014",
-                "location": "Minterns Rd, Fawcett",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.71834218244726,
-                    -37.07258728394205
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pascoe Vale South",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2023-09-28T14:52:40+10:00",
-                "updated": "2023-09-28T15:40:19+10:00",
-                "id": "ESTA:230932022",
-                "location": "Pascoe Vale South",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93375229745405,
-                    -37.74509074881442
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hogans Rd",
-                "category": "fire",
+                "sourceTitle": "Neds Peak Trk",
+                "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2023-09-28T15:41:00+10:00",
-                "updated": "2023-09-28T15:41:00+10:00",
-                "id": "ESTA:230932086",
-                "location": "Hogans Rd, Tarneit",
+                "created": "2023-09-28T16:09:00+10:00",
+                "updated": "2023-09-28T16:09:00+10:00",
+                "id": "ESTA:230932136",
+                "location": "Neds Peak Trk, Taggerty",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.6530495322934,
-                    -37.85981134768764
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Oakleigh",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2023-09-28T15:35:32+10:00",
-                "updated": "2023-09-28T15:45:44+10:00",
-                "id": "ESTA:230932081",
-                "location": "Haughton Rd, Oakleigh",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1023640530991,
-                    -37.91101698379229
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Cooriemungle Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2023-09-28T15:46:00+10:00",
-                "updated": "2023-09-28T15:46:00+10:00",
-                "id": "ESTA:230932098",
-                "location": "Cooriemungle Rd, Cooriemungle",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.14896088919804,
-                    -38.52537695576851
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Heidelberg",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2023-09-28T15:43:45+10:00",
-                "updated": "2023-09-28T15:46:54+10:00",
-                "id": "ESTA:230932095",
-                "location": "Darebin St, Heidelberg",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.06598615553995,
-                    -37.75434188811629
+                    145.73858740014657,
+                    -37.367140279559045
                 ]
             }
         },
@@ -416,67 +381,90 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2023-09-28T15:05:00+10:00",
-                "updated": "2023-09-28T15:47:00+10:00",
-                "id": "ESTA:230932032",
-                "location": "Horsham",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.20231310368666,
-                    -36.71665192468766
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Saxton St",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2023-09-28T14:51:00+10:00",
-                "updated": "2023-09-28T15:47:00+10:00",
-                "id": "ESTA:230932010",
-                "location": "Saxton St, Numurkah",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.4322109165815,
-                    -36.08821931980389
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gladstone Park",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2023-09-28T15:47:07+10:00",
-                "updated": "2023-09-28T15:48:44+10:00",
-                "id": "ESTA:230932100",
-                "location": "Carrick Dr, Gladstone Park",
+                "created": "2023-09-28T16:05:00+10:00",
+                "updated": "2023-09-28T16:05:00+10:00",
+                "id": "ESTA:230932132",
+                "location": "Armstrong Creek",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.89896105716159,
-                    -37.687149544303175
+                    144.38130085262287,
+                    -38.24200887211572
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "St Albans",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-09-28T16:10:54+10:00",
+                "updated": "2023-09-28T16:13:01+10:00",
+                "id": "ESTA:230932144",
+                "location": "St Albans",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.81711245730992,
+                    -37.743138804689806
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "V Schultzs Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2023-09-28T16:11:00+10:00",
+                "updated": "2023-09-28T16:11:00+10:00",
+                "id": "ESTA:230932138",
+                "location": "V Schultzs Rd, Murtoa",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.45099142376256,
+                    -36.54605454148485
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Atherton St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-09-28T16:12:00+10:00",
+                "updated": "2023-09-28T16:12:00+10:00",
+                "id": "ESTA:230932140",
+                "location": "Atherton St, Armstrong Creek",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3811794830004,
+                    -38.241889028159164
                 ]
             }
         },
@@ -1213,6 +1201,49 @@
                         "coordinates": [
                             [
                                 [
+                                    149.168,
+                                    -37.1702
+                                ],
+                                [
+                                    149.169,
+                                    -37.1702
+                                ],
+                                [
+                                    149.1729,
+                                    -37.1693
+                                ],
+                                [
+                                    149.1724,
+                                    -37.1704
+                                ],
+                                [
+                                    149.1725,
+                                    -37.1716
+                                ],
+                                [
+                                    149.1706,
+                                    -37.1718
+                                ],
+                                [
+                                    149.1695,
+                                    -37.1716
+                                ],
+                                [
+                                    149.1681,
+                                    -37.1723
+                                ],
+                                [
+                                    149.168,
+                                    -37.1702
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
                                     149.2551,
                                     -37.1711
                                 ],
@@ -1333,146 +1364,6 @@
                         "coordinates": [
                             [
                                 [
-                                    149.255,
-                                    -37.1713
-                                ],
-                                [
-                                    149.2548,
-                                    -37.1713
-                                ],
-                                [
-                                    149.2549,
-                                    -37.1713
-                                ],
-                                [
-                                    149.255,
-                                    -37.1713
-                                ],
-                                [
-                                    149.255,
-                                    -37.1713
-                                ],
-                                [
-                                    149.255,
-                                    -37.1713
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.168,
-                                    -37.1702
-                                ],
-                                [
-                                    149.169,
-                                    -37.1702
-                                ],
-                                [
-                                    149.1729,
-                                    -37.1693
-                                ],
-                                [
-                                    149.1724,
-                                    -37.1704
-                                ],
-                                [
-                                    149.1725,
-                                    -37.1716
-                                ],
-                                [
-                                    149.1706,
-                                    -37.1718
-                                ],
-                                [
-                                    149.1695,
-                                    -37.1716
-                                ],
-                                [
-                                    149.1681,
-                                    -37.1723
-                                ],
-                                [
-                                    149.168,
-                                    -37.1702
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.2558,
-                                    -37.1723
-                                ],
-                                [
-                                    149.2557,
-                                    -37.1715
-                                ],
-                                [
-                                    149.2561,
-                                    -37.172
-                                ],
-                                [
-                                    149.2561,
-                                    -37.1729
-                                ],
-                                [
-                                    149.2558,
-                                    -37.1723
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    149.2317,
-                                    -37.181
-                                ],
-                                [
-                                    149.2313,
-                                    -37.1823
-                                ],
-                                [
-                                    149.2343,
-                                    -37.1874
-                                ],
-                                [
-                                    149.2365,
-                                    -37.1869
-                                ],
-                                [
-                                    149.2362,
-                                    -37.1869
-                                ],
-                                [
-                                    149.2391,
-                                    -37.1885
-                                ],
-                                [
-                                    149.2406,
-                                    -37.1886
-                                ],
-                                [
-                                    149.2317,
-                                    -37.181
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
                                     149.2551,
                                     -37.1712
                                 ],
@@ -1543,6 +1434,103 @@
                                 [
                                     149.2551,
                                     -37.1712
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.255,
+                                    -37.1713
+                                ],
+                                [
+                                    149.2548,
+                                    -37.1713
+                                ],
+                                [
+                                    149.2549,
+                                    -37.1713
+                                ],
+                                [
+                                    149.255,
+                                    -37.1713
+                                ],
+                                [
+                                    149.255,
+                                    -37.1713
+                                ],
+                                [
+                                    149.255,
+                                    -37.1713
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.2558,
+                                    -37.1723
+                                ],
+                                [
+                                    149.2557,
+                                    -37.1715
+                                ],
+                                [
+                                    149.2561,
+                                    -37.172
+                                ],
+                                [
+                                    149.2561,
+                                    -37.1729
+                                ],
+                                [
+                                    149.2558,
+                                    -37.1723
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    149.2317,
+                                    -37.181
+                                ],
+                                [
+                                    149.2313,
+                                    -37.1823
+                                ],
+                                [
+                                    149.2343,
+                                    -37.1874
+                                ],
+                                [
+                                    149.2365,
+                                    -37.1869
+                                ],
+                                [
+                                    149.2362,
+                                    -37.1869
+                                ],
+                                [
+                                    149.2391,
+                                    -37.1885
+                                ],
+                                [
+                                    149.2406,
+                                    -37.1886
+                                ],
+                                [
+                                    149.2317,
+                                    -37.181
                                 ]
                             ]
                         ]
@@ -4390,29 +4378,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Marine Dr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-09-28T14:45:00+10:00",
-                "updated": "2023-09-28T15:00:00+10:00",
-                "id": "ESTA:230932002",
-                "location": "Marine Dr, Safety Beach",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98333108408218,
-                    -38.3214430839257
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Alan Pl",
                 "category": "other",
                 "subcategory": "other",
@@ -4505,12 +4470,127 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Minterns Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2023-09-28T14:52:00+10:00",
+                "updated": "2023-09-28T15:39:00+10:00",
+                "id": "ESTA:230932014",
+                "location": "Minterns Rd, Fawcett",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.71834218244726,
+                    -37.07258728394205
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cooriemungle Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2023-09-28T15:46:00+10:00",
+                "updated": "2023-09-28T15:46:00+10:00",
+                "id": "ESTA:230932098",
+                "location": "Cooriemungle Rd, Cooriemungle",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.14896088919804,
+                    -38.52537695576851
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cooriemungle Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-09-28T15:50:00+10:00",
+                "updated": "2023-09-28T15:50:00+10:00",
+                "id": "ESTA:230932105",
+                "location": "Cooriemungle Rd, Cooriemungle",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.14896088919804,
+                    -38.52537695576851
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hogans Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2023-09-28T15:41:00+10:00",
+                "updated": "2023-09-28T15:53:00+10:00",
+                "id": "ESTA:230932086",
+                "location": "Hogans Rd, Tarneit",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6530495322934,
+                    -37.85981134768764
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Grandview Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2023-09-28T15:11:00+10:00",
+                "updated": "2023-09-28T15:55:00+10:00",
+                "id": "ESTA:230932040",
+                "location": "Grandview Rd, Torquay",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.31978352694296,
+                    -38.321422265474084
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Learmonth St",
                 "category": "rescue",
                 "subcategory": "rescue",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2023-09-28T15:33:00+10:00",
-                "updated": "2023-09-28T15:34:00+10:00",
+                "updated": "2023-09-28T16:02:00+10:00",
                 "id": "ESTA:230932074",
                 "location": "Learmonth St, Alfredton",
                 "size": "Small",
@@ -4531,9 +4611,9 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2023-09-28T15:44:00+10:00",
-                "updated": "2023-09-28T15:44:00+10:00",
+                "updated": "2023-09-28T16:07:00+10:00",
                 "id": "ESTA:230952680",
                 "location": "Yarraville",
                 "title": "incident: tree down"
