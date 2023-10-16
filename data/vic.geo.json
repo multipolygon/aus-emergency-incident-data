@@ -1487,23 +1487,44 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cressy Rd",
-                "category": "fire",
-                "subcategory": "other",
+                "sourceTitle": "Eynesbury",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2023-10-17T09:29:00+11:00",
-                "updated": "2023-10-17T10:01:00+11:00",
-                "id": "ESTA:231016739",
-                "location": "Cressy Rd, Winchelsea",
-                "size": "Small",
-                "title": "incident: fire"
+                "created": "2023-10-17T08:08:49+11:00",
+                "updated": "2023-10-17T10:08:27+11:00",
+                "id": "ESTA:231016646",
+                "location": "Eynesbury",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.93231459958614,
-                    -38.220540642412
+                    144.54894729152358,
+                    -37.74458846060863
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Heidelberg Heights",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2023-10-17T10:17:40+11:00",
+                "updated": "2023-10-17T10:21:54+11:00",
+                "id": "ESTA:231016800",
+                "location": "Southern Rd, Heidelberg Heights",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05605456568208,
+                    -37.74314283091403
                 ]
             }
         },
@@ -1513,64 +1534,19 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "complete",
-                "created": "2023-10-17T08:29:00+11:00",
-                "updated": "2023-10-17T10:06:00+11:00",
-                "id": "ESTA:231051812",
-                "location": "Paradise Beach",
+                "status": "request for assistance",
+                "created": "2023-10-17T10:21:00+11:00",
+                "updated": "2023-10-17T10:21:00+11:00",
+                "id": "ESTA:231051821",
+                "location": "Carrum Downs",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.41282681239844,
-                    -38.19900551378273
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2023-10-17T08:09:00+11:00",
-                "updated": "2023-10-17T09:14:00+11:00",
-                "id": "ESTA:231016646",
-                "location": "Eynesbury",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.54893309183223,
-                    -37.74459011502446
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hawthorn",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2023-10-17T10:08:33+11:00",
-                "updated": "2023-10-17T10:09:19+11:00",
-                "id": "ESTA:231016783",
-                "location": "Wood St, Hawthorn",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.01837125887505,
-                    -37.820199610714475
+                    145.17784622360037,
+                    -38.11020817836524
                 ]
             }
         },
@@ -18861,29 +18837,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Victoria Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2023-10-16T13:44:00+11:00",
-                "updated": "2023-10-17T08:04:00+11:00",
-                "id": "ESTA:231016327",
-                "location": "Victoria Rd, Yering",
-                "size": "Medium",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34573747150532,
-                    -37.695233394381056
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -18901,6 +18854,52 @@
                 "coordinates": [
                     145.41457131417346,
                     -38.21406970514144
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cressy Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-10-17T09:29:00+11:00",
+                "updated": "2023-10-17T10:01:00+11:00",
+                "id": "ESTA:231016739",
+                "location": "Cressy Rd, Winchelsea",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.93231459958614,
+                    -38.220540642412
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Victoria Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2023-10-16T13:44:00+11:00",
+                "updated": "2023-10-17T10:07:00+11:00",
+                "id": "ESTA:231016327",
+                "location": "Victoria Rd, Yering",
+                "size": "Medium",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34573747150532,
+                    -37.695233394381056
                 ]
             }
         },
