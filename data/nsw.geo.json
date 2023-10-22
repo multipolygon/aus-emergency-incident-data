@@ -790,10 +790,154 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.45549011200012,
-                    -32.51243591299993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.45549011200012,
+                            -32.51243591299993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.454458487,
+                                            -32.519878529
+                                        ],
+                                        [
+                                            150.454458487,
+                                            -32.5197833509999
+                                        ],
+                                        [
+                                            150.454458487,
+                                            -32.519711967
+                                        ],
+                                        [
+                                            150.454744022,
+                                            -32.51983094
+                                        ],
+                                        [
+                                            150.455148531,
+                                            -32.520021296
+                                        ],
+                                        [
+                                            150.45519612,
+                                            -32.5205447779999
+                                        ],
+                                        [
+                                            150.455743396,
+                                            -32.5209016969999
+                                        ],
+                                        [
+                                            150.457004511,
+                                            -32.5214013839999
+                                        ],
+                                        [
+                                            150.457765938,
+                                            -32.5215203569999
+                                        ],
+                                        [
+                                            150.458384597,
+                                            -32.5223531679999
+                                        ],
+                                        [
+                                            150.4579325,
+                                            -32.5239949959999
+                                        ],
+                                        [
+                                            150.457337635,
+                                            -32.5238522289999
+                                        ],
+                                        [
+                                            150.456528618,
+                                            -32.5236856669999
+                                        ],
+                                        [
+                                            150.456052725,
+                                            -32.5230194169999
+                                        ],
+                                        [
+                                            150.455124736,
+                                            -32.522733882
+                                        ],
+                                        [
+                                            150.454577461,
+                                            -32.522448347
+                                        ],
+                                        [
+                                            150.454077774,
+                                            -32.521615536
+                                        ],
+                                        [
+                                            150.454458487,
+                                            -32.519878529
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.454767817,
+                                            -32.519545404
+                                        ],
+                                        [
+                                            150.454482282,
+                                            -32.519474021
+                                        ],
+                                        [
+                                            150.454696433,
+                                            -32.518879155
+                                        ],
+                                        [
+                                            150.455624423,
+                                            -32.5185698249999
+                                        ],
+                                        [
+                                            150.456005137,
+                                            -32.518736388
+                                        ],
+                                        [
+                                            150.456052725,
+                                            -32.518998129
+                                        ],
+                                        [
+                                            150.455790985,
+                                            -32.519140896
+                                        ],
+                                        [
+                                            150.455434066,
+                                            -32.5190695119999
+                                        ],
+                                        [
+                                            150.455267503,
+                                            -32.5195691989999
+                                        ],
+                                        [
+                                            150.455077146,
+                                            -32.519688173
+                                        ],
+                                        [
+                                            150.454458487,
+                                            -32.519497816
+                                        ],
+                                        [
+                                            150.454767817,
+                                            -32.519545404
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -13145,13 +13289,13 @@
                 "sourceTitle": "DENMAN RD, DENMAN",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521107",
-                "created": "2023-10-22T01:58:00+11:00",
-                "updated": "2023-10-22T12:58:00+11:00",
+                "created": "2023-10-22T02:25:00+11:00",
+                "updated": "2023-10-22T13:25:00+11:00",
                 "location": "1952 DENMAN RD, DENMAN 2328",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1952 DENMAN RD, DENMAN 2328 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2023 12:58",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1952 DENMAN RD, DENMAN 2328 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2023 13:25",
                 "title": "incident: fire"
             }
         },
@@ -15589,30 +15733,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.22260600000004,
-                    -33.89301999899993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Macarthur Av, Moore Park",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521108",
-                "created": "2023-10-22T02:18:00+11:00",
-                "updated": "2023-10-22T13:18:00+11:00",
-                "location": "Macarthur Av, Moore Park, NSW 2021",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Macarthur Av, Moore Park, NSW 2021 <br />COUNCIL AREA: Sydney <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 Oct 2023 13:18",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -16044,11 +16164,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/520451",
-                "created": "2023-10-21T05:25:00+11:00",
-                "updated": "2023-10-21T16:25:00+11:00",
+                "created": "2023-10-22T01:50:00+11:00",
+                "updated": "2023-10-22T12:50:00+11:00",
                 "location": "CRESCENT HEAD RD, CRESCENT HEAD 2440",
                 "size": 3,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: CRESCENT HEAD RD, CRESCENT HEAD 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Oct 2023 16:25",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: CRESCENT HEAD RD, CRESCENT HEAD 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2023 12:50",
                 "title": "incident: fire"
             }
         },
@@ -17928,6 +18048,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.26113891600005,
+                    -31.40424537599995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "OXLEY HWY, MOUNT SEAVIEW",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521110",
+                "created": "2023-10-22T02:17:00+11:00",
+                "updated": "2023-10-22T13:17:00+11:00",
+                "location": "OXLEY HWY, MOUNT SEAVIEW 2446",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: OXLEY HWY, MOUNT SEAVIEW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2023 13:17",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -18051,6 +18195,61 @@
                                 "coordinates": [
                                     [
                                         [
+                                            153.063009593,
+                                            -30.0625107609999
+                                        ],
+                                        [
+                                            153.063663945,
+                                            -30.0691732519999
+                                        ],
+                                        [
+                                            153.058310157,
+                                            -30.0681619809999
+                                        ],
+                                        [
+                                            153.05569275,
+                                            -30.068816333
+                                        ],
+                                        [
+                                            153.05450302,
+                                            -30.067567116
+                                        ],
+                                        [
+                                            153.052064072,
+                                            -30.067567116
+                                        ],
+                                        [
+                                            153.051826126,
+                                            -30.066674818
+                                        ],
+                                        [
+                                            153.052420992,
+                                            -30.065247142
+                                        ],
+                                        [
+                                            153.054086615,
+                                            -30.064592789
+                                        ],
+                                        [
+                                            153.055097885,
+                                            -30.064116897
+                                        ],
+                                        [
+                                            153.057417859,
+                                            -30.064533303
+                                        ],
+                                        [
+                                            153.063009593,
+                                            -30.0625107609999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             153.068174748,
                                             -30.068738648
                                         ],
@@ -18138,52 +18337,60 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.063009593,
-                                            -30.0625107609999
+                                            153.068613224,
+                                            -30.0505024129999
                                         ],
                                         [
-                                            153.063663945,
-                                            -30.0691732519999
+                                            153.07008849,
+                                            -30.0504786179999
                                         ],
                                         [
-                                            153.058310157,
-                                            -30.0681619809999
+                                            153.072230005,
+                                            -30.052643928
                                         ],
                                         [
-                                            153.05569275,
-                                            -30.068816333
+                                            153.074776028,
+                                            -30.053167409
                                         ],
                                         [
-                                            153.05450302,
-                                            -30.067567116
+                                            153.074823617,
+                                            -30.0545712919999
                                         ],
                                         [
-                                            153.052064072,
-                                            -30.067567116
+                                            153.073514914,
+                                            -30.0566652169999
                                         ],
                                         [
-                                            153.051826126,
-                                            -30.066674818
+                                            153.074109779,
+                                            -30.057474234
                                         ],
                                         [
-                                            153.052420992,
-                                            -30.065247142
+                                            153.07525192,
+                                            -30.058735348
                                         ],
                                         [
-                                            153.054086615,
-                                            -30.064592789
+                                            153.074395314,
+                                            -30.0599488739999
                                         ],
                                         [
-                                            153.055097885,
-                                            -30.064116897
+                                            153.071183042,
+                                            -30.0570459309999
                                         ],
                                         [
-                                            153.057417859,
-                                            -30.064533303
+                                            153.071992058,
+                                            -30.0549758
                                         ],
                                         [
-                                            153.063009593,
-                                            -30.0625107609999
+                                            153.070873712,
+                                            -30.0530722309999
+                                        ],
+                                        [
+                                            153.069493624,
+                                            -30.052334598
+                                        ],
+                                        [
+                                            153.068613224,
+                                            -30.0505024129999
                                         ]
                                     ]
                                 ]
@@ -18259,69 +18466,6 @@
                                         [
                                             153.087543561,
                                             -30.0619333889999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            153.068613224,
-                                            -30.0505024129999
-                                        ],
-                                        [
-                                            153.07008849,
-                                            -30.0504786179999
-                                        ],
-                                        [
-                                            153.072230005,
-                                            -30.052643928
-                                        ],
-                                        [
-                                            153.074776028,
-                                            -30.053167409
-                                        ],
-                                        [
-                                            153.074823617,
-                                            -30.0545712919999
-                                        ],
-                                        [
-                                            153.073514914,
-                                            -30.0566652169999
-                                        ],
-                                        [
-                                            153.074109779,
-                                            -30.057474234
-                                        ],
-                                        [
-                                            153.07525192,
-                                            -30.058735348
-                                        ],
-                                        [
-                                            153.074395314,
-                                            -30.0599488739999
-                                        ],
-                                        [
-                                            153.071183042,
-                                            -30.0570459309999
-                                        ],
-                                        [
-                                            153.071992058,
-                                            -30.0549758
-                                        ],
-                                        [
-                                            153.070873712,
-                                            -30.0530722309999
-                                        ],
-                                        [
-                                            153.069493624,
-                                            -30.052334598
-                                        ],
-                                        [
-                                            153.068613224,
-                                            -30.0505024129999
                                         ]
                                     ]
                                 ]
@@ -24894,6 +25038,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.78289794900002,
+                    -31.65023040699998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "LAURIETON WALKING TRK, NORTH BROTHER",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521111",
+                "created": "2023-10-22T02:24:00+11:00",
+                "updated": "2023-10-22T13:24:00+11:00",
+                "location": "LAURIETON WALKING TRK, NORTH BROTHER 2443",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: LAURIETON WALKING TRK, NORTH BROTHER 2443 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2023 13:24",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -25033,6 +25201,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SEATON ST, ARMIDALE 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2023 09:53",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.41603088400007,
+                    -34.46680831899994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "STURT HWY, CARRATHOOL",
+                "category": "other",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521109",
+                "created": "2023-10-22T02:13:00+11:00",
+                "updated": "2023-10-22T13:13:00+11:00",
+                "location": "STURT HWY, CARRATHOOL 2711",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: STURT HWY, CARRATHOOL 2711 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Oct 2023 13:13",
+                "title": "incident: other"
             }
         },
         {
