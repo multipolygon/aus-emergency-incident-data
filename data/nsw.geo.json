@@ -3261,10 +3261,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.12625122000009,
-                    -28.993129729999964
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.12625122000009,
+                            -28.993129729999964
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.12484615,
+                                            -28.9971819749999
+                                        ],
+                                        [
+                                            152.1263928,
+                                            -28.9970630019999
+                                        ],
+                                        [
+                                            152.127463557,
+                                            -28.9971224889999
+                                        ],
+                                        [
+                                            152.128653288,
+                                            -28.9980147869999
+                                        ],
+                                        [
+                                            152.128653288,
+                                            -28.9993234899999
+                                        ],
+                                        [
+                                            152.127879963,
+                                            -29.000096814
+                                        ],
+                                        [
+                                            152.125559989,
+                                            -29.000096814
+                                        ],
+                                        [
+                                            152.124370258,
+                                            -28.99950195
+                                        ],
+                                        [
+                                            152.123894366,
+                                            -28.998312219
+                                        ],
+                                        [
+                                            152.12484615,
+                                            -28.9971819749999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -12361,13 +12418,13 @@
                 "sourceTitle": "DUNCANS CREEK RD, WOOLOMIN",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521670",
-                "created": "2023-10-26T01:27:00+11:00",
-                "updated": "2023-10-26T12:27:00+11:00",
+                "created": "2023-10-26T03:08:00+11:00",
+                "updated": "2023-10-26T14:08:00+11:00",
                 "location": "75 DUNCANS CREEK RD, WOOLOMIN 2340",
-                "size": 26,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 75 DUNCANS CREEK RD, WOOLOMIN 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 26 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 12:27",
+                "size": 71,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 75 DUNCANS CREEK RD, WOOLOMIN 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 71 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 14:08",
                 "title": "incident: fire"
             }
         },
@@ -13154,30 +13211,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.82661438000002,
-                    -29.07443237299998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "FROST RD, WOODSIDE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521739",
-                "created": "2023-10-26T02:40:00+11:00",
-                "updated": "2023-10-26T13:40:00+11:00",
-                "location": "KURRAJONG 69 FROST RD, WOODSIDE 2372",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: KURRAJONG 69 FROST RD, WOODSIDE 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 13:40",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.82637023900008,
                     -29.07456779499995
                 ]
@@ -13194,6 +13227,30 @@
                 "location": "69 FROST RD, WOODSIDE 2372",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 69 FROST RD, WOODSIDE 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 13:14",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.82661438000002,
+                    -29.07443237299998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "FROST RD, WOODSIDE",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521739",
+                "created": "2023-10-26T02:40:00+11:00",
+                "updated": "2023-10-26T13:40:00+11:00",
+                "location": "KURRAJONG 69 FROST RD, WOODSIDE 2372",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: KURRAJONG 69 FROST RD, WOODSIDE 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 13:40",
                 "title": "incident: fire"
             }
         },
@@ -17193,11 +17250,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521605",
-                "created": "2023-10-26T00:20:00+11:00",
-                "updated": "2023-10-26T11:20:00+11:00",
+                "created": "2023-10-26T03:16:00+11:00",
+                "updated": "2023-10-26T14:16:00+11:00",
                 "location": "378 LINDSAY RD, LARNOOK 2480",
                 "size": 5,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 378 LINDSAY RD, LARNOOK 2480 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 11:20",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 378 LINDSAY RD, LARNOOK 2480 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 14:16",
                 "title": "incident: fire"
             }
         },
@@ -19654,10 +19711,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.0095062250001,
-                    -29.156444549999947
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.0095062250001,
+                            -29.156444549999947
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.008728452,
+                                            -29.153274618
+                                        ],
+                                        [
+                                            152.00997767,
+                                            -29.153334104
+                                        ],
+                                        [
+                                            152.010869967,
+                                            -29.1539884549999
+                                        ],
+                                        [
+                                            152.010215616,
+                                            -29.154999727
+                                        ],
+                                        [
+                                            152.00878794,
+                                            -29.155356645
+                                        ],
+                                        [
+                                            152.008312047,
+                                            -29.154999727
+                                        ],
+                                        [
+                                            152.007657695,
+                                            -29.1539289689999
+                                        ],
+                                        [
+                                            152.008728452,
+                                            -29.153274618
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -28334,6 +28440,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.23605346700003,
+                    -33.29247283899997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GEORGE DOWNES DR, CENTRAL MANGROVE",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521752",
+                "created": "2023-10-26T03:10:00+11:00",
+                "updated": "2023-10-26T14:10:00+11:00",
+                "location": "GEORGE DOWNES DR, CENTRAL MANGROVE 2250",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GEORGE DOWNES DR, CENTRAL MANGROVE 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 14:10",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.44844055200008,
                     -32.177001952999944
                 ]
@@ -28454,6 +28584,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.70307922300003,
+                    -34.240421294999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PEEL ST, WILTON",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521751",
+                "created": "2023-10-26T03:09:00+11:00",
+                "updated": "2023-10-26T14:09:00+11:00",
+                "location": "75 PEEL ST, WILTON 2571",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 75 PEEL ST, WILTON 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 14:09",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.16058349600007,
                     -29.808938980999983
                 ]
@@ -28470,30 +28624,6 @@
                 "location": "RIFLE RANGE RD, INVERELL 2360",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: RIFLE RANGE RD, INVERELL 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 11:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.99800109900002,
-                    -33.67950057999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "SEDGER RD, KENTHURST",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/521742",
-                "created": "2023-10-26T03:09:00+11:00",
-                "updated": "2023-10-26T14:09:00+11:00",
-                "location": "1-3 SEDGER RD, KENTHURST 2156",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1-3 SEDGER RD, KENTHURST 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Oct 2023 14:09",
                 "title": "incident: fire"
             }
         }
