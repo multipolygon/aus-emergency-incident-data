@@ -2,6 +2,60 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            143.22799030263658,
+                            -35.93778950044259
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    143.21700397451514,
+                                    -35.92722656843379
+                                ],
+                                [
+                                    143.24000659902504,
+                                    -35.92694855791346
+                                ],
+                                [
+                                    143.23949161489608,
+                                    -35.94835250772489
+                                ],
+                                [
+                                    143.21597400624813,
+                                    -35.94863044297171
+                                ],
+                                [
+                                    143.21700397451514,
+                                    -35.92722656843379
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2023-11-05T16:12:15+11:00",
+                "updated": "2023-11-05T16:12:15+11:00",
+                "id": "30903",
+                "location": "Dumosa",
+                "title": "warning: community update"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Talgarno - Talg-5 Murray River Rd",
@@ -67,28 +121,6 @@
                 "coordinates": [
                     142.13802,
                     -35.196251
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Geraghty Road, Coonawarra",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "going",
-                "created": "2023-11-05T15:21:00+11:00",
-                "updated": "2023-11-05T15:21:00+11:00",
-                "id": "1555635",
-                "location": "Geraghty Road, Coonawarra",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    140.79237704505,
-                    -37.2645215903705
                 ]
             }
         },
@@ -348,37 +380,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Nepean Hwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2023-11-05T16:00:00+11:00",
-                "updated": "2023-11-05T16:00:00+11:00",
-                "id": "ESTA:231106183",
-                "location": "Nepean Hwy, Aspendale",
-                "size": "Small",
-                "title": "incident: rescue"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-11-05T16:12:00+11:00",
+                "updated": "2023-11-05T16:15:00+11:00",
+                "id": "ESTA:231150190",
+                "location": "Curdievale",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.08816289841306,
-                    -38.009997549636
+                    142.87586850502115,
+                    -38.514312016236126
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Nepean Hwy",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2023-11-05T16:02:00+11:00",
-                "updated": "2023-11-05T16:02:00+11:00",
-                "id": "ESTA:231106184",
-                "location": "Nepean Hwy, Aspendale",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2023-11-05T15:18:00+11:00",
+                "updated": "2023-11-05T16:12:00+11:00",
+                "id": "ESTA:231106119",
+                "location": "Tanjil",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -386,8 +417,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.08816289841306,
-                    -38.009997549636
+                    146.11164985587158,
+                    -37.92491261540342
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Melissa Ct",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2023-11-05T14:23:00+11:00",
+                "updated": "2023-11-05T16:17:00+11:00",
+                "id": "ESTA:231106024",
+                "location": "Melissa Ct, Mckenzie Hill",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.1769237670794,
+                    -37.06568658867552
                 ]
             }
         },
@@ -397,9 +451,9 @@
                 "sourceTitle": "Somerton Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
+                "status": "under control",
                 "created": "2023-11-05T15:49:00+11:00",
-                "updated": "2023-11-05T15:50:00+11:00",
+                "updated": "2023-11-05T16:18:00+11:00",
                 "id": "ESTA:231106169",
                 "location": "Somerton Rd, Greenvale",
                 "size": "Small",
@@ -417,22 +471,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Nunawading",
+                "sourceTitle": "Burke Rd",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2023-11-05T15:50:56+11:00",
-                "updated": "2023-11-05T16:03:30+11:00",
-                "id": "ESTA:231106176",
-                "location": "Humphreys Av, Nunawading",
+                "created": "2023-11-05T13:09:00+11:00",
+                "updated": "2023-11-05T16:19:00+11:00",
+                "id": "ESTA:231105891",
+                "location": "Burke Rd, Ararat",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.18347882817912,
-                    -37.8166108582687
+                    142.9335208285588,
+                    -37.30332752465443
                 ]
             }
         },
@@ -444,7 +499,7 @@
                 "subcategory": "rescue road trap",
                 "status": "request for assistance",
                 "created": "2023-11-05T16:08:00+11:00",
-                "updated": "2023-11-05T16:09:00+11:00",
+                "updated": "2023-11-05T16:13:00+11:00",
                 "id": "ESTA:231106195",
                 "location": "Connewarre",
                 "size": "Small",
@@ -36079,52 +36134,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Burke Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2023-11-05T13:09:00+11:00",
-                "updated": "2023-11-05T14:03:00+11:00",
-                "id": "ESTA:231105891",
-                "location": "Burke Rd, Ararat",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.9335208285588,
-                    -37.30332752465443
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Melissa Ct",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "not yet under control",
-                "created": "2023-11-05T14:23:00+11:00",
-                "updated": "2023-11-05T14:23:00+11:00",
-                "id": "ESTA:231106024",
-                "location": "Melissa Ct, Mckenzie Hill",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.1769237670794,
-                    -37.06568658867552
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Linans Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -36148,29 +36157,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Frankston-Dandenong Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-11-05T14:53:00+11:00",
-                "updated": "2023-11-05T15:12:00+11:00",
-                "id": "ESTA:231106091",
-                "location": "Frankston-Dandenong Rd, Carrum Downs",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1692354328494,
-                    -38.10425276861496
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Calder Hwy",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -36188,52 +36174,6 @@
                 "coordinates": [
                     142.6246556830801,
                     -35.155636484760144
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hepburn-Newstead Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-11-05T14:39:00+11:00",
-                "updated": "2023-11-05T15:13:00+11:00",
-                "id": "ESTA:231106067",
-                "location": "Hepburn-Newstead Rd, Shepherds Flat",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.11105304891976,
-                    -37.27047053953902
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2023-11-05T14:31:00+11:00",
-                "updated": "2023-11-05T15:37:00+11:00",
-                "id": "ESTA:231106047",
-                "location": "Mcmahons Creek",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.7974619804354,
-                    -37.71702870065764
                 ]
             }
         },
@@ -36286,29 +36226,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "request for assistance",
-                "created": "2023-11-05T15:18:00+11:00",
-                "updated": "2023-11-05T15:47:00+11:00",
-                "id": "ESTA:231106119",
-                "location": "Tanjil",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.11164985587158,
-                    -37.92491261540342
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -36332,29 +36249,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Springbank Cct",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2023-11-05T15:50:00+11:00",
-                "updated": "2023-11-05T15:50:00+11:00",
-                "id": "ESTA:231106172",
-                "location": "Springbank Cct, Torquay",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.30965523916012,
-                    -38.33211043678161
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Noble St",
                 "category": "fire",
                 "subcategory": "other",
@@ -36372,6 +36266,51 @@
                 "coordinates": [
                     145.1617999203644,
                     -37.967068415187526
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nepean Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-11-05T16:00:00+11:00",
+                "updated": "2023-11-05T16:15:00+11:00",
+                "id": "ESTA:231106183",
+                "location": "Nepean Hwy, Aspendale",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.08816289841306,
+                    -38.009997549636
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2023-11-05T14:31:00+11:00",
+                "updated": "2023-11-05T15:37:00+11:00",
+                "id": "ESTA:231106047",
+                "location": "Mcmahons Creek",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.7974619804354,
+                    -37.71702870065764
                 ]
             }
         }
