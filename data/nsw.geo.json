@@ -1144,10 +1144,131 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.51452636700003,
-                    -30.221521377999977
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.51452636700003,
+                            -30.221521377999977
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.310019018,
+                                            -30.2605036589999
+                                        ],
+                                        [
+                                            151.309852456,
+                                            -30.260241918
+                                        ],
+                                        [
+                                            151.309685894,
+                                            -30.2590521879999
+                                        ],
+                                        [
+                                            151.309804866,
+                                            -30.2584097339999
+                                        ],
+                                        [
+                                            151.309804866,
+                                            -30.2575769219999
+                                        ],
+                                        [
+                                            151.310137991,
+                                            -30.257457949
+                                        ],
+                                        [
+                                            151.310447321,
+                                            -30.257315181
+                                        ],
+                                        [
+                                            151.310732857,
+                                            -30.2572437979999
+                                        ],
+                                        [
+                                            151.311018392,
+                                            -30.2572200029999
+                                        ],
+                                        [
+                                            151.311089775,
+                                            -30.2573627699999
+                                        ],
+                                        [
+                                            151.310994597,
+                                            -30.257838663
+                                        ],
+                                        [
+                                            151.310756652,
+                                            -30.258171787
+                                        ],
+                                        [
+                                            151.310732857,
+                                            -30.258433527
+                                        ],
+                                        [
+                                            151.310613883,
+                                            -30.2586952689999
+                                        ],
+                                        [
+                                            151.310613883,
+                                            -30.2589094209999
+                                        ],
+                                        [
+                                            151.310613883,
+                                            -30.258957009
+                                        ],
+                                        [
+                                            151.31111357,
+                                            -30.259409106
+                                        ],
+                                        [
+                                            151.311375311,
+                                            -30.259409106
+                                        ],
+                                        [
+                                            151.311660846,
+                                            -30.259480491
+                                        ],
+                                        [
+                                            151.311827409,
+                                            -30.2596708479999
+                                        ],
+                                        [
+                                            151.311970176,
+                                            -30.259956383
+                                        ],
+                                        [
+                                            151.31204156,
+                                            -30.2601943289999
+                                        ],
+                                        [
+                                            151.312065355,
+                                            -30.260598837
+                                        ],
+                                        [
+                                            151.311208749,
+                                            -30.2610271409999
+                                        ],
+                                        [
+                                            151.311018392,
+                                            -30.261074729
+                                        ],
+                                        [
+                                            151.310019018,
+                                            -30.2605036589999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1186,30 +1307,6 @@
                 "location": "BANGATE RD, GOODOOGA 2838",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: BANGATE RD, GOODOOGA 2838 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Nov 2023 17:45",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.46986389200003,
-                    -30.940660475999948
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BARADINE RD, COONAMBLE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/523589",
-                "created": "2023-11-09T09:12:00+11:00",
-                "updated": "2023-11-09T20:12:00+11:00",
-                "location": "BARADINE RD, COONAMBLE 2829",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BARADINE RD, COONAMBLE 2829 <br />COUNCIL AREA: Coonamble <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Nov 2023 20:12",
                 "title": "incident: fire"
             }
         },
@@ -10317,8 +10414,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.7277374260001,
-                    -30.709638594999944
+                    147.68623352400004,
+                    -30.79326404099993
                 ]
             },
             "properties": {
@@ -15923,6 +16020,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.16351318300008,
+                    -32.743846892999954
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ROCKY POINT RD, FINGAL BAY",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/523657",
+                "created": "2023-11-09T22:02:00+11:00",
+                "updated": "2023-11-10T09:02:00+11:00",
+                "location": "ROCKY POINT RD, FINGAL BAY 2315",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: ROCKY POINT RD, FINGAL BAY 2315 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Nov 2023 09:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -18790,6 +18911,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.77119445800008,
+                    -34.51020049999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "AVONDALE RD, DAPTO",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/523655",
+                "created": "2023-11-09T21:48:00+11:00",
+                "updated": "2023-11-10T08:48:00+11:00",
+                "location": "5 AVONDALE RD, DAPTO 2530",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 AVONDALE RD, DAPTO 2530 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Nov 2023 08:48",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.28991699200003,
                     -29.120132445999957
                 ]
@@ -18831,6 +18976,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 81 DOWRA LANE, JEMALONG 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Nov 2023 08:04",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.09335327100007,
+                    -33.64125823999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MID WESTERN HWY, MANDURAMA",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/523654",
+                "created": "2023-11-09T21:42:00+11:00",
+                "updated": "2023-11-10T08:42:00+11:00",
+                "location": "6170 MID WESTERN HWY, MANDURAMA 2792",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6170 MID WESTERN HWY, MANDURAMA 2792 <br />COUNCIL AREA: Blayney <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Nov 2023 08:42",
+                "title": "incident: other"
             }
         },
         {
@@ -18958,30 +19127,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.62461853000002,
-                    -35.97999954299996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "STURT ST, HOWLONG",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/523652",
-                "created": "2023-11-09T21:40:00+11:00",
-                "updated": "2023-11-10T08:40:00+11:00",
-                "location": "91 - 97 STURT ST, HOWLONG 2643",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 91 - 97 STURT ST, HOWLONG 2643 <br />COUNCIL AREA: Federation <br />STATUS: Under control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Nov 2023 08:40",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.9345703130001,
                     -29.666790008999953
                 ]
@@ -19030,8 +19175,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.1020202640001,
-                    -33.155868529999964
+                    147.0938787450001,
+                    -33.18136373699997
                 ]
             },
             "properties": {
@@ -19095,6 +19240,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1184 UPPER TURON RD, UPPER TURON 2795 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Nov 2023 18:56",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.45018005400004,
+                    -33.38776016199995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WOODBURYS LANE, TUMBI UMBI",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/523656",
+                "created": "2023-11-09T21:52:00+11:00",
+                "updated": "2023-11-10T08:52:00+11:00",
+                "location": "WOODBURYS LANE, TUMBI UMBI 2261",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WOODBURYS LANE, TUMBI UMBI 2261 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Nov 2023 08:52",
+                "title": "incident: other"
             }
         }
     ]
