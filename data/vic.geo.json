@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.30508767439943,
+                            -36.3720931831726
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.29491673781328,
+                                    -36.36297076855277
+                                ],
+                                [
+                                    145.31534444166925,
+                                    -36.362763415801176
+                                ],
+                                [
+                                    145.31517278029293,
+                                    -36.38107744428021
+                                ],
+                                [
+                                    145.29483090712964,
+                                    -36.38142295054403
+                                ],
+                                [
+                                    145.29491673781328,
+                                    -36.36297076855277
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2023-11-12T17:16:27+11:00",
+                "updated": "2023-11-12T17:16:27+11:00",
+                "id": "30969",
+                "location": "Ardmona",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             141.04022349472717,
                             -35.69290663509963
                         ]
@@ -53,60 +107,6 @@
                 "id": "30965",
                 "location": "Big Desert",
                 "title": "warning: advice"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            145.30508767439946,
-                            -36.3720931831726
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    145.2949167378133,
-                                    -36.36297076855277
-                                ],
-                                [
-                                    145.31534444166925,
-                                    -36.362763415801176
-                                ],
-                                [
-                                    145.3151727802929,
-                                    -36.38107744428021
-                                ],
-                                [
-                                    145.29483090712966,
-                                    -36.38142295054403
-                                ],
-                                [
-                                    145.2949167378133,
-                                    -36.36297076855277
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Watch & Act",
-                "category": "watch and act",
-                "subcategory": "fire",
-                "status": "moderate",
-                "created": "2023-11-12T16:00:25+11:00",
-                "updated": "2023-11-12T16:00:25+11:00",
-                "id": "30967",
-                "location": "Ardmona",
-                "title": "warning: watch and act"
             }
         },
         {
@@ -164,9 +164,9 @@
                 "category": "advice",
                 "subcategory": "fire",
                 "status": "minor",
-                "created": "2023-11-12T16:02:57+11:00",
-                "updated": "2023-11-12T16:02:57+11:00",
-                "id": "30968",
+                "created": "2023-11-12T17:17:55+11:00",
+                "updated": "2023-11-12T17:17:55+11:00",
+                "id": "30970",
                 "location": "Ardmona, Mooroopna, Mooroopna North",
                 "title": "warning: advice"
             }
@@ -382,90 +382,65 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2023-11-12T15:21:00+11:00",
+                "updated": "2023-11-12T17:15:00+11:00",
+                "id": "ESTA:231150871",
+                "location": "Tarneit",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.66681185999963,
+                    -37.842927551388335
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bangholme",
                 "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2023-11-12T16:41:00+11:00",
-                "updated": "2023-11-12T17:06:00+11:00",
-                "id": "ESTA:231113681",
-                "location": "Cape Schanck",
-                "size": "Small",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2023-11-12T15:48:22+11:00",
+                "updated": "2023-11-12T17:15:34+11:00",
+                "id": "ESTA:231113628",
+                "location": "Bangholme",
                 "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9325879155484,
-                    -38.477070165810765
+                    145.13365927885926,
+                    -38.02540928958685
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Loch Garry Rd",
+                "sourceTitle": "Whiteheads Creek",
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2023-11-12T16:51:00+11:00",
-                "updated": "2023-11-12T17:06:00+11:00",
-                "id": "ESTA:231113688",
-                "location": "Loch Garry Rd, Bunbartha",
-                "size": "Small",
+                "created": "2023-11-12T15:12:34+11:00",
+                "updated": "2023-11-12T17:16:02+11:00",
+                "id": "ESTA:231113580",
+                "location": "Whiteheads Creek",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3152573190147,
-                    -36.24159113413632
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tudors Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-11-12T15:15:00+11:00",
-                "updated": "2023-11-12T16:27:00+11:00",
-                "id": "ESTA:231113581",
-                "location": "Tudors Rd, Ross Creek",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.73899768998254,
-                    -37.62583757371171
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2023-11-12T17:09:00+11:00",
-                "updated": "2023-11-12T17:11:00+11:00",
-                "id": "ESTA:231150880",
-                "location": "Maribyrnong",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.88108626547628,
-                    -37.77286811166627
+                    145.23184007428375,
+                    -37.03103957390038
                 ]
             }
         },
@@ -474,10 +449,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Kingloch Pde",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2023-11-12T17:09:00+11:00",
-                "updated": "2023-11-12T17:09:00+11:00",
+                "updated": "2023-11-12T17:16:00+11:00",
                 "id": "ESTA:231113712",
                 "location": "Kingloch Pde, Wantirna",
                 "size": "Small",
@@ -495,22 +470,133 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Forest Hill",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-11-12T17:18:00+11:00",
+                "updated": "2023-11-12T17:19:00+11:00",
+                "id": "ESTA:231150881",
+                "location": "Airport West",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.87632049267108,
+                    -37.73070657587844
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Montmorency",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2023-11-12T17:19:17+11:00",
+                "updated": "2023-11-12T17:21:20+11:00",
+                "id": "ESTA:231113729",
+                "location": "Montmorency",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12782530428032,
+                    -37.72070409535311
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maribyrnong",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2023-11-12T17:08:54+11:00",
-                "updated": "2023-11-12T17:11:30+11:00",
-                "id": "ESTA:231113714",
-                "location": "Vanbrook St, Forest Hill",
+                "created": "2023-11-12T17:19:26+11:00",
+                "updated": "2023-11-12T17:22:57+11:00",
+                "id": "ESTA:231113728",
+                "location": "Gatehouse Pl, Maribyrnong",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.17405320333282,
-                    -37.83939178232261
+                    144.88112211042414,
+                    -37.77394646251089
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-11-12T17:25:00+11:00",
+                "updated": "2023-11-12T17:26:00+11:00",
+                "id": "ESTA:231150882",
+                "location": "Glen Waverley",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1522025573686,
+                    -37.87530340134293
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fraser Rise",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2023-11-12T17:27:15+11:00",
+                "updated": "2023-11-12T17:27:54+11:00",
+                "id": "ESTA:231113737",
+                "location": "Broad Rd, Fraser Rise",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7138038731125,
+                    -37.699332387929786
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Palmer Pl",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-11-12T17:25:00+11:00",
+                "updated": "2023-11-12T17:25:00+11:00",
+                "id": "ESTA:231113735",
+                "location": "Palmer Pl, Kyneton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.4529428044029,
+                    -37.25839235348673
                 ]
             }
         },
@@ -2670,13 +2756,197 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Mallee 36 - Red Cliffs - Old Stewart Tip",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2023-10-28T11:00:00+11:00",
+                "updated": "2023-10-28T11:00:00+11:00",
+                "id": "6d559474591c11cd6587f1859fffa08d",
+                "location": "Mallee 36 - Red Cliffs - Old Stewart Tip",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.235,
+                            -34.3222
+                        ],
+                        [
+                            142.2351,
+                            -34.3222
+                        ],
+                        [
+                            142.2353,
+                            -34.3222
+                        ],
+                        [
+                            142.2354,
+                            -34.3222
+                        ],
+                        [
+                            142.2355,
+                            -34.3223
+                        ],
+                        [
+                            142.2355,
+                            -34.3223
+                        ],
+                        [
+                            142.2356,
+                            -34.3224
+                        ],
+                        [
+                            142.2356,
+                            -34.3223
+                        ],
+                        [
+                            142.2357,
+                            -34.3222
+                        ],
+                        [
+                            142.2358,
+                            -34.3223
+                        ],
+                        [
+                            142.2355,
+                            -34.3226
+                        ],
+                        [
+                            142.2355,
+                            -34.3226
+                        ],
+                        [
+                            142.2353,
+                            -34.3227
+                        ],
+                        [
+                            142.2352,
+                            -34.3229
+                        ],
+                        [
+                            142.2353,
+                            -34.323
+                        ],
+                        [
+                            142.2352,
+                            -34.3231
+                        ],
+                        [
+                            142.2352,
+                            -34.3231
+                        ],
+                        [
+                            142.2351,
+                            -34.3232
+                        ],
+                        [
+                            142.2348,
+                            -34.323
+                        ],
+                        [
+                            142.235,
+                            -34.3223
+                        ],
+                        [
+                            142.235,
+                            -34.3222
+                        ],
+                        [
+                            142.235,
+                            -34.3222
+                        ],
+                        [
+                            142.235,
+                            -34.3222
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Latrobe 13 - Rawson - Knotts Siding Rawson",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2023-10-13T11:00:00+11:00",
+                "updated": "2023-10-13T11:00:00+11:00",
+                "id": "202be0dfb950e71c99841ee358ba2e7f",
+                "location": "Latrobe 13 - Rawson - Knotts Siding Rawson",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            146.4267,
+                            -37.9678
+                        ],
+                        [
+                            146.4271,
+                            -37.968
+                        ],
+                        [
+                            146.4273,
+                            -37.968
+                        ],
+                        [
+                            146.4281,
+                            -37.9685
+                        ],
+                        [
+                            146.428,
+                            -37.9689
+                        ],
+                        [
+                            146.4269,
+                            -37.9695
+                        ],
+                        [
+                            146.4265,
+                            -37.9696
+                        ],
+                        [
+                            146.4263,
+                            -37.9698
+                        ],
+                        [
+                            146.4253,
+                            -37.9697
+                        ],
+                        [
+                            146.4253,
+                            -37.9692
+                        ],
+                        [
+                            146.4254,
+                            -37.9679
+                        ],
+                        [
+                            146.4267,
+                            -37.9678
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Macalister 9 - Duffy Road - Briagolong Duffy Road",
                 "category": "burn area",
                 "subcategory": "burn area",
                 "status": "unknown",
-                "created": "2023-10-01T11:00:00+11:00",
-                "updated": "2023-10-01T11:00:00+11:00",
-                "id": "a6955f1d661490548e90b25b6e192235",
+                "created": "2023-10-07T11:00:00+11:00",
+                "updated": "2023-10-07T11:00:00+11:00",
+                "id": "dad491f483554c0541c28f9b7231e142",
                 "location": "Macalister 9 - Duffy Road - Briagolong Duffy Road",
                 "title": "other: burn area"
             },
@@ -2685,160 +2955,36 @@
                 "coordinates": [
                     [
                         [
-                            147.134,
-                            -37.7747
+                            147.23,
+                            -37.797
                         ],
                         [
-                            147.134,
-                            -37.7749
+                            147.2307,
+                            -37.797
                         ],
                         [
-                            147.1342,
-                            -37.7751
+                            147.2307,
+                            -37.7973
                         ],
                         [
-                            147.1342,
-                            -37.7752
+                            147.2306,
+                            -37.7979
                         ],
                         [
-                            147.1341,
-                            -37.7753
+                            147.2303,
+                            -37.7978
                         ],
                         [
-                            147.134,
-                            -37.7754
+                            147.2291,
+                            -37.7977
                         ],
                         [
-                            147.1341,
-                            -37.7757
+                            147.2293,
+                            -37.7974
                         ],
                         [
-                            147.1339,
-                            -37.7757
-                        ],
-                        [
-                            147.1339,
-                            -37.7758
-                        ],
-                        [
-                            147.1337,
-                            -37.776
-                        ],
-                        [
-                            147.1338,
-                            -37.7762
-                        ],
-                        [
-                            147.1336,
-                            -37.7764
-                        ],
-                        [
-                            147.1336,
-                            -37.7766
-                        ],
-                        [
-                            147.1336,
-                            -37.7767
-                        ],
-                        [
-                            147.1336,
-                            -37.7769
-                        ],
-                        [
-                            147.1336,
-                            -37.777
-                        ],
-                        [
-                            147.1333,
-                            -37.777
-                        ],
-                        [
-                            147.1332,
-                            -37.7771
-                        ],
-                        [
-                            147.1329,
-                            -37.7771
-                        ],
-                        [
-                            147.1326,
-                            -37.7769
-                        ],
-                        [
-                            147.1324,
-                            -37.7769
-                        ],
-                        [
-                            147.1322,
-                            -37.7768
-                        ],
-                        [
-                            147.1321,
-                            -37.7768
-                        ],
-                        [
-                            147.1318,
-                            -37.7767
-                        ],
-                        [
-                            147.1317,
-                            -37.7765
-                        ],
-                        [
-                            147.1316,
-                            -37.7764
-                        ],
-                        [
-                            147.1316,
-                            -37.7763
-                        ],
-                        [
-                            147.1317,
-                            -37.7762
-                        ],
-                        [
-                            147.1317,
-                            -37.7761
-                        ],
-                        [
-                            147.1318,
-                            -37.776
-                        ],
-                        [
-                            147.1317,
-                            -37.7759
-                        ],
-                        [
-                            147.1317,
-                            -37.7757
-                        ],
-                        [
-                            147.1326,
-                            -37.775
-                        ],
-                        [
-                            147.1335,
-                            -37.7744
-                        ],
-                        [
-                            147.1339,
-                            -37.7745
-                        ],
-                        [
-                            147.1341,
-                            -37.7744
-                        ],
-                        [
-                            147.1342,
-                            -37.7746
-                        ],
-                        [
-                            147.1341,
-                            -37.7747
-                        ],
-                        [
-                            147.134,
-                            -37.7747
+                            147.23,
+                            -37.797
                         ]
                     ]
                 ]
@@ -5490,6 +5636,210 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
+                "sourceTitle": "Pirlta South Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2023-10-20T11:00:00+11:00",
+                "updated": "2023-10-20T11:00:00+11:00",
+                "id": "878aac791af512dea9e0b9b25ee2c641",
+                "location": "Pirlta South Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            141.8558,
+                            -34.4939
+                        ],
+                        [
+                            141.856,
+                            -34.4941
+                        ],
+                        [
+                            141.8562,
+                            -34.4943
+                        ],
+                        [
+                            141.8565,
+                            -34.4947
+                        ],
+                        [
+                            141.8566,
+                            -34.4948
+                        ],
+                        [
+                            141.8567,
+                            -34.4951
+                        ],
+                        [
+                            141.8565,
+                            -34.4952
+                        ],
+                        [
+                            141.8549,
+                            -34.4949
+                        ],
+                        [
+                            141.8548,
+                            -34.4949
+                        ],
+                        [
+                            141.8548,
+                            -34.495
+                        ],
+                        [
+                            141.8546,
+                            -34.4951
+                        ],
+                        [
+                            141.8545,
+                            -34.4949
+                        ],
+                        [
+                            141.8544,
+                            -34.4947
+                        ],
+                        [
+                            141.8539,
+                            -34.4946
+                        ],
+                        [
+                            141.8537,
+                            -34.4945
+                        ],
+                        [
+                            141.8536,
+                            -34.4945
+                        ],
+                        [
+                            141.8535,
+                            -34.4944
+                        ],
+                        [
+                            141.8535,
+                            -34.4943
+                        ],
+                        [
+                            141.8541,
+                            -34.4937
+                        ],
+                        [
+                            141.8543,
+                            -34.4936
+                        ],
+                        [
+                            141.8545,
+                            -34.4936
+                        ],
+                        [
+                            141.8546,
+                            -34.4937
+                        ],
+                        [
+                            141.8548,
+                            -34.4938
+                        ],
+                        [
+                            141.8549,
+                            -34.4938
+                        ],
+                        [
+                            141.8549,
+                            -34.4939
+                        ],
+                        [
+                            141.855,
+                            -34.494
+                        ],
+                        [
+                            141.855,
+                            -34.494
+                        ],
+                        [
+                            141.855,
+                            -34.494
+                        ],
+                        [
+                            141.8551,
+                            -34.4938
+                        ],
+                        [
+                            141.8553,
+                            -34.4934
+                        ],
+                        [
+                            141.8554,
+                            -34.4934
+                        ],
+                        [
+                            141.8554,
+                            -34.4934
+                        ],
+                        [
+                            141.8556,
+                            -34.4936
+                        ],
+                        [
+                            141.8556,
+                            -34.4937
+                        ],
+                        [
+                            141.8556,
+                            -34.4938
+                        ],
+                        [
+                            141.8558,
+                            -34.4939
+                        ]
+                    ],
+                    [
+                        [
+                            141.8543,
+                            -34.4939
+                        ],
+                        [
+                            141.8543,
+                            -34.4939
+                        ],
+                        [
+                            141.8543,
+                            -34.494
+                        ],
+                        [
+                            141.8543,
+                            -34.494
+                        ],
+                        [
+                            141.8543,
+                            -34.4941
+                        ],
+                        [
+                            141.8544,
+                            -34.4941
+                        ],
+                        [
+                            141.8544,
+                            -34.4941
+                        ],
+                        [
+                            141.8544,
+                            -34.494
+                        ],
+                        [
+                            141.8543,
+                            -34.4939
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
                 "sourceTitle": "Raymond St",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -6770,14 +7120,14 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Pirlta South Rd",
+                "sourceTitle": "Murray Valley Hwy",
                 "category": "burn area",
                 "subcategory": "burn area",
                 "status": "unknown",
-                "created": "2023-10-20T11:00:00+11:00",
-                "updated": "2023-10-20T11:00:00+11:00",
-                "id": "878aac791af512dea9e0b9b25ee2c641",
-                "location": "Pirlta South Rd",
+                "created": "2023-11-10T11:00:00+11:00",
+                "updated": "2023-11-10T11:00:00+11:00",
+                "id": "bc711a384300ab58128693f13aae5664",
+                "location": "Murray Valley Hwy",
                 "title": "other: burn area"
             },
             "geometry": {
@@ -6785,186 +7135,292 @@
                 "coordinates": [
                     [
                         [
-                            141.8558,
-                            -34.4939
+                            143.8316,
+                            -35.6434
                         ],
                         [
-                            141.856,
-                            -34.4941
+                            143.8331,
+                            -35.6443
                         ],
                         [
-                            141.8562,
-                            -34.4943
+                            143.8344,
+                            -35.6447
                         ],
                         [
-                            141.8565,
-                            -34.4947
+                            143.8344,
+                            -35.6446
                         ],
                         [
-                            141.8566,
-                            -34.4948
+                            143.8346,
+                            -35.6452
                         ],
                         [
-                            141.8567,
-                            -34.4951
+                            143.8355,
+                            -35.646
                         ],
                         [
-                            141.8565,
-                            -34.4952
+                            143.8362,
+                            -35.647
                         ],
                         [
-                            141.8549,
-                            -34.4949
+                            143.8375,
+                            -35.648
                         ],
                         [
-                            141.8548,
-                            -34.4949
+                            143.8375,
+                            -35.6484
                         ],
                         [
-                            141.8548,
-                            -34.495
+                            143.839,
+                            -35.6494
                         ],
                         [
-                            141.8546,
-                            -34.4951
+                            143.8401,
+                            -35.6501
                         ],
                         [
-                            141.8545,
-                            -34.4949
+                            143.8406,
+                            -35.6504
                         ],
                         [
-                            141.8544,
-                            -34.4947
+                            143.8408,
+                            -35.6508
                         ],
                         [
-                            141.8539,
-                            -34.4946
+                            143.8418,
+                            -35.6516
                         ],
                         [
-                            141.8537,
-                            -34.4945
+                            143.8432,
+                            -35.653
                         ],
                         [
-                            141.8536,
-                            -34.4945
+                            143.8445,
+                            -35.655
                         ],
                         [
-                            141.8535,
-                            -34.4944
+                            143.845,
+                            -35.6568
                         ],
                         [
-                            141.8535,
-                            -34.4943
+                            143.8456,
+                            -35.6582
                         ],
                         [
-                            141.8541,
-                            -34.4937
+                            143.8441,
+                            -35.6584
                         ],
                         [
-                            141.8543,
-                            -34.4936
+                            143.8429,
+                            -35.6588
                         ],
                         [
-                            141.8545,
-                            -34.4936
+                            143.8418,
+                            -35.6598
                         ],
                         [
-                            141.8546,
-                            -34.4937
+                            143.8408,
+                            -35.6606
                         ],
                         [
-                            141.8548,
-                            -34.4938
+                            143.8404,
+                            -35.6607
                         ],
                         [
-                            141.8549,
-                            -34.4938
+                            143.8399,
+                            -35.6605
                         ],
                         [
-                            141.8549,
-                            -34.4939
+                            143.8393,
+                            -35.6606
                         ],
                         [
-                            141.855,
-                            -34.494
+                            143.8381,
+                            -35.6601
                         ],
                         [
-                            141.855,
-                            -34.494
+                            143.835,
+                            -35.6586
                         ],
                         [
-                            141.855,
-                            -34.494
+                            143.8342,
+                            -35.6579
                         ],
                         [
-                            141.8551,
-                            -34.4938
+                            143.8328,
+                            -35.6571
                         ],
                         [
-                            141.8553,
-                            -34.4934
+                            143.8328,
+                            -35.6575
                         ],
                         [
-                            141.8554,
-                            -34.4934
+                            143.8326,
+                            -35.6579
                         ],
                         [
-                            141.8554,
-                            -34.4934
+                            143.8324,
+                            -35.6578
                         ],
                         [
-                            141.8556,
-                            -34.4936
+                            143.8322,
+                            -35.6575
                         ],
                         [
-                            141.8556,
-                            -34.4937
+                            143.8325,
+                            -35.6571
                         ],
                         [
-                            141.8556,
-                            -34.4938
+                            143.8329,
+                            -35.6567
                         ],
                         [
-                            141.8558,
-                            -34.4939
-                        ]
-                    ],
-                    [
-                        [
-                            141.8543,
-                            -34.4939
+                            143.8324,
+                            -35.6565
                         ],
                         [
-                            141.8543,
-                            -34.4939
+                            143.8324,
+                            -35.6561
                         ],
                         [
-                            141.8543,
-                            -34.494
+                            143.8315,
+                            -35.6556
                         ],
                         [
-                            141.8543,
-                            -34.494
+                            143.8313,
+                            -35.6551
                         ],
                         [
-                            141.8543,
-                            -34.4941
+                            143.8308,
+                            -35.6551
                         ],
                         [
-                            141.8544,
-                            -34.4941
+                            143.83,
+                            -35.6553
                         ],
                         [
-                            141.8544,
-                            -34.4941
+                            143.8282,
+                            -35.6542
                         ],
                         [
-                            141.8544,
-                            -34.494
+                            143.8285,
+                            -35.6538
                         ],
                         [
-                            141.8543,
-                            -34.4939
+                            143.8276,
+                            -35.6536
+                        ],
+                        [
+                            143.8276,
+                            -35.6532
+                        ],
+                        [
+                            143.8274,
+                            -35.6526
+                        ],
+                        [
+                            143.8272,
+                            -35.6519
+                        ],
+                        [
+                            143.8271,
+                            -35.6511
+                        ],
+                        [
+                            143.8271,
+                            -35.6507
+                        ],
+                        [
+                            143.827,
+                            -35.6502
+                        ],
+                        [
+                            143.8271,
+                            -35.65
+                        ],
+                        [
+                            143.8275,
+                            -35.6497
+                        ],
+                        [
+                            143.8276,
+                            -35.6493
+                        ],
+                        [
+                            143.8274,
+                            -35.6486
+                        ],
+                        [
+                            143.827,
+                            -35.6479
+                        ],
+                        [
+                            143.8269,
+                            -35.6473
+                        ],
+                        [
+                            143.8274,
+                            -35.6469
+                        ],
+                        [
+                            143.8273,
+                            -35.6467
+                        ],
+                        [
+                            143.8273,
+                            -35.6462
+                        ],
+                        [
+                            143.8276,
+                            -35.6459
+                        ],
+                        [
+                            143.8276,
+                            -35.6453
+                        ],
+                        [
+                            143.8279,
+                            -35.6448
+                        ],
+                        [
+                            143.8282,
+                            -35.6444
+                        ],
+                        [
+                            143.828,
+                            -35.6441
+                        ],
+                        [
+                            143.8284,
+                            -35.6441
+                        ],
+                        [
+                            143.8287,
+                            -35.6441
+                        ],
+                        [
+                            143.829,
+                            -35.6437
+                        ],
+                        [
+                            143.8296,
+                            -35.6433
+                        ],
+                        [
+                            143.8301,
+                            -35.6429
+                        ],
+                        [
+                            143.8299,
+                            -35.6425
+                        ],
+                        [
+                            143.8302,
+                            -35.6422
+                        ],
+                        [
+                            143.8316,
+                            -35.6434
                         ]
                     ]
                 ]
@@ -9005,316 +9461,6 @@
                         [
                             142.869,
                             -35.0679
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Murray Valley Hwy",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2023-11-10T11:00:00+11:00",
-                "updated": "2023-11-10T11:00:00+11:00",
-                "id": "bc711a384300ab58128693f13aae5664",
-                "location": "Murray Valley Hwy",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.8316,
-                            -35.6434
-                        ],
-                        [
-                            143.8331,
-                            -35.6443
-                        ],
-                        [
-                            143.8344,
-                            -35.6447
-                        ],
-                        [
-                            143.8344,
-                            -35.6446
-                        ],
-                        [
-                            143.8346,
-                            -35.6452
-                        ],
-                        [
-                            143.8355,
-                            -35.646
-                        ],
-                        [
-                            143.8362,
-                            -35.647
-                        ],
-                        [
-                            143.8375,
-                            -35.648
-                        ],
-                        [
-                            143.8375,
-                            -35.6484
-                        ],
-                        [
-                            143.839,
-                            -35.6494
-                        ],
-                        [
-                            143.8401,
-                            -35.6501
-                        ],
-                        [
-                            143.8406,
-                            -35.6504
-                        ],
-                        [
-                            143.8408,
-                            -35.6508
-                        ],
-                        [
-                            143.8418,
-                            -35.6516
-                        ],
-                        [
-                            143.8432,
-                            -35.653
-                        ],
-                        [
-                            143.8445,
-                            -35.655
-                        ],
-                        [
-                            143.845,
-                            -35.6568
-                        ],
-                        [
-                            143.8456,
-                            -35.6582
-                        ],
-                        [
-                            143.8441,
-                            -35.6584
-                        ],
-                        [
-                            143.8429,
-                            -35.6588
-                        ],
-                        [
-                            143.8418,
-                            -35.6598
-                        ],
-                        [
-                            143.8408,
-                            -35.6606
-                        ],
-                        [
-                            143.8404,
-                            -35.6607
-                        ],
-                        [
-                            143.8399,
-                            -35.6605
-                        ],
-                        [
-                            143.8393,
-                            -35.6606
-                        ],
-                        [
-                            143.8381,
-                            -35.6601
-                        ],
-                        [
-                            143.835,
-                            -35.6586
-                        ],
-                        [
-                            143.8342,
-                            -35.6579
-                        ],
-                        [
-                            143.8328,
-                            -35.6571
-                        ],
-                        [
-                            143.8328,
-                            -35.6575
-                        ],
-                        [
-                            143.8326,
-                            -35.6579
-                        ],
-                        [
-                            143.8324,
-                            -35.6578
-                        ],
-                        [
-                            143.8322,
-                            -35.6575
-                        ],
-                        [
-                            143.8325,
-                            -35.6571
-                        ],
-                        [
-                            143.8329,
-                            -35.6567
-                        ],
-                        [
-                            143.8324,
-                            -35.6565
-                        ],
-                        [
-                            143.8324,
-                            -35.6561
-                        ],
-                        [
-                            143.8315,
-                            -35.6556
-                        ],
-                        [
-                            143.8313,
-                            -35.6551
-                        ],
-                        [
-                            143.8308,
-                            -35.6551
-                        ],
-                        [
-                            143.83,
-                            -35.6553
-                        ],
-                        [
-                            143.8282,
-                            -35.6542
-                        ],
-                        [
-                            143.8285,
-                            -35.6538
-                        ],
-                        [
-                            143.8276,
-                            -35.6536
-                        ],
-                        [
-                            143.8276,
-                            -35.6532
-                        ],
-                        [
-                            143.8274,
-                            -35.6526
-                        ],
-                        [
-                            143.8272,
-                            -35.6519
-                        ],
-                        [
-                            143.8271,
-                            -35.6511
-                        ],
-                        [
-                            143.8271,
-                            -35.6507
-                        ],
-                        [
-                            143.827,
-                            -35.6502
-                        ],
-                        [
-                            143.8271,
-                            -35.65
-                        ],
-                        [
-                            143.8275,
-                            -35.6497
-                        ],
-                        [
-                            143.8276,
-                            -35.6493
-                        ],
-                        [
-                            143.8274,
-                            -35.6486
-                        ],
-                        [
-                            143.827,
-                            -35.6479
-                        ],
-                        [
-                            143.8269,
-                            -35.6473
-                        ],
-                        [
-                            143.8274,
-                            -35.6469
-                        ],
-                        [
-                            143.8273,
-                            -35.6467
-                        ],
-                        [
-                            143.8273,
-                            -35.6462
-                        ],
-                        [
-                            143.8276,
-                            -35.6459
-                        ],
-                        [
-                            143.8276,
-                            -35.6453
-                        ],
-                        [
-                            143.8279,
-                            -35.6448
-                        ],
-                        [
-                            143.8282,
-                            -35.6444
-                        ],
-                        [
-                            143.828,
-                            -35.6441
-                        ],
-                        [
-                            143.8284,
-                            -35.6441
-                        ],
-                        [
-                            143.8287,
-                            -35.6441
-                        ],
-                        [
-                            143.829,
-                            -35.6437
-                        ],
-                        [
-                            143.8296,
-                            -35.6433
-                        ],
-                        [
-                            143.8301,
-                            -35.6429
-                        ],
-                        [
-                            143.8299,
-                            -35.6425
-                        ],
-                        [
-                            143.8302,
-                            -35.6422
-                        ],
-                        [
-                            143.8316,
-                            -35.6434
                         ]
                     ]
                 ]
@@ -28835,120 +28981,6 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Mallee 36 - Red Cliffs - Old Stewart Tip",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2023-10-28T11:00:00+11:00",
-                "updated": "2023-10-28T11:00:00+11:00",
-                "id": "6d559474591c11cd6587f1859fffa08d",
-                "location": "Mallee 36 - Red Cliffs - Old Stewart Tip",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            142.235,
-                            -34.3222
-                        ],
-                        [
-                            142.2351,
-                            -34.3222
-                        ],
-                        [
-                            142.2353,
-                            -34.3222
-                        ],
-                        [
-                            142.2354,
-                            -34.3222
-                        ],
-                        [
-                            142.2355,
-                            -34.3223
-                        ],
-                        [
-                            142.2355,
-                            -34.3223
-                        ],
-                        [
-                            142.2356,
-                            -34.3224
-                        ],
-                        [
-                            142.2356,
-                            -34.3223
-                        ],
-                        [
-                            142.2357,
-                            -34.3222
-                        ],
-                        [
-                            142.2358,
-                            -34.3223
-                        ],
-                        [
-                            142.2355,
-                            -34.3226
-                        ],
-                        [
-                            142.2355,
-                            -34.3226
-                        ],
-                        [
-                            142.2353,
-                            -34.3227
-                        ],
-                        [
-                            142.2352,
-                            -34.3229
-                        ],
-                        [
-                            142.2353,
-                            -34.323
-                        ],
-                        [
-                            142.2352,
-                            -34.3231
-                        ],
-                        [
-                            142.2352,
-                            -34.3231
-                        ],
-                        [
-                            142.2351,
-                            -34.3232
-                        ],
-                        [
-                            142.2348,
-                            -34.323
-                        ],
-                        [
-                            142.235,
-                            -34.3223
-                        ],
-                        [
-                            142.235,
-                            -34.3222
-                        ],
-                        [
-                            142.235,
-                            -34.3222
-                        ],
-                        [
-                            142.235,
-                            -34.3222
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Macalister 11 - Glenfalloch - Narrobuk North Track",
                 "category": "burn area",
                 "subcategory": "burn area",
@@ -38979,83 +39011,13 @@
             "type": "Feature",
             "properties": {
                 "feedType": "other",
-                "sourceTitle": "Latrobe 13 - Rawson - Knotts Siding Rawson",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2023-10-13T11:00:00+11:00",
-                "updated": "2023-10-13T11:00:00+11:00",
-                "id": "202be0dfb950e71c99841ee358ba2e7f",
-                "location": "Latrobe 13 - Rawson - Knotts Siding Rawson",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            146.4267,
-                            -37.9678
-                        ],
-                        [
-                            146.4271,
-                            -37.968
-                        ],
-                        [
-                            146.4273,
-                            -37.968
-                        ],
-                        [
-                            146.4281,
-                            -37.9685
-                        ],
-                        [
-                            146.428,
-                            -37.9689
-                        ],
-                        [
-                            146.4269,
-                            -37.9695
-                        ],
-                        [
-                            146.4265,
-                            -37.9696
-                        ],
-                        [
-                            146.4263,
-                            -37.9698
-                        ],
-                        [
-                            146.4253,
-                            -37.9697
-                        ],
-                        [
-                            146.4253,
-                            -37.9692
-                        ],
-                        [
-                            146.4254,
-                            -37.9679
-                        ],
-                        [
-                            146.4267,
-                            -37.9678
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
                 "sourceTitle": "Macalister 9 - Duffy Road - Briagolong Duffy Road",
                 "category": "burn area",
                 "subcategory": "burn area",
                 "status": "unknown",
-                "created": "2023-10-07T11:00:00+11:00",
-                "updated": "2023-10-07T11:00:00+11:00",
-                "id": "dad491f483554c0541c28f9b7231e142",
+                "created": "2023-10-01T11:00:00+11:00",
+                "updated": "2023-10-01T11:00:00+11:00",
+                "id": "a6955f1d661490548e90b25b6e192235",
                 "location": "Macalister 9 - Duffy Road - Briagolong Duffy Road",
                 "title": "other: burn area"
             },
@@ -39064,36 +39026,160 @@
                 "coordinates": [
                     [
                         [
-                            147.23,
-                            -37.797
+                            147.134,
+                            -37.7747
                         ],
                         [
-                            147.2307,
-                            -37.797
+                            147.134,
+                            -37.7749
                         ],
                         [
-                            147.2307,
-                            -37.7973
+                            147.1342,
+                            -37.7751
                         ],
                         [
-                            147.2306,
-                            -37.7979
+                            147.1342,
+                            -37.7752
                         ],
                         [
-                            147.2303,
-                            -37.7978
+                            147.1341,
+                            -37.7753
                         ],
                         [
-                            147.2291,
-                            -37.7977
+                            147.134,
+                            -37.7754
                         ],
                         [
-                            147.2293,
-                            -37.7974
+                            147.1341,
+                            -37.7757
                         ],
                         [
-                            147.23,
-                            -37.797
+                            147.1339,
+                            -37.7757
+                        ],
+                        [
+                            147.1339,
+                            -37.7758
+                        ],
+                        [
+                            147.1337,
+                            -37.776
+                        ],
+                        [
+                            147.1338,
+                            -37.7762
+                        ],
+                        [
+                            147.1336,
+                            -37.7764
+                        ],
+                        [
+                            147.1336,
+                            -37.7766
+                        ],
+                        [
+                            147.1336,
+                            -37.7767
+                        ],
+                        [
+                            147.1336,
+                            -37.7769
+                        ],
+                        [
+                            147.1336,
+                            -37.777
+                        ],
+                        [
+                            147.1333,
+                            -37.777
+                        ],
+                        [
+                            147.1332,
+                            -37.7771
+                        ],
+                        [
+                            147.1329,
+                            -37.7771
+                        ],
+                        [
+                            147.1326,
+                            -37.7769
+                        ],
+                        [
+                            147.1324,
+                            -37.7769
+                        ],
+                        [
+                            147.1322,
+                            -37.7768
+                        ],
+                        [
+                            147.1321,
+                            -37.7768
+                        ],
+                        [
+                            147.1318,
+                            -37.7767
+                        ],
+                        [
+                            147.1317,
+                            -37.7765
+                        ],
+                        [
+                            147.1316,
+                            -37.7764
+                        ],
+                        [
+                            147.1316,
+                            -37.7763
+                        ],
+                        [
+                            147.1317,
+                            -37.7762
+                        ],
+                        [
+                            147.1317,
+                            -37.7761
+                        ],
+                        [
+                            147.1318,
+                            -37.776
+                        ],
+                        [
+                            147.1317,
+                            -37.7759
+                        ],
+                        [
+                            147.1317,
+                            -37.7757
+                        ],
+                        [
+                            147.1326,
+                            -37.775
+                        ],
+                        [
+                            147.1335,
+                            -37.7744
+                        ],
+                        [
+                            147.1339,
+                            -37.7745
+                        ],
+                        [
+                            147.1341,
+                            -37.7744
+                        ],
+                        [
+                            147.1342,
+                            -37.7746
+                        ],
+                        [
+                            147.1341,
+                            -37.7747
+                        ],
+                        [
+                            147.134,
+                            -37.7747
                         ]
                     ]
                 ]
@@ -41047,121 +41133,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Werril St",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2023-11-12T14:41:00+11:00",
-                "updated": "2023-11-12T16:34:00+11:00",
-                "id": "ESTA:231113550",
-                "location": "Werril St, Swan Hill",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.55817220584262,
-                    -35.36005431813556
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Springvale Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-11-12T16:37:00+11:00",
-                "updated": "2023-11-12T16:46:00+11:00",
-                "id": "ESTA:231113678",
-                "location": "Springvale Rd, Springvale",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.15226853526335,
-                    -37.95085999567115
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Unknown -",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-11-12T16:24:00+11:00",
-                "updated": "2023-11-12T16:48:00+11:00",
-                "id": "ESTA:231113671",
-                "location": "Unknown -, Noble Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.17635093552795,
-                    -37.96694349920878
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Neill St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-11-12T16:50:00+11:00",
-                "updated": "2023-11-12T16:57:00+11:00",
-                "id": "ESTA:231113686",
-                "location": "Neill St, Sunbury",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7217973782431,
-                    -37.58377871006291
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2023-11-12T15:26:00+11:00",
-                "updated": "2023-11-12T17:00:00+11:00",
-                "id": "ESTA:231113588",
-                "location": "Ardmona",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.29553083160556,
-                    -36.37853593837982
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Kerang-Koondrook Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -41254,37 +41225,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Graham Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-11-12T16:02:00+11:00",
-                "updated": "2023-11-12T16:19:00+11:00",
-                "id": "ESTA:231113660",
-                "location": "Graham Rd, Broomfield",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.90837100039397,
-                    -37.38329676056993
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Werril St",
                 "category": "rescue",
                 "subcategory": "road accident",
                 "status": "safe",
-                "created": "2023-11-12T15:51:00+11:00",
-                "updated": "2023-11-12T16:23:00+11:00",
-                "id": "ESTA:231113628",
-                "location": "Bangholme",
+                "created": "2023-11-12T14:41:00+11:00",
+                "updated": "2023-11-12T16:34:00+11:00",
+                "id": "ESTA:231113550",
+                "location": "Werril St, Swan Hill",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -41292,8 +41240,146 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.13365028796122,
-                    -38.02541761479309
+                    143.55817220584262,
+                    -35.36005431813556
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Springvale Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-11-12T16:37:00+11:00",
+                "updated": "2023-11-12T16:46:00+11:00",
+                "id": "ESTA:231113678",
+                "location": "Springvale Rd, Springvale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.15226853526335,
+                    -37.95085999567115
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Unknown -",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-11-12T16:24:00+11:00",
+                "updated": "2023-11-12T16:48:00+11:00",
+                "id": "ESTA:231113671",
+                "location": "Unknown -, Noble Park",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17635093552795,
+                    -37.96694349920878
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2023-11-12T16:41:00+11:00",
+                "updated": "2023-11-12T17:06:00+11:00",
+                "id": "ESTA:231113681",
+                "location": "Cape Schanck",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9325879155484,
+                    -38.477070165810765
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Neill St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-11-12T16:50:00+11:00",
+                "updated": "2023-11-12T16:57:00+11:00",
+                "id": "ESTA:231113686",
+                "location": "Neill St, Sunbury",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7217973782431,
+                    -37.58377871006291
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2023-11-12T15:26:00+11:00",
+                "updated": "2023-11-12T17:15:00+11:00",
+                "id": "ESTA:231113588",
+                "location": "Ardmona",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29553083160556,
+                    -36.37853593837982
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mountain View Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-11-12T17:23:00+11:00",
+                "updated": "2023-11-12T17:23:00+11:00",
+                "id": "ESTA:231113733",
+                "location": "Mountain View Rd, Kalorama",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38429201273294,
+                    -37.81405546259766
                 ]
             }
         },
@@ -41326,28 +41412,6 @@
                 "category": "building damage",
                 "subcategory": "building damage",
                 "status": "on scene",
-                "created": "2023-11-12T15:21:00+11:00",
-                "updated": "2023-11-12T16:12:00+11:00",
-                "id": "ESTA:231150871",
-                "location": "Tarneit",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.66681185999963,
-                    -37.842927551388335
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
                 "created": "2023-11-12T16:21:00+11:00",
                 "updated": "2023-11-12T16:42:00+11:00",
                 "id": "ESTA:231150879",
@@ -41360,6 +41424,28 @@
                 "coordinates": [
                     145.0040176234133,
                     -36.581837183933665
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-11-12T17:09:00+11:00",
+                "updated": "2023-11-12T17:11:00+11:00",
+                "id": "ESTA:231150880",
+                "location": "Maribyrnong",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.88108626547628,
+                    -37.77286811166627
                 ]
             }
         }
