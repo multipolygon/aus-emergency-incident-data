@@ -2,6 +2,60 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.55045524748715,
+                            -36.175415037776034
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.52702346953185,
+                                    -36.19536874374581
+                                ],
+                                [
+                                    145.55328766021015,
+                                    -36.19536874374581
+                                ],
+                                [
+                                    145.57388702544242,
+                                    -36.16038157281755
+                                ],
+                                [
+                                    145.53157249602722,
+                                    -36.155461331806265
+                                ],
+                                [
+                                    145.52702346953185,
+                                    -36.19536874374581
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2023-11-17T14:04:48+11:00",
+                "updated": "2023-11-17T14:04:49+11:00",
+                "id": "30988",
+                "location": "Invergordon, Marungi",
+                "title": "warning: advice"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Maryborough - Telegraph Tk",
@@ -509,57 +563,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ardmona",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-11-12T15:25:10+11:00",
-                "updated": "2023-11-17T13:38:49+11:00",
-                "id": "ESTA:231113588",
-                "location": "Macisaac Rd, Ardmona",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2971719052709,
-                    -36.37838164535575
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "not yet under control",
-                "created": "2023-11-17T13:22:00+11:00",
-                "updated": "2023-11-17T13:22:00+11:00",
-                "id": "ESTA:231119186",
-                "location": "Marungi",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.53157216074524,
-                    -36.19365357835278
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Roses Lane",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2023-11-17T13:25:00+11:00",
-                "updated": "2023-11-17T13:40:00+11:00",
+                "updated": "2023-11-17T13:57:00+11:00",
                 "id": "ESTA:231119200",
                 "location": "Roses Lane, Clunes",
                 "size": "Small",
@@ -577,44 +586,189 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Deer Park",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2023-11-17T13:42:55+11:00",
-                "updated": "2023-11-17T13:45:05+11:00",
-                "id": "ESTA:231119247",
-                "location": "Station Rd, Deer Park",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-11-17T14:02:00+11:00",
+                "updated": "2023-11-17T14:04:00+11:00",
+                "id": "ESTA:231151052",
+                "location": "Manangatang",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.7757386455763,
-                    -37.76659333458635
+                    142.75753497124202,
+                    -35.0310575073979
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mont Albert",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Toorak",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2023-11-17T13:47:04+11:00",
-                "updated": "2023-11-17T13:47:12+11:00",
-                "id": "ESTA:231119252",
-                "location": "Mont Albert",
-                "title": "incident: hazardous material"
+                "created": "2023-11-17T14:02:43+11:00",
+                "updated": "2023-11-17T14:02:50+11:00",
+                "id": "ESTA:231119279",
+                "location": "Toorak Rd, Toorak",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.10498658815078,
-                    -37.821229027309556
+                    145.00969862457185,
+                    -37.8411817279394
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bundoora",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2023-11-17T14:01:57+11:00",
+                "updated": "2023-11-17T14:04:23+11:00",
+                "id": "ESTA:231119284",
+                "location": "Plenty Rd, Bundoora",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0654633066798,
+                    -37.689517479740715,
+                    145.0654633066798,
+                    -37.689517479740715,
+                    145.0654633066798,
+                    -37.689517479740715
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Thomastown",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2023-11-17T13:50:53+11:00",
+                "updated": "2023-11-17T14:06:07+11:00",
+                "id": "ESTA:231119260",
+                "location": "Mercedes Dr, Thomastown",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04450382884167,
+                    -37.68913153807283,
+                    145.04450382884167,
+                    -37.68913153807283,
+                    145.04450382884167,
+                    -37.68913153807283,
+                    145.04450382884167,
+                    -37.68913153807283,
+                    145.04450382884167,
+                    -37.68913153807283
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Patchewollock-Sea Lake Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2023-11-17T13:18:00+11:00",
+                "updated": "2023-11-17T14:07:00+11:00",
+                "id": "ESTA:231119181",
+                "location": "Patchewollock-Sea Lake Rd, Straten",
+                "size": "Medium",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.5795778743782,
+                    -35.39219637147444
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Daylesford",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2023-11-17T14:10:45+11:00",
+                "updated": "2023-11-17T14:11:28+11:00",
+                "id": "ESTA:231119294",
+                "location": "Hepburn Rd, Daylesford",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.14262560636794,
+                    -37.325935451021685
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cranbourne",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2023-11-17T14:11:48+11:00",
+                "updated": "2023-11-17T14:11:55+11:00",
+                "id": "ESTA:231119295",
+                "location": "Kalyptos Walk, Cranbourne",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.27347938766363,
+                    -38.10300015614132
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Riverina Hwy, Hopefield",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2023-11-16T21:47:00+11:00",
+                "updated": "2023-11-16T21:47:00+11:00",
+                "id": "2023-11-16T21:47:00.0000000:522190",
+                "location": "6755 Riverina Hwy, Hopefield 2646",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.430160522,
+                    -35.9518661499999
                 ]
             }
         },
@@ -717,28 +871,6 @@
                 "coordinates": [
                     142.708023071,
                     -34.1499557499999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Riverina Hwy, Hopefield",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2023-11-16T21:47:00+11:00",
-                "updated": "2023-11-16T21:47:00+11:00",
-                "id": "2023-11-16T21:47:00.0000000:522190",
-                "location": "6755 Riverina Hwy, Hopefield 2646",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.430160522,
-                    -35.9518661499999
                 ]
             }
         },
@@ -9983,6 +10115,116 @@
                         [
                             142.1588,
                             -35.1512
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Patchewollock-Sea Lake Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2023-11-17T11:00:00+11:00",
+                "updated": "2023-11-17T11:00:00+11:00",
+                "id": "2abb73b473b296a3df8db39c5cdd4572",
+                "location": "Patchewollock-Sea Lake Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            142.5761,
+                            -35.3919
+                        ],
+                        [
+                            142.5767,
+                            -35.3915
+                        ],
+                        [
+                            142.5774,
+                            -35.3912
+                        ],
+                        [
+                            142.5782,
+                            -35.3905
+                        ],
+                        [
+                            142.5787,
+                            -35.3901
+                        ],
+                        [
+                            142.5794,
+                            -35.39
+                        ],
+                        [
+                            142.5796,
+                            -35.3901
+                        ],
+                        [
+                            142.5795,
+                            -35.3919
+                        ],
+                        [
+                            142.5794,
+                            -35.3924
+                        ],
+                        [
+                            142.5794,
+                            -35.3952
+                        ],
+                        [
+                            142.5794,
+                            -35.3977
+                        ],
+                        [
+                            142.5793,
+                            -35.3978
+                        ],
+                        [
+                            142.5792,
+                            -35.3978
+                        ],
+                        [
+                            142.579,
+                            -35.3978
+                        ],
+                        [
+                            142.5788,
+                            -35.3977
+                        ],
+                        [
+                            142.5784,
+                            -35.3972
+                        ],
+                        [
+                            142.5775,
+                            -35.3962
+                        ],
+                        [
+                            142.5769,
+                            -35.3951
+                        ],
+                        [
+                            142.5766,
+                            -35.3941
+                        ],
+                        [
+                            142.5762,
+                            -35.3934
+                        ],
+                        [
+                            142.5761,
+                            -35.3927
+                        ],
+                        [
+                            142.5761,
+                            -35.3919
                         ]
                     ]
                 ]
@@ -40760,60 +41002,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Koorlong Av",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2023-11-17T13:32:00+11:00",
-                "updated": "2023-11-17T13:32:00+11:00",
-                "id": "ESTA:231119211",
-                "location": "Koorlong Av, Irymple",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.16623760524067,
-                    -34.23954659642435
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Weir Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2023-11-17T13:33:00+11:00",
-                "updated": "2023-11-17T13:33:00+11:00",
-                "id": "ESTA:231119218",
-                "location": "Weir Rd, Heyfield",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.7948363259669,
-                    -37.97886587014258
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Patchewollock-Sea Lake Rd",
+                "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2023-11-17T13:18:00+11:00",
-                "updated": "2023-11-17T13:44:00+11:00",
-                "id": "ESTA:231119181",
-                "location": "Patchewollock-Sea Lake Rd, Straten",
+                "status": "not yet under control",
+                "created": "2023-11-17T13:22:00+11:00",
+                "updated": "2023-11-17T13:53:00+11:00",
+                "id": "ESTA:231119186",
+                "location": "Marungi",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -40821,8 +41017,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.5795778743782,
-                    -35.39219637147444
+                    145.53157216074524,
+                    -36.19365357835278
                 ]
             }
         },
