@@ -1776,13 +1776,13 @@
                 "sourceTitle": "Belmont Rd, Glenfield",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/524624",
-                "created": "2023-11-18T09:00:00+11:00",
-                "updated": "2023-11-18T20:00:00+11:00",
+                "created": "2023-11-18T09:07:00+11:00",
+                "updated": "2023-11-18T20:07:00+11:00",
                 "location": "Belmont Rd, Glenfield, NSW 2167",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Belmont Rd, Glenfield, NSW 2167 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Nov 2023 20:00",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Belmont Rd, Glenfield, NSW 2167 <br />COUNCIL AREA: Campbelltown <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 18 Nov 2023 20:07",
                 "title": "incident: fire"
             }
         },
@@ -2943,10 +2943,122 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.74984741200012,
-                    -29.35039520199996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.74760446400012,
+                            -29.333816173999935
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.750669209,
+                                            -29.33832446
+                                        ],
+                                        [
+                                            152.751068958,
+                                            -29.339828279
+                                        ],
+                                        [
+                                            152.75070728,
+                                            -29.339542744
+                                        ],
+                                        [
+                                            152.749660318,
+                                            -29.337543996
+                                        ],
+                                        [
+                                            152.750117174,
+                                            -29.3372394259999
+                                        ],
+                                        [
+                                            152.750669209,
+                                            -29.33832446
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.750288496,
+                                            -29.3351645349999
+                                        ],
+                                        [
+                                            152.74986971,
+                                            -29.3364208909999
+                                        ],
+                                        [
+                                            152.749737963,
+                                            -29.336323055
+                                        ],
+                                        [
+                                            152.749726941,
+                                            -29.336380915
+                                        ],
+                                        [
+                                            152.749470322,
+                                            -29.3361242989999
+                                        ],
+                                        [
+                                            152.746787238,
+                                            -29.334131714
+                                        ],
+                                        [
+                                            152.744587307,
+                                            -29.332811724
+                                        ],
+                                        [
+                                            152.744490941,
+                                            -29.33242626
+                                        ],
+                                        [
+                                            152.744025754,
+                                            -29.3320807539999
+                                        ],
+                                        [
+                                            152.744539718,
+                                            -29.3314906479999
+                                        ],
+                                        [
+                                            152.745072718,
+                                            -29.331052827
+                                        ],
+                                        [
+                                            152.746443286,
+                                            -29.3315667909999
+                                        ],
+                                        [
+                                            152.748575283,
+                                            -29.332899288
+                                        ],
+                                        [
+                                            152.749812604,
+                                            -29.333717824
+                                        ],
+                                        [
+                                            152.750269461,
+                                            -29.3347267149999
+                                        ],
+                                        [
+                                            152.750288496,
+                                            -29.3351645349999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2956,11 +3068,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/524599",
-                "created": "2023-11-18T08:01:00+11:00",
-                "updated": "2023-11-18T19:01:00+11:00",
+                "created": "2023-11-18T09:16:00+11:00",
+                "updated": "2023-11-18T20:16:00+11:00",
                 "location": "COALDALE RD, BARRETTS CREEK 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: COALDALE RD, BARRETTS CREEK 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Nov 2023 19:01",
+                "size": 16,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: COALDALE RD, BARRETTS CREEK 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 16 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Nov 2023 20:16",
                 "title": "incident: fire"
             }
         },
@@ -3021,6 +3133,33 @@
                                         [
                                             152.524821024,
                                             -29.4322975069999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.522158368,
+                                            -29.4341105089999
+                                        ],
+                                        [
+                                            152.520671204,
+                                            -29.433872563
+                                        ],
+                                        [
+                                            152.520492745,
+                                            -29.430541317
+                                        ],
+                                        [
+                                            152.521860935,
+                                            -29.430541317
+                                        ],
+                                        [
+                                            152.522158368,
+                                            -29.4341105089999
                                         ]
                                     ]
                                 ]
@@ -3131,33 +3270,6 @@
                                         [
                                             152.520611718,
                                             -29.430779263
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.522158368,
-                                            -29.4341105089999
-                                        ],
-                                        [
-                                            152.520671204,
-                                            -29.433872563
-                                        ],
-                                        [
-                                            152.520492745,
-                                            -29.430541317
-                                        ],
-                                        [
-                                            152.521860935,
-                                            -29.430541317
-                                        ],
-                                        [
-                                            152.522158368,
-                                            -29.4341105089999
                                         ]
                                     ]
                                 ]
@@ -8638,13 +8750,13 @@
                 "sourceTitle": "MILE END RD, ROUSE HILL",
                 "category": "other",
                 "subcategory": "fire alarm",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/524623",
-                "created": "2023-11-18T08:59:00+11:00",
-                "updated": "2023-11-18T19:59:00+11:00",
+                "created": "2023-11-18T09:17:00+11:00",
+                "updated": "2023-11-18T20:17:00+11:00",
                 "location": "OZ DESIGN 18-20 MILE END RD, ROUSE HILL 2155",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OZ DESIGN 18-20 MILE END RD, ROUSE HILL 2155 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Nov 2023 19:59",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OZ DESIGN 18-20 MILE END RD, ROUSE HILL 2155 <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Nov 2023 20:17",
                 "title": "incident: other"
             }
         },
