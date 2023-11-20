@@ -367,32 +367,36 @@ const mapProperties = {
   }),
   /* eslint-disable camelcase */
   qld: ({
+    OBJECTID,
     Master_Incident_Number,
     Location,
-    ResponseDate,
-    LastUpdate,
-    IncidentType,
+    ItemDateTimeLocal_ISO,
+    PublishDateLocal_ISO,
+    GroupedType,
+    WarningTitle,
+    WarningLevel,
     CurrentStatus,
     Region,
     MediaMessage,
-    VehiclesOnRoute,
-    VehiclesOnScene,
+    WarningText,
+    CallToAction,
+    VehiclesAssigned,
   }) => ({
-    id: Master_Incident_Number,
+    id: OBJECTID + Master_Incident_Number,
     sourceTitle: Location,
     created: moment
-      .tz(ResponseDate, "YYYYMMDDHHmmss", "Australia/Brisbane")
+      .tz(ItemDateTimeLocal_ISO, moment.ISO_8601, "Australia/Brisbane")
       .format(),
     updated: moment
-      .tz(LastUpdate, "YYYYMMDDHHmmss", "Australia/Brisbane")
+      .tz(PublishDateLocal_ISO, moment.ISO_8601, "Australia/Brisbane")
       .format(),
-    feedType: "incident",
-    category: "other",
-    subcategory: IncidentType,
+    feedType: WarningTitle ? "warning" : "incident",
+    category: GroupedType || "Other",
+    subcategory: WarningLevel || "Other",
     status: CurrentStatus,
     location: Region,
-    description: MediaMessage,
-    resources: parseInt(VehiclesOnRoute) + parseInt(VehiclesOnScene),
+    description: (MediaMessage || WarningText || CallToAction || "").trim(),
+    resources: parseInt(VehiclesAssigned),
   }),
   /* eslint-enable camelcase */
 };
