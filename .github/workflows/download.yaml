@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron: "*/15 * * * *"
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
           ref: master
 
       - name: NPM Install
-        run: npm ci --only=production
+        run: npm ci --omit=dev
 
       - name: Fetch data
         run: npm run downloader
