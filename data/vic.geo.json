@@ -716,40 +716,60 @@
             }
         },
         {
+            "type": "Feature",
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mount Waverley",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2023-11-21T06:17:34+11:00",
-                "updated": "2023-11-21T06:29:20+11:00",
-                "id": "ESTA:231125127",
-                "location": "Gilby Rd, Mount Waverley",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Barooga Rd, Mulwala",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2023-11-21T00:15:00+11:00",
+                "updated": "2023-11-21T00:15:00+11:00",
+                "id": "2023-11-21T00:15:00.0000000:524690",
+                "location": "Barooga Rd, Mulwala 2647",
+                "title": "incident: fire"
             },
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13637914622223,
-                    -37.898277543450455,
-                    145.13637914622223,
-                    -37.898277543450455,
-                    145.13637914622223,
-                    -37.898277543450455,
-                    145.13637914622223,
-                    -37.898277543450455,
-                    145.13637914622223,
-                    -37.898277543450455,
-                    145.13637914622223,
-                    -37.898277543450455,
-                    145.13637914622223,
-                    -37.898277543450455,
-                    145.13637914622223,
-                    -37.898277543450455,
-                    145.13637914622223,
-                    -37.898277543450455
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.9986,
+                                    -35.9733
+                                ],
+                                [
+                                    145.9988,
+                                    -35.973
+                                ],
+                                [
+                                    145.9991,
+                                    -35.973
+                                ],
+                                [
+                                    145.9992,
+                                    -35.9733
+                                ],
+                                [
+                                    145.9988,
+                                    -35.9735
+                                ],
+                                [
+                                    145.9986,
+                                    -35.9733
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.999206543,
+                            -35.9693412779999
+                        ]
+                    }
                 ]
             }
         },
@@ -850,64 +870,6 @@
                         "coordinates": [
                             149.290954589,
                             -36.8698997499999
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Barooga Rd, Mulwala",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2023-11-21T00:15:00+11:00",
-                "updated": "2023-11-21T00:15:00+11:00",
-                "id": "2023-11-21T00:15:00.0000000:524690",
-                "location": "Barooga Rd, Mulwala 2647",
-                "title": "incident: fire"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    145.9986,
-                                    -35.9733
-                                ],
-                                [
-                                    145.9988,
-                                    -35.973
-                                ],
-                                [
-                                    145.9991,
-                                    -35.973
-                                ],
-                                [
-                                    145.9992,
-                                    -35.9733
-                                ],
-                                [
-                                    145.9988,
-                                    -35.9735
-                                ],
-                                [
-                                    145.9986,
-                                    -35.9733
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            145.999206543,
-                            -35.9693412779999
                         ]
                     }
                 ]
