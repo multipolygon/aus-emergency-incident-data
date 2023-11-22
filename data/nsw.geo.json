@@ -201,10 +201,83 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.44844055200008,
-                    -32.83610534699994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.44844055200008,
+                            -32.83610534699994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.452806074,
+                                            -32.832348673
+                                        ],
+                                        [
+                                            151.453044021,
+                                            -32.832586619
+                                        ],
+                                        [
+                                            151.453139199,
+                                            -32.8329435379999
+                                        ],
+                                        [
+                                            151.453638886,
+                                            -32.8330744089999
+                                        ],
+                                        [
+                                            151.453864934,
+                                            -32.833288559
+                                        ],
+                                        [
+                                            151.453757859,
+                                            -32.833383738
+                                        ],
+                                        [
+                                            151.453579399,
+                                            -32.833181484
+                                        ],
+                                        [
+                                            151.453460427,
+                                            -32.8331933809999
+                                        ],
+                                        [
+                                            151.453067815,
+                                            -32.83337184
+                                        ],
+                                        [
+                                            151.452948842,
+                                            -32.833716863
+                                        ],
+                                        [
+                                            151.452591923,
+                                            -32.8335027109999
+                                        ],
+                                        [
+                                            151.452484847,
+                                            -32.8332766619999
+                                        ],
+                                        [
+                                            151.452627615,
+                                            -32.832455749
+                                        ],
+                                        [
+                                            151.452806074,
+                                            -32.832348673
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -212,13 +285,13 @@
                 "sourceTitle": "BROMAGE RD, ABERMAIN",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525065",
-                "created": "2023-11-22T07:02:00+11:00",
-                "updated": "2023-11-22T18:02:00+11:00",
+                "created": "2023-11-22T07:18:00+11:00",
+                "updated": "2023-11-22T18:18:00+11:00",
                 "location": "BROMAGE RD, ABERMAIN 2326",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BROMAGE RD, ABERMAIN 2326 <br />COUNCIL AREA: Cessnock <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 18:02",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BROMAGE RD, ABERMAIN 2326 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 18:18",
                 "title": "incident: fire"
             }
         },
@@ -1708,6 +1781,30 @@
                 "location": "CORONGA DOWNS 836 COONEYBAR RD, TINDAREY 2835",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: CORONGA DOWNS 836 COONEYBAR RD, TINDAREY 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2023 18:22",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.86804199200003,
+                    -31.083585738999943
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GOORIANAWA RD, BLACK HOLLOW",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525068",
+                "created": "2023-11-22T07:23:00+11:00",
+                "updated": "2023-11-22T18:23:00+11:00",
+                "location": "1879 GOORIANAWA RD, BLACK HOLLOW 2828",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1879 GOORIANAWA RD, BLACK HOLLOW 2828 <br />COUNCIL AREA: Coonamble <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 18:23",
                 "title": "incident: fire"
             }
         },
@@ -3289,30 +3386,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.05947876000005,
-                    -30.91183471599993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "LIGHTHOUSE RD, ARAKOON",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525064",
-                "created": "2023-11-22T07:04:00+11:00",
-                "updated": "2023-11-22T18:04:00+11:00",
-                "location": "LIGHTHOUSE RD, ARAKOON 2431",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: LIGHTHOUSE RD, ARAKOON 2431 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 18:04",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -4765,6 +4838,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CULLENS RD, COPACABANA 2251 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 17:04",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.40209960900006,
+                    -35.16088867199994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "KORALEIGH RD, KORALEIGH",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525069",
+                "created": "2023-11-22T07:24:00+11:00",
+                "updated": "2023-11-22T18:24:00+11:00",
+                "location": "141 KORALEIGH RD, KORALEIGH 2735",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 141 KORALEIGH RD, KORALEIGH 2735 <br />COUNCIL AREA: Murray River <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 18:24",
+                "title": "incident: fire"
             }
         },
         {
