@@ -4,10 +4,119 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.65920037700005,
-                    -32.206315006999944
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.65920037700005,
+                            -32.206315006999944
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.66048606,
+                                            -32.2050924659999
+                                        ],
+                                        [
+                                            149.66043847,
+                                            -32.2050686709999
+                                        ],
+                                        [
+                                            149.659867399,
+                                            -32.205437488
+                                        ],
+                                        [
+                                            149.659165458,
+                                            -32.205723024
+                                        ],
+                                        [
+                                            149.65845162,
+                                            -32.2059609689999
+                                        ],
+                                        [
+                                            149.657678295,
+                                            -32.2059609689999
+                                        ],
+                                        [
+                                            149.657059636,
+                                            -32.205972866
+                                        ],
+                                        [
+                                            149.656559949,
+                                            -32.206210813
+                                        ],
+                                        [
+                                            149.655976981,
+                                            -32.206270299
+                                        ],
+                                        [
+                                            149.655382115,
+                                            -32.206270299
+                                        ],
+                                        [
+                                            149.654644483,
+                                            -32.206127532
+                                        ],
+                                        [
+                                            149.653799773,
+                                            -32.2060085589999
+                                        ],
+                                        [
+                                            149.653038346,
+                                            -32.2057825099999
+                                        ],
+                                        [
+                                            149.652300714,
+                                            -32.205437488
+                                        ],
+                                        [
+                                            149.652431583,
+                                            -32.2040098109999
+                                        ],
+                                        [
+                                            149.653371471,
+                                            -32.2035101239999
+                                        ],
+                                        [
+                                            149.654311358,
+                                            -32.203212691
+                                        ],
+                                        [
+                                            149.656214926,
+                                            -32.2031175129999
+                                        ],
+                                        [
+                                            149.657654501,
+                                            -32.203403049
+                                        ],
+                                        [
+                                            149.659391507,
+                                            -32.2038432489999
+                                        ],
+                                        [
+                                            149.660307599,
+                                            -32.20418827
+                                        ],
+                                        [
+                                            149.6607478,
+                                            -32.2046760599999
+                                        ],
+                                        [
+                                            149.66048606,
+                                            -32.2050924659999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -17,11 +126,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525048",
-                "created": "2023-11-22T05:25:00+11:00",
-                "updated": "2023-11-22T16:25:00+11:00",
+                "created": "2023-11-22T06:08:00+11:00",
+                "updated": "2023-11-22T17:08:00+11:00",
                 "location": "1062 BLUE SPRINGS RD, BUNGABA 2852",
                 "size": 10,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1062 BLUE SPRINGS RD, BUNGABA 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 16:25",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1062 BLUE SPRINGS RD, BUNGABA 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 17:08",
                 "title": "incident: fire"
             }
         },
@@ -63,13 +172,13 @@
                 "sourceTitle": "CHATMANS RD, MANDAGERY",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525033",
-                "created": "2023-11-22T03:06:00+11:00",
-                "updated": "2023-11-22T14:06:00+11:00",
+                "created": "2023-11-22T05:42:00+11:00",
+                "updated": "2023-11-22T16:42:00+11:00",
                 "location": "BURONGA RD, MANDAGERY 2870",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BURONGA RD, MANDAGERY 2870 <br />COUNCIL AREA: Cabonne <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 14:06",
+                "size": 2,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BURONGA RD, MANDAGERY 2870 <br />COUNCIL AREA: Cabonne <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 16:42",
                 "title": "incident: fire"
             }
         },
@@ -5026,6 +5135,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.43223571800002,
+                    -33.48300933899998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CULLENS RD, COPACABANA",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525061",
+                "created": "2023-11-22T06:04:00+11:00",
+                "updated": "2023-11-22T17:04:00+11:00",
+                "location": "CULLENS RD, COPACABANA 2251",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CULLENS RD, COPACABANA 2251 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 17:04",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.4758148190001,
                     -33.169906615999935
                 ]
@@ -5042,6 +5175,54 @@
                 "location": "BETHSHAN GARDENS 30 FOREST RD, WYEE 2259",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BETHSHAN GARDENS 30 FOREST RD, WYEE 2259 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 16:30",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.40882873500004,
+                    -34.54504012999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "LEETON HOSPITAL PALM AV, LEETON",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525058",
+                "created": "2023-11-22T05:42:00+11:00",
+                "updated": "2023-11-22T16:42:00+11:00",
+                "location": "LEETON HOSPITAL PALM AV, LEETON 2705",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: LEETON HOSPITAL PALM AV, LEETON 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 16:42",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.1771392820001,
+                    -33.40420150799997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MILLTHORPE RD, SHADFORTH",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525059",
+                "created": "2023-11-22T05:48:00+11:00",
+                "updated": "2023-11-22T16:48:00+11:00",
+                "location": "MILLTHORPE RD, SHADFORTH 2800",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MILLTHORPE RD, SHADFORTH 2800 <br />COUNCIL AREA: Orange <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 16:48",
                 "title": "incident: other"
             }
         },
@@ -5218,23 +5399,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.5060882570001,
-                    -34.47024917599998
+                    148.42604065000012,
+                    -32.551811217999955
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "STURT HWY, CARRATHOOL",
-                "category": "other",
-                "subcategory": "mva/transport",
+                "sourceTitle": "TANNERS CREEK RD, WAMBANGALANG",
+                "category": "fire",
+                "subcategory": "bushfire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525031",
-                "created": "2023-11-22T03:10:00+11:00",
-                "updated": "2023-11-22T14:10:00+11:00",
-                "location": "STURT HWY, CARRATHOOL 2711",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525060",
+                "created": "2023-11-22T06:01:00+11:00",
+                "updated": "2023-11-22T17:01:00+11:00",
+                "location": "TANNERS CREEK RD, WAMBANGALANG 2830",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: STURT HWY, CARRATHOOL 2711 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 14:10",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: TANNERS CREEK RD, WAMBANGALANG 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Nov 2023 17:01",
+                "title": "incident: fire"
             }
         }
     ]
