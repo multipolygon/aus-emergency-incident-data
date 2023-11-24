@@ -370,17 +370,18 @@ const mapProperties = {
     OBJECTID,
     Master_Incident_Number,
     Location,
+    Locality,
     ItemDateTimeLocal_ISO,
     PublishDateLocal_ISO,
     GroupedType,
     WarningTitle,
     WarningLevel,
     CurrentStatus,
-    Region,
     MediaMessage,
     WarningText,
     CallToAction,
     VehiclesAssigned,
+    Header,
   }) => ({
     id: OBJECTID + Master_Incident_Number,
     sourceTitle: Location,
@@ -390,12 +391,19 @@ const mapProperties = {
     updated: moment
       .tz(PublishDateLocal_ISO, moment.ISO_8601, "Australia/Brisbane")
       .format(),
-    feedType: WarningTitle ? "warning" : "incident",
+    feedType: "incident",
     category: GroupedType || "Other",
     subcategory: WarningLevel || "Other",
     status: CurrentStatus,
-    location: Region,
-    description: (MediaMessage || WarningText || CallToAction || "").trim(),
+    location: (Location + " " + Locality).trim(),
+    description: (
+      Header ||
+      CallToAction ||
+      WarningTitle ||
+      WarningText ||
+      MediaMessage ||
+      ""
+    ).trim(),
     resources: parseInt(VehiclesAssigned),
   }),
   /* eslint-enable camelcase */
