@@ -1592,11 +1592,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/525306",
-                "created": "2023-11-29T22:02:00+11:00",
-                "updated": "2023-11-30T09:02:00+11:00",
+                "created": "2023-11-30T03:38:00+11:00",
+                "updated": "2023-11-30T14:38:00+11:00",
                 "location": "MOUNT SUSANNAH",
                 "size": 599,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: MOUNT SUSANNAH <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 599 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Nov 2023 09:02",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: MOUNT SUSANNAH <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 599 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Nov 2023 14:38",
                 "title": "incident: fire"
             }
         },
@@ -1925,24 +1925,105 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.19078064000007,
-                    -34.49241638199993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.1800270110001,
+                            -34.491327112999954
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.181305958,
+                                            -34.490977269
+                                        ],
+                                        [
+                                            147.181535577,
+                                            -34.491516216
+                                        ],
+                                        [
+                                            147.181403517,
+                                            -34.4921884149999
+                                        ],
+                                        [
+                                            147.180537392,
+                                            -34.4931425789999
+                                        ],
+                                        [
+                                            147.179430944,
+                                            -34.493054539
+                                        ],
+                                        [
+                                            147.178893187,
+                                            -34.491921916
+                                        ],
+                                        [
+                                            147.179859246,
+                                            -34.490977269
+                                        ],
+                                        [
+                                            147.180425558,
+                                            -34.490922542
+                                        ],
+                                        [
+                                            147.180803893,
+                                            -34.4909594229999
+                                        ],
+                                        [
+                                            147.181305958,
+                                            -34.490977269
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "TARA-BECTRIC RD, TARA",
+                "sourceTitle": "TARA-BECTRIC RD, TARA NSW",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/526747",
-                "created": "2023-11-30T03:07:00+11:00",
-                "updated": "2023-11-30T14:07:00+11:00",
-                "location": "TARA-BECTRIC RD, TARA 2665",
-                "size": 6,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: TARA-BECTRIC RD, TARA 2665 <br />COUNCIL AREA: Temora <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Nov 2023 14:07",
+                "created": "2023-11-30T03:39:00+11:00",
+                "updated": "2023-11-30T14:39:00+11:00",
+                "location": "2493 TARA-BECTRIC RD, TARA NSW 2665",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2493 TARA-BECTRIC RD, TARA NSW 2665 <br />COUNCIL AREA: Temora <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Nov 2023 14:39",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.9318695070001,
+                    -33.65768051099997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ANNANGROVE RD, ANNANGROVE",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/526752",
+                "created": "2023-11-30T03:39:00+11:00",
+                "updated": "2023-11-30T14:39:00+11:00",
+                "location": "249 ANNANGROVE RD, ANNANGROVE 2156",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 249 ANNANGROVE RD, ANNANGROVE 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Nov 2023 14:39",
                 "title": "incident: fire"
             }
         },
@@ -2160,6 +2241,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3 ODETTE RD, DURAL 2158 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Nov 2023 21:10",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.3289947510001,
+                    -33.34600448599997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "OURIMBAH CREEK RD, OURIMBAH",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/526750",
+                "created": "2023-11-30T03:33:00+11:00",
+                "updated": "2023-11-30T14:33:00+11:00",
+                "location": "385 OURIMBAH CREEK RD, OURIMBAH 2258",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 385 OURIMBAH CREEK RD, OURIMBAH 2258 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Nov 2023 14:33",
+                "title": "incident: other"
             }
         },
         {
