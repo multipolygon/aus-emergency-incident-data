@@ -717,10 +717,143 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.39472961400008,
-                    -29.85494041399994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.39472961400008,
+                            -29.85494041399994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.388007584,
+                                            -29.863953473
+                                        ],
+                                        [
+                                            151.388638142,
+                                            -29.8648100779999
+                                        ],
+                                        [
+                                            151.389137828,
+                                            -29.8651432029999
+                                        ],
+                                        [
+                                            151.389804078,
+                                            -29.865345458
+                                        ],
+                                        [
+                                            151.390886731,
+                                            -29.865393046
+                                        ],
+                                        [
+                                            151.39164816,
+                                            -29.8652859699999
+                                        ],
+                                        [
+                                            151.392457176,
+                                            -29.8650361269999
+                                        ],
+                                        [
+                                            151.392742711,
+                                            -29.865321663
+                                        ],
+                                        [
+                                            151.392885479,
+                                            -29.86551202
+                                        ],
+                                        [
+                                            151.393016349,
+                                            -29.865845145
+                                        ],
+                                        [
+                                            151.393028246,
+                                            -29.866166371
+                                        ],
+                                        [
+                                            151.393063939,
+                                            -29.866582777
+                                        ],
+                                        [
+                                            151.392992555,
+                                            -29.866999183
+                                        ],
+                                        [
+                                            151.392778403,
+                                            -29.867486973
+                                        ],
+                                        [
+                                            151.392361997,
+                                            -29.867998556
+                                        ],
+                                        [
+                                            151.391826619,
+                                            -29.868367373
+                                        ],
+                                        [
+                                            151.391315035,
+                                            -29.868426859
+                                        ],
+                                        [
+                                            151.390970013,
+                                            -29.868462552
+                                        ],
+                                        [
+                                            151.390410839,
+                                            -29.868272195
+                                        ],
+                                        [
+                                            151.389351979,
+                                            -29.8680699409999
+                                        ],
+                                        [
+                                            151.38855486,
+                                            -29.867701123
+                                        ],
+                                        [
+                                            151.387817227,
+                                            -29.867439383
+                                        ],
+                                        [
+                                            151.387305643,
+                                            -29.8672014369999
+                                        ],
+                                        [
+                                            151.38674647,
+                                            -29.866773134
+                                        ],
+                                        [
+                                            151.386484729,
+                                            -29.866297242
+                                        ],
+                                        [
+                                            151.386591805,
+                                            -29.86577376
+                                        ],
+                                        [
+                                            151.386663189,
+                                            -29.864905257
+                                        ],
+                                        [
+                                            151.387103388,
+                                            -29.8641676239999
+                                        ],
+                                        [
+                                            151.388007584,
+                                            -29.863953473
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -735,6 +868,30 @@
                 "location": "COOKS RD, NEWSTEAD 2360",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: COOKS RD, NEWSTEAD 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Dec 2023 14:48",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.8967132570001,
+                    -30.70816039999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CORONATION RD, CONGARINNI NORTH",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/526853",
+                "created": "2023-12-01T04:38:00+11:00",
+                "updated": "2023-12-01T15:38:00+11:00",
+                "location": "155 CORONATION RD, CONGARINNI NORTH 2447",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 155 CORONATION RD, CONGARINNI NORTH 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Dec 2023 15:38",
                 "title": "incident: fire"
             }
         },
@@ -2581,6 +2738,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.778839112,
+                    -33.892429351999965
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WESTERN RD, KEMPS CREEK",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/526855",
+                "created": "2023-12-01T04:51:00+11:00",
+                "updated": "2023-12-01T15:51:00+11:00",
+                "location": "WESTERN RD, KEMPS CREEK 2178",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: WESTERN RD, KEMPS CREEK 2178 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Dec 2023 15:51",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.4194793700001,
                     -28.336433409999984
                 ]
@@ -2629,22 +2810,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.09448242200006,
-                    -30.22084426899994
+                    150.9241333010001,
+                    -33.68627166699997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "CENTRAL BUCCA RD, BUCCA",
+                "sourceTitle": "COMMERCIAL RD, ROUSE HILL",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/526845",
-                "created": "2023-12-01T04:20:00+11:00",
-                "updated": "2023-12-01T15:20:00+11:00",
-                "location": "CENTRAL BUCCA RD, BUCCA 2450",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/526857",
+                "created": "2023-12-01T04:55:00+11:00",
+                "updated": "2023-12-01T15:55:00+11:00",
+                "location": "COMMERCIAL RD, ROUSE HILL 2155",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CENTRAL BUCCA RD, BUCCA 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Dec 2023 15:20",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: COMMERCIAL RD, ROUSE HILL 2155 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Dec 2023 15:55",
                 "title": "incident: other"
             }
         },
@@ -2749,23 +2930,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.8484497070001,
-                    -33.744709014999955
+                    148.32334899900002,
+                    -35.56533431999998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "PARKES ST, WOODSTOCK",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/526849",
-                "created": "2023-12-01T04:32:00+11:00",
-                "updated": "2023-12-01T15:32:00+11:00",
-                "location": "23 PARKES ST, WOODSTOCK 2793",
+                "sourceTitle": "SNOWY MOUNTAINS HWY, TALBINGO",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/526856",
+                "created": "2023-12-01T04:53:00+11:00",
+                "updated": "2023-12-01T15:53:00+11:00",
+                "location": "3888 SNOWY MOUNTAINS HWY, TALBINGO 2720",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 23 PARKES ST, WOODSTOCK 2793 <br />COUNCIL AREA: Cowra <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Dec 2023 15:32",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3888 SNOWY MOUNTAINS HWY, TALBINGO 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Dec 2023 15:53",
+                "title": "incident: other"
             }
         }
     ]
