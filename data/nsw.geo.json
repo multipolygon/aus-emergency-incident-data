@@ -8171,10 +8171,71 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.1712188680001,
-                    -30.223771770999974
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.17412970300006,
+                            -30.249488221999968
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.171726176,
+                                            -30.251681929
+                                        ],
+                                        [
+                                            152.170595931,
+                                            -30.2518009039999
+                                        ],
+                                        [
+                                            152.170001067,
+                                            -30.2513250109999
+                                        ],
+                                        [
+                                            152.170060553,
+                                            -30.2501352809999
+                                        ],
+                                        [
+                                            152.170893364,
+                                            -30.249361955
+                                        ],
+                                        [
+                                            152.171964121,
+                                            -30.2496593879999
+                                        ],
+                                        [
+                                            152.172440013,
+                                            -30.249837848
+                                        ],
+                                        [
+                                            152.172737447,
+                                            -30.2500757949999
+                                        ],
+                                        [
+                                            152.172856419,
+                                            -30.250373227
+                                        ],
+                                        [
+                                            152.1724995,
+                                            -30.2513250109999
+                                        ],
+                                        [
+                                            152.171726176,
+                                            -30.251681929
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -8197,22 +8258,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.27696500000002,
-                    -28.992497999999955
+                    153.27696228000002,
+                    -28.992498397999952
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kardina St, Coraki",
+                "sourceTitle": "KARDINA ST, CORAKI",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/527872",
-                "created": "2023-12-09T07:24:00+11:00",
-                "updated": "2023-12-09T18:24:00+11:00",
-                "location": "Kardina St, Coraki, NSW 2471",
+                "created": "2023-12-09T07:37:00+11:00",
+                "updated": "2023-12-09T18:37:00+11:00",
+                "location": "KARDINA ST, CORAKI 2471",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Kardina St, Coraki, NSW 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 9 Dec 2023 18:24",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: KARDINA ST, CORAKI 2471 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 9 Dec 2023 18:37",
                 "title": "incident: fire"
             }
         },
@@ -8285,6 +8346,30 @@
                 "location": "LITTLE RANGE 160 LITTLE RANGE RD, BOOROWA 2586",
                 "size": 5,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: LITTLE RANGE 160 LITTLE RANGE RD, BOOROWA 2586 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Dec 2023 17:24",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.486099243,
+                    -33.25385284399994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lomandra Tce, Hamlyn Terrace",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/527878",
+                "created": "2023-12-09T07:41:00+11:00",
+                "updated": "2023-12-09T18:41:00+11:00",
+                "location": "17 Lomandra Tce, Hamlyn Terrace, NSW 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 17 Lomandra Tce, Hamlyn Terrace, NSW 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 9 Dec 2023 18:41",
                 "title": "incident: fire"
             }
         },
@@ -10987,11 +11072,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/527684",
-                "created": "2023-12-09T03:55:00+11:00",
-                "updated": "2023-12-09T14:55:00+11:00",
+                "created": "2023-12-09T07:32:00+11:00",
+                "updated": "2023-12-09T18:32:00+11:00",
                 "location": "PAYNES RD, TALLIMBA 2669",
-                "size": 80,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: PAYNES RD, TALLIMBA 2669 <br />COUNCIL AREA: Bland <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 80 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Dec 2023 14:55",
+                "size": 141,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: PAYNES RD, TALLIMBA 2669 <br />COUNCIL AREA: Bland <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 141 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Dec 2023 18:32",
                 "title": "incident: fire"
             }
         },
@@ -11353,11 +11438,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/527749",
-                "created": "2023-12-09T03:32:00+11:00",
-                "updated": "2023-12-09T14:32:00+11:00",
+                "created": "2023-12-09T07:30:00+11:00",
+                "updated": "2023-12-09T18:30:00+11:00",
                 "location": "PUZZLE CREEK FIRE WOLLEMI NATIONAL PARK",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: PUZZLE CREEK FIRE WOLLEMI NATIONAL PARK <br />COUNCIL AREA: Mid-Western <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 9 Dec 2023 14:32",
+                "size": 3,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: PUZZLE CREEK FIRE WOLLEMI NATIONAL PARK <br />COUNCIL AREA: Mid-Western <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 9 Dec 2023 18:30",
                 "title": "incident: fire"
             }
         },
