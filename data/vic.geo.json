@@ -344,21 +344,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "flooding",
+                "subcategory": "flooding",
                 "status": "request for assistance",
-                "created": "2023-12-14T04:30:00+11:00",
-                "updated": "2023-12-14T04:33:00+11:00",
-                "id": "ESTA:231252464",
-                "location": "Katunga",
-                "title": "incident: tree down"
+                "created": "2023-12-14T04:35:00+11:00",
+                "updated": "2023-12-14T04:38:00+11:00",
+                "id": "ESTA:231252465",
+                "location": "Princes Hill",
+                "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3860510661068,
-                    -35.99911742861792
+                    144.96542715114532,
+                    -37.78077154854497
                 ]
             }
         },
@@ -388,22 +388,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Princes Hill",
-                "category": "flooding",
-                "subcategory": "flooding",
+                "sourceTitle": "Victoria St",
+                "category": "fire",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2023-12-14T04:30:33+11:00",
-                "updated": "2023-12-14T04:35:20+11:00",
-                "id": "ESTA:231252465",
-                "location": "Arnold St, Princes Hill",
-                "title": "incident: flooding"
+                "created": "2023-12-14T04:42:00+11:00",
+                "updated": "2023-12-14T04:42:00+11:00",
+                "id": "ESTA:231208688",
+                "location": "Victoria St, Drouin",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96543704070703,
-                    -37.7807603529952
+                    145.85927698887716,
+                    -38.13143742010318
                 ]
             }
         },
@@ -4548,6 +4549,52 @@
             }
         },
         {
+            "type": "Feature",
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kosciuszko Walk, Kosciuszko",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2023-12-13T16:19:00+11:00",
+                "updated": "2023-12-13T16:19:00+11:00",
+                "id": "2023-12-13T16:19:00.0000000:528274",
+                "location": "Kosciuszko Walk, Kosciuszko 2627",
+                "title": "incident: fire"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    148.2607,
+                                    -36.4517
+                                ],
+                                [
+                                    148.2617,
+                                    -36.452
+                                ],
+                                [
+                                    148.2607,
+                                    -36.4517
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.260847076,
+                            -36.451849007
+                        ]
+                    }
+                ]
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Caldwell Line Rd, Caldwell",
@@ -4734,52 +4781,6 @@
                         "coordinates": [
                             141.702764506,
                             -33.693139752
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kosciuszko Walk, Kosciuszko",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2023-12-13T16:19:00+11:00",
-                "updated": "2023-12-13T16:19:00+11:00",
-                "id": "2023-12-13T16:19:00.0000000:528274",
-                "location": "Kosciuszko Walk, Kosciuszko 2627",
-                "title": "incident: fire"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    148.2607,
-                                    -36.4517
-                                ],
-                                [
-                                    148.2617,
-                                    -36.452
-                                ],
-                                [
-                                    148.2607,
-                                    -36.4517
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            148.260847076,
-                            -36.451849007
                         ]
                     }
                 ]
@@ -58294,7 +58295,7 @@
                 "sourceTitle": "Heaths Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2023-12-14T04:30:00+11:00",
                 "updated": "2023-12-14T04:30:00+11:00",
                 "id": "ESTA:231208686",
@@ -58384,8 +58385,30 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
+                "created": "2023-12-14T04:30:00+11:00",
+                "updated": "2023-12-14T04:33:00+11:00",
+                "id": "ESTA:231252464",
+                "location": "Katunga",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3860510661068,
+                    -35.99911742861792
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
                 "created": "2023-12-14T04:15:00+11:00",
-                "updated": "2023-12-14T04:27:00+11:00",
+                "updated": "2023-12-14T04:42:00+11:00",
                 "id": "ESTA:231252463",
                 "location": "Violet Town",
                 "title": "incident: tree down"
