@@ -353,14 +353,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "College St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2023-12-15T05:04:00+11:00",
+                "updated": "2023-12-15T06:05:00+11:00",
+                "id": "ESTA:231252600",
+                "location": "Huntly",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3289662381398,
+                    -36.65873774750237
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Girdlestone St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-12-15T05:23:00+11:00",
-                "updated": "2023-12-15T05:43:00+11:00",
-                "id": "ESTA:231209512",
-                "location": "College St, Wendouree",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-12-15T06:08:00+11:00",
+                "updated": "2023-12-15T06:08:00+11:00",
+                "id": "ESTA:231209524",
+                "location": "Girdlestone St, Ararat",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -368,30 +390,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.8360533552605,
-                    -37.53784226383461
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "South Yarra",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2023-12-15T05:43:31+11:00",
-                "updated": "2023-12-15T05:45:58+11:00",
-                "id": "ESTA:231209516",
-                "location": "Malvern Rd, South Yarra",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9951428757259,
-                    -37.846729992638856
+                    142.93026335835413,
+                    -37.27873122028376
                 ]
             }
         },
@@ -494,88 +494,6 @@
                         "coordinates": [
                             143.433282502,
                             -34.3327240639999
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Old School Lane, Sanger",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2023-12-15T02:46:00+11:00",
-                "updated": "2023-12-15T02:46:00+11:00",
-                "id": "2023-12-15T02:46:00.0000000:528393",
-                "location": "Old School Lane, Sanger 2646",
-                "title": "incident: fire"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    146.1896,
-                                    -35.6777
-                                ],
-                                [
-                                    146.1906,
-                                    -35.6748
-                                ],
-                                [
-                                    146.1966,
-                                    -35.6748
-                                ],
-                                [
-                                    146.2058,
-                                    -35.674
-                                ],
-                                [
-                                    146.2106,
-                                    -35.6752
-                                ],
-                                [
-                                    146.215,
-                                    -35.6771
-                                ],
-                                [
-                                    146.2154,
-                                    -35.6779
-                                ],
-                                [
-                                    146.2152,
-                                    -35.6805
-                                ],
-                                [
-                                    146.2133,
-                                    -35.6823
-                                ],
-                                [
-                                    146.2012,
-                                    -35.6808
-                                ],
-                                [
-                                    146.1926,
-                                    -35.6801
-                                ],
-                                [
-                                    146.1896,
-                                    -35.6777
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            146.172714234,
-                            -35.708850861
                         ]
                     }
                 ]
@@ -724,6 +642,88 @@
                         "coordinates": [
                             141.702764506,
                             -33.693139752
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Old School Lane, Sanger",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2023-12-15T02:46:00+11:00",
+                "updated": "2023-12-15T02:46:00+11:00",
+                "id": "2023-12-15T02:46:00.0000000:528393",
+                "location": "Old School Lane, Sanger 2646",
+                "title": "incident: fire"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    146.1896,
+                                    -35.6777
+                                ],
+                                [
+                                    146.1906,
+                                    -35.6748
+                                ],
+                                [
+                                    146.1966,
+                                    -35.6748
+                                ],
+                                [
+                                    146.2058,
+                                    -35.674
+                                ],
+                                [
+                                    146.2106,
+                                    -35.6752
+                                ],
+                                [
+                                    146.215,
+                                    -35.6771
+                                ],
+                                [
+                                    146.2154,
+                                    -35.6779
+                                ],
+                                [
+                                    146.2152,
+                                    -35.6805
+                                ],
+                                [
+                                    146.2133,
+                                    -35.6823
+                                ],
+                                [
+                                    146.2012,
+                                    -35.6808
+                                ],
+                                [
+                                    146.1926,
+                                    -35.6801
+                                ],
+                                [
+                                    146.1896,
+                                    -35.6777
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.172714234,
+                            -35.708850861
                         ]
                     }
                 ]
@@ -54721,6 +54721,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "College St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-12-15T05:23:00+11:00",
+                "updated": "2023-12-15T05:43:00+11:00",
+                "id": "ESTA:231209512",
+                "location": "College St, Wendouree",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.8360533552605,
+                    -37.53784226383461
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
@@ -54759,28 +54782,6 @@
                 "coordinates": [
                     144.62592019586518,
                     -37.899781379227086
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2023-12-15T05:04:00+11:00",
-                "updated": "2023-12-15T05:22:00+11:00",
-                "id": "ESTA:231252600",
-                "location": "Huntly",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3289662381398,
-                    -36.65873774750237
                 ]
             }
         }
