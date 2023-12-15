@@ -338,11 +338,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/528541",
-                "created": "2023-12-14T21:29:00+11:00",
-                "updated": "2023-12-15T08:29:00+11:00",
+                "created": "2023-12-15T02:58:00+11:00",
+                "updated": "2023-12-15T13:58:00+11:00",
                 "location": "M1 (PACIFIC MTWY), CAMERON PARK 2285",
                 "size": 62,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: M1 (PACIFIC MTWY), CAMERON PARK 2285 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 62 ha <br />MAJOR FIRE UPDATE AS AT 15 Dec 2023 5:48AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=11927' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2023 08:29",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: M1 (PACIFIC MTWY), CAMERON PARK 2285 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 62 ha <br />MAJOR FIRE UPDATE AS AT 15 Dec 2023 5:48AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=11927' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2023 13:58",
                 "title": "incident: fire"
             }
         },
@@ -6030,10 +6030,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.25555420000012,
-                    -33.89416885299994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.25555420000012,
+                            -33.89416885299994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.244695236,
+                                            -33.892203444
+                                        ],
+                                        [
+                                            149.248502373,
+                                            -33.891394428
+                                        ],
+                                        [
+                                            149.252523662,
+                                            -33.892013087
+                                        ],
+                                        [
+                                            149.252999554,
+                                            -33.8947256719999
+                                        ],
+                                        [
+                                            149.251048396,
+                                            -33.8965102679999
+                                        ],
+                                        [
+                                            149.247336437,
+                                            -33.896962366
+                                        ],
+                                        [
+                                            149.243600683,
+                                            -33.8962247329999
+                                        ],
+                                        [
+                                            149.242410952,
+                                            -33.894321165
+                                        ],
+                                        [
+                                            149.244695236,
+                                            -33.892203444
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -15946,29 +15999,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            151.917315008,
-                                            -29.345655049
-                                        ],
-                                        [
-                                            151.918046345,
-                                            -29.348311065
-                                        ],
-                                        [
-                                            151.917326429,
-                                            -29.348262393
-                                        ],
-                                        [
-                                            151.917315008,
-                                            -29.345655049
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             151.947187628,
                                             -29.323414672
                                         ],
@@ -16667,6 +16697,29 @@
                                         [
                                             151.947187628,
                                             -29.323414672
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.917315008,
+                                            -29.345655049
+                                        ],
+                                        [
+                                            151.918046345,
+                                            -29.348311065
+                                        ],
+                                        [
+                                            151.917326429,
+                                            -29.348262393
+                                        ],
+                                        [
+                                            151.917315008,
+                                            -29.345655049
                                         ]
                                     ]
                                 ]
@@ -19700,30 +19753,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.5838530000001,
-                    -32.91065999999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Withers St, West Wallsend",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/528754",
-                "created": "2023-12-15T02:49:00+11:00",
-                "updated": "2023-12-15T13:49:00+11:00",
-                "location": "Withers St, West Wallsend, NSW 2286",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Withers St, West Wallsend, NSW 2286 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Dec 2023 13:49",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     147.14489746100003,
                     -35.986099242999956
                 ]
@@ -19758,6 +19787,65 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.496808867,
+                                            -32.242634241
+                                        ],
+                                        [
+                                            152.496832662,
+                                            -32.2428721869999
+                                        ],
+                                        [
+                                            152.495571547,
+                                            -32.2432053109999
+                                        ],
+                                        [
+                                            152.494120076,
+                                            -32.2430625439999
+                                        ],
+                                        [
+                                            152.49295414,
+                                            -32.243443258
+                                        ],
+                                        [
+                                            152.493073114,
+                                            -32.244109507
+                                        ],
+                                        [
+                                            152.491478874,
+                                            -32.243110133
+                                        ],
+                                        [
+                                            152.490408117,
+                                            -32.2430149539999
+                                        ],
+                                        [
+                                            152.490312939,
+                                            -32.2422535269999
+                                        ],
+                                        [
+                                            152.492930346,
+                                            -32.2423962949999
+                                        ],
+                                        [
+                                            152.493905925,
+                                            -32.242634241
+                                        ],
+                                        [
+                                            152.495785699,
+                                            -32.242919776
+                                        ],
+                                        [
+                                            152.496808867,
+                                            -32.242634241
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -19972,65 +20060,6 @@
                                         [
                                             152.498273822,
                                             -32.24185933
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            152.496808867,
-                                            -32.242634241
-                                        ],
-                                        [
-                                            152.496832662,
-                                            -32.2428721869999
-                                        ],
-                                        [
-                                            152.495571547,
-                                            -32.2432053109999
-                                        ],
-                                        [
-                                            152.494120076,
-                                            -32.2430625439999
-                                        ],
-                                        [
-                                            152.49295414,
-                                            -32.243443258
-                                        ],
-                                        [
-                                            152.493073114,
-                                            -32.244109507
-                                        ],
-                                        [
-                                            152.491478874,
-                                            -32.243110133
-                                        ],
-                                        [
-                                            152.490408117,
-                                            -32.2430149539999
-                                        ],
-                                        [
-                                            152.490312939,
-                                            -32.2422535269999
-                                        ],
-                                        [
-                                            152.492930346,
-                                            -32.2423962949999
-                                        ],
-                                        [
-                                            152.493905925,
-                                            -32.242634241
-                                        ],
-                                        [
-                                            152.495785699,
-                                            -32.242919776
-                                        ],
-                                        [
-                                            152.496808867,
-                                            -32.242634241
                                         ]
                                     ]
                                 ]
@@ -20474,11 +20503,11 @@
                 "subcategory": "burn off",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/528621",
-                "created": "2023-12-14T11:39:00+11:00",
-                "updated": "2023-12-14T22:39:00+11:00",
+                "created": "2023-12-15T02:59:00+11:00",
+                "updated": "2023-12-15T13:59:00+11:00",
                 "location": "241B ENGLANDS RD, NORTH BOAMBEE VALLEY NSW 2450",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 241B ENGLANDS RD, NORTH BOAMBEE VALLEY NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Dec 2023 22:39",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 241B ENGLANDS RD, NORTH BOAMBEE VALLEY NSW 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Dec 2023 13:59",
                 "title": "incident: fire"
             }
         },
