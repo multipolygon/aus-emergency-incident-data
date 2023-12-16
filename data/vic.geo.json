@@ -352,7 +352,7 @@
                 "subcategory": "structure fire",
                 "status": "safe",
                 "created": "2023-12-17T00:32:34+11:00",
-                "updated": "2023-12-17T00:36:19+11:00",
+                "updated": "2023-12-17T00:56:18+11:00",
                 "id": "ESTA:231212177",
                 "location": "Waverley Rd, Malvern East",
                 "title": "incident: fire"
@@ -369,46 +369,160 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Harmony Ch",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2023-12-17T00:41:00+11:00",
-                "updated": "2023-12-17T00:41:00+11:00",
-                "id": "ESTA:231212178",
-                "location": "Harmony Ch, Clyde North",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Ringwood East",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2023-12-17T00:54:10+11:00",
+                "updated": "2023-12-17T01:01:03+11:00",
+                "id": "ESTA:231212181",
+                "location": "Braeside Av, Ringwood East",
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.32630420285915,
-                    -38.104640209804074
+                    145.24176979960848,
+                    -37.80984037249009
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Anderson St",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2023-12-16T22:08:00+11:00",
+                "updated": "2023-12-17T01:02:00+11:00",
+                "id": "ESTA:231252729",
+                "location": "Beaumaris",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.04303144946638,
+                    -37.98319327530368
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Broughans Rd, Finley",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2023-12-16T15:42:00+11:00",
-                "updated": "2023-12-16T23:58:00+11:00",
-                "id": "ESTA:231211750",
-                "location": "Anderson St, Lilydale",
-                "size": "Small",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2023-12-16T18:39:00+11:00",
+                "updated": "2023-12-16T18:39:00+11:00",
+                "id": "2023-12-16T18:39:00.0000000:528927",
+                "location": "618 Broughans Rd, Finley 2713",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.35552393754824,
-                    -37.75584338103819
+                    145.490036011,
+                    -35.6551208499999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Anabranch South",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2023-12-16T16:12:00+11:00",
+                "updated": "2023-12-16T16:12:00+11:00",
+                "id": "2023-12-16T16:12:00.0000000:528113",
+                "location": "Anabranch South 2648",
+                "title": "incident: fire"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    141.7024,
+                                    -33.6915
+                                ],
+                                [
+                                    141.7095,
+                                    -33.6924
+                                ],
+                                [
+                                    141.7097,
+                                    -33.6956
+                                ],
+                                [
+                                    141.7037,
+                                    -33.6993
+                                ],
+                                [
+                                    141.7014,
+                                    -33.7036
+                                ],
+                                [
+                                    141.6905,
+                                    -33.7124
+                                ],
+                                [
+                                    141.6763,
+                                    -33.7159
+                                ],
+                                [
+                                    141.6726,
+                                    -33.7128
+                                ],
+                                [
+                                    141.6692,
+                                    -33.7133
+                                ],
+                                [
+                                    141.6726,
+                                    -33.7092
+                                ],
+                                [
+                                    141.6724,
+                                    -33.7042
+                                ],
+                                [
+                                    141.674,
+                                    -33.7013
+                                ],
+                                [
+                                    141.6853,
+                                    -33.6973
+                                ],
+                                [
+                                    141.6975,
+                                    -33.6899
+                                ],
+                                [
+                                    141.7024,
+                                    -33.6915
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            141.702764506,
+                            -33.693139752
+                        ]
+                    }
                 ]
             }
         },
@@ -555,122 +669,6 @@
                         "coordinates": [
                             146.172714234,
                             -35.708850861
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Broughans Rd, Finley",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2023-12-16T18:39:00+11:00",
-                "updated": "2023-12-16T18:39:00+11:00",
-                "id": "2023-12-16T18:39:00.0000000:528927",
-                "location": "618 Broughans Rd, Finley 2713",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.490036011,
-                    -35.6551208499999
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Anabranch South",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "created": "2023-12-16T16:12:00+11:00",
-                "updated": "2023-12-16T16:12:00+11:00",
-                "id": "2023-12-16T16:12:00.0000000:528113",
-                "location": "Anabranch South 2648",
-                "title": "incident: fire"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    141.7024,
-                                    -33.6915
-                                ],
-                                [
-                                    141.7095,
-                                    -33.6924
-                                ],
-                                [
-                                    141.7097,
-                                    -33.6956
-                                ],
-                                [
-                                    141.7037,
-                                    -33.6993
-                                ],
-                                [
-                                    141.7014,
-                                    -33.7036
-                                ],
-                                [
-                                    141.6905,
-                                    -33.7124
-                                ],
-                                [
-                                    141.6763,
-                                    -33.7159
-                                ],
-                                [
-                                    141.6726,
-                                    -33.7128
-                                ],
-                                [
-                                    141.6692,
-                                    -33.7133
-                                ],
-                                [
-                                    141.6726,
-                                    -33.7092
-                                ],
-                                [
-                                    141.6724,
-                                    -33.7042
-                                ],
-                                [
-                                    141.674,
-                                    -33.7013
-                                ],
-                                [
-                                    141.6853,
-                                    -33.6973
-                                ],
-                                [
-                                    141.6975,
-                                    -33.6899
-                                ],
-                                [
-                                    141.7024,
-                                    -33.6915
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            141.702764506,
-                            -33.693139752
                         ]
                     }
                 ]
@@ -55205,51 +55203,6 @@
                 "coordinates": [
                     144.82606354221747,
                     -37.687353976127284
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dermody Av",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2023-12-16T23:41:00+11:00",
-                "updated": "2023-12-16T23:55:00+11:00",
-                "id": "ESTA:231212160",
-                "location": "Dermody Av, Craigieburn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95842907162515,
-                    -37.541752501596854
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2023-12-16T22:08:00+11:00",
-                "updated": "2023-12-16T22:35:00+11:00",
-                "id": "ESTA:231252729",
-                "location": "Beaumaris",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.04303144946638,
-                    -37.98319327530368
                 ]
             }
         },
