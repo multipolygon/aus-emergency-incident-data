@@ -289,14 +289,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bridgewater-Maldon Rd",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2023-12-18T08:03:00+11:00",
+                "updated": "2023-12-18T08:06:00+11:00",
+                "id": "ESTA:231213430",
+                "location": "Botanic Ridge",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2625472496978,
+                    -38.12597345915795
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bailey St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2023-12-18T07:40:00+11:00",
-                "updated": "2023-12-18T07:40:00+11:00",
-                "id": "ESTA:231213426",
-                "location": "Bridgewater-Maldon Rd, Bridgewater",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2023-12-18T06:43:00+11:00",
+                "updated": "2023-12-18T07:12:00+11:00",
+                "id": "ESTA:231213404",
+                "location": "Bailey St, Clunes",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -304,8 +327,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.94538123072752,
-                    -36.626617752293676
+                    143.78844403925976,
+                    -37.29535617721987
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clyde North",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2023-12-18T08:08:44+11:00",
+                "updated": "2023-12-18T08:08:47+11:00",
+                "id": "ESTA:231213431",
+                "location": "Oconnor Av, Clyde North",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.38017909110465,
+                    -38.10399474495495
                 ]
             }
         },
@@ -56813,29 +56858,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Henderson Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2023-12-18T05:27:00+11:00",
-                "updated": "2023-12-18T05:46:00+11:00",
-                "id": "ESTA:231213392",
-                "location": "Henderson Rd, Knoxfield",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.24832458659552,
-                    -37.90286306680382
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "other",
                 "subcategory": "other",
@@ -56859,29 +56881,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bailey St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-12-18T06:43:00+11:00",
-                "updated": "2023-12-18T07:12:00+11:00",
-                "id": "ESTA:231213404",
-                "location": "Bailey St, Clunes",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.78844403925976,
-                    -37.29535617721987
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap fire",
@@ -56892,6 +56891,74 @@
                 "location": "Frankston",
                 "size": "Small",
                 "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14043268757868,
+                    -38.16652073793913
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bridgewater-Maldon Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-12-18T07:40:00+11:00",
+                "updated": "2023-12-18T07:51:00+11:00",
+                "id": "ESTA:231213426",
+                "location": "Bridgewater-Maldon Rd, Bridgewater",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.94538123072752,
+                    -36.626617752293676
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Henderson Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2023-12-18T05:27:00+11:00",
+                "updated": "2023-12-18T07:54:00+11:00",
+                "id": "ESTA:231213392",
+                "location": "Henderson Rd, Knoxfield",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24832458659552,
+                    -37.90286306680382
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2023-12-18T07:51:00+11:00",
+                "updated": "2023-12-18T08:06:00+11:00",
+                "id": "ESTA:231252800",
+                "location": "Frankston",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
