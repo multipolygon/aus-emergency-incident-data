@@ -754,56 +754,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2023-12-20T21:30:00+11:00",
-                "updated": "2023-12-20T21:54:00+11:00",
-                "id": "ESTA:231253043",
-                "location": "Montrose",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.33679199888942,
-                    -37.81168187497151
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Terang",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "complete",
-                "created": "2023-12-20T20:58:25+11:00",
-                "updated": "2023-12-20T21:54:45+11:00",
-                "id": "ESTA:231253042",
-                "location": "Dow St, Terang",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.92432322343072,
-                    -38.24018507778719
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Alamein St",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "safe",
                 "created": "2023-12-20T22:02:00+11:00",
-                "updated": "2023-12-20T22:02:00+11:00",
+                "updated": "2023-12-20T22:10:00+11:00",
                 "id": "ESTA:231214448",
                 "location": "Alamein St, Morwell",
                 "size": "Small",
@@ -815,6 +771,50 @@
                 "coordinates": [
                     146.4197135083634,
                     -38.23327461756915
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brighton",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2023-12-20T22:12:48+11:00",
+                "updated": "2023-12-20T22:15:20+11:00",
+                "id": "ESTA:231214450",
+                "location": "Church St, Brighton",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99421794761923,
+                    -37.913451059419366
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Stawell",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2023-12-20T14:58:48+11:00",
+                "updated": "2023-12-20T22:19:04+11:00",
+                "id": "ESTA:231214308",
+                "location": "Pomonal Rd, Stawell",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.74848135426538,
+                    -37.08052081722625
                 ]
             }
         },
@@ -1493,9 +1493,9 @@
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
                 "status": "under control",
-                "created": "2023-12-20T17:04:00+11:00",
-                "updated": "2023-12-20T17:04:00+11:00",
-                "id": "2023-12-20T17:04:00.0000000:529372",
+                "created": "2023-12-20T22:08:00+11:00",
+                "updated": "2023-12-20T22:08:00+11:00",
+                "id": "2023-12-20T22:08:00.0000000:529372",
                 "location": "316 Smiths Rd, Rand 2642",
                 "title": "incident: other"
             },
@@ -1515,9 +1515,9 @@
                 "category": "other",
                 "subcategory": "other non-urgent alerts",
                 "status": "under control",
-                "created": "2023-12-19T12:02:00+11:00",
-                "updated": "2023-12-19T12:02:00+11:00",
-                "id": "2023-12-19T12:02:00.0000000:529275",
+                "created": "2023-12-20T22:10:00+11:00",
+                "updated": "2023-12-20T22:10:00+11:00",
+                "id": "2023-12-20T22:10:00.0000000:529275",
                 "location": "236 Gilmour Rd, Moama 2731",
                 "title": "incident: other"
             },
@@ -1603,6 +1603,120 @@
                         [
                             141.978,
                             -37.5617
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Hills Rd",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2023-12-13T11:00:00+11:00",
+                "updated": "2023-12-13T11:00:00+11:00",
+                "id": "d31336013afe2b3c2ff15d092b1170b6",
+                "location": "Hills Rd",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.6415,
+                            -36.8857
+                        ],
+                        [
+                            144.6416,
+                            -36.8857
+                        ],
+                        [
+                            144.6418,
+                            -36.8858
+                        ],
+                        [
+                            144.6421,
+                            -36.886
+                        ],
+                        [
+                            144.6423,
+                            -36.886
+                        ],
+                        [
+                            144.6424,
+                            -36.886
+                        ],
+                        [
+                            144.6429,
+                            -36.8864
+                        ],
+                        [
+                            144.6429,
+                            -36.8864
+                        ],
+                        [
+                            144.6427,
+                            -36.8864
+                        ],
+                        [
+                            144.6418,
+                            -36.8864
+                        ],
+                        [
+                            144.6415,
+                            -36.8864
+                        ],
+                        [
+                            144.6413,
+                            -36.8865
+                        ],
+                        [
+                            144.6411,
+                            -36.8862
+                        ],
+                        [
+                            144.6411,
+                            -36.8862
+                        ],
+                        [
+                            144.6411,
+                            -36.8861
+                        ],
+                        [
+                            144.6411,
+                            -36.886
+                        ],
+                        [
+                            144.6411,
+                            -36.8859
+                        ],
+                        [
+                            144.6412,
+                            -36.8858
+                        ],
+                        [
+                            144.6412,
+                            -36.8858
+                        ],
+                        [
+                            144.6413,
+                            -36.8858
+                        ],
+                        [
+                            144.6414,
+                            -36.8858
+                        ],
+                        [
+                            144.6415,
+                            -36.8857
+                        ],
+                        [
+                            144.6415,
+                            -36.8857
                         ]
                     ]
                 ]
@@ -4317,120 +4431,6 @@
                         [
                             144.3731,
                             -37.7083
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Hills Rd",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2023-12-13T11:00:00+11:00",
-                "updated": "2023-12-13T11:00:00+11:00",
-                "id": "d31336013afe2b3c2ff15d092b1170b6",
-                "location": "Hills Rd",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            144.6415,
-                            -36.8857
-                        ],
-                        [
-                            144.6416,
-                            -36.8857
-                        ],
-                        [
-                            144.6418,
-                            -36.8858
-                        ],
-                        [
-                            144.6421,
-                            -36.886
-                        ],
-                        [
-                            144.6423,
-                            -36.886
-                        ],
-                        [
-                            144.6424,
-                            -36.886
-                        ],
-                        [
-                            144.6429,
-                            -36.8864
-                        ],
-                        [
-                            144.6429,
-                            -36.8864
-                        ],
-                        [
-                            144.6427,
-                            -36.8864
-                        ],
-                        [
-                            144.6418,
-                            -36.8864
-                        ],
-                        [
-                            144.6415,
-                            -36.8864
-                        ],
-                        [
-                            144.6413,
-                            -36.8865
-                        ],
-                        [
-                            144.6411,
-                            -36.8862
-                        ],
-                        [
-                            144.6411,
-                            -36.8862
-                        ],
-                        [
-                            144.6411,
-                            -36.8861
-                        ],
-                        [
-                            144.6411,
-                            -36.886
-                        ],
-                        [
-                            144.6411,
-                            -36.8859
-                        ],
-                        [
-                            144.6412,
-                            -36.8858
-                        ],
-                        [
-                            144.6412,
-                            -36.8858
-                        ],
-                        [
-                            144.6413,
-                            -36.8858
-                        ],
-                        [
-                            144.6414,
-                            -36.8858
-                        ],
-                        [
-                            144.6415,
-                            -36.8857
-                        ],
-                        [
-                            144.6415,
-                            -36.8857
                         ]
                     ]
                 ]
@@ -59529,29 +59529,6 @@
                 "coordinates": [
                     145.03230713092228,
                     -36.28840676061549
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2023-12-20T20:55:00+11:00",
-                "updated": "2023-12-20T21:15:00+11:00",
-                "id": "ESTA:231214426",
-                "location": "St Helena",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.13685318139056,
-                    -37.68496148331217
                 ]
             }
         },
