@@ -94,7 +94,7 @@
                 "status": "on scene",
                 "id": "2391796-652110",
                 "created": "2023-12-20T14:18:59+08:00",
-                "updated": "2023-12-20T14:20:26+08:00",
+                "updated": "2023-12-20T14:32:52+08:00",
                 "location": "WITHERS",
                 "size": "",
                 "description": "Bushfire",
@@ -132,6 +132,31 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    117.7112,
+                    -30.43467
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CLEARY",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "2391798-652112",
+                "created": "2023-12-20T14:26:24+08:00",
+                "updated": "2023-12-20T14:29:03+08:00",
+                "location": "CLEARY",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     116.37045,
                     -31.519772
                 ]
@@ -146,31 +171,6 @@
                 "created": "2023-12-20T10:56:52+08:00",
                 "updated": "2023-12-20T12:02:24+08:00",
                 "location": "WEST TOODYAY",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    117.07575,
-                    -32.68545
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "POPANYINNING",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "on scene",
-                "id": "2391795-652109",
-                "created": "2023-12-20T14:13:44+08:00",
-                "updated": "2023-12-20T14:18:53+08:00",
-                "location": "POPANYINNING",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
@@ -232,70 +232,20 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    122.93315,
-                    -32.59446
+                    117.07575,
+                    -32.68545
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "BURAMINYA",
+                "sourceTitle": "POPANYINNING",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "monitoring",
-                "id": "2389516-650955",
-                "created": "2023-12-09T13:10:36+08:00",
-                "updated": "2023-12-17T08:38:36+08:00",
-                "location": "BURAMINYA",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.88671,
-                    -31.997936
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BENTLEY",
-                "category": "road crash",
-                "subcategory": "road crash",
                 "status": "on scene",
-                "id": "2391791-652105",
-                "created": "2023-12-20T14:07:35+08:00",
-                "updated": "2023-12-20T14:07:46+08:00",
-                "location": "BENTLEY",
-                "size": "",
-                "description": "Road Crash",
-                "title": "incident: road crash"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    120.92,
-                    -22.123
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "NULLAGINE",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "monitoring",
-                "id": "2390973-651673",
-                "created": "2023-12-16T14:03:42+08:00",
-                "updated": "2023-12-18T13:31:00+08:00",
-                "location": "NULLAGINE",
+                "id": "2391795-652109",
+                "created": "2023-12-20T14:13:44+08:00",
+                "updated": "2023-12-20T14:36:15+08:00",
+                "location": "POPANYINNING",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
@@ -332,6 +282,56 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    120.92,
+                    -22.123
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NULLAGINE",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "monitoring",
+                "id": "2390973-651673",
+                "created": "2023-12-16T14:03:42+08:00",
+                "updated": "2023-12-18T13:31:00+08:00",
+                "location": "NULLAGINE",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    122.93315,
+                    -32.59446
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BURAMINYA",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "monitoring",
+                "id": "2389516-650955",
+                "created": "2023-12-09T13:10:36+08:00",
+                "updated": "2023-12-17T08:38:36+08:00",
+                "location": "BURAMINYA",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     127.62753,
                     -29.05779
                 ]
@@ -346,6 +346,56 @@
                 "created": "2023-12-17T18:39:27+08:00",
                 "updated": "2023-12-18T12:48:03+08:00",
                 "location": "PLUMRIDGE LAKES",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.79341,
+                    -31.83815
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "DUNCRAIG",
+                "category": "road crash",
+                "subcategory": "road crash",
+                "status": "on scene",
+                "id": "2391799-652114",
+                "created": "2023-12-20T14:38:01+08:00",
+                "updated": "2023-12-20T14:40:23+08:00",
+                "location": "DUNCRAIG",
+                "size": "",
+                "description": "Road Crash",
+                "title": "incident: road crash"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    115.85034,
+                    -31.71272
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MARIGINIUP",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "monitoring",
+                "id": "2386414-649022",
+                "created": "2023-11-22T13:09:03+08:00",
+                "updated": "2023-12-20T12:03:51+08:00",
+                "location": "MARIGINIUP",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
@@ -432,45 +482,20 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.85034,
-                    -31.71272
+                    121.08929,
+                    -29.8252
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "MARIGINIUP",
+                "sourceTitle": "MENZIES",
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "monitoring",
-                "id": "2386414-649022",
-                "created": "2023-11-22T13:09:03+08:00",
-                "updated": "2023-12-20T12:03:51+08:00",
-                "location": "MARIGINIUP",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    116.62744,
-                    -32.58302
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "WANDERING",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "monitoring",
-                "id": "2391379-651904",
-                "created": "2023-12-18T15:46:35+08:00",
-                "updated": "2023-12-19T21:23:45+08:00",
-                "location": "WANDERING",
+                "id": "2391156-651796",
+                "created": "2023-12-17T11:24:38+08:00",
+                "updated": "2023-12-19T08:16:12+08:00",
+                "location": "MENZIES",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
@@ -532,31 +557,6 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    120.2889,
-                    -30.98185
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BOORABBIN",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "on scene",
-                "id": "2391155-651795",
-                "created": "2023-12-17T11:27:28+08:00",
-                "updated": "2023-12-19T11:13:02+08:00",
-                "location": "BOORABBIN",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
                     117.75528,
                     -34.861668
                 ]
@@ -607,20 +607,45 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    121.08929,
-                    -29.8252
+                    116.62744,
+                    -32.58302
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "MENZIES",
+                "sourceTitle": "WANDERING",
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "monitoring",
-                "id": "2391156-651796",
-                "created": "2023-12-17T11:24:38+08:00",
-                "updated": "2023-12-19T08:16:12+08:00",
-                "location": "MENZIES",
+                "id": "2391379-651904",
+                "created": "2023-12-18T15:46:35+08:00",
+                "updated": "2023-12-19T21:23:45+08:00",
+                "location": "WANDERING",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    120.2889,
+                    -30.98185
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BOORABBIN",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "on scene",
+                "id": "2391155-651795",
+                "created": "2023-12-17T11:27:28+08:00",
+                "updated": "2023-12-19T11:13:02+08:00",
+                "location": "BOORABBIN",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
@@ -646,31 +671,6 @@
                 "created": "2023-12-17T18:38:12+08:00",
                 "updated": "2023-12-18T12:47:53+08:00",
                 "location": "BEADELL",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    115.839,
-                    -33.2463
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BRUNSWICK",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "monitoring",
-                "id": "2391462-651959",
-                "created": "2023-12-19T04:43:21+08:00",
-                "updated": "2023-12-20T08:49:39+08:00",
-                "location": "BRUNSWICK",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
@@ -757,6 +757,31 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
+                    115.839,
+                    -33.2463
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BRUNSWICK",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "monitoring",
+                "id": "2391462-651959",
+                "created": "2023-12-19T04:43:21+08:00",
+                "updated": "2023-12-20T08:49:39+08:00",
+                "location": "BRUNSWICK",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
                     124.76377,
                     -29.70891
                 ]
@@ -771,31 +796,6 @@
                 "created": "2023-12-17T18:36:37+08:00",
                 "updated": "2023-12-18T12:47:40+08:00",
                 "location": "PLUMRIDGE LAKES",
-                "size": "",
-                "description": "Bushfire",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "sm_coordinates": "no",
-                "coordinates": [
-                    122.73156,
-                    -33.68435
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "HOWICK",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "on scene",
-                "id": "2391593-652014",
-                "created": "2023-12-19T14:40:44+08:00",
-                "updated": "2023-12-19T17:58:48+08:00",
-                "location": "HOWICK",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
@@ -832,20 +832,20 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    128.903,
-                    -25.179
+                    115.42455,
+                    -31.11819
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "NGAANYATJARRA-GILES",
+                "sourceTitle": "LEDGE POINT",
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "monitoring",
-                "id": "2391585-652010",
-                "created": "2023-12-19T14:12:36+08:00",
-                "updated": "2023-12-19T19:20:51+08:00",
-                "location": "NGAANYATJARRA-GILES",
+                "id": "2391521-651985",
+                "created": "2023-12-19T10:35:35+08:00",
+                "updated": "2023-12-20T08:29:44+08:00",
+                "location": "LEDGE POINT",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
@@ -882,20 +882,45 @@
                 "type": "Point",
                 "sm_coordinates": "no",
                 "coordinates": [
-                    115.42455,
-                    -31.11819
+                    122.73156,
+                    -33.68435
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "LEDGE POINT",
+                "sourceTitle": "HOWICK",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "on scene",
+                "id": "2391593-652014",
+                "created": "2023-12-19T14:40:44+08:00",
+                "updated": "2023-12-19T17:58:48+08:00",
+                "location": "HOWICK",
+                "size": "",
+                "description": "Bushfire",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "sm_coordinates": "no",
+                "coordinates": [
+                    128.903,
+                    -25.179
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NGAANYATJARRA-GILES",
                 "category": "fire",
                 "subcategory": "bushfire",
                 "status": "monitoring",
-                "id": "2391521-651985",
-                "created": "2023-12-19T10:35:35+08:00",
-                "updated": "2023-12-20T08:29:44+08:00",
-                "location": "LEDGE POINT",
+                "id": "2391585-652010",
+                "created": "2023-12-19T14:12:36+08:00",
+                "updated": "2023-12-19T19:20:51+08:00",
+                "location": "NGAANYATJARRA-GILES",
                 "size": "",
                 "description": "Bushfire",
                 "title": "incident: fire"
