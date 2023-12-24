@@ -28,10 +28,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.4398412710001,
-                    -29.076162826999962
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.4398412710001,
+                            -29.076162826999962
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.431901944,
+                                            -29.0732722229999
+                                        ],
+                                        [
+                                            148.435923234,
+                                            -29.0729390989999
+                                        ],
+                                        [
+                                            148.440099188,
+                                            -29.076151371
+                                        ],
+                                        [
+                                            148.439682782,
+                                            -29.076436907
+                                        ],
+                                        [
+                                            148.438600127,
+                                            -29.07836427
+                                        ],
+                                        [
+                                            148.435399752,
+                                            -29.07668675
+                                        ],
+                                        [
+                                            148.432342145,
+                                            -29.076746237
+                                        ],
+                                        [
+                                            148.431901944,
+                                            -29.0732722229999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4253,6 +4302,30 @@
                 "location": "YALLOCK KULWIN 2835",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: YALLOCK KULWIN 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Dec 2023 13:10",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.36530304000007,
+                    -32.417452751999974
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kinchega Darling River Campground",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/529875",
+                "created": "2023-12-24T03:00:00+11:00",
+                "updated": "2023-12-24T14:00:00+11:00",
+                "location": "KINCHEGA SHEARERS QUARTERS 673 WOOLSHED DR, MENINDEE NSW 2879",
+                "size": 1,
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: KINCHEGA SHEARERS QUARTERS 673 WOOLSHED DR, MENINDEE NSW 2879 <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 24 Dec 2023 14:00",
                 "title": "incident: fire"
             }
         },
