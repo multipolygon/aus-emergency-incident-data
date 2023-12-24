@@ -116,9 +116,9 @@
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/529684",
                 "created": "2023-12-23T00:18:00+11:00",
                 "updated": "2023-12-23T11:18:00+11:00",
-                "location": "DAVIDSON WHALING STATION 447 BOYD RD, EDROM NSW 2551",
+                "location": "DAVIDSON WHALING STATION 447 BOYD RD, EDROM 2551",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: DAVIDSON WHALING STATION 447 BOYD RD, EDROM NSW 2551 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 23 Dec 2023 11:18",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: DAVIDSON WHALING STATION 447 BOYD RD, EDROM 2551 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 23 Dec 2023 11:18",
                 "title": "incident: fire"
             }
         },
@@ -1145,6 +1145,87 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            143.91888531400002,
+                            -32.423969099999965
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            143.919929822,
+                                            -32.418927583
+                                        ],
+                                        [
+                                            143.92611642,
+                                            -32.419641422
+                                        ],
+                                        [
+                                            143.928495881,
+                                            -32.42190191
+                                        ],
+                                        [
+                                            143.928674341,
+                                            -32.426303912
+                                        ],
+                                        [
+                                            143.926592312,
+                                            -32.4285644
+                                        ],
+                                        [
+                                            143.92201185,
+                                            -32.428623886
+                                        ],
+                                        [
+                                            143.917609847,
+                                            -32.4244003439999
+                                        ],
+                                        [
+                                            143.917133954,
+                                            -32.422437288
+                                        ],
+                                        [
+                                            143.91808574,
+                                            -32.42053372
+                                        ],
+                                        [
+                                            143.919929822,
+                                            -32.418927583
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "COBB HWY, IVANHOE",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/529352",
+                "created": "2023-12-23T10:30:00+11:00",
+                "updated": "2023-12-23T21:30:00+11:00",
+                "location": "COBB HWY, IVANHOE 2878",
+                "size": 90,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: COBB HWY, IVANHOE 2878 <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 90 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Dec 2023 21:30",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             144.04589914300004,
                             -32.34405432899996
                         ]
@@ -1477,87 +1558,6 @@
                 "location": "COBB HWY, IVANHOE 2878",
                 "size": 582,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: COBB HWY, IVANHOE 2878 <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 582 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Dec 2023 21:29",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            143.91888531400002,
-                            -32.423969099999965
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            143.919929822,
-                                            -32.418927583
-                                        ],
-                                        [
-                                            143.92611642,
-                                            -32.419641422
-                                        ],
-                                        [
-                                            143.928495881,
-                                            -32.42190191
-                                        ],
-                                        [
-                                            143.928674341,
-                                            -32.426303912
-                                        ],
-                                        [
-                                            143.926592312,
-                                            -32.4285644
-                                        ],
-                                        [
-                                            143.92201185,
-                                            -32.428623886
-                                        ],
-                                        [
-                                            143.917609847,
-                                            -32.4244003439999
-                                        ],
-                                        [
-                                            143.917133954,
-                                            -32.422437288
-                                        ],
-                                        [
-                                            143.91808574,
-                                            -32.42053372
-                                        ],
-                                        [
-                                            143.919929822,
-                                            -32.418927583
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "COBB HWY, IVANHOE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/529352",
-                "created": "2023-12-23T10:30:00+11:00",
-                "updated": "2023-12-23T21:30:00+11:00",
-                "location": "COBB HWY, IVANHOE 2878",
-                "size": 90,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: COBB HWY, IVANHOE 2878 <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 90 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Dec 2023 21:30",
                 "title": "incident: fire"
             }
         },
@@ -2494,9 +2494,9 @@
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/529527",
                 "created": "2023-12-24T00:31:00+11:00",
                 "updated": "2023-12-24T11:31:00+11:00",
-                "location": "REDBANK WEIR RD, BALRANALD 2715",
+                "location": "GLENDEE REDBANK WEIR RD, BALRANALD 2715",
                 "size": 450,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: REDBANK WEIR RD, BALRANALD 2715 <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 450 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Dec 2023 11:31",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: GLENDEE REDBANK WEIR RD, BALRANALD 2715 <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 450 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Dec 2023 11:31",
                 "title": "incident: fire"
             }
         },
@@ -4318,13 +4318,13 @@
                 "sourceTitle": "EMERALD DR, PORT MACQUARIE",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/529868",
-                "created": "2023-12-24T02:12:00+11:00",
-                "updated": "2023-12-24T13:12:00+11:00",
+                "created": "2023-12-24T02:50:00+11:00",
+                "updated": "2023-12-24T13:50:00+11:00",
                 "location": "EMERALD DR, PORT MACQUARIE 2444",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: EMERALD DR, PORT MACQUARIE 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Dec 2023 13:12",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: EMERALD DR, PORT MACQUARIE 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Dec 2023 13:50",
                 "title": "incident: fire"
             }
         },
@@ -4333,23 +4333,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.39878845300007,
-                    -31.036920547999955
+                    148.39170837400002,
+                    -30.95143318199996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "NEWELL HWY, DANDRY",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/529848",
-                "created": "2023-12-24T00:37:00+11:00",
-                "updated": "2023-12-24T11:37:00+11:00",
-                "location": "NEWELL HWY, DANDRY 2357",
+                "sourceTitle": "MUNDOOREN ST, COONAMBLE",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/529870",
+                "created": "2023-12-24T02:57:00+11:00",
+                "updated": "2023-12-24T13:57:00+11:00",
+                "location": "27 MUNDOOREN ST, COONAMBLE 2829",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NEWELL HWY, DANDRY 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 24 Dec 2023 11:37",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 27 MUNDOOREN ST, COONAMBLE 2829 <br />COUNCIL AREA: Coonamble <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 24 Dec 2023 13:57",
+                "title": "incident: fire"
             }
         }
     ]
