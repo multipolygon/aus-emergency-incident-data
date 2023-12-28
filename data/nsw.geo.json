@@ -1375,10 +1375,103 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.15147399900002,
-                    -29.044815063999977
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.15147399900002,
+                            -29.044815063999977
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.154553386,
+                                            -29.043015652
+                                        ],
+                                        [
+                                            153.154250046,
+                                            -29.0431507339999
+                                        ],
+                                        [
+                                            153.153875798,
+                                            -29.043038833
+                                        ],
+                                        [
+                                            153.153369385,
+                                            -29.0429815259999
+                                        ],
+                                        [
+                                            153.153179849,
+                                            -29.042788435
+                                        ],
+                                        [
+                                            153.15309062,
+                                            -29.042470785
+                                        ],
+                                        [
+                                            153.152986224,
+                                            -29.041927135
+                                        ],
+                                        [
+                                            153.153238545,
+                                            -29.0414366159999
+                                        ],
+                                        [
+                                            153.153533864,
+                                            -29.0409796779999
+                                        ],
+                                        [
+                                            153.153898489,
+                                            -29.0407459309999
+                                        ],
+                                        [
+                                            153.154417626,
+                                            -29.0407906419999
+                                        ],
+                                        [
+                                            153.155107175,
+                                            -29.040945875
+                                        ],
+                                        [
+                                            153.155581754,
+                                            -29.0411361229999
+                                        ],
+                                        [
+                                            153.15572198,
+                                            -29.0416062969999
+                                        ],
+                                        [
+                                            153.155634534,
+                                            -29.042326994
+                                        ],
+                                        [
+                                            153.155652941,
+                                            -29.0428034839999
+                                        ],
+                                        [
+                                            153.155373481,
+                                            -29.042889588
+                                        ],
+                                        [
+                                            153.154863113,
+                                            -29.042975725
+                                        ],
+                                        [
+                                            153.154553386,
+                                            -29.043015652
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1412,11 +1505,35 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530217",
-                "created": "2023-12-28T02:17:00+11:00",
-                "updated": "2023-12-28T13:17:00+11:00",
+                "created": "2023-12-28T02:48:00+11:00",
+                "updated": "2023-12-28T13:48:00+11:00",
                 "location": "OCEAN DR, GRANTS BEACH 2445",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: OCEAN DR, GRANTS BEACH 2445 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2023 13:17",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: OCEAN DR, GRANTS BEACH 2445 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2023 13:48",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.8580627440001,
+                    -30.95167159999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PACIFIC HWY, COLLOMBATTI",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530223",
+                "created": "2023-12-28T02:58:00+11:00",
+                "updated": "2023-12-28T13:58:00+11:00",
+                "location": "PACIFIC HWY, COLLOMBATTI 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: PACIFIC HWY, COLLOMBATTI 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2023 13:58",
                 "title": "incident: fire"
             }
         },
@@ -2500,6 +2617,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.94882202200006,
+                    -31.988954543999967
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ASHWORTH CL, GLOUCESTER",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530222",
+                "created": "2023-12-28T02:52:00+11:00",
+                "updated": "2023-12-28T13:52:00+11:00",
+                "location": "ASHWORTH CL, GLOUCESTER 2422",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ASHWORTH CL, GLOUCESTER 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2023 13:52",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.77409362800006,
                     -30.398479461999955
                 ]
@@ -2533,13 +2674,13 @@
                 "sourceTitle": "BELLS OF ROAD LINE, KURRAJONG HEIGHTS",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530219",
-                "created": "2023-12-28T02:12:00+11:00",
-                "updated": "2023-12-28T13:12:00+11:00",
+                "created": "2023-12-28T02:59:00+11:00",
+                "updated": "2023-12-28T13:59:00+11:00",
                 "location": "1352A BELLS OF ROAD LINE, KURRAJONG HEIGHTS 2758",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1352A BELLS OF ROAD LINE, KURRAJONG HEIGHTS 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2023 13:12",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1352A BELLS OF ROAD LINE, KURRAJONG HEIGHTS 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2023 13:59",
                 "title": "incident: fire"
             }
         },
@@ -2661,6 +2802,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 32 SUNNYSIDE AV, POINT CLARE 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2023 10:28",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.79719543400006,
+                    -33.447643279999966
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "YETHOLME DR, WALANG",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530220",
+                "created": "2023-12-28T02:56:00+11:00",
+                "updated": "2023-12-28T13:56:00+11:00",
+                "location": "YETHOLME DR, WALANG 2795",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: YETHOLME DR, WALANG 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Dec 2023 13:56",
+                "title": "incident: other"
             }
         }
     ]
