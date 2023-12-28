@@ -502,6 +502,29 @@
                                 "coordinates": [
                                     [
                                         [
+                                            149.53801833,
+                                            -30.641263485
+                                        ],
+                                        [
+                                            149.538065938,
+                                            -30.641295264
+                                        ],
+                                        [
+                                            149.538063194,
+                                            -30.641293827
+                                        ],
+                                        [
+                                            149.53801833,
+                                            -30.641263485
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             149.766127417,
                                             -30.812233576
                                         ],
@@ -555,29 +578,6 @@
                                         [
                                             149.586508232,
                                             -31.00282808
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.53801833,
-                                            -30.641263485
-                                        ],
-                                        [
-                                            149.538065938,
-                                            -30.641295264
-                                        ],
-                                        [
-                                            149.538063194,
-                                            -30.641293827
-                                        ],
-                                        [
-                                            149.53801833,
-                                            -30.641263485
                                         ]
                                     ]
                                 ]
@@ -1540,10 +1540,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.40646362300004,
-                    -32.22374725299994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.40646362300004,
+                            -32.22374725299994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.407200673,
+                                            -32.2172787659999
+                                        ],
+                                        [
+                                            152.409675311,
+                                            -32.218028295
+                                        ],
+                                        [
+                                            152.409829977,
+                                            -32.2188135179999
+                                        ],
+                                        [
+                                            152.412387897,
+                                            -32.2187540319999
+                                        ],
+                                        [
+                                            152.411959595,
+                                            -32.2206813949999
+                                        ],
+                                        [
+                                            152.410912632,
+                                            -32.220598114
+                                        ],
+                                        [
+                                            152.40994895,
+                                            -32.221478514
+                                        ],
+                                        [
+                                            152.406355964,
+                                            -32.221002622
+                                        ],
+                                        [
+                                            152.407200673,
+                                            -32.2172787659999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2801,11 +2854,11 @@
                 "subcategory": "car fire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530272",
-                "created": "2023-12-28T14:01:00+11:00",
-                "updated": "2023-12-29T01:01:00+11:00",
+                "created": "2023-12-28T14:10:00+11:00",
+                "updated": "2023-12-29T01:10:00+11:00",
                 "location": "BRAIDWOOD RD, YERRIYONG 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BRAIDWOOD RD, YERRIYONG 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Dec 2023 01:01",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BRAIDWOOD RD, YERRIYONG 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Dec 2023 01:10",
                 "title": "incident: fire"
             }
         },
@@ -2878,30 +2931,6 @@
                 "location": "MEDOWIE RD, MEDOWIE 2318",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MEDOWIE RD, MEDOWIE 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Dec 2023 00:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.00572204600007,
-                    -34.710430144999975
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "RAILWAY PDE, MARULAN",
-                "category": "fire",
-                "subcategory": "car fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530271",
-                "created": "2023-12-28T13:39:00+11:00",
-                "updated": "2023-12-29T00:39:00+11:00",
-                "location": "RAILWAY PDE, MARULAN 2579",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: RAILWAY PDE, MARULAN 2579 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Being controlled <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 29 Dec 2023 00:39",
                 "title": "incident: fire"
             }
         },
