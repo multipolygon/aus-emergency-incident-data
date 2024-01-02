@@ -124,10 +124,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.76437378000003,
-                    -33.51667022699996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.79057312100008,
+                            -33.54005813699996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            144.790632197,
+                                            -33.543805087
+                                        ],
+                                        [
+                                            144.788193249,
+                                            -33.540533328
+                                        ],
+                                        [
+                                            144.786587112,
+                                            -33.5364882449999
+                                        ],
+                                        [
+                                            144.787300951,
+                                            -33.535358
+                                        ],
+                                        [
+                                            144.788133762,
+                                            -33.5342277569999
+                                        ],
+                                        [
+                                            144.79039425,
+                                            -33.533870838
+                                        ],
+                                        [
+                                            144.792000387,
+                                            -33.535358
+                                        ],
+                                        [
+                                            144.79449882,
+                                            -33.541128194
+                                        ],
+                                        [
+                                            144.790632197,
+                                            -33.543805087
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1688,13 +1741,13 @@
                 "sourceTitle": "SUNTOP RD, SUNTOP",
                 "category": "fire",
                 "subcategory": "vehicle/equipment fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530754",
-                "created": "2024-01-02T06:42:00+11:00",
-                "updated": "2024-01-02T17:42:00+11:00",
+                "created": "2024-01-02T06:57:00+11:00",
+                "updated": "2024-01-02T17:57:00+11:00",
                 "location": "681 SUNTOP RD, SUNTOP 2820",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 681 SUNTOP RD, SUNTOP 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jan 2024 17:42",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 681 SUNTOP RD, SUNTOP 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jan 2024 17:57",
                 "title": "incident: fire"
             }
         },
@@ -1719,6 +1772,54 @@
                 "location": "GLENWOOD 2220 TWELVE MILE RD, SPICERS CREEK 2820",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GLENWOOD 2220 TWELVE MILE RD, SPICERS CREEK 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Jan 2024 23:35",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.16813659700006,
+                    -35.157089233999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "URANQUINTY CROSS RD, URANQUINTY",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530757",
+                "created": "2024-01-02T06:58:00+11:00",
+                "updated": "2024-01-02T17:58:00+11:00",
+                "location": "750 URANQUINTY CROSS RD, URANQUINTY 2652",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 750 URANQUINTY CROSS RD, URANQUINTY 2652 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jan 2024 17:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.39027404800004,
+                    -34.62113189699994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "UROLY RD, YANCO",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/530756",
+                "created": "2024-01-02T06:50:00+11:00",
+                "updated": "2024-01-02T17:50:00+11:00",
+                "location": "UROLY RD, YANCO 2703",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: UROLY RD, YANCO 2703 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Jan 2024 17:50",
                 "title": "incident: fire"
             }
         },
