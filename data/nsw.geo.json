@@ -4,10 +4,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.96224975500002,
-                    -29.264041900999928
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.96224975500002,
+                            -29.264041900999928
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.965698498,
+                                            -29.262591518
+                                        ],
+                                        [
+                                            147.970064809,
+                                            -29.261366096
+                                        ],
+                                        [
+                                            147.973928349,
+                                            -29.2613735859999
+                                        ],
+                                        [
+                                            147.976057966,
+                                            -29.2616472239999
+                                        ],
+                                        [
+                                            147.977733724,
+                                            -29.2624346489999
+                                        ],
+                                        [
+                                            147.978578434,
+                                            -29.263814737
+                                        ],
+                                        [
+                                            147.980089391,
+                                            -29.2647427269999
+                                        ],
+                                        [
+                                            147.979815753,
+                                            -29.266241787
+                                        ],
+                                        [
+                                            147.973737992,
+                                            -29.2685846749999
+                                        ],
+                                        [
+                                            147.971084894,
+                                            -29.268453805
+                                        ],
+                                        [
+                                            147.968224253,
+                                            -29.266915086
+                                        ],
+                                        [
+                                            147.966555985,
+                                            -29.265995909
+                                        ],
+                                        [
+                                            147.96455856,
+                                            -29.264417093
+                                        ],
+                                        [
+                                            147.96482008,
+                                            -29.263671749
+                                        ],
+                                        [
+                                            147.965698498,
+                                            -29.262591518
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -17,11 +94,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/531788",
-                "created": "2024-01-14T08:40:00+11:00",
-                "updated": "2024-01-14T19:40:00+11:00",
+                "created": "2024-01-14T08:58:00+11:00",
+                "updated": "2024-01-14T19:58:00+11:00",
                 "location": "BIRRAH STATION 2232 ANGLEDOOL RD, LIGHTNING RIDGE 2834",
                 "size": 100,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BIRRAH STATION 2232 ANGLEDOOL RD, LIGHTNING RIDGE 2834 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 100 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2024 19:40",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BIRRAH STATION 2232 ANGLEDOOL RD, LIGHTNING RIDGE 2834 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 100 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2024 19:58",
                 "title": "incident: fire"
             }
         },
@@ -126,30 +203,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.1206512450001,
-                    -33.68490219199998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "(PACIFIC MTWY), ASQUITH",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/531798",
-                "created": "2024-01-14T08:35:00+11:00",
-                "updated": "2024-01-14T19:35:00+11:00",
-                "location": "M1 (PACIFIC MTWY), ASQUITH 2077",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 (PACIFIC MTWY), ASQUITH 2077 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2024 19:35",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.75036621100003,
                     -31.04733467099993
                 ]
@@ -222,6 +275,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.96112060600012,
+                    -30.73012542699996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GUMMA RD, GUMMA",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/531800",
+                "created": "2024-01-14T08:55:00+11:00",
+                "updated": "2024-01-14T19:55:00+11:00",
+                "location": "662 GUMMA RD, GUMMA 2447",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 662 GUMMA RD, GUMMA 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2024 19:55",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.97755432100007,
                     -36.28695678699995
                 ]
@@ -255,13 +332,13 @@
                 "sourceTitle": "PACIFIC MTWY, BEROWRA",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/531797",
-                "created": "2024-01-14T08:25:00+11:00",
-                "updated": "2024-01-14T19:25:00+11:00",
+                "created": "2024-01-14T08:48:00+11:00",
+                "updated": "2024-01-14T19:48:00+11:00",
                 "location": "PACIFIC MTWY, BEROWRA 2081",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PACIFIC MTWY, BEROWRA 2081 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2024 19:25",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PACIFIC MTWY, BEROWRA 2081 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2024 19:48",
                 "title": "incident: other"
             }
         },
@@ -303,13 +380,13 @@
                 "sourceTitle": "STURT ST, HOWLONG",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/531795",
-                "created": "2024-01-14T08:20:00+11:00",
-                "updated": "2024-01-14T19:20:00+11:00",
+                "created": "2024-01-14T08:53:00+11:00",
+                "updated": "2024-01-14T19:53:00+11:00",
                 "location": "HOWLONG AGED CARE 91-97 STURT ST, HOWLONG 2643",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: HOWLONG AGED CARE 91-97 STURT ST, HOWLONG 2643 <br />COUNCIL AREA: Federation <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2024 19:20",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: HOWLONG AGED CARE 91-97 STURT ST, HOWLONG 2643 <br />COUNCIL AREA: Federation <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Jan 2024 19:53",
                 "title": "incident: other"
             }
         }
