@@ -52,6 +52,102 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.6665039070001,
+                            -33.72592163099995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.665905377,
+                                            -33.727256396
+                                        ],
+                                        [
+                                            150.666373467,
+                                            -33.7278532089999
+                                        ],
+                                        [
+                                            150.666278289,
+                                            -33.728269617
+                                        ],
+                                        [
+                                            150.665778602,
+                                            -33.728329103
+                                        ],
+                                        [
+                                            150.665469272,
+                                            -33.7279840809999
+                                        ],
+                                        [
+                                            150.665504964,
+                                            -33.7274843939999
+                                        ],
+                                        [
+                                            150.665754808,
+                                            -33.727294038
+                                        ],
+                                        [
+                                            150.665905377,
+                                            -33.727256396
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.665905377,
+                                            -33.727256396
+                                        ],
+                                        [
+                                            150.665897575,
+                                            -33.727246448
+                                        ],
+                                        [
+                                            150.665992754,
+                                            -33.727234551
+                                        ],
+                                        [
+                                            150.665905377,
+                                            -33.727256396
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "OLD CASTLEREAGH RD, CASTLEREAGH",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/533300",
+                "created": "2024-01-21T05:23:00+11:00",
+                "updated": "2024-01-21T16:23:00+11:00",
+                "location": "314 OLD CASTLEREAGH RD, CASTLEREAGH 2749",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 314 OLD CASTLEREAGH RD, CASTLEREAGH 2749 <br />COUNCIL AREA: Penrith <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2024 16:23",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     147.93583679200003,
@@ -71,6 +167,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Planned Burn <br />LOCATION: LACHLAN PARK 9612 NEWELL HWY, FORBES 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2024 05:30",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.97200012200005,
+                    -36.73450088499993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bega Street, Tathra",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/533305",
+                "created": "2024-01-21T05:17:00+11:00",
+                "updated": "2024-01-21T16:17:00+11:00",
+                "location": "153 Bega Street, Tathra",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 153 Bega Street, Tathra <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2024 16:17",
+                "title": "incident: other"
             }
         },
         {
@@ -126,30 +246,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.04032898000003,
-                    -34.180198668999935
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "GARAWARRA FARM RD, LILYVALE",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/533295",
-                "created": "2024-01-21T03:36:00+11:00",
-                "updated": "2024-01-21T14:36:00+11:00",
-                "location": "GARAWARRA FARM RD, LILYVALE 2508",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GARAWARRA FARM RD, LILYVALE 2508 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2024 14:36",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.78784179700006,
                     -33.57024765099993
                 ]
@@ -159,13 +255,13 @@
                 "sourceTitle": "HIBBERTS LANE, FREEMANS REACH",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/533296",
-                "created": "2024-01-21T03:48:00+11:00",
-                "updated": "2024-01-21T14:48:00+11:00",
+                "created": "2024-01-21T04:59:00+11:00",
+                "updated": "2024-01-21T15:59:00+11:00",
                 "location": "176 HIBBERTS LANE, FREEMANS REACH 2756",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 176 HIBBERTS LANE, FREEMANS REACH 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2024 14:48",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 176 HIBBERTS LANE, FREEMANS REACH 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2024 15:59",
                 "title": "incident: fire"
             }
         },
@@ -191,6 +287,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2683 MOONEE SWAMP RD, MAYRUNG 2710 <br />COUNCIL AREA: Edward River <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2024 04:09",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.51290893500004,
+                    -32.32645797799995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PEAK HILL RD, DUBBO",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/533304",
+                "created": "2024-01-21T05:16:00+11:00",
+                "updated": "2024-01-21T16:16:00+11:00",
+                "location": "PEAK HILL RD, DUBBO 2830",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PEAK HILL RD, DUBBO 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2024 16:16",
+                "title": "incident: other"
             }
         },
         {
@@ -239,30 +359,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ROSS ST, WILCANNIA 2836 <br />COUNCIL AREA: Central Darling <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Jan 2024 19:58",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.99392700200008,
-                    -36.58631133999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "TATHRA BERMAGUI RD, WAPENGO",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/533298",
-                "created": "2024-01-21T04:20:00+11:00",
-                "updated": "2024-01-21T15:20:00+11:00",
-                "location": "TATHRA BERMAGUI RD, WAPENGO 2550",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: TATHRA BERMAGUI RD, WAPENGO 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jan 2024 15:20",
-                "title": "incident: other"
             }
         },
         {
