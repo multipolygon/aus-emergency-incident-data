@@ -481,10 +481,91 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.0425262450001,
-                    -36.10038375899995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.0425262450001,
+                            -36.10038375899995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.042854466,
+                                            -36.100407925
+                                        ],
+                                        [
+                                            147.043032925,
+                                            -36.100324644
+                                        ],
+                                        [
+                                            147.043140001,
+                                            -36.100372233
+                                        ],
+                                        [
+                                            147.043128104,
+                                            -36.100538795
+                                        ],
+                                        [
+                                            147.043175692,
+                                            -36.1006696659999
+                                        ],
+                                        [
+                                            147.043140001,
+                                            -36.100967098
+                                        ],
+                                        [
+                                            147.043104309,
+                                            -36.100967098
+                                        ],
+                                        [
+                                            147.042949644,
+                                            -36.10113366
+                                        ],
+                                        [
+                                            147.042771184,
+                                            -36.10118125
+                                        ],
+                                        [
+                                            147.042592724,
+                                            -36.101097969
+                                        ],
+                                        [
+                                            147.042426162,
+                                            -36.100955201
+                                        ],
+                                        [
+                                            147.042652211,
+                                            -36.100883817
+                                        ],
+                                        [
+                                            147.0426998,
+                                            -36.100848125
+                                        ],
+                                        [
+                                            147.042652211,
+                                            -36.1007529469999
+                                        ],
+                                        [
+                                            147.042973438,
+                                            -36.100598282
+                                        ],
+                                        [
+                                            147.042854466,
+                                            -36.100407925
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -557,29 +638,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            153.255542656,
-                                            -29.725004971
-                                        ],
-                                        [
-                                            153.255347733,
-                                            -29.725254381
-                                        ],
-                                        [
-                                            153.255338079,
-                                            -29.725244151
-                                        ],
-                                        [
-                                            153.255542656,
-                                            -29.725004971
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             153.310265952,
                                             -29.697973771
                                         ],
@@ -630,6 +688,29 @@
                                         [
                                             153.310265952,
                                             -29.697973771
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.255542656,
+                                            -29.725004971
+                                        ],
+                                        [
+                                            153.255347733,
+                                            -29.725254381
+                                        ],
+                                        [
+                                            153.255338079,
+                                            -29.725244151
+                                        ],
+                                        [
+                                            153.255542656,
+                                            -29.725004971
                                         ]
                                     ]
                                 ]
@@ -2287,32 +2368,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.87281799400012,
-                    -29.699720382999942
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "HAMPTON RD, WATERVIEW HEIGHTS",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534150",
-                "created": "2024-02-02T02:26:00+11:00",
-                "updated": "2024-02-02T13:26:00+11:00",
-                "location": "65 HAMPTON RD, WATERVIEW HEIGHTS 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 65 HAMPTON RD, WATERVIEW HEIGHTS 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Feb 2024 13:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.70211410600007,
-                    -34.46024406399994
+                    148.7021179200001,
+                    -34.46024322499994
                 ]
             },
             "properties": {
@@ -2392,13 +2449,13 @@
                 "sourceTitle": "MUSTER ST, AUSTRAL",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534231",
-                "created": "2024-02-02T03:25:00+11:00",
-                "updated": "2024-02-02T14:25:00+11:00",
+                "created": "2024-02-02T04:00:00+11:00",
+                "updated": "2024-02-02T15:00:00+11:00",
                 "location": "112 MUSTER ST, AUSTRAL 2179",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 112 MUSTER ST, AUSTRAL 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Feb 2024 14:25",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 112 MUSTER ST, AUSTRAL 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Feb 2024 15:00",
                 "title": "incident: fire"
             }
         },
@@ -2455,6 +2512,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.3312835690001,
+                    -35.49634170599995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PRINCES HWY, TERMEIL",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534235",
+                "created": "2024-02-02T04:04:00+11:00",
+                "updated": "2024-02-02T15:04:00+11:00",
+                "location": "PRINCES HWY, TERMEIL 2539",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PRINCES HWY, TERMEIL 2539 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Feb 2024 15:04",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.59068298300008,
+                    -34.22676086399997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "REMEMBRANCE DRWY",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534233",
+                "created": "2024-02-02T03:58:00+11:00",
+                "updated": "2024-02-02T14:58:00+11:00",
+                "location": "TAHMOOR SHOPPING CENTRE 163-173 REMEMBRANCE DRWY, TAHMOOR 2573",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: TAHMOOR SHOPPING CENTRE 163-173 REMEMBRANCE DRWY, TAHMOOR 2573 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Feb 2024 14:58",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.84449768100012,
                     -34.61795043899997
                 ]
@@ -2471,6 +2576,30 @@
                 "location": "446 RIVERSIDE DR, MINNAMURRA 2533",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 446 RIVERSIDE DR, MINNAMURRA 2533 <br />COUNCIL AREA: Kiama <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Feb 2024 13:59",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.74168396000005,
+                    -34.44941329899996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "RYE PARK RD, BOOROWA",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534234",
+                "created": "2024-02-02T03:48:00+11:00",
+                "updated": "2024-02-02T14:48:00+11:00",
+                "location": "MONA VALE 1823 RYE PARK RD, BOOROWA 2586",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MONA VALE 1823 RYE PARK RD, BOOROWA 2586 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Feb 2024 14:48",
                 "title": "incident: fire"
             }
         },
@@ -2520,6 +2649,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 59 TAYLORS RD, EUREKA 2480 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Feb 2024 06:51",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.44288635200007,
+                    -32.38954544099994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "THE LAKES WAY, BUNGWAHL",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534232",
+                "created": "2024-02-02T03:31:00+11:00",
+                "updated": "2024-02-02T14:31:00+11:00",
+                "location": "THE LAKES WAY, BUNGWAHL 2423",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: THE LAKES WAY, BUNGWAHL 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Feb 2024 14:31",
+                "title": "incident: fire"
             }
         },
         {
