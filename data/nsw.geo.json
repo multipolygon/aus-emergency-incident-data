@@ -528,30 +528,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.3116760250001,
-                    -33.68102264399994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "GOLF AV, MONA VALE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534422",
-                "created": "2024-02-04T04:45:00+11:00",
-                "updated": "2024-02-04T15:45:00+11:00",
-                "location": "GOLF AV, MONA VALE 2103",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: GOLF AV, MONA VALE 2103 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2024 15:45",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.24455261200012,
                     -34.24166870099998
                 ]
@@ -1248,10 +1224,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.5732665712475,
-                    -35.6575151021675
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.57829318200004,
+                            -35.65634321799996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.578245594,
+                                            -35.6562956289999
+                                        ],
+                                        [
+                                            145.580434697,
+                                            -35.6566049579999
+                                        ],
+                                        [
+                                            145.580636951,
+                                            -35.659127187
+                                        ],
+                                        [
+                                            145.579792243,
+                                            -35.6587821649999
+                                        ],
+                                        [
+                                            145.57786488,
+                                            -35.6584728349999
+                                        ],
+                                        [
+                                            145.578245594,
+                                            -35.6562956289999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1506,6 +1523,29 @@
                                 "coordinates": [
                                     [
                                         [
+                                            153.255542656,
+                                            -29.725004971
+                                        ],
+                                        [
+                                            153.255347733,
+                                            -29.725254381
+                                        ],
+                                        [
+                                            153.255338079,
+                                            -29.725244151
+                                        ],
+                                        [
+                                            153.255542656,
+                                            -29.725004971
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             153.310265952,
                                             -29.697973771
                                         ],
@@ -1556,29 +1596,6 @@
                                         [
                                             153.310265952,
                                             -29.697973771
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            153.255542656,
-                                            -29.725004971
-                                        ],
-                                        [
-                                            153.255347733,
-                                            -29.725254381
-                                        ],
-                                        [
-                                            153.255338079,
-                                            -29.725244151
-                                        ],
-                                        [
-                                            153.255542656,
-                                            -29.725004971
                                         ]
                                     ]
                                 ]
@@ -3423,30 +3440,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.50004577700008,
-                    -32.19284057699997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ALLYN RIVER RD, UPPER ALLYN",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534421",
-                "created": "2024-02-04T04:15:00+11:00",
-                "updated": "2024-02-04T15:15:00+11:00",
-                "location": "ALLYN RIVER RD, UPPER ALLYN 2311",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ALLYN RIVER RD, UPPER ALLYN 2311 <br />COUNCIL AREA: Dungog <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2024 15:15",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     147.396820068,
                     -33.190036773999964
                 ]
@@ -3703,6 +3696,30 @@
                 "location": "59 TAYLORS RD, EUREKA 2480",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 59 TAYLORS RD, EUREKA 2480 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2024 02:26",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.54324340800008,
+                    -33.09914398199993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "YOORALA RD, YARRAWONGA PARK",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534429",
+                "created": "2024-02-04T05:43:00+11:00",
+                "updated": "2024-02-04T16:43:00+11:00",
+                "location": "25 YOORALA RD, YARRAWONGA PARK 2264",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 25 YOORALA RD, YARRAWONGA PARK 2264 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2024 16:43",
                 "title": "incident: other"
             }
         },
