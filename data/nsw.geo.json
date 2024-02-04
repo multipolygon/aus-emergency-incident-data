@@ -4,10 +4,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.39001464800003,
-                    -35.97758865299994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.3901052020001,
+                            -35.97781560399994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.39006951,
+                                            -35.977720426
+                                        ],
+                                        [
+                                            146.397505326,
+                                            -35.9824436559999
+                                        ],
+                                        [
+                                            146.396196622,
+                                            -35.9840022029999
+                                        ],
+                                        [
+                                            146.395316222,
+                                            -35.984192559
+                                        ],
+                                        [
+                                            146.393948031,
+                                            -35.984918294
+                                        ],
+                                        [
+                                            146.393329372,
+                                            -35.9848945009999
+                                        ],
+                                        [
+                                            146.392603636,
+                                            -35.985287112
+                                        ],
+                                        [
+                                            146.392032566,
+                                            -35.9859771559999
+                                        ],
+                                        [
+                                            146.388546655,
+                                            -35.985489366
+                                        ],
+                                        [
+                                            146.39006951,
+                                            -35.977720426
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -15,13 +72,37 @@
                 "sourceTitle": "BULLECOURT RD, COROWA",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534415",
-                "created": "2024-02-04T03:53:00+11:00",
-                "updated": "2024-02-04T14:53:00+11:00",
+                "created": "2024-02-04T04:33:00+11:00",
+                "updated": "2024-02-04T15:33:00+11:00",
                 "location": "BULLECOURT RD, COROWA 2646",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BULLECOURT RD, COROWA 2646 <br />COUNCIL AREA: Federation <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 4 Feb 2024 14:53",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BULLECOURT RD, COROWA 2646 <br />COUNCIL AREA: Federation <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 4 Feb 2024 15:33",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.5517272950001,
+                    -34.740451812999936
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CADELL ST, NARRANDERA",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534423",
+                "created": "2024-02-04T04:23:00+11:00",
+                "updated": "2024-02-04T15:23:00+11:00",
+                "location": "CADELL ST, NARRANDERA 2700",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: CADELL ST, NARRANDERA 2700 <br />COUNCIL AREA: Narrandera <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2024 15:23",
                 "title": "incident: fire"
             }
         },
@@ -439,6 +520,30 @@
                 "location": "1B FISHERMANS BAY RD, ANNA BAY 2316",
                 "size": 12,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 1B FISHERMANS BAY RD, ANNA BAY 2316 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 12 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 3 Feb 2024 18:35",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.3116760250001,
+                    -33.68102264399994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GOLF AV, MONA VALE",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534422",
+                "created": "2024-02-04T04:23:00+11:00",
+                "updated": "2024-02-04T15:23:00+11:00",
+                "location": "GOLF AV, MONA VALE 2103",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: GOLF AV, MONA VALE 2103 <br />COUNCIL AREA: Northern Beaches <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2024 15:23",
                 "title": "incident: fire"
             }
         },
@@ -3178,30 +3283,6 @@
                 "location": "BROADACRES 1058 TOPDALE RD, NIANGALA NSW 2354",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: BROADACRES 1058 TOPDALE RD, NIANGALA NSW 2354 <br />COUNCIL AREA: Walcha <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2024 13:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.9226684570001,
-                    -31.459869384999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "WANIORA PWY, PORT MACQUARIE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534418",
-                "created": "2024-02-04T03:21:00+11:00",
-                "updated": "2024-02-04T14:21:00+11:00",
-                "location": "WANIORA PWY, PORT MACQUARIE 2444",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: WANIORA PWY, PORT MACQUARIE 2444 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Feb 2024 14:21",
                 "title": "incident: fire"
             }
         },
