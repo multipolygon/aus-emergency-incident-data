@@ -1484,10 +1484,166 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.26763916000004,
-                    -34.26179885899995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.26763916000004,
+                            -34.26179885899995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.265584207,
+                                            -34.2734370859999
+                                        ],
+                                        [
+                                            148.265203675,
+                                            -34.273470754
+                                        ],
+                                        [
+                                            148.264759887,
+                                            -34.270646304
+                                        ],
+                                        [
+                                            148.264370185,
+                                            -34.2680779369999
+                                        ],
+                                        [
+                                            148.264291403,
+                                            -34.267111883
+                                        ],
+                                        [
+                                            148.264371271,
+                                            -34.2661800449999
+                                        ],
+                                        [
+                                            148.26455912,
+                                            -34.265259057
+                                        ],
+                                        [
+                                            148.264800411,
+                                            -34.2645523859999
+                                        ],
+                                        [
+                                            148.264966903,
+                                            -34.264138908
+                                        ],
+                                        [
+                                            148.265373146,
+                                            -34.2634067029999
+                                        ],
+                                        [
+                                            148.266695763,
+                                            -34.261435826
+                                        ],
+                                        [
+                                            148.267267555,
+                                            -34.261704605
+                                        ],
+                                        [
+                                            148.266122668,
+                                            -34.263047038
+                                        ],
+                                        [
+                                            148.265427413,
+                                            -34.264170086
+                                        ],
+                                        [
+                                            148.265128455,
+                                            -34.264865401
+                                        ],
+                                        [
+                                            148.264854711,
+                                            -34.2658111269999
+                                        ],
+                                        [
+                                            148.264750763,
+                                            -34.266570132
+                                        ],
+                                        [
+                                            148.264730106,
+                                            -34.26712538
+                                        ],
+                                        [
+                                            148.2647284,
+                                            -34.267501393
+                                        ],
+                                        [
+                                            148.26488185,
+                                            -34.268657676
+                                        ],
+                                        [
+                                            148.265294441,
+                                            -34.271315333
+                                        ],
+                                        [
+                                            148.265430915,
+                                            -34.27229274
+                                        ],
+                                        [
+                                            148.265584207,
+                                            -34.2734370859999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.267764423,
+                                            -34.287270785
+                                        ],
+                                        [
+                                            148.267601765,
+                                            -34.2873583639999
+                                        ],
+                                        [
+                                            148.267359997,
+                                            -34.2873464749999
+                                        ],
+                                        [
+                                            148.267195872,
+                                            -34.2873338049999
+                                        ],
+                                        [
+                                            148.267077174,
+                                            -34.286296546
+                                        ],
+                                        [
+                                            148.267027551,
+                                            -34.285853017
+                                        ],
+                                        [
+                                            148.267475524,
+                                            -34.285805535
+                                        ],
+                                        [
+                                            148.267678928,
+                                            -34.286734515
+                                        ],
+                                        [
+                                            148.267849333,
+                                            -34.2871768279999
+                                        ],
+                                        [
+                                            148.267764423,
+                                            -34.287270785
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1706,30 +1862,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.13104248100012,
-                    -29.565412520999928
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BIG RIVER WAY, TYNDALE",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/534828",
-                "created": "2024-02-11T17:15:00+11:00",
-                "updated": "2024-02-12T04:15:00+11:00",
-                "location": "2647 BIG RIVER WAY, TYNDALE 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2647 BIG RIVER WAY, TYNDALE 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Feb 2024 04:15",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.8689575190001,
                     -36.17227172899993
                 ]
@@ -1741,11 +1873,11 @@
                 "subcategory": "mva/transport",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/535072",
-                "created": "2024-02-11T22:30:00+11:00",
-                "updated": "2024-02-12T09:30:00+11:00",
+                "created": "2024-02-11T22:33:00+11:00",
+                "updated": "2024-02-12T09:33:00+11:00",
                 "location": "MIDDLINGBANK RD, MIDDLINGBANK 2630",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MIDDLINGBANK RD, MIDDLINGBANK 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Feb 2024 09:30",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MIDDLINGBANK RD, MIDDLINGBANK 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Feb 2024 09:33",
                 "title": "incident: other"
             }
         },
@@ -1778,6 +1910,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    144.79508972100007,
+                    -36.11120986999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "OLD BARMAH RD, MOAMA",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/535073",
+                "created": "2024-02-11T22:34:00+11:00",
+                "updated": "2024-02-12T09:34:00+11:00",
+                "location": "96 OLD BARMAH RD, MOAMA 2731",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 96 OLD BARMAH RD, MOAMA 2731 <br />COUNCIL AREA: Murray River <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Feb 2024 09:34",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.34494018600003,
                     -32.29619598399995
                 ]
@@ -1787,37 +1943,13 @@
                 "sourceTitle": "PACIFIC HIGHWAY, WOOTTON",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/535071",
-                "created": "2024-02-11T21:59:00+11:00",
-                "updated": "2024-02-12T08:59:00+11:00",
+                "created": "2024-02-11T22:33:00+11:00",
+                "updated": "2024-02-12T09:33:00+11:00",
                 "location": "PACIFIC HIGHWAY, WOOTTON 2423",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PACIFIC HIGHWAY, WOOTTON 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Feb 2024 08:59",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.84744262700008,
-                    -36.42978286699997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "PRINCES HWY, COBARGO",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/535068",
-                "created": "2024-02-11T22:24:00+11:00",
-                "updated": "2024-02-12T09:24:00+11:00",
-                "location": "11265 PRINCES HWY, COBARGO 2550",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 11265 PRINCES HWY, COBARGO 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Feb 2024 09:24",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PACIFIC HIGHWAY, WOOTTON 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Feb 2024 09:33",
                 "title": "incident: other"
             }
         },
@@ -1843,6 +1975,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 431 SKYLINE ROAD SOUTH, WYRALLAH 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Feb 2024 04:10",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.90083313000002,
+                    -33.667556762999936
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WINDSOR RD, BOX HILL",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/535074",
+                "created": "2024-02-11T22:42:00+11:00",
+                "updated": "2024-02-12T09:42:00+11:00",
+                "location": "WINDSOR RD, BOX HILL 2765",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WINDSOR RD, BOX HILL 2765 <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Feb 2024 09:42",
+                "title": "incident: other"
             }
         }
     ]
