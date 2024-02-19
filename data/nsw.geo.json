@@ -1635,10 +1635,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.53547811500005,
-                    -33.24076936399996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.5260796546935,
+                            -33.2426715726735
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.535221544,
+                                            -33.239893552
+                                        ],
+                                        [
+                                            148.535233441,
+                                            -33.239881655
+                                        ],
+                                        [
+                                            148.535804512,
+                                            -33.2397031949999
+                                        ],
+                                        [
+                                            148.536351789,
+                                            -33.23985786
+                                        ],
+                                        [
+                                            148.536708707,
+                                            -33.240226677
+                                        ],
+                                        [
+                                            148.536399377,
+                                            -33.240773953
+                                        ],
+                                        [
+                                            148.536113842,
+                                            -33.241475894
+                                        ],
+                                        [
+                                            148.535649847,
+                                            -33.241916094
+                                        ],
+                                        [
+                                            148.534483911,
+                                            -33.242082656
+                                        ],
+                                        [
+                                            148.534067505,
+                                            -33.241475894
+                                        ],
+                                        [
+                                            148.534043711,
+                                            -33.240845336
+                                        ],
+                                        [
+                                            148.534507706,
+                                            -33.240143395
+                                        ],
+                                        [
+                                            148.535221544,
+                                            -33.239893552
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1906,6 +1975,54 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Planned Burn <br />LOCATION: Nundle SF <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 19 Feb 2024 15:09",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.99679565400004,
+                    -30.589973449999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "(PACIFIC HWY), VALLA",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/536804",
+                "created": "2024-02-19T08:33:00+11:00",
+                "updated": "2024-02-19T19:33:00+11:00",
+                "location": "A1 (PACIFIC HWY), VALLA 2448",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: A1 (PACIFIC HWY), VALLA 2448 <br />COUNCIL AREA: Nambucca <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2024 19:33",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.0590057380001,
+                    -30.906099319999953
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ARAKOON RD, ARAKOON",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/536805",
+                "created": "2024-02-19T08:37:00+11:00",
+                "updated": "2024-02-19T19:37:00+11:00",
+                "location": "ARAKOON RD, ARAKOON 2431",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ARAKOON RD, ARAKOON 2431 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Feb 2024 19:37",
+                "title": "incident: other"
             }
         },
         {
