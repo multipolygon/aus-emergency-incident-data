@@ -985,12 +985,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Kensington",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2024-03-02T00:17:02+11:00",
+                "updated": "2024-03-02T00:17:14+11:00",
+                "id": "ESTA:240300477",
+                "location": "Clifford Tce, Kensington",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.92697710284713,
+                    -37.79645441279169
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Callanan Dr",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
+                "status": "safe",
                 "created": "2024-03-01T23:52:00+11:00",
-                "updated": "2024-03-01T23:52:00+11:00",
+                "updated": "2024-03-02T00:18:00+11:00",
                 "id": "ESTA:240300471",
                 "location": "Callanan Dr, Melton South",
                 "size": "Small",
@@ -1008,14 +1030,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Loutitt Bay Rd",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-03-01T22:46:00+11:00",
-                "updated": "2024-03-01T23:31:00+11:00",
-                "id": "ESTA:240300452",
-                "location": "Loutitt Bay Rd, Freshwater Creek",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2024-03-02T00:04:00+11:00",
+                "updated": "2024-03-02T00:20:00+11:00",
+                "id": "ESTA:240300475",
+                "location": "Cowes",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -1023,8 +1045,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.22376958258306,
-                    -38.2998609196564
+                    145.23896936128457,
+                    -38.45177397621471
                 ]
             }
         },
@@ -1048,29 +1070,6 @@
                 "coordinates": [
                     145.011262247028,
                     -38.268727233860425
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2024-03-02T00:04:00+11:00",
-                "updated": "2024-03-02T00:04:00+11:00",
-                "id": "ESTA:240300475",
-                "location": "Cowes",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.23896936128457,
-                    -38.45177397621471
                 ]
             }
         },
@@ -1113,6 +1112,29 @@
             "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    147.3665,
+                                    -35.513
+                                ],
+                                [
+                                    147.3666,
+                                    -35.513
+                                ],
+                                [
+                                    147.3666,
+                                    -35.513
+                                ],
+                                [
+                                    147.3665,
+                                    -35.513
+                                ]
+                            ]
+                        ]
+                    },
                     {
                         "type": "Polygon",
                         "coordinates": [
@@ -1168,29 +1190,6 @@
                                 [
                                     147.3628,
                                     -35.5143
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    147.3665,
-                                    -35.513
-                                ],
-                                [
-                                    147.3666,
-                                    -35.513
-                                ],
-                                [
-                                    147.3666,
-                                    -35.513
-                                ],
-                                [
-                                    147.3665,
-                                    -35.513
                                 ]
                             ]
                         ]
@@ -82300,6 +82299,29 @@
                 "coordinates": [
                     143.5653164828198,
                     -38.41985331791911
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Loutitt Bay Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-03-01T22:46:00+11:00",
+                "updated": "2024-03-01T23:31:00+11:00",
+                "id": "ESTA:240300452",
+                "location": "Loutitt Bay Rd, Freshwater Creek",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.22376958258306,
+                    -38.2998609196564
                 ]
             }
         },
