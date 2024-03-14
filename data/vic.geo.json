@@ -393,6 +393,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            144.60118123272406,
+                            -37.713032534513395
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.58912202099376,
+                                    -37.699792167389745
+                                ],
+                                [
+                                    144.61624451855377,
+                                    -37.7016257538891
+                                ],
+                                [
+                                    144.61349793652337,
+                                    -37.726272901637046
+                                ],
+                                [
+                                    144.58611794689438,
+                                    -37.72321791529738
+                                ],
+                                [
+                                    144.58912202099376,
+                                    -37.699792167389745
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2024-03-14T19:28:22+11:00",
+                "updated": "2024-03-14T19:28:22+11:00",
+                "id": "33360",
+                "location": "Melton South, Melton",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             143.2934138974502,
                             -37.29992252055026
                         ]
@@ -847,74 +901,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Purdey St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2024-03-14T19:18:00+11:00",
-                "updated": "2024-03-14T19:18:00+11:00",
-                "id": "ESTA:240305979",
-                "location": "Purdey St, Tongala",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95860450505407,
-                    -36.25189972841516
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Ferris Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2024-03-14T18:53:00+11:00",
-                "updated": "2024-03-14T19:21:00+11:00",
-                "id": "ESTA:240305965",
-                "location": "Ferris Rd, Cobblebank",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.6010840382108,
-                    -37.71028525846211
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Digby",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "safe",
-                "created": "2024-03-14T17:35:17+11:00",
-                "updated": "2024-03-14T19:20:46+11:00",
-                "id": "ESTA:240305935",
-                "location": "Dartmoor-Hamilton Rd, Digby",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.50398572372094,
-                    -37.81600132168013
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -938,22 +924,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Altona North",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2024-03-14T19:24:39+11:00",
-                "updated": "2024-03-14T19:26:46+11:00",
-                "id": "ESTA:240305980",
-                "location": "Millers Rd, Altona North",
-                "title": "incident: hazardous material"
+                "sourceTitle": "Purdey St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2024-03-14T19:18:00+11:00",
+                "updated": "2024-03-14T19:18:00+11:00",
+                "id": "ESTA:240305979",
+                "location": "Purdey St, Tongala",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.84561596089205,
-                    -37.845376971568975
+                    144.95860450505407,
+                    -36.25189972841516
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ferguson Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2024-03-14T18:17:00+11:00",
+                "updated": "2024-03-14T18:42:00+11:00",
+                "id": "ESTA:240305952",
+                "location": "Ferguson Rd, Tatura East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.30395348814437,
+                    -36.44030361396591
                 ]
             }
         },
@@ -85845,29 +85855,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ferguson Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2024-03-14T18:17:00+11:00",
-                "updated": "2024-03-14T18:42:00+11:00",
-                "id": "ESTA:240305952",
-                "location": "Ferguson Rd, Tatura East",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.30395348814437,
-                    -36.44030361396591
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tone Rd",
                 "category": "fire",
                 "subcategory": "other",
@@ -85908,6 +85895,29 @@
                 "coordinates": [
                     144.98759124985318,
                     -37.60205769911527
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ferris Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2024-03-14T18:53:00+11:00",
+                "updated": "2024-03-14T19:21:00+11:00",
+                "id": "ESTA:240305965",
+                "location": "Ferris Rd, Cobblebank",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.6010840382108,
+                    -37.71028525846211
                 ]
             }
         },
