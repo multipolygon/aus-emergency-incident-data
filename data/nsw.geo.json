@@ -110,11 +110,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540269",
-                "created": "2024-03-14T15:45:00+11:00",
-                "updated": "2024-03-15T02:45:00+11:00",
+                "created": "2024-03-14T21:52:00+11:00",
+                "updated": "2024-03-15T08:52:00+11:00",
                 "location": "GOLDEN HWY, UARBRY 2329",
                 "size": 151,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: GOLDEN HWY, UARBRY 2329 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 151 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2024 02:45",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: GOLDEN HWY, UARBRY 2329 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 151 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2024 08:52",
                 "title": "incident: fire"
             }
         },
@@ -4276,10 +4276,47 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.5684986110001,
-                    -31.432544675999964
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.5684986110001,
+                            -31.432544675999964
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.56828616,
+                                            -31.436457635
+                                        ],
+                                        [
+                                            151.576209766,
+                                            -31.4370287049999
+                                        ],
+                                        [
+                                            151.576376328,
+                                            -31.4373856239999
+                                        ],
+                                        [
+                                            151.575400749,
+                                            -31.437623571
+                                        ],
+                                        [
+                                            151.56828616,
+                                            -31.436457635
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4383,61 +4420,6 @@
                                         [
                                             151.261399475,
                                             -31.4565049
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            151.256973677,
-                                            -31.454970148
-                                        ],
-                                        [
-                                            151.257973051,
-                                            -31.4579920629999
-                                        ],
-                                        [
-                                            151.258044435,
-                                            -31.458396572
-                                        ],
-                                        [
-                                            151.257425775,
-                                            -31.458824874
-                                        ],
-                                        [
-                                            151.256949883,
-                                            -31.4590866149999
-                                        ],
-                                        [
-                                            151.256378812,
-                                            -31.4591104099999
-                                        ],
-                                        [
-                                            151.255974304,
-                                            -31.4589676419999
-                                        ],
-                                        [
-                                            151.255331849,
-                                            -31.4587772859999
-                                        ],
-                                        [
-                                            151.254927341,
-                                            -31.458539339
-                                        ],
-                                        [
-                                            151.254594217,
-                                            -31.4586107229999
-                                        ],
-                                        [
-                                            151.254689395,
-                                            -31.458230009
-                                        ],
-                                        [
-                                            151.256973677,
-                                            -31.454970148
                                         ]
                                     ]
                                 ]
@@ -4608,6 +4590,61 @@
                                         [
                                             151.263778936,
                                             -31.458265701
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.256973677,
+                                            -31.454970148
+                                        ],
+                                        [
+                                            151.257973051,
+                                            -31.4579920629999
+                                        ],
+                                        [
+                                            151.258044435,
+                                            -31.458396572
+                                        ],
+                                        [
+                                            151.257425775,
+                                            -31.458824874
+                                        ],
+                                        [
+                                            151.256949883,
+                                            -31.4590866149999
+                                        ],
+                                        [
+                                            151.256378812,
+                                            -31.4591104099999
+                                        ],
+                                        [
+                                            151.255974304,
+                                            -31.4589676419999
+                                        ],
+                                        [
+                                            151.255331849,
+                                            -31.4587772859999
+                                        ],
+                                        [
+                                            151.254927341,
+                                            -31.458539339
+                                        ],
+                                        [
+                                            151.254594217,
+                                            -31.4586107229999
+                                        ],
+                                        [
+                                            151.254689395,
+                                            -31.458230009
+                                        ],
+                                        [
+                                            151.256973677,
+                                            -31.454970148
                                         ]
                                     ]
                                 ]
@@ -6014,30 +6051,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.76498413000002,
-                    -34.51367568999996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "AVONDALE RD, AVONDALE",
-                "category": "fire",
-                "subcategory": "car fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540361",
-                "created": "2024-03-15T00:44:00+11:00",
-                "updated": "2024-03-15T11:44:00+11:00",
-                "location": "GRAWIN 254 AVONDALE RD, AVONDALE 2530",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GRAWIN 254 AVONDALE RD, AVONDALE 2530 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2024 11:44",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -6217,23 +6230,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.09185791000004,
-                    -31.005613326999935
+                    151.90409851000004,
+                    -32.791305541999975
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "NEW ENGLAND HWY, MOONBI",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540358",
-                "created": "2024-03-15T00:22:00+11:00",
-                "updated": "2024-03-15T11:22:00+11:00",
-                "location": "NEW ENGLAND HWY, MOONBI 2353",
+                "sourceTitle": "OAKFIELD RD, SALT ASH",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540359",
+                "created": "2024-03-15T00:56:00+11:00",
+                "updated": "2024-03-15T11:56:00+11:00",
+                "location": "7 OAKFIELD RD, SALT ASH 2318",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NEW ENGLAND HWY, MOONBI 2353 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2024 11:22",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 7 OAKFIELD RD, SALT ASH 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2024 11:56",
+                "title": "incident: fire"
             }
         },
         {
@@ -6305,54 +6318,6 @@
                 "location": "TORRINGTON ST, GLEN INNES 2370",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: TORRINGTON ST, GLEN INNES 2370 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Under control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2024 08:42",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.90417480500003,
-                    -32.79090118399995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "VALERIE RD, SALT ASH",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540359",
-                "created": "2024-03-15T00:33:00+11:00",
-                "updated": "2024-03-15T11:33:00+11:00",
-                "location": "2 VALERIE RD, SALT ASH 2318",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2 VALERIE RD, SALT ASH 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2024 11:33",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.77500915500002,
-                    -36.52910995499997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "WARRIGAL RANGE RD, BROGO",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540360",
-                "created": "2024-03-15T00:38:00+11:00",
-                "updated": "2024-03-15T11:38:00+11:00",
-                "location": "WARRIGAL RANGE RD, BROGO 2550",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WARRIGAL RANGE RD, BROGO 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Mar 2024 11:38",
                 "title": "incident: other"
             }
         }
