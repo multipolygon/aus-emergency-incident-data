@@ -379,10 +379,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.80744934100005,
-                    -33.83158111599994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.80744934100005,
+                            -33.83158111599994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.80808532,
+                                            -33.830261245
+                                        ],
+                                        [
+                                            148.809750942,
+                                            -33.832938139
+                                        ],
+                                        [
+                                            148.809869916,
+                                            -33.8361504119999
+                                        ],
+                                        [
+                                            148.807609427,
+                                            -33.8373996289999
+                                        ],
+                                        [
+                                            148.805408426,
+                                            -33.835615033
+                                        ],
+                                        [
+                                            148.805943805,
+                                            -33.832045841
+                                        ],
+                                        [
+                                            148.806717129,
+                                            -33.8309155969999
+                                        ],
+                                        [
+                                            148.80808532,
+                                            -33.830261245
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -392,11 +441,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540763",
-                "created": "2024-03-19T05:24:00+11:00",
-                "updated": "2024-03-19T16:24:00+11:00",
+                "created": "2024-03-19T05:43:00+11:00",
+                "updated": "2024-03-19T16:43:00+11:00",
                 "location": "594 PINE MOUNT RD, WOODSTOCK 2793",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 594 PINE MOUNT RD, WOODSTOCK 2793 <br />COUNCIL AREA: Cowra <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Mar 2024 16:24",
+                "size": 30,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 594 PINE MOUNT RD, WOODSTOCK 2793 <br />COUNCIL AREA: Cowra <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 30 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Mar 2024 16:43",
                 "title": "incident: fire"
             }
         },
@@ -1227,30 +1276,6 @@
                 "location": "LERIDA RD S, LERIDA 2581",
                 "size": 0,
                 "description": "ALERT LEVEL: Planned Burn <br />LOCATION: LERIDA RD S, LERIDA 2581 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Mar 2024 14:28",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.128444671,
-                    -33.70392948899996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lister Street Pile Burn ",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540659",
-                "created": "2024-03-18T22:33:00+11:00",
-                "updated": "2024-03-19T09:33:00+11:00",
-                "location": "21 LISTER ST, NORTH WAHROONGA NSW 2076",
-                "size": 0,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 21 LISTER ST, NORTH WAHROONGA NSW 2076 <br />COUNCIL AREA: Ku-Ring-Gai <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Mar 2024 09:33",
                 "title": "incident: fire"
             }
         },
@@ -2089,30 +2114,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.3837127690001,
-                    -33.912670135999974
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BACK CREEK RD, WYALONG",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540724",
-                "created": "2024-03-19T00:55:00+11:00",
-                "updated": "2024-03-19T11:55:00+11:00",
-                "location": "463 BACK CREEK RD, WYALONG 2671",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 463 BACK CREEK RD, WYALONG 2671 <br />COUNCIL AREA: Bland <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Mar 2024 11:55",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.06690979000007,
                     -33.87588882499995
                 ]
@@ -2153,6 +2154,30 @@
                 "location": "BALLYHOOLEY 783 BALLYHOOLEY RD, FROGMORE 2586",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BALLYHOOLEY 783 BALLYHOOLEY RD, FROGMORE 2586 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Mar 2024 13:21",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.94099426200012,
+                    -33.53426742599993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BAREENONG RD, GAREMA",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/540764",
+                "created": "2024-03-19T05:38:00+11:00",
+                "updated": "2024-03-19T16:38:00+11:00",
+                "location": "BAREENONG RD, GAREMA 2871",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BAREENONG RD, GAREMA 2871 <br />COUNCIL AREA: Forbes <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Mar 2024 16:38",
                 "title": "incident: fire"
             }
         },
