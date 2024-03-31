@@ -884,10 +884,10 @@
                 "subcategory": "bushfire",
                 "status": "safe",
                 "created": "2024-03-31T19:00:00+11:00",
-                "updated": "2024-04-01T10:12:00+11:00",
+                "updated": "2024-04-01T10:16:00+11:00",
                 "id": 999386,
                 "location": "1.8Km Nw Golden Square",
-                "size": null,
+                "size": "0.10",
                 "title": "incident: fire"
             },
             "type": "Feature",
@@ -1707,14 +1707,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Gosfield Rd",
+                "sourceTitle": "Keilor Downs",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2024-04-01T09:56:00+11:00",
-                "updated": "2024-04-01T10:06:00+11:00",
-                "id": "ESTA:240400110",
-                "location": "Gosfield Rd, Hurstbridge",
+                "created": "2024-04-01T10:09:23+11:00",
+                "updated": "2024-04-01T10:22:17+11:00",
+                "id": "ESTA:240400119",
+                "location": "Keilor Downs",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8027280822878,
+                    -37.71796284568685
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cement Creek Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2024-04-01T10:21:00+11:00",
+                "updated": "2024-04-01T10:21:00+11:00",
+                "id": "ESTA:240400125",
+                "location": "Cement Creek Rd, East Warburton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -1722,8 +1744,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2221151769243,
-                    -37.632375467185355
+                    145.75334835056697,
+                    -37.72455576371538
                 ]
             }
         },
@@ -1731,15 +1753,15 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2024-04-01T10:08:00+11:00",
-                "updated": "2024-04-01T10:08:00+11:00",
+                "updated": "2024-04-01T10:28:00+11:00",
                 "id": "ESTA:240400115",
                 "location": "Longford",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
@@ -1754,44 +1776,44 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-04-01T10:06:00+11:00",
-                "updated": "2024-04-01T10:08:00+11:00",
-                "id": "ESTA:240400114",
-                "location": "Emerald",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.44260045043026,
-                    -37.9232856682085
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Keilor Downs",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2024-04-01T10:09:23+11:00",
-                "updated": "2024-04-01T10:11:14+11:00",
-                "id": "ESTA:240400119",
-                "location": "Keilor Downs",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2024-04-01T10:28:00+11:00",
+                "updated": "2024-04-01T10:28:00+11:00",
+                "id": "ESTA:240400128",
+                "location": "Terip Terip",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8022847131758,
-                    -37.718109834357044
+                    145.5603770430356,
+                    -37.058804930354356
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fitzroy North",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2024-04-01T10:26:45+11:00",
+                "updated": "2024-04-01T10:29:52+11:00",
+                "id": "ESTA:240400127",
+                "location": "Holden St, Fitzroy North",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99017576058787,
+                    -37.7805113373607
                 ]
             }
         },
@@ -1801,9 +1823,9 @@
                 "sourceTitle": "Humffray St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2024-04-01T10:13:00+11:00",
-                "updated": "2024-04-01T10:13:00+11:00",
+                "updated": "2024-04-01T10:24:00+11:00",
                 "id": "ESTA:240400122",
                 "location": "Humffray St, Brown Hill",
                 "size": "Small",
@@ -1815,6 +1837,51 @@
                 "coordinates": [
                     143.89996372607413,
                     -37.55244483212539
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2024-04-01T10:32:00+11:00",
+                "updated": "2024-04-01T10:34:00+11:00",
+                "id": "ESTA:240400130",
+                "location": "Beechworth",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.6542749170796,
+                    -36.37058944474116
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2024-04-01T09:50:00+11:00",
+                "updated": "2024-04-01T09:57:00+11:00",
+                "id": "ESTA:240450012",
+                "location": "Badger Creek",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.53421758910213,
+                    -37.684938572916295
                 ]
             }
         },
@@ -91278,14 +91345,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Gosfield Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2024-04-01T09:58:00+11:00",
-                "updated": "2024-04-01T09:58:00+11:00",
-                "id": "ESTA:240400111",
-                "location": "Redesdale",
+                "status": "safe",
+                "created": "2024-04-01T09:56:00+11:00",
+                "updated": "2024-04-01T10:06:00+11:00",
+                "id": "ESTA:240400110",
+                "location": "Gosfield Rd, Hurstbridge",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -91293,45 +91360,24 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.4988424220078,
-                    -37.017420771255914
+                    145.2221151769243,
+                    -37.632375467185355
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2024-04-01T09:50:00+11:00",
-                "updated": "2024-04-01T09:57:00+11:00",
-                "id": "ESTA:240450012",
-                "location": "Badger Creek",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.53421758910213,
-                    -37.684938572916295
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2024-04-01T10:05:00+11:00",
-                "updated": "2024-04-01T10:14:00+11:00",
-                "id": "ESTA:240450014",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-04-01T10:06:00+11:00",
+                "updated": "2024-04-01T10:08:00+11:00",
+                "id": "ESTA:240400114",
                 "location": "Emerald",
-                "title": "incident: tree down"
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
@@ -91339,6 +91385,29 @@
                 "coordinates": [
                     145.44260045043026,
                     -37.9232856682085
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-04-01T09:58:00+11:00",
+                "updated": "2024-04-01T10:27:00+11:00",
+                "id": "ESTA:240400111",
+                "location": "Redesdale",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.49806870631932,
+                    -37.02010805748217
                 ]
             }
         }
