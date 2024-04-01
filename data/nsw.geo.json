@@ -76,10 +76,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.76290893500004,
-                    -33.93648147599998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.76290893500004,
+                            -33.93648147599998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.762308995,
+                                            -33.935302752
+                                        ],
+                                        [
+                                            150.762677812,
+                                            -33.935338443
+                                        ],
+                                        [
+                                            150.763498725,
+                                            -33.935445519
+                                        ],
+                                        [
+                                            150.763272677,
+                                            -33.9357191559999
+                                        ],
+                                        [
+                                            150.762511248,
+                                            -33.9354931079999
+                                        ],
+                                        [
+                                            150.762356584,
+                                            -33.935433621
+                                        ],
+                                        [
+                                            150.762308995,
+                                            -33.935302752
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -94,6 +139,30 @@
                 "location": "37 BELLFIELD AV, ROSSMORE 2557",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 37 BELLFIELD AV, ROSSMORE 2557 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 14:57",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.87893676700003,
+                    -34.51194763099994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BENANEE RD, EUSTON",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542165",
+                "created": "2024-04-01T05:01:00+11:00",
+                "updated": "2024-04-01T16:01:00+11:00",
+                "location": "BENANEE RD, EUSTON 2737",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BENANEE RD, EUSTON 2737 <br />COUNCIL AREA: Balranald <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 16:01",
                 "title": "incident: fire"
             }
         },
@@ -118,6 +187,30 @@
                 "location": "BRAESIDE POWERLINE TRL, BLUE MOUNTAINS NATIONAL PARK 2790",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: BRAESIDE POWERLINE TRL, BLUE MOUNTAINS NATIONAL PARK 2790 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 14:20",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.6851806640001,
+                    -33.78247833299997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CANOWINDRA RD, COWRA",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542161",
+                "created": "2024-04-01T04:41:00+11:00",
+                "updated": "2024-04-01T15:41:00+11:00",
+                "location": "617 CANOWINDRA RD, COWRA 2794",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 617 CANOWINDRA RD, COWRA 2794 <br />COUNCIL AREA: Cowra <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 15:41",
                 "title": "incident: fire"
             }
         },
@@ -238,30 +331,6 @@
                 "location": "695 COYBIL RD, WEETALIBA 2395",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 695 COYBIL RD, WEETALIBA 2395 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 15:01",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.10963440000012,
-                    -33.431030272999976
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "GREAT WESTERN HWY, MARRANGAROO",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542139",
-                "created": "2024-04-01T03:41:00+11:00",
-                "updated": "2024-04-01T14:41:00+11:00",
-                "location": "GREAT WESTERN HWY, MARRANGAROO 2790",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: GREAT WESTERN HWY, MARRANGAROO 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 14:41",
                 "title": "incident: fire"
             }
         },
@@ -1130,57 +1199,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            150.827322074,
-                                            -33.930934743
-                                        ],
-                                        [
-                                            150.826971255,
-                                            -33.931207565
-                                        ],
-                                        [
-                                            150.826718194,
-                                            -33.9309531919999
-                                        ],
-                                        [
-                                            150.826315079,
-                                            -33.9311368809999
-                                        ],
-                                        [
-                                            150.825976905,
-                                            -33.9311472109999
-                                        ],
-                                        [
-                                            150.825623114,
-                                            -33.931077369
-                                        ],
-                                        [
-                                            150.826890316,
-                                            -33.9301918629999
-                                        ],
-                                        [
-                                            150.826988706,
-                                            -33.9302291819999
-                                        ],
-                                        [
-                                            150.827127756,
-                                            -33.930366066
-                                        ],
-                                        [
-                                            150.827165191,
-                                            -33.930667351
-                                        ],
-                                        [
-                                            150.827322074,
-                                            -33.930934743
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             150.826732991,
                                             -33.9299144039999
                                         ],
@@ -1226,6 +1244,57 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.827322074,
+                                            -33.930934743
+                                        ],
+                                        [
+                                            150.826971255,
+                                            -33.931207565
+                                        ],
+                                        [
+                                            150.826718194,
+                                            -33.9309531919999
+                                        ],
+                                        [
+                                            150.826315079,
+                                            -33.9311368809999
+                                        ],
+                                        [
+                                            150.825976905,
+                                            -33.9311472109999
+                                        ],
+                                        [
+                                            150.825623114,
+                                            -33.931077369
+                                        ],
+                                        [
+                                            150.826890316,
+                                            -33.9301918629999
+                                        ],
+                                        [
+                                            150.826988706,
+                                            -33.9302291819999
+                                        ],
+                                        [
+                                            150.827127756,
+                                            -33.930366066
+                                        ],
+                                        [
+                                            150.827165191,
+                                            -33.930667351
+                                        ],
+                                        [
+                                            150.827322074,
+                                            -33.930934743
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -1267,30 +1336,6 @@
                 "location": "47 MENIN RD, OAKVILLE 2765",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 47 MENIN RD, OAKVILLE 2765 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 14:32",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.13839721700003,
-                    -36.20936965899995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "MITCHELL AV, KHANCOBAN",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542133",
-                "created": "2024-04-01T04:45:00+11:00",
-                "updated": "2024-04-01T15:45:00+11:00",
-                "location": "74 MITCHELL AV, KHANCOBAN 2642",
-                "size": 3,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 74 MITCHELL AV, KHANCOBAN 2642 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 15:45",
                 "title": "incident: fire"
             }
         },
@@ -11361,22 +11406,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.7705841070001,
-                    -34.08372497499994
+                    150.99612426800002,
+                    -33.63720321699998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "HUME HWY (NORTHBOUND), MENANGLE PARK",
+                "sourceTitle": "HAFEY RD, KENTHURST",
                 "category": "fire",
-                "subcategory": "vehicle/equipment fire",
+                "subcategory": "other",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542099",
-                "created": "2024-03-31T23:41:00+11:00",
-                "updated": "2024-04-01T10:41:00+11:00",
-                "location": "ET128 HUME HWY (NORTHBOUND), MENANGLE PARK 2563",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542164",
+                "created": "2024-04-01T04:58:00+11:00",
+                "updated": "2024-04-01T15:58:00+11:00",
+                "location": "7 HAFEY RD, KENTHURST 2156",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ET128 HUME HWY (NORTHBOUND), MENANGLE PARK 2563 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 10:41",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 7 HAFEY RD, KENTHURST 2156 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 15:58",
                 "title": "incident: fire"
             }
         },
@@ -11494,6 +11539,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.56797790500002,
+                    -35.65116500899995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "LONG PLAIN RD, LONG PLAIN",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542163",
+                "created": "2024-04-01T04:52:00+11:00",
+                "updated": "2024-04-01T15:52:00+11:00",
+                "location": "LONG PLAIN RD, LONG PLAIN 2629",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: LONG PLAIN RD, LONG PLAIN 2629 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 15:52",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.25076294000007,
                     -31.571783065999966
                 ]
@@ -11551,13 +11620,13 @@
                 "sourceTitle": "PACIFIC HWY, KARUAH",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542143",
-                "created": "2024-04-01T03:21:00+11:00",
-                "updated": "2024-04-01T14:21:00+11:00",
+                "created": "2024-04-01T05:01:00+11:00",
+                "updated": "2024-04-01T16:01:00+11:00",
                 "location": "PACIFIC HWY, KARUAH 2324",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PACIFIC HWY, KARUAH 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 14:21",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PACIFIC HWY, KARUAH 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 16:01",
                 "title": "incident: other"
             }
         },
@@ -11599,13 +11668,13 @@
                 "sourceTitle": "SPINKS RD, GLOSSODIA",
                 "category": "other",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542150",
-                "created": "2024-04-01T03:47:00+11:00",
-                "updated": "2024-04-01T14:47:00+11:00",
+                "created": "2024-04-01T04:47:00+11:00",
+                "updated": "2024-04-01T15:47:00+11:00",
                 "location": "178 SPINKS RD, GLOSSODIA 2756",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 178 SPINKS RD, GLOSSODIA 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 14:47",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 178 SPINKS RD, GLOSSODIA 2756 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 15:47",
                 "title": "incident: other"
             }
         },
@@ -11638,23 +11707,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.49281311000004,
-                    -35.15932464599996
+                    151.01351928700012,
+                    -34.08126068099995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "STURT HWY, ALFREDTOWN",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542123",
-                "created": "2024-04-01T04:36:00+11:00",
-                "updated": "2024-04-01T15:36:00+11:00",
-                "location": "3185 STURT HWY, ALFREDTOWN 2650",
+                "sourceTitle": "THE AVENUE, HEATHCOTE",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/542166",
+                "created": "2024-04-01T05:03:00+11:00",
+                "updated": "2024-04-01T16:03:00+11:00",
+                "location": "15 THE AVENUE, HEATHCOTE 2233",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3185 STURT HWY, ALFREDTOWN 2650 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 15:36",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 15 THE AVENUE, HEATHCOTE 2233 <br />COUNCIL AREA: Sutherland <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Apr 2024 16:03",
+                "title": "incident: other"
             }
         },
         {
