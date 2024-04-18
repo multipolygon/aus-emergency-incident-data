@@ -1721,29 +1721,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.131577367,
-                                            -33.170792477
-                                        ],
-                                        [
-                                            149.131755828,
-                                            -33.1704712499999
-                                        ],
-                                        [
-                                            149.131981876,
-                                            -33.17078058
-                                        ],
-                                        [
-                                            149.131577367,
-                                            -33.170792477
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             149.132895325,
                                             -33.161382369
                                         ],
@@ -1766,6 +1743,29 @@
                                         [
                                             149.132895325,
                                             -33.161382369
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.131577367,
+                                            -33.170792477
+                                        ],
+                                        [
+                                            149.131755828,
+                                            -33.1704712499999
+                                        ],
+                                        [
+                                            149.131981876,
+                                            -33.17078058
+                                        ],
+                                        [
+                                            149.131577367,
+                                            -33.170792477
                                         ]
                                     ]
                                 ]
@@ -2603,10 +2603,163 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.1908111570001,
-                    -33.25554656999998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.1908111570001,
+                            -33.25554656999998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.193290757,
+                                            -33.252597231
+                                        ],
+                                        [
+                                            149.193290757,
+                                            -33.2589979809999
+                                        ],
+                                        [
+                                            149.190756631,
+                                            -33.258736241
+                                        ],
+                                        [
+                                            149.190554376,
+                                            -33.258260349
+                                        ],
+                                        [
+                                            149.190375917,
+                                            -33.2582127589999
+                                        ],
+                                        [
+                                            149.190161765,
+                                            -33.258260349
+                                        ],
+                                        [
+                                            149.190018998,
+                                            -33.2580699919999
+                                        ],
+                                        [
+                                            149.190066587,
+                                            -33.2577368669999
+                                        ],
+                                        [
+                                            149.189816744,
+                                            -33.257641689
+                                        ],
+                                        [
+                                            149.189388441,
+                                            -33.2574037429999
+                                        ],
+                                        [
+                                            149.189233776,
+                                            -33.2571301039999
+                                        ],
+                                        [
+                                            149.188710294,
+                                            -33.256618521
+                                        ],
+                                        [
+                                            149.188436656,
+                                            -33.2561783199999
+                                        ],
+                                        [
+                                            149.188091635,
+                                            -33.2562972929999
+                                        ],
+                                        [
+                                            149.187936969,
+                                            -33.25604745
+                                        ],
+                                        [
+                                            149.187960764,
+                                            -33.255940375
+                                        ],
+                                        [
+                                            149.18832958,
+                                            -33.255642942
+                                        ],
+                                        [
+                                            149.18832958,
+                                            -33.2553455089999
+                                        ],
+                                        [
+                                            149.18881737,
+                                            -33.254833925
+                                        ],
+                                        [
+                                            149.189055317,
+                                            -33.2545602869999
+                                        ],
+                                        [
+                                            149.189055317,
+                                            -33.2541200859999
+                                        ],
+                                        [
+                                            149.189412235,
+                                            -33.254131983
+                                        ],
+                                        [
+                                            149.189424133,
+                                            -33.2539535239999
+                                        ],
+                                        [
+                                            149.189769154,
+                                            -33.2540011139999
+                                        ],
+                                        [
+                                            149.189781052,
+                                            -33.2541438809999
+                                        ],
+                                        [
+                                            149.190007101,
+                                            -33.2540962919999
+                                        ],
+                                        [
+                                            149.190578171,
+                                            -33.2536798859999
+                                        ],
+                                        [
+                                            149.190899399,
+                                            -33.253406248
+                                        ],
+                                        [
+                                            149.191149242,
+                                            -33.253156404
+                                        ],
+                                        [
+                                            149.191482367,
+                                            -33.252989842
+                                        ],
+                                        [
+                                            149.191637031,
+                                            -33.25274
+                                        ],
+                                        [
+                                            149.191767902,
+                                            -33.2524782579999
+                                        ],
+                                        [
+                                            149.191815491,
+                                            -33.25238308
+                                        ],
+                                        [
+                                            149.193290757,
+                                            -33.252597231
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3333,11 +3486,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/543395",
-                "created": "2024-04-17T04:29:00+10:00",
-                "updated": "2024-04-17T14:29:00+10:00",
+                "created": "2024-04-18T02:20:00+10:00",
+                "updated": "2024-04-18T12:20:00+10:00",
                 "location": "Guinema Rd, Bugaldie",
                 "size": 150,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: Guinema Rd, Bugaldie <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 150 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 17 Apr 2024 14:29",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: Guinema Rd, Bugaldie <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 150 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 18 Apr 2024 12:20",
                 "title": "incident: fire"
             }
         },
@@ -3403,13 +3556,13 @@
                 "sourceTitle": "ABERDARE FIRETRAIL, KEARSLEY",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/544963",
-                "created": "2024-04-18T02:08:00+10:00",
-                "updated": "2024-04-18T12:08:00+10:00",
+                "created": "2024-04-18T02:22:00+10:00",
+                "updated": "2024-04-18T12:22:00+10:00",
                 "location": "ABERDARE FIRETRAIL, KEARSLEY 2325",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ABERDARE FIRETRAIL, KEARSLEY 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Apr 2024 12:08",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ABERDARE FIRETRAIL, KEARSLEY 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Apr 2024 12:22",
                 "title": "incident: fire"
             }
         },
