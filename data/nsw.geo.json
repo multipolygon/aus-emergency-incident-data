@@ -76,10 +76,110 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.43069458000002,
-                    -33.15094757099996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.43069458000002,
+                            -33.15094757099996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.431851626,
+                                            -33.150724462
+                                        ],
+                                        [
+                                            148.431844798,
+                                            -33.1507334619999
+                                        ],
+                                        [
+                                            148.431844798,
+                                            -33.1507096679999
+                                        ],
+                                        [
+                                            148.431851626,
+                                            -33.150724462
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.431851626,
+                                            -33.150724462
+                                        ],
+                                        [
+                                            148.432368278,
+                                            -33.1500434189999
+                                        ],
+                                        [
+                                            148.433843544,
+                                            -33.1492581969999
+                                        ],
+                                        [
+                                            148.436508542,
+                                            -33.14783052
+                                        ],
+                                        [
+                                            148.440696393,
+                                            -33.147164271
+                                        ],
+                                        [
+                                            148.443028264,
+                                            -33.147354628
+                                        ],
+                                        [
+                                            148.444289379,
+                                            -33.148639537
+                                        ],
+                                        [
+                                            148.444598709,
+                                            -33.1503765429999
+                                        ],
+                                        [
+                                            148.443765898,
+                                            -33.152137344
+                                        ],
+                                        [
+                                            148.442718935,
+                                            -33.153231896
+                                        ],
+                                        [
+                                            148.440053938,
+                                            -33.153541226
+                                        ],
+                                        [
+                                            148.437579299,
+                                            -33.153707788
+                                        ],
+                                        [
+                                            148.434700151,
+                                            -33.152898772
+                                        ],
+                                        [
+                                            148.432415869,
+                                            -33.151946988
+                                        ],
+                                        [
+                                            148.431851626,
+                                            -33.150724462
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -94,30 +194,6 @@
                 "location": "LAKE ENDEAVOUR RD, PARKES 2870",
                 "size": 5,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: LAKE ENDEAVOUR RD, PARKES 2870 <br />COUNCIL AREA: Parkes <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Apr 2024 15:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.65447998000002,
-                    -33.54495239199997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "LONGS CORNER RD, CANOWINDRA",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/545473",
-                "created": "2024-04-23T06:05:00+10:00",
-                "updated": "2024-04-23T16:05:00+10:00",
-                "location": "67-99 LONGS CORNER RD, CANOWINDRA 2804",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 67-99 LONGS CORNER RD, CANOWINDRA 2804 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Apr 2024 16:05",
                 "title": "incident: fire"
             }
         },
@@ -2293,6 +2369,30 @@
                 "location": "Great South Road",
                 "size": 0,
                 "description": "ALERT LEVEL: Planned Burn <br />LOCATION: Great South Road <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 23 Apr 2024 14:54",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.937835693,
+                    -35.42040634199998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Broad Gully HR",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/545358",
+                "created": "2024-04-23T06:18:00+10:00",
+                "updated": "2024-04-23T16:18:00+10:00",
+                "location": "CHARLEYS FOREST RD, MONGARLOWE 2622",
+                "size": 42,
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: CHARLEYS FOREST RD, MONGARLOWE 2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 42 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Apr 2024 16:18",
                 "title": "incident: fire"
             }
         },
@@ -9138,8 +9238,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.80526733400006,
-                    -33.91892623899997
+                    150.80554199200003,
+                    -33.91606140099998
                 ]
             },
             "properties": {
@@ -9147,13 +9247,13 @@
                 "sourceTitle": "FIFTEENTH AV, AUSTRAL",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/545475",
-                "created": "2024-04-23T05:49:00+10:00",
-                "updated": "2024-04-23T15:49:00+10:00",
-                "location": "510 FIFTEENTH AV, AUSTRAL 2179",
+                "created": "2024-04-23T06:21:00+10:00",
+                "updated": "2024-04-23T16:21:00+10:00",
+                "location": "535 FIFTEENTH AV, AUSTRAL 2179",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 510 FIFTEENTH AV, AUSTRAL 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Apr 2024 15:49",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 535 FIFTEENTH AV, AUSTRAL 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Apr 2024 16:21",
                 "title": "incident: other"
             }
         },
@@ -9171,13 +9271,13 @@
                 "sourceTitle": "IVANHOE RD, BALRANALD",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/545474",
-                "created": "2024-04-23T05:49:00+10:00",
-                "updated": "2024-04-23T15:49:00+10:00",
+                "created": "2024-04-23T06:26:00+10:00",
+                "updated": "2024-04-23T16:26:00+10:00",
                 "location": "IVANHOE RD, BALRANALD 2715",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: IVANHOE RD, BALRANALD 2715 <br />COUNCIL AREA: Balranald <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Apr 2024 15:49",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: IVANHOE RD, BALRANALD 2715 <br />COUNCIL AREA: Balranald <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 23 Apr 2024 16:26",
                 "title": "incident: fire"
             }
         },
