@@ -172,10 +172,95 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.89744567900004,
-                    -29.18980979899993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.89744567900004,
+                            -29.18980979899993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.891664525,
+                                            -29.185778484
+                                        ],
+                                        [
+                                            152.89252113,
+                                            -29.186087815
+                                        ],
+                                        [
+                                            152.893401531,
+                                            -29.1866588849999
+                                        ],
+                                        [
+                                            152.894519878,
+                                            -29.1871823669999
+                                        ],
+                                        [
+                                            152.895281306,
+                                            -29.1878248209999
+                                        ],
+                                        [
+                                            152.895543046,
+                                            -29.1883245079999
+                                        ],
+                                        [
+                                            152.895543046,
+                                            -29.1889669619999
+                                        ],
+                                        [
+                                            152.894234343,
+                                            -29.189704596
+                                        ],
+                                        [
+                                            152.893568094,
+                                            -29.1897759789999
+                                        ],
+                                        [
+                                            152.892735282,
+                                            -29.1892762919999
+                                        ],
+                                        [
+                                            152.892116623,
+                                            -29.1886338379999
+                                        ],
+                                        [
+                                            152.891402784,
+                                            -29.1881817399999
+                                        ],
+                                        [
+                                            152.890903097,
+                                            -29.1878724109999
+                                        ],
+                                        [
+                                            152.890712741,
+                                            -29.1874916959999
+                                        ],
+                                        [
+                                            152.890712741,
+                                            -29.186920625
+                                        ],
+                                        [
+                                            152.890950687,
+                                            -29.186444733
+                                        ],
+                                        [
+                                            152.891664525,
+                                            -29.185778484
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -8599,13 +8684,13 @@
                 "sourceTitle": "NEWELL HWY, DANDRY",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/546675",
-                "created": "2024-04-25T09:45:00+10:00",
-                "updated": "2024-04-25T19:45:00+10:00",
+                "created": "2024-04-25T10:25:00+10:00",
+                "updated": "2024-04-25T20:25:00+10:00",
                 "location": "1471 NEWELL HWY, DANDRY 2357",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1471 NEWELL HWY, DANDRY 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Apr 2024 19:45",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1471 NEWELL HWY, DANDRY 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Apr 2024 20:25",
                 "title": "incident: fire"
             }
         },
@@ -8647,13 +8732,13 @@
                 "sourceTitle": "RED HILL RD, OURIMBAH",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/546662",
-                "created": "2024-04-25T08:31:00+10:00",
-                "updated": "2024-04-25T18:31:00+10:00",
+                "created": "2024-04-25T08:44:00+10:00",
+                "updated": "2024-04-25T18:44:00+10:00",
                 "location": "RED HILL RD, OURIMBAH 2258",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: RED HILL RD, OURIMBAH 2258 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Apr 2024 18:31",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: RED HILL RD, OURIMBAH 2258 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Apr 2024 18:44",
                 "title": "incident: fire"
             }
         },
@@ -8703,30 +8788,6 @@
                 "size": 5,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 96 TAYLORS RD, CULCAIRN 2660 <br />COUNCIL AREA: Greater Hume <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Apr 2024 16:23",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.48966980000012,
-                    -32.14112091099997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "THE LAKES WAY, TUNCURRY",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/546659",
-                "created": "2024-04-25T08:48:00+10:00",
-                "updated": "2024-04-25T18:48:00+10:00",
-                "location": "THE LAKES WAY, TUNCURRY 2428",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: THE LAKES WAY, TUNCURRY 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Apr 2024 18:48",
-                "title": "incident: other"
             }
         },
         {
