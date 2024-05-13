@@ -4,10 +4,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.2978210450001,
-                    -35.06675338699995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.2978210450001,
+                            -35.06675338699995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.297060376,
+                                            -35.065289122
+                                        ],
+                                        [
+                                            147.296774841,
+                                            -35.065253431
+                                        ],
+                                        [
+                                            147.296643971,
+                                            -35.0651344579999
+                                        ],
+                                        [
+                                            147.296774841,
+                                            -35.064932203
+                                        ],
+                                        [
+                                            147.297012788,
+                                            -35.064920306
+                                        ],
+                                        [
+                                            147.297060376,
+                                            -35.064682359
+                                        ],
+                                        [
+                                            147.296893814,
+                                            -35.064384928
+                                        ],
+                                        [
+                                            147.296822431,
+                                            -35.064206467
+                                        ],
+                                        [
+                                            147.296798636,
+                                            -35.063968522
+                                        ],
+                                        [
+                                            147.298321491,
+                                            -35.0641350839999
+                                        ],
+                                        [
+                                            147.298273902,
+                                            -35.0644087219999
+                                        ],
+                                        [
+                                            147.297334015,
+                                            -35.0642421599999
+                                        ],
+                                        [
+                                            147.297060376,
+                                            -35.065289122
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -270,22 +339,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.34500122000009,
-                    -34.534919738999974
+                    149.35316467300004,
+                    -35.384559631999934
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "HENRY LAWSON DR, LEETON",
+                "sourceTitle": "DOUGLAS CL, CARWOOLA",
                 "category": "other",
-                "subcategory": "assist other agency",
+                "subcategory": "medical",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/548143",
-                "created": "2024-05-13T04:31:00+10:00",
-                "updated": "2024-05-13T14:31:00+10:00",
-                "location": "335 HENRY LAWSON DR, LEETON 2705",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/548146",
+                "created": "2024-05-13T05:06:00+10:00",
+                "updated": "2024-05-13T15:06:00+10:00",
+                "location": "34 DOUGLAS CL, CARWOOLA 2620",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 335 HENRY LAWSON DR, LEETON 2705 <br />COUNCIL AREA: Leeton <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 May 2024 14:31",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 34 DOUGLAS CL, CARWOOLA 2620 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 May 2024 15:06",
                 "title": "incident: other"
             }
         },
@@ -303,13 +372,13 @@
                 "sourceTitle": "ILLAWARRA HWY, MOUNT MURRAY",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/548144",
-                "created": "2024-05-13T04:32:00+10:00",
-                "updated": "2024-05-13T14:32:00+10:00",
+                "created": "2024-05-13T05:02:00+10:00",
+                "updated": "2024-05-13T15:02:00+10:00",
                 "location": "ILLAWARRA HWY, MOUNT MURRAY 2577",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ILLAWARRA HWY, MOUNT MURRAY 2577 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 May 2024 14:32",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ILLAWARRA HWY, MOUNT MURRAY 2577 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 May 2024 15:02",
                 "title": "incident: other"
             }
         },
@@ -318,23 +387,47 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.00588989300002,
-                    -30.176462172999948
+                    149.70086669900002,
+                    -31.561332702999948
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "ORARA WAY, NANA GLEN",
+                "sourceTitle": "ROUND MOUNTAIN RD, COOLAH",
                 "category": "other",
                 "subcategory": "assist other agency",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/548142",
-                "created": "2024-05-13T04:23:00+10:00",
-                "updated": "2024-05-13T14:23:00+10:00",
-                "location": "587 ORARA WAY, NANA GLEN 2450",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/548147",
+                "created": "2024-05-13T05:07:00+10:00",
+                "updated": "2024-05-13T15:07:00+10:00",
+                "location": "ROUND MOUNTAIN RD, COOLAH 2843",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 587 ORARA WAY, NANA GLEN 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 May 2024 14:23",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ROUND MOUNTAIN RD, COOLAH 2843 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 May 2024 15:07",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.51293945300006,
+                    -33.15223693799993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "RUTTLEYS RD, WYEE",
+                "category": "fire",
+                "subcategory": "car fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/548145",
+                "created": "2024-05-13T05:11:00+10:00",
+                "updated": "2024-05-13T15:11:00+10:00",
+                "location": "53 RUTTLEYS RD, WYEE 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 53 RUTTLEYS RD, WYEE 2259 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 May 2024 15:11",
+                "title": "incident: fire"
             }
         }
     ]
