@@ -52,10 +52,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.76628112700007,
-                    -33.90830612199994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.76628112700007,
+                            -33.90830612199994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.764159666,
+                                            -33.908870728
+                                        ],
+                                        [
+                                            150.764480894,
+                                            -33.90882314
+                                        ],
+                                        [
+                                            150.76458797,
+                                            -33.908632782
+                                        ],
+                                        [
+                                            150.764873505,
+                                            -33.9083472459999
+                                        ],
+                                        [
+                                            150.765373192,
+                                            -33.908501912
+                                        ],
+                                        [
+                                            150.765301808,
+                                            -33.908727961
+                                        ],
+                                        [
+                                            150.765408884,
+                                            -33.908965907
+                                        ],
+                                        [
+                                            150.765587343,
+                                            -33.909120571
+                                        ],
+                                        [
+                                            150.765480268,
+                                            -33.909477491
+                                        ],
+                                        [
+                                            150.76520663,
+                                            -33.909620258
+                                        ],
+                                        [
+                                            150.764980581,
+                                            -33.9097154359999
+                                        ],
+                                        [
+                                            150.76467125,
+                                            -33.909667848
+                                        ],
+                                        [
+                                            150.764338127,
+                                            -33.9095964639999
+                                        ],
+                                        [
+                                            150.764052591,
+                                            -33.908977804
+                                        ],
+                                        [
+                                            150.764159666,
+                                            -33.908870728
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -881,54 +958,6 @@
                 "location": "HUME (M31) HWY, COOLAC 2727",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: HUME (M31) HWY, COOLAC 2727 <br />COUNCIL AREA: Cootamundra-Gundagai <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 May 2024 14:45",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.8179473880001,
-                    -30.457580565999933
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "KALANG RD, KALANG",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/549741",
-                "created": "2024-05-21T04:50:00+10:00",
-                "updated": "2024-05-21T14:50:00+10:00",
-                "location": "798 KALANG RD, KALANG 2454",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 798 KALANG RD, KALANG 2454 <br />COUNCIL AREA: Bellingen <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 May 2024 14:50",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.49040222200006,
-                    -35.270290374999945
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "LAKE CONJOLA ENTRANCE RD, LAKE CONJOLA",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/549738",
-                "created": "2024-05-21T04:59:00+10:00",
-                "updated": "2024-05-21T14:59:00+10:00",
-                "location": "48 LAKE CONJOLA ENTRANCE RD, LAKE CONJOLA 2539",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 48 LAKE CONJOLA ENTRANCE RD, LAKE CONJOLA 2539 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 May 2024 14:59",
                 "title": "incident: other"
             }
         },
