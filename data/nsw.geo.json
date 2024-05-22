@@ -4,10 +4,83 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.47645972500004,
-                    -35.450282923999964
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.47645972500004,
+                            -35.450282923999964
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.47674526,
+                                            -35.450449486
+                                        ],
+                                        [
+                                            149.476685774,
+                                            -35.450663638
+                                        ],
+                                        [
+                                            149.476531109,
+                                            -35.450687433
+                                        ],
+                                        [
+                                            149.476352649,
+                                            -35.450687433
+                                        ],
+                                        [
+                                            149.476150395,
+                                            -35.450687433
+                                        ],
+                                        [
+                                            149.476019524,
+                                            -35.450556562
+                                        ],
+                                        [
+                                            149.475936243,
+                                            -35.4503186169999
+                                        ],
+                                        [
+                                            149.475960038,
+                                            -35.450187746
+                                        ],
+                                        [
+                                            149.476090909,
+                                            -35.449997389
+                                        ],
+                                        [
+                                            149.476233676,
+                                            -35.4498784159999
+                                        ],
+                                        [
+                                            149.476495416,
+                                            -35.4498784159999
+                                        ],
+                                        [
+                                            149.476626287,
+                                            -35.4499616969999
+                                        ],
+                                        [
+                                            149.476733363,
+                                            -35.450163951
+                                        ],
+                                        [
+                                            149.47674526,
+                                            -35.450449486
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -17,59 +90,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/549838",
-                "created": "2024-05-22T08:15:00+10:00",
-                "updated": "2024-05-22T18:15:00+10:00",
+                "created": "2024-05-22T08:37:00+10:00",
+                "updated": "2024-05-22T18:37:00+10:00",
                 "location": "RESCHS CREEK 2217 HOSKINSTOWN RD, ROSSI 2621",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: RESCHS CREEK 2217 HOSKINSTOWN RD, ROSSI 2621 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 May 2024 18:15",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.4073791500001,
-                    -32.87061309799998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "LAKE RD, ELRINGTON",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/549846",
-                "created": "2024-05-22T08:15:00+10:00",
-                "updated": "2024-05-22T18:15:00+10:00",
-                "location": "176 LAKE RD, ELRINGTON 2325",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 176 LAKE RD, ELRINGTON 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 May 2024 18:15",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.610811,
-                    -34.85148299999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Meroo St, Bomaderry",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/549849",
-                "created": "2024-05-22T08:32:00+10:00",
-                "updated": "2024-05-22T18:32:00+10:00",
-                "location": "14 Meroo St, Bomaderry, NSW 2541",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 14 Meroo St, Bomaderry, NSW 2541 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 22 May 2024 18:32",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: RESCHS CREEK 2217 HOSKINSTOWN RD, ROSSI 2621 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 May 2024 18:37",
                 "title": "incident: fire"
             }
         },
@@ -447,30 +472,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.3010864260001,
-                    -32.50724410999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BOMBAH POINT RD",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/549836",
-                "created": "2024-05-22T07:18:00+10:00",
-                "updated": "2024-05-22T17:18:00+10:00",
-                "location": "MYALL SHORES 1414 BOMBAH POINT RD, BOMBAH POINT 2423",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MYALL SHORES 1414 BOMBAH POINT RD, BOMBAH POINT 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 May 2024 17:18",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     146.86187744200004,
                     -29.963735579999934
                 ]
@@ -487,6 +488,30 @@
                 "location": "66 BOURKE ST, BREWARRINA 2839",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 66 BOURKE ST, BREWARRINA 2839 <br />COUNCIL AREA: Brewarrina <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 May 2024 18:25",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.4073791500001,
+                    -32.87061309799998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "LAKE RD, ELRINGTON",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/549846",
+                "created": "2024-05-22T08:35:00+10:00",
+                "updated": "2024-05-22T18:35:00+10:00",
+                "location": "176 LAKE RD, ELRINGTON 2325",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 176 LAKE RD, ELRINGTON 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 May 2024 18:35",
                 "title": "incident: fire"
             }
         },
@@ -591,6 +616,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.9141082760001,
+                    -31.132406234999962
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "STOCKMANS WAY, HILLVUE",
+                "category": "fire",
+                "subcategory": "car fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/549851",
+                "created": "2024-05-22T08:34:00+10:00",
+                "updated": "2024-05-22T18:34:00+10:00",
+                "location": "STOCKMANS WAY, HILLVUE 2340",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: STOCKMANS WAY, HILLVUE 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 May 2024 18:34",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.49839782800007,
                     -33.33855056799996
                 ]
@@ -608,30 +657,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 10 THE ENTRANCE RD, THE ENTRANCE 2261 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 May 2024 18:28",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.54176330600012,
-                    -33.36861419599995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "WILLOTT CL, EGLINTON",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/549850",
-                "created": "2024-05-22T08:19:00+10:00",
-                "updated": "2024-05-22T18:19:00+10:00",
-                "location": "5 WILLOTT CL, EGLINTON 2795",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5 WILLOTT CL, EGLINTON 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 May 2024 18:19",
-                "title": "incident: other"
             }
         },
         {
