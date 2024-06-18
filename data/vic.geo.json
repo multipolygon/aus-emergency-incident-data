@@ -1150,23 +1150,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2024-06-19T06:42:00+10:00",
-                "updated": "2024-06-19T07:04:00+10:00",
-                "id": "ESTA:240616692",
-                "location": "Seaford",
+                "sourceTitle": "Warrak Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2024-06-19T07:16:00+10:00",
+                "updated": "2024-06-19T07:16:00+10:00",
+                "id": "ESTA:240616703",
+                "location": "Warrak Rd, Ararat",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.15940168473114,
-                    -38.105279610929436
+                    142.98254718150977,
+                    -37.275163038051126
                 ]
             }
         },
@@ -1176,9 +1176,9 @@
                 "sourceTitle": "Glenelg Hwy",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2024-06-19T06:55:00+10:00",
-                "updated": "2024-06-19T07:05:00+10:00",
+                "updated": "2024-06-19T07:20:00+10:00",
                 "id": "ESTA:240616697",
                 "location": "Glenelg Hwy, Hamilton",
                 "size": "Small",
@@ -1190,6 +1190,50 @@
                 "coordinates": [
                     141.97099388880784,
                     -37.718108767481056
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "St Albans",
+                "category": "fire",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2024-06-19T07:19:53+10:00",
+                "updated": "2024-06-19T07:22:11+10:00",
+                "id": "ESTA:240616706",
+                "location": "Biggs St, St Albans",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.80468906287192,
+                    -37.737291184190674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Federation Way, Daysdale",
+                "category": "transport",
+                "subcategory": "motor vehicle accident",
+                "status": "out of control",
+                "created": "2024-06-19T07:00:00+10:00",
+                "updated": "2024-06-19T07:00:00+10:00",
+                "id": "2024-06-19T07:00:00.0000000:553982",
+                "location": "Federation Way, Daysdale 2646",
+                "title": "incident: transport"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.314819336,
+                    -35.6528053289999
                 ]
             }
         },
@@ -80294,37 +80338,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Northern Hwy",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2024-06-19T06:31:00+10:00",
-                "updated": "2024-06-19T06:31:00+10:00",
-                "id": "ESTA:240616688",
-                "location": "Northern Hwy, Kilmore",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94880620341092,
-                    -37.28631305111535
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Nepean Hwy",
+                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2024-06-19T06:52:00+10:00",
-                "updated": "2024-06-19T06:52:00+10:00",
-                "id": "ESTA:240616695",
-                "location": "Nepean Hwy, Tuerong",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2024-06-19T06:42:00+10:00",
+                "updated": "2024-06-19T07:04:00+10:00",
+                "id": "ESTA:240616692",
+                "location": "Seaford",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -80332,8 +80353,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    145.15940168473114,
+                    -38.105279610929436
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nepean Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-06-19T06:52:00+10:00",
+                "updated": "2024-06-19T07:14:00+10:00",
+                "id": "ESTA:240616695",
+                "location": "Nepean Hwy, Tuerong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     145.0314900371149,
                     -38.30397788832061
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Northern Hwy",
+                "category": "other",
+                "subcategory": "other",
+                "status": "not yet under control",
+                "created": "2024-06-19T06:31:00+10:00",
+                "updated": "2024-06-19T06:31:00+10:00",
+                "id": "ESTA:240616688",
+                "location": "Northern Hwy, Kilmore",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94880620341092,
+                    -37.28631305111535
                 ]
             }
         }
