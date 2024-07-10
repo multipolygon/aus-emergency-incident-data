@@ -1387,36 +1387,59 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "St James Av",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2024-07-11T03:09:00+10:00",
+                "updated": "2024-07-11T05:40:00+10:00",
+                "id": "ESTA:240708583",
+                "location": "St James Av, Montrose",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.35506576239683,
+                    -37.8077658576928
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2024-07-11T05:23:00+10:00",
-                "updated": "2024-07-11T05:27:00+10:00",
-                "id": "ESTA:240750437",
-                "location": "Rutherglen",
+                "created": "2024-07-11T05:41:00+10:00",
+                "updated": "2024-07-11T05:41:00+10:00",
+                "id": "ESTA:240750438",
+                "location": "Linton",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.51868937648834,
-                    -36.015592418589556
+                    143.57052524124737,
+                    -37.671721687046016
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Springvale Rd",
+                "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2024-07-11T04:31:00+10:00",
-                "updated": "2024-07-11T04:44:00+10:00",
-                "id": "ESTA:240708594",
-                "location": "Springvale Rd, Springvale",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2024-07-11T05:39:00+10:00",
+                "updated": "2024-07-11T05:39:00+10:00",
+                "id": "ESTA:240708602",
+                "location": "Casterton",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -1424,31 +1447,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.15222727558742,
-                    -37.95386929559933
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Glassford Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-07-11T04:35:00+10:00",
-                "updated": "2024-07-11T05:34:00+10:00",
-                "id": "ESTA:240708595",
-                "location": "Glassford Av, Springvale South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.154157331538,
-                    -37.978150367497726
+                    141.41237643491195,
+                    -37.598768512118326
                 ]
             }
         },
@@ -2484,14 +2484,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "St James Av",
+                "sourceTitle": "Springvale Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2024-07-11T03:09:00+10:00",
-                "updated": "2024-07-11T03:09:00+10:00",
-                "id": "ESTA:240708583",
-                "location": "St James Av, Montrose",
+                "status": "under control",
+                "created": "2024-07-11T04:31:00+10:00",
+                "updated": "2024-07-11T04:44:00+10:00",
+                "id": "ESTA:240708594",
+                "location": "Springvale Rd, Springvale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2499,8 +2499,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.35506576239683,
-                    -37.8077658576928
+                    145.15222727558742,
+                    -37.95386929559933
                 ]
             }
         },
@@ -2524,6 +2524,51 @@
                 "coordinates": [
                     144.56230493897544,
                     -38.21637366505939
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glassford Av",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-07-11T04:35:00+10:00",
+                "updated": "2024-07-11T05:34:00+10:00",
+                "id": "ESTA:240708595",
+                "location": "Glassford Av, Springvale South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.154157331538,
+                    -37.978150367497726
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
+                "created": "2024-07-11T05:23:00+10:00",
+                "updated": "2024-07-11T05:37:00+10:00",
+                "id": "ESTA:240750437",
+                "location": "Rutherglen",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.51868937648834,
+                    -36.015592418589556
                 ]
             }
         }
