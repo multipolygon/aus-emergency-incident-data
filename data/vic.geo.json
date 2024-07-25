@@ -3215,22 +3215,111 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Macarthur",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2024-07-25T14:31:00+10:00",
+                "updated": "2024-07-25T15:00:00+10:00",
+                "id": "ESTA:240752362",
+                "location": "Rosebud",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.93050354154738,
+                    -38.38633877489133
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Preston",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2024-07-24T17:08:28+10:00",
-                "updated": "2024-07-25T14:47:01+10:00",
-                "id": "ESTA:240715991",
-                "location": "Andrews Rd, Macarthur",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2024-07-25T14:57:12+10:00",
+                "updated": "2024-07-25T15:01:28+10:00",
+                "id": "ESTA:240716413",
+                "location": "Preston",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    141.85900578682973,
-                    -38.00009822692821
+                    145.00387298875575,
+                    -37.73878894443743
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Strathdale",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2024-07-25T14:55:26+10:00",
+                "updated": "2024-07-25T15:07:04+10:00",
+                "id": "ESTA:240716411",
+                "location": "Sibley Pl, Strathdale",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.311603466402,
+                    -36.76312186865923
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Campbellfield",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2024-07-25T14:59:09+10:00",
+                "updated": "2024-07-25T15:08:22+10:00",
+                "id": "ESTA:240716414",
+                "location": "Stewart Gr, Campbellfield",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9539970749044,
+                    -37.66950133037786
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2024-07-25T15:07:00+10:00",
+                "updated": "2024-07-25T15:07:00+10:00",
+                "id": "ESTA:240716416",
+                "location": "Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2162580798054,
+                    -37.98305598120442
                 ]
             }
         },
@@ -6890,6 +6979,7 @@
             }
         },
         {
+            "type": "Feature",
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Yallaroi Rd, Moonbah",
@@ -6902,12 +6992,59 @@
                 "location": "64 Yallaroi Rd, Moonbah 2627",
                 "title": "incident: fire"
             },
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.561004639,
-                    -36.5299224849999
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    148.5612,
+                                    -36.5283
+                                ],
+                                [
+                                    148.5624,
+                                    -36.5283
+                                ],
+                                [
+                                    148.5628,
+                                    -36.5287
+                                ],
+                                [
+                                    148.5624,
+                                    -36.5292
+                                ],
+                                [
+                                    148.5621,
+                                    -36.5291
+                                ],
+                                [
+                                    148.5617,
+                                    -36.5294
+                                ],
+                                [
+                                    148.5613,
+                                    -36.5292
+                                ],
+                                [
+                                    148.5611,
+                                    -36.5284
+                                ],
+                                [
+                                    148.5612,
+                                    -36.5283
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.559237065014,
+                            -36.5299087882495
+                        ]
+                    }
                 ]
             }
         },
@@ -6960,29 +7097,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-07-25T11:25:00+10:00",
-                "updated": "2024-07-25T13:49:00+10:00",
-                "id": "ESTA:240716316",
-                "location": "Hopetoun",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.36437965120132,
-                    -35.7292408728422
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Lagarna Dr",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -7006,6 +7120,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Holloway Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2024-07-25T14:52:00+10:00",
+                "updated": "2024-07-25T14:52:00+10:00",
+                "id": "ESTA:240716409",
+                "location": "Holloway Rd, Croydon North",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.29176581580575,
+                    -37.7632005069256
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
@@ -7022,28 +7159,6 @@
                 "coordinates": [
                     145.1241628047206,
                     -37.790201577642165
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "on scene",
-                "created": "2024-07-25T12:52:00+10:00",
-                "updated": "2024-07-25T13:22:00+10:00",
-                "id": "ESTA:240752357",
-                "location": "Warragul",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.94862769268371,
-                    -38.15682070934553
                 ]
             }
         },
@@ -7076,28 +7191,6 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2024-07-25T14:31:00+10:00",
-                "updated": "2024-07-25T14:37:00+10:00",
-                "id": "ESTA:240752362",
-                "location": "Rosebud",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.93050354154738,
-                    -38.38633877489133
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
                 "created": "2024-07-25T14:24:00+10:00",
                 "updated": "2024-07-25T14:47:00+10:00",
                 "id": "ESTA:240752361",
@@ -7110,6 +7203,28 @@
                 "coordinates": [
                     145.5468526542767,
                     -37.97275394958307
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2024-07-25T14:54:00+10:00",
+                "updated": "2024-07-25T15:04:00+10:00",
+                "id": "ESTA:240752363",
+                "location": "Glen Waverley",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16448921904993,
+                    -37.86444701120558
                 ]
             }
         }
