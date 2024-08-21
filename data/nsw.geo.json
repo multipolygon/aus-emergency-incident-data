@@ -4,10 +4,135 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.75088500900006,
-                    -29.97778892499997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.75088500900006,
+                            -29.97778892499997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.746184839,
+                                            -29.972939454
+                                        ],
+                                        [
+                                            152.746375196,
+                                            -29.972677712
+                                        ],
+                                        [
+                                            152.746851088,
+                                            -29.972653919
+                                        ],
+                                        [
+                                            152.747517337,
+                                            -29.972606329
+                                        ],
+                                        [
+                                            152.748112203,
+                                            -29.972606329
+                                        ],
+                                        [
+                                            152.748778452,
+                                            -29.972796686
+                                        ],
+                                        [
+                                            152.749063987,
+                                            -29.973177399
+                                        ],
+                                        [
+                                            152.749301933,
+                                            -29.973605703
+                                        ],
+                                        [
+                                            152.74923055,
+                                            -29.973700881
+                                        ],
+                                        [
+                                            152.748826041,
+                                            -29.97374847
+                                        ],
+                                        [
+                                            152.748469123,
+                                            -29.974034005
+                                        ],
+                                        [
+                                            152.748350149,
+                                            -29.97441472
+                                        ],
+                                        [
+                                            152.748516711,
+                                            -29.974866817
+                                        ],
+                                        [
+                                            152.748588095,
+                                            -29.9751285569999
+                                        ],
+                                        [
+                                            152.748730863,
+                                            -29.975580656
+                                        ],
+                                        [
+                                            152.748778452,
+                                            -29.975866191
+                                        ],
+                                        [
+                                            152.748516711,
+                                            -29.9760803419999
+                                        ],
+                                        [
+                                            152.748183587,
+                                            -29.975652039
+                                        ],
+                                        [
+                                            152.747802873,
+                                            -29.9751047619999
+                                        ],
+                                        [
+                                            152.747279392,
+                                            -29.974652665
+                                        ],
+                                        [
+                                            152.746946267,
+                                            -29.9744623079999
+                                        ],
+                                        [
+                                            152.746613143,
+                                            -29.974557487
+                                        ],
+                                        [
+                                            152.746541758,
+                                            -29.9744623079999
+                                        ],
+                                        [
+                                            152.746541758,
+                                            -29.974271952
+                                        ],
+                                        [
+                                            152.746708321,
+                                            -29.973843648
+                                        ],
+                                        [
+                                            152.746184839,
+                                            -29.973106016
+                                        ],
+                                        [
+                                            152.746184839,
+                                            -29.972939454
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -17,11 +142,11 @@
                 "subcategory": "grass fire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/562007",
-                "created": "2024-08-21T02:45:00+10:00",
-                "updated": "2024-08-21T12:45:00+10:00",
+                "created": "2024-08-21T03:40:00+10:00",
+                "updated": "2024-08-21T13:40:00+10:00",
                 "location": "204 COALMINE RD, NYMBOIDA 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 204 COALMINE RD, NYMBOIDA 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Aug 2024 12:45",
+                "size": 6,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 204 COALMINE RD, NYMBOIDA 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Aug 2024 13:40",
                 "title": "incident: fire"
             }
         },
@@ -143,30 +268,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Planned Burn <br />LOCATION: ROCK ABBEY RD, URALLA 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Aug 2024 08:55",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.75692749000007,
-                    -33.711769103999984
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "EIGHTH AV, LLANDILO",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/562011",
-                "created": "2024-08-21T03:17:00+10:00",
-                "updated": "2024-08-21T13:17:00+10:00",
-                "location": "279 EIGHTH AV, LLANDILO 2747",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 279 EIGHTH AV, LLANDILO 2747 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Aug 2024 13:17",
-                "title": "incident: other"
             }
         },
         {
