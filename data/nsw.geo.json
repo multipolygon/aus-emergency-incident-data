@@ -39,13 +39,13 @@
                 "sourceTitle": "BLIND RD, NELSON",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/563496",
-                "created": "2024-08-26T03:52:00+10:00",
-                "updated": "2024-08-26T13:52:00+10:00",
+                "created": "2024-08-26T04:14:00+10:00",
+                "updated": "2024-08-26T14:14:00+10:00",
                 "location": "9 BLIND RD, NELSON 2765",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 9 BLIND RD, NELSON 2765 <br />COUNCIL AREA: The Hills <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2024 13:52",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 9 BLIND RD, NELSON 2765 <br />COUNCIL AREA: The Hills <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2024 14:14",
                 "title": "incident: fire"
             }
         },
@@ -100,10 +100,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.01933288500004,
-                    -28.653511046999938
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.01933288500004,
+                            -28.653511046999938
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.020741608,
+                                            -28.650358137
+                                        ],
+                                        [
+                                            153.022264463,
+                                            -28.6506436729999
+                                        ],
+                                        [
+                                            153.023370913,
+                                            -28.6527851879999
+                                        ],
+                                        [
+                                            153.023216247,
+                                            -28.656056947
+                                        ],
+                                        [
+                                            153.021788571,
+                                            -28.656782682
+                                        ],
+                                        [
+                                            153.019980181,
+                                            -28.656532839
+                                        ],
+                                        [
+                                            153.01874286,
+                                            -28.655355006
+                                        ],
+                                        [
+                                            153.018397839,
+                                            -28.653308669
+                                        ],
+                                        [
+                                            153.019575672,
+                                            -28.6505603919999
+                                        ],
+                                        [
+                                            153.020741608,
+                                            -28.650358137
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -113,11 +170,11 @@
                 "subcategory": "grass fire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/563489",
-                "created": "2024-08-26T03:10:00+10:00",
-                "updated": "2024-08-26T13:10:00+10:00",
+                "created": "2024-08-26T04:16:00+10:00",
+                "updated": "2024-08-26T14:16:00+10:00",
                 "location": "236 RUNNYMEDE RD, KYOGLE 2474",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 236 RUNNYMEDE RD, KYOGLE 2474 <br />COUNCIL AREA: Kyogle <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2024 13:10",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 236 RUNNYMEDE RD, KYOGLE 2474 <br />COUNCIL AREA: Kyogle <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2024 14:16",
                 "title": "incident: fire"
             }
         },
@@ -366,46 +423,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.7788085940001,
-                    -34.47151565599995
+                    150.44215393000002,
+                    -34.611808776999965
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "SHEAFFES RD, KEMBLA GRANGE",
-                "category": "other",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/563499",
-                "created": "2024-08-26T03:39:00+10:00",
-                "updated": "2024-08-26T13:39:00+10:00",
-                "location": "SHEAFFES RD, KEMBLA GRANGE 2526",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SHEAFFES RD, KEMBLA GRANGE 2526 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2024 13:39",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.97740173300008,
-                    -33.38617324799998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ST ALBANS RD, WISEMANS FERRY",
+                "sourceTitle": "NOWRA RD, FITZROY FALLS",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/563497",
-                "created": "2024-08-26T03:31:00+10:00",
-                "updated": "2024-08-26T13:31:00+10:00",
-                "location": "ST ALBANS RD, WISEMANS FERRY 2775",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/563500",
+                "created": "2024-08-26T04:14:00+10:00",
+                "updated": "2024-08-26T14:14:00+10:00",
+                "location": "NOWRA RD, FITZROY FALLS 2577",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ST ALBANS RD, WISEMANS FERRY 2775 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2024 13:31",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NOWRA RD, FITZROY FALLS 2577 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Aug 2024 14:14",
                 "title": "incident: other"
             }
         },
