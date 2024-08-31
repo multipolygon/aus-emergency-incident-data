@@ -391,11 +391,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/563764",
-                "created": "2024-08-31T01:17:00+10:00",
-                "updated": "2024-08-31T11:17:00+10:00",
+                "created": "2024-08-31T02:52:00+10:00",
+                "updated": "2024-08-31T12:52:00+10:00",
                 "location": "458 BOWMAN RIVER RD, BOWMAN 2422",
                 "size": 44,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 458 BOWMAN RIVER RD, BOWMAN 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 44 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 11:17",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 458 BOWMAN RIVER RD, BOWMAN 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 44 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:52",
                 "title": "incident: fire"
             }
         },
@@ -575,10 +575,111 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.028839112,
-                    -29.40564346399998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.028839112,
+                            -29.40564346399998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.999664362,
+                                            -29.4339692579999
+                                        ],
+                                        [
+                                            152.000449583,
+                                            -29.433897874
+                                        ],
+                                        [
+                                            152.002948018,
+                                            -29.433421981
+                                        ],
+                                        [
+                                            152.003923597,
+                                            -29.433659927
+                                        ],
+                                        [
+                                            152.004470872,
+                                            -29.432541581
+                                        ],
+                                        [
+                                            152.007373815,
+                                            -29.432256045
+                                        ],
+                                        [
+                                            152.008991849,
+                                            -29.4329698839999
+                                        ],
+                                        [
+                                            152.009943633,
+                                            -29.4339930519999
+                                        ],
+                                        [
+                                            152.01013399,
+                                            -29.435040015
+                                        ],
+                                        [
+                                            152.009705686,
+                                            -29.436634253
+                                        ],
+                                        [
+                                            152.008420777,
+                                            -29.437252913
+                                        ],
+                                        [
+                                            152.006826539,
+                                            -29.437014968
+                                        ],
+                                        [
+                                            152.004423284,
+                                            -29.436610459
+                                        ],
+                                        [
+                                            152.00342391,
+                                            -29.436658048
+                                        ],
+                                        [
+                                            152.002353152,
+                                            -29.43682461
+                                        ],
+                                        [
+                                            152.001924849,
+                                            -29.436848405
+                                        ],
+                                        [
+                                            152.000663735,
+                                            -29.4368959949999
+                                        ],
+                                        [
+                                            151.999521594,
+                                            -29.4367294319999
+                                        ],
+                                        [
+                                            151.999188468,
+                                            -29.435991799
+                                        ],
+                                        [
+                                            151.99883155,
+                                            -29.43532555
+                                        ],
+                                        [
+                                            151.999664362,
+                                            -29.4339692579999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -593,30 +694,6 @@
                 "location": "COXS RD, CAPOOMPETA 2371",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: COXS RD, CAPOOMPETA 2371 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 11:56",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.99168396000005,
-                    -29.926309585999945
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "CURLEW DR, LANITZA",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564329",
-                "created": "2024-08-31T02:26:00+10:00",
-                "updated": "2024-08-31T12:26:00+10:00",
-                "location": "17 CURLEW DR, LANITZA 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 17 CURLEW DR, LANITZA 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:26",
                 "title": "incident: fire"
             }
         },
@@ -926,6 +1003,30 @@
                 "location": "48 GREENAWAY LANE, OXLEY ISLAND 2430",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 48 GREENAWAY LANE, OXLEY ISLAND 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 11:12",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.73500061100003,
+                    -31.301956176999965
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GUM SCRUB RD, GUM SCRUB",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564344",
+                "created": "2024-08-31T03:05:00+10:00",
+                "updated": "2024-08-31T13:05:00+10:00",
+                "location": "60 GUM SCRUB RD, GUM SCRUB 2441",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 60 GUM SCRUB RD, GUM SCRUB 2441 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 13:05",
                 "title": "incident: fire"
             }
         },
@@ -3456,13 +3557,37 @@
                 "sourceTitle": "UPPER MONGOGARIE RD, UPPER MONGOGARIE",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/563989",
-                "created": "2024-08-30T10:19:00+10:00",
-                "updated": "2024-08-30T20:19:00+10:00",
+                "created": "2024-08-31T01:09:00+10:00",
+                "updated": "2024-08-31T11:09:00+10:00",
                 "location": "2050 UPPER MONGOGARIE RD, UPPER MONGOGARIE 2470",
                 "size": 72,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2050 UPPER MONGOGARIE RD, UPPER MONGOGARIE 2470 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 72 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 30 Aug 2024 20:19",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2050 UPPER MONGOGARIE RD, UPPER MONGOGARIE 2470 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 72 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 11:09",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.13305664000006,
+                    -32.19981765799997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "UPPER MYALL RD, WARRANULLA",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564340",
+                "created": "2024-08-31T02:57:00+10:00",
+                "updated": "2024-08-31T12:57:00+10:00",
+                "location": "UPPER MYALL RD, WARRANULLA 2423",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: UPPER MYALL RD, WARRANULLA 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:57",
                 "title": "incident: fire"
             }
         },
@@ -4299,11 +4424,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564149",
-                "created": "2024-08-30T14:47:00+10:00",
-                "updated": "2024-08-31T00:47:00+10:00",
+                "created": "2024-08-31T03:10:00+10:00",
+                "updated": "2024-08-31T13:10:00+10:00",
                 "location": "1464 BYLONG VALLEY WAY, KANDOS 2848",
-                "size": 0,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 1464 BYLONG VALLEY WAY, KANDOS 2848 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 00:47",
+                "size": 14,
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 1464 BYLONG VALLEY WAY, KANDOS 2848 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 14 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 13:10",
                 "title": "incident: fire"
             }
         },
@@ -4347,11 +4472,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564301",
-                "created": "2024-08-30T22:53:00+10:00",
-                "updated": "2024-08-31T08:53:00+10:00",
+                "created": "2024-08-31T03:02:00+10:00",
+                "updated": "2024-08-31T13:02:00+10:00",
                 "location": "419 EAST COONAMBLE RD, GILGANDRA 2827",
-                "size": 0,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 419 EAST COONAMBLE RD, GILGANDRA 2827 <br />COUNCIL AREA: Gilgandra <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 08:53",
+                "size": 20,
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 419 EAST COONAMBLE RD, GILGANDRA 2827 <br />COUNCIL AREA: Gilgandra <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 13:02",
                 "title": "incident: fire"
             }
         },
@@ -5968,12 +6093,12 @@
                 "category": "fire",
                 "subcategory": "hazard reduction",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564300",
-                "created": "2024-08-31T02:44:00+10:00",
-                "updated": "2024-08-31T12:44:00+10:00",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564304",
+                "created": "2024-08-31T02:54:00+10:00",
+                "updated": "2024-08-31T12:54:00+10:00",
                 "location": "658 Maitland Road, Cessnock",
                 "size": 0,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 658 Maitland Road, Cessnock <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:44",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 658 Maitland Road, Cessnock <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:54",
                 "title": "incident: fire"
             }
         },
@@ -5992,12 +6117,12 @@
                 "category": "fire",
                 "subcategory": "hazard reduction",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564304",
-                "created": "2024-08-31T01:43:00+10:00",
-                "updated": "2024-08-31T11:43:00+10:00",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564300",
+                "created": "2024-08-31T02:44:00+10:00",
+                "updated": "2024-08-31T12:44:00+10:00",
                 "location": "658 Maitland Road, Cessnock",
                 "size": 0,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 658 Maitland Road, Cessnock <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 11:43",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 658 Maitland Road, Cessnock <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:44",
                 "title": "incident: fire"
             }
         },
@@ -6171,30 +6296,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.53753662100007,
-                    -29.58368682899993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Pile Burn - 42 Bingara Street, Warialda Rail",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564212",
-                "created": "2024-08-31T02:09:00+10:00",
-                "updated": "2024-08-31T12:09:00+10:00",
-                "location": "80 BINGARA ST, WARIALDA RAIL 2402",
-                "size": 1,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 80 BINGARA ST, WARIALDA RAIL 2402 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:09",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.7711181640001,
                     -32.589504241999975
                 ]
@@ -6206,11 +6307,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564303",
-                "created": "2024-08-31T02:03:00+10:00",
-                "updated": "2024-08-31T12:03:00+10:00",
+                "created": "2024-08-31T03:04:00+10:00",
+                "updated": "2024-08-31T13:04:00+10:00",
                 "location": "39 Queen Street, Clarence Town",
                 "size": 0,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 39 Queen Street, Clarence Town <br />COUNCIL AREA: Dungog <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:03",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 39 Queen Street, Clarence Town <br />COUNCIL AREA: Dungog <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 13:04",
                 "title": "incident: fire"
             }
         },
@@ -6384,30 +6485,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.4361572260001,
-                    -33.285324095999954
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BILLYWILLINGA RD, BILLYWILLINGA",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564333",
-                "created": "2024-08-31T02:26:00+10:00",
-                "updated": "2024-08-31T12:26:00+10:00",
-                "location": "BILLYWILLINGA RD, BILLYWILLINGA 2795",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BILLYWILLINGA RD, BILLYWILLINGA 2795 <br />COUNCIL AREA: Bathurst <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.1296997070001,
                     -35.81113433899998
                 ]
@@ -6424,30 +6501,6 @@
                 "location": "3 Bimbimbie Road, Jeremadra",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3 Bimbimbie Road, Jeremadra <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 08:11",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.59620666500007,
-                    -35.12073135399993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BUNGENDORE RD, TARAGO",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564332",
-                "created": "2024-08-31T02:26:00+10:00",
-                "updated": "2024-08-31T12:26:00+10:00",
-                "location": "2287 BUNGENDORE RD, TARAGO 2580",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2287 BUNGENDORE RD, TARAGO 2580 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:26",
                 "title": "incident: other"
             }
         },
@@ -6504,22 +6557,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.5107879640001,
-                    -31.875503539999954
+                    153.42996215800008,
+                    -28.67823219299993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "FARMVIEW DR, CUNDLETOWN",
+                "sourceTitle": "ELLIE VIEW, EUREKA",
                 "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564315",
-                "created": "2024-08-31T02:45:00+10:00",
-                "updated": "2024-08-31T12:45:00+10:00",
-                "location": "FARMVIEW DR, CUNDLETOWN 2430",
-                "size": 1,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: FARMVIEW DR, CUNDLETOWN 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:45",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564341",
+                "created": "2024-08-31T03:00:00+10:00",
+                "updated": "2024-08-31T13:00:00+10:00",
+                "location": "ELLIE VIEW, EUREKA 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ELLIE VIEW, EUREKA 2480 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 13:00",
                 "title": "incident: fire"
             }
         },
@@ -6624,6 +6677,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.72257995600012,
+                    -33.72910308899998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "HORTSMANN CCT, JORDAN SPRINGS",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564346",
+                "created": "2024-08-31T03:12:00+10:00",
+                "updated": "2024-08-31T13:12:00+10:00",
+                "location": "15 HORTSMANN CCT, JORDAN SPRINGS 2747",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 15 HORTSMANN CCT, JORDAN SPRINGS 2747 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 13:12",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.0465087890001,
                     -30.281858444999955
                 ]
@@ -6672,23 +6749,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.88619995200008,
-                    -34.32157134999994
+                    148.5362091070001,
+                    -32.56597900299994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "MOUNT OUSLEY RD (NORTHBOUND)",
-                "category": "fire",
-                "subcategory": "truck fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564331",
-                "created": "2024-08-31T02:43:00+10:00",
-                "updated": "2024-08-31T12:43:00+10:00",
-                "location": "ET834 M1 MOUNT OUSLEY RD (NORTHBOUND), CATARACT 2560",
+                "sourceTitle": "OBLEY RD, WAMBANGALANG",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564343",
+                "created": "2024-08-31T03:01:00+10:00",
+                "updated": "2024-08-31T13:01:00+10:00",
+                "location": "OBLEY RD, WAMBANGALANG 2830",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ET834 M1 MOUNT OUSLEY RD (NORTHBOUND), CATARACT 2560 <br />COUNCIL AREA: Wollongong <br />STATUS: Under control <br />TYPE: Truck Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 12:43",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OBLEY RD, WAMBANGALANG 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 13:01",
+                "title": "incident: other"
             }
         },
         {
@@ -6744,6 +6821,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.7910156250001,
+                    -34.55635070799997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PRINCES HWY, ALBION PARK RAIL",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564345",
+                "created": "2024-08-31T03:10:00+10:00",
+                "updated": "2024-08-31T13:10:00+10:00",
+                "location": "94-102 PRINCES HWY, ALBION PARK RAIL 2527",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 94-102 PRINCES HWY, ALBION PARK RAIL 2527 <br />COUNCIL AREA: Shellharbour <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 13:10",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.19714355500003,
                     -30.021080017999964
                 ]
@@ -6761,6 +6862,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 197 RED ROCK RD, CORINDI BEACH 2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 11:08",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.57266235300006,
+                    -34.254585265999935
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "REMEMBRANCE DVWY",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564342",
+                "created": "2024-08-31T03:00:00+10:00",
+                "updated": "2024-08-31T13:00:00+10:00",
+                "location": "MOBIL SERVICE STATION 3030 REMEMBRANCE DVWY, BARGO 2574",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MOBIL SERVICE STATION 3030 REMEMBRANCE DVWY, BARGO 2574 <br />COUNCIL AREA: Wollondilly <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Aug 2024 13:00",
+                "title": "incident: other"
             }
         },
         {
