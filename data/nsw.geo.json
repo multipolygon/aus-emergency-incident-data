@@ -212,10 +212,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.83532714900002,
-                    -34.08637237599993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.83532714900002,
+                            -34.08637237599993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.834523678,
+                                            -34.087220271
+                                        ],
+                                        [
+                                            150.834571267,
+                                            -34.087125092
+                                        ],
+                                        [
+                                            150.834666445,
+                                            -34.0871012969999
+                                        ],
+                                        [
+                                            150.834714035,
+                                            -34.087255963
+                                        ],
+                                        [
+                                            150.834928186,
+                                            -34.087220271
+                                        ],
+                                        [
+                                            150.835118542,
+                                            -34.087422525
+                                        ],
+                                        [
+                                            150.834904392,
+                                            -34.087719958
+                                        ],
+                                        [
+                                            150.83464265,
+                                            -34.0876009839999
+                                        ],
+                                        [
+                                            150.834523678,
+                                            -34.087220271
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -419,6 +472,137 @@
                                         [
                                             152.154910716,
                                             -28.437668862
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.142878371,
+                                            -28.444868732
+                                        ],
+                                        [
+                                            152.171127335,
+                                            -28.434475246
+                                        ],
+                                        [
+                                            152.171117817,
+                                            -28.4344609679999
+                                        ],
+                                        [
+                                            152.171165406,
+                                            -28.434437174
+                                        ],
+                                        [
+                                            152.171403352,
+                                            -28.436197975
+                                        ],
+                                        [
+                                            152.171522325,
+                                            -28.4372687329999
+                                        ],
+                                        [
+                                            152.169190453,
+                                            -28.4382919
+                                        ],
+                                        [
+                                            152.169095274,
+                                            -28.439767166
+                                        ],
+                                        [
+                                            152.169361773,
+                                            -28.4413376109999
+                                        ],
+                                        [
+                                            152.169100033,
+                                            -28.4428604669999
+                                        ],
+                                        [
+                                            152.167481999,
+                                            -28.4437646609999
+                                        ],
+                                        [
+                                            152.165316689,
+                                            -28.4450733649999
+                                        ],
+                                        [
+                                            152.164483878,
+                                            -28.4457158189999
+                                        ],
+                                        [
+                                            152.163817629,
+                                            -28.446191711
+                                        ],
+                                        [
+                                            152.162627899,
+                                            -28.4469531399999
+                                        ],
+                                        [
+                                            152.160081875,
+                                            -28.44783354
+                                        ],
+                                        [
+                                            152.159677366,
+                                            -28.4471910849999
+                                        ],
+                                        [
+                                            152.160224643,
+                                            -28.4464058629999
+                                        ],
+                                        [
+                                            152.161152632,
+                                            -28.4452637219999
+                                        ],
+                                        [
+                                            152.149826399,
+                                            -28.44324118
+                                        ],
+                                        [
+                                            152.149612247,
+                                            -28.4438360459999
+                                        ],
+                                        [
+                                            152.148708051,
+                                            -28.447952513
+                                        ],
+                                        [
+                                            152.148089392,
+                                            -28.4526400509999
+                                        ],
+                                        [
+                                            152.147899035,
+                                            -28.452806613
+                                        ],
+                                        [
+                                            152.147822892,
+                                            -28.452521078
+                                        ],
+                                        [
+                                            152.147561152,
+                                            -28.4517834449999
+                                        ],
+                                        [
+                                            152.147061465,
+                                            -28.4512837579999
+                                        ],
+                                        [
+                                            152.144781939,
+                                            -28.4493659139999
+                                        ],
+                                        [
+                                            152.142878371,
+                                            -28.4477240859999
+                                        ],
+                                        [
+                                            152.143282879,
+                                            -28.446296408
+                                        ],
+                                        [
+                                            152.142878371,
+                                            -28.444868732
                                         ]
                                     ]
                                 ]
@@ -2184,11 +2368,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564674",
-                "created": "2024-09-02T14:38:00+10:00",
-                "updated": "2024-09-03T00:38:00+10:00",
+                "created": "2024-09-02T22:53:00+10:00",
+                "updated": "2024-09-03T08:53:00+10:00",
                 "location": "143 CYPRESS DRIVE, COOKS GAP 2850",
                 "size": 8,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 143 CYPRESS DRIVE, COOKS GAP 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2024 00:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 143 CYPRESS DRIVE, COOKS GAP 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2024 08:53",
                 "title": "incident: fire"
             }
         },
@@ -2755,30 +2939,6 @@
                 "location": "1578 FORBES RIVER RD, FORBES RIVER 2446",
                 "size": 268,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 1578 FORBES RIVER RD, FORBES RIVER 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 268 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Sep 2024 18:37",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.36285400300005,
-                    -32.810581206999984
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "GOVERNMENT RD, CESSNOCK",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564892",
-                "created": "2024-09-02T21:45:00+10:00",
-                "updated": "2024-09-03T07:45:00+10:00",
-                "location": "123 GOVERNMENT RD, CESSNOCK 2325",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 123 GOVERNMENT RD, CESSNOCK 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2024 07:45",
                 "title": "incident: fire"
             }
         },
@@ -3834,13 +3994,13 @@
                 "sourceTitle": "JOBS MOUNTAIN, FIVE DAY CREEK",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564138",
-                "created": "2024-09-02T06:36:00+10:00",
-                "updated": "2024-09-02T16:36:00+10:00",
+                "created": "2024-09-02T22:53:00+10:00",
+                "updated": "2024-09-03T08:53:00+10:00",
                 "location": "NULLA - FIVE DAY STATE FOREST COMARA 2440",
                 "size": 1323,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: NULLA - FIVE DAY STATE FOREST COMARA 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1323 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Sep 2024 16:36",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: NULLA - FIVE DAY STATE FOREST COMARA 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1323 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2024 08:53",
                 "title": "incident: fire"
             }
         },
@@ -5662,6 +5822,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.53541565000012,
+                    -29.100450515999967
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PECKHAMS RD, EWINGAR",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564562",
+                "created": "2024-09-02T06:06:00+10:00",
+                "updated": "2024-09-02T16:06:00+10:00",
+                "location": "284 PECKHAMS RD, EWINGAR 2469",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 284 PECKHAMS RD, EWINGAR 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Sep 2024 16:06",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -5789,30 +5973,6 @@
                 "location": "1226 PECKHAMS RD, EWINGAR 2469",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 1226 PECKHAMS RD, EWINGAR 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Sep 2024 16:37",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.53541565000012,
-                    -29.100450515999967
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "PECKHAMS RD, EWINGAR",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564562",
-                "created": "2024-09-02T06:06:00+10:00",
-                "updated": "2024-09-02T16:06:00+10:00",
-                "location": "284 PECKHAMS RD, EWINGAR 2469",
-                "size": 10,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 284 PECKHAMS RD, EWINGAR 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Sep 2024 16:06",
                 "title": "incident: fire"
             }
         },
@@ -6669,13 +6829,13 @@
                 "sourceTitle": "Pee Dee",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564429",
-                "created": "2024-09-02T06:50:00+10:00",
-                "updated": "2024-09-02T16:50:00+10:00",
+                "created": "2024-09-02T22:47:00+10:00",
+                "updated": "2024-09-03T08:47:00+10:00",
                 "location": "5378 ARMIDALE RD, BELLBROOK 2440",
                 "size": 251,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 5378 ARMIDALE RD, BELLBROOK 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 251 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Sep 2024 16:50",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 5378 ARMIDALE RD, BELLBROOK 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 251 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2024 08:47",
                 "title": "incident: fire"
             }
         },
@@ -8106,6 +8266,69 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.265125949,
+                                            -29.0148677449999
+                                        ],
+                                        [
+                                            152.265304409,
+                                            -29.014939129
+                                        ],
+                                        [
+                                            152.265399587,
+                                            -29.015212767
+                                        ],
+                                        [
+                                            152.265304409,
+                                            -29.0153674319999
+                                        ],
+                                        [
+                                            152.265114052,
+                                            -29.0154269179999
+                                        ],
+                                        [
+                                            152.264864208,
+                                            -29.0153674319999
+                                        ],
+                                        [
+                                            152.264733338,
+                                            -29.015248459
+                                        ],
+                                        [
+                                            152.264733338,
+                                            -29.015117588
+                                        ],
+                                        [
+                                            152.264733338,
+                                            -29.015010514
+                                        ],
+                                        [
+                                            152.264757132,
+                                            -29.014903438
+                                        ],
+                                        [
+                                            152.264828517,
+                                            -29.0148439509999
+                                        ],
+                                        [
+                                            152.2648999,
+                                            -29.0148082589999
+                                        ],
+                                        [
+                                            152.265018874,
+                                            -29.0148201559999
+                                        ],
+                                        [
+                                            152.265125949,
+                                            -29.0148677449999
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -8562,8 +8785,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.49510192900004,
-                    -32.15614318899998
+                    152.4951000000001,
+                    -32.156143199999974
                 ]
             },
             "properties": {
@@ -10807,8 +11030,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.6452016830001,
-                    -31.558717487999957
+                    152.63019561500005,
+                    -31.542260279999937
                 ]
             },
             "properties": {
@@ -12716,30 +12939,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.23063659700006,
-                    -33.42993926999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "PACIFIC HWY, CALGA",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564893",
-                "created": "2024-09-02T22:05:00+10:00",
-                "updated": "2024-09-03T08:05:00+10:00",
-                "location": "PACIFIC HWY, CALGA 2250",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PACIFIC HWY, CALGA 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2024 08:05",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -12838,11 +13037,11 @@
                 "subcategory": "other",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564852",
-                "created": "2024-09-02T08:42:00+10:00",
-                "updated": "2024-09-02T18:42:00+10:00",
+                "created": "2024-09-02T22:57:00+10:00",
+                "updated": "2024-09-03T08:57:00+10:00",
                 "location": "STOCKYARD CREEK RD, COMARA 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: STOCKYARD CREEK RD, COMARA 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Sep 2024 18:42",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: STOCKYARD CREEK RD, COMARA 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 3 Sep 2024 08:57",
                 "title": "incident: fire"
             }
         },
