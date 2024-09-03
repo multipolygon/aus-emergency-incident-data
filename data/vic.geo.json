@@ -1473,14 +1473,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "High St",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2024-09-04T01:09:00+10:00",
+                "updated": "2024-09-04T01:11:00+10:00",
+                "id": "ESTA:240956182",
+                "location": "Mount Martha",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00967607669554,
+                    -38.281189852438345
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mitre Cr",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2024-09-04T00:09:00+10:00",
-                "updated": "2024-09-04T00:09:00+10:00",
-                "id": "ESTA:240902826",
-                "location": "High St, Avoca",
+                "status": "safe",
+                "created": "2024-09-03T23:16:00+10:00",
+                "updated": "2024-09-04T01:14:00+10:00",
+                "id": "ESTA:240902819",
+                "location": "Mitre Cr, Frankston North",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -1488,53 +1510,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.4686691903111,
-                    -37.07231792842566
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Glenroy",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2024-09-04T00:44:00+10:00",
-                "updated": "2024-09-04T00:44:37+10:00",
-                "id": "ESTA:240902831",
-                "location": "Pecham St, Glenroy",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9113133545696,
-                    -37.696295340197956
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Northgate St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2024-09-04T00:06:00+10:00",
-                "updated": "2024-09-04T00:23:00+10:00",
-                "id": "ESTA:240902825",
-                "location": "Northgate St, Mooroopna",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.35669720969213,
-                    -36.389651465234934
+                    145.15863542249232,
+                    -38.11354026124641
                 ]
             }
         },
@@ -2480,6 +2457,28 @@
             }
         },
         {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fullers Rd, Finley",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2024-09-02T19:52:00+10:00",
+                "updated": "2024-09-02T19:52:00+10:00",
+                "id": "2024-09-02T19:52:00.0000000:564530",
+                "location": "Fullers Rd, Finley 2713",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.547714234,
+                    -35.692195893
+                ]
+            }
+        },
+        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -2619,45 +2618,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Fullers Rd, Finley",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2024-09-02T19:52:00+10:00",
-                "updated": "2024-09-02T19:52:00+10:00",
-                "id": "2024-09-02T19:52:00.0000000:564530",
-                "location": "Fullers Rd, Finley 2713",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.547714234,
-                    -35.692195893
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mitre Cr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2024-09-03T23:16:00+10:00",
-                "updated": "2024-09-03T23:35:00+10:00",
-                "id": "ESTA:240902819",
-                "location": "Mitre Cr, Frankston North",
+                "sourceTitle": "Northgate St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2024-09-04T00:06:00+10:00",
+                "updated": "2024-09-04T00:23:00+10:00",
+                "id": "ESTA:240902825",
+                "location": "Northgate St, Mooroopna",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.15863542249232,
-                    -38.11354026124641
+                    145.35669720969213,
+                    -36.389651465234934
                 ]
             }
         },
@@ -2687,264 +2664,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2024-09-01T22:49:00+10:00",
-                "updated": "2024-09-01T23:00:00+10:00",
-                "id": "ESTA:542532",
-                "location": "Darraweit Guim",
-                "title": "incident: tree down"
+                "sourceTitle": "High St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2024-09-04T00:09:00+10:00",
+                "updated": "2024-09-04T00:56:00+10:00",
+                "id": "ESTA:240902826",
+                "location": "High St, Avoca",
+                "size": "Small",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.88534197094097,
-                    -37.38915242428102
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2024-09-02T01:21:00+10:00",
-                "updated": "2024-09-02T01:28:00+10:00",
-                "id": "ESTA:240950603",
-                "location": "Traralgon",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.5434116253131,
-                    -38.19858212081794
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "responding",
-                "created": "2024-09-02T01:20:00+10:00",
-                "updated": "2024-09-02T01:42:00+10:00",
-                "id": "ESTA:240950598",
-                "location": "Darnum",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.02624228543374,
-                    -38.17306322525707
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "responding",
-                "created": "2024-09-02T00:49:00+10:00",
-                "updated": "2024-09-02T02:39:00+10:00",
-                "id": "ESTA:240950524",
-                "location": "Warragul",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.94902836182843,
-                    -38.14242262882842
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "responding",
-                "created": "2024-09-02T01:26:00+10:00",
-                "updated": "2024-09-02T03:06:00+10:00",
-                "id": "ESTA:240950616",
-                "location": "Warragul",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.92848870338102,
-                    -38.14703158539939
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2024-09-02T03:46:00+10:00",
-                "updated": "2024-09-02T03:54:00+10:00",
-                "id": "ESTA:240951013",
-                "location": "Yinnar",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.36536786420652,
-                    -38.33348989369159
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2024-09-02T03:52:00+10:00",
-                "updated": "2024-09-02T03:54:00+10:00",
-                "id": "ESTA:240951036",
-                "location": "Boolarra",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.3070770570764,
-                    -38.36782992760499
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2024-09-02T03:59:00+10:00",
-                "updated": "2024-09-02T04:02:00+10:00",
-                "id": "ESTA:240951066",
-                "location": "Traralgon",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.5485365384841,
-                    -38.191662288539135
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2024-09-02T03:57:00+10:00",
-                "updated": "2024-09-02T04:02:00+10:00",
-                "id": "ESTA:240951054",
-                "location": "Maryvale",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.41285501124668,
-                    -38.172487409997885
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2024-09-02T04:04:00+10:00",
-                "updated": "2024-09-02T04:11:00+10:00",
-                "id": "ESTA:240951088",
-                "location": "Yinnar",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.33325436556856,
-                    -38.315638675492906
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2024-09-02T04:09:00+10:00",
-                "updated": "2024-09-02T04:11:00+10:00",
-                "id": "ESTA:240951117",
-                "location": "Traralgon",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.52418991937333,
-                    -38.19518918697032
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2024-09-02T04:08:00+10:00",
-                "updated": "2024-09-02T04:11:00+10:00",
-                "id": "ESTA:240951112",
-                "location": "Hazelwood North",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.45894719468376,
-                    -38.283039288288386
+                    143.4686691903111,
+                    -37.07231792842566
                 ]
             }
         },
@@ -4793,6 +4529,270 @@
                 "coordinates": [
                     146.26097151788977,
                     -38.642439941465184
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2024-09-01T22:49:00+10:00",
+                "updated": "2024-09-01T23:00:00+10:00",
+                "id": "ESTA:542532",
+                "location": "Darraweit Guim",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.88534197094097,
+                    -37.38915242428102
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2024-09-02T01:21:00+10:00",
+                "updated": "2024-09-02T01:28:00+10:00",
+                "id": "ESTA:240950603",
+                "location": "Traralgon",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.5434116253131,
+                    -38.19858212081794
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "responding",
+                "created": "2024-09-02T01:20:00+10:00",
+                "updated": "2024-09-02T01:42:00+10:00",
+                "id": "ESTA:240950598",
+                "location": "Darnum",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.02624228543374,
+                    -38.17306322525707
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "responding",
+                "created": "2024-09-02T00:49:00+10:00",
+                "updated": "2024-09-02T02:39:00+10:00",
+                "id": "ESTA:240950524",
+                "location": "Warragul",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.94902836182843,
+                    -38.14242262882842
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "responding",
+                "created": "2024-09-02T01:26:00+10:00",
+                "updated": "2024-09-02T03:06:00+10:00",
+                "id": "ESTA:240950616",
+                "location": "Warragul",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.92848870338102,
+                    -38.14703158539939
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2024-09-02T03:46:00+10:00",
+                "updated": "2024-09-02T03:54:00+10:00",
+                "id": "ESTA:240951013",
+                "location": "Yinnar",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.36536786420652,
+                    -38.33348989369159
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2024-09-02T03:52:00+10:00",
+                "updated": "2024-09-02T03:54:00+10:00",
+                "id": "ESTA:240951036",
+                "location": "Boolarra",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.3070770570764,
+                    -38.36782992760499
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2024-09-02T03:59:00+10:00",
+                "updated": "2024-09-02T04:02:00+10:00",
+                "id": "ESTA:240951066",
+                "location": "Traralgon",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.5485365384841,
+                    -38.191662288539135
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2024-09-02T03:57:00+10:00",
+                "updated": "2024-09-02T04:02:00+10:00",
+                "id": "ESTA:240951054",
+                "location": "Maryvale",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.41285501124668,
+                    -38.172487409997885
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2024-09-02T04:04:00+10:00",
+                "updated": "2024-09-02T04:11:00+10:00",
+                "id": "ESTA:240951088",
+                "location": "Yinnar",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.33325436556856,
+                    -38.315638675492906
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2024-09-02T04:09:00+10:00",
+                "updated": "2024-09-02T04:11:00+10:00",
+                "id": "ESTA:240951117",
+                "location": "Traralgon",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.52418991937333,
+                    -38.19518918697032
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2024-09-02T04:08:00+10:00",
+                "updated": "2024-09-02T04:11:00+10:00",
+                "id": "ESTA:240951112",
+                "location": "Hazelwood North",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.45894719468376,
+                    -38.283039288288386
                 ]
             }
         }
