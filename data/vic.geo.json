@@ -512,72 +512,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2024-09-15T09:15:00+10:00",
-                "updated": "2024-09-15T09:22:00+10:00",
-                "id": "ESTA:240957734",
-                "location": "Kialla",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3883345342038,
-                    -36.407119628955165
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2024-09-15T09:16:00+10:00",
-                "updated": "2024-09-15T09:18:00+10:00",
-                "id": "ESTA:240957735",
-                "location": "Templestowe Lower",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1199830873903,
-                    -37.76064759711486
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Templestowe Lower",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2024-09-15T09:18:52+10:00",
-                "updated": "2024-09-15T09:20:53+10:00",
-                "id": "ESTA:240914855",
-                "location": "Ashford St, Templestowe Lower",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.11999377833,
-                    -37.760636439606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Templestowe Lower",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -603,9 +537,9 @@
                 "sourceTitle": "Waldemar St",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2024-09-15T09:20:00+10:00",
-                "updated": "2024-09-15T09:20:00+10:00",
+                "updated": "2024-09-15T09:35:00+10:00",
                 "id": "ESTA:240914857",
                 "location": "Waldemar St, Wendouree",
                 "size": "Small",
@@ -626,7 +560,7 @@
                 "sourceTitle": "Salisbury Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2024-09-15T09:25:00+10:00",
                 "updated": "2024-09-15T09:25:00+10:00",
                 "id": "ESTA:240914869",
@@ -640,6 +574,50 @@
                 "coordinates": [
                     145.41133746824764,
                     -38.00564386681639
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Melbourne",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2024-09-15T09:35:19+10:00",
+                "updated": "2024-09-15T09:35:30+10:00",
+                "id": "ESTA:240914889",
+                "location": "Lonsdale St, Melbourne",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95341557621242,
+                    -37.814494419909195
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
+                "created": "2024-09-15T09:15:00+10:00",
+                "updated": "2024-09-15T09:31:00+10:00",
+                "id": "ESTA:240957734",
+                "location": "Kialla",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3883345342038,
+                    -36.407119628955165
                 ]
             }
         },
@@ -1761,29 +1739,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Boardwalk Bvd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "under control",
-                "created": "2024-09-14T17:55:00+10:00",
-                "updated": "2024-09-14T18:08:00+10:00",
-                "id": "ESTA:240914432",
-                "location": "Boardwalk Bvd, Point Cook",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.72826921496127,
-                    -37.91123711394045
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Baker St",
                 "category": "fire",
                 "subcategory": "other",
@@ -1853,6 +1808,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Boardwalk Bvd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2024-09-14T17:55:00+10:00",
+                "updated": "2024-09-15T09:29:00+10:00",
+                "id": "ESTA:240914432",
+                "location": "Boardwalk Bvd, Point Cook",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.72826921496127,
+                    -37.91123711394045
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
@@ -1878,12 +1856,34 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue vehicle into structure",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2024-09-15T09:19:00+10:00",
-                "updated": "2024-09-15T09:19:00+10:00",
+                "updated": "2024-09-15T09:33:00+10:00",
                 "id": "ESTA:240957736",
                 "location": "Templestowe Lower",
                 "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1199830873903,
+                    -37.76064759711486
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "on scene",
+                "created": "2024-09-15T09:16:00+10:00",
+                "updated": "2024-09-15T09:33:00+10:00",
+                "id": "ESTA:240957735",
+                "location": "Templestowe Lower",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
