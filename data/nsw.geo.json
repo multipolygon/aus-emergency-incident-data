@@ -486,10 +486,83 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.15653991800002,
-                    -33.412296294999976
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.15653991800002,
+                            -33.412296294999976
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.155558724,
+                                            -33.412579971
+                                        ],
+                                        [
+                                            151.156165486,
+                                            -33.4129487879999
+                                        ],
+                                        [
+                                            151.156617584,
+                                            -33.413329501
+                                        ],
+                                        [
+                                            151.156665173,
+                                            -33.413496063
+                                        ],
+                                        [
+                                            151.156593789,
+                                            -33.4135555509999
+                                        ],
+                                        [
+                                            151.156153589,
+                                            -33.4135555509999
+                                        ],
+                                        [
+                                            151.155915642,
+                                            -33.413519858
+                                        ],
+                                        [
+                                            151.155820464,
+                                            -33.4134008849999
+                                        ],
+                                        [
+                                            151.1556658,
+                                            -33.413567448
+                                        ],
+                                        [
+                                            151.155534929,
+                                            -33.413388987
+                                        ],
+                                        [
+                                            151.155630107,
+                                            -33.413210528
+                                        ],
+                                        [
+                                            151.155546826,
+                                            -33.412794123
+                                        ],
+                                        [
+                                            151.155554397,
+                                            -33.412795204
+                                        ],
+                                        [
+                                            151.155558724,
+                                            -33.412579971
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -499,11 +572,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566656",
-                "created": "2024-09-17T09:58:00+10:00",
-                "updated": "2024-09-17T19:58:00+10:00",
+                "created": "2024-09-17T12:04:00+10:00",
+                "updated": "2024-09-17T22:04:00+10:00",
                 "location": "CHARLIES PLACE CARAVAN PK 80 POPRAN RD, LOWER MANGROVE 2250",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: CHARLIES PLACE CARAVAN PK 80 POPRAN RD, LOWER MANGROVE 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Sep 2024 19:58",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: CHARLIES PLACE CARAVAN PK 80 POPRAN RD, LOWER MANGROVE 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Sep 2024 22:04",
                 "title": "incident: fire"
             }
         },
@@ -4774,54 +4847,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.19252014100005,
-                    -33.55875778199993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "(PACIFIC MTWY), COWAN",
-                "category": "fire",
-                "subcategory": "truck fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566683",
-                "created": "2024-09-17T11:37:00+10:00",
-                "updated": "2024-09-17T21:37:00+10:00",
-                "location": "M1 (PACIFIC MTWY), COWAN 2081",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 (PACIFIC MTWY), COWAN 2081 <br />COUNCIL AREA: Hornsby <br />STATUS: Out of control <br />TYPE: Truck Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Sep 2024 21:37",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.60638427700007,
-                    -34.18576812799995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ARGYLE ST, PICTON",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566678",
-                "created": "2024-09-17T11:28:00+10:00",
-                "updated": "2024-09-17T21:28:00+10:00",
-                "location": "ARGYLE ST, PICTON 2571",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ARGYLE ST, PICTON 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Other <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Sep 2024 21:28",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.06561279400012,
                     -32.77118301399997
                 ]
@@ -4831,13 +4856,37 @@
                 "sourceTitle": "AVOCA RD, STUART TOWN",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566677",
-                "created": "2024-09-17T10:22:00+10:00",
-                "updated": "2024-09-17T20:22:00+10:00",
+                "created": "2024-09-17T12:23:00+10:00",
+                "updated": "2024-09-17T22:23:00+10:00",
                 "location": "AVOCA RD, STUART TOWN 2820",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: AVOCA RD, STUART TOWN 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Sep 2024 20:22",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: AVOCA RD, STUART TOWN 2820 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Sep 2024 22:23",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.0566406250001,
+                    -30.00471687299995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GINGIE RD, WALGETT",
+                "category": "fire",
+                "subcategory": "car fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566685",
+                "created": "2024-09-17T12:04:00+10:00",
+                "updated": "2024-09-17T22:04:00+10:00",
+                "location": "GINGIE RD, WALGETT 2832",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GINGIE RD, WALGETT 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Sep 2024 22:04",
                 "title": "incident: fire"
             }
         },
@@ -5027,6 +5076,30 @@
                 "location": "6016-6018 PRINCES HWY, DALMENY 2546",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6016-6018 PRINCES HWY, DALMENY 2546 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Sep 2024 16:10",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.52928161600005,
+                    -34.40271758999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "REDGROUND HEIGHTS RD, LAGGAN",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566684",
+                "created": "2024-09-17T11:58:00+10:00",
+                "updated": "2024-09-17T21:58:00+10:00",
+                "location": "CELTIC GARDENS 2 REDGROUND HEIGHTS RD, LAGGAN 2583",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CELTIC GARDENS 2 REDGROUND HEIGHTS RD, LAGGAN 2583 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 17 Sep 2024 21:58",
                 "title": "incident: fire"
             }
         },
