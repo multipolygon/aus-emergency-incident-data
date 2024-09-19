@@ -261,24 +261,129 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.83416748100012,
-                    -34.09080123899997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.83416748100012,
+                            -34.09080123899997
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.833938936,
+                                            -34.089367603
+                                        ],
+                                        [
+                                            150.834795542,
+                                            -34.0896055499999
+                                        ],
+                                        [
+                                            150.835211948,
+                                            -34.08986729
+                                        ],
+                                        [
+                                            150.835319023,
+                                            -34.090010058
+                                        ],
+                                        [
+                                            150.835473689,
+                                            -34.0901885179999
+                                        ],
+                                        [
+                                            150.835794916,
+                                            -34.090700102
+                                        ],
+                                        [
+                                            150.835794916,
+                                            -34.091199789
+                                        ],
+                                        [
+                                            150.835842505,
+                                            -34.0914377349999
+                                        ],
+                                        [
+                                            150.835771121,
+                                            -34.091568605
+                                        ],
+                                        [
+                                            150.835616456,
+                                            -34.091675681
+                                        ],
+                                        [
+                                            150.835449894,
+                                            -34.0917470649999
+                                        ],
+                                        [
+                                            150.834593288,
+                                            -34.0915448109999
+                                        ],
+                                        [
+                                            150.83431965,
+                                            -34.091009432
+                                        ],
+                                        [
+                                            150.834153087,
+                                            -34.090783383
+                                        ],
+                                        [
+                                            150.834105498,
+                                            -34.090640615
+                                        ],
+                                        [
+                                            150.834034115,
+                                            -34.090390772
+                                        ],
+                                        [
+                                            150.83401032,
+                                            -34.0898197019999
+                                        ],
+                                        [
+                                            150.833915142,
+                                            -34.089593652
+                                        ],
+                                        [
+                                            150.833796168,
+                                            -34.0894627829999
+                                        ],
+                                        [
+                                            150.833819963,
+                                            -34.0894032959999
+                                        ],
+                                        [
+                                            150.833843758,
+                                            -34.0893438099999
+                                        ],
+                                        [
+                                            150.833938936,
+                                            -34.089367603
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "BOONOKE PL, AIRDS",
                 "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
+                "subcategory": "bushfire",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/567850",
-                "created": "2024-09-18T23:14:00+10:00",
-                "updated": "2024-09-19T09:14:00+10:00",
+                "created": "2024-09-19T00:25:00+10:00",
+                "updated": "2024-09-19T10:25:00+10:00",
                 "location": "BOONOKE PL, AIRDS 2560",
-                "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BOONOKE PL, AIRDS 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 09:14",
+                "size": 3,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BOONOKE PL, AIRDS 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:25",
                 "title": "incident: fire"
             }
         },
@@ -287,8 +392,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.8968963630001,
-                    -37.05351257399997
+                    149.8958559020001,
+                    -37.053656444999945
                 ]
             },
             "properties": {
@@ -523,6 +628,41 @@
                                 "coordinates": [
                                     [
                                         [
+                                            150.664807676,
+                                            -33.006619034
+                                        ],
+                                        [
+                                            150.664417446,
+                                            -33.0065999989999
+                                        ],
+                                        [
+                                            150.664415065,
+                                            -33.006595239
+                                        ],
+                                        [
+                                            150.66439127,
+                                            -33.0065833419999
+                                        ],
+                                        [
+                                            150.664319887,
+                                            -33.0063572939999
+                                        ],
+                                        [
+                                            150.664902855,
+                                            -33.006452472
+                                        ],
+                                        [
+                                            150.664807676,
+                                            -33.006619034
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             150.66269649,
                                             -33.004024859
                                         ],
@@ -604,41 +744,6 @@
                                         ]
                                     ]
                                 ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            150.664807676,
-                                            -33.006619034
-                                        ],
-                                        [
-                                            150.664417446,
-                                            -33.0065999989999
-                                        ],
-                                        [
-                                            150.664415065,
-                                            -33.006595239
-                                        ],
-                                        [
-                                            150.66439127,
-                                            -33.0065833419999
-                                        ],
-                                        [
-                                            150.664319887,
-                                            -33.0063572939999
-                                        ],
-                                        [
-                                            150.664902855,
-                                            -33.006452472
-                                        ],
-                                        [
-                                            150.664807676,
-                                            -33.006619034
-                                        ]
-                                    ]
-                                ]
                             }
                         ]
                     }
@@ -651,11 +756,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566552",
-                "created": "2024-09-18T07:25:00+10:00",
-                "updated": "2024-09-18T17:25:00+10:00",
+                "created": "2024-09-19T00:54:00+10:00",
+                "updated": "2024-09-19T10:54:00+10:00",
                 "location": "400 BOX GAP RD, PUTTY 2330",
                 "size": 8,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 400 BOX GAP RD, PUTTY 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Sep 2024 17:25",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 400 BOX GAP RD, PUTTY 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:54",
                 "title": "incident: fire"
             }
         },
@@ -771,10 +876,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.7953033440001,
-                    -34.57839202899993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.7953033440001,
+                            -34.57839202899993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.794695055,
+                                            -34.577880222
+                                        ],
+                                        [
+                                            150.79489731,
+                                            -34.578011091
+                                        ],
+                                        [
+                                            150.795111461,
+                                            -34.578189552
+                                        ],
+                                        [
+                                            150.79471885,
+                                            -34.5782371409999
+                                        ],
+                                        [
+                                            150.794587979,
+                                            -34.5781776539999
+                                        ],
+                                        [
+                                            150.794599877,
+                                            -34.578034886
+                                        ],
+                                        [
+                                            150.794695055,
+                                            -34.577880222
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -789,30 +939,6 @@
                 "location": "CROOME RD, CROOM 2527",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: CROOME RD, CROOM 2527 <br />COUNCIL AREA: Shellharbour <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Sep 2024 22:30",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.7969970700001,
-                    -34.479713439999955
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "DARKES RD, KEMBLA GRANGE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566637",
-                "created": "2024-09-18T21:25:00+10:00",
-                "updated": "2024-09-19T07:25:00+10:00",
-                "location": "DARKES RD, KEMBLA GRANGE 2526",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: DARKES RD, KEMBLA GRANGE 2526 <br />COUNCIL AREA: Wollongong <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 07:25",
                 "title": "incident: fire"
             }
         },
@@ -845,32 +971,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.22901916500007,
-                    -31.410491942999954
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "HWY, MOUNT SEAVIEW",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566665",
-                "created": "2024-09-18T21:39:00+10:00",
-                "updated": "2024-09-19T07:39:00+10:00",
-                "location": "OXLEY (B56) HWY, MOUNT SEAVIEW 2446",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: OXLEY (B56) HWY, MOUNT SEAVIEW 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 07:39",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.7293853750001,
-                    -28.403856277999978
+                    152.726116186,
+                    -28.417874841999947
                 ]
             },
             "properties": {
@@ -880,11 +982,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566761",
-                "created": "2024-09-18T10:38:00+10:00",
-                "updated": "2024-09-18T20:38:00+10:00",
+                "created": "2024-09-19T00:04:00+10:00",
+                "updated": "2024-09-19T10:04:00+10:00",
                 "location": "MCINTOSHS RD, UNUMGAR 2474",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: MCINTOSHS RD, UNUMGAR 2474 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Sep 2024 20:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: MCINTOSHS RD, UNUMGAR 2474 <br />COUNCIL AREA: Kyogle <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:04",
                 "title": "incident: fire"
             }
         },
@@ -1162,6 +1264,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    146.0344848630001,
+                    -34.37135696499996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MILLIS RD, HANWOOD",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/567874",
+                "created": "2024-09-19T01:02:00+10:00",
+                "updated": "2024-09-19T11:02:00+10:00",
+                "location": "47 MILLIS RD, HANWOOD 2680",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 47 MILLIS RD, HANWOOD 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 11:02",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.6222686760001,
                     -32.90268325799997
                 ]
@@ -1294,11 +1420,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566763",
-                "created": "2024-09-18T18:41:00+10:00",
-                "updated": "2024-09-19T04:41:00+10:00",
+                "created": "2024-09-18T23:56:00+10:00",
+                "updated": "2024-09-19T09:56:00+10:00",
                 "location": "9618 NERRIGA RD, DURRAN DURRA 2622",
                 "size": 4,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 9618 NERRIGA RD, DURRAN DURRA 2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 04:41",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 9618 NERRIGA RD, DURRAN DURRA 2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 09:56",
                 "title": "incident: fire"
             }
         },
@@ -1322,196 +1448,620 @@
                                 "coordinates": [
                                     [
                                         [
-                                            151.208625584,
-                                            -33.308614969
+                                            151.208442506,
+                                            -33.3084976649999
                                         ],
                                         [
-                                            151.20880132,
-                                            -33.308751091
+                                            151.209132342,
+                                            -33.308548636
                                         ],
                                         [
-                                            151.209174491,
-                                            -33.308661961
+                                            151.209366965,
+                                            -33.308488653
                                         ],
                                         [
-                                            151.209399324,
-                                            -33.3087363139999
+                                            151.20943395,
+                                            -33.308570921
                                         ],
                                         [
-                                            151.209497148,
-                                            -33.309011681
+                                            151.20954474,
+                                            -33.308706989
                                         ],
                                         [
-                                            151.209757245,
-                                            -33.309549305
+                                            151.209589694,
+                                            -33.308830776
                                         ],
                                         [
-                                            151.209972126,
-                                            -33.309416352
+                                            151.209692623,
+                                            -33.308961095
                                         ],
                                         [
-                                            151.210062877,
-                                            -33.3095444209999
+                                            151.209788535,
+                                            -33.309182446
                                         ],
                                         [
-                                            151.210273674,
-                                            -33.310274964
+                                            151.209900817,
+                                            -33.3093755949999
                                         ],
                                         [
-                                            151.21038502,
-                                            -33.3105608
+                                            151.209973411,
+                                            -33.309473942
                                         ],
                                         [
-                                            151.210802482,
-                                            -33.3113936299999
+                                            151.210032487,
+                                            -33.309613107
                                         ],
                                         [
-                                            151.210772145,
-                                            -33.3115749789999
+                                            151.2101115,
+                                            -33.309787174
                                         ],
                                         [
-                                            151.210826066,
-                                            -33.311884617
+                                            151.210239074,
+                                            -33.3101179029999
                                         ],
                                         [
-                                            151.211025921,
-                                            -33.3125226349999
+                                            151.210286077,
+                                            -33.310371957
                                         ],
                                         [
-                                            151.211115422,
-                                            -33.312760034
+                                            151.210416494,
+                                            -33.3106200299999
                                         ],
                                         [
-                                            151.211082727,
-                                            -33.3128922839999
+                                            151.210521787,
+                                            -33.3109143199999
                                         ],
                                         [
-                                            151.210760263,
-                                            -33.3130889889999
+                                            151.21058487,
+                                            -33.311091883
                                         ],
                                         [
-                                            151.209765933,
-                                            -33.3132537979999
+                                            151.210644014,
+                                            -33.311234639
                                         ],
                                         [
-                                            151.20925965,
-                                            -33.313281865
+                                            151.210710581,
+                                            -33.3113132509999
                                         ],
                                         [
-                                            151.20890312,
-                                            -33.313446932
+                                            151.210785968,
+                                            -33.311311514
                                         ],
                                         [
-                                            151.208856329,
-                                            -33.3134211949999
+                                            151.210907884,
+                                            -33.311351493
                                         ],
                                         [
-                                            151.208877816,
-                                            -33.313190967
+                                            151.210992828,
+                                            -33.311453456
                                         ],
                                         [
-                                            151.208848369,
-                                            -33.3129843199999
+                                            151.211024554,
+                                            -33.3114852969999
                                         ],
                                         [
-                                            151.20902915,
-                                            -33.312683131
+                                            151.211086237,
+                                            -33.3114684669999
                                         ],
                                         [
-                                            151.208944218,
-                                            -33.312134113
+                                            151.211084579,
+                                            -33.31155675
                                         ],
                                         [
-                                            151.208624121,
-                                            -33.31170234
+                                            151.211118479,
+                                            -33.311658262
                                         ],
                                         [
-                                            151.208573351,
-                                            -33.311458166
+                                            151.211166888,
+                                            -33.311857838
                                         ],
                                         [
-                                            151.208767648,
-                                            -33.311167446
+                                            151.211264192,
+                                            -33.311981884
                                         ],
                                         [
-                                            151.208842221,
-                                            -33.3104163149999
+                                            151.21134967,
+                                            -33.312034976
                                         ],
                                         [
-                                            151.208820058,
-                                            -33.310225815
+                                            151.211483038,
+                                            -33.3121464389999
                                         ],
                                         [
-                                            151.209095986,
-                                            -33.310008833
+                                            151.211575122,
+                                            -33.312231697
                                         ],
                                         [
-                                            151.208833426,
-                                            -33.309826469
+                                            151.211690368,
+                                            -33.312334988
                                         ],
                                         [
-                                            151.208649718,
-                                            -33.309931046
+                                            151.211728333,
+                                            -33.3124225889999
                                         ],
                                         [
-                                            151.20854136,
-                                            -33.309978427
+                                            151.211731843,
+                                            -33.312515092
                                         ],
                                         [
-                                            151.208078431,
-                                            -33.309824701
+                                            151.211619608,
+                                            -33.312497564
                                         ],
                                         [
-                                            151.207882728,
-                                            -33.3098149309999
+                                            151.211657695,
+                                            -33.312674795
                                         ],
                                         [
-                                            151.207553723,
-                                            -33.309875243
+                                            151.21160597,
+                                            -33.312715672
                                         ],
                                         [
-                                            151.207458309,
-                                            -33.3097855779999
+                                            151.211449274,
+                                            -33.312779867
                                         ],
                                         [
-                                            151.207515165,
-                                            -33.309614262
+                                            151.211461689,
+                                            -33.3128197689999
                                         ],
                                         [
-                                            151.207515902,
-                                            -33.309494022
+                                            151.211608376,
+                                            -33.31278479
                                         ],
                                         [
-                                            151.207730263,
-                                            -33.3093501619999
+                                            151.211737288,
+                                            -33.3127596369999
                                         ],
                                         [
-                                            151.207828981,
-                                            -33.309237535
+                                            151.211711277,
+                                            -33.3128736209999
                                         ],
                                         [
-                                            151.207570876,
-                                            -33.309147912
+                                            151.211749948,
+                                            -33.312946284
                                         ],
                                         [
-                                            151.207607978,
-                                            -33.3089717999999
+                                            151.211692952,
+                                            -33.3129792829999
                                         ],
                                         [
-                                            151.207846232,
-                                            -33.3087834149999
+                                            151.21173232,
+                                            -33.3130179949999
                                         ],
                                         [
-                                            151.208213691,
-                                            -33.3087108729999
+                                            151.211612114,
+                                            -33.3131239749999
                                         ],
                                         [
-                                            151.208307221,
-                                            -33.3086257429999
+                                            151.211523717,
+                                            -33.313146412
                                         ],
                                         [
-                                            151.208625584,
-                                            -33.308614969
+                                            151.211470464,
+                                            -33.3132006439999
+                                        ],
+                                        [
+                                            151.21155023,
+                                            -33.3132213759999
+                                        ],
+                                        [
+                                            151.211593128,
+                                            -33.31332721
+                                        ],
+                                        [
+                                            151.2115306,
+                                            -33.31329883
+                                        ],
+                                        [
+                                            151.211521862,
+                                            -33.3133822739999
+                                        ],
+                                        [
+                                            151.211433402,
+                                            -33.3133325759999
+                                        ],
+                                        [
+                                            151.211363113,
+                                            -33.3133129999999
+                                        ],
+                                        [
+                                            151.211192732,
+                                            -33.313192434
+                                        ],
+                                        [
+                                            151.211164099,
+                                            -33.3132516229999
+                                        ],
+                                        [
+                                            151.211089208,
+                                            -33.313177298
+                                        ],
+                                        [
+                                            151.211058285,
+                                            -33.313246062
+                                        ],
+                                        [
+                                            151.211011811,
+                                            -33.3133564089999
+                                        ],
+                                        [
+                                            151.210981366,
+                                            -33.3134471239999
+                                        ],
+                                        [
+                                            151.210988593,
+                                            -33.313633489
+                                        ],
+                                        [
+                                            151.21102526,
+                                            -33.3137537879999
+                                        ],
+                                        [
+                                            151.211016865,
+                                            -33.313857454
+                                        ],
+                                        [
+                                            151.211142017,
+                                            -33.3139925629999
+                                        ],
+                                        [
+                                            151.210960957,
+                                            -33.314223748
+                                        ],
+                                        [
+                                            151.210789022,
+                                            -33.314541643
+                                        ],
+                                        [
+                                            151.210803551,
+                                            -33.3146758839999
+                                        ],
+                                        [
+                                            151.210850236,
+                                            -33.314852099
+                                        ],
+                                        [
+                                            151.210768776,
+                                            -33.314879661
+                                        ],
+                                        [
+                                            151.210681002,
+                                            -33.314835085
+                                        ],
+                                        [
+                                            151.210625894,
+                                            -33.314727434
+                                        ],
+                                        [
+                                            151.210482558,
+                                            -33.314652043
+                                        ],
+                                        [
+                                            151.210323978,
+                                            -33.314621426
+                                        ],
+                                        [
+                                            151.210129021,
+                                            -33.3146332489999
+                                        ],
+                                        [
+                                            151.209928014,
+                                            -33.314540211
+                                        ],
+                                        [
+                                            151.209778675,
+                                            -33.314522386
+                                        ],
+                                        [
+                                            151.209716016,
+                                            -33.3145035059999
+                                        ],
+                                        [
+                                            151.209670895,
+                                            -33.3144227669999
+                                        ],
+                                        [
+                                            151.209629881,
+                                            -33.314357952
+                                        ],
+                                        [
+                                            151.20964206,
+                                            -33.314304399
+                                        ],
+                                        [
+                                            151.209537138,
+                                            -33.31419505
+                                        ],
+                                        [
+                                            151.209428166,
+                                            -33.314049226
+                                        ],
+                                        [
+                                            151.209406402,
+                                            -33.3141637059999
+                                        ],
+                                        [
+                                            151.209280837,
+                                            -33.314205381
+                                        ],
+                                        [
+                                            151.209097336,
+                                            -33.3141971589999
+                                        ],
+                                        [
+                                            151.208940196,
+                                            -33.3141175389999
+                                        ],
+                                        [
+                                            151.20884861,
+                                            -33.3140472819999
+                                        ],
+                                        [
+                                            151.20878021,
+                                            -33.313969238
+                                        ],
+                                        [
+                                            151.208743133,
+                                            -33.3139150059999
+                                        ],
+                                        [
+                                            151.208792206,
+                                            -33.3138157879999
+                                        ],
+                                        [
+                                            151.208828885,
+                                            -33.313708214
+                                        ],
+                                        [
+                                            151.208903677,
+                                            -33.313572746
+                                        ],
+                                        [
+                                            151.208944427,
+                                            -33.313488989
+                                        ],
+                                        [
+                                            151.208897204,
+                                            -33.313447875
+                                        ],
+                                        [
+                                            151.208824808,
+                                            -33.313422902
+                                        ],
+                                        [
+                                            151.208793751,
+                                            -33.313397016
+                                        ],
+                                        [
+                                            151.208801779,
+                                            -33.313342044
+                                        ],
+                                        [
+                                            151.208837428,
+                                            -33.313269791
+                                        ],
+                                        [
+                                            151.208854751,
+                                            -33.31320448
+                                        ],
+                                        [
+                                            151.208871132,
+                                            -33.313140666
+                                        ],
+                                        [
+                                            151.208907259,
+                                            -33.313099387
+                                        ],
+                                        [
+                                            151.208883119,
+                                            -33.313018321
+                                        ],
+                                        [
+                                            151.208799245,
+                                            -33.312951265
+                                        ],
+                                        [
+                                            151.208772798,
+                                            -33.312877444
+                                        ],
+                                        [
+                                            151.208712588,
+                                            -33.312803833
+                                        ],
+                                        [
+                                            151.208726074,
+                                            -33.3127260439999
+                                        ],
+                                        [
+                                            151.208738658,
+                                            -33.3124898849999
+                                        ],
+                                        [
+                                            151.208801226,
+                                            -33.3122565159999
+                                        ],
+                                        [
+                                            151.208602863,
+                                            -33.312077185
+                                        ],
+                                        [
+                                            151.208553792,
+                                            -33.3119645479999
+                                        ],
+                                        [
+                                            151.208459972,
+                                            -33.311849023
+                                        ],
+                                        [
+                                            151.208511538,
+                                            -33.31170393
+                                        ],
+                                        [
+                                            151.208358575,
+                                            -33.311624256
+                                        ],
+                                        [
+                                            151.208191198,
+                                            -33.311531573
+                                        ],
+                                        [
+                                            151.208307343,
+                                            -33.3114695319999
+                                        ],
+                                        [
+                                            151.208434319,
+                                            -33.311326381
+                                        ],
+                                        [
+                                            151.208479382,
+                                            -33.3111534
+                                        ],
+                                        [
+                                            151.208418158,
+                                            -33.310933489
+                                        ],
+                                        [
+                                            151.208452262,
+                                            -33.3107982719999
+                                        ],
+                                        [
+                                            151.208530731,
+                                            -33.310803418
+                                        ],
+                                        [
+                                            151.208582605,
+                                            -33.310725885
+                                        ],
+                                        [
+                                            151.208549532,
+                                            -33.310535993
+                                        ],
+                                        [
+                                            151.208553307,
+                                            -33.310389653
+                                        ],
+                                        [
+                                            151.208659521,
+                                            -33.31030716
+                                        ],
+                                        [
+                                            151.208598574,
+                                            -33.310227046
+                                        ],
+                                        [
+                                            151.208422066,
+                                            -33.3100302569999
+                                        ],
+                                        [
+                                            151.208295346,
+                                            -33.309888562
+                                        ],
+                                        [
+                                            151.208190986,
+                                            -33.309867519
+                                        ],
+                                        [
+                                            151.208031728,
+                                            -33.3098877479999
+                                        ],
+                                        [
+                                            151.207874928,
+                                            -33.3098628819999
+                                        ],
+                                        [
+                                            151.207699267,
+                                            -33.3097086769999
+                                        ],
+                                        [
+                                            151.207735418,
+                                            -33.309545091
+                                        ],
+                                        [
+                                            151.207389225,
+                                            -33.309485829
+                                        ],
+                                        [
+                                            151.207208266,
+                                            -33.30947133
+                                        ],
+                                        [
+                                            151.206866672,
+                                            -33.3092557269999
+                                        ],
+                                        [
+                                            151.207047873,
+                                            -33.3092472279999
+                                        ],
+                                        [
+                                            151.207136713,
+                                            -33.3090463529999
+                                        ],
+                                        [
+                                            151.20716743,
+                                            -33.308937305
+                                        ],
+                                        [
+                                            151.207223574,
+                                            -33.308879807
+                                        ],
+                                        [
+                                            151.207377807,
+                                            -33.308868552
+                                        ],
+                                        [
+                                            151.207417895,
+                                            -33.3088949419999
+                                        ],
+                                        [
+                                            151.207465195,
+                                            -33.308804263
+                                        ],
+                                        [
+                                            151.207502211,
+                                            -33.3087359909999
+                                        ],
+                                        [
+                                            151.2075728,
+                                            -33.3087223219999
+                                        ],
+                                        [
+                                            151.207597738,
+                                            -33.308774131
+                                        ],
+                                        [
+                                            151.207663894,
+                                            -33.308824667
+                                        ],
+                                        [
+                                            151.207753129,
+                                            -33.308785545
+                                        ],
+                                        [
+                                            151.207874137,
+                                            -33.3087117819999
+                                        ],
+                                        [
+                                            151.207953895,
+                                            -33.308668434
+                                        ],
+                                        [
+                                            151.208064649,
+                                            -33.308612443
+                                        ],
+                                        [
+                                            151.208157249,
+                                            -33.308544535
+                                        ],
+                                        [
+                                            151.2082354,
+                                            -33.3085060139999
+                                        ],
+                                        [
+                                            151.208359265,
+                                            -33.308473904
+                                        ],
+                                        [
+                                            151.208442506,
+                                            -33.3084976649999
                                         ]
                                     ]
                                 ]
@@ -1527,11 +2077,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/567829",
-                "created": "2024-09-18T14:28:00+10:00",
-                "updated": "2024-09-19T00:28:00+10:00",
+                "created": "2024-09-19T00:02:00+10:00",
+                "updated": "2024-09-19T10:02:00+10:00",
                 "location": "NICLINS RD, MANGROVE MOUNTAIN 2250",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: NICLINS RD, MANGROVE MOUNTAIN 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 00:28",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: NICLINS RD, MANGROVE MOUNTAIN 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:02",
                 "title": "incident: fire"
             }
         },
@@ -1555,256 +2105,504 @@
                                 "coordinates": [
                                     [
                                         [
-                                            150.767000701,
-                                            -32.829970261
+                                            150.767577964,
+                                            -32.8298498939999
                                         ],
                                         [
-                                            150.767017035,
-                                            -32.830018035
+                                            150.767376334,
+                                            -32.8301817989999
                                         ],
                                         [
-                                            150.76705069,
-                                            -32.830014208
+                                            150.76726996,
+                                            -32.8305698089999
                                         ],
                                         [
-                                            150.767678861,
-                                            -32.8299824709999
+                                            150.767428267,
+                                            -32.830681445
                                         ],
                                         [
-                                            150.768455988,
-                                            -32.830096544
+                                            150.767791,
+                                            -32.830778595
                                         ],
                                         [
-                                            150.769063632,
-                                            -32.830207592
+                                            150.767934035,
+                                            -32.83107131
                                         ],
                                         [
-                                            150.769029735,
-                                            -32.830206989
+                                            150.768402765,
+                                            -32.8312247539999
                                         ],
                                         [
-                                            150.769332663,
-                                            -32.8302982829999
+                                            150.768770716,
+                                            -32.8311134369999
                                         ],
                                         [
-                                            150.769748148,
-                                            -32.8306349539999
+                                            150.769217898,
+                                            -32.8308403149999
                                         ],
                                         [
-                                            150.769896752,
-                                            -32.830795076
+                                            150.769800328,
+                                            -32.8307418869999
                                         ],
                                         [
-                                            150.770468716,
-                                            -32.830977059
+                                            150.770015489,
+                                            -32.830727587
                                         ],
                                         [
-                                            150.770973604,
-                                            -32.8311292129999
+                                            150.770275858,
+                                            -32.830623417
                                         ],
                                         [
-                                            150.772973719,
-                                            -32.8318376739999
+                                            150.770565713,
+                                            -32.8306285809999
                                         ],
                                         [
-                                            150.773772982,
-                                            -32.83242453
+                                            150.77028713,
+                                            -32.8310316609999
                                         ],
                                         [
-                                            150.774031307,
-                                            -32.8329444949999
+                                            150.769980646,
+                                            -32.831261957
                                         ],
                                         [
-                                            150.774265544,
-                                            -32.8337503459999
+                                            150.769748402,
+                                            -32.831529847
                                         ],
                                         [
-                                            150.774402731,
-                                            -32.8343683649999
+                                            150.769916315,
+                                            -32.83168699
                                         ],
                                         [
-                                            150.774617717,
-                                            -32.8345869259999
+                                            150.770358963,
+                                            -32.8315951349999
                                         ],
                                         [
-                                            150.774337951,
-                                            -32.8349255279999
+                                            150.770719664,
+                                            -32.831773847
                                         ],
                                         [
-                                            150.773868882,
-                                            -32.8353752859999
+                                            150.770878205,
+                                            -32.831876418
                                         ],
                                         [
-                                            150.77351631,
-                                            -32.8359130109999
+                                            150.77079694,
+                                            -32.832119795
                                         ],
                                         [
-                                            150.773478479,
-                                            -32.836069811
+                                            150.770815691,
+                                            -32.832228942
                                         ],
                                         [
-                                            150.77306224,
-                                            -32.835761772
+                                            150.77114872,
+                                            -32.8322258069999
                                         ],
                                         [
-                                            150.772716662,
-                                            -32.8353404609999
+                                            150.771626068,
+                                            -32.832034822
                                         ],
                                         [
-                                            150.772426941,
-                                            -32.8347197259999
+                                            150.771917512,
+                                            -32.831976539
                                         ],
                                         [
-                                            150.772245785,
-                                            -32.8344873789999
+                                            150.772507967,
+                                            -32.831987053
                                         ],
                                         [
-                                            150.772125807,
-                                            -32.834485415
+                                            150.772775547,
+                                            -32.8324542669999
                                         ],
                                         [
-                                            150.771459117,
-                                            -32.834515304
+                                            150.772833847,
+                                            -32.832700131
                                         ],
                                         [
-                                            150.770860676,
-                                            -32.8345526649999
+                                            150.773099295,
+                                            -32.832822736
                                         ],
                                         [
-                                            150.770099858,
-                                            -32.834499395
+                                            150.773169692,
+                                            -32.833014411
                                         ],
                                         [
-                                            150.770177477,
-                                            -32.8343640209999
+                                            150.773415934,
+                                            -32.833045996
                                         ],
                                         [
-                                            150.770044217,
-                                            -32.8343909609999
+                                            150.773636405,
+                                            -32.833249408
                                         ],
                                         [
-                                            150.769148046,
-                                            -32.834289089
+                                            150.773780143,
+                                            -32.833514927
                                         ],
                                         [
-                                            150.768786974,
-                                            -32.8338102289999
+                                            150.773819691,
+                                            -32.833651645
                                         ],
                                         [
-                                            150.768469833,
-                                            -32.832931312
+                                            150.773461563,
+                                            -32.833799423
                                         ],
                                         [
-                                            150.768247945,
-                                            -32.832311776
+                                            150.772975964,
+                                            -32.833890523
                                         ],
                                         [
-                                            150.767738041,
-                                            -32.832359943
+                                            150.772574666,
+                                            -32.8340465969999
                                         ],
                                         [
-                                            150.766702718,
-                                            -32.832398729
+                                            150.772522892,
+                                            -32.8343993129999
                                         ],
                                         [
-                                            150.765539332,
-                                            -32.8321345859999
+                                            150.772580061,
+                                            -32.834690496
                                         ],
                                         [
-                                            150.765022163,
-                                            -32.8317960869999
+                                            150.772609488,
+                                            -32.8347744069999
                                         ],
                                         [
-                                            150.764813665,
-                                            -32.831319943
+                                            150.772644024,
+                                            -32.834709769
                                         ],
                                         [
-                                            150.76459295,
-                                            -32.831139419
+                                            150.772824949,
+                                            -32.8347764649999
                                         ],
                                         [
-                                            150.764121155,
-                                            -32.8313339279999
+                                            150.773071874,
+                                            -32.834780859
                                         ],
                                         [
-                                            150.763356956,
-                                            -32.8313332879999
+                                            150.773243195,
+                                            -32.834802044
                                         ],
                                         [
-                                            150.762927874,
-                                            -32.8312268679999
+                                            150.7734335,
+                                            -32.834923311
                                         ],
                                         [
-                                            150.762358483,
-                                            -32.8311486109999
+                                            150.773376877,
+                                            -32.8350401829999
                                         ],
                                         [
-                                            150.762019292,
-                                            -32.831158928
+                                            150.773180235,
+                                            -32.835172697
                                         ],
                                         [
-                                            150.761590213,
-                                            -32.8310525049999
+                                            150.77295229,
+                                            -32.835268383
                                         ],
                                         [
-                                            150.761948504,
-                                            -32.830826551
+                                            150.77289612,
+                                            -32.835367127
                                         ],
                                         [
-                                            150.761891973,
-                                            -32.830828271
+                                            150.772852909,
+                                            -32.8353989129999
                                         ],
                                         [
-                                            150.762562203,
-                                            -32.8306167229999
+                                            150.772862555,
+                                            -32.835420937
                                         ],
                                         [
-                                            150.763068948,
-                                            -32.830553516
+                                            150.772832237,
+                                            -32.835414118
                                         ],
                                         [
-                                            150.763553539,
-                                            -32.830634351
+                                            150.772775762,
+                                            -32.835455661
                                         ],
                                         [
-                                            150.764091606,
-                                            -32.8306418719999
+                                            150.772602118,
+                                            -32.835362372
                                         ],
                                         [
-                                            150.764688243,
-                                            -32.8306953969999
+                                            150.772424645,
+                                            -32.835322463
                                         ],
                                         [
-                                            150.764653697,
-                                            -32.830944377
+                                            150.772079508,
+                                            -32.8353797899999
                                         ],
                                         [
-                                            150.764870874,
-                                            -32.830390442
+                                            150.771923544,
+                                            -32.8356037029999
                                         ],
                                         [
-                                            150.765300684,
-                                            -32.830154751
+                                            150.771296692,
+                                            -32.8353295759999
                                         ],
                                         [
-                                            150.766314443,
-                                            -32.830088609
+                                            150.770693582,
+                                            -32.834965192
                                         ],
                                         [
-                                            150.76583418,
-                                            -32.830091808
+                                            150.770248113,
+                                            -32.8347396299999
                                         ],
                                         [
-                                            150.766472347,
-                                            -32.829527567
+                                            150.770113535,
+                                            -32.8345377429999
                                         ],
                                         [
-                                            150.766679528,
-                                            -32.8296072809999
+                                            150.769534252,
+                                            -32.834509281
                                         ],
                                         [
-                                            150.767000701,
-                                            -32.829970261
+                                            150.769008878,
+                                            -32.8344727099999
+                                        ],
+                                        [
+                                            150.768735643,
+                                            -32.8342320789999
+                                        ],
+                                        [
+                                            150.768658603,
+                                            -32.8338770669999
+                                        ],
+                                        [
+                                            150.768523046,
+                                            -32.8332852529999
+                                        ],
+                                        [
+                                            150.76834296,
+                                            -32.832756118
+                                        ],
+                                        [
+                                            150.768202189,
+                                            -32.8323727659999
+                                        ],
+                                        [
+                                            150.768025583,
+                                            -32.832133856
+                                        ],
+                                        [
+                                            150.767793939,
+                                            -32.8319483719999
+                                        ],
+                                        [
+                                            150.767340709,
+                                            -32.831604781
+                                        ],
+                                        [
+                                            150.767163806,
+                                            -32.831345341
+                                        ],
+                                        [
+                                            150.766850964,
+                                            -32.8314328229999
+                                        ],
+                                        [
+                                            150.766622341,
+                                            -32.831555689
+                                        ],
+                                        [
+                                            150.766524133,
+                                            -32.8316174079999
+                                        ],
+                                        [
+                                            150.766245239,
+                                            -32.8316033629999
+                                        ],
+                                        [
+                                            150.766023654,
+                                            -32.8314452559999
+                                        ],
+                                        [
+                                            150.766024603,
+                                            -32.831438658
+                                        ],
+                                        [
+                                            150.765766005,
+                                            -32.8314406549999
+                                        ],
+                                        [
+                                            150.765476601,
+                                            -32.831417351
+                                        ],
+                                        [
+                                            150.765418381,
+                                            -32.831597664
+                                        ],
+                                        [
+                                            150.765353061,
+                                            -32.831632767
+                                        ],
+                                        [
+                                            150.765270811,
+                                            -32.831486217
+                                        ],
+                                        [
+                                            150.765165728,
+                                            -32.831393663
+                                        ],
+                                        [
+                                            150.764454464,
+                                            -32.831489768
+                                        ],
+                                        [
+                                            150.764161199,
+                                            -32.831620541
+                                        ],
+                                        [
+                                            150.763753025,
+                                            -32.831622314
+                                        ],
+                                        [
+                                            150.763602276,
+                                            -32.8316377539999
+                                        ],
+                                        [
+                                            150.763522301,
+                                            -32.831400566
+                                        ],
+                                        [
+                                            150.763599722,
+                                            -32.831311274
+                                        ],
+                                        [
+                                            150.763248409,
+                                            -32.831187115
+                                        ],
+                                        [
+                                            150.762734704,
+                                            -32.831114455
+                                        ],
+                                        [
+                                            150.762253203,
+                                            -32.83104237
+                                        ],
+                                        [
+                                            150.762114327,
+                                            -32.831012683
+                                        ],
+                                        [
+                                            150.761858043,
+                                            -32.830953693
+                                        ],
+                                        [
+                                            150.76161959,
+                                            -32.831040104
+                                        ],
+                                        [
+                                            150.761200684,
+                                            -32.831041676
+                                        ],
+                                        [
+                                            150.760837503,
+                                            -32.8309626349999
+                                        ],
+                                        [
+                                            150.760690167,
+                                            -32.830842119
+                                        ],
+                                        [
+                                            150.760676662,
+                                            -32.830524511
+                                        ],
+                                        [
+                                            150.761080695,
+                                            -32.830259714
+                                        ],
+                                        [
+                                            150.761236448,
+                                            -32.830044877
+                                        ],
+                                        [
+                                            150.761349034,
+                                            -32.829838337
+                                        ],
+                                        [
+                                            150.761658307,
+                                            -32.8299254789999
+                                        ],
+                                        [
+                                            150.761952025,
+                                            -32.8297765839999
+                                        ],
+                                        [
+                                            150.76221381,
+                                            -32.830044227
+                                        ],
+                                        [
+                                            150.762281906,
+                                            -32.830326542
+                                        ],
+                                        [
+                                            150.762576534,
+                                            -32.830141391
+                                        ],
+                                        [
+                                            150.762873028,
+                                            -32.83030991
+                                        ],
+                                        [
+                                            150.763166795,
+                                            -32.830587191
+                                        ],
+                                        [
+                                            150.76344546,
+                                            -32.830610309
+                                        ],
+                                        [
+                                            150.763873735,
+                                            -32.8306633029999
+                                        ],
+                                        [
+                                            150.764581811,
+                                            -32.8306940909999
+                                        ],
+                                        [
+                                            150.764901542,
+                                            -32.830364302
+                                        ],
+                                        [
+                                            150.764990378,
+                                            -32.8302480099999
+                                        ],
+                                        [
+                                            150.765073019,
+                                            -32.8299502529999
+                                        ],
+                                        [
+                                            150.765407629,
+                                            -32.8298836889999
+                                        ],
+                                        [
+                                            150.765973192,
+                                            -32.8300298039999
+                                        ],
+                                        [
+                                            150.766470806,
+                                            -32.829458361
+                                        ],
+                                        [
+                                            150.766763834,
+                                            -32.829336644
+                                        ],
+                                        [
+                                            150.767135183,
+                                            -32.829089379
+                                        ],
+                                        [
+                                            150.767607076,
+                                            -32.829115934
+                                        ],
+                                        [
+                                            150.767816336,
+                                            -32.8293372909999
+                                        ],
+                                        [
+                                            150.767606921,
+                                            -32.829551178
+                                        ],
+                                        [
+                                            150.767577964,
+                                            -32.8298498939999
                                         ]
                                     ]
                                 ]
@@ -2043,6 +2841,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.764831543,
+                    -33.494342803999984
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ROBERTS CREEK RD, BLAXLANDS RIDGE",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/567864",
+                "created": "2024-09-19T00:47:00+10:00",
+                "updated": "2024-09-19T10:47:00+10:00",
+                "location": "ROBERTS CREEK RD, BLAXLANDS RIDGE 2758",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: ROBERTS CREEK RD, BLAXLANDS RIDGE 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:47",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.26448059100005,
                     -29.014080047999983
                 ]
@@ -2054,11 +2876,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566770",
-                "created": "2024-09-18T11:47:00+10:00",
-                "updated": "2024-09-18T21:47:00+10:00",
+                "created": "2024-09-19T00:44:00+10:00",
+                "updated": "2024-09-19T10:44:00+10:00",
                 "location": "86 TABLELAND RD, SANDY HILL 2372",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 86 TABLELAND RD, SANDY HILL 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Sep 2024 21:47",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 86 TABLELAND RD, SANDY HILL 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:44",
                 "title": "incident: fire"
             }
         },
@@ -2082,120 +2904,220 @@
                                 "coordinates": [
                                     [
                                         [
-                                            151.251012097,
-                                            -33.011077324
+                                            151.251714038,
+                                            -33.0111011189999
                                         ],
                                         [
-                                            151.250857432,
-                                            -33.011136812
-                                        ],
-                                        [
-                                            151.250678972,
-                                            -33.011089222
-                                        ],
-                                        [
-                                            151.250381539,
-                                            -33.0109821459999
-                                        ],
-                                        [
-                                            151.250179285,
-                                            -33.0108155839999
-                                        ],
-                                        [
-                                            151.249977031,
-                                            -33.010672816
-                                        ],
-                                        [
-                                            151.24976288,
-                                            -33.010530049
-                                        ],
-                                        [
-                                            151.249667702,
-                                            -33.010363487
-                                        ],
-                                        [
-                                            151.249572523,
-                                            -33.010220719
-                                        ],
-                                        [
-                                            151.249513036,
-                                            -33.009994669
-                                        ],
-                                        [
-                                            151.249524934,
-                                            -33.009828107
-                                        ],
-                                        [
-                                            151.249608215,
-                                            -33.009661545
-                                        ],
-                                        [
-                                            151.249798572,
-                                            -33.0095068799999
-                                        ],
-                                        [
-                                            151.249977031,
-                                            -33.0094235989999
-                                        ],
-                                        [
-                                            151.250214978,
-                                            -33.009435496
-                                        ],
-                                        [
-                                            151.250429129,
-                                            -33.0094473939999
-                                        ],
-                                        [
-                                            151.250536205,
-                                            -33.009530675
-                                        ],
-                                        [
-                                            151.250631384,
-                                            -33.0096734429999
-                                        ],
-                                        [
-                                            151.250762253,
-                                            -33.009792416
-                                        ],
-                                        [
-                                            151.250916919,
-                                            -33.0098400049999
-                                        ],
-                                        [
-                                            151.251107276,
-                                            -33.0098400049999
-                                        ],
-                                        [
-                                            151.251380913,
-                                            -33.009947081
-                                        ],
-                                        [
-                                            151.25157127,
-                                            -33.0101255399999
-                                        ],
-                                        [
-                                            151.251583168,
-                                            -33.010268308
-                                        ],
-                                        [
-                                            151.251547475,
-                                            -33.010470563
-                                        ],
-                                        [
-                                            151.251511784,
-                                            -33.010660919
-                                        ],
-                                        [
-                                            151.251380913,
-                                            -33.010886967
+                                            151.251476092,
+                                            -33.011279579
                                         ],
                                         [
                                             151.251214351,
-                                            -33.011029736
+                                            -33.0113747569999
                                         ],
                                         [
-                                            151.251012097,
-                                            -33.011077324
+                                            151.250881226,
+                                            -33.011303373
+                                        ],
+                                        [
+                                            151.250571896,
+                                            -33.011255784
+                                        ],
+                                        [
+                                            151.250235564,
+                                            -33.0111229079999
+                                        ],
+                                        [
+                                            151.250048416,
+                                            -33.011005941
+                                        ],
+                                        [
+                                            151.249867831,
+                                            -33.0108751729999
+                                        ],
+                                        [
+                                            151.249703393,
+                                            -33.0107560979999
+                                        ],
+                                        [
+                                            151.249358372,
+                                            -33.0105181509999
+                                        ],
+                                        [
+                                            151.249132323,
+                                            -33.010327794
+                                        ],
+                                        [
+                                            151.249088774,
+                                            -33.010175374
+                                        ],
+                                        [
+                                            151.249132323,
+                                            -33.009911388
+                                        ],
+                                        [
+                                            151.24914422,
+                                            -33.00955447
+                                        ],
+                                        [
+                                            151.249168015,
+                                            -33.0093165229999
+                                        ],
+                                        [
+                                            151.249025247,
+                                            -33.0091142699999
+                                        ],
+                                        [
+                                            151.248822992,
+                                            -33.0089833989999
+                                        ],
+                                        [
+                                            151.248620738,
+                                            -33.008816837
+                                        ],
+                                        [
+                                            151.248632636,
+                                            -33.008685966
+                                        ],
+                                        [
+                                            151.248965761,
+                                            -33.008709761
+                                        ],
+                                        [
+                                            151.249263193,
+                                            -33.008709761
+                                        ],
+                                        [
+                                            151.249465448,
+                                            -33.008662172
+                                        ],
+                                        [
+                                            151.24958442,
+                                            -33.0087335549999
+                                        ],
+                                        [
+                                            151.249608215,
+                                            -33.008876323
+                                        ],
+                                        [
+                                            151.249691496,
+                                            -33.009221345
+                                        ],
+                                        [
+                                            151.249846161,
+                                            -33.0093641129999
+                                        ],
+                                        [
+                                            151.250119799,
+                                            -33.009518777
+                                        ],
+                                        [
+                                            151.250381539,
+                                            -33.0097091339999
+                                        ],
+                                        [
+                                            151.2505649,
+                                            -33.009820003
+                                        ],
+                                        [
+                                            151.250736103,
+                                            -33.009923521
+                                        ],
+                                        [
+                                            151.251047788,
+                                            -33.0100422589999
+                                        ],
+                                        [
+                                            151.251238145,
+                                            -33.0099827729999
+                                        ],
+                                        [
+                                            151.251333324,
+                                            -33.009875697
+                                        ],
+                                        [
+                                            151.251464194,
+                                            -33.00955447
+                                        ],
+                                        [
+                                            151.251606963,
+                                            -33.009459291
+                                        ],
+                                        [
+                                            151.251940086,
+                                            -33.0094235989999
+                                        ],
+                                        [
+                                            151.252142341,
+                                            -33.00937601
+                                        ],
+                                        [
+                                            151.252344595,
+                                            -33.009471189
+                                        ],
+                                        [
+                                            151.252439773,
+                                            -33.009613956
+                                        ],
+                                        [
+                                            151.252439773,
+                                            -33.0097329289999
+                                        ],
+                                        [
+                                            151.252523054,
+                                            -33.009994669
+                                        ],
+                                        [
+                                            151.252534952,
+                                            -33.0101017449999
+                                        ],
+                                        [
+                                            151.252427876,
+                                            -33.010220719
+                                        ],
+                                        [
+                                            151.252463568,
+                                            -33.010327794
+                                        ],
+                                        [
+                                            151.252558747,
+                                            -33.0104229729999
+                                        ],
+                                        [
+                                            151.252546849,
+                                            -33.0105657409999
+                                        ],
+                                        [
+                                            151.252415979,
+                                            -33.0106490219999
+                                        ],
+                                        [
+                                            151.252356492,
+                                            -33.010637125
+                                        ],
+                                        [
+                                            151.252070957,
+                                            -33.0106014319999
+                                        ],
+                                        [
+                                            151.252023367,
+                                            -33.0107560979999
+                                        ],
+                                        [
+                                            151.252023367,
+                                            -33.0108750699999
+                                        ],
+                                        [
+                                            151.251844908,
+                                            -33.0108988649999
+                                        ],
+                                        [
+                                            151.25174973,
+                                            -33.0111011189999
+                                        ],
+                                        [
+                                            151.251714038,
+                                            -33.0111011189999
                                         ]
                                     ]
                                 ]
@@ -2234,389 +3156,6 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            150.437638541,
-                                            -34.438764663
-                                        ],
-                                        [
-                                            150.437975478,
-                                            -34.4386245009999
-                                        ],
-                                        [
-                                            150.438373715,
-                                            -34.438700953
-                                        ],
-                                        [
-                                            150.43868,
-                                            -34.4384524819999
-                                        ],
-                                        [
-                                            150.438798589,
-                                            -34.4381218189999
-                                        ],
-                                        [
-                                            150.439055702,
-                                            -34.437962005
-                                        ],
-                                        [
-                                            150.439583368,
-                                            -34.4379319559999
-                                        ],
-                                        [
-                                            150.440168982,
-                                            -34.438030673
-                                        ],
-                                        [
-                                            150.44054511,
-                                            -34.43831427
-                                        ],
-                                        [
-                                            150.439672837,
-                                            -34.438905619
-                                        ],
-                                        [
-                                            150.439828703,
-                                            -34.439512565
-                                        ],
-                                        [
-                                            150.440071636,
-                                            -34.439658735
-                                        ],
-                                        [
-                                            150.440381388,
-                                            -34.439497479
-                                        ],
-                                        [
-                                            150.440600043,
-                                            -34.4390331119999
-                                        ],
-                                        [
-                                            150.441250192,
-                                            -34.4388189059999
-                                        ],
-                                        [
-                                            150.441409267,
-                                            -34.438181535
-                                        ],
-                                        [
-                                            150.440830011,
-                                            -34.436865809
-                                        ],
-                                        [
-                                            150.440949458,
-                                            -34.436556948
-                                        ],
-                                        [
-                                            150.440164019,
-                                            -34.435355989
-                                        ],
-                                        [
-                                            150.440245878,
-                                            -34.434764383
-                                        ],
-                                        [
-                                            150.440072372,
-                                            -34.4343762039999
-                                        ],
-                                        [
-                                            150.439211165,
-                                            -34.433919478
-                                        ],
-                                        [
-                                            150.439150734,
-                                            -34.4337246709999
-                                        ],
-                                        [
-                                            150.439295632,
-                                            -34.4333932879999
-                                        ],
-                                        [
-                                            150.440351758,
-                                            -34.433451777
-                                        ],
-                                        [
-                                            150.440731377,
-                                            -34.433867597
-                                        ],
-                                        [
-                                            150.441343383,
-                                            -34.434537964
-                                        ],
-                                        [
-                                            150.441908178,
-                                            -34.434828141
-                                        ],
-                                        [
-                                            150.442344288,
-                                            -34.434532459
-                                        ],
-                                        [
-                                            150.442998451,
-                                            -34.435082133
-                                        ],
-                                        [
-                                            150.443727515,
-                                            -34.4348657579999
-                                        ],
-                                        [
-                                            150.444215976,
-                                            -34.4352234959999
-                                        ],
-                                        [
-                                            150.445370183,
-                                            -34.435759494
-                                        ],
-                                        [
-                                            150.445495422,
-                                            -34.436258128
-                                        ],
-                                        [
-                                            150.445800543,
-                                            -34.436642702
-                                        ],
-                                        [
-                                            150.447179475,
-                                            -34.436866938
-                                        ],
-                                        [
-                                            150.447543575,
-                                            -34.4367478359999
-                                        ],
-                                        [
-                                            150.449109101,
-                                            -34.437687292
-                                        ],
-                                        [
-                                            150.449724309,
-                                            -34.438476523
-                                        ],
-                                        [
-                                            150.450483249,
-                                            -34.4391121959999
-                                        ],
-                                        [
-                                            150.450339254,
-                                            -34.4394653959999
-                                        ],
-                                        [
-                                            150.450388375,
-                                            -34.4397999949999
-                                        ],
-                                        [
-                                            150.450505373,
-                                            -34.4403718029999
-                                        ],
-                                        [
-                                            150.450739659,
-                                            -34.44091695
-                                        ],
-                                        [
-                                            150.45098239,
-                                            -34.441717963
-                                        ],
-                                        [
-                                            150.451096363,
-                                            -34.441933128
-                                        ],
-                                        [
-                                            150.451909249,
-                                            -34.442268547
-                                        ],
-                                        [
-                                            150.452656371,
-                                            -34.4426686259999
-                                        ],
-                                        [
-                                            150.453671729,
-                                            -34.4430849899999
-                                        ],
-                                        [
-                                            150.452838441,
-                                            -34.443491895
-                                        ],
-                                        [
-                                            150.451668915,
-                                            -34.443872268
-                                        ],
-                                        [
-                                            150.450805302,
-                                            -34.443883838
-                                        ],
-                                        [
-                                            150.450320637,
-                                            -34.444154408
-                                        ],
-                                        [
-                                            150.449244992,
-                                            -34.4447548979999
-                                        ],
-                                        [
-                                            150.4490784,
-                                            -34.4448479009999
-                                        ],
-                                        [
-                                            150.447858288,
-                                            -34.444419996
-                                        ],
-                                        [
-                                            150.447058106,
-                                            -34.4441123199999
-                                        ],
-                                        [
-                                            150.445630279,
-                                            -34.4436218659999
-                                        ],
-                                        [
-                                            150.445174908,
-                                            -34.4434266559999
-                                        ],
-                                        [
-                                            150.444038614,
-                                            -34.442639127
-                                        ],
-                                        [
-                                            150.443101171,
-                                            -34.4419674559999
-                                        ],
-                                        [
-                                            150.441919555,
-                                            -34.441120837
-                                        ],
-                                        [
-                                            150.440619681,
-                                            -34.440189489
-                                        ],
-                                        [
-                                            150.440608105,
-                                            -34.440560889
-                                        ],
-                                        [
-                                            150.440726387,
-                                            -34.440885088
-                                        ],
-                                        [
-                                            150.440664773,
-                                            -34.4413233399999
-                                        ],
-                                        [
-                                            150.440804172,
-                                            -34.441515992
-                                        ],
-                                        [
-                                            150.440940972,
-                                            -34.441643228
-                                        ],
-                                        [
-                                            150.44082672,
-                                            -34.4420829159999
-                                        ],
-                                        [
-                                            150.440820347,
-                                            -34.4425851469999
-                                        ],
-                                        [
-                                            150.440479063,
-                                            -34.4426162899999
-                                        ],
-                                        [
-                                            150.440328084,
-                                            -34.44279504
-                                        ],
-                                        [
-                                            150.439785781,
-                                            -34.443071781
-                                        ],
-                                        [
-                                            150.439342685,
-                                            -34.443193015
-                                        ],
-                                        [
-                                            150.439191702,
-                                            -34.443371762
-                                        ],
-                                        [
-                                            150.438985606,
-                                            -34.4435812369999
-                                        ],
-                                        [
-                                            150.438612571,
-                                            -34.443714676
-                                        ],
-                                        [
-                                            150.438446425,
-                                            -34.4442404329999
-                                        ],
-                                        [
-                                            150.438593673,
-                                            -34.444736511
-                                        ],
-                                        [
-                                            150.438210969,
-                                            -34.444947692
-                                        ],
-                                        [
-                                            150.43778234,
-                                            -34.4444311139999
-                                        ],
-                                        [
-                                            150.437438206,
-                                            -34.444222149
-                                        ],
-                                        [
-                                            150.436836687,
-                                            -34.443847633
-                                        ],
-                                        [
-                                            150.437418709,
-                                            -34.443303492
-                                        ],
-                                        [
-                                            150.437130115,
-                                            -34.443209711
-                                        ],
-                                        [
-                                            150.437290095,
-                                            -34.442594151
-                                        ],
-                                        [
-                                            150.437424619,
-                                            -34.4420011129999
-                                        ],
-                                        [
-                                            150.437620443,
-                                            -34.441624689
-                                        ],
-                                        [
-                                            150.437563473,
-                                            -34.4415170999999
-                                        ],
-                                        [
-                                            150.438153948,
-                                            -34.4408541089999
-                                        ],
-                                        [
-                                            150.438216127,
-                                            -34.4404304609999
-                                        ],
-                                        [
-                                            150.438162524,
-                                            -34.440016424
-                                        ],
-                                        [
-                                            150.437872479,
-                                            -34.4393476509999
-                                        ],
-                                        [
-                                            150.437638541,
-                                            -34.438764663
-                                        ]
-                                    ]
-                                ]
-                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -3111,6 +3650,389 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.437638541,
+                                            -34.438764663
+                                        ],
+                                        [
+                                            150.437975478,
+                                            -34.4386245009999
+                                        ],
+                                        [
+                                            150.438373715,
+                                            -34.438700953
+                                        ],
+                                        [
+                                            150.43868,
+                                            -34.4384524819999
+                                        ],
+                                        [
+                                            150.438798589,
+                                            -34.4381218189999
+                                        ],
+                                        [
+                                            150.439055702,
+                                            -34.437962005
+                                        ],
+                                        [
+                                            150.439583368,
+                                            -34.4379319559999
+                                        ],
+                                        [
+                                            150.440168982,
+                                            -34.438030673
+                                        ],
+                                        [
+                                            150.44054511,
+                                            -34.43831427
+                                        ],
+                                        [
+                                            150.439672837,
+                                            -34.438905619
+                                        ],
+                                        [
+                                            150.439828703,
+                                            -34.439512565
+                                        ],
+                                        [
+                                            150.440071636,
+                                            -34.439658735
+                                        ],
+                                        [
+                                            150.440381388,
+                                            -34.439497479
+                                        ],
+                                        [
+                                            150.440600043,
+                                            -34.4390331119999
+                                        ],
+                                        [
+                                            150.441250192,
+                                            -34.4388189059999
+                                        ],
+                                        [
+                                            150.441409267,
+                                            -34.438181535
+                                        ],
+                                        [
+                                            150.440830011,
+                                            -34.436865809
+                                        ],
+                                        [
+                                            150.440949458,
+                                            -34.436556948
+                                        ],
+                                        [
+                                            150.440164019,
+                                            -34.435355989
+                                        ],
+                                        [
+                                            150.440245878,
+                                            -34.434764383
+                                        ],
+                                        [
+                                            150.440072372,
+                                            -34.4343762039999
+                                        ],
+                                        [
+                                            150.439211165,
+                                            -34.433919478
+                                        ],
+                                        [
+                                            150.439150734,
+                                            -34.4337246709999
+                                        ],
+                                        [
+                                            150.439295632,
+                                            -34.4333932879999
+                                        ],
+                                        [
+                                            150.440351758,
+                                            -34.433451777
+                                        ],
+                                        [
+                                            150.440731377,
+                                            -34.433867597
+                                        ],
+                                        [
+                                            150.441343383,
+                                            -34.434537964
+                                        ],
+                                        [
+                                            150.441908178,
+                                            -34.434828141
+                                        ],
+                                        [
+                                            150.442344288,
+                                            -34.434532459
+                                        ],
+                                        [
+                                            150.442998451,
+                                            -34.435082133
+                                        ],
+                                        [
+                                            150.443727515,
+                                            -34.4348657579999
+                                        ],
+                                        [
+                                            150.444215976,
+                                            -34.4352234959999
+                                        ],
+                                        [
+                                            150.445370183,
+                                            -34.435759494
+                                        ],
+                                        [
+                                            150.445495422,
+                                            -34.436258128
+                                        ],
+                                        [
+                                            150.445800543,
+                                            -34.436642702
+                                        ],
+                                        [
+                                            150.447179475,
+                                            -34.436866938
+                                        ],
+                                        [
+                                            150.447543575,
+                                            -34.4367478359999
+                                        ],
+                                        [
+                                            150.449109101,
+                                            -34.437687292
+                                        ],
+                                        [
+                                            150.449724309,
+                                            -34.438476523
+                                        ],
+                                        [
+                                            150.450483249,
+                                            -34.4391121959999
+                                        ],
+                                        [
+                                            150.450339254,
+                                            -34.4394653959999
+                                        ],
+                                        [
+                                            150.450388375,
+                                            -34.4397999949999
+                                        ],
+                                        [
+                                            150.450505373,
+                                            -34.4403718029999
+                                        ],
+                                        [
+                                            150.450739659,
+                                            -34.44091695
+                                        ],
+                                        [
+                                            150.45098239,
+                                            -34.441717963
+                                        ],
+                                        [
+                                            150.451096363,
+                                            -34.441933128
+                                        ],
+                                        [
+                                            150.451909249,
+                                            -34.442268547
+                                        ],
+                                        [
+                                            150.452656371,
+                                            -34.4426686259999
+                                        ],
+                                        [
+                                            150.453671729,
+                                            -34.4430849899999
+                                        ],
+                                        [
+                                            150.452838441,
+                                            -34.443491895
+                                        ],
+                                        [
+                                            150.451668915,
+                                            -34.443872268
+                                        ],
+                                        [
+                                            150.450805302,
+                                            -34.443883838
+                                        ],
+                                        [
+                                            150.450320637,
+                                            -34.444154408
+                                        ],
+                                        [
+                                            150.449244992,
+                                            -34.4447548979999
+                                        ],
+                                        [
+                                            150.4490784,
+                                            -34.4448479009999
+                                        ],
+                                        [
+                                            150.447858288,
+                                            -34.444419996
+                                        ],
+                                        [
+                                            150.447058106,
+                                            -34.4441123199999
+                                        ],
+                                        [
+                                            150.445630279,
+                                            -34.4436218659999
+                                        ],
+                                        [
+                                            150.445174908,
+                                            -34.4434266559999
+                                        ],
+                                        [
+                                            150.444038614,
+                                            -34.442639127
+                                        ],
+                                        [
+                                            150.443101171,
+                                            -34.4419674559999
+                                        ],
+                                        [
+                                            150.441919555,
+                                            -34.441120837
+                                        ],
+                                        [
+                                            150.440619681,
+                                            -34.440189489
+                                        ],
+                                        [
+                                            150.440608105,
+                                            -34.440560889
+                                        ],
+                                        [
+                                            150.440726387,
+                                            -34.440885088
+                                        ],
+                                        [
+                                            150.440664773,
+                                            -34.4413233399999
+                                        ],
+                                        [
+                                            150.440804172,
+                                            -34.441515992
+                                        ],
+                                        [
+                                            150.440940972,
+                                            -34.441643228
+                                        ],
+                                        [
+                                            150.44082672,
+                                            -34.4420829159999
+                                        ],
+                                        [
+                                            150.440820347,
+                                            -34.4425851469999
+                                        ],
+                                        [
+                                            150.440479063,
+                                            -34.4426162899999
+                                        ],
+                                        [
+                                            150.440328084,
+                                            -34.44279504
+                                        ],
+                                        [
+                                            150.439785781,
+                                            -34.443071781
+                                        ],
+                                        [
+                                            150.439342685,
+                                            -34.443193015
+                                        ],
+                                        [
+                                            150.439191702,
+                                            -34.443371762
+                                        ],
+                                        [
+                                            150.438985606,
+                                            -34.4435812369999
+                                        ],
+                                        [
+                                            150.438612571,
+                                            -34.443714676
+                                        ],
+                                        [
+                                            150.438446425,
+                                            -34.4442404329999
+                                        ],
+                                        [
+                                            150.438593673,
+                                            -34.444736511
+                                        ],
+                                        [
+                                            150.438210969,
+                                            -34.444947692
+                                        ],
+                                        [
+                                            150.43778234,
+                                            -34.4444311139999
+                                        ],
+                                        [
+                                            150.437438206,
+                                            -34.444222149
+                                        ],
+                                        [
+                                            150.436836687,
+                                            -34.443847633
+                                        ],
+                                        [
+                                            150.437418709,
+                                            -34.443303492
+                                        ],
+                                        [
+                                            150.437130115,
+                                            -34.443209711
+                                        ],
+                                        [
+                                            150.437290095,
+                                            -34.442594151
+                                        ],
+                                        [
+                                            150.437424619,
+                                            -34.4420011129999
+                                        ],
+                                        [
+                                            150.437620443,
+                                            -34.441624689
+                                        ],
+                                        [
+                                            150.437563473,
+                                            -34.4415170999999
+                                        ],
+                                        [
+                                            150.438153948,
+                                            -34.4408541089999
+                                        ],
+                                        [
+                                            150.438216127,
+                                            -34.4404304609999
+                                        ],
+                                        [
+                                            150.438162524,
+                                            -34.440016424
+                                        ],
+                                        [
+                                            150.437872479,
+                                            -34.4393476509999
+                                        ],
+                                        [
+                                            150.437638541,
+                                            -34.438764663
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -3429,11 +4351,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/564891",
-                "created": "2024-09-18T06:48:00+10:00",
-                "updated": "2024-09-18T16:48:00+10:00",
+                "created": "2024-09-19T00:44:00+10:00",
+                "updated": "2024-09-19T10:44:00+10:00",
                 "location": "Stuarts Road, 3.5km SW of Corindi",
                 "size": 62,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: Stuarts Road, 3.5km SW of Corindi <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 62 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 18 Sep 2024 16:48",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: Stuarts Road, 3.5km SW of Corindi <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 62 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 19 Sep 2024 10:44",
                 "title": "incident: fire"
             }
         },
@@ -3985,30 +4907,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.65390014600007,
-                    -31.37298536199995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Riamukka SF HR",
-                "category": "fire",
-                "subcategory": "hazard reduction",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566711",
-                "created": "2024-09-10T22:26:00+10:00",
-                "updated": "2024-09-11T08:26:00+10:00",
-                "location": "RIAMUKKA 5234 BRACKENDALE RD, NOWENDOC NSW 2354",
-                "size": 15,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: RIAMUKKA 5234 BRACKENDALE RD, NOWENDOC NSW 2354 <br />COUNCIL AREA: Walcha <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 15 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 11 Sep 2024 08:26",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -4552,8 +5450,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.64477539100005,
-                    -33.22647094699994
+                    149.6274375920001,
+                    -33.24073346999995
                 ]
             },
             "properties": {
@@ -4813,23 +5711,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.21228027300003,
-                    -28.941104888999973
+                    148.16799926800002,
+                    -33.894683836999945
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "BRUXNER HWY, SANDY HILL",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/566830",
-                "created": "2024-09-18T09:22:00+10:00",
-                "updated": "2024-09-18T19:22:00+10:00",
-                "location": "9958 BRUXNER HWY, SANDY HILL 2372",
+                "sourceTitle": "CAMP ST, GRENFELL",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/567873",
+                "created": "2024-09-19T01:01:00+10:00",
+                "updated": "2024-09-19T11:01:00+10:00",
+                "location": "CAMP ST, GRENFELL 2810",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 9958 BRUXNER HWY, SANDY HILL 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Sep 2024 19:22",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CAMP ST, GRENFELL 2810 <br />COUNCIL AREA: Weddin <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Sep 2024 11:01",
+                "title": "incident: other"
             }
         },
         {
@@ -4853,6 +5751,54 @@
                 "location": "DELEGATE RD, LORDS HILL 2632",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: DELEGATE RD, LORDS HILL 2632 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 07:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.67640686000004,
+                    -33.597946166999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GROSE WOLD RD, GROSE WOLD",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/567865",
+                "created": "2024-09-19T00:50:00+10:00",
+                "updated": "2024-09-19T10:50:00+10:00",
+                "location": "146 GROSE WOLD RD, GROSE WOLD 2753",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 146 GROSE WOLD RD, GROSE WOLD 2753 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.16459655800008,
+                    -33.51108932499994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "KALINDA RD, BAR POINT",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/567872",
+                "created": "2024-09-19T00:57:00+10:00",
+                "updated": "2024-09-19T10:57:00+10:00",
+                "location": "71 KALINDA RD, BAR POINT 2083",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 71 KALINDA RD, BAR POINT 2083 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:57",
                 "title": "incident: fire"
             }
         },
@@ -4978,6 +5924,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.97053527900005,
+                    -34.19214630099998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PRINCES HWY, HELENSBURGH",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/567870",
+                "created": "2024-09-19T00:53:00+10:00",
+                "updated": "2024-09-19T10:53:00+10:00",
+                "location": "86 PRINCES HWY, HELENSBURGH 2508",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 86 PRINCES HWY, HELENSBURGH 2508 <br />COUNCIL AREA: Wollongong <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:53",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.84451294000007,
                     -34.61787033099995
                 ]
@@ -5042,6 +6012,30 @@
                 "location": "617 WEROMBI RD, ORANGEVILLE 2570",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 617 WEROMBI RD, ORANGEVILLE 2570 <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 18 Sep 2024 16:51",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.0699768060001,
+                    -34.308101653999984
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WOMBEYAN CAVES RD, GOODMANS FORD",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/567867",
+                "created": "2024-09-19T00:27:00+10:00",
+                "updated": "2024-09-19T10:27:00+10:00",
+                "location": "WOMBEYAN CAVES RD, GOODMANS FORD 2575",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WOMBEYAN CAVES RD, GOODMANS FORD 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Sep 2024 10:27",
                 "title": "incident: fire"
             }
         }
