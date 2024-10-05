@@ -4,10 +4,123 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.17987060600012,
-                    -29.19822539699993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.17987060600012,
+                            -29.19822539699993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.18561339,
+                                            -29.2098293289999
+                                        ],
+                                        [
+                                            152.184292789,
+                                            -29.2105074749999
+                                        ],
+                                        [
+                                            152.183436183,
+                                            -29.210543166
+                                        ],
+                                        [
+                                            152.182793729,
+                                            -29.210043479
+                                        ],
+                                        [
+                                            152.18225835,
+                                            -29.2092582569999
+                                        ],
+                                        [
+                                            152.18150882,
+                                            -29.208687186
+                                        ],
+                                        [
+                                            152.179438688,
+                                            -29.206866899
+                                        ],
+                                        [
+                                            152.177939628,
+                                            -29.2047967679999
+                                        ],
+                                        [
+                                            152.176619027,
+                                            -29.203583243
+                                        ],
+                                        [
+                                            152.176047957,
+                                            -29.202084182
+                                        ],
+                                        [
+                                            152.176690412,
+                                            -29.201156193
+                                        ],
+                                        [
+                                            152.177404249,
+                                            -29.1995857479999
+                                        ],
+                                        [
+                                            152.177939628,
+                                            -29.19812238
+                                        ],
+                                        [
+                                            152.17854639,
+                                            -29.197265774
+                                        ],
+                                        [
+                                            152.179902684,
+                                            -29.196694704
+                                        ],
+                                        [
+                                            152.18018822,
+                                            -29.197729769
+                                        ],
+                                        [
+                                            152.180295294,
+                                            -29.199407289
+                                        ],
+                                        [
+                                            152.180545138,
+                                            -29.201406036
+                                        ],
+                                        [
+                                            152.180545138,
+                                            -29.203083556
+                                        ],
+                                        [
+                                            152.180973442,
+                                            -29.204582616
+                                        ],
+                                        [
+                                            152.181722972,
+                                            -29.206224445
+                                        ],
+                                        [
+                                            152.183471875,
+                                            -29.207509353
+                                        ],
+                                        [
+                                            152.184792477,
+                                            -29.2078662719999
+                                        ],
+                                        [
+                                            152.18561339,
+                                            -29.2098293289999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -116,61 +229,13 @@
                 "sourceTitle": "Bukulla Station",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569766",
-                "created": "2024-10-05T06:30:00+10:00",
-                "updated": "2024-10-05T16:30:00+10:00",
+                "created": "2024-10-05T08:29:00+10:00",
+                "updated": "2024-10-05T18:29:00+10:00",
                 "location": "5392 EAST CULGOA RD, WEILMORINGLE 2839",
                 "size": 22,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 5392 EAST CULGOA RD, WEILMORINGLE 2839 <br />COUNCIL AREA: Brewarrina <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 22 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 16:30",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.60552200000006,
-                    -32.98439499999995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Enterprise Way, Woodrising",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569783",
-                "created": "2024-10-05T08:05:00+10:00",
-                "updated": "2024-10-05T18:05:00+10:00",
-                "location": "34 Enterprise Way, Woodrising, NSW 2284",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 34 Enterprise Way, Woodrising, NSW 2284 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 5 Oct 2024 18:05",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.86909484800003,
-                    -33.65581512499995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "PRINCES ST, GRANTHAM FARM",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569784",
-                "created": "2024-10-05T08:10:00+10:00",
-                "updated": "2024-10-05T18:10:00+10:00",
-                "location": "PRINCES ST, GRANTHAM FARM 2765",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: PRINCES ST, GRANTHAM FARM 2765 <br />COUNCIL AREA: Blacktown <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:10",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 5392 EAST CULGOA RD, WEILMORINGLE 2839 <br />COUNCIL AREA: Brewarrina <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 22 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:29",
                 "title": "incident: fire"
             }
         },
@@ -251,6 +316,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.63670349100005,
+                    -34.012008666999975
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "590 East Bland Lane, Bland",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569791",
+                "created": "2024-10-05T07:15:00+10:00",
+                "updated": "2024-10-05T17:15:00+10:00",
+                "location": "DRUMWOOD 590 EAST BLAND LANE, BLAND NSW 2721",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: DRUMWOOD 590 EAST BLAND LANE, BLAND NSW 2721 <br />COUNCIL AREA: Bland <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 17:15",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.48875427300004,
                     -30.806600570999933
                 ]
@@ -283,14 +372,14 @@
                 "feedType": "incident",
                 "sourceTitle": "ARMIDALE RD, DEEP CREEK",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "burn off",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569785",
-                "created": "2024-10-05T07:56:00+10:00",
-                "updated": "2024-10-05T17:56:00+10:00",
+                "created": "2024-10-05T08:38:00+10:00",
+                "updated": "2024-10-05T18:38:00+10:00",
                 "location": "1327 ARMIDALE RD, DEEP CREEK 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1327 ARMIDALE RD, DEEP CREEK 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 17:56",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1327 ARMIDALE RD, DEEP CREEK 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:38",
                 "title": "incident: fire"
             }
         },
@@ -299,22 +388,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.02815246500006,
-                    -32.73621368399995
+                    149.46580505400004,
+                    -35.60378265399993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "BLANCH ST, LEMON TREE PASSAGE",
+                "sourceTitle": "CAPTAINS FLAT RD, CAPTAINS FLAT",
                 "category": "other",
-                "subcategory": "fire alarm",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569779",
-                "created": "2024-10-05T07:30:00+10:00",
-                "updated": "2024-10-05T17:30:00+10:00",
-                "location": "16 BLANCH ST, LEMON TREE PASSAGE 2319",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569792",
+                "created": "2024-10-05T08:32:00+10:00",
+                "updated": "2024-10-05T18:32:00+10:00",
+                "location": "4415 CAPTAINS FLAT RD, CAPTAINS FLAT 2623",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 16 BLANCH ST, LEMON TREE PASSAGE 2319 <br />COUNCIL AREA: Port Stephens <br />STATUS: Being controlled <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 17:30",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4415 CAPTAINS FLAT RD, CAPTAINS FLAT 2623 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:32",
                 "title": "incident: other"
             }
         },
@@ -331,14 +420,14 @@
                 "feedType": "incident",
                 "sourceTitle": "CHATSWORTH RD, CHATSWORTH",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
+                "subcategory": "burn off",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569787",
-                "created": "2024-10-05T08:11:00+10:00",
-                "updated": "2024-10-05T18:11:00+10:00",
+                "created": "2024-10-05T08:20:00+10:00",
+                "updated": "2024-10-05T18:20:00+10:00",
                 "location": "CHATSWORTH RD, CHATSWORTH 2469",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CHATSWORTH RD, CHATSWORTH 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:11",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CHATSWORTH RD, CHATSWORTH 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:20",
                 "title": "incident: fire"
             }
         },
@@ -843,6 +932,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.5243072510001,
+                    -28.38699531499998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CUDGERA CREEK RD, CUDGERA CREEK",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569793",
+                "created": "2024-10-05T08:33:00+10:00",
+                "updated": "2024-10-05T18:33:00+10:00",
+                "location": "999 CUDGERA CREEK RD, CUDGERA CREEK 2484",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 999 CUDGERA CREEK RD, CUDGERA CREEK 2484 <br />COUNCIL AREA: Tweed <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:33",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.45799255400004,
                     -33.47840118399995
                 ]
@@ -867,22 +980,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.099380493,
-                    -36.03337860099998
+                    150.7975921630001,
+                    -33.94652557399996
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "FOREST LAKE CL, TURLINJAH",
+                "sourceTitle": "LIVESTOCK ST, AUSTRAL",
                 "category": "other",
                 "subcategory": "assist other agency",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569781",
-                "created": "2024-10-05T07:59:00+10:00",
-                "updated": "2024-10-05T17:59:00+10:00",
-                "location": "53 FOREST LAKE CL, TURLINJAH 2537",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569789",
+                "created": "2024-10-05T08:33:00+10:00",
+                "updated": "2024-10-05T18:33:00+10:00",
+                "location": "6 LIVESTOCK ST, AUSTRAL 2179",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 53 FOREST LAKE CL, TURLINJAH 2537 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 17:59",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6 LIVESTOCK ST, AUSTRAL 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:33",
                 "title": "incident: other"
             }
         },
@@ -900,14 +1013,62 @@
                 "sourceTitle": "PAPERBARK DR, FOREST HILL",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569782",
-                "created": "2024-10-05T07:44:00+10:00",
-                "updated": "2024-10-05T17:44:00+10:00",
+                "created": "2024-10-05T08:26:00+10:00",
+                "updated": "2024-10-05T18:26:00+10:00",
                 "location": "16 PAPERBARK DR, FOREST HILL 2651",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 16 PAPERBARK DR, FOREST HILL 2651 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 17:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 16 PAPERBARK DR, FOREST HILL 2651 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:26",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.790557862,
+                    -34.28071212799995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "TARALGA RD, CURRAWEELA",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569790",
+                "created": "2024-10-05T08:18:00+10:00",
+                "updated": "2024-10-05T18:18:00+10:00",
+                "location": "5948 TARALGA RD, CURRAWEELA 2580",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 5948 TARALGA RD, CURRAWEELA 2580 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.57449340800008,
+                    -28.336460113999976
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "TWEED COAST RD",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569788",
+                "created": "2024-10-05T08:28:00+10:00",
+                "updated": "2024-10-05T18:28:00+10:00",
+                "location": "CABARITA BEACH LIONS PARK TWEED COAST RD, CABARITA BEACH 2488",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CABARITA BEACH LIONS PARK TWEED COAST RD, CABARITA BEACH 2488 <br />COUNCIL AREA: Tweed <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 18:28",
+                "title": "incident: fire"
             }
         },
         {
@@ -931,30 +1092,6 @@
                 "location": "2 WILSON DR, HILL TOP 2575",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2 WILSON DR, HILL TOP 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Oct 2024 15:28",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.15417480500003,
-                    -30.134662627999944
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "WOOLGOOLGA CREEK RD, WOOLGOOLGA",
-                "category": "fire",
-                "subcategory": "car fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569780",
-                "created": "2024-10-05T07:32:00+10:00",
-                "updated": "2024-10-05T17:32:00+10:00",
-                "location": "WOOLGOOLGA CREEK RD, WOOLGOOLGA 2456",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WOOLGOOLGA CREEK RD, WOOLGOOLGA 2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Out of control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Oct 2024 17:32",
                 "title": "incident: fire"
             }
         },
