@@ -487,10 +487,115 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.94683837900004,
-                    -33.59191131599994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.94663739200007,
+                            -33.58949803699994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.945708306,
+                                            -33.5898904059999
+                                        ],
+                                        [
+                                            150.94577969,
+                                            -33.5896167669999
+                                        ],
+                                        [
+                                            150.946041431,
+                                            -33.589378822
+                                        ],
+                                        [
+                                            150.946362658,
+                                            -33.5892003619999
+                                        ],
+                                        [
+                                            150.947005113,
+                                            -33.589128978
+                                        ],
+                                        [
+                                            150.947385827,
+                                            -33.589152773
+                                        ],
+                                        [
+                                            150.947588081,
+                                            -33.5891051839999
+                                        ],
+                                        [
+                                            150.947659464,
+                                            -33.588926725
+                                        ],
+                                        [
+                                            150.948194844,
+                                            -33.589128978
+                                        ],
+                                        [
+                                            150.948361406,
+                                            -33.589402617
+                                        ],
+                                        [
+                                            150.9483852,
+                                            -33.589902304
+                                        ],
+                                        [
+                                            150.948230535,
+                                            -33.5901402489999
+                                        ],
+                                        [
+                                            150.948171049,
+                                            -33.5902592219999
+                                        ],
+                                        [
+                                            150.947837924,
+                                            -33.590294914
+                                        ],
+                                        [
+                                            150.947576183,
+                                            -33.5903068109999
+                                        ],
+                                        [
+                                            150.947231161,
+                                            -33.5900331729999
+                                        ],
+                                        [
+                                            150.946898037,
+                                            -33.590068866
+                                        ],
+                                        [
+                                            150.946207993,
+                                            -33.5900093779999
+                                        ],
+                                        [
+                                            150.945946253,
+                                            -33.590045071
+                                        ],
+                                        [
+                                            150.94577969,
+                                            -33.590021276
+                                        ],
+                                        [
+                                            150.945767793,
+                                            -33.590021276
+                                        ],
+                                        [
+                                            150.945708306,
+                                            -33.5898904059999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -652,30 +757,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.93948364200003,
-                    -29.774259566999945
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ORARA WAY, BRAUNSTONE",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569899",
-                "created": "2024-10-06T08:30:00+11:00",
-                "updated": "2024-10-06T19:30:00+11:00",
-                "location": "5703 ORARA WAY, BRAUNSTONE 2460",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 5703 ORARA WAY, BRAUNSTONE 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2024 19:30",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -759,6 +840,30 @@
                 "location": "LOT 118>CLEARVIEW RD, BLAXLANDS CREEK 2460",
                 "size": 3,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: LOT 118>CLEARVIEW RD, BLAXLANDS CREEK 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2024 15:06",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.73263549800004,
+                    -33.70575332599998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "SEVENTH AV, LLANDILO",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569910",
+                "created": "2024-10-06T09:43:00+11:00",
+                "updated": "2024-10-06T20:43:00+11:00",
+                "location": "SEVENTH AV, LLANDILO 2747",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: SEVENTH AV, LLANDILO 2747 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2024 20:43",
                 "title": "incident: fire"
             }
         },
@@ -970,6 +1075,57 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.067380001,
+                                            -35.219810001
+                                        ],
+                                        [
+                                            149.06738,
+                                            -35.2199000009999
+                                        ],
+                                        [
+                                            149.067269999,
+                                            -35.219890001
+                                        ],
+                                        [
+                                            149.067200001,
+                                            -35.219800001
+                                        ],
+                                        [
+                                            149.06716,
+                                            -35.219500002
+                                        ],
+                                        [
+                                            149.06716,
+                                            -35.2194900009999
+                                        ],
+                                        [
+                                            149.067269999,
+                                            -35.2194900009999
+                                        ],
+                                        [
+                                            149.06728,
+                                            -35.219570001
+                                        ],
+                                        [
+                                            149.067300001,
+                                            -35.2196700009999
+                                        ],
+                                        [
+                                            149.06736,
+                                            -35.219770001
+                                        ],
+                                        [
+                                            149.067380001,
+                                            -35.219810001
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -1332,57 +1488,6 @@
                                         ]
                                     ]
                                 ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.067380001,
-                                            -35.219810001
-                                        ],
-                                        [
-                                            149.06738,
-                                            -35.2199000009999
-                                        ],
-                                        [
-                                            149.067269999,
-                                            -35.219890001
-                                        ],
-                                        [
-                                            149.067200001,
-                                            -35.219800001
-                                        ],
-                                        [
-                                            149.06716,
-                                            -35.219500002
-                                        ],
-                                        [
-                                            149.06716,
-                                            -35.2194900009999
-                                        ],
-                                        [
-                                            149.067269999,
-                                            -35.2194900009999
-                                        ],
-                                        [
-                                            149.06728,
-                                            -35.219570001
-                                        ],
-                                        [
-                                            149.067300001,
-                                            -35.2196700009999
-                                        ],
-                                        [
-                                            149.06736,
-                                            -35.219770001
-                                        ],
-                                        [
-                                            149.067380001,
-                                            -35.219810001
-                                        ]
-                                    ]
-                                ]
                             }
                         ]
                     }
@@ -1448,6 +1553,30 @@
                 "location": "1107 MAMRE RD, KEMPS CREEK 2178",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1107 MAMRE RD, KEMPS CREEK 2178 <br />COUNCIL AREA: Penrith <br />STATUS: Under control <br />TYPE: Truck Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2024 11:49",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.22009277400002,
+                    -33.47006225599995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NEWNES FOREST RD, CLARENCE",
+                "category": "fire",
+                "subcategory": "car fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/569909",
+                "created": "2024-10-06T09:38:00+11:00",
+                "updated": "2024-10-06T20:38:00+11:00",
+                "location": "22 NEWNES FOREST RD, CLARENCE 2790",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 22 NEWNES FOREST RD, CLARENCE 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Out of control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Oct 2024 20:38",
                 "title": "incident: fire"
             }
         },
