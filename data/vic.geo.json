@@ -398,7 +398,7 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "created": "2024-10-10T11:44:00+11:00",
-                "updated": "2024-10-13T13:52:00+11:00",
+                "updated": "2024-10-14T13:08:00+11:00",
                 "id": 1000382,
                 "location": "10Km Nw Koondrook",
                 "size": "7.00",
@@ -419,12 +419,12 @@
                 "sourceTitle": "Macalister 4 - Macks Creek - Tarra Valley Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "contained",
+                "status": "under control",
                 "created": "2024-10-14T11:00:00+11:00",
-                "updated": "2024-10-14T11:45:00+11:00",
+                "updated": "2024-10-14T12:25:00+11:00",
                 "id": 1000413,
                 "location": "5Km Nw Devon North",
-                "size": "0.10",
+                "size": "0.30",
                 "title": "incident: fire"
             },
             "type": "Feature",
@@ -600,14 +600,81 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "request for assistance",
+                "created": "2024-10-14T13:06:00+11:00",
+                "updated": "2024-10-14T13:20:00+11:00",
+                "id": "ESTA:241016571",
+                "location": "Golden Square",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.25542134919152,
+                    -36.77475982433973
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2024-10-14T11:30:00+11:00",
+                "updated": "2024-10-14T13:23:00+11:00",
+                "id": "ESTA:241050891",
+                "location": "St Kilda",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98227707631818,
+                    -37.87086368685592
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Shepparton",
+                "category": "other",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2024-10-14T11:43:00+11:00",
-                "updated": "2024-10-14T11:59:00+11:00",
-                "id": "ESTA:241016435",
-                "location": "Caldermeade",
+                "status": "responding",
+                "created": "2024-10-14T13:22:01+11:00",
+                "updated": "2024-10-14T13:26:48+11:00",
+                "id": "ESTA:241016592",
+                "location": "Wilmot Rd, Shepparton",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.40136277690152,
+                    -36.39777438670421
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Traralgon-Maffra Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "not yet under control",
+                "created": "2024-10-14T13:16:00+11:00",
+                "updated": "2024-10-14T13:16:00+11:00",
+                "id": "ESTA:241016579",
+                "location": "Traralgon-Maffra Rd, Heyfield",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -615,8 +682,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.5372089119488,
-                    -38.24613133571747
+                    146.77795486505707,
+                    -37.988596194626766
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Footscray",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2024-10-14T13:24:51+11:00",
+                "updated": "2024-10-14T13:27:55+11:00",
+                "id": "ESTA:241016603",
+                "location": "Latrobe St, Footscray",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8899135372825,
+                    -37.79748100079188
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Caldermeade",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-10-14T11:42:25+11:00",
+                "updated": "2024-10-14T13:29:08+11:00",
+                "id": "ESTA:241016435",
+                "location": "Caldermeade",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.53721687757186,
+                    -38.24611743681507
                 ]
             }
         },
@@ -626,11 +737,11 @@
                 "sourceTitle": "Untitled",
                 "category": "rescue",
                 "subcategory": "road accident",
-                "status": "under control",
-                "created": "2024-10-14T12:02:00+11:00",
-                "updated": "2024-10-14T12:10:00+11:00",
-                "id": "ESTA:241016476",
-                "location": "Epping",
+                "status": "safe",
+                "created": "2024-10-14T13:03:00+11:00",
+                "updated": "2024-10-14T13:18:00+11:00",
+                "id": "ESTA:241016566",
+                "location": "Avenel",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -638,8 +749,52 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0263034991445,
-                    -37.64461798227764
+                    145.19334079134381,
+                    -36.87201188309545
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Fitzroy North",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2024-10-14T13:30:42+11:00",
+                "updated": "2024-10-14T13:31:36+11:00",
+                "id": "ESTA:241016611",
+                "location": "Barkly St, Fitzroy North",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97903124606785,
+                    -37.777947796933994
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mulgrave",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2024-10-14T13:28:57+11:00",
+                "updated": "2024-10-14T13:33:14+11:00",
+                "id": "ESTA:241016606",
+                "location": "Adare Cl, Mulgrave",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18531614610157,
+                    -37.930666476564895
                 ]
             }
         },
@@ -1940,9 +2095,9 @@
                 "category": "fire",
                 "subcategory": "other non-urgent alerts",
                 "status": "under control",
-                "created": "2024-10-13T21:03:00+11:00",
-                "updated": "2024-10-13T21:03:00+11:00",
-                "id": "2024-10-13T21:03:00.0000000:570566",
+                "created": "2024-10-14T12:40:00+11:00",
+                "updated": "2024-10-14T12:40:00+11:00",
+                "id": "2024-10-14T12:40:00.0000000:570566",
                 "location": "Little Manly Lane, Curlwaa 2648",
                 "title": "incident: fire"
             },
@@ -2005,9 +2160,9 @@
                 "sourceTitle": "Tarra Valley Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
+                "status": "safe",
                 "created": "2024-10-14T10:27:00+11:00",
-                "updated": "2024-10-14T11:01:00+11:00",
+                "updated": "2024-10-14T12:56:00+11:00",
                 "id": "ESTA:241016281",
                 "location": "Tarra Valley Rd, Tarra Valley",
                 "size": "Small",
@@ -2025,37 +2180,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hume Fwy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-10-14T10:48:00+11:00",
-                "updated": "2024-10-14T11:36:00+11:00",
-                "id": "ESTA:241016325",
-                "location": "Hume Fwy, Baddaginnie",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.84202139217427,
-                    -36.5967310157357
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Winter Rd",
+                "sourceTitle": "Strachan St",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2024-10-14T10:32:00+11:00",
-                "updated": "2024-10-14T11:46:00+11:00",
-                "id": "ESTA:241016290",
-                "location": "Winter Rd, Girgarre",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2024-10-14T12:26:00+11:00",
+                "updated": "2024-10-14T13:02:00+11:00",
+                "id": "ESTA:241016513",
+                "location": "Strachan St, Birregurra",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -2063,8 +2195,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99350806901882,
-                    -36.39855898036023
+                    143.78167442313148,
+                    -38.34326783860909
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hume Fwy",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "safe",
+                "created": "2024-10-14T12:38:00+11:00",
+                "updated": "2024-10-14T13:03:00+11:00",
+                "id": "ESTA:241016529",
+                "location": "Hume Fwy, Locksley",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.33865327709955,
+                    -36.84939939698692
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "request for assistance",
+                "created": "2024-10-14T13:22:00+11:00",
+                "updated": "2024-10-14T13:29:00+11:00",
+                "id": "ESTA:241016589",
+                "location": "Pakenham",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.48319190575734,
+                    -38.06325176036621
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2024-10-14T12:26:00+11:00",
+                "updated": "2024-10-14T13:02:00+11:00",
+                "id": "ESTA:241016512",
+                "location": "Balmoral",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.82253044916325,
+                    -37.257155022373794
                 ]
             }
         },
@@ -2072,22 +2273,22 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2024-10-14T11:45:00+11:00",
-                "updated": "2024-10-14T11:55:00+11:00",
-                "id": "ESTA:241016446",
-                "location": "Belgrave",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2024-10-14T12:02:00+11:00",
+                "updated": "2024-10-14T12:48:00+11:00",
+                "id": "ESTA:241016476",
+                "location": "Epping",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.35510285332586,
-                    -37.90836948170834
+                    145.0263034991445,
+                    -37.64461798227764
                 ]
             }
         },
@@ -2117,43 +2318,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2024-10-14T11:30:00+11:00",
-                "updated": "2024-10-14T11:32:00+11:00",
-                "id": "ESTA:241050891",
-                "location": "St Kilda",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98227707631818,
-                    -37.87086368685592
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "rescue vehicle into structure",
-                "status": "on scene",
-                "created": "2024-10-14T11:45:00+11:00",
-                "updated": "2024-10-14T12:02:00+11:00",
-                "id": "ESTA:241050894",
-                "location": "Belgrave",
+                "subcategory": "rescue persons trapped",
+                "status": "complete",
+                "created": "2024-10-14T13:25:00+11:00",
+                "updated": "2024-10-14T13:33:00+11:00",
+                "id": "ESTA:241050901",
+                "location": "Pakenham",
                 "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.35510285332586,
-                    -37.90836948170834
+                    145.48319190575734,
+                    -38.06325176036621
                 ]
             }
         }
