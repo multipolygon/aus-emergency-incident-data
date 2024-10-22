@@ -395,9 +395,9 @@
                 "sourceTitle": "St Arnaud - Franklin Rd",
                 "category": "fire",
                 "subcategory": "planned burn",
-                "status": "in progress",
-                "created": "2024-10-22T10:50:40+11:00",
-                "updated": "2024-10-22T10:50:40+11:00",
+                "status": "patrolled",
+                "created": "2024-10-22T18:09:21+11:00",
+                "updated": "2024-10-22T18:09:21+11:00",
                 "id": 3006485,
                 "location": "1Km Sw Of St Arnaud",
                 "size": "31.14",
@@ -530,23 +530,113 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mt Pinniger Rd",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "Holt Ct",
+                "category": "fire",
+                "subcategory": "building fire",
                 "status": "safe",
-                "created": "2024-10-22T17:51:00+11:00",
-                "updated": "2024-10-22T17:55:00+11:00",
-                "id": "ESTA:241025237",
-                "location": "Mt Pinniger Rd, Eildon",
+                "created": "2024-10-22T18:22:00+11:00",
+                "updated": "2024-10-22T18:29:00+11:00",
+                "id": "ESTA:241025262",
+                "location": "Holt Ct, Springvale South",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.93956417830915,
-                    -37.2275101409696
+                    145.13181844139459,
+                    -37.96114382651882
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Deer Park",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2024-10-22T18:30:47+11:00",
+                "updated": "2024-10-22T18:32:32+11:00",
+                "id": "ESTA:241025269",
+                "location": "Dumfries St, Deer Park",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.77113052007405,
+                    -37.762352495114996
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-10-22T18:16:00+11:00",
+                "updated": "2024-10-22T18:27:00+11:00",
+                "id": "ESTA:241025255",
+                "location": "Wyuna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03205055842483,
+                    -36.25472651155704
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Melbourne",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2024-10-22T18:33:02+11:00",
+                "updated": "2024-10-22T18:33:12+11:00",
+                "id": "ESTA:241025271",
+                "location": "Melbourne",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96315932434896,
+                    -37.814247707455195
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2024-10-22T18:22:00+11:00",
+                "updated": "2024-10-22T18:35:00+11:00",
+                "id": "ESTA:241025260",
+                "location": "Myrtleford",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.71473332636623,
+                    -36.555254427855346
                 ]
             }
         },
@@ -557,18 +647,40 @@
                 "category": "fire",
                 "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2024-10-22T18:04:57+11:00",
-                "updated": "2024-10-22T18:11:08+11:00",
-                "id": "ESTA:241025250",
-                "location": "Flinders Lane, Melbourne",
+                "created": "2024-10-22T18:30:22+11:00",
+                "updated": "2024-10-22T18:36:10+11:00",
+                "id": "ESTA:241025270",
+                "location": "Collins St, Melbourne",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9652314186167,
-                    -37.8171204871176
+                    144.96443361823805,
+                    -37.81634383896237
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Richmond",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2024-10-22T18:37:51+11:00",
+                "updated": "2024-10-22T18:38:45+11:00",
+                "id": "ESTA:241025273",
+                "location": "Bromham Pl, Richmond",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99812448926008,
+                    -37.81528877989794
                 ]
             }
         },
@@ -1628,28 +1740,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Bowna Waters Rd, Table Top",
-                "category": "transport",
-                "subcategory": "motor vehicle accident",
-                "status": "under control",
-                "created": "2024-10-22T18:03:00+11:00",
-                "updated": "2024-10-22T18:03:00+11:00",
-                "id": "2024-10-22T18:03:00.0000000:572245",
-                "location": "159 Bowna Waters Rd, Table Top 2640",
-                "title": "incident: transport"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.051437378,
-                    -36.003704071
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "aircraft accident",
@@ -1673,60 +1763,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Otway St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-10-22T17:21:00+11:00",
-                "updated": "2024-10-22T17:22:00+11:00",
-                "id": "ESTA:241025211",
-                "location": "Otway St, Ballarat East",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.8765960124232,
-                    -37.567533055495595
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Niagara Ct",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-10-22T17:13:00+11:00",
-                "updated": "2024-10-22T17:29:00+11:00",
-                "id": "ESTA:241025208",
-                "location": "Niagara Ct, Hampton Park",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2575295295719,
-                    -38.042810655810015
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Mt Pinniger Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
                 "status": "safe",
-                "created": "2024-10-22T16:27:00+11:00",
-                "updated": "2024-10-22T17:37:00+11:00",
-                "id": "ESTA:241025182",
-                "location": "Creswick",
+                "created": "2024-10-22T17:51:00+11:00",
+                "updated": "2024-10-22T17:55:00+11:00",
+                "id": "ESTA:241025237",
+                "location": "Mt Pinniger Rd, Eildon",
                 "size": "Small",
                 "title": "incident: hazardous material"
             },
@@ -1734,54 +1778,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.92846413575538,
-                    -37.44487513311375
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mt Pinniger Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-10-22T17:36:00+11:00",
-                "updated": "2024-10-22T17:37:00+11:00",
-                "id": "ESTA:241025222",
-                "location": "Mt Pinniger Rd, Eildon",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.93957317719983,
-                    -37.227672467522694
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Harold Keys Dr",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "under control",
-                "created": "2024-10-22T17:36:00+11:00",
-                "updated": "2024-10-22T17:46:00+11:00",
-                "id": "ESTA:241025223",
-                "location": "Harold Keys Dr, Narre Warren South",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.28804608237354,
-                    -38.02861484798258
+                    145.93956417830915,
+                    -37.2275101409696
                 ]
             }
         },
@@ -1791,9 +1789,9 @@
                 "sourceTitle": "Western Hwy",
                 "category": "rescue",
                 "subcategory": "washaway",
-                "status": "under control",
+                "status": "safe",
                 "created": "2024-10-22T17:43:00+11:00",
-                "updated": "2024-10-22T17:55:00+11:00",
+                "updated": "2024-10-22T18:20:00+11:00",
                 "id": "ESTA:241025233",
                 "location": "Western Hwy, Warrenheip",
                 "size": "Small",
@@ -1805,6 +1803,29 @@
                 "coordinates": [
                     143.933321265369,
                     -37.5640997064772
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Harold Keys Dr",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2024-10-22T17:36:00+11:00",
+                "updated": "2024-10-22T18:34:00+11:00",
+                "id": "ESTA:241025223",
+                "location": "Harold Keys Dr, Narre Warren South",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.28804608237354,
+                    -38.02861484798258
                 ]
             }
         },
