@@ -28,10 +28,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.4133110020001,
-                    -29.10770131499993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.4133110020001,
+                            -29.10770131499993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.412091538,
+                                            -29.10689425
+                                        ],
+                                        [
+                                            148.41331696,
+                                            -29.107572396
+                                        ],
+                                        [
+                                            148.412995732,
+                                            -29.1120100909999
+                                        ],
+                                        [
+                                            148.410866115,
+                                            -29.1122599349999
+                                        ],
+                                        [
+                                            148.410842321,
+                                            -29.1093688889999
+                                        ],
+                                        [
+                                            148.411294418,
+                                            -29.1079174179999
+                                        ],
+                                        [
+                                            148.412091538,
+                                            -29.10689425
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -41,35 +86,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572503",
-                "created": "2024-10-25T02:16:00+11:00",
-                "updated": "2024-10-25T13:16:00+11:00",
+                "created": "2024-10-25T03:59:00+11:00",
+                "updated": "2024-10-25T14:59:00+11:00",
                 "location": "BOORA RD, COLLARENEBRI 2833",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BOORA RD, COLLARENEBRI 2833 <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Oct 2024 13:16",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.35021200000006,
-                    -35.08458899999994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Colin Knott Dr, Gobbagombalin",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572510",
-                "created": "2024-10-25T03:41:00+11:00",
-                "updated": "2024-10-25T14:41:00+11:00",
-                "location": "Colin Knott Dr, Gobbagombalin, NSW 2650",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Colin Knott Dr, Gobbagombalin, NSW 2650 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Oct 2024 14:41",
+                "size": 20,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BOORA RD, COLLARENEBRI 2833 <br />COUNCIL AREA: Walgett <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Oct 2024 14:59",
                 "title": "incident: fire"
             }
         },
@@ -142,6 +163,30 @@
                 "location": "BEES NEST HILL TRK, BLUE MOUNTAINS NATIONAL PARK 2790",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: BEES NEST HILL TRK, BLUE MOUNTAINS NATIONAL PARK 2790 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 23 Oct 2024 17:06",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.7112426760001,
+                    -31.67714118899994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NEWELL HWY, GILGANDRA",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572515",
+                "created": "2024-10-25T04:04:00+11:00",
+                "updated": "2024-10-25T15:04:00+11:00",
+                "location": "684 NEWELL HWY, GILGANDRA 2827",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 684 NEWELL HWY, GILGANDRA 2827 <br />COUNCIL AREA: Gilgandra <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Oct 2024 15:04",
                 "title": "incident: fire"
             }
         },
@@ -328,13 +373,13 @@
                 "sourceTitle": "OLD TAMWORTH RD, KLORI",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572508",
-                "created": "2024-10-25T03:11:00+11:00",
-                "updated": "2024-10-25T14:11:00+11:00",
+                "created": "2024-10-25T03:49:00+11:00",
+                "updated": "2024-10-25T14:49:00+11:00",
                 "location": "46 OLD TAMWORTH RD, KLORI 2346",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 46 OLD TAMWORTH RD, KLORI 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Oct 2024 14:11",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 46 OLD TAMWORTH RD, KLORI 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Oct 2024 14:49",
                 "title": "incident: fire"
             }
         },
@@ -391,8 +436,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.4311181800001,
-                    -33.680140963999975
+                    147.4311218260001,
+                    -33.68014144899996
                 ]
             },
             "properties": {
@@ -1337,11 +1382,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/571894",
-                "created": "2024-10-25T02:09:00+11:00",
-                "updated": "2024-10-25T13:09:00+11:00",
+                "created": "2024-10-25T03:47:00+11:00",
+                "updated": "2024-10-25T14:47:00+11:00",
                 "location": "LANE COVE NATIONAL PARK NORTH EPPING 2121",
                 "size": 17,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: LANE COVE NATIONAL PARK NORTH EPPING 2121 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 17 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 25 Oct 2024 13:09",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: LANE COVE NATIONAL PARK NORTH EPPING 2121 <br />COUNCIL AREA: Hornsby <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 17 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 25 Oct 2024 14:47",
                 "title": "incident: fire"
             }
         },
@@ -1350,8 +1395,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.25874328700002,
-                    -29.10140991199995
+                    150.29812812900002,
+                    -29.12069890799995
                 ]
             },
             "properties": {
@@ -1390,30 +1435,6 @@
                 "location": "CAMP CREEK RD, LOWANNA 2450",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CAMP CREEK RD, LOWANNA 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Oct 2024 11:37",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.11485290500002,
-                    -32.76595306399997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "GAN GAN RD, ONE MILE",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572511",
-                "created": "2024-10-25T03:39:00+11:00",
-                "updated": "2024-10-25T14:39:00+11:00",
-                "location": "554 GAN GAN RD, ONE MILE 2316",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 554 GAN GAN RD, ONE MILE 2316 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Oct 2024 14:39",
                 "title": "incident: other"
             }
         },
@@ -1470,30 +1491,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.4736785890001,
-                    -31.939453124999943
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "MANNING RIVER DR, GLENTHORNE",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572501",
-                "created": "2024-10-25T02:11:00+11:00",
-                "updated": "2024-10-25T13:11:00+11:00",
-                "location": "MANNING RIVER DR, GLENTHORNE 2430",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MANNING RIVER DR, GLENTHORNE 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Oct 2024 13:11",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.13287353500004,
                     -36.30208587699997
                 ]
@@ -1542,30 +1539,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.46560669000007,
-                    -31.95292282099996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "OLD PACIFIC HWY Breakneck Road, PURFLEET",
-                "category": "fire",
-                "subcategory": "car fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572509",
-                "created": "2024-10-25T03:02:00+11:00",
-                "updated": "2024-10-25T14:02:00+11:00",
-                "location": "OLD PACIFIC HWY Breakneck Road, PURFLEET 2430",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OLD PACIFIC HWY Breakneck Road, PURFLEET 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Out of control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Oct 2024 14:02",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     141.4254455570001,
                     -31.985534667999957
                 ]
@@ -1590,30 +1563,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.77095031800002,
-                    -33.715099334999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "SOUTH CREEK RD, SHANES PARK",
-                "category": "fire",
-                "subcategory": "car fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572513",
-                "created": "2024-10-25T03:34:00+11:00",
-                "updated": "2024-10-25T14:34:00+11:00",
-                "location": "36 SOUTH CREEK RD, SHANES PARK 2747",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 36 SOUTH CREEK RD, SHANES PARK 2747 <br />COUNCIL AREA: Blacktown <br />STATUS: Out of control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 25 Oct 2024 14:34",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.2367095950001,
                     -32.244014738999965
                 ]
@@ -1623,13 +1572,13 @@
                 "sourceTitle": "TANCRED ST, NARROMINE",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572498",
-                "created": "2024-10-25T03:28:00+11:00",
-                "updated": "2024-10-25T14:28:00+11:00",
+                "created": "2024-10-25T03:55:00+11:00",
+                "updated": "2024-10-25T14:55:00+11:00",
                 "location": "104 TANCRED ST, NARROMINE 2821",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 104 TANCRED ST, NARROMINE 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Oct 2024 14:28",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 104 TANCRED ST, NARROMINE 2821 <br />COUNCIL AREA: Narromine <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 25 Oct 2024 14:55",
                 "title": "incident: fire"
             }
         },
