@@ -6,6 +6,29 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    140.572837306117,
+                    -34.3278660680307,
+                    0
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "DEAD END/LOCK 4 RD , WINKIE",
+                "category": "other",
+                "subcategory": "water rescue",
+                "status": "going",
+                "id": "1610483",
+                "created": "2024-10-30T13:59:00+10:30",
+                "updated": "2024-10-30T13:59:00+10:30",
+                "title": "incident: other"
+            },
+            "id": "1610483"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     138.54622235892,
                     -34.6306927421845,
                     0
@@ -16,7 +39,7 @@
                 "sourceTitle": "OLD PORT WAKEFIELD ROAD, TWO WELLS",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "going",
+                "status": "contained",
                 "id": "1610480",
                 "created": "2024-10-30T13:10:00+10:30",
                 "updated": "2024-10-30T13:10:00+10:30",
@@ -52,29 +75,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    139.063144269287,
-                    -34.6790621249106,
-                    0
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BOEHM SPRINGS ROAD, SPRINGTON",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "going",
-                "id": "1610478",
-                "created": "2024-10-30T12:33:00+10:30",
-                "updated": "2024-10-30T12:33:00+10:30",
-                "title": "incident: fire"
-            },
-            "id": "1610478"
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     138.638572919193,
                     -34.6679702651657,
                     0
@@ -85,7 +85,7 @@
                 "sourceTitle": "JULIAN ROAD, MACDONALD PARK",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "going",
+                "status": "controlled",
                 "id": "1610475",
                 "created": "2024-10-30T11:58:00+10:30",
                 "updated": "2024-10-30T11:58:00+10:30",
@@ -131,36 +131,13 @@
                 "sourceTitle": "THOMPSONS BEACH RD/THE ESPLANADE , LOWER LIGHT",
                 "category": "other",
                 "subcategory": "rescue",
-                "status": "going",
+                "status": "controlled",
                 "id": "1610471",
                 "created": "2024-10-30T11:53:00+10:30",
                 "updated": "2024-10-30T11:53:00+10:30",
                 "title": "incident: other"
             },
             "id": "1610471"
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    138.730768088825,
-                    -34.9175624948777,
-                    0
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "NICHOLLS ROAD, NORTON SUMMIT",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "going",
-                "id": "1610470",
-                "created": "2024-10-30T11:52:00+10:30",
-                "updated": "2024-10-30T11:52:00+10:30",
-                "title": "incident: fire"
-            },
-            "id": "1610470"
         },
         {
             "type": "Feature",
@@ -351,29 +328,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    138.586832231185,
-                    -34.7494320368471,
-                    0
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "SUMMER ROAD, BOLIVAR",
-                "category": "other",
-                "subcategory": "rubbish fire",
-                "status": "complete",
-                "id": "1610464",
-                "created": "2024-10-30T11:07:00+10:30",
-                "updated": "2024-10-30T11:07:00+10:30",
-                "title": "incident: other"
-            },
-            "id": "1610464"
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     134.344662948223,
                     -32.3728000305302,
                     0
@@ -383,7 +337,7 @@
                 "feedType": "incident",
                 "sourceTitle": "EYRE HIGHWAY, NUNJIKOMPITA",
                 "category": "fire",
-                "subcategory": "grass fire",
+                "subcategory": "grass and stubble fire",
                 "status": "complete",
                 "id": "1610467",
                 "created": "2024-10-30T11:30:00+10:30",
@@ -391,6 +345,52 @@
                 "title": "incident: fire"
             },
             "id": "1610467"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.063144269287,
+                    -34.6790621249106,
+                    0
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BOEHM SPRINGS ROAD, SPRINGTON",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "complete",
+                "id": "1610478",
+                "created": "2024-10-30T12:33:00+10:30",
+                "updated": "2024-10-30T12:33:00+10:30",
+                "title": "incident: fire"
+            },
+            "id": "1610478"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.730768088825,
+                    -34.9175624948777,
+                    0
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NICHOLLS ROAD, NORTON SUMMIT",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "complete",
+                "id": "1610470",
+                "created": "2024-10-30T11:52:00+10:30",
+                "updated": "2024-10-30T11:52:00+10:30",
+                "title": "incident: fire"
+            },
+            "id": "1610470"
         }
     ]
 }
