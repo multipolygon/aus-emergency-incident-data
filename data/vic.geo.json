@@ -577,12 +577,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Railway Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2024-11-02T09:18:00+11:00",
+                "updated": "2024-11-02T09:18:00+11:00",
+                "id": "ESTA:241102062",
+                "location": "Railway Rd, Rochester",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.68349602412033,
+                    -36.38289634818968
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2024-11-02T09:11:00+11:00",
-                "updated": "2024-11-02T09:11:00+11:00",
+                "updated": "2024-11-02T09:28:00+11:00",
                 "id": "ESTA:241102042",
                 "location": "Wodonga",
                 "size": "Small",
@@ -594,28 +617,6 @@
                 "coordinates": [
                     146.8813395412365,
                     -36.13743772019963
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dandenong North",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2024-11-02T09:12:20+11:00",
-                "updated": "2024-11-02T09:12:27+11:00",
-                "id": "ESTA:241102044",
-                "location": "Latham Cr, Dandenong North",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2091356198892,
-                    -37.96488562604686
                 ]
             }
         },
@@ -1519,50 +1520,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Krautz St, Lavington",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "out of control",
-                "created": "2024-11-02T08:36:00+11:00",
-                "updated": "2024-11-02T08:36:00+11:00",
-                "id": "2024-11-02T08:36:00.0000000:573303",
-                "location": "629 Krautz St, Lavington 2641",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.925231933,
-                    -36.0282707219999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hatfield Penarie Rd, Balranald",
-                "category": "transport",
-                "subcategory": "motor vehicle accident",
-                "status": "out of control",
-                "created": "2024-11-02T08:35:00+11:00",
-                "updated": "2024-11-02T08:35:00+11:00",
-                "id": "2024-11-02T08:35:00.0000000:573302",
-                "location": "Hatfield Penarie Rd, Balranald 2715",
-                "title": "incident: transport"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.612075806,
-                    -34.403839112
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Lower River Rd, Tocumwal",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -1751,6 +1708,50 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Krautz St, Lavington",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2024-11-02T09:20:00+11:00",
+                "updated": "2024-11-02T09:20:00+11:00",
+                "id": "2024-11-02T09:20:00.0000000:573303",
+                "location": "629 Krautz St, Lavington 2641",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.925231933,
+                    -36.0282707219999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Hatfield Penarie Rd, Balranald",
+                "category": "transport",
+                "subcategory": "motor vehicle accident",
+                "status": "out of control",
+                "created": "2024-11-02T08:35:00+11:00",
+                "updated": "2024-11-02T08:35:00+11:00",
+                "id": "2024-11-02T08:35:00.0000000:573302",
+                "location": "Hatfield Penarie Rd, Balranald 2715",
+                "title": "incident: transport"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.612075806,
+                    -34.403839112
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Waysai Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -1797,29 +1798,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Chute St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2024-11-02T07:50:00+11:00",
-                "updated": "2024-11-02T08:18:00+11:00",
-                "id": "ESTA:241101832",
-                "location": "Chute St, Diamond Creek",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.15113061291822,
-                    -37.67261424471423
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Hamilton Hwy",
                 "category": "other",
                 "subcategory": "other",
@@ -1860,6 +1838,52 @@
                 "coordinates": [
                     145.187329898459,
                     -38.309770566178685
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Highpoint Dr",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2024-11-02T09:15:00+11:00",
+                "updated": "2024-11-02T09:15:00+11:00",
+                "id": "ESTA:241102058",
+                "location": "Highpoint Dr, South Morang",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.06065803928493,
+                    -37.61881842274672
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Main Creek Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-11-02T09:15:00+11:00",
+                "updated": "2024-11-02T09:24:00+11:00",
+                "id": "ESTA:241102054",
+                "location": "Main Creek Rd, Main Ridge",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9680327456774,
+                    -38.39898018394916
                 ]
             }
         }

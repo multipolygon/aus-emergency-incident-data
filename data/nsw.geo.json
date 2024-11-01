@@ -15,13 +15,13 @@
                 "sourceTitle": "CASTLEREAGH HWY, CUDGEGONG",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573301",
-                "created": "2024-11-01T21:23:00+11:00",
-                "updated": "2024-11-02T08:23:00+11:00",
+                "created": "2024-11-01T22:12:00+11:00",
+                "updated": "2024-11-02T09:12:00+11:00",
                 "location": "8841 CASTLEREAGH HWY, CUDGEGONG 2850",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 8841 CASTLEREAGH HWY, CUDGEGONG 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 08:23",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 8841 CASTLEREAGH HWY, CUDGEGONG 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 09:12",
                 "title": "incident: fire"
             }
         },
@@ -359,30 +359,6 @@
                 "location": "20516 GWYDIR HWY, MOREE 2400",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 20516 GWYDIR HWY, MOREE 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 02:18",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.71366882300003,
-                    -33.43655776999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "KIDMAN WAY, HILLSTON",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573292",
-                "created": "2024-11-01T19:31:00+11:00",
-                "updated": "2024-11-02T06:31:00+11:00",
-                "location": "KIDMAN WAY, HILLSTON 2675",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: KIDMAN WAY, HILLSTON 2675 <br />COUNCIL AREA: Carrathool <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 06:31",
                 "title": "incident: fire"
             }
         },
@@ -1532,8 +1508,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.98339843700012,
-                    -34.04508590699993
+                    150.98240661600005,
+                    -34.054363250999984
                 ]
             },
             "properties": {
@@ -2260,6 +2236,83 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.97808551800006,
+                            -35.25180489199994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.97995,
+                                            -35.251700001
+                                        ],
+                                        [
+                                            148.97961,
+                                            -35.2544700019999
+                                        ],
+                                        [
+                                            148.978059999,
+                                            -35.254240001
+                                        ],
+                                        [
+                                            148.97729,
+                                            -35.252240001
+                                        ],
+                                        [
+                                            148.97654,
+                                            -35.2518200009999
+                                        ],
+                                        [
+                                            148.975690001,
+                                            -35.249600001
+                                        ],
+                                        [
+                                            148.97686,
+                                            -35.2493699999999
+                                        ],
+                                        [
+                                            148.9777,
+                                            -35.2491200009999
+                                        ],
+                                        [
+                                            148.97995,
+                                            -35.251700001
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wagtail Park Prescribed Burn",
+                "category": "fire",
+                "subcategory": "hazard reduction",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573309",
+                "created": "2024-11-01T22:00:00+11:00",
+                "updated": "2024-11-02T09:00:00+11:00",
+                "location": "STOCKDILL DR, STRATHNAIRN ACT 2615",
+                "size": 12,
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: STOCKDILL DR, STRATHNAIRN ACT 2615 <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 12 ha <br />RESPONSIBLE AGENCY: ACT Rural Fire Service <br />UPDATED: 2 Nov 2024 09:00",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "Point",
                 "coordinates": [
                     150.0531921380001,
@@ -2367,13 +2420,13 @@
                 "sourceTitle": "DEVONSHIRE RD, KEMPS CREEK",
                 "category": "other",
                 "subcategory": "planned event",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573304",
-                "created": "2024-11-01T22:03:00+11:00",
-                "updated": "2024-11-02T09:03:00+11:00",
+                "created": "2024-11-01T22:16:00+11:00",
+                "updated": "2024-11-02T09:16:00+11:00",
                 "location": "245 DEVONSHIRE RD, KEMPS CREEK 2178",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 245 DEVONSHIRE RD, KEMPS CREEK 2178 <br />COUNCIL AREA: Liverpool <br />STATUS: Out of control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 09:03",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 245 DEVONSHIRE RD, KEMPS CREEK 2178 <br />COUNCIL AREA: Liverpool <br />STATUS: Under control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 09:16",
                 "title": "incident: other"
             }
         },
@@ -2441,11 +2494,11 @@
                 "subcategory": "burn off",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573300",
-                "created": "2024-11-01T21:44:00+11:00",
-                "updated": "2024-11-02T08:44:00+11:00",
+                "created": "2024-11-01T22:17:00+11:00",
+                "updated": "2024-11-02T09:17:00+11:00",
                 "location": "66 HERITAGE DR, MOONEE BEACH 2450",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 66 HERITAGE DR, MOONEE BEACH 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 08:44",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 66 HERITAGE DR, MOONEE BEACH 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 09:17",
                 "title": "incident: fire"
             }
         },
@@ -2487,13 +2540,13 @@
                 "sourceTitle": "KRAUTZ ST, LAVINGTON",
                 "category": "other",
                 "subcategory": "planned event",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573303",
-                "created": "2024-11-01T21:36:00+11:00",
-                "updated": "2024-11-02T08:36:00+11:00",
+                "created": "2024-11-01T22:20:00+11:00",
+                "updated": "2024-11-02T09:20:00+11:00",
                 "location": "629 KRAUTZ ST, LAVINGTON 2641",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 629 KRAUTZ ST, LAVINGTON 2641 <br />COUNCIL AREA: Albury <br />STATUS: Out of control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 2 Nov 2024 08:36",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 629 KRAUTZ ST, LAVINGTON 2641 <br />COUNCIL AREA: Albury <br />STATUS: Under control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 2 Nov 2024 09:20",
                 "title": "incident: other"
             }
         },
@@ -2681,11 +2734,11 @@
                 "subcategory": "mva/transport",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573297",
-                "created": "2024-11-01T22:03:00+11:00",
-                "updated": "2024-11-02T09:03:00+11:00",
+                "created": "2024-11-01T22:19:00+11:00",
+                "updated": "2024-11-02T09:19:00+11:00",
                 "location": "3926 WATERFALL WAY, DORRIGO 2453",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3926 WATERFALL WAY, DORRIGO 2453 <br />COUNCIL AREA: Bellingen <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 09:03",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3926 WATERFALL WAY, DORRIGO 2453 <br />COUNCIL AREA: Bellingen <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 2 Nov 2024 09:19",
                 "title": "incident: other"
             }
         },
