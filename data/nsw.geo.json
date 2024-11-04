@@ -623,10 +623,166 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.76974487300004,
-                    -29.629444122999928
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.7656076410001,
+                            -29.63470304499998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.765226928,
+                                            -29.6353336029999
+                                        ],
+                                        [
+                                            152.766226302,
+                                            -29.633644185
+                                        ],
+                                        [
+                                            152.766725988,
+                                            -29.633703673
+                                        ],
+                                        [
+                                            152.766595118,
+                                            -29.6338583369999
+                                        ],
+                                        [
+                                            152.766511837,
+                                            -29.634143872
+                                        ],
+                                        [
+                                            152.766357171,
+                                            -29.6344413049999
+                                        ],
+                                        [
+                                            152.766261993,
+                                            -29.634738738
+                                        ],
+                                        [
+                                            152.766357171,
+                                            -29.6348339159999
+                                        ],
+                                        [
+                                            152.76632148,
+                                            -29.634952889
+                                        ],
+                                        [
+                                            152.765797998,
+                                            -29.635678624
+                                        ],
+                                        [
+                                            152.765298311,
+                                            -29.635797598
+                                        ],
+                                        [
+                                            152.765226928,
+                                            -29.6353336029999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.765203133,
+                                            -29.6353098079999
+                                        ],
+                                        [
+                                            152.765048468,
+                                            -29.6353098079999
+                                        ],
+                                        [
+                                            152.765000878,
+                                            -29.6352503219999
+                                        ],
+                                        [
+                                            152.764929495,
+                                            -29.635119451
+                                        ],
+                                        [
+                                            152.764965187,
+                                            -29.6350004779999
+                                        ],
+                                        [
+                                            152.765536258,
+                                            -29.6344650999999
+                                        ],
+                                        [
+                                            152.765607641,
+                                            -29.634262846
+                                        ],
+                                        [
+                                            152.765643334,
+                                            -29.63397731
+                                        ],
+                                        [
+                                            152.766392863,
+                                            -29.633346753
+                                        ],
+                                        [
+                                            152.766595118,
+                                            -29.633394342
+                                        ],
+                                        [
+                                            152.766737885,
+                                            -29.633501418
+                                        ],
+                                        [
+                                            152.766809269,
+                                            -29.6336917749999
+                                        ],
+                                        [
+                                            152.766607015,
+                                            -29.6337988509999
+                                        ],
+                                        [
+                                            152.766250095,
+                                            -29.6339654129999
+                                        ],
+                                        [
+                                            152.766000252,
+                                            -29.634239051
+                                        ],
+                                        [
+                                            152.765988355,
+                                            -29.634476997
+                                        ],
+                                        [
+                                            152.766214404,
+                                            -29.634512689
+                                        ],
+                                        [
+                                            152.766238199,
+                                            -29.6347149429999
+                                        ],
+                                        [
+                                            152.766143021,
+                                            -29.6347744299999
+                                        ],
+                                        [
+                                            152.76539349,
+                                            -29.6353098079999
+                                        ],
+                                        [
+                                            152.765203133,
+                                            -29.6353098079999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -855,13 +1011,13 @@
                 "sourceTitle": "GWYDIR HWY, COLLARENEBRI",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573533",
-                "created": "2024-11-04T03:12:00+11:00",
-                "updated": "2024-11-04T14:12:00+11:00",
+                "created": "2024-11-04T05:45:00+11:00",
+                "updated": "2024-11-04T16:45:00+11:00",
                 "location": "11096 GWYDIR HWY, COLLARENEBRI 2833",
-                "size": 5,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 11096 GWYDIR HWY, COLLARENEBRI 2833 <br />COUNCIL AREA: Moree Plains <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 14:12",
+                "size": 24,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 11096 GWYDIR HWY, COLLARENEBRI 2833 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 24 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 16:45",
                 "title": "incident: fire"
             }
         },
@@ -3032,30 +3188,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.77984619100005,
-                    -34.46651077299998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "FARM RD, KEMBLA GRANGE",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573618",
-                "created": "2024-11-04T21:59:00+11:00",
-                "updated": "2024-11-05T08:59:00+11:00",
-                "location": "FARM RD, KEMBLA GRANGE 2526",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: FARM RD, KEMBLA GRANGE 2526 <br />COUNCIL AREA: Wollongong <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 08:59",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.8238525390001,
                     -31.125114440999937
                 ]
@@ -3071,7 +3203,7 @@
                 "updated": "2024-11-05T00:53:00+11:00",
                 "location": "620 PACIFIC HWY, SOUTH KEMPSEY 2440",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 620 PACIFIC HWY, SOUTH KEMPSEY 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />MAJOR FIRE UPDATE AS AT 4 Nov 2024 11:35PM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=12100' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 00:53",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 620 PACIFIC HWY, SOUTH KEMPSEY 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />MAJOR FIRE UPDATE AS AT 5 Nov 2024 9:22AM: <a href='http://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=12100' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 00:53",
                 "title": "incident: fire"
             }
         },
@@ -3115,11 +3247,11 @@
                 "subcategory": "structure fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573542",
-                "created": "2024-11-04T03:26:00+11:00",
-                "updated": "2024-11-04T14:26:00+11:00",
+                "created": "2024-11-04T22:14:00+11:00",
+                "updated": "2024-11-05T09:14:00+11:00",
                 "location": "492 SIR IVAN DOHERTY DR, LEADVILLE 2844",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 492 SIR IVAN DOHERTY DR, LEADVILLE 2844 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 14:26",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 492 SIR IVAN DOHERTY DR, LEADVILLE 2844 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 09:14",
                 "title": "incident: fire"
             }
         },
@@ -3144,6 +3276,30 @@
                 "location": "WATTLE GLEN 1257 THE BOGAN WAY, TULLAMORE 2874",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WATTLE GLEN 1257 THE BOGAN WAY, TULLAMORE 2874 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 16:05",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.5327606200001,
+                    -31.241376876999936
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WILBER RD, GULARGAMBONE",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573619",
+                "created": "2024-11-04T22:12:00+11:00",
+                "updated": "2024-11-05T09:12:00+11:00",
+                "location": "927 WILBER RD, GULARGAMBONE 2828",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 927 WILBER RD, GULARGAMBONE 2828 <br />COUNCIL AREA: Coonamble <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 09:12",
                 "title": "incident: fire"
             }
         }
