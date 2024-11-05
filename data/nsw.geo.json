@@ -323,11 +323,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573345",
-                "created": "2024-11-04T03:53:00+11:00",
-                "updated": "2024-11-04T14:53:00+11:00",
+                "created": "2024-11-05T00:50:00+11:00",
+                "updated": "2024-11-05T11:50:00+11:00",
                 "location": "1220 DRY PLAINS RD, WAMBROOK 2630",
                 "size": 43,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 1220 DRY PLAINS RD, WAMBROOK 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 43 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 14:53",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1220 DRY PLAINS RD, WAMBROOK 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 43 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 11:50",
                 "title": "incident: fire"
             }
         },
@@ -612,11 +612,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/572892",
-                "created": "2024-11-04T05:12:00+11:00",
-                "updated": "2024-11-04T16:12:00+11:00",
+                "created": "2024-11-05T00:04:00+11:00",
+                "updated": "2024-11-05T11:04:00+11:00",
                 "location": "FISHERMANS BEND RD, BULLATALE 2710",
                 "size": 18,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: FISHERMANS BEND RD, BULLATALE 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 18 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 4 Nov 2024 16:12",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: FISHERMANS BEND RD, BULLATALE 2710 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 18 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 5 Nov 2024 11:04",
                 "title": "incident: fire"
             }
         },
@@ -1024,10 +1024,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.0486450200001,
-                    -30.83753967299998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.0486450200001,
+                            -30.83753967299998
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.049924454,
+                                            -30.8347018699999
+                                        ],
+                                        [
+                                            151.048034848,
+                                            -30.835768249
+                                        ],
+                                        [
+                                            151.046829081,
+                                            -30.834805434
+                                        ],
+                                        [
+                                            151.047613202,
+                                            -30.8337760589999
+                                        ],
+                                        [
+                                            151.049624036,
+                                            -30.8329444729999
+                                        ],
+                                        [
+                                            151.050548673,
+                                            -30.832579139
+                                        ],
+                                        [
+                                            151.050993487,
+                                            -30.833854011
+                                        ],
+                                        [
+                                            151.049924454,
+                                            -30.8347018699999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1037,11 +1086,11 @@
                 "subcategory": "bushfire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573594",
-                "created": "2024-11-04T11:38:00+11:00",
-                "updated": "2024-11-04T22:38:00+11:00",
+                "created": "2024-11-04T23:46:00+11:00",
+                "updated": "2024-11-05T10:46:00+11:00",
                 "location": "HILLTOP TWINBROOK ROAD, BENDEMEER 2346",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: HILLTOP TWINBROOK ROAD, BENDEMEER 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 22:38",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: HILLTOP TWINBROOK ROAD, BENDEMEER 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 10:46",
                 "title": "incident: fire"
             }
         },
@@ -1822,30 +1871,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.15570068400007,
-                    -35.25320434599996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "OLD TRUNK RD, THE ROCK",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573628",
-                "created": "2024-11-04T23:38:00+11:00",
-                "updated": "2024-11-05T10:38:00+11:00",
-                "location": "OLD TRUNK RD, THE ROCK 2655",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: OLD TRUNK RD, THE ROCK 2655 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 10:38",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -2069,30 +2094,6 @@
                 "location": "MURRUMBIDGEE VALLEY NATIONAL PARK BENEREMBAH 2680",
                 "size": 5,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: MURRUMBIDGEE VALLEY NATIONAL PARK BENEREMBAH 2680 <br />COUNCIL AREA: Carrathool <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 5 Nov 2024 09:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.70115661600005,
-                    -31.376260757999944
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "TOWER RD, PEMBROOKE",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573578",
-                "created": "2024-11-04T08:48:00+11:00",
-                "updated": "2024-11-04T19:48:00+11:00",
-                "location": "TOWER RD, PEMBROOKE 2446",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: TOWER RD, PEMBROOKE 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 19:48",
                 "title": "incident: fire"
             }
         },
@@ -2442,30 +2443,6 @@
                 "location": "TUCKA TUCKA RD, TOOMELAH 2409",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: TUCKA TUCKA RD, TOOMELAH 2409 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 17:38",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.98024999900008,
-                    -33.353200999999956
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Williwa St, Portland",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573631",
-                "created": "2024-11-04T23:34:00+11:00",
-                "updated": "2024-11-05T10:34:00+11:00",
-                "location": "35 Williwa St, Portland, NSW 2847",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 35 Williwa St, Portland, NSW 2847 <br />COUNCIL AREA: Lithgow <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 5 Nov 2024 10:34",
                 "title": "incident: fire"
             }
         },
@@ -3188,46 +3165,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.46191406200012,
-                    -35.21764755299995
+                    148.55677795400004,
+                    -32.088760374999936
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "BENDALONG RD, BENDALONG",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573629",
-                "created": "2024-11-04T23:19:00+11:00",
-                "updated": "2024-11-05T10:19:00+11:00",
-                "location": "BENDALONG RD, BENDALONG 2539",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BENDALONG RD, BENDALONG 2539 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 10:19",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.81843566800012,
-                    -33.95409774799998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BRINGELLY RD, LEPPINGTON",
+                "sourceTitle": "COLLIE RD, BROCKLEHURST",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "car fire",
                 "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573630",
-                "created": "2024-11-04T23:23:00+11:00",
-                "updated": "2024-11-05T10:23:00+11:00",
-                "location": "183 BRINGELLY RD, LEPPINGTON 2179",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573633",
+                "created": "2024-11-05T00:24:00+11:00",
+                "updated": "2024-11-05T11:24:00+11:00",
+                "location": "COLLIE RD, BROCKLEHURST 2830",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 183 BRINGELLY RD, LEPPINGTON 2179 <br />COUNCIL AREA: Camden <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 10:23",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: COLLIE RD, BROCKLEHURST 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Out of control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 11:24",
                 "title": "incident: fire"
             }
         },
@@ -3260,46 +3213,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    152.97846984800003,
-                    -30.04714393599994
+                    153.0232543940001,
+                    -29.829242705999945
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "CORAMBA ST, GLENREAGH",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573626",
-                "created": "2024-11-04T23:40:00+11:00",
-                "updated": "2024-11-05T10:40:00+11:00",
-                "location": "11 CORAMBA ST, GLENREAGH 2450",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 11 CORAMBA ST, GLENREAGH 2450 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 10:40",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.68856811500007,
-                    -35.08247375499997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ELIZABETH DR, VINCENTIA",
+                "sourceTitle": "DINJERRA RD, GLENUGIE",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573627",
-                "created": "2024-11-04T23:37:00+11:00",
-                "updated": "2024-11-05T10:37:00+11:00",
-                "location": "397 ELIZABETH DR, VINCENTIA 2540",
+                "subcategory": "vehicle/equipment fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573634",
+                "created": "2024-11-05T00:56:00+11:00",
+                "updated": "2024-11-05T11:56:00+11:00",
+                "location": "566 DINJERRA RD, GLENUGIE 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 397 ELIZABETH DR, VINCENTIA 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 10:37",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 566 DINJERRA RD, GLENUGIE 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Out of control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 11:56",
                 "title": "incident: fire"
             }
         },
@@ -3415,11 +3344,11 @@
                 "subcategory": "haystack fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573412",
-                "created": "2024-11-04T05:05:00+11:00",
-                "updated": "2024-11-04T16:05:00+11:00",
+                "created": "2024-11-05T00:06:00+11:00",
+                "updated": "2024-11-05T11:06:00+11:00",
                 "location": "WATTLE GLEN 1257 THE BOGAN WAY, TULLAMORE 2874",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WATTLE GLEN 1257 THE BOGAN WAY, TULLAMORE 2874 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 16:05",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WATTLE GLEN 1257 THE BOGAN WAY, TULLAMORE 2874 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 11:06",
                 "title": "incident: fire"
             }
         }
