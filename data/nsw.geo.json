@@ -4,10 +4,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.65280056000006,
-                    -32.48312157899994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.65280056000006,
+                            -32.48312157899994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.652925912,
+                                            -32.4841706459999
+                                        ],
+                                        [
+                                            149.65280694,
+                                            -32.484765511
+                                        ],
+                                        [
+                                            149.650724911,
+                                            -32.4858957549999
+                                        ],
+                                        [
+                                            149.649118775,
+                                            -32.486145598
+                                        ],
+                                        [
+                                            149.648976007,
+                                            -32.48561022
+                                        ],
+                                        [
+                                            149.64896411,
+                                            -32.48507484
+                                        ],
+                                        [
+                                            149.650427478,
+                                            -32.484848792
+                                        ],
+                                        [
+                                            149.65170049,
+                                            -32.484265824
+                                        ],
+                                        [
+                                            149.652925912,
+                                            -32.4841706459999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1556,6 +1609,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.039169312,
+                    -33.76179885899995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MERRENGREEN RD, WEST WYALONG",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573644",
+                "created": "2024-11-05T02:35:00+11:00",
+                "updated": "2024-11-05T13:35:00+11:00",
+                "location": "2332 MERRENGREEN RD, WEST WYALONG 2671",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2332 MERRENGREEN RD, WEST WYALONG 2671 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 13:35",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.34619140600012,
                     -29.51775360099998
                 ]
@@ -1613,37 +1690,13 @@
                 "sourceTitle": "OLD CANOBOLAS RD, NASHDALE",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573639",
-                "created": "2024-11-05T02:10:00+11:00",
-                "updated": "2024-11-05T13:10:00+11:00",
+                "created": "2024-11-05T02:47:00+11:00",
+                "updated": "2024-11-05T13:47:00+11:00",
                 "location": "PININDI 237 OLD CANOBOLAS RD, NASHDALE 2800",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: PININDI 237 OLD CANOBOLAS RD, NASHDALE 2800 <br />COUNCIL AREA: Cabonne <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 13:10",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.27902221700003,
-                    -33.76557159399994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "PATONS LANE, WEST WYALONG",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573638",
-                "created": "2024-11-05T02:21:00+11:00",
-                "updated": "2024-11-05T13:21:00+11:00",
-                "location": "PATONS LANE, WEST WYALONG 2671",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: PATONS LANE, WEST WYALONG 2671 <br />COUNCIL AREA: Bland <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 13:21",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: PININDI 237 OLD CANOBOLAS RD, NASHDALE 2800 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 13:47",
                 "title": "incident: fire"
             }
         },
@@ -1663,11 +1716,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573641",
-                "created": "2024-11-05T02:12:00+11:00",
-                "updated": "2024-11-05T13:12:00+11:00",
+                "created": "2024-11-05T02:19:00+11:00",
+                "updated": "2024-11-05T13:19:00+11:00",
                 "location": "PLAINS RD, HOSKINSTOWN 2621",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: PLAINS RD, HOSKINSTOWN 2621 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 13:12",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: PLAINS RD, HOSKINSTOWN 2621 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 13:19",
                 "title": "incident: fire"
             }
         },
@@ -1920,312 +1973,216 @@
                                 "coordinates": [
                                     [
                                         [
-                                            150.468816587,
-                                            -28.668126044
+                                            150.471770428,
+                                            -28.668222248
                                         ],
                                         [
-                                            150.468488222,
-                                            -28.6684187179999
+                                            150.472960158,
+                                            -28.6681746589999
                                         ],
                                         [
-                                            150.468081332,
-                                            -28.668904128
+                                            150.473864353,
+                                            -28.669221622
                                         ],
                                         [
-                                            150.468052779,
-                                            -28.669261047
+                                            150.473102925,
+                                            -28.6705303259999
                                         ],
                                         [
-                                            150.468830863,
-                                            -28.669710766
+                                            150.470973308,
+                                            -28.6713274439999
                                         ],
                                         [
-                                            150.469737437,
-                                            -28.66977501
+                                            150.46902215,
+                                            -28.6704589409999
                                         ],
                                         [
-                                            150.470094357,
-                                            -28.66991064
+                                            150.468593847,
+                                            -28.670744476
                                         ],
                                         [
-                                            150.470422722,
-                                            -28.670031992
+                                            150.468772307,
+                                            -28.6708515519999
                                         ],
                                         [
-                                            150.471122284,
-                                            -28.670110515
+                                            150.468677128,
+                                            -28.6710657039999
                                         ],
                                         [
-                                            150.470137187,
-                                            -28.670367496
+                                            150.468831793,
+                                            -28.671279856
                                         ],
                                         [
-                                            150.46906643,
-                                            -28.670424603
+                                            150.468938869,
+                                            -28.6716486719999
                                         ],
                                         [
-                                            150.468775367,
-                                            -28.670701806
+                                            150.469474248,
+                                            -28.6721483589999
                                         ],
                                         [
-                                            150.468838001,
-                                            -28.670781523
+                                            150.470556902,
+                                            -28.672755122
                                         ],
                                         [
-                                            150.468816586,
-                                            -28.670995675
+                                            150.471413509,
+                                            -28.672862197
                                         ],
                                         [
-                                            150.468959354,
-                                            -28.671152718
+                                            150.472579445,
+                                            -28.673171527
                                         ],
                                         [
-                                            150.46906643,
-                                            -28.6715667459999
+                                            150.472757904,
+                                            -28.673373781
                                         ],
                                         [
-                                            150.469551838,
-                                            -28.6719807699999
+                                            150.472627033,
+                                            -28.673635522
                                         ],
                                         [
-                                            150.470087217,
-                                            -28.6722520279999
+                                            150.472210627,
+                                            -28.674289874
                                         ],
                                         [
-                                            150.470579766,
-                                            -28.672587533
+                                            150.47206786,
+                                            -28.674480231
                                         ],
                                         [
-                                            150.471272188,
-                                            -28.67268747
+                                            150.469045945,
+                                            -28.672731327
                                         ],
                                         [
-                                            150.471657661,
-                                            -28.6727445779999
+                                            150.467903804,
+                                            -28.67205318
                                         ],
                                         [
-                                            150.472557097,
-                                            -28.6729730069999
+                                            150.4670353,
+                                            -28.671470212
                                         ],
                                         [
-                                            150.472792664,
-                                            -28.6731086359999
+                                            150.465905056,
+                                            -28.670780169
                                         ],
                                         [
-                                            150.472828356,
-                                            -28.673422725
+                                            150.464953272,
+                                            -28.670411352
                                         ],
                                         [
-                                            150.472664173,
-                                            -28.6737653669999
+                                            150.463787336,
+                                            -28.6702090979999
                                         ],
                                         [
-                                            150.472564236,
-                                            -28.673979517
+                                            150.462859346,
+                                            -28.6701139199999
                                         ],
                                         [
-                                            150.472193039,
-                                            -28.6745006199999
+                                            150.462157405,
+                                            -28.6701258169999
                                         ],
                                         [
-                                            150.471357848,
-                                            -28.6740437629999
+                                            150.461943253,
+                                            -28.6696737189999
                                         ],
                                         [
-                                            150.470529796,
-                                            -28.67357263
+                                            150.461978946,
+                                            -28.669459568
                                         ],
                                         [
-                                            150.470094356,
-                                            -28.6733656169999
+                                            150.461812383,
+                                            -28.669162136
                                         ],
                                         [
-                                            150.468702371,
-                                            -28.672573257
+                                            150.462026534,
+                                            -28.668626756
                                         ],
                                         [
-                                            150.468495358,
-                                            -28.6724804589999
+                                            150.46231207,
+                                            -28.6684720919999
                                         ],
                                         [
-                                            150.467587781,
-                                            -28.6718960339999
+                                            150.462859346,
+                                            -28.6685553729999
                                         ],
                                         [
-                                            150.467574506,
-                                            -28.671909387
+                                            150.463156779,
+                                            -28.668483989
                                         ],
                                         [
-                                            150.466996298,
-                                            -28.671481085
+                                            150.463513698,
+                                            -28.668305529
                                         ],
                                         [
-                                            150.466375259,
-                                            -28.6711027499999
+                                            150.463692157,
+                                            -28.6679486099999
                                         ],
                                         [
-                                            150.465839881,
-                                            -28.6708457669999
+                                            150.464215639,
+                                            -28.667663075
                                         ],
                                         [
-                                            150.465240256,
-                                            -28.6705887869999
+                                            150.464893786,
+                                            -28.6671752849999
                                         ],
                                         [
-                                            150.464490727,
-                                            -28.670367496
+                                            150.465964543,
+                                            -28.6666637009999
                                         ],
                                         [
-                                            150.463776888,
-                                            -28.6701890369999
+                                            150.466987711,
+                                            -28.6658903759999
                                         ],
                                         [
-                                            150.462920282,
-                                            -28.670024854
+                                            150.467868111,
+                                            -28.6650813599999
                                         ],
                                         [
-                                            150.462406318,
-                                            -28.6700819599999
+                                            150.46853436,
+                                            -28.664510288
                                         ],
                                         [
-                                            150.46238085,
-                                            -28.670042257
+                                            150.469074498,
+                                            -28.6644079719999
                                         ],
                                         [
-                                            150.462197498,
-                                            -28.6700512419999
+                                            150.470180948,
+                                            -28.66653759
                                         ],
                                         [
-                                            150.4620951,
-                                            -28.6699204249999
+                                            150.468051331,
+                                            -28.669202587
                                         ],
                                         [
-                                            150.462016877,
-                                            -28.6697972229999
+                                            150.469003115,
+                                            -28.6696665809999
                                         ],
                                         [
-                                            150.46196369,
-                                            -28.669645846
+                                            150.469966796,
+                                            -28.669856938
                                         ],
                                         [
-                                            150.461942795,
-                                            -28.669502236
+                                            150.471227911,
+                                            -28.67033283
                                         ],
                                         [
-                                            150.461968643,
-                                            -28.6693996449999
+                                            150.471608624,
+                                            -28.6701662679999
                                         ],
                                         [
-                                            150.461742661,
-                                            -28.669047345
+                                            150.4717157,
+                                            -28.6698926299999
                                         ],
                                         [
-                                            150.462063677,
-                                            -28.668497239
+                                            150.471703803,
+                                            -28.668238905
                                         ],
                                         [
-                                            150.462099718,
-                                            -28.668479218
+                                            150.471706183,
+                                            -28.668238905
                                         ],
                                         [
-                                            150.462349212,
-                                            -28.668354472
-                                        ],
-                                        [
-                                            150.46289173,
-                                            -28.6684401329999
-                                        ],
-                                        [
-                                            150.463360595,
-                                            -28.668282822
-                                        ],
-                                        [
-                                            150.463662675,
-                                            -28.6677976779999
-                                        ],
-                                        [
-                                            150.464183777,
-                                            -28.6675264199999
-                                        ],
-                                        [
-                                            150.464269997,
-                                            -28.6674979439999
-                                        ],
-                                        [
-                                            150.46439888,
-                                            -28.6673646159999
-                                        ],
-                                        [
-                                            150.464808147,
-                                            -28.667107635
-                                        ],
-                                        [
-                                            150.465265004,
-                                            -28.6668982419999
-                                        ],
-                                        [
-                                            150.465893182,
-                                            -28.666631743
-                                        ],
-                                        [
-                                            150.466213735,
-                                            -28.666475028
-                                        ],
-                                        [
-                                            150.466225354,
-                                            -28.666455662
-                                        ],
-                                        [
-                                            150.466539443,
-                                            -28.666184405
-                                        ],
-                                        [
-                                            150.466846392,
-                                            -28.6659060069999
-                                        ],
-                                        [
-                                            150.467267558,
-                                            -28.66558478
-                                        ],
-                                        [
-                                            150.467495987,
-                                            -28.6653563519999
-                                        ],
-                                        [
-                                            150.467767245,
-                                            -28.665156477
-                                        ],
-                                        [
-                                            150.468202686,
-                                            -28.664642514
-                                        ],
-                                        [
-                                            150.469002186,
-                                            -28.664292733
-                                        ],
-                                        [
-                                            150.470215709,
-                                            -28.6665484609999
-                                        ],
-                                        [
-                                            150.469923035,
-                                            -28.666948211
-                                        ],
-                                        [
-                                            150.469573255,
-                                            -28.6672979919999
-                                        ],
-                                        [
-                                            150.469301996,
-                                            -28.667590665
-                                        ],
-                                        [
-                                            150.469045015,
-                                            -28.667861924
-                                        ],
-                                        [
-                                            150.468816587,
-                                            -28.668126044
+                                            150.471770428,
+                                            -28.668222248
                                         ]
                                     ]
                                 ]
@@ -2246,6 +2203,30 @@
                 "location": "TUCKA TUCKA RD, TOOMELAH 2409",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: TUCKA TUCKA RD, TOOMELAH 2409 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 4 Nov 2024 17:38",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.04016113300008,
+                    -34.79542922999997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WATERVIEW ST, GANMAIN",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573646",
+                "created": "2024-11-05T02:47:00+11:00",
+                "updated": "2024-11-05T13:47:00+11:00",
+                "location": "35 WATERVIEW ST, GANMAIN 2702",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 35 WATERVIEW ST, GANMAIN 2702 <br />COUNCIL AREA: Coolamon <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 13:47",
                 "title": "incident: fire"
             }
         },
@@ -2992,30 +2973,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.61799621600005,
-                    -33.880798339999956
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "KOLKILBERTOO RD, WEETHALLE",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573640",
-                "created": "2024-11-05T02:11:00+11:00",
-                "updated": "2024-11-05T13:11:00+11:00",
-                "location": "KOLKILBERTOO RD, WEETHALLE 2669",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: KOLKILBERTOO RD, WEETHALLE 2669 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 13:11",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     152.8238525390001,
                     -31.125114440999937
                 ]
@@ -3104,6 +3061,30 @@
                 "location": "WATTLE GLEN 1257 THE BOGAN WAY, TULLAMORE 2874",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WATTLE GLEN 1257 THE BOGAN WAY, TULLAMORE 2874 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 11:06",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.61799621600005,
+                    -33.880798339999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Weethalle Tip, Kolkilbert Rd WEETHALLE",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/573640",
+                "created": "2024-11-05T02:11:00+11:00",
+                "updated": "2024-11-05T13:11:00+11:00",
+                "location": "KOLKILBERTOO RD, WEETHALLE 2669",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: KOLKILBERTOO RD, WEETHALLE 2669 <br />COUNCIL AREA: Bland <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Nov 2024 13:11",
                 "title": "incident: fire"
             }
         },
