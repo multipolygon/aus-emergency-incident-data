@@ -556,14 +556,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Swansea Rd",
+                "sourceTitle": "Station St",
                 "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-11-11T21:47:00+11:00",
-                "updated": "2024-11-11T21:55:00+11:00",
-                "id": "ESTA:241116767",
-                "location": "Swansea Rd, Lilydale",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2024-11-11T22:38:00+11:00",
+                "updated": "2024-11-11T22:38:00+11:00",
+                "id": "ESTA:241116790",
+                "location": "Station St, Ferntree Gully",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -571,8 +571,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.35919642908826,
-                    -37.76635789941714
+                    145.29142953243925,
+                    -37.888149297035184
                 ]
             }
         },
@@ -581,10 +581,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Malcolm Creek Pde",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "under control",
                 "created": "2024-11-11T22:33:00+11:00",
-                "updated": "2024-11-11T22:33:00+11:00",
+                "updated": "2024-11-11T22:46:00+11:00",
                 "id": "ESTA:241116787",
                 "location": "Malcolm Creek Pde, Craigieburn",
                 "size": "Small",
@@ -596,50 +596,6 @@
                 "coordinates": [
                     144.92808981495628,
                     -37.584103156822714
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Craigieburn",
-                "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2024-11-11T22:31:55+11:00",
-                "updated": "2024-11-11T22:35:11+11:00",
-                "id": "ESTA:241116788",
-                "location": "Malcolm Creek Pde, Craigieburn",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.92741209550343,
-                    -37.584112259879234
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Willigobung Rd N, Willigobung",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2024-11-11T18:03:00+11:00",
-                "updated": "2024-11-11T18:03:00+11:00",
-                "id": "2024-11-11T18:03:00.0000000:574374",
-                "location": "109 Willigobung Rd N, Willigobung 2653",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.014450073,
-                    -35.634334564
                 ]
             }
         },
@@ -818,29 +774,6 @@
                         "coordinates": [
                             [
                                 [
-                                    146.3417,
-                                    -35.7394
-                                ],
-                                [
-                                    146.3409,
-                                    -35.7412
-                                ],
-                                [
-                                    146.3378,
-                                    -35.741
-                                ],
-                                [
-                                    146.3417,
-                                    -35.7394
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
                                     146.3369,
                                     -35.742
                                 ],
@@ -868,12 +801,80 @@
                         ]
                     },
                     {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    146.3417,
+                                    -35.7394
+                                ],
+                                [
+                                    146.3409,
+                                    -35.7412
+                                ],
+                                [
+                                    146.3378,
+                                    -35.741
+                                ],
+                                [
+                                    146.3417,
+                                    -35.7394
+                                ]
+                            ]
+                        ]
+                    },
+                    {
                         "type": "Point",
                         "coordinates": [
                             146.343582153,
                             -35.74243164
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Willigobung Rd N, Willigobung",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2024-11-11T18:03:00+11:00",
+                "updated": "2024-11-11T18:03:00+11:00",
+                "id": "2024-11-11T18:03:00.0000000:574374",
+                "location": "109 Willigobung Rd N, Willigobung 2653",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.014450073,
+                    -35.634334564
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Swansea Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-11-11T21:47:00+11:00",
+                "updated": "2024-11-11T21:55:00+11:00",
+                "id": "ESTA:241116767",
+                "location": "Swansea Rd, Lilydale",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.35919642908826,
+                    -37.76635789941714
                 ]
             }
         },
