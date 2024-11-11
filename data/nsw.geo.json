@@ -278,10 +278,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.92778015200008,
-                    -29.45139884899993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.92778015200008,
+                            -29.45139884899993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.926574315,
+                                            -29.451464286
+                                        ],
+                                        [
+                                            147.928021027,
+                                            -29.450557712
+                                        ],
+                                        [
+                                            147.929320213,
+                                            -29.450105615
+                                        ],
+                                        [
+                                            147.930381452,
+                                            -29.450364975
+                                        ],
+                                        [
+                                            147.931152397,
+                                            -29.450350698
+                                        ],
+                                        [
+                                            147.931666361,
+                                            -29.4511882689999
+                                        ],
+                                        [
+                                            147.932028039,
+                                            -29.4520258389999
+                                        ],
+                                        [
+                                            147.932223155,
+                                            -29.452613565
+                                        ],
+                                        [
+                                            147.932432549,
+                                            -29.4531537039999
+                                        ],
+                                        [
+                                            147.932361163,
+                                            -29.453905612
+                                        ],
+                                        [
+                                            147.930797858,
+                                            -29.454471924
+                                        ],
+                                        [
+                                            147.92880387,
+                                            -29.453953202
+                                        ],
+                                        [
+                                            147.927937745,
+                                            -29.452987142
+                                        ],
+                                        [
+                                            147.927242943,
+                                            -29.452244751
+                                        ],
+                                        [
+                                            147.926574315,
+                                            -29.451464286
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -4664,11 +4741,11 @@
                 "subcategory": "grass fire",
                 "status": "out of control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574355",
-                "created": "2024-11-11T03:12:00+11:00",
-                "updated": "2024-11-11T14:12:00+11:00",
+                "created": "2024-11-11T05:41:00+11:00",
+                "updated": "2024-11-11T16:41:00+11:00",
                 "location": "RED HILL 945 TOMBONG RD, TOMBONG 2633",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: RED HILL 945 TOMBONG RD, TOMBONG 2633 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2024 14:12",
+                "size": 50,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: RED HILL 945 TOMBONG RD, TOMBONG 2633 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Out of control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 50 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2024 16:41",
                 "title": "incident: fire"
             }
         },
@@ -5633,13 +5710,37 @@
                 "sourceTitle": "SHACKLETON ST, SHOALHAVEN HEADS",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "out of control",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574366",
-                "created": "2024-11-11T04:58:00+11:00",
-                "updated": "2024-11-11T15:58:00+11:00",
+                "created": "2024-11-11T05:38:00+11:00",
+                "updated": "2024-11-11T16:38:00+11:00",
                 "location": "38 SHACKLETON ST, SHOALHAVEN HEADS 2535",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 38 SHACKLETON ST, SHOALHAVEN HEADS 2535 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2024 15:58",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 38 SHACKLETON ST, SHOALHAVEN HEADS 2535 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2024 16:38",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.4579772950001,
+                    -33.41925811699997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "SPOONBAY ACCESS TRK, WAMBERAL",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574370",
+                "created": "2024-11-11T05:44:00+11:00",
+                "updated": "2024-11-11T16:44:00+11:00",
+                "location": "SPOONBAY ACCESS TRK, WAMBERAL 2260",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SPOONBAY ACCESS TRK, WAMBERAL 2260 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2024 16:44",
                 "title": "incident: other"
             }
         },
