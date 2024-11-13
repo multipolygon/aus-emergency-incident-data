@@ -452,10 +452,127 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.227679028,
-                    -29.79706880599997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.22767639200003,
+                            -29.797069549999947
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.215666599,
+                                            -29.799534373
+                                        ],
+                                        [
+                                            148.215547626,
+                                            -29.7985825879999
+                                        ],
+                                        [
+                                            148.215547626,
+                                            -29.798225669
+                                        ],
+                                        [
+                                            148.216558897,
+                                            -29.797452344
+                                        ],
+                                        [
+                                            148.218759898,
+                                            -29.796084154
+                                        ],
+                                        [
+                                            148.221198846,
+                                            -29.793883153
+                                        ],
+                                        [
+                                            148.222448063,
+                                            -29.792990855
+                                        ],
+                                        [
+                                            148.224351631,
+                                            -29.794240072
+                                        ],
+                                        [
+                                            148.227088012,
+                                            -29.793109828
+                                        ],
+                                        [
+                                            148.230181311,
+                                            -29.792752908
+                                        ],
+                                        [
+                                            148.231906421,
+                                            -29.794775451
+                                        ],
+                                        [
+                                            148.23172796,
+                                            -29.795370315
+                                        ],
+                                        [
+                                            148.232917691,
+                                            -29.796441073
+                                        ],
+                                        [
+                                            148.233274611,
+                                            -29.797333371
+                                        ],
+                                        [
+                                            148.232203854,
+                                            -29.798761048
+                                        ],
+                                        [
+                                            148.232025393,
+                                            -29.799177453
+                                        ],
+                                        [
+                                            148.231311555,
+                                            -29.7994153999999
+                                        ],
+                                        [
+                                            148.230240798,
+                                            -29.7994153999999
+                                        ],
+                                        [
+                                            148.228872608,
+                                            -29.800010265
+                                        ],
+                                        [
+                                            148.227206985,
+                                            -29.800843076
+                                        ],
+                                        [
+                                            148.223280874,
+                                            -29.8011405089999
+                                        ],
+                                        [
+                                            148.219652197,
+                                            -29.8015569149999
+                                        ],
+                                        [
+                                            148.21667787,
+                                            -29.800188724
+                                        ],
+                                        [
+                                            148.215845059,
+                                            -29.799653345
+                                        ],
+                                        [
+                                            148.215666599,
+                                            -29.799534373
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -465,11 +582,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574555",
-                "created": "2024-11-13T06:37:00+11:00",
-                "updated": "2024-11-13T17:37:00+11:00",
+                "created": "2024-11-13T07:07:00+11:00",
+                "updated": "2024-11-13T18:07:00+11:00",
                 "location": "18667 GWYDIR HWY, WALGETT 2832",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 18667 GWYDIR HWY, WALGETT 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2024 17:37",
+                "size": 80,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 18667 GWYDIR HWY, WALGETT 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 80 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2024 18:07",
                 "title": "incident: fire"
             }
         },
@@ -795,30 +912,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.27807617200006,
-                    -28.93354225199994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "CORAKI RD, RUTHVEN",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574571",
-                "created": "2024-11-13T06:44:00+11:00",
-                "updated": "2024-11-13T17:44:00+11:00",
-                "location": "895 CORAKI RD, RUTHVEN 2480",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 895 CORAKI RD, RUTHVEN 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2024 17:44",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     145.43124389600007,
                     -35.42235183699995
                 ]
@@ -939,54 +1032,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.51409912100007,
-                    -28.551670074999947
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "MULLUMBIMBY RD",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574565",
-                "created": "2024-11-13T06:13:00+11:00",
-                "updated": "2024-11-13T17:13:00+11:00",
-                "location": "MULLUMBIMBY LEAGUES CLUB MULLUMBIMBY RD, MULLUMBIMBY 2482",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MULLUMBIMBY LEAGUES CLUB MULLUMBIMBY RD, MULLUMBIMBY 2482 <br />COUNCIL AREA: Byron <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2024 17:13",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.0981140140001,
-                    -32.487335204999965
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "NEW ENGLAND HWY, CAMBERWELL",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574554",
-                "created": "2024-11-13T05:29:00+11:00",
-                "updated": "2024-11-13T16:29:00+11:00",
-                "location": "NEW ENGLAND HWY, CAMBERWELL 2330",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NEW ENGLAND HWY, CAMBERWELL 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2024 16:29",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.60816955500002,
                     -32.88133621299994
                 ]
@@ -1003,30 +1048,6 @@
                 "location": "M1 PACIFIC (SOUTHBOUND) MTWY, CAMERON PARK 2285",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: M1 PACIFIC (SOUTHBOUND) MTWY, CAMERON PARK 2285 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2024 17:46",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.38829040500002,
-                    -28.674774169999978
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ROSEBANK RD, ROSEBANK",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "out of control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574559",
-                "created": "2024-11-13T05:53:00+11:00",
-                "updated": "2024-11-13T16:53:00+11:00",
-                "location": "383 ROSEBANK RD, ROSEBANK 2480",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 383 ROSEBANK RD, ROSEBANK 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2024 16:53",
                 "title": "incident: other"
             }
         },
@@ -1075,6 +1096,30 @@
                 "location": "AIRPORT BVD, BALLINA 2478",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: AIRPORT BVD, BALLINA 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2024 10:37",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.1797637940001,
+                    -28.91442680299997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "TATHAM RD, TATHAM",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574573",
+                "created": "2024-11-13T07:12:00+11:00",
+                "updated": "2024-11-13T18:12:00+11:00",
+                "location": "TATHAM RD, TATHAM 2471",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: TATHAM RD, TATHAM 2471 <br />COUNCIL AREA: Lismore <br />STATUS: Out of control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Nov 2024 18:12",
                 "title": "incident: other"
             }
         },
