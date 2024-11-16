@@ -353,8 +353,8 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            149.00073107900005,
-                            -36.77711195599994
+                            148.99942016600005,
+                            -36.77539825499997
                         ]
                     },
                     {
@@ -719,10 +719,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.89756768600012,
-                    -33.65782949599998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.89140488300006,
+                            -33.657151348999946
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.890036693,
+                                            -33.6589359459999
+                                        ],
+                                        [
+                                            146.889798746,
+                                            -33.6545934289999
+                                        ],
+                                        [
+                                            146.89110745,
+                                            -33.6536416439999
+                                        ],
+                                        [
+                                            146.892475641,
+                                            -33.65268986
+                                        ],
+                                        [
+                                            146.893903317,
+                                            -33.652749346
+                                        ],
+                                        [
+                                            146.894974074,
+                                            -33.652749346
+                                        ],
+                                        [
+                                            146.894974074,
+                                            -33.6532252379999
+                                        ],
+                                        [
+                                            146.895330993,
+                                            -33.65423651
+                                        ],
+                                        [
+                                            146.894736129,
+                                            -33.656080592
+                                        ],
+                                        [
+                                            146.893070506,
+                                            -33.657329809
+                                        ],
+                                        [
+                                            146.891166936,
+                                            -33.6589359459999
+                                        ],
+                                        [
+                                            146.890810018,
+                                            -33.659114405
+                                        ],
+                                        [
+                                            146.890096179,
+                                            -33.658816972
+                                        ],
+                                        [
+                                            146.890096179,
+                                            -33.6588368019999
+                                        ],
+                                        [
+                                            146.890036693,
+                                            -33.6589359459999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2071,6 +2148,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MAYFIELD RIVERS RD, GOOLOOGONG 2805 <br />COUNCIL AREA: Cowra <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2024 00:32",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.4860687260001,
+                    -34.461250304999965
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "OLD SOUTH RD",
+                "category": "other",
+                "subcategory": "fire alarm",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574905",
+                "created": "2024-11-16T08:48:00+11:00",
+                "updated": "2024-11-16T19:48:00+11:00",
+                "location": "MARIST BROTHERS HERMITAGE OLD SOUTH RD, MITTAGONG 2575",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MARIST BROTHERS HERMITAGE OLD SOUTH RD, MITTAGONG 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Out of control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2024 19:48",
+                "title": "incident: other"
             }
         },
         {
