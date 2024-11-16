@@ -4,10 +4,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.06976318300008,
-                    -32.784839629999965
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.06976318300008,
+                            -32.784839629999965
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.07430963,
+                                            -32.7782233679999
+                                        ],
+                                        [
+                                            149.074307467,
+                                            -32.778190921
+                                        ],
+                                        [
+                                            149.076115857,
+                                            -32.778083845
+                                        ],
+                                        [
+                                            149.076556058,
+                                            -32.777381905
+                                        ],
+                                        [
+                                            149.077995632,
+                                            -32.777774516
+                                        ],
+                                        [
+                                            149.078281167,
+                                            -32.779118911
+                                        ],
+                                        [
+                                            149.078340653,
+                                            -32.7804871009999
+                                        ],
+                                        [
+                                            149.07652253,
+                                            -32.781185798
+                                        ],
+                                        [
+                                            149.074868804,
+                                            -32.779996067
+                                        ],
+                                        [
+                                            149.07430963,
+                                            -32.7782233679999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2155,6 +2212,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.70187378000003,
+                    -33.661903380999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "FIRE TRAIL RD, CASTLEREAGH",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "out of control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574918",
+                "created": "2024-11-16T11:40:00+11:00",
+                "updated": "2024-11-16T22:40:00+11:00",
+                "location": "FIRE TRAIL RD, CASTLEREAGH 2749",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: FIRE TRAIL RD, CASTLEREAGH 2749 <br />COUNCIL AREA: Penrith <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2024 22:40",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.61833190900006,
                     -33.42382049499997
                 ]
@@ -2236,13 +2317,13 @@
                 "sourceTitle": "YARRAMALONG RD, WYONG CREEK",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "out of control",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/574917",
-                "created": "2024-11-16T11:21:00+11:00",
-                "updated": "2024-11-16T22:21:00+11:00",
+                "created": "2024-11-16T11:46:00+11:00",
+                "updated": "2024-11-16T22:46:00+11:00",
                 "location": "1376 YARRAMALONG RD, WYONG CREEK 2259",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1376 YARRAMALONG RD, WYONG CREEK 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Out of control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2024 22:21",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1376 YARRAMALONG RD, WYONG CREEK 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Nov 2024 22:46",
                 "title": "incident: fire"
             }
         }
