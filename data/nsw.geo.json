@@ -113,10 +113,59 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.04100000000005,
-                    -34.33119999999997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.04100036600005,
+                            -34.33119964599996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.038465643,
+                                            -34.329333818
+                                        ],
+                                        [
+                                            146.03693089,
+                                            -34.3305116509999
+                                        ],
+                                        [
+                                            146.036300333,
+                                            -34.330380781
+                                        ],
+                                        [
+                                            146.035586496,
+                                            -34.328965001
+                                        ],
+                                        [
+                                            146.037168836,
+                                            -34.3283701359999
+                                        ],
+                                        [
+                                            146.037888624,
+                                            -34.328512904
+                                        ],
+                                        [
+                                            146.038418054,
+                                            -34.328727054
+                                        ],
+                                        [
+                                            146.038465643,
+                                            -34.329333818
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -126,11 +175,11 @@
                 "subcategory": "grass fire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576400",
-                "created": "2024-11-20T19:17:00+11:00",
-                "updated": "2024-11-21T06:17:00+11:00",
+                "created": "2024-11-20T20:03:00+11:00",
+                "updated": "2024-11-21T07:03:00+11:00",
                 "location": "BEAUMONT RD, HANWOOD 2680",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BEAUMONT RD, HANWOOD 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Nov 2024 06:17",
+                "size": 4,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BEAUMONT RD, HANWOOD 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 07:03",
                 "title": "incident: fire"
             }
         },
@@ -5833,30 +5882,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.14384460500003,
-                    -34.08426284799998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BLACKMAN ST, BIGGA",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/575042",
-                "created": "2024-11-19T21:55:00+11:00",
-                "updated": "2024-11-20T08:55:00+11:00",
-                "location": "BLACKMAN ST, BIGGA 2583",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BLACKMAN ST, BIGGA 2583 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2024 08:55",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     147.69845581100003,
                     -30.46497917199997
                 ]
@@ -6071,78 +6096,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CROWN CAMP RD, TULLIBIGEAL 2669 <br />COUNCIL AREA: Lachlan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 04:17",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.50430297800006,
-                    -32.27169036799995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "GREG STAIRS RD, GUNGAL",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/575213",
-                "created": "2024-11-19T03:46:00+11:00",
-                "updated": "2024-11-19T14:46:00+11:00",
-                "location": "GREG STAIRS RD, GUNGAL 2333",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GREG STAIRS RD, GUNGAL 2333 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2024 14:46",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.27954101600005,
-                    -31.386560439999982
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "NEWELL HWY, COONABARABRAN",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576381",
-                "created": "2024-11-20T13:09:00+11:00",
-                "updated": "2024-11-21T00:09:00+11:00",
-                "location": "8184 NEWELL HWY, COONABARABRAN 2357",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8184 NEWELL HWY, COONABARABRAN 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 00:09",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.55812072700007,
-                    -33.18838882499995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "TALL TIMBERS RD",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576402",
-                "created": "2024-11-20T19:32:00+11:00",
-                "updated": "2024-11-21T06:32:00+11:00",
-                "location": "LAKE MUNMORAH SHOPPING CENTRE TALL TIMBERS RD, LAKE MUNMORAH 2259",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: LAKE MUNMORAH SHOPPING CENTRE TALL TIMBERS RD, LAKE MUNMORAH 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Responding <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 06:32",
-                "title": "incident: other"
             }
         }
     ]
