@@ -1532,10 +1532,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.10345458900008,
-                    -30.551362990999962
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.10345458900008,
+                            -30.551362990999962
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.108390578,
+                                            -30.549826734
+                                        ],
+                                        [
+                                            149.107910754,
+                                            -30.5500827299999
+                                        ],
+                                        [
+                                            149.107459773,
+                                            -30.549631769
+                                        ],
+                                        [
+                                            149.106804126,
+                                            -30.5488977059999
+                                        ],
+                                        [
+                                            149.109187758,
+                                            -30.5479234929999
+                                        ],
+                                        [
+                                            149.109858862,
+                                            -30.548351785
+                                        ],
+                                        [
+                                            149.11013094,
+                                            -30.548691071
+                                        ],
+                                        [
+                                            149.109543335,
+                                            -30.549063385
+                                        ],
+                                        [
+                                            149.108390578,
+                                            -30.549826734
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1543,37 +1596,13 @@
                 "sourceTitle": "Brigalow rd, GWABEGAR",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet controlled",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576468",
-                "created": "2024-11-21T08:12:00+11:00",
-                "updated": "2024-11-21T19:12:00+11:00",
+                "created": "2024-11-21T10:11:00+11:00",
+                "updated": "2024-11-21T21:11:00+11:00",
                 "location": "BRIGALOW FIRE, GWABEGAR 2356",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BRIGALOW FIRE, GWABEGAR 2356 <br />COUNCIL AREA: Narrabri <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 19:12",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.10075378400006,
-                    -30.25271606499996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "CUBBAROO LANE, MERAH NORTH",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576465",
-                "created": "2024-11-21T08:07:00+11:00",
-                "updated": "2024-11-21T19:07:00+11:00",
-                "location": "CUBBAROO LANE, MERAH NORTH 2388",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: CUBBAROO LANE, MERAH NORTH 2388 <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 19:07",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BRIGALOW FIRE, GWABEGAR 2356 <br />COUNCIL AREA: Narrabri <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 21:11",
                 "title": "incident: fire"
             }
         },
@@ -3614,22 +3643,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    148.8455963130001,
-                    -30.44823646599997
+                    143.88601684500009,
+                    -34.38647460899995
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "PILLIGA RD, PILLIGA",
+                "sourceTitle": "North Stallion Swamp",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576471",
-                "created": "2024-11-21T09:19:00+11:00",
-                "updated": "2024-11-21T20:19:00+11:00",
-                "location": "THE RANCH 6687 PILLIGA RD, PILLIGA 2388",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: THE RANCH 6687 PILLIGA RD, PILLIGA 2388 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 20:19",
+                "status": "not yet controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576472",
+                "created": "2024-11-21T09:43:00+11:00",
+                "updated": "2024-11-21T20:43:00+11:00",
+                "location": "WAUGORAH HOMESTEAD 132 COATES RD, WAUGORAH 2711",
+                "size": 3,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: WAUGORAH HOMESTEAD 132 COATES RD, WAUGORAH 2711 <br />COUNCIL AREA: Murray River <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 21 Nov 2024 20:43",
                 "title": "incident: fire"
             }
         },
@@ -6884,10 +6913,200 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.94650268500004,
-                    -31.042947769999955
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.94650268500004,
+                            -31.042947769999955
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.946690937,
+                                            -31.045841063
+                                        ],
+                                        [
+                                            150.947422255,
+                                            -31.04810579
+                                        ],
+                                        [
+                                            150.947029644,
+                                            -31.048212866
+                                        ],
+                                        [
+                                            150.946565649,
+                                            -31.0482009689999
+                                        ],
+                                        [
+                                            150.946173038,
+                                            -31.047903536
+                                        ],
+                                        [
+                                            150.946161141,
+                                            -31.04735626
+                                        ],
+                                        [
+                                            150.946137346,
+                                            -31.047189698
+                                        ],
+                                        [
+                                            150.945685249,
+                                            -31.046856573
+                                        ],
+                                        [
+                                            150.94528074,
+                                            -31.0469755459999
+                                        ],
+                                        [
+                                            150.944876232,
+                                            -31.046761395
+                                        ],
+                                        [
+                                            150.944614491,
+                                            -31.046404476
+                                        ],
+                                        [
+                                            150.944638286,
+                                            -31.046071351
+                                        ],
+                                        [
+                                            150.944816745,
+                                            -31.045524074
+                                        ],
+                                        [
+                                            150.946690937,
+                                            -31.045841063
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.946690296,
+                                            -31.045839079
+                                        ],
+                                        [
+                                            150.946684623,
+                                            -31.0458334049999
+                                        ],
+                                        [
+                                            150.946684623,
+                                            -31.045821508
+                                        ],
+                                        [
+                                            150.946690296,
+                                            -31.045839079
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.946690937,
+                                            -31.045841063
+                                        ],
+                                        [
+                                            150.946690296,
+                                            -31.045839079
+                                        ],
+                                        [
+                                            150.946692555,
+                                            -31.045841337
+                                        ],
+                                        [
+                                            150.946690937,
+                                            -31.045841063
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.954937388,
+                                            -31.05016799
+                                        ],
+                                        [
+                                            150.953128998,
+                                            -31.04972779
+                                        ],
+                                        [
+                                            150.950511591,
+                                            -31.0494898429999
+                                        ],
+                                        [
+                                            150.94980965,
+                                            -31.04937087
+                                        ],
+                                        [
+                                            150.949428936,
+                                            -31.049037746
+                                        ],
+                                        [
+                                            150.949167195,
+                                            -31.048252524
+                                        ],
+                                        [
+                                            150.948929249,
+                                            -31.0479075009999
+                                        ],
+                                        [
+                                            150.948132129,
+                                            -31.047717145
+                                        ],
+                                        [
+                                            150.94901253,
+                                            -31.046432237
+                                        ],
+                                        [
+                                            150.949286168,
+                                            -31.0464798249999
+                                        ],
+                                        [
+                                            150.949476525,
+                                            -31.046693977
+                                        ],
+                                        [
+                                            150.949619293,
+                                            -31.047086588
+                                        ],
+                                        [
+                                            150.949881033,
+                                            -31.047217459
+                                        ],
+                                        [
+                                            150.951213531,
+                                            -31.047157972
+                                        ],
+                                        [
+                                            150.951213531,
+                                            -31.0471659039999
+                                        ],
+                                        [
+                                            150.954937388,
+                                            -31.05016799
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -7030,23 +7249,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.31895446800002,
-                    -29.63663673399998
+                    150.95632934600008,
+                    -29.73461341799998
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "MALLAWA RD, MALLOWA",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576447",
-                "created": "2024-11-21T06:46:00+11:00",
-                "updated": "2024-11-21T17:46:00+11:00",
-                "location": "BELLEVUE 3632 MALLAWA RD, MALLOWA 2400",
+                "sourceTitle": "GWYDIR HWY",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576479",
+                "created": "2024-11-21T09:56:00+11:00",
+                "updated": "2024-11-21T20:56:00+11:00",
+                "location": "LITTLE PLAIN CEMETERY GWYDIR HWY, LITTLE PLAIN 2360",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BELLEVUE 3632 MALLAWA RD, MALLOWA 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 17:46",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: LITTLE PLAIN CEMETERY GWYDIR HWY, LITTLE PLAIN 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 20:56",
+                "title": "incident: fire"
             }
         },
         {
@@ -7054,22 +7273,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.88601684500009,
-                    -34.38647460899995
+                    149.27954101600005,
+                    -31.386560439999982
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "North Stallion Swamp",
+                "sourceTitle": "NEWELL HWY, COONABARABRAN",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576472",
-                "created": "2024-11-21T07:15:00+11:00",
-                "updated": "2024-11-21T18:15:00+11:00",
-                "location": "WAUGORAH HOMESTEAD 132 COATES RD, WAUGORAH 2711",
-                "size": 5,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WAUGORAH HOMESTEAD 132 COATES RD, WAUGORAH 2711 <br />COUNCIL AREA: Murray River <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 21 Nov 2024 18:15",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576480",
+                "created": "2024-11-21T10:11:00+11:00",
+                "updated": "2024-11-21T21:11:00+11:00",
+                "location": "8184 NEWELL HWY, COONABARABRAN 2357",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 8184 NEWELL HWY, COONABARABRAN 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 21:11",
                 "title": "incident: fire"
             }
         },
@@ -7095,30 +7314,6 @@
                 "size": 1,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BINDA WALLA 998 QUANDIALLA-CARAGABAL RD, CARAGABAL NSW 2810 <br />COUNCIL AREA: Weddin <br />STATUS: Under control <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 14:38",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.42327880900007,
-                    -32.96485519399994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "RENSHAW MCGIRR WAY, BALDRY",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576476",
-                "created": "2024-11-21T09:22:00+11:00",
-                "updated": "2024-11-21T20:22:00+11:00",
-                "location": "RENSHAW MCGIRR WAY, BALDRY 2867",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: RENSHAW MCGIRR WAY, BALDRY 2867 <br />COUNCIL AREA: Cabonne <br />STATUS: Responding <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 20:22",
-                "title": "incident: other"
             }
         },
         {
@@ -7159,13 +7354,13 @@
                 "sourceTitle": "THE INLET RD, BULGA",
                 "category": "other",
                 "subcategory": "assist other agency",
-                "status": "responding",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576478",
-                "created": "2024-11-21T09:39:00+11:00",
-                "updated": "2024-11-21T20:39:00+11:00",
+                "created": "2024-11-21T10:00:00+11:00",
+                "updated": "2024-11-21T21:00:00+11:00",
                 "location": "147 THE INLET RD, BULGA 2330",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 147 THE INLET RD, BULGA 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Responding <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 20:39",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 147 THE INLET RD, BULGA 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 21:00",
                 "title": "incident: other"
             }
         }
