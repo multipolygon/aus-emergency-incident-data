@@ -482,10 +482,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.9194793700001,
-                    -32.355510710999965
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            147.9194793700001,
+                            -32.355510710999965
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.931271494,
+                                            -32.347872303
+                                        ],
+                                        [
+                                            147.932841938,
+                                            -32.348038865
+                                        ],
+                                        [
+                                            147.932413635,
+                                            -32.351274933
+                                        ],
+                                        [
+                                            147.930486272,
+                                            -32.350941808
+                                        ],
+                                        [
+                                            147.929629666,
+                                            -32.3506800669999
+                                        ],
+                                        [
+                                            147.929843818,
+                                            -32.348348196
+                                        ],
+                                        [
+                                            147.929938996,
+                                            -32.3480864539999
+                                        ],
+                                        [
+                                            147.931271494,
+                                            -32.34806266
+                                        ],
+                                        [
+                                            147.931271494,
+                                            -32.347872303
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3454,13 +3507,13 @@
                 "sourceTitle": "MITCHELL HWY, NORTH BOURKE",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "not yet controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576441",
-                "created": "2024-11-21T05:06:00+11:00",
-                "updated": "2024-11-21T16:06:00+11:00",
+                "created": "2024-11-21T07:05:00+11:00",
+                "updated": "2024-11-21T18:05:00+11:00",
                 "location": "MITCHELL HWY, NORTH BOURKE 2840",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: MITCHELL HWY, NORTH BOURKE 2840 <br />COUNCIL AREA: Bourke <br />STATUS: Not yet controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 16:06",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: MITCHELL HWY, NORTH BOURKE 2840 <br />COUNCIL AREA: Bourke <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 18:05",
                 "title": "incident: fire"
             }
         },
@@ -6861,6 +6914,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.8079223630001,
+                    -33.950408934999984
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BRINGELLY RD, LEPPINGTON",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576460",
+                "created": "2024-11-21T06:52:00+11:00",
+                "updated": "2024-11-21T17:52:00+11:00",
+                "location": "BRINGELLY RD, LEPPINGTON 2179",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BRINGELLY RD, LEPPINGTON 2179 <br />COUNCIL AREA: Liverpool <br />STATUS: Responding <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 17:52",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     147.69845581100003,
                     -30.46497917199997
                 ]
@@ -6909,6 +6986,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    150.8529968260001,
+                    -34.40340042099996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "DAVE WALSHS TRK, MOUNT KEIRA",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576461",
+                "created": "2024-11-21T06:54:00+11:00",
+                "updated": "2024-11-21T17:54:00+11:00",
+                "location": "DAVE WALSHS TRK, MOUNT KEIRA 2500",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: DAVE WALSHS TRK, MOUNT KEIRA 2500 <br />COUNCIL AREA: Wollongong <br />STATUS: Responding <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 17:54",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.6300048820001,
                     -31.611303328999952
                 ]
@@ -6925,30 +7026,6 @@
                 "location": "EAST COONAMBLE RD, GILGANDRA 2827",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: EAST COONAMBLE RD, GILGANDRA 2827 <br />COUNCIL AREA: Gilgandra <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 16:41",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.1607971190001,
-                    -30.698989867999956
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Euligal",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576457",
-                "created": "2024-11-21T04:48:00+11:00",
-                "updated": "2024-11-21T15:48:00+11:00",
-                "location": "PILLIGA FOREST WAY, THE PILLIGA 2388",
-                "size": 10,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PILLIGA FOREST WAY, THE PILLIGA 2388 <br />COUNCIL AREA: Narrabri <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 21 Nov 2024 15:48",
                 "title": "incident: fire"
             }
         },
@@ -7014,13 +7091,61 @@
                 "sourceTitle": "MALLAWA RD, MALLOWA",
                 "category": "other",
                 "subcategory": "assist other agency",
-                "status": "responding",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576447",
-                "created": "2024-11-21T04:58:00+11:00",
-                "updated": "2024-11-21T15:58:00+11:00",
+                "created": "2024-11-21T06:46:00+11:00",
+                "updated": "2024-11-21T17:46:00+11:00",
                 "location": "BELLEVUE 3632 MALLAWA RD, MALLOWA 2400",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BELLEVUE 3632 MALLAWA RD, MALLOWA 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Responding <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 15:58",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BELLEVUE 3632 MALLAWA RD, MALLOWA 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 17:46",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.92491149900002,
+                    -33.686035155999946
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MCCOMBE AV, ROUSE HILL",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576463",
+                "created": "2024-11-21T07:05:00+11:00",
+                "updated": "2024-11-21T18:05:00+11:00",
+                "location": "MCCOMBE AV, ROUSE HILL 2155",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MCCOMBE AV, ROUSE HILL 2155 <br />COUNCIL AREA: The Hills <br />STATUS: Responding <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 18:05",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.866058349,
+                    -31.449714660999973
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NEW ENGLAND HWY, WALLABADAH",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/576462",
+                "created": "2024-11-21T07:04:00+11:00",
+                "updated": "2024-11-21T18:04:00+11:00",
+                "location": "NEW ENGLAND HWY, WALLABADAH 2343",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NEW ENGLAND HWY, WALLABADAH 2343 <br />COUNCIL AREA: Liverpool Plains <br />STATUS: Responding <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Nov 2024 18:04",
                 "title": "incident: other"
             }
         },
