@@ -1179,12 +1179,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "High St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2024-12-01T07:43:08+11:00",
+                "updated": "2024-12-01T07:43:08+11:00",
+                "id": "ESTA:241200084",
+                "location": "High St, Melton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.5914221302128,
+                    -37.683606219426906
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2024-12-01T07:32:00+11:00",
-                "updated": "2024-12-01T07:35:00+11:00",
+                "updated": "2024-12-01T07:43:00+11:00",
                 "id": "ESTA:241250017",
                 "location": "Fish Creek",
                 "title": "incident: tree down"
@@ -1199,29 +1222,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Lonsdale St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2024-12-01T07:33:42+11:00",
-                "updated": "2024-12-01T07:33:42+11:00",
-                "id": "ESTA:241200080",
-                "location": "Lonsdale St, Melbourne",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.97109730376695,
-                    -37.809920956220004
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -1231,7 +1231,7 @@
                 "status": "warning",
                 "created": "2024-12-01T05:00:00+11:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/4738ca18168f350081b268d237f12d7f",
+                "id": "IDV20600/ead798f33a9406f06653b07cac3729a7",
                 "location": "West Coast and Central Coast",
                 "title": "incident: met"
             },
@@ -23355,6 +23355,29 @@
                 "coordinates": [
                     141.3739967181328,
                     -37.16936964424308
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lonsdale St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2024-12-01T07:46:06+11:00",
+                "updated": "2024-12-01T07:46:06+11:00",
+                "id": "ESTA:241200080",
+                "location": "Lonsdale St, Melbourne",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97109730376695,
+                    -37.809920956220004
                 ]
             }
         },
