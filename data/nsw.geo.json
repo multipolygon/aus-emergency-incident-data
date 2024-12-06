@@ -6,30 +6,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.15821100100004,
-                    -34.08526799999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Eric St, Bundeena",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/578021",
-                "created": "2024-12-05T23:38:00+11:00",
-                "updated": "2024-12-06T10:38:00+11:00",
-                "location": "72A Eric St, Bundeena, NSW 2230",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 72A Eric St, Bundeena, NSW 2230 <br />COUNCIL AREA: Sutherland <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Dec 2024 10:38",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.1136627200001,
                     -35.69797897299998
                 ]
@@ -733,10 +709,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.95362854000007,
-                    -31.043186223999953
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.95362854000007,
+                            -31.043186223999953
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.952730821,
+                                            -31.039232022
+                                        ],
+                                        [
+                                            150.952875969,
+                                            -31.0418756019999
+                                        ],
+                                        [
+                                            150.952873589,
+                                            -31.041873223
+                                        ],
+                                        [
+                                            150.951636269,
+                                            -31.041635277
+                                        ],
+                                        [
+                                            150.951707654,
+                                            -31.0393271999999
+                                        ],
+                                        [
+                                            150.952730821,
+                                            -31.039232022
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -746,11 +763,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/577927",
-                "created": "2024-12-04T23:12:00+11:00",
-                "updated": "2024-12-05T10:12:00+11:00",
+                "created": "2024-12-06T01:01:00+11:00",
+                "updated": "2024-12-06T12:01:00+11:00",
                 "location": "136 GODLEE LANE, DARUKA 2340",
-                "size": 15,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 136 GODLEE LANE, DARUKA 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 15 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 5 Dec 2024 10:12",
+                "size": 3,
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: 136 GODLEE LANE, DARUKA 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 12:01",
                 "title": "incident: fire"
             }
         },
@@ -1096,23 +1113,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.24104309100005,
-                    -33.538475036999955
+                    152.55015564000007,
+                    -31.875024794999945
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "BAROONA ST, DANGAR ISLAND",
-                "category": "other",
-                "subcategory": "assist other agency",
+                "sourceTitle": "BLACKS LANE, GHINNI GHINNI",
+                "category": "fire",
+                "subcategory": "grass fire",
                 "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/578023",
-                "created": "2024-12-05T23:29:00+11:00",
-                "updated": "2024-12-06T10:29:00+11:00",
-                "location": "6 BAROONA ST, DANGAR ISLAND 2083",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/578024",
+                "created": "2024-12-05T23:40:00+11:00",
+                "updated": "2024-12-06T10:40:00+11:00",
+                "location": "BLACKS LANE, GHINNI GHINNI 2430",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 6 BAROONA ST, DANGAR ISLAND 2083 <br />COUNCIL AREA: Hornsby <br />STATUS: Responding <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 10:29",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BLACKS LANE, GHINNI GHINNI 2430 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 10:40",
+                "title": "incident: fire"
             }
         },
         {
@@ -1136,6 +1153,30 @@
                 "location": "465 CUDGEN RD, CUDGEN 2487",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 465 CUDGEN RD, CUDGEN 2487 <br />COUNCIL AREA: Tweed <br />STATUS: Not yet controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 09:15",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.08111572300004,
+                    -30.321933745999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ENGLANDS RD",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/578034",
+                "created": "2024-12-06T01:00:00+11:00",
+                "updated": "2024-12-06T12:00:00+11:00",
+                "location": "RUBBISH DEPOT 31 ENGLANDS RD, NORTH BOAMBEE VALLEY 2450",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: RUBBISH DEPOT 31 ENGLANDS RD, NORTH BOAMBEE VALLEY 2450 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Dec 2024 12:00",
                 "title": "incident: fire"
             }
         },
@@ -1373,23 +1414,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.0169067380001,
-                    -30.881237029999966
+                    151.6701507570001,
+                    -30.24703025799994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "NEW ENTRANCE RD, SOUTH WEST ROCKS",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/578027",
-                "created": "2024-12-05T23:48:00+11:00",
-                "updated": "2024-12-06T10:48:00+11:00",
-                "location": "NEW ENTRANCE RD, SOUTH WEST ROCKS 2431",
+                "sourceTitle": "NEW ENGLAND HWY, SOUTH GUYRA",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/578026",
+                "created": "2024-12-06T00:13:00+11:00",
+                "updated": "2024-12-06T11:13:00+11:00",
+                "location": "NEW ENGLAND HWY, SOUTH GUYRA 2365",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NEW ENTRANCE RD, SOUTH WEST ROCKS 2431 <br />COUNCIL AREA: Kempsey <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 10:48",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NEW ENGLAND HWY, SOUTH GUYRA 2365 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 6 Dec 2024 11:13",
+                "title": "incident: other"
             }
         },
         {
@@ -1413,6 +1454,54 @@
                 "location": "2741 OLYMPIC HWY, CULCAIRN 2660",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2741 OLYMPIC HWY, CULCAIRN 2660 <br />COUNCIL AREA: Greater Hume <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 01:19",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.3034210200001,
+                    -33.536754608999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PATONGA DR, PATONGA",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/578033",
+                "created": "2024-12-06T00:46:00+11:00",
+                "updated": "2024-12-06T11:46:00+11:00",
+                "location": "PATONGA DR, PATONGA 2256",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PATONGA DR, PATONGA 2256 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 11:46",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.90756225600012,
+                    -32.527431487999934
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "REDMANVALE RD, JERRYS PLAINS",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/578032",
+                "created": "2024-12-06T00:21:00+11:00",
+                "updated": "2024-12-06T11:21:00+11:00",
+                "location": "REDMANVALE RD, JERRYS PLAINS 2330",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: REDMANVALE RD, JERRYS PLAINS 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 11:21",
                 "title": "incident: fire"
             }
         },
@@ -1454,13 +1543,13 @@
                 "sourceTitle": "Unnamed Road, Deua River Valley",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/578002",
-                "created": "2024-12-05T21:04:00+11:00",
-                "updated": "2024-12-06T08:04:00+11:00",
+                "created": "2024-12-06T00:29:00+11:00",
+                "updated": "2024-12-06T11:29:00+11:00",
                 "location": "Unnamed Road, Deua River Valley",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unnamed Road, Deua River Valley <br />COUNCIL AREA: Eurobodalla <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 08:04",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Unnamed Road, Deua River Valley <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 6 Dec 2024 11:29",
                 "title": "incident: fire"
             }
         }
