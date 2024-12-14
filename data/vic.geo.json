@@ -558,35 +558,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Central Pwy",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2024-12-15T03:47:15+11:00",
-                "updated": "2024-12-15T03:47:15+11:00",
-                "id": "ESTA:241210383",
-                "location": "Central Pwy, Cranbourne West",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26327753962073,
-                    -38.09539956813223
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Newcombe St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2024-12-15T03:48:00+11:00",
-                "updated": "2024-12-15T03:48:00+11:00",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2024-12-15T04:11:20+11:00",
+                "updated": "2024-12-15T04:11:20+11:00",
                 "id": "ESTA:241210384",
                 "location": "Newcombe St, Portarlington",
                 "size": "Small",
@@ -596,108 +573,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.6530708536634,
-                    -38.11526659322733
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Swan Hill Rd",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2024-12-14T05:58:00+11:00",
-                "updated": "2024-12-14T05:58:00+11:00",
-                "id": "2024-12-14T05:58:00.0000000:578874",
-                "location": "Murray Downs Almonds Swan Hill Rd, Murray Downs 2734",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.643478394,
-                    -35.3189468379999
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Toms Farm Creek",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2024-12-14T16:00:00+11:00",
-                "updated": "2024-12-14T16:00:00+11:00",
-                "id": "2024-12-14T16:00:00.0000000:576477",
-                "location": "Settlers Rd, Corrowong 2633",
-                "title": "incident: fire"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    148.818,
-                                    -36.7859
-                                ],
-                                [
-                                    148.8182,
-                                    -36.7903
-                                ],
-                                [
-                                    148.8212,
-                                    -36.7917
-                                ],
-                                [
-                                    148.821,
-                                    -36.7938
-                                ],
-                                [
-                                    148.8165,
-                                    -36.7968
-                                ],
-                                [
-                                    148.8151,
-                                    -36.8001
-                                ],
-                                [
-                                    148.8073,
-                                    -36.7995
-                                ],
-                                [
-                                    148.8076,
-                                    -36.7945
-                                ],
-                                [
-                                    148.8035,
-                                    -36.7908
-                                ],
-                                [
-                                    148.8158,
-                                    -36.7883
-                                ],
-                                [
-                                    148.818,
-                                    -36.7859
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            148.808441163,
-                            -36.7932014469999
-                        ]
-                    }
+                    144.6530816887308,
+                    -38.11525953762555
                 ]
             }
         },
@@ -824,6 +701,106 @@
                         "coordinates": [
                             144.910908498,
                             -35.97864966
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Swan Hill Rd",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2024-12-14T05:58:00+11:00",
+                "updated": "2024-12-14T05:58:00+11:00",
+                "id": "2024-12-14T05:58:00.0000000:578874",
+                "location": "Murray Downs Almonds Swan Hill Rd, Murray Downs 2734",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.643478394,
+                    -35.3189468379999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Toms Farm Creek",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2024-12-14T16:00:00+11:00",
+                "updated": "2024-12-14T16:00:00+11:00",
+                "id": "2024-12-14T16:00:00.0000000:576477",
+                "location": "Settlers Rd, Corrowong 2633",
+                "title": "incident: fire"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    148.818,
+                                    -36.7859
+                                ],
+                                [
+                                    148.8182,
+                                    -36.7903
+                                ],
+                                [
+                                    148.8212,
+                                    -36.7917
+                                ],
+                                [
+                                    148.821,
+                                    -36.7938
+                                ],
+                                [
+                                    148.8165,
+                                    -36.7968
+                                ],
+                                [
+                                    148.8151,
+                                    -36.8001
+                                ],
+                                [
+                                    148.8073,
+                                    -36.7995
+                                ],
+                                [
+                                    148.8076,
+                                    -36.7945
+                                ],
+                                [
+                                    148.8035,
+                                    -36.7908
+                                ],
+                                [
+                                    148.8158,
+                                    -36.7883
+                                ],
+                                [
+                                    148.818,
+                                    -36.7859
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.808441163,
+                            -36.7932014469999
                         ]
                     }
                 ]
@@ -26588,52 +26565,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Jonathan Dr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2024-12-15T02:17:00+11:00",
-                "updated": "2024-12-15T02:55:00+11:00",
-                "id": "ESTA:241210368",
-                "location": "Jonathan Dr, Darley",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.43630877276212,
-                    -37.65992179930374
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Railway Av",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2024-12-15T03:02:00+11:00",
-                "updated": "2024-12-15T03:02:00+11:00",
-                "id": "ESTA:241210377",
-                "location": "Railway Av, Pyramid Hill",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.11349857077712,
-                    -36.05433822390704
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Perrin Cct",
                 "category": "other",
                 "subcategory": "other",
@@ -26657,23 +26588,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Boldrewood Pde",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "under control",
-                "created": "2024-12-15T01:43:20+11:00",
-                "updated": "2024-12-15T01:43:20+11:00",
-                "id": "ESTA:241210361",
-                "location": "Boldrewood Pde, Reservoir",
+                "sourceTitle": "Cranbourne West",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2024-12-15T04:01:36+11:00",
+                "updated": "2024-12-15T04:01:36+11:00",
+                "id": "ESTA:241210383",
+                "location": "Cranbourne West, Cranbourne West",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.02163200613626,
-                    -37.722135914505
+                    145.26302734452733,
+                    -38.0955712839263
                 ]
             }
         },
