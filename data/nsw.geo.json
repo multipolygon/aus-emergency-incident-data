@@ -270,10 +270,95 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.1413421630001,
-                    -29.950983046999966
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            153.1413421630001,
+                            -29.950983046999966
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            153.141003739,
+                                            -29.951285948
+                                        ],
+                                        [
+                                            153.140908561,
+                                            -29.951178872
+                                        ],
+                                        [
+                                            153.14082528,
+                                            -29.9511074869999
+                                        ],
+                                        [
+                                            153.140670615,
+                                            -29.9511312819999
+                                        ],
+                                        [
+                                            153.140634923,
+                                            -29.9509885149999
+                                        ],
+                                        [
+                                            153.140849075,
+                                            -29.9508338489999
+                                        ],
+                                        [
+                                            153.140884766,
+                                            -29.9507148769999
+                                        ],
+                                        [
+                                            153.141063225,
+                                            -29.9506315949999
+                                        ],
+                                        [
+                                            153.14126548,
+                                            -29.950595904
+                                        ],
+                                        [
+                                            153.141360658,
+                                            -29.950536417
+                                        ],
+                                        [
+                                            153.141277377,
+                                            -29.9504412379999
+                                        ],
+                                        [
+                                            153.141515324,
+                                            -29.9505245189999
+                                        ],
+                                        [
+                                            153.1416224,
+                                            -29.9506315949999
+                                        ],
+                                        [
+                                            153.141681886,
+                                            -29.9507743629999
+                                        ],
+                                        [
+                                            153.141705681,
+                                            -29.9508576439999
+                                        ],
+                                        [
+                                            153.141705681,
+                                            -29.950893337
+                                        ],
+                                        [
+                                            153.141003739,
+                                            -29.951285948
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -281,13 +366,13 @@
                 "sourceTitle": "BEE RANGE RD, HALFWAY CREEK",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/580689",
-                "created": "2024-12-20T20:24:00+11:00",
-                "updated": "2024-12-21T07:24:00+11:00",
+                "created": "2024-12-20T21:02:00+11:00",
+                "updated": "2024-12-21T08:02:00+11:00",
                 "location": "BEE RANGE RD, HALFWAY CREEK 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BEE RANGE RD, HALFWAY CREEK 2460 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Dec 2024 07:24",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BEE RANGE RD, HALFWAY CREEK 2460 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Dec 2024 08:02",
                 "title": "incident: fire"
             }
         },
@@ -1059,29 +1144,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            148.98522387,
-                                            -36.1829067689999
-                                        ],
-                                        [
-                                            148.985222179,
-                                            -36.182907558
-                                        ],
-                                        [
-                                            148.98521652,
-                                            -36.1829068829999
-                                        ],
-                                        [
-                                            148.98522387,
-                                            -36.1829067689999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             148.985222179,
                                             -36.182907558
                                         ],
@@ -1240,6 +1302,29 @@
                                         [
                                             148.985222179,
                                             -36.182907558
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.98522387,
+                                            -36.1829067689999
+                                        ],
+                                        [
+                                            148.985222179,
+                                            -36.182907558
+                                        ],
+                                        [
+                                            148.98521652,
+                                            -36.1829068829999
+                                        ],
+                                        [
+                                            148.98522387,
+                                            -36.1829067689999
                                         ]
                                     ]
                                 ]
@@ -3436,30 +3521,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.9112854000001,
-                    -33.596775054999966
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "DUNNS RD, MARAYLYA",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/580677",
-                "created": "2024-12-20T17:02:00+11:00",
-                "updated": "2024-12-21T04:02:00+11:00",
-                "location": "28 DUNNS RD, MARAYLYA 2765",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 28 DUNNS RD, MARAYLYA 2765 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Dec 2024 04:02",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.8145751950001,
                     -30.728197097999953
                 ]
@@ -3653,6 +3714,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    143.6926116940001,
+                    -35.20949935899995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "SWAN HILL RD, DILPURRA",
+                "category": "fire",
+                "subcategory": "haystack fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/580691",
+                "created": "2024-12-20T20:50:00+11:00",
+                "updated": "2024-12-21T07:50:00+11:00",
+                "location": "2104 SWAN HILL RD, DILPURRA 2734",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2104 SWAN HILL RD, DILPURRA 2734 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Dec 2024 07:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     147.41510009800004,
                     -33.69361877499995
                 ]
@@ -3669,30 +3754,6 @@
                 "location": "142 UNCLE BILLS RD, LAKE COWAL 2671",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 142 UNCLE BILLS RD, LAKE COWAL 2671 <br />COUNCIL AREA: Bland <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Dec 2024 03:35",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.11149597200006,
-                    -30.019388198999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "WARRENA ST, WALGETT",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/580690",
-                "created": "2024-12-20T20:41:00+11:00",
-                "updated": "2024-12-21T07:41:00+11:00",
-                "location": "91 WARRENA ST, WALGETT 2832",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 91 WARRENA ST, WALGETT 2832 <br />COUNCIL AREA: Walgett <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Dec 2024 07:41",
                 "title": "incident: fire"
             }
         },
