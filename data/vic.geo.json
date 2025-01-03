@@ -1338,14 +1338,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Rye",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2025-01-04T05:02:00+11:00",
-                "updated": "2025-01-04T05:12:00+11:00",
+                "status": "unknown",
+                "created": "2025-01-04T05:00:14+11:00",
+                "updated": "2025-01-04T06:05:07+11:00",
                 "id": "ESTA:250101301",
                 "location": "Rye",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8193744221614,
+                    -38.3699733430256
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Flemington Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2025-01-04T06:18:32+11:00",
+                "updated": "2025-01-04T06:18:32+11:00",
+                "id": "ESTA:250101307",
+                "location": "Flemington Rd, Parkville",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -1353,8 +1375,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.81936154316165,
-                    -38.3699869378649
+                    144.9532793348927,
+                    -37.790543635552275
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2025-01-04T06:21:00+11:00",
+                "updated": "2025-01-04T06:20:47+11:00",
+                "id": "ESTA:250150212",
+                "location": "Heidelberg Heights",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.05919401595114,
+                    -37.73813222593628
                 ]
             }
         },
@@ -1649,76 +1693,6 @@
                             -38.59273152499995
                         ],
                         "name": "East Gippsland Coast"
-                    }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Endeavour Dr, Balranald",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2025-01-03T23:06:00+11:00",
-                "updated": "2025-01-03T23:06:00+11:00",
-                "id": "2025-01-03T23:06:00.0000000:579349",
-                "location": "Endeavour Dr, Balranald 2715",
-                "title": "incident: fire"
-            },
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    143.542,
-                                    -34.6447
-                                ],
-                                [
-                                    143.5424,
-                                    -34.6455
-                                ],
-                                [
-                                    143.5435,
-                                    -34.6462
-                                ],
-                                [
-                                    143.5431,
-                                    -34.6469
-                                ],
-                                [
-                                    143.5428,
-                                    -34.647
-                                ],
-                                [
-                                    143.5415,
-                                    -34.6464
-                                ],
-                                [
-                                    143.5409,
-                                    -34.6459
-                                ],
-                                [
-                                    143.5409,
-                                    -34.645
-                                ],
-                                [
-                                    143.542,
-                                    -34.6447
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            143.542129516,
-                            -34.646060943
-                        ]
                     }
                 ]
             }
@@ -2087,6 +2061,76 @@
                         "coordinates": [
                             148.211452083,
                             -36.391357972
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Endeavour Dr, Balranald",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2025-01-03T23:06:00+11:00",
+                "updated": "2025-01-03T23:06:00+11:00",
+                "id": "2025-01-03T23:06:00.0000000:579349",
+                "location": "Endeavour Dr, Balranald 2715",
+                "title": "incident: fire"
+            },
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    143.542,
+                                    -34.6447
+                                ],
+                                [
+                                    143.5424,
+                                    -34.6455
+                                ],
+                                [
+                                    143.5435,
+                                    -34.6462
+                                ],
+                                [
+                                    143.5431,
+                                    -34.6469
+                                ],
+                                [
+                                    143.5428,
+                                    -34.647
+                                ],
+                                [
+                                    143.5415,
+                                    -34.6464
+                                ],
+                                [
+                                    143.5409,
+                                    -34.6459
+                                ],
+                                [
+                                    143.5409,
+                                    -34.645
+                                ],
+                                [
+                                    143.542,
+                                    -34.6447
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            143.542129516,
+                            -34.646060943
                         ]
                     }
                 ]
