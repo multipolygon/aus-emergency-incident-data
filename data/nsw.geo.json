@@ -768,13 +768,13 @@
                 "sourceTitle": "BINGLEBURRA RD, BINGLEBURRA",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "not yet controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584358",
-                "created": "2025-01-15T04:56:00+11:00",
-                "updated": "2025-01-15T15:56:00+11:00",
+                "created": "2025-01-15T06:41:00+11:00",
+                "updated": "2025-01-15T17:41:00+11:00",
                 "location": "BINGLEBURRA RD, BINGLEBURRA 2311",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BINGLEBURRA RD, BINGLEBURRA 2311 <br />COUNCIL AREA: Dungog <br />STATUS: Not yet controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 15:56",
+                "size": 10,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BINGLEBURRA RD, BINGLEBURRA 2311 <br />COUNCIL AREA: Dungog <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:41",
                 "title": "incident: fire"
             }
         },
@@ -974,10 +974,155 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.18717956600005,
-                    -34.34599685599994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.18717956600005,
+                            -34.34599685599994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.168041999,
+                                            -34.330897001
+                                        ],
+                                        [
+                                            149.167923,
+                                            -34.330905001
+                                        ],
+                                        [
+                                            149.167801,
+                                            -34.330903
+                                        ],
+                                        [
+                                            149.167697,
+                                            -34.330945001
+                                        ],
+                                        [
+                                            149.167617999,
+                                            -34.3310270009999
+                                        ],
+                                        [
+                                            149.167545,
+                                            -34.331113
+                                        ],
+                                        [
+                                            149.167430999,
+                                            -34.331161
+                                        ],
+                                        [
+                                            149.167332,
+                                            -34.3312109999999
+                                        ],
+                                        [
+                                            149.167206,
+                                            -34.331242001
+                                        ],
+                                        [
+                                            149.167207,
+                                            -34.331240001
+                                        ],
+                                        [
+                                            149.16713,
+                                            -34.3312070009999
+                                        ],
+                                        [
+                                            149.167107999,
+                                            -34.3311130009999
+                                        ],
+                                        [
+                                            149.167142001,
+                                            -34.331019001
+                                        ],
+                                        [
+                                            149.167192,
+                                            -34.330926001
+                                        ],
+                                        [
+                                            149.167234574,
+                                            -34.330888816
+                                        ],
+                                        [
+                                            149.167271,
+                                            -34.330857
+                                        ],
+                                        [
+                                            149.167307243,
+                                            -34.3308311119999
+                                        ],
+                                        [
+                                            149.167361999,
+                                            -34.330792
+                                        ],
+                                        [
+                                            149.167443,
+                                            -34.330717001
+                                        ],
+                                        [
+                                            149.167526999,
+                                            -34.330652001
+                                        ],
+                                        [
+                                            149.167618,
+                                            -34.330583001
+                                        ],
+                                        [
+                                            149.167707,
+                                            -34.330518001
+                                        ],
+                                        [
+                                            149.167796,
+                                            -34.330457001
+                                        ],
+                                        [
+                                            149.167905,
+                                            -34.330415
+                                        ],
+                                        [
+                                            149.168019,
+                                            -34.330403002
+                                        ],
+                                        [
+                                            149.168136001,
+                                            -34.330411001
+                                        ],
+                                        [
+                                            149.168244999,
+                                            -34.3304650009999
+                                        ],
+                                        [
+                                            149.168292999,
+                                            -34.330568
+                                        ],
+                                        [
+                                            149.168283,
+                                            -34.330671001
+                                        ],
+                                        [
+                                            149.168212,
+                                            -34.330746
+                                        ],
+                                        [
+                                            149.168128,
+                                            -34.330832001
+                                        ],
+                                        [
+                                            149.168041999,
+                                            -34.330897001
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2130,30 +2275,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.35655212400002,
-                    -35.81657028199993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "RIVERINA HWY, LOWESDALE",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584370",
-                "created": "2025-01-15T05:16:00+11:00",
-                "updated": "2025-01-15T16:16:00+11:00",
-                "location": "RIVERINA HWY, LOWESDALE 2646",
-                "size": 8,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: RIVERINA HWY, LOWESDALE 2646 <br />COUNCIL AREA: Federation <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 8 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 16:16",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     146.84451294000007,
                     -35.59791946399997
                 ]
@@ -2865,13 +2986,13 @@
                 "sourceTitle": "WARKTON RD, COONABARABRAN",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584346",
-                "created": "2025-01-15T06:19:00+11:00",
-                "updated": "2025-01-15T17:19:00+11:00",
+                "created": "2025-01-15T06:33:00+11:00",
+                "updated": "2025-01-15T17:33:00+11:00",
                 "location": "798 WARKTON RD, COONABARABRAN 2357",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 798 WARKTON RD, COONABARABRAN 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:19",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 798 WARKTON RD, COONABARABRAN 2357 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:33",
                 "title": "incident: fire"
             }
         },
@@ -3974,6 +4095,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.34967041100003,
+                    -35.18428420999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BUNGENDORE RD, BYWONG",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584402",
+                "created": "2025-01-15T06:41:00+11:00",
+                "updated": "2025-01-15T17:41:00+11:00",
+                "location": "1292 BUNGENDORE RD, BYWONG 2621",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1292 BUNGENDORE RD, BYWONG 2621 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:41",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     147.41918945300006,
                     -34.83104705799997
                 ]
@@ -4014,6 +4159,30 @@
                 "location": "76 CAPPER ST, TUMUT 2720",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 76 CAPPER ST, TUMUT 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Being controlled <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 15:25",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.65135192900004,
+                    -33.846439361999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "COWRA AIRPORT COWRA",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584406",
+                "created": "2025-01-15T06:35:00+11:00",
+                "updated": "2025-01-15T17:35:00+11:00",
+                "location": "COWRA AIRPORT COWRA 2794",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: COWRA AIRPORT COWRA 2794 <br />COUNCIL AREA: Cowra <br />STATUS: Responding <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Jan 2025 17:35",
                 "title": "incident: other"
             }
         },
@@ -6381,6 +6550,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.64439392100007,
+                    -32.237796782999965
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "EDEN PARK AV, DUBBO",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584409",
+                "created": "2025-01-15T06:41:00+11:00",
+                "updated": "2025-01-15T17:41:00+11:00",
+                "location": "4 EDEN PARK AV, DUBBO 2830",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 EDEN PARK AV, DUBBO 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Jan 2025 17:41",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     150.61845398000003,
                     -33.75325012199994
                 ]
@@ -6390,13 +6583,37 @@
                 "sourceTitle": "GLENBROOK RD, BLAXLAND",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "responding",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584399",
-                "created": "2025-01-15T06:11:00+11:00",
-                "updated": "2025-01-15T17:11:00+11:00",
+                "created": "2025-01-15T06:43:00+11:00",
+                "updated": "2025-01-15T17:43:00+11:00",
                 "location": "GLENBROOK RD, BLAXLAND 2774",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GLENBROOK RD, BLAXLAND 2774 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Responding <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Jan 2025 17:11",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GLENBROOK RD, BLAXLAND 2774 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Being controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 15 Jan 2025 17:43",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.94142150900007,
+                    -34.812965392999956
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "HUME HWY, YASS",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584405",
+                "created": "2025-01-15T06:33:00+11:00",
+                "updated": "2025-01-15T17:33:00+11:00",
+                "location": "HUME HWY, YASS 2582",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: HUME HWY, YASS 2582 <br />COUNCIL AREA: Yass Valley <br />STATUS: Responding <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:33",
                 "title": "incident: other"
             }
         },
@@ -7567,6 +7784,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    148.542175293,
+                    -33.68249893199993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MERRIGANOWRY RD, GOOLOOGONG",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584403",
+                "created": "2025-01-15T06:20:00+11:00",
+                "updated": "2025-01-15T17:20:00+11:00",
+                "location": "MERRIGANOWRY RD, GOOLOOGONG 2805",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MERRIGANOWRY RD, GOOLOOGONG 2805 <br />COUNCIL AREA: Cowra <br />STATUS: Responding <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:20",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.77101135200007,
                     -33.78648757899998
                 ]
@@ -7663,30 +7904,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.64361572300004,
-                    -33.75178146299993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "MITCHELLS PASS, GLENBROOK",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584377",
-                "created": "2025-01-15T06:11:00+11:00",
-                "updated": "2025-01-15T17:11:00+11:00",
-                "location": "MITCHELLS PASS, GLENBROOK 2773",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MITCHELLS PASS, GLENBROOK 2773 <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:11",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     149.2150726310001,
                     -36.38051223799994
                 ]
@@ -7696,13 +7913,13 @@
                 "sourceTitle": "MONARO HWY, ROCK FLAT",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "responding",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584382",
-                "created": "2025-01-15T05:35:00+11:00",
-                "updated": "2025-01-15T16:35:00+11:00",
+                "created": "2025-01-15T06:42:00+11:00",
+                "updated": "2025-01-15T17:42:00+11:00",
                 "location": "MONARO HWY, ROCK FLAT 2630",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MONARO HWY, ROCK FLAT 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Responding <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 16:35",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MONARO HWY, ROCK FLAT 2630 <br />COUNCIL AREA: Snowy Monaro <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:42",
                 "title": "incident: other"
             }
         },
@@ -7768,13 +7985,13 @@
                 "sourceTitle": "PIGEONBAH RD, TENANDRA",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "responding",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584387",
-                "created": "2025-01-15T05:48:00+11:00",
-                "updated": "2025-01-15T16:48:00+11:00",
+                "created": "2025-01-15T06:40:00+11:00",
+                "updated": "2025-01-15T17:40:00+11:00",
                 "location": "PIGEONBAH RD, TENANDRA 2824",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PIGEONBAH RD, TENANDRA 2824 <br />COUNCIL AREA: Warren <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 16:48",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PIGEONBAH RD, TENANDRA 2824 <br />COUNCIL AREA: Warren <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:40",
                 "title": "incident: fire"
             }
         },
@@ -7992,6 +8209,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4 WAGGA WAGGA ST, OURA 2650 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 16:26",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.11352539100005,
+                    -32.07326507499994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WALLANBAH RD, WALLANBAH",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/584410",
+                "created": "2025-01-15T06:42:00+11:00",
+                "updated": "2025-01-15T17:42:00+11:00",
+                "location": "827 WALLANBAH RD, WALLANBAH 2422",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 827 WALLANBAH RD, WALLANBAH 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 15 Jan 2025 17:42",
+                "title": "incident: fire"
             }
         },
         {
