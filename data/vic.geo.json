@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.21230204038932,
+                            -38.00221568605932
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.20709855489946,
+                                    -37.998605768372215
+                                ],
+                                [
+                                    145.21495206289606,
+                                    -37.998250674357976
+                                ],
+                                [
+                                    145.21750552587918,
+                                    -38.00562274974824
+                                ],
+                                [
+                                    145.20742041998122,
+                                    -38.00618069776067
+                                ],
+                                [
+                                    145.20709855489946,
+                                    -37.998605768372215
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2025-01-20T14:03:01+11:00",
+                "updated": "2025-01-20T14:03:01+11:00",
+                "id": "35849",
+                "location": "Dandenong, Dandenong South",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             142.49622960262485,
                             -37.11105978099413
                         ]
@@ -628,29 +682,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Tambo 33 - Glen Valley  - Burnside Creek",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2025-01-11T14:15:00+11:00",
-                "updated": "2025-01-20T13:25:00+11:00",
-                "id": 1002857,
-                "location": "Burnside Creek",
-                "size": "2.00",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.4816,
-                    -36.9055
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tambo 35 - Ryans - Mt Baldhead Road - Ryans",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -714,29 +745,6 @@
                 "coordinates": [
                     146.909591,
                     -38.347717
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Tambo 40 - Beloka Sf - Johnnies Top",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2025-01-15T18:01:00+11:00",
-                "updated": "2025-01-20T13:22:00+11:00",
-                "id": 1003232,
-                "location": "16Km Ne Benambra",
-                "size": "0.10",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.8493,
-                    -36.7628
                 ]
             }
         },
@@ -857,91 +865,183 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2025-01-20T12:47:00+11:00",
+                "updated": "2025-01-20T14:09:00+11:00",
+                "id": "ESTA:250108015",
+                "location": "Kalkallo",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95733393042016,
+                    -37.537921429351044
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Benetook Av",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2025-01-20T14:10:25+11:00",
+                "updated": "2025-01-20T14:10:25+11:00",
+                "id": "ESTA:250107975",
+                "location": "Benetook Av, Koorlong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.06100586308284,
+                    -34.34563385963033
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Numurkah Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2025-01-20T14:18:25+11:00",
+                "updated": "2025-01-20T14:18:25+11:00",
+                "id": "ESTA:250108040",
+                "location": "Numurkah Rd, Shepparton",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.4016100118729,
+                    -36.36218602244634
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Glenvill Ct",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2025-01-20T14:20:29+11:00",
+                "updated": "2025-01-20T14:20:29+11:00",
+                "id": "ESTA:250108042",
+                "location": "Glenvill Ct, Templestowe",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16404992957118,
+                    -37.75897693715674
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mcdonalds Trk",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2025-01-20T14:18:00+11:00",
+                "updated": "2025-01-20T14:18:00+11:00",
+                "id": "ESTA:250108041",
+                "location": "Mcdonalds Trk, Thorpdale South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.14485305214257,
+                    -38.321797351251355
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Swiss Chalet Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2025-01-20T14:22:00+11:00",
+                "updated": "2025-01-20T14:22:00+11:00",
+                "id": "ESTA:250108043",
+                "location": "Swiss Chalet Rd, Badger Creek",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.5403261325014,
+                    -37.681093855120125
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Avoca Ct",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2025-01-20T14:22:28+11:00",
+                "updated": "2025-01-20T14:22:28+11:00",
+                "id": "ESTA:250108038",
+                "location": "Avoca Ct, Werribee",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.65494407276836,
+                    -37.88328310567508
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2025-01-20T13:44:00+11:00",
-                "updated": "2025-01-20T13:51:00+11:00",
-                "id": "ESTA:250152211",
-                "location": "Prahran",
+                "created": "2025-01-20T12:59:00+11:00",
+                "updated": "2025-01-20T13:25:00+11:00",
+                "id": "ESTA:250152206",
+                "location": "Flinders",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.00917305363166,
-                    -37.85570435402964
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Trewin St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2025-01-20T13:47:02+11:00",
-                "updated": "2025-01-20T13:47:02+11:00",
-                "id": "ESTA:250108032",
-                "location": "Trewin St, Dandenong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.21186215810744,
-                    -38.001454912862144
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Greta Rd",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2025-01-20T13:53:58+11:00",
-                "updated": "2025-01-20T13:53:58+11:00",
-                "id": "ESTA:250108033",
-                "location": "Greta Rd, Laceby",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.29679049098198,
-                    -36.410087155949476
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Talbot Lane",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2025-01-20T13:34:00+11:00",
-                "updated": "2025-01-20T13:52:00+11:00",
-                "id": "ESTA:250108030",
-                "location": "Talbot Lane, Longford",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.06931757649312,
-                    -38.20400983987743
+                    145.02065544066733,
+                    -38.46959904774426
                 ]
             }
         },
@@ -19145,7 +19245,7 @@
                 "status": "unknown",
                 "created": "2025-01-19T11:00:00+11:00",
                 "updated": "2025-01-19T11:00:00+11:00",
-                "id": "f2de3025f8c7c067f21e389964304806",
+                "id": "a596c506e5fd45672b02975e68b097e3",
                 "location": "Bayleys Rd",
                 "title": "other: burn area"
             },
@@ -19202,107 +19302,99 @@
                             -38.1378
                         ],
                         [
+                            146.1133,
+                            -38.1379
+                        ],
+                        [
                             146.1131,
                             -38.1378
                         ],
                         [
-                            146.113,
+                            146.1129,
+                            -38.1378
+                        ],
+                        [
+                            146.1126,
                             -38.1377
                         ],
                         [
-                            146.1126,
+                            146.1122,
                             -38.1375
                         ],
                         [
-                            146.1125,
-                            -38.1373
-                        ],
-                        [
                             146.1121,
-                            -38.1371
+                            -38.1375
                         ],
                         [
                             146.112,
+                            -38.1374
+                        ],
+                        [
+                            146.1119,
+                            -38.1374
+                        ],
+                        [
+                            146.1119,
                             -38.1371
                         ],
                         [
-                            146.1118,
-                            -38.137
-                        ],
-                        [
-                            146.1118,
+                            146.1123,
                             -38.1369
                         ],
                         [
-                            146.1121,
+                            146.1127,
                             -38.1368
                         ],
                         [
-                            146.1123,
+                            146.1129,
                             -38.1367
-                        ],
-                        [
-                            146.1125,
-                            -38.1367
-                        ],
-                        [
-                            146.1126,
-                            -38.1367
-                        ],
-                        [
-                            146.1131,
-                            -38.1365
                         ],
                         [
                             146.1136,
                             -38.1362
                         ],
                         [
-                            146.1141,
-                            -38.1358
+                            146.1138,
+                            -38.136
                         ],
                         [
-                            146.1143,
-                            -38.1358
+                            146.1142,
+                            -38.1363
                         ],
                         [
-                            146.1146,
-                            -38.1359
+                            146.1151,
+                            -38.1367
                         ],
                         [
-                            146.115,
-                            -38.1362
-                        ],
-                        [
-                            146.1153,
-                            -38.1366
-                        ],
-                        [
-                            146.1155,
+                            146.1154,
                             -38.137
                         ],
                         [
-                            146.1157,
-                            -38.1374
+                            146.1156,
+                            -38.1376
                         ],
                         [
-                            146.116,
+                            146.1157,
+                            -38.1378
+                        ],
+                        [
+                            146.1161,
                             -38.1379
                         ],
                         [
-                            146.116,
-                            -38.1383
+                            146.1159,
+                            -38.1382
                         ],
                         [
                             146.1157,
+                            -38.1383
+                        ],
+                        [
+                            146.1153,
                             -38.1383
                         ],
                         [
                             146.115,
-                            -38.1382
-                        ],
-                        [
-                            146.1148,
                             -38.1382
                         ],
                         [
@@ -54790,52 +54882,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Benetook Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2025-01-20T11:33:33+11:00",
-                "updated": "2025-01-20T11:33:33+11:00",
-                "id": "ESTA:250107975",
-                "location": "Benetook Av, Koorlong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.06100586308284,
-                    -34.34563385963033
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2025-01-20T12:47:00+11:00",
-                "updated": "2025-01-20T13:24:00+11:00",
-                "id": "ESTA:250108015",
-                "location": "Kalkallo",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.95733393042016,
-                    -37.537921429351044
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Cardigan Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -54882,29 +54928,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "White Hill Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2025-01-20T13:32:47+11:00",
-                "updated": "2025-01-20T13:32:47+11:00",
-                "id": "ESTA:250108028",
-                "location": "White Hill Rd, Dromana",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.00641653551162,
-                    -38.34484703355224
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Crown St",
                 "category": "other",
                 "subcategory": "other",
@@ -54928,14 +54951,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Queens Pde",
+                "sourceTitle": "Trewin St",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2025-01-20T13:30:13+11:00",
-                "updated": "2025-01-20T13:30:13+11:00",
-                "id": "ESTA:250108025",
-                "location": "Queens Pde, Fitzroy North",
+                "status": "under control",
+                "created": "2025-01-20T13:47:02+11:00",
+                "updated": "2025-01-20T13:47:02+11:00",
+                "id": "ESTA:250108032",
+                "location": "Trewin St, Dandenong",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -54943,8 +54966,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.9812770462349,
-                    -37.79307410774674
+                    145.21186215810744,
+                    -38.001454912862144
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Greta Rd",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2025-01-20T13:53:58+11:00",
+                "updated": "2025-01-20T13:53:58+11:00",
+                "id": "ESTA:250108033",
+                "location": "Greta Rd, Laceby",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.29679049098198,
+                    -36.410087155949476
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Talbot Lane",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-01-20T13:34:00+11:00",
+                "updated": "2025-01-20T14:01:00+11:00",
+                "id": "ESTA:250108030",
+                "location": "Talbot Lane, Longford",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.06931757649312,
+                    -38.20400983987743
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "White Hill Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-01-20T14:07:04+11:00",
+                "updated": "2025-01-20T14:07:04+11:00",
+                "id": "ESTA:250108028",
+                "location": "White Hill Rd, Dromana",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00641653551162,
+                    -38.34484703355224
                 ]
             }
         },
@@ -54977,28 +55069,6 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2025-01-20T12:59:00+11:00",
-                "updated": "2025-01-20T13:25:00+11:00",
-                "id": "ESTA:250152206",
-                "location": "Flinders",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02065544066733,
-                    -38.46959904774426
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
                 "created": "2025-01-20T13:08:00+11:00",
                 "updated": "2025-01-20T13:34:00+11:00",
                 "id": "ESTA:250152207",
@@ -55021,8 +55091,30 @@
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
+                "created": "2025-01-20T13:44:00+11:00",
+                "updated": "2025-01-20T13:51:00+11:00",
+                "id": "ESTA:250152211",
+                "location": "Prahran",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00917305363166,
+                    -37.85570435402964
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
                 "created": "2025-01-20T13:12:00+11:00",
-                "updated": "2025-01-20T13:49:00+11:00",
+                "updated": "2025-01-20T14:21:00+11:00",
                 "id": "ESTA:250152208",
                 "location": "Dereel",
                 "title": "incident: tree down"
