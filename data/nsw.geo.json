@@ -2179,10 +2179,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.7796020510001,
-                    -30.811719893999964
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.7796020510001,
+                            -30.811719893999964
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.794812689,
+                                            -30.813141753
+                                        ],
+                                        [
+                                            150.794848381,
+                                            -30.8132131359999
+                                        ],
+                                        [
+                                            150.794907867,
+                                            -30.813284521
+                                        ],
+                                        [
+                                            150.79489597,
+                                            -30.8134986709999
+                                        ],
+                                        [
+                                            150.794776997,
+                                            -30.81364144
+                                        ],
+                                        [
+                                            150.794491461,
+                                            -30.81364144
+                                        ],
+                                        [
+                                            150.794182132,
+                                            -30.813534364
+                                        ],
+                                        [
+                                            150.794086954,
+                                            -30.8132726229999
+                                        ],
+                                        [
+                                            150.794063159,
+                                            -30.8130941639999
+                                        ],
+                                        [
+                                            150.794205926,
+                                            -30.812951396
+                                        ],
+                                        [
+                                            150.794550948,
+                                            -30.812951396
+                                        ],
+                                        [
+                                            150.794812689,
+                                            -30.813141753
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2923,30 +2988,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.00091552700007,
-                    -30.09959983799996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BINGARA RD, BUNDARRA",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587169",
-                "created": "2025-01-26T11:20:00+11:00",
-                "updated": "2025-01-26T22:20:00+11:00",
-                "location": "BINGARA RD, BUNDARRA 2359",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BINGARA RD, BUNDARRA 2359 <br />COUNCIL AREA: Uralla <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 22:20",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     151.87664794900002,
                     -32.736999511999954
                 ]
@@ -2964,30 +3005,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 30 COOLABAH RD, MEDOWIE 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 23:51",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.44180297800006,
-                    -33.351947784999936
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ERIN AV, BERKELEY VALE",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587186",
-                "created": "2025-01-26T13:57:00+11:00",
-                "updated": "2025-01-27T00:57:00+11:00",
-                "location": "18 ERIN AV, BERKELEY VALE 2261",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 18 ERIN AV, BERKELEY VALE 2261 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 27 Jan 2025 00:57",
-                "title": "incident: other"
             }
         },
         {
@@ -3172,13 +3189,13 @@
                 "sourceTitle": "NEWEE CREEK RD, NEWEE CREEK",
                 "category": "fire",
                 "subcategory": "car fire",
-                "status": "responding",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587185",
-                "created": "2025-01-26T13:35:00+11:00",
-                "updated": "2025-01-27T00:35:00+11:00",
+                "created": "2025-01-26T14:18:00+11:00",
+                "updated": "2025-01-27T01:18:00+11:00",
                 "location": "300 NEWEE CREEK RD, NEWEE CREEK 2447",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 300 NEWEE CREEK RD, NEWEE CREEK 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Responding <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2025 00:35",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 300 NEWEE CREEK RD, NEWEE CREEK 2447 <br />COUNCIL AREA: Nambucca <br />STATUS: Under control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2025 01:18",
                 "title": "incident: fire"
             }
         },
@@ -3203,6 +3220,30 @@
                 "location": "OXLEY HWY, LONG FLAT 2446",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OXLEY HWY, LONG FLAT 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 14:51",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.79927063000002,
+                    -36.01971435499996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "RIVERINA HWY, BUNGOWANNAH",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587188",
+                "created": "2025-01-26T14:21:00+11:00",
+                "updated": "2025-01-27T01:21:00+11:00",
+                "location": "3066 RIVERINA HWY, BUNGOWANNAH 2640",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 3066 RIVERINA HWY, BUNGOWANNAH 2640 <br />COUNCIL AREA: Greater Hume <br />STATUS: Responding <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2025 01:21",
                 "title": "incident: fire"
             }
         },
@@ -3268,13 +3309,13 @@
                 "sourceTitle": "SUTTON RD, SUTTON",
                 "category": "fire",
                 "subcategory": "car fire",
-                "status": "responding",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587187",
-                "created": "2025-01-26T13:52:00+11:00",
-                "updated": "2025-01-27T00:52:00+11:00",
+                "created": "2025-01-26T14:16:00+11:00",
+                "updated": "2025-01-27T01:16:00+11:00",
                 "location": "1890 SUTTON RD, SUTTON 2620",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1890 SUTTON RD, SUTTON 2620 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Responding <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2025 00:52",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1890 SUTTON RD, SUTTON 2620 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Being controlled <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2025 01:16",
                 "title": "incident: fire"
             }
         },
@@ -3451,11 +3492,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587183",
-                "created": "2025-01-26T14:03:00+11:00",
-                "updated": "2025-01-27T01:03:00+11:00",
+                "created": "2025-01-26T14:19:00+11:00",
+                "updated": "2025-01-27T01:19:00+11:00",
                 "location": "WARGIN RD, BARMEDMAN 2668",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WARGIN RD, BARMEDMAN 2668 <br />COUNCIL AREA: Bland <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2025 01:03",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WARGIN RD, BARMEDMAN 2668 <br />COUNCIL AREA: Bland <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Jan 2025 01:19",
                 "title": "incident: fire"
             }
         },
