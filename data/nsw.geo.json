@@ -988,11 +988,11 @@
                 "subcategory": "bushfire",
                 "status": "not yet controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587115",
-                "created": "2025-01-26T07:07:00+11:00",
-                "updated": "2025-01-26T18:07:00+11:00",
+                "created": "2025-01-26T07:35:00+11:00",
+                "updated": "2025-01-26T18:35:00+11:00",
                 "location": "6503 CASTLEREAGH HWY, ILFORD 2850",
-                "size": 16,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 6503 CASTLEREAGH HWY, ILFORD 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 16 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 18:07",
+                "size": 19,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 6503 CASTLEREAGH HWY, ILFORD 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 19 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 18:35",
                 "title": "incident: fire"
             }
         },
@@ -1071,10 +1071,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.2208557130001,
-                    -29.948211669999978
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.31925517000002,
+                            -29.947465645999955
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.3195645,
+                                            -29.946156942
+                                        ],
+                                        [
+                                            151.320230749,
+                                            -29.948084305
+                                        ],
+                                        [
+                                            151.320040392,
+                                            -29.949488188
+                                        ],
+                                        [
+                                            151.317898877,
+                                            -29.952034211
+                                        ],
+                                        [
+                                            151.316114281,
+                                            -29.95212939
+                                        ],
+                                        [
+                                            151.315685979,
+                                            -29.950939659
+                                        ],
+                                        [
+                                            151.315971514,
+                                            -29.949583366
+                                        ],
+                                        [
+                                            151.316590173,
+                                            -29.948774349
+                                        ],
+                                        [
+                                            151.3195645,
+                                            -29.946156942
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1084,11 +1137,11 @@
                 "subcategory": "grass fire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587128",
-                "created": "2025-01-26T07:29:00+11:00",
-                "updated": "2025-01-26T18:29:00+11:00",
+                "created": "2025-01-26T07:40:00+11:00",
+                "updated": "2025-01-26T18:40:00+11:00",
                 "location": "GUYRA RD, TINGHA 2369",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: GUYRA RD, TINGHA 2369 <br />COUNCIL AREA: Inverell <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 18:29",
+                "size": 17,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: GUYRA RD, TINGHA 2369 <br />COUNCIL AREA: Inverell <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 17 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 18:40",
                 "title": "incident: fire"
             }
         },
@@ -2631,6 +2684,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    153.4938812250001,
+                    -28.64818000799994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "FRIDAY HUT RD, POSSUM CREEK",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587133",
+                "created": "2025-01-26T07:37:00+11:00",
+                "updated": "2025-01-26T18:37:00+11:00",
+                "location": "CASTARA 196 FRIDAY HUT RD, POSSUM CREEK 2479",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CASTARA 196 FRIDAY HUT RD, POSSUM CREEK 2479 <br />COUNCIL AREA: Byron <br />STATUS: Responding <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 18:37",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     145.9886627200001,
                     -34.55924606299993
                 ]
@@ -2647,30 +2724,6 @@
                 "location": "MURRUMBIDGEE VALLEY REGIONAL PARK DARLINGTON POINT 2706",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MURRUMBIDGEE VALLEY REGIONAL PARK DARLINGTON POINT 2706 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Search/Rescue <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 15:20",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.94274902300003,
-                    -31.476289748999932
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "KIDMAN WAY, COBAR",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587129",
-                "created": "2025-01-26T06:53:00+11:00",
-                "updated": "2025-01-26T17:53:00+11:00",
-                "location": "MOPONE 1087 KIDMAN WAY, COBAR 2835",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MOPONE 1087 KIDMAN WAY, COBAR 2835 <br />COUNCIL AREA: Cobar <br />STATUS: Responding <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 17:53",
                 "title": "incident: other"
             }
         },
@@ -2773,10 +2826,67 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.4075317380001,
-                    -32.776588439999955
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.4075317380001,
+                            -32.776588439999955
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.427092137,
+                                            -32.7759987869999
+                                        ],
+                                        [
+                                            151.426842294,
+                                            -32.77611776
+                                        ],
+                                        [
+                                            151.426604348,
+                                            -32.7762486299999
+                                        ],
+                                        [
+                                            151.426271224,
+                                            -32.7763319109999
+                                        ],
+                                        [
+                                            151.425973791,
+                                            -32.776224836
+                                        ],
+                                        [
+                                            151.42589051,
+                                            -32.776129657
+                                        ],
+                                        [
+                                            151.425973791,
+                                            -32.7759392999999
+                                        ],
+                                        [
+                                            151.426009482,
+                                            -32.77580843
+                                        ],
+                                        [
+                                            151.426033277,
+                                            -32.7757965329999
+                                        ],
+                                        [
+                                            151.427092137,
+                                            -32.7759987869999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -2839,30 +2949,6 @@
                 "location": "OXLEY HWY, LONG FLAT 2446",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: OXLEY HWY, LONG FLAT 2446 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 14:51",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.49584960900006,
-                    -28.67033386199995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "POSSUM CREEK RD, POSSUM CREEK",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587133",
-                "created": "2025-01-26T07:29:00+11:00",
-                "updated": "2025-01-26T18:29:00+11:00",
-                "location": "300 POSSUM CREEK RD, POSSUM CREEK 2479",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 300 POSSUM CREEK RD, POSSUM CREEK 2479 <br />COUNCIL AREA: Byron <br />STATUS: Responding <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 26 Jan 2025 18:29",
                 "title": "incident: fire"
             }
         },
