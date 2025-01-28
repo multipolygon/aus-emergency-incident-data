@@ -583,6 +583,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.351333618,
+                    -32.20243835499997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "DEPOT ROAD, MERRIWA",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "not yet controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587449",
+                "created": "2025-01-28T10:32:00+11:00",
+                "updated": "2025-01-28T21:32:00+11:00",
+                "location": "DEPOT  ROAD, MERRIWA 2329",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: DEPOT  ROAD, MERRIWA 2329 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Not yet controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2025 21:32",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -654,30 +678,6 @@
                 "location": "EULOURIE RD, UPPER HORTON 2347",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: EULOURIE RD, UPPER HORTON 2347 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2025 21:58",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.351333618,
-                    -32.20243835499997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "FLAGS ROAD, MERRIWA",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "not yet controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/587449",
-                "created": "2025-01-28T10:32:00+11:00",
-                "updated": "2025-01-28T21:32:00+11:00",
-                "location": "FLAGS ROAD, MERRIWA 2329",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: FLAGS ROAD, MERRIWA 2329 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Not yet controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Jan 2025 21:32",
                 "title": "incident: fire"
             }
         },
@@ -2534,10 +2534,79 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.43608093300008,
-                    -30.116878509999935
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.43608093300008,
+                            -30.116878509999935
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.454271973,
+                                            -30.1096877919999
+                                        ],
+                                        [
+                                            150.453629519,
+                                            -30.109723485
+                                        ],
+                                        [
+                                            150.453320188,
+                                            -30.109366565
+                                        ],
+                                        [
+                                            150.4532726,
+                                            -30.109033441
+                                        ],
+                                        [
+                                            150.452868091,
+                                            -30.108248219
+                                        ],
+                                        [
+                                            150.453129832,
+                                            -30.1079269909999
+                                        ],
+                                        [
+                                            150.453284496,
+                                            -30.1074273039999
+                                        ],
+                                        [
+                                            150.453772286,
+                                            -30.1074510989999
+                                        ],
+                                        [
+                                            150.454343357,
+                                            -30.1076176609999
+                                        ],
+                                        [
+                                            150.454724071,
+                                            -30.107938889
+                                        ],
+                                        [
+                                            150.454914428,
+                                            -30.1082125259999
+                                        ],
+                                        [
+                                            150.454747865,
+                                            -30.1089025699999
+                                        ],
+                                        [
+                                            150.454271973,
+                                            -30.1096877919999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
