@@ -4179,14 +4179,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Endeavour Hills",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2025-02-11T23:18:00+11:00",
+                "updated": "2025-02-12T00:32:00+11:00",
+                "id": "ESTA:250253016",
+                "location": "Officer South",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.40082794365472,
+                    -38.10133464164173
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Argyll Cct",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2025-02-12T00:17:49+11:00",
-                "updated": "2025-02-12T00:17:49+11:00",
-                "id": "ESTA:250205226",
-                "location": "Endeavour Hills, Endeavour Hills",
+                "subcategory": "fire",
+                "status": "responding",
+                "created": "2025-02-12T00:34:12+11:00",
+                "updated": "2025-02-12T00:34:12+11:00",
+                "id": "ESTA:250205235",
+                "location": "Argyll Cct, Melton West",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -4194,8 +4216,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.25162802320358,
-                    -37.98664802351057
+                    144.5568282916661,
+                    -37.67236411483691
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Punt Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2025-02-12T00:34:57+11:00",
+                "updated": "2025-02-12T00:34:57+11:00",
+                "id": "ESTA:250205233",
+                "location": "Punt Rd, Windsor",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.98311401766503,
+                    -37.85459469962044
                 ]
             }
         },
@@ -4219,51 +4264,6 @@
                 "coordinates": [
                     144.43573060562508,
                     -37.67451295944984
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-02-11T23:33:00+11:00",
-                "updated": "2025-02-12T00:25:00+11:00",
-                "id": "ESTA:250205221",
-                "location": "Mickleham",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.90203029072538,
-                    -37.531318927064774
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Windsor",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2025-02-12T00:26:32+11:00",
-                "updated": "2025-02-12T00:28:15+11:00",
-                "id": "ESTA:250205233",
-                "location": "Punt Rd, Windsor",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98311638001238,
-                    -37.85459129963764
                 ]
             }
         },
@@ -97705,29 +97705,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hanlon Pde",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-02-11T21:46:00+11:00",
-                "updated": "2025-02-11T23:35:00+11:00",
-                "id": "ESTA:250205193",
-                "location": "Hanlon Pde, Portland",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.5992915280278,
-                    -38.324113786254024
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mt Beauty - Big Hill",
                 "category": "fire",
                 "subcategory": "other",
@@ -97751,12 +97728,58 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Endeavour Hills",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2025-02-12T00:17:49+11:00",
+                "updated": "2025-02-12T00:17:49+11:00",
+                "id": "ESTA:250205226",
+                "location": "Endeavour Hills, Endeavour Hills",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.25162802320358,
+                    -37.98664802351057
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-02-11T23:33:00+11:00",
+                "updated": "2025-02-12T00:25:00+11:00",
+                "id": "ESTA:250205221",
+                "location": "Mickleham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90203029072538,
+                    -37.531318927064774
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Great Alpine Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "under control",
                 "created": "2025-02-12T00:00:00+11:00",
-                "updated": "2025-02-12T00:00:00+11:00",
+                "updated": "2025-02-12T00:29:00+11:00",
                 "id": "ESTA:250205230",
                 "location": "Great Alpine Rd, Lucknow",
                 "size": "Small",
@@ -97774,14 +97797,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Mckenzie St",
+                "sourceTitle": "Gourlay Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2025-02-12T00:15:00+11:00",
-                "updated": "2025-02-12T00:15:00+11:00",
-                "id": "ESTA:250205232",
-                "location": "Mckenzie St, Melton",
+                "status": "responding",
+                "created": "2025-02-12T00:38:00+11:00",
+                "updated": "2025-02-12T00:38:00+11:00",
+                "id": "ESTA:250205236",
+                "location": "Gourlay Rd, Taylors Hill",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -97789,31 +97812,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.58643934611334,
-                    -37.684096661454575
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2025-02-11T22:50:18+11:00",
-                "updated": "2025-02-11T22:50:18+11:00",
-                "id": "ESTA:250205213",
-                "location": "Princes Hwy, Bolwarra",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.60469307123532,
-                    -38.29482162129249
+                    144.7416865738576,
+                    -37.71045933919466
                 ]
             }
         },
@@ -97836,28 +97836,6 @@
                 "coordinates": [
                     142.16325065465153,
                     -34.18023704584259
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2025-02-11T23:18:00+11:00",
-                "updated": "2025-02-12T00:04:00+11:00",
-                "id": "ESTA:250253016",
-                "location": "Officer South",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.40082794365472,
-                    -38.10133464164173
                 ]
             }
         }
