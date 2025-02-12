@@ -2279,9 +2279,9 @@
                 "sourceTitle": "Ballantyne St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2025-02-13T04:33:51+11:00",
-                "updated": "2025-02-13T04:33:51+11:00",
+                "status": "not yet under control",
+                "created": "2025-02-13T04:45:06+11:00",
+                "updated": "2025-02-13T04:45:06+11:00",
                 "id": "ESTA:250205715",
                 "location": "Ballantyne St, Thornbury",
                 "size": "Small",
@@ -2293,6 +2293,29 @@
                 "coordinates": [
                     144.99866082866697,
                     -37.75835030773015
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Albion",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-02-13T04:43:40+11:00",
+                "updated": "2025-02-13T04:43:40+11:00",
+                "id": "ESTA:250205718",
+                "location": "Albion, Albion",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.82483110138463,
+                    -37.782135493893946
                 ]
             }
         },
@@ -3513,72 +3536,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Westbrook Rd, Oberne Creek",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2025-02-11T15:47:00+11:00",
-                "updated": "2025-02-11T15:47:00+11:00",
-                "id": "2025-02-11T15:47:00.0000000:589010",
-                "location": "Anemba 740 Westbrook Rd, Oberne Creek 2650",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.91809082,
-                    -35.5471801749999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kellys Rd, Henty",
-                "category": "other",
-                "subcategory": "other non-urgent alerts",
-                "status": "under control",
-                "created": "2025-02-12T17:30:00+11:00",
-                "updated": "2025-02-12T17:30:00+11:00",
-                "id": "2025-02-12T17:30:00.0000000:589189",
-                "location": "Kellys Rd, Henty 2658",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.992568969,
-                    -35.5799484249999
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Balranald Rd, Moulamein",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2025-02-12T16:15:00+11:00",
-                "updated": "2025-02-12T16:15:00+11:00",
-                "id": "2025-02-12T16:15:00.0000000:589118",
-                "location": "107 Balranald Rd, Moulamein 2733",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.020751953,
-                    -35.0868492119999
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -3671,6 +3628,72 @@
                             -36.039869166
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Westbrook Rd, Oberne Creek",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2025-02-11T15:47:00+11:00",
+                "updated": "2025-02-11T15:47:00+11:00",
+                "id": "2025-02-11T15:47:00.0000000:589010",
+                "location": "Anemba 740 Westbrook Rd, Oberne Creek 2650",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.91809082,
+                    -35.5471801749999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kellys Rd, Henty",
+                "category": "other",
+                "subcategory": "other non-urgent alerts",
+                "status": "under control",
+                "created": "2025-02-12T17:30:00+11:00",
+                "updated": "2025-02-12T17:30:00+11:00",
+                "id": "2025-02-12T17:30:00.0000000:589189",
+                "location": "Kellys Rd, Henty 2658",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.992568969,
+                    -35.5799484249999
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Balranald Rd, Moulamein",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2025-02-12T16:15:00+11:00",
+                "updated": "2025-02-12T16:15:00+11:00",
+                "id": "2025-02-12T16:15:00.0000000:589118",
+                "location": "107 Balranald Rd, Moulamein 2733",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.020751953,
+                    -35.0868492119999
                 ]
             }
         },
@@ -87017,8 +87040,8 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2025-02-13T04:37:09+11:00",
-                "updated": "2025-02-13T04:37:09+11:00",
+                "created": "2025-02-13T04:45:29+11:00",
+                "updated": "2025-02-13T04:45:29+11:00",
                 "id": "ESTA:250205716",
                 "location": "Claremont St, South Yarra",
                 "size": "Small",
