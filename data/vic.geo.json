@@ -3147,7 +3147,7 @@
                 "subcategory": "bushfire",
                 "status": "contained",
                 "created": "2025-02-20T13:30:00+11:00",
-                "updated": "2025-02-20T13:48:00+11:00",
+                "updated": "2025-02-20T13:53:00+11:00",
                 "id": 1005199,
                 "location": "3Km Sw Creswick",
                 "size": null,
@@ -3188,14 +3188,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Keilor East",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "complete",
+                "created": "2025-02-20T14:13:00+11:00",
+                "updated": "2025-02-20T14:40:00+11:00",
+                "id": "ESTA:250253931",
+                "location": "Ferntree Gully",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26286224512006,
+                    -37.87228442533893
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Moss Rd",
                 "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2025-02-20T14:29:39+11:00",
-                "updated": "2025-02-20T14:29:39+11:00",
-                "id": "ESTA:250208787",
-                "location": "Keilor East, Keilor East",
+                "subcategory": "grass and scrub",
+                "status": "safe",
+                "created": "2025-02-20T14:44:34+11:00",
+                "updated": "2025-02-20T14:44:34+11:00",
+                "id": "ESTA:250208784",
+                "location": "Moss Rd, Barnawartha North",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -3203,31 +3225,75 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.85090331026638,
-                    -37.73838090936211
+                    146.74219019109498,
+                    -36.04901580118729
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Helms Ct",
+                "category": "fire",
+                "subcategory": "bushfire",
                 "status": "safe",
-                "created": "2025-02-20T13:35:00+11:00",
-                "updated": "2025-02-20T14:19:00+11:00",
-                "id": "ESTA:250208767",
-                "location": "Langwarrin South",
+                "created": "2025-02-20T13:39:00+11:00",
+                "updated": "2025-02-20T13:55:00+11:00",
+                "id": "ESTA:250208771",
+                "location": "Helms Ct, Benalla",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.18298727879062,
-                    -38.19309525787032
+                    145.96558110412457,
+                    -36.55464236441654
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2025-02-20T13:09:00+11:00",
+                "updated": "2025-02-20T14:48:00+11:00",
+                "id": "ESTA:250253930",
+                "location": "Bentleigh",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0336008032351,
+                    -37.92655983019926
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Meadow Heights",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-02-20T14:47:10+11:00",
+                "updated": "2025-02-20T14:48:35+11:00",
+                "id": "ESTA:250208792",
+                "location": "Eucalyptus Pl, Meadow Heights",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.92008816405357,
+                    -37.64250019138478
                 ]
             }
         },
@@ -3380,6 +3446,60 @@
                         [
                             143.813,
                             -37.5073
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Midland Hwy",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2025-02-20T11:00:00+11:00",
+                "updated": "2025-02-20T11:00:00+11:00",
+                "id": "37f8954f162cfa5e63030d8462e54dda",
+                "location": "Midland Hwy",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.8471,
+                            -37.5093
+                        ],
+                        [
+                            143.8472,
+                            -37.5093
+                        ],
+                        [
+                            143.8472,
+                            -37.5093
+                        ],
+                        [
+                            143.8472,
+                            -37.5095
+                        ],
+                        [
+                            143.8471,
+                            -37.5095
+                        ],
+                        [
+                            143.8471,
+                            -37.5094
+                        ],
+                        [
+                            143.8471,
+                            -37.5093
+                        ],
+                        [
+                            143.8471,
+                            -37.5093
                         ]
                     ]
                 ]
@@ -20920,60 +21040,6 @@
                         [
                             146.059,
                             -36.4435
-                        ]
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Midlands 98 - Mt Rowan - Midland Hwy - Midland Hwy",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2025-02-20T11:00:00+11:00",
-                "updated": "2025-02-20T11:00:00+11:00",
-                "id": "6568f416bb3fde6db02502ea83003a62",
-                "location": "Midlands 98 - Mt Rowan - Midland Hwy - Midland Hwy",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.8471,
-                            -37.5093
-                        ],
-                        [
-                            143.8472,
-                            -37.5093
-                        ],
-                        [
-                            143.8472,
-                            -37.5093
-                        ],
-                        [
-                            143.8472,
-                            -37.5095
-                        ],
-                        [
-                            143.8471,
-                            -37.5095
-                        ],
-                        [
-                            143.8471,
-                            -37.5094
-                        ],
-                        [
-                            143.8471,
-                            -37.5093
-                        ],
-                        [
-                            143.8471,
-                            -37.5093
                         ]
                     ]
                 ]
@@ -87333,75 +87399,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kangaroo Ground-St Andrews Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-02-20T13:12:00+11:00",
-                "updated": "2025-02-20T13:37:00+11:00",
-                "id": "ESTA:250208762",
-                "location": "Kangaroo Ground-St Andrews Rd, Panton Hill",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.23588515498665,
-                    -37.645731247711524
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Helms Ct",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2025-02-20T13:39:00+11:00",
-                "updated": "2025-02-20T13:55:00+11:00",
-                "id": "ESTA:250208771",
-                "location": "Helms Ct, Benalla",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.96558110412457,
-                    -36.55464236441654
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Moora Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2025-02-20T13:31:00+11:00",
-                "updated": "2025-02-20T14:03:00+11:00",
-                "id": "ESTA:250208765",
-                "location": "Moora Rd, Mount Toolebewong",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.56698087599955,
-                    -37.72674536089441
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Moya Cr",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -87425,14 +87422,60 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Moss Rd",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2025-02-20T13:35:00+11:00",
+                "updated": "2025-02-20T14:19:00+11:00",
+                "id": "ESTA:250208767",
+                "location": "Langwarrin South",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.18298727879062,
+                    -38.19309525787032
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Moora Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-02-20T13:31:00+11:00",
+                "updated": "2025-02-20T14:40:00+11:00",
+                "id": "ESTA:250208765",
+                "location": "Moora Rd, Mount Toolebewong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.56698087599955,
+                    -37.72674536089441
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rebecca Dr",
                 "category": "fire",
-                "subcategory": "fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2025-02-20T14:16:28+11:00",
-                "updated": "2025-02-20T14:16:28+11:00",
-                "id": "ESTA:250208784",
-                "location": "Moss Rd, Barnawartha North",
+                "created": "2025-02-20T14:43:00+11:00",
+                "updated": "2025-02-20T14:43:00+11:00",
+                "id": "ESTA:250208791",
+                "location": "Rebecca Dr, Ravenhall",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -87440,8 +87483,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.74219019109498,
-                    -36.04901580118729
+                    144.74913409520042,
+                    -37.76306702949993
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Keilor East",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2025-02-20T14:42:20+11:00",
+                "updated": "2025-02-20T14:42:20+11:00",
+                "id": "ESTA:250208787",
+                "location": "Keilor East, Keilor East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.85090331026638,
+                    -37.73838090936211
                 ]
             }
         },
@@ -87471,29 +87537,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Abbotsford St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2025-02-20T14:16:08+11:00",
-                "updated": "2025-02-20T14:16:08+11:00",
-                "id": "ESTA:250208778",
-                "location": "Abbotsford St, Abbotsford",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0001476212108,
-                    -37.80206765313097
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
@@ -87510,50 +87553,6 @@
                 "coordinates": [
                     144.98591962557583,
                     -37.85816548083606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2025-02-20T14:13:00+11:00",
-                "updated": "2025-02-20T14:16:00+11:00",
-                "id": "ESTA:250253931",
-                "location": "Ferntree Gully",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.26286224512006,
-                    -37.87228442533893
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2025-02-20T13:09:00+11:00",
-                "updated": "2025-02-20T14:21:00+11:00",
-                "id": "ESTA:250253930",
-                "location": "Bentleigh",
-                "title": "incident: building damage"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0336008032351,
-                    -37.92655983019926
                 ]
             }
         }
