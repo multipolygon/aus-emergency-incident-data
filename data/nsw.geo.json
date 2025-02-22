@@ -173,10 +173,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.14863586400008,
-                    -29.952228545999958
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.14863586400008,
+                            -29.952228545999958
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.146464491,
+                                            -29.9502147329999
+                                        ],
+                                        [
+                                            151.147380583,
+                                            -29.9503574999999
+                                        ],
+                                        [
+                                            151.148237189,
+                                            -29.9508214959999
+                                        ],
+                                        [
+                                            151.148522724,
+                                            -29.9514996419999
+                                        ],
+                                        [
+                                            151.148879644,
+                                            -29.952510912
+                                        ],
+                                        [
+                                            151.148165806,
+                                            -29.952510912
+                                        ],
+                                        [
+                                            151.147273508,
+                                            -29.952344351
+                                        ],
+                                        [
+                                            151.146750026,
+                                            -29.952046918
+                                        ],
+                                        [
+                                            151.145905317,
+                                            -29.951618616
+                                        ],
+                                        [
+                                            151.145833934,
+                                            -29.9509404679999
+                                        ],
+                                        [
+                                            151.145917215,
+                                            -29.9504883709999
+                                        ],
+                                        [
+                                            151.146464491,
+                                            -29.9502147329999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -597,139 +662,6 @@
                 "location": "MONUMENT RD",
                 "size": 18,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: MONUMENT RD <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 18 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 22 Feb 2025 16:15",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            150.98150634700005,
-                            -31.061637877999942
-                        ]
-                    },
-                    {
-                        "type": "GeometryCollection",
-                        "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            150.982898633,
-                                            -31.0606185789999
-                                        ],
-                                        [
-                                            150.983231758,
-                                            -31.0606185789999
-                                        ],
-                                        [
-                                            150.984100261,
-                                            -31.061023088
-                                        ],
-                                        [
-                                            150.984183542,
-                                            -31.0612610329999
-                                        ],
-                                        [
-                                            150.984100261,
-                                            -31.061558466
-                                        ],
-                                        [
-                                            150.983802828,
-                                            -31.062046256
-                                        ],
-                                        [
-                                            150.98370765,
-                                            -31.0620938449999
-                                        ],
-                                        [
-                                            150.983434012,
-                                            -31.06198677
-                                        ],
-                                        [
-                                            150.983065194,
-                                            -31.061879694
-                                        ],
-                                        [
-                                            150.983017606,
-                                            -31.061796413
-                                        ],
-                                        [
-                                            150.98286294,
-                                            -31.061736926
-                                        ],
-                                        [
-                                            150.982732071,
-                                            -31.061748823
-                                        ],
-                                        [
-                                            150.982565509,
-                                            -31.061713132
-                                        ],
-                                        [
-                                            150.982517919,
-                                            -31.0615941579999
-                                        ],
-                                        [
-                                            150.982553611,
-                                            -31.0613681089999
-                                        ],
-                                        [
-                                            150.982517919,
-                                            -31.0613324179999
-                                        ],
-                                        [
-                                            150.982529816,
-                                            -31.06118965
-                                        ],
-                                        [
-                                            150.982577405,
-                                            -31.061082574
-                                        ],
-                                        [
-                                            150.982696378,
-                                            -31.061023088
-                                        ],
-                                        [
-                                            150.983053298,
-                                            -31.061023088
-                                        ],
-                                        [
-                                            150.983124682,
-                                            -31.060939807
-                                        ],
-                                        [
-                                            150.982922427,
-                                            -31.0608089359999
-                                        ],
-                                        [
-                                            150.982898633,
-                                            -31.0606185789999
-                                        ]
-                                    ]
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "TINTINHULL RD, DARUKA",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591123",
-                "created": "2025-02-22T01:48:00+11:00",
-                "updated": "2025-02-22T12:48:00+11:00",
-                "location": "WINDSOR PARK ESTATE 538 TINTINHULL RD, DARUKA 2340",
-                "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: WINDSOR PARK ESTATE 538 TINTINHULL RD, DARUKA 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2025 12:48",
                 "title": "incident: fire"
             }
         },
@@ -1864,13 +1796,13 @@
                 "sourceTitle": "BOYD ST, SHOALHAVEN HEADS",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591141",
-                "created": "2025-02-22T05:15:00+11:00",
-                "updated": "2025-02-22T16:15:00+11:00",
+                "created": "2025-02-22T05:45:00+11:00",
+                "updated": "2025-02-22T16:45:00+11:00",
                 "location": "17 BOYD ST, SHOALHAVEN HEADS 2535",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 17 BOYD ST, SHOALHAVEN HEADS 2535 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2025 16:15",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 17 BOYD ST, SHOALHAVEN HEADS 2535 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2025 16:45",
                 "title": "incident: fire"
             }
         },
@@ -1927,6 +1859,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    146.08538818300008,
+                    -34.26763153099995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GILLMARTIN DR, GRIFFITH",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591153",
+                "created": "2025-02-22T05:42:00+11:00",
+                "updated": "2025-02-22T16:42:00+11:00",
+                "location": "73 GILLMARTIN DR, GRIFFITH 2680",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 73 GILLMARTIN DR, GRIFFITH 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Responding <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2025 16:42",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     145.81857299800004,
                     -35.68051528899997
                 ]
@@ -1975,8 +1931,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.1582794190001,
-                    -32.15270614699995
+                    150.1628665940001,
+                    -32.19706314299998
                 ]
             },
             "properties": {
@@ -1984,13 +1940,13 @@
                 "sourceTitle": "NEVERFAIL RD, MERRIWA",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591152",
-                "created": "2025-02-22T05:13:00+11:00",
-                "updated": "2025-02-22T16:13:00+11:00",
+                "created": "2025-02-22T05:47:00+11:00",
+                "updated": "2025-02-22T16:47:00+11:00",
                 "location": "79 NEVERFAIL RD, MERRIWA 2329",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 79 NEVERFAIL RD, MERRIWA 2329 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Responding <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2025 16:13",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 79 NEVERFAIL RD, MERRIWA 2329 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 22 Feb 2025 16:47",
                 "title": "incident: fire"
             }
         },
