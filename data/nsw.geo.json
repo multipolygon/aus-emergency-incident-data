@@ -739,30 +739,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    153.00550842300004,
-                    -29.12694168099995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ELLIOTTS RD, MYRTLE CREEK",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591937",
-                "created": "2025-03-01T06:11:00+11:00",
-                "updated": "2025-03-01T17:11:00+11:00",
-                "location": "114 ELLIOTTS RD, MYRTLE CREEK 2469",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 114 ELLIOTTS RD, MYRTLE CREEK 2469 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2025 17:11",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.80955505400004,
                     -33.91148376399997
                 ]
@@ -1860,10 +1836,87 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.3314083890001,
-                    -31.44291801099996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            149.3314083890001,
+                            -31.44291801099996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            149.331337005,
+                                            -31.442358838
+                                        ],
+                                        [
+                                            149.331634437,
+                                            -31.442358838
+                                        ],
+                                        [
+                                            149.331812898,
+                                            -31.442442119
+                                        ],
+                                        [
+                                            149.332015151,
+                                            -31.4427633459999
+                                        ],
+                                        [
+                                            149.332134124,
+                                            -31.443155958
+                                        ],
+                                        [
+                                            149.332086536,
+                                            -31.4434890809999
+                                        ],
+                                        [
+                                            149.331872384,
+                                            -31.443667542
+                                        ],
+                                        [
+                                            149.331515465,
+                                            -31.4437627199999
+                                        ],
+                                        [
+                                            149.330718345,
+                                            -31.4436794379999
+                                        ],
+                                        [
+                                            149.330420913,
+                                            -31.442918011
+                                        ],
+                                        [
+                                            149.330397118,
+                                            -31.4425254
+                                        ],
+                                        [
+                                            149.330516091,
+                                            -31.4422874539999
+                                        ],
+                                        [
+                                            149.330754037,
+                                            -31.442335043
+                                        ],
+                                        [
+                                            149.331170443,
+                                            -31.442358838
+                                        ],
+                                        [
+                                            149.331337005,
+                                            -31.442358838
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -5684,11 +5737,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591338",
-                "created": "2025-03-01T04:28:00+11:00",
-                "updated": "2025-03-01T15:28:00+11:00",
+                "created": "2025-03-01T07:43:00+11:00",
+                "updated": "2025-03-01T18:43:00+11:00",
                 "location": "MARRANGAROO NATIONAL PARK MARRANGAROO 2790",
                 "size": 543,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: MARRANGAROO NATIONAL PARK MARRANGAROO 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 543 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 1 Mar 2025 15:28",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: MARRANGAROO NATIONAL PARK MARRANGAROO 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 543 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 1 Mar 2025 18:43",
                 "title": "incident: fire"
             }
         },
@@ -9984,54 +10037,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.49302673300008,
-                    -34.42496490499997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "AYLMERTON RD, BRAEMAR",
-                "category": "other",
-                "subcategory": "planned event",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591896",
-                "created": "2025-02-28T23:08:00+11:00",
-                "updated": "2025-03-01T10:08:00+11:00",
-                "location": "AYLMERTON RD, BRAEMAR 2575",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: AYLMERTON RD, BRAEMAR 2575 <br />COUNCIL AREA: Wingecarribee <br />STATUS: Under control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Mar 2025 10:08",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.84205627400002,
-                    -34.08212661699997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BUNDEMAR WAY, AIRDS",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591952",
-                "created": "2025-03-01T07:20:00+11:00",
-                "updated": "2025-03-01T18:20:00+11:00",
-                "location": "BUNDEMAR WAY, AIRDS 2560",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BUNDEMAR WAY, AIRDS 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Responding <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Mar 2025 18:20",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -10291,30 +10296,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.53230285600011,
-                    -32.99281692499994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "CESSNOCK RD, RYHOPE",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591948",
-                "created": "2025-03-01T07:39:00+11:00",
-                "updated": "2025-03-01T18:39:00+11:00",
-                "location": "318 CESSNOCK RD, RYHOPE 2283",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 318 CESSNOCK RD, RYHOPE 2283 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2025 18:39",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     153.1481781010001,
                     -29.594591140999967
                 ]
@@ -10444,38 +10425,14 @@
                 "sourceTitle": "KILLARNEY GAP RD, ROCKY CREEK",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591930",
-                "created": "2025-03-01T04:40:00+11:00",
-                "updated": "2025-03-01T15:40:00+11:00",
+                "created": "2025-03-01T07:41:00+11:00",
+                "updated": "2025-03-01T18:41:00+11:00",
                 "location": "4572 KILLARNEY GAP RD, ROCKY CREEK 2390",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4572 KILLARNEY GAP RD, ROCKY CREEK 2390 <br />COUNCIL AREA: Gwydir <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2025 15:40",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 4572 KILLARNEY GAP RD, ROCKY CREEK 2390 <br />COUNCIL AREA: Gwydir <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2025 18:41",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.41911316000005,
-                    -33.510650633999944
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "LITTLE BEACH, BOUDDI",
-                "category": "other",
-                "subcategory": "search/rescue",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591446",
-                "created": "2025-02-28T05:14:00+11:00",
-                "updated": "2025-02-28T16:14:00+11:00",
-                "location": "LITTLE BEACH, BOUDDI 2251",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: LITTLE BEACH, BOUDDI 2251 <br />COUNCIL AREA: Central Coast <br />STATUS: Under control <br />TYPE: Search/Rescue <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 28 Feb 2025 16:14",
-                "title": "incident: other"
             }
         },
         {
@@ -10500,30 +10457,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MOUNT HOPE 2877 <br />COUNCIL AREA: Cobar <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2025 18:11",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.673034668,
-                    -35.05044555699993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "MURDOCH ST, HUSKISSON",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591940",
-                "created": "2025-03-01T06:05:00+11:00",
-                "updated": "2025-03-01T17:05:00+11:00",
-                "location": "2 MURDOCH ST, HUSKISSON 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2 MURDOCH ST, HUSKISSON 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Responding <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2025 17:05",
-                "title": "incident: other"
             }
         },
         {
@@ -10564,13 +10497,13 @@
                 "sourceTitle": "PUTTY RD, MILBRODALE",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591953",
-                "created": "2025-03-01T07:23:00+11:00",
-                "updated": "2025-03-01T18:23:00+11:00",
+                "created": "2025-03-01T08:05:00+11:00",
+                "updated": "2025-03-01T19:05:00+11:00",
                 "location": "2838 PUTTY RD, MILBRODALE 2330",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2838 PUTTY RD, MILBRODALE 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Responding <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2025 18:23",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2838 PUTTY RD, MILBRODALE 2330 <br />COUNCIL AREA: Singleton <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Mar 2025 19:05",
                 "title": "incident: fire"
             }
         },
@@ -10667,30 +10600,6 @@
                 "location": "117 STINGRAY CREEK RD, NORTH HAVEN 2443",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 117 STINGRAY CREEK RD, NORTH HAVEN 2443 <br />COUNCIL AREA: Port Macquarie-Hastings <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Mar 2025 17:14",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.84353637700008,
-                    -33.89321136499996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "STIRLING ST, CECIL HILLS",
-                "category": "fire",
-                "subcategory": "car fire",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/591954",
-                "created": "2025-03-01T07:24:00+11:00",
-                "updated": "2025-03-01T18:24:00+11:00",
-                "location": "27 STIRLING ST, CECIL HILLS 2171",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 27 STIRLING ST, CECIL HILLS 2171 <br />COUNCIL AREA: Liverpool <br />STATUS: Responding <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Mar 2025 18:24",
                 "title": "incident: fire"
             }
         },
