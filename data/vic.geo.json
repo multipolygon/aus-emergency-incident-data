@@ -9,6 +9,68 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            144.57575358901835,
+                            -37.67982950291112
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.57401551757508,
+                                    -37.679243620518896
+                                ],
+                                [
+                                    144.5748309091239,
+                                    -37.67839448727536
+                                ],
+                                [
+                                    144.57742728744884,
+                                    -37.67868319366877
+                                ],
+                                [
+                                    144.57749166046162,
+                                    -37.68097582219893
+                                ],
+                                [
+                                    144.5742730096441,
+                                    -37.681264518546875
+                                ],
+                                [
+                                    144.57412280593866,
+                                    -37.68094185784863
+                                ],
+                                [
+                                    144.57401551757508,
+                                    -37.679243620518896
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2025-05-11T04:14:43+10:00",
+                "updated": "2025-05-11T04:14:45+10:00",
+                "id": "37562",
+                "location": "Melton",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             145.49796498922979,
                             -36.76468649074213
                         ]
@@ -1348,35 +1410,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ravenhall",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "responding",
-                "created": "2025-05-11T03:47:37+10:00",
-                "updated": "2025-05-11T03:47:37+10:00",
-                "id": "ESTA:250517832",
-                "location": "Ravenhall, Ravenhall",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7396626214243,
-                    -37.756337728718805
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Scott St",
                 "category": "fire",
                 "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2025-05-11T03:48:24+10:00",
-                "updated": "2025-05-11T03:48:24+10:00",
+                "status": "not yet under control",
+                "created": "2025-05-11T04:10:47+10:00",
+                "updated": "2025-05-11T04:10:47+10:00",
                 "id": "ESTA:250517828",
                 "location": "Scott St, Melton",
                 "size": "Small",
@@ -1388,6 +1427,52 @@
                 "coordinates": [
                     144.57515992675525,
                     -37.68024275489912
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sitzmark St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2025-05-11T04:17:00+10:00",
+                "updated": "2025-05-11T04:17:00+10:00",
+                "id": "ESTA:250517838",
+                "location": "Sitzmark St, Falls Creek",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.27761575499042,
+                    -36.86433727247177
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bladin St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-05-11T04:19:15+10:00",
+                "updated": "2025-05-11T04:19:15+10:00",
+                "id": "ESTA:250517839",
+                "location": "Bladin St, Laverton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.76941069225828,
+                    -37.86314109441842
                 ]
             }
         },
@@ -87087,58 +87172,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Annapurna Cr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2025-05-11T01:40:00+10:00",
-                "updated": "2025-05-11T02:50:00+10:00",
-                "id": "ESTA:250517811",
-                "location": "Annapurna Cr, Truganina",
-                "size": "Small",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.69014205304674,
-                    -37.75795993694889
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "on scene",
-                "created": "2025-05-11T02:15:00+10:00",
-                "updated": "2025-05-11T02:49:00+10:00",
-                "id": "ESTA:250517821",
-                "location": "Upper Ferntree Gully",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.31587662585656,
-                    -37.89270131971977
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap fire",
                 "status": "on scene",
                 "created": "2025-05-11T03:05:00+10:00",
-                "updated": "2025-05-11T03:40:00+10:00",
+                "updated": "2025-05-11T04:15:00+10:00",
                 "id": "ESTA:250517824",
                 "location": "Beveridge",
                 "size": "Small",
@@ -87179,14 +87218,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Thornbury",
+                "sourceTitle": "Ravenhall",
                 "category": "other",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2025-05-11T03:37:04+10:00",
-                "updated": "2025-05-11T03:37:04+10:00",
-                "id": "ESTA:250517829",
-                "location": "Thornbury, Thornbury",
+                "created": "2025-05-11T04:00:27+10:00",
+                "updated": "2025-05-11T04:00:27+10:00",
+                "id": "ESTA:250517832",
+                "location": "Ravenhall, Ravenhall",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -87194,8 +87233,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0009646324773,
-                    -37.756404096918594
+                    144.7396626214243,
+                    -37.756337728718805
                 ]
             }
         }
