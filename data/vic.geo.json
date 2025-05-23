@@ -9,6 +9,60 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            145.21140961706072,
+                            -38.021228960289704
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.19267706930174,
+                                    -38.02241272855326
+                                ],
+                                [
+                                    145.2229323869866,
+                                    -38.0297823743344
+                                ],
+                                [
+                                    145.23014216481968,
+                                    -38.01490709812094
+                                ],
+                                [
+                                    145.19902854025312,
+                                    -38.01267554624501
+                                ],
+                                [
+                                    145.19267706930174,
+                                    -38.02241272855326
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2025-05-23T17:20:23+10:00",
+                "updated": "2025-05-23T17:20:23+10:00",
+                "id": "37605",
+                "location": "Dandenong South",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             145.49796498922979,
                             -36.76468649074213
                         ]
@@ -956,57 +1010,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Elphin St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2025-05-23T17:04:00+10:00",
-                "updated": "2025-05-23T17:04:00+10:00",
-                "id": "ESTA:250536114",
-                "location": "Elphin St, Newport",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.88901986929625,
-                    -37.84276863494763
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2025-05-23T16:29:00+10:00",
-                "updated": "2025-05-23T17:10:00+10:00",
-                "id": "ESTA:250551045",
-                "location": "Waratah Bay",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.06350755513586,
-                    -38.810649616082515
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2025-05-23T17:11:00+10:00",
-                "updated": "2025-05-23T17:12:00+10:00",
+                "updated": "2025-05-23T17:30:00+10:00",
                 "id": "ESTA:250536125",
                 "location": "Fulham",
                 "size": "Small",
@@ -1024,14 +1033,151 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Millers Rd",
+                "sourceTitle": "Forest St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2025-05-23T17:27:00+10:00",
+                "updated": "2025-05-23T17:27:00+10:00",
+                "id": "ESTA:250536160",
+                "location": "Forest St, Colac",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.60405333642285,
+                    -38.34944000391338
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-05-23T17:17:00+10:00",
+                "updated": "2025-05-23T17:30:00+10:00",
+                "id": "ESTA:250536141",
+                "location": "Kyneton",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.46355717188484,
+                    -37.25218603950543
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dundas St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2025-05-23T17:30:19+10:00",
+                "updated": "2025-05-23T17:30:19+10:00",
+                "id": "ESTA:250536145",
+                "location": "Dundas St, Rye",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.8180597632436,
+                    -38.37355260088874
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2025-05-23T17:27:00+10:00",
+                "updated": "2025-05-23T17:31:00+10:00",
+                "id": "ESTA:250536159",
+                "location": "Reedy Creek",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.1697516084349,
+                    -37.24722542730895
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "created": "2025-05-23T17:31:00+10:00",
+                "updated": "2025-05-23T17:31:00+10:00",
+                "id": "ESTA:250536161",
+                "location": "Aubrey",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.2396360893602,
+                    -36.241118656825876
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2025-05-23T17:31:00+10:00",
+                "updated": "2025-05-23T17:34:00+10:00",
+                "id": "ESTA:250551050",
+                "location": "Morwell",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.39319186905465,
+                    -38.23899856966621
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Strathmore",
                 "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2025-05-23T17:11:24+10:00",
-                "updated": "2025-05-23T17:11:24+10:00",
-                "id": "ESTA:250536126",
-                "location": "Millers Rd, Seaholme",
+                "created": "2025-05-23T17:33:38+10:00",
+                "updated": "2025-05-23T17:33:38+10:00",
+                "id": "ESTA:250536166",
+                "location": "Strathmore, Strathmore",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -1039,8 +1185,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.8392071976608,
-                    -37.8656875013975
+                    144.92446339675743,
+                    -37.73389060282794
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Parwan-Exford Rd",
+                "category": "other",
+                "subcategory": "grass and scrub",
+                "status": "responding",
+                "created": "2025-05-23T17:36:22+10:00",
+                "updated": "2025-05-23T17:36:22+10:00",
+                "id": "ESTA:250536174",
+                "location": "Parwan-Exford Rd, Parwan",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.51394535524474,
+                    -37.73386603902229
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dover St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-05-23T17:36:37+10:00",
+                "updated": "2025-05-23T17:36:37+10:00",
+                "id": "ESTA:250536164",
+                "location": "Dover St, Flemington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9231658108949,
+                    -37.78270731928859
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Stringybark Pl",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-05-23T17:34:00+10:00",
+                "updated": "2025-05-23T17:34:00+10:00",
+                "id": "ESTA:250536173",
+                "location": "Stringybark Pl, Longwarry",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.76576418707634,
+                    -38.11308945637205
                 ]
             }
         },
@@ -1049,10 +1264,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Whelans Pl",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
+                "subcategory": "other",
+                "status": "safe",
                 "created": "2025-05-23T17:14:00+10:00",
-                "updated": "2025-05-23T17:14:00+10:00",
+                "updated": "2025-05-23T17:27:00+10:00",
                 "id": "ESTA:250536135",
                 "location": "Whelans Pl, Romsey",
                 "size": "Small",
@@ -1064,51 +1279,6 @@
                 "coordinates": [
                     144.7344270683446,
                     -37.355625200279746
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kew",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2025-05-23T17:14:17+10:00",
-                "updated": "2025-05-23T17:14:26+10:00",
-                "id": "ESTA:250536136",
-                "location": "High St, Kew",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0374520571403,
-                    -37.80456724595403
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Elliott Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2025-05-23T17:07:33+10:00",
-                "updated": "2025-05-23T17:07:33+10:00",
-                "id": "ESTA:250536119",
-                "location": "Elliott Rd, Dandenong South",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.20585207998442,
-                    -38.02283532001931
                 ]
             }
         },
@@ -80009,52 +80179,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2025-05-23T15:56:00+10:00",
-                "updated": "2025-05-23T16:25:00+10:00",
-                "id": "ESTA:250536018",
-                "location": "Powelltown",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.80396885516268,
-                    -37.87164505716154
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Merrin Cr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-05-23T16:29:00+10:00",
-                "updated": "2025-05-23T16:36:00+10:00",
-                "id": "ESTA:250536077",
-                "location": "Merrin Cr, Wonthaggi",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.59145678475508,
-                    -38.615117641432164
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "other",
@@ -80101,14 +80225,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glen Iris",
+                "sourceTitle": "Elliott Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "not yet under control",
+                "created": "2025-05-23T17:20:48+10:00",
+                "updated": "2025-05-23T17:20:48+10:00",
+                "id": "ESTA:250536119",
+                "location": "Elliott Rd, Dandenong South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20585207998442,
+                    -38.02283532001931
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "One Tree Hill Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "under control",
-                "created": "2025-05-23T16:10:27+10:00",
-                "updated": "2025-05-23T16:10:27+10:00",
-                "id": "ESTA:250536022",
-                "location": "Glen Iris, Glen Iris",
+                "status": "safe",
+                "created": "2025-05-23T17:22:00+10:00",
+                "updated": "2025-05-23T17:23:00+10:00",
+                "id": "ESTA:250536147",
+                "location": "One Tree Hill Rd, Tremont",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -80116,22 +80263,68 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.05257669660114,
-                    -37.852205763488186
+                    145.32099743127225,
+                    -37.87502963114779
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Boundary Rd",
+                "sourceTitle": "David St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2025-05-23T17:33:00+10:00",
+                "updated": "2025-05-23T17:33:00+10:00",
+                "id": "ESTA:250536169",
+                "location": "David St, Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2205746573476,
+                    -37.977344777001655
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Torquay",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2025-05-23T17:36:19+10:00",
+                "updated": "2025-05-23T17:36:19+10:00",
+                "id": "ESTA:250536155",
+                "location": "Torquay, Torquay",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.324674518714,
+                    -38.32129665654406
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nepean Hwy",
                 "category": "fire",
                 "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2025-05-23T16:52:08+10:00",
-                "updated": "2025-05-23T16:52:08+10:00",
-                "id": "ESTA:250536089",
-                "location": "Boundary Rd, Truganina",
+                "status": "responding",
+                "created": "2025-05-23T17:27:03+10:00",
+                "updated": "2025-05-23T17:27:03+10:00",
+                "id": "ESTA:250536144",
+                "location": "Nepean Hwy, Cheltenham",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -80139,31 +80332,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.75381728873666,
-                    -37.8111946040582
+                    145.05171732542811,
+                    -37.95787176964313
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Curtain St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2025-05-23T15:57:59+10:00",
-                "updated": "2025-05-23T15:57:59+10:00",
-                "id": "ESTA:250536003",
-                "location": "Curtain St, Kingsbury",
-                "size": "Small",
-                "title": "incident: fire"
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2025-05-23T15:56:00+10:00",
+                "updated": "2025-05-23T16:25:00+10:00",
+                "id": "ESTA:250536018",
+                "location": "Powelltown",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.043883163679,
-                    -37.71396641714929
+                    145.80396885516268,
+                    -37.87164505716154
                 ]
             }
         },
@@ -80173,9 +80365,9 @@
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2025-05-23T16:28:00+10:00",
-                "updated": "2025-05-23T17:02:00+10:00",
+                "updated": "2025-05-23T17:21:00+10:00",
                 "id": "ESTA:250551044",
                 "location": "Hampton Park",
                 "title": "incident: building damage"
