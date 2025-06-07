@@ -7243,12 +7243,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Blake Ct",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-06-07T20:43:36+10:00",
+                "updated": "2025-06-07T20:43:36+10:00",
+                "id": "ESTA:250607434",
+                "location": "Blake Ct, Truganina",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.71791914516746,
+                    -37.85349868792765
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "building damage",
                 "subcategory": "building damage",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2025-06-07T20:31:00+10:00",
-                "updated": "2025-06-07T20:35:00+10:00",
+                "updated": "2025-06-07T20:44:00+10:00",
                 "id": "ESTA:250650338",
                 "location": "Emerald",
                 "title": "incident: building damage"
@@ -7265,46 +7288,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Craigieburn",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
+                "sourceTitle": "West Melbourne",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2025-06-07T20:41:57+10:00",
-                "updated": "2025-06-07T20:41:57+10:00",
-                "id": "ESTA:250607432",
-                "location": "Craigieburn, Craigieburn",
+                "created": "2025-06-07T20:47:56+10:00",
+                "updated": "2025-06-07T20:47:56+10:00",
+                "id": "ESTA:250607436",
+                "location": "West Melbourne, West Melbourne",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94080433705506,
-                    -37.58413472946685
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Blake Ct",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2025-06-07T20:41:51+10:00",
-                "updated": "2025-06-07T20:41:51+10:00",
-                "id": "ESTA:250607434",
-                "location": "Blake Ct, Truganina",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.71791914516746,
-                    -37.85349868792765
+                    144.9148458739905,
+                    -37.80152385978625
                 ]
             }
         },
@@ -8307,6 +8307,45 @@
                         "coordinates": [
                             [
                                 [
+                                    147.9776,
+                                    -35.6782
+                                ],
+                                [
+                                    147.9726,
+                                    -35.6749
+                                ],
+                                [
+                                    147.9736,
+                                    -35.6731
+                                ],
+                                [
+                                    147.971,
+                                    -35.6768
+                                ],
+                                [
+                                    147.9691,
+                                    -35.6769
+                                ],
+                                [
+                                    147.9688,
+                                    -35.6746
+                                ],
+                                [
+                                    147.9739,
+                                    -35.6688
+                                ],
+                                [
+                                    147.9776,
+                                    -35.6782
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
                                     147.9797,
                                     -35.6758
                                 ],
@@ -8436,45 +8475,6 @@
                                 [
                                     147.9781,
                                     -35.6765
-                                ]
-                            ]
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    147.9776,
-                                    -35.6782
-                                ],
-                                [
-                                    147.9726,
-                                    -35.6749
-                                ],
-                                [
-                                    147.9736,
-                                    -35.6731
-                                ],
-                                [
-                                    147.971,
-                                    -35.6768
-                                ],
-                                [
-                                    147.9691,
-                                    -35.6769
-                                ],
-                                [
-                                    147.9688,
-                                    -35.6746
-                                ],
-                                [
-                                    147.9739,
-                                    -35.6688
-                                ],
-                                [
-                                    147.9776,
-                                    -35.6782
                                 ]
                             ]
                         ]
@@ -83146,6 +83146,29 @@
                 "coordinates": [
                     145.19923244955748,
                     -37.987358857091664
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Craigieburn",
+                "category": "other",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2025-06-07T20:49:13+10:00",
+                "updated": "2025-06-07T20:49:13+10:00",
+                "id": "ESTA:250607432",
+                "location": "Craigieburn, Craigieburn",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.94080433705506,
+                    -37.58413472946685
                 ]
             }
         },
