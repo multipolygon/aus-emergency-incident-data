@@ -2,6 +2,60 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.48444228660168,
+                            -38.06567921403171
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.48137383948506,
+                                    -38.06370264905878
+                                ],
+                                [
+                                    145.48785405647098,
+                                    -38.063685754878314
+                                ],
+                                [
+                                    145.48744636069657,
+                                    -38.06767267318511
+                                ],
+                                [
+                                    145.4810305167324,
+                                    -38.067554420259775
+                                ],
+                                [
+                                    145.48137383948506,
+                                    -38.06370264905878
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2025-06-26T08:45:35+10:00",
+                "updated": "2025-06-26T08:45:34+10:00",
+                "id": "37724",
+                "location": "Pakenham",
+                "title": "warning: advice"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Far South West 51 - Dergholm - Vickerys Rd",
@@ -96,104 +150,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hawk Av",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2025-06-26T08:29:28+10:00",
-                "updated": "2025-06-26T08:29:28+10:00",
-                "id": "ESTA:250624631",
-                "location": "Hawk Av, Pakenham",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.48403459083426,
-                    -38.065147087022815
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Princes Hwy",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2025-06-26T08:29:43+10:00",
-                "updated": "2025-06-26T08:29:43+10:00",
-                "id": "ESTA:250624542",
-                "location": "Princes Hwy, Hallam",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.25891954618564,
-                    -38.00501161520382
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Kirrabilli Pde",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-06-26T08:00:00+10:00",
-                "updated": "2025-06-26T08:14:00+10:00",
-                "id": "ESTA:250624610",
-                "location": "Kirrabilli Pde, Berwick",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.3485659901819,
-                    -38.072746897160656
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Euroka St",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "under control",
-                "created": "2025-06-26T08:36:50+10:00",
-                "updated": "2025-06-26T08:36:50+10:00",
-                "id": "ESTA:250624629",
-                "location": "Euroka St, Chadstone",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1006548181196,
-                    -37.87864602565344
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
                 "created": "2025-06-26T08:41:00+10:00",
-                "updated": "2025-06-26T08:41:00+10:00",
+                "updated": "2025-06-26T08:43:00+10:00",
                 "id": "ESTA:250651824",
                 "location": "Hampton",
                 "title": "incident: tree down"
@@ -204,6 +166,121 @@
                 "coordinates": [
                     145.00285480748792,
                     -37.94232591333177
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Western Fwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2025-06-26T06:14:00+10:00",
+                "updated": "2025-06-26T08:17:00+10:00",
+                "id": "ESTA:250624568",
+                "location": "Western Fwy, Gordon",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.08560843024816,
+                    -37.55964915334162
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Euroka St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2025-06-26T08:45:46+10:00",
+                "updated": "2025-06-26T08:45:46+10:00",
+                "id": "ESTA:250624629",
+                "location": "Euroka St, Chadstone",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10057540526734,
+                    -37.878763219563595
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Croydon",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2025-06-26T08:47:45+10:00",
+                "updated": "2025-06-26T08:47:45+10:00",
+                "id": "ESTA:250624641",
+                "location": "Croydon, Croydon",
+                "size": "Small",
+                "title": "incident: hazardous material"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.26959841606356,
+                    -37.81057664419397
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2025-06-26T08:05:00+10:00",
+                "updated": "2025-06-26T08:29:00+10:00",
+                "id": "ESTA:250624615",
+                "location": "Mickleham",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90449161950826,
+                    -37.535562259714
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-06-26T08:48:00+10:00",
+                "updated": "2025-06-26T08:48:00+10:00",
+                "id": "ESTA:250624643",
+                "location": "Dalmore",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.42304861466926,
+                    -38.175856777513154
                 ]
             }
         },
@@ -69649,6 +69726,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2025-06-26T08:29:43+10:00",
+                "updated": "2025-06-26T08:29:43+10:00",
+                "id": "ESTA:250624542",
+                "location": "Princes Hwy, Hallam",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.25891954618564,
+                    -38.00501161520382
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Western Fwy",
                 "category": "rescue",
                 "subcategory": "road accident",
@@ -69718,23 +69818,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Western Fwy",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Kirrabilli Pde",
+                "category": "fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2025-06-26T06:14:00+10:00",
-                "updated": "2025-06-26T08:17:00+10:00",
-                "id": "ESTA:250624568",
-                "location": "Western Fwy, Gordon",
+                "created": "2025-06-26T08:00:00+10:00",
+                "updated": "2025-06-26T08:14:00+10:00",
+                "id": "ESTA:250624610",
+                "location": "Kirrabilli Pde, Berwick",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.08560843024816,
-                    -37.55964915334162
+                    145.3485659901819,
+                    -38.072746897160656
                 ]
             }
         },
@@ -69764,23 +69864,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "on scene",
-                "created": "2025-06-26T08:05:00+10:00",
-                "updated": "2025-06-26T08:29:00+10:00",
-                "id": "ESTA:250624615",
-                "location": "Mickleham",
+                "sourceTitle": "Hawk Av",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-06-26T08:29:28+10:00",
+                "updated": "2025-06-26T08:29:28+10:00",
+                "id": "ESTA:250624631",
+                "location": "Hawk Av, Pakenham",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.90449161950826,
-                    -37.535562259714
+                    145.48403459083426,
+                    -38.065147087022815
                 ]
             }
         },
@@ -69813,9 +69913,9 @@
                 "sourceTitle": "Centre Rd",
                 "category": "other",
                 "subcategory": "other",
-                "status": "responding",
-                "created": "2025-06-26T08:30:31+10:00",
-                "updated": "2025-06-26T08:30:31+10:00",
+                "status": "safe",
+                "created": "2025-06-26T08:47:18+10:00",
+                "updated": "2025-06-26T08:47:18+10:00",
                 "id": "ESTA:250624632",
                 "location": "Centre Rd, Bentleigh East",
                 "size": "Small",
