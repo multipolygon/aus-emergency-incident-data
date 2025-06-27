@@ -2,6 +2,64 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.9406546894827,
+                            -36.16026931770016
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    146.91469090621973,
+                                    -36.146791937106876
+                                ],
+                                [
+                                    146.94670575302777,
+                                    -36.14228672242089
+                                ],
+                                [
+                                    146.9666184727457,
+                                    -36.1716699229435
+                                ],
+                                [
+                                    146.94069760482904,
+                                    -36.178251912979434
+                                ],
+                                [
+                                    146.93529027145198,
+                                    -36.17250136271941
+                                ],
+                                [
+                                    146.91469090621973,
+                                    -36.146791937106876
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "cbrne",
+                "status": "unknown",
+                "created": "2025-06-27T12:30:55+10:00",
+                "updated": "2025-06-27T12:30:54+10:00",
+                "id": "37726",
+                "location": "Bandiana, Baranduda",
+                "title": "warning: community update"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Morwell - Crinigan Bushland Reserve 2",
@@ -21,6 +79,29 @@
                 "coordinates": [
                     146.4206398,
                     -38.2142766
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Dingee - Ddw - Tang Tang Swamp",
+                "category": "fire",
+                "subcategory": "planned burn",
+                "status": "in progress",
+                "created": "2025-06-27T12:33:47+10:00",
+                "updated": "2025-06-27T12:33:47+10:00",
+                "id": 3022777,
+                "location": "4Km E Of Dingee",
+                "size": "124.04",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.2947716,
+                    -36.3642659
                 ]
             }
         },
@@ -74,45 +155,111 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "complete",
-                "created": "2025-06-27T10:42:00+10:00",
-                "updated": "2025-06-27T11:13:00+10:00",
-                "id": "ESTA:250625531",
-                "location": "Sale",
-                "size": "Small",
-                "title": "incident: rescue"
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2025-06-27T12:55:00+10:00",
+                "updated": "2025-06-27T12:59:00+10:00",
+                "id": "ESTA:250651898",
+                "location": "Moorabbin",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.06035573472167,
-                    -38.0981790449554
+                    145.06451517993145,
+                    -37.942482594881916
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Carrum Downs",
-                "category": "fire",
-                "subcategory": "structure fire",
+                "sourceTitle": "Cochranes Rd",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2025-06-27T11:17:51+10:00",
-                "updated": "2025-06-27T11:17:51+10:00",
-                "id": "ESTA:250625583",
-                "location": "Carrum Downs, Carrum Downs",
+                "created": "2025-06-27T13:02:21+10:00",
+                "updated": "2025-06-27T13:02:21+10:00",
+                "id": "ESTA:250625720",
+                "location": "Cochranes Rd, Moorabbin",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.1691908496493,
-                    -38.1137573128077
+                    145.06451684780077,
+                    -37.94247734518138
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Haddon",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2025-06-27T11:30:45+10:00",
+                "updated": "2025-06-27T12:57:49+10:00",
+                "id": "ESTA:250625620",
+                "location": "Haddon",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.7321583277143,
+                    -37.581337957735975
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maidstone",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-06-27T12:58:39+10:00",
+                "updated": "2025-06-27T12:58:48+10:00",
+                "id": "ESTA:250625724",
+                "location": "Howard St, Maidstone",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.87872761351989,
+                    -37.788939474827906
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wilsons Promontory Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-06-27T13:03:38+10:00",
+                "updated": "2025-06-27T13:03:38+10:00",
+                "id": "ESTA:250625725",
+                "location": "Wilsons Promontory Rd, Wilsons Promontory",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.29849043067182,
+                    -39.01368802331412
                 ]
             }
         },
@@ -69286,12 +69433,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-06-27T12:08:00+10:00",
+                "updated": "2025-06-27T12:10:00+10:00",
+                "id": "ESTA:250625660",
+                "location": "Ararat",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.94734382032144,
+                    -37.279352629329104
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap",
                 "status": "on scene",
                 "created": "2025-06-27T08:19:00+10:00",
-                "updated": "2025-06-27T08:42:00+10:00",
+                "updated": "2025-06-27T12:43:00+10:00",
                 "id": "ESTA:250625317",
                 "location": "Bandiana",
                 "size": "Small",
@@ -69309,60 +69479,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Nepean Hwy",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-06-27T10:19:00+10:00",
-                "updated": "2025-06-27T10:43:00+10:00",
-                "id": "ESTA:250625500",
-                "location": "Nepean Hwy, Mount Eliza",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0940540730333,
-                    -38.19290137840921
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Templeton St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2025-06-27T10:44:00+10:00",
-                "updated": "2025-06-27T10:44:00+10:00",
-                "id": "ESTA:250625539",
-                "location": "Templeton St, Guildford",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.16618352951858,
-                    -37.14870318268174
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mount Cottrell",
+                "sourceTitle": "Howard St",
                 "category": "other",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2025-06-27T11:04:38+10:00",
-                "updated": "2025-06-27T11:04:38+10:00",
-                "id": "ESTA:250625538",
-                "location": "Mount Cottrell, Mount Cottrell",
+                "created": "2025-06-27T13:02:44+10:00",
+                "updated": "2025-06-27T13:02:44+10:00",
+                "id": "ESTA:250625718",
+                "location": "Howard St, Maidstone",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -69370,22 +69494,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.65948762448306,
-                    -37.80094473525835
+                    144.87872182806285,
+                    -37.78894168500845
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Western Ring Rd",
+                "sourceTitle": "Maling Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2025-06-27T10:52:39+10:00",
-                "updated": "2025-06-27T10:52:39+10:00",
-                "id": "ESTA:250625529",
-                "location": "Western Ring Rd, Gladstone Park",
+                "created": "2025-06-27T12:40:12+10:00",
+                "updated": "2025-06-27T12:40:12+10:00",
+                "id": "ESTA:250625690",
+                "location": "Maling Rd, Canterbury",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -69393,22 +69517,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.89849748001703,
-                    -37.69759553869007
+                    145.08210179689132,
+                    -37.8245106253165
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Kew East",
+                "sourceTitle": "Brunswick St",
                 "category": "other",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2025-06-27T11:16:55+10:00",
-                "updated": "2025-06-27T11:16:55+10:00",
-                "id": "ESTA:250625570",
-                "location": "Kew East, Kew East",
+                "created": "2025-06-27T12:53:59+10:00",
+                "updated": "2025-06-27T12:53:59+10:00",
+                "id": "ESTA:250625692",
+                "location": "Brunswick St, Fitzroy",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -69416,8 +69540,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.05887321492125,
-                    -37.79572811783425
+                    144.97868760404057,
+                    -37.79556046795744
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2025-06-27T12:33:00+10:00",
+                "updated": "2025-06-27T12:36:00+10:00",
+                "id": "ESTA:250651895",
+                "location": "Docklands",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95250633452068,
+                    -37.82270466051734
                 ]
             }
         }
