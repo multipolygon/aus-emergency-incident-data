@@ -3733,12 +3733,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Campbells Cove Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-07-06T01:09:12+10:00",
+                "updated": "2025-07-06T01:09:12+10:00",
+                "id": "ESTA:250704411",
+                "location": "Campbells Cove Rd, Werribee South",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.73495716394592,
+                    -37.942833144776394
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Westwood Dr",
                 "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2025-07-06T00:36:00+10:00",
-                "updated": "2025-07-06T00:36:00+10:00",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2025-07-06T01:02:14+10:00",
+                "updated": "2025-07-06T01:02:14+10:00",
                 "id": "ESTA:250704405",
                 "location": "Westwood Dr, California Gully",
                 "size": "Small",
@@ -3748,31 +3771,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.27408112636815,
-                    -36.72328969754483
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Yallourn Dr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2025-07-06T00:42:33+10:00",
-                "updated": "2025-07-06T00:42:33+10:00",
-                "id": "ESTA:250704400",
-                "location": "Yallourn Dr, Yallourn",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.34687281694593,
-                    -38.176523441781676
+                    144.27409176687664,
+                    -36.72328254123955
                 ]
             }
         },
@@ -4074,52 +4074,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Lightwood Rd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2025-07-06T00:04:10+10:00",
-                "updated": "2025-07-06T00:04:10+10:00",
-                "id": "ESTA:250704397",
-                "location": "Lightwood Rd, Noble Park",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.1673221172963,
-                    -37.960559408780846
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-07-05T23:41:00+10:00",
-                "updated": "2025-07-06T00:07:00+10:00",
-                "id": "ESTA:250704390",
-                "location": "Heathcote Junction",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.02690222045183,
-                    -37.39815220557753
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Pembroke St",
                 "category": "fire",
                 "subcategory": "other",
@@ -4143,23 +4097,114 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Charleston Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2025-07-06T00:35:25+10:00",
-                "updated": "2025-07-06T00:35:25+10:00",
-                "id": "ESTA:250704403",
-                "location": "Charleston Rd, Deanside",
+                "sourceTitle": "Yallourn Dr",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2025-07-05T23:57:00+10:00",
+                "updated": "2025-07-06T00:42:00+10:00",
+                "id": "ESTA:250704400",
+                "location": "Yallourn Dr, Yallourn",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.70437242045944,
-                    -37.73207215441058
+                    146.34686582226007,
+                    -38.176528012835384
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lightwood Rd",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2025-07-05T23:51:00+10:00",
+                "updated": "2025-07-06T00:57:00+10:00",
+                "id": "ESTA:250704397",
+                "location": "Lightwood Rd, Noble Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16731174601878,
+                    -37.960566797927115
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Charleston Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2025-07-06T00:24:00+10:00",
+                "updated": "2025-07-06T01:01:00+10:00",
+                "id": "ESTA:250704403",
+                "location": "Charleston Rd, Deanside",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7043694984283,
+                    -37.73207779686337
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brunswick St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2025-07-06T00:52:46+10:00",
+                "updated": "2025-07-06T00:52:46+10:00",
+                "id": "ESTA:250704406",
+                "location": "Brunswick St, Fitzroy",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.97789044479208,
+                    -37.80357030035773
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2025-07-06T00:57:00+10:00",
+                "updated": "2025-07-06T01:02:00+10:00",
+                "id": "ESTA:250750316",
+                "location": "Maryborough",
+                "title": "incident: flooding"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.74622681290418,
+                    -37.06129217514008
                 ]
             }
         }
