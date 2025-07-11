@@ -597,10 +597,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.9826507570001,
-                    -29.944976805999943
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.9826507570001,
+                            -29.944976805999943
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.982247945,
+                                            -29.946431215
+                                        ],
+                                        [
+                                            152.982450199,
+                                            -29.945860145
+                                        ],
+                                        [
+                                            152.982604865,
+                                            -29.945824452
+                                        ],
+                                        [
+                                            152.982807119,
+                                            -29.946002913
+                                        ],
+                                        [
+                                            152.982949886,
+                                            -29.94619327
+                                        ],
+                                        [
+                                            152.982807119,
+                                            -29.9464669079999
+                                        ],
+                                        [
+                                            152.982438303,
+                                            -29.946514496
+                                        ],
+                                        [
+                                            152.982283637,
+                                            -29.946478805
+                                        ],
+                                        [
+                                            152.982247945,
+                                            -29.946431215
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -608,13 +661,13 @@
                 "sourceTitle": "ORARA WAY, KREMNOS",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/610545",
-                "created": "2025-07-11T20:15:00+10:00",
-                "updated": "2025-07-12T06:15:00+10:00",
+                "created": "2025-07-11T20:38:00+10:00",
+                "updated": "2025-07-12T06:38:00+10:00",
                 "location": "ORARA WAY, KREMNOS 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ORARA WAY, KREMNOS 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jul 2025 06:15",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ORARA WAY, KREMNOS 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jul 2025 06:38",
                 "title": "incident: fire"
             }
         },
