@@ -78,14 +78,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ninth St",
+                "sourceTitle": "Calder Hwy",
+                "category": "other",
+                "subcategory": "grass and scrub",
+                "status": "safe",
+                "created": "2025-07-14T19:37:46+10:00",
+                "updated": "2025-07-14T19:37:46+10:00",
+                "id": "ESTA:250711353",
+                "location": "Calder Hwy, Irymple",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.18099202946527,
+                    -34.26174857717317
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Chesterfield Rd",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "safe",
-                "created": "2025-07-14T18:37:00+10:00",
-                "updated": "2025-07-14T19:23:00+10:00",
-                "id": "ESTA:250711376",
-                "location": "Ninth St, Eildon",
+                "status": "under control",
+                "created": "2025-07-14T19:31:00+10:00",
+                "updated": "2025-07-14T19:41:00+10:00",
+                "id": "ESTA:250711390",
+                "location": "Chesterfield Rd, Somerville",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -93,8 +116,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.90431570201386,
-                    -37.23300304949708
+                    145.1813135845768,
+                    -38.23556754432225
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Murphys Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-07-14T19:45:00+10:00",
+                "updated": "2025-07-14T19:45:00+10:00",
+                "id": "ESTA:250711394",
+                "location": "Murphys Rd, Walpeup",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.02758552024008,
+                    -35.13877458109992
                 ]
             }
         },
@@ -419,52 +465,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Calder Hwy",
-                "category": "other",
-                "subcategory": "grass and scrub",
-                "status": "under control",
-                "created": "2025-07-14T18:50:24+10:00",
-                "updated": "2025-07-14T18:50:24+10:00",
-                "id": "ESTA:250711353",
-                "location": "Calder Hwy, Irymple",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.18099202946527,
-                    -34.26174857717317
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beech Av",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-07-14T18:29:00+10:00",
-                "updated": "2025-07-14T18:46:00+10:00",
-                "id": "ESTA:250711374",
-                "location": "Beech Av, Wendouree",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.8450927468232,
-                    -37.53779585472001
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Springvale Rd",
                 "category": "fire",
                 "subcategory": "building fire",
@@ -482,29 +482,6 @@
                 "coordinates": [
                     145.14964353525642,
                     -37.9547839274591
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue confined space",
-                "status": "on scene",
-                "created": "2025-07-14T18:51:00+10:00",
-                "updated": "2025-07-14T19:02:00+10:00",
-                "id": "ESTA:250711380",
-                "location": "North Geelong",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3557730585986,
-                    -38.11178628065289
                 ]
             }
         },
@@ -551,6 +528,52 @@
                 "coordinates": [
                     144.76222443088363,
                     -37.75696331513163
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ninth St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2025-07-14T18:37:00+10:00",
+                "updated": "2025-07-14T19:23:00+10:00",
+                "id": "ESTA:250711376",
+                "location": "Ninth St, Eildon",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.90431570201386,
+                    -37.23300304949708
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue confined space",
+                "status": "on scene",
+                "created": "2025-07-14T18:51:00+10:00",
+                "updated": "2025-07-14T19:02:00+10:00",
+                "id": "ESTA:250711380",
+                "location": "North Geelong",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.3557730585986,
+                    -38.11178628065289
                 ]
             }
         },
