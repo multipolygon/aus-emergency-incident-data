@@ -2,6 +2,82 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.1975079074707,
+                            -37.9921088425537
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.19895630034307,
+                                    -37.988371578815
+                                ],
+                                [
+                                    145.20138101729168,
+                                    -37.988675986212854
+                                ],
+                                [
+                                    145.19955711515576,
+                                    -37.9958461062924
+                                ],
+                                [
+                                    145.1936347976497,
+                                    -37.99283609406346
+                                ],
+                                [
+                                    145.19895630034307,
+                                    -37.988371578815
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2025-07-20T23:26:14+10:00",
+                "updated": "2025-07-20T23:26:15+10:00",
+                "id": "37903",
+                "location": "Dandenong",
+                "title": "warning: advice"
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Campbell Street, Bordertown",
+                "category": "other",
+                "subcategory": "other",
+                "status": "going",
+                "created": "2025-07-20T23:42:00+10:00",
+                "updated": "2025-07-20T23:42:00+10:00",
+                "id": "1652035",
+                "location": "Campbell Street, Bordertown",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.762109996292,
+                    -36.3114435737762
+                ]
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Gadsen Bend - River Track",
@@ -27,58 +103,12 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hume Fwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2025-07-20T23:08:00+10:00",
-                "updated": "2025-07-20T23:08:00+10:00",
-                "id": "ESTA:250716771",
-                "location": "Hume Fwy, Sunday Creek",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.05604705609178,
-                    -37.256705580731
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hume Fwy",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2025-07-20T23:09:00+10:00",
-                "updated": "2025-07-20T23:09:00+10:00",
-                "id": "ESTA:250716772",
-                "location": "Hume Fwy, Broadford",
-                "size": "Small",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.0565875768591,
-                    -37.25673248252051
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue road trap fire",
-                "status": "request for assistance",
+                "status": "on scene",
                 "created": "2025-07-20T23:08:00+10:00",
-                "updated": "2025-07-20T23:14:00+10:00",
+                "updated": "2025-07-20T23:33:00+10:00",
                 "id": "ESTA:250716770",
                 "location": "Broadford",
                 "size": "Small",
@@ -96,23 +126,67 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
+                "sourceTitle": "Kew",
+                "category": "other",
+                "subcategory": "other",
                 "status": "responding",
-                "created": "2025-07-20T23:17:00+10:00",
-                "updated": "2025-07-20T23:17:00+10:00",
-                "id": "ESTA:250716773",
-                "location": "Wonga Park",
-                "size": "Small",
-                "title": "incident: rescue"
+                "created": "2025-07-20T23:37:14+10:00",
+                "updated": "2025-07-20T23:39:54+10:00",
+                "id": "ESTA:250716778",
+                "location": "Kew",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2780963007534,
-                    -37.74221025354135
+                    145.0368231375968,
+                    -37.81469309268986
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "request for assistance",
+                "created": "2025-07-20T23:40:00+10:00",
+                "updated": "2025-07-20T23:42:00+10:00",
+                "id": "ESTA:250751398",
+                "location": "Kew",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03681135793707,
+                    -37.814696119612876
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kew",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-07-20T23:43:47+10:00",
+                "updated": "2025-07-20T23:43:47+10:00",
+                "id": "ESTA:250716777",
+                "location": "Kew, Kew",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.0368206145846,
+                    -37.81469411444308
                 ]
             }
         },
@@ -141,75 +215,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cypress Ct",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "under control",
-                "created": "2025-07-20T22:08:06+10:00",
-                "updated": "2025-07-20T22:08:06+10:00",
-                "id": "ESTA:250716755",
-                "location": "Cypress Ct, Hillside (Greater Melbourne)",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.73292318074337,
-                    -37.69484494624893
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Solar Dr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2025-07-20T22:44:11+10:00",
-                "updated": "2025-07-20T22:44:11+10:00",
-                "id": "ESTA:250716764",
-                "location": "Solar Dr, Whittington",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.40080756017178,
-                    -38.17777229692779
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Short St",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "not yet under control",
-                "created": "2025-07-20T23:03:16+10:00",
-                "updated": "2025-07-20T23:03:16+10:00",
-                "id": "ESTA:250716767",
-                "location": "Short St, Dandenong",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.20001091973552,
-                    -37.98901528838066
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Curtis St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -227,6 +232,143 @@
                 "coordinates": [
                     143.86497281767197,
                     -37.56198603752663
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Solar Dr",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2025-07-20T23:24:38+10:00",
+                "updated": "2025-07-20T23:24:38+10:00",
+                "id": "ESTA:250716764",
+                "location": "Solar Dr, Whittington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.40080756017178,
+                    -38.17777229692779
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-07-20T23:17:00+10:00",
+                "updated": "2025-07-20T23:30:00+10:00",
+                "id": "ESTA:250716773",
+                "location": "Wonga Park",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2780963007534,
+                    -37.74221025354135
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Short St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "created": "2025-07-20T23:31:19+10:00",
+                "updated": "2025-07-20T23:31:19+10:00",
+                "id": "ESTA:250716767",
+                "location": "Short St, Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.20001091973552,
+                    -37.98901528838066
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cypress Ct",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2025-07-20T21:56:00+10:00",
+                "updated": "2025-07-20T23:38:00+10:00",
+                "id": "ESTA:250716755",
+                "location": "Cypress Ct, Hillside (Greater Melbourne)",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.73291774678884,
+                    -37.69484515438787
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Langton St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-07-20T23:41:53+10:00",
+                "updated": "2025-07-20T23:41:53+10:00",
+                "id": "ESTA:250716774",
+                "location": "Langton St, Jacana",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.914345818805,
+                    -37.691733086538804
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue vehicle into structure",
+                "status": "request for assistance",
+                "created": "2025-07-20T23:39:00+10:00",
+                "updated": "2025-07-20T23:42:00+10:00",
+                "id": "ESTA:250751397",
+                "location": "Kew",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03681135793707,
+                    -37.814696119612876
                 ]
             }
         }
