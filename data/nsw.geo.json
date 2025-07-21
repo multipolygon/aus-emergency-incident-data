@@ -250,10 +250,71 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.23097229000007,
-                    -34.89550399799998
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.22966318400006,
+                            -34.895800952999934
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.230361092,
+                                            -34.907526505
+                                        ],
+                                        [
+                                            146.226406335,
+                                            -34.907609823
+                                        ],
+                                        [
+                                            146.224108737,
+                                            -34.907023076
+                                        ],
+                                        [
+                                            146.224390714,
+                                            -34.9046623679999
+                                        ],
+                                        [
+                                            146.225067556,
+                                            -34.901874536
+                                        ],
+                                        [
+                                            146.226567539,
+                                            -34.899342281
+                                        ],
+                                        [
+                                            146.229248086,
+                                            -34.8959581139999
+                                        ],
+                                        [
+                                            146.230200619,
+                                            -34.896321848
+                                        ],
+                                        [
+                                            146.2311263,
+                                            -34.899692159
+                                        ],
+                                        [
+                                            146.233430851,
+                                            -34.904359397
+                                        ],
+                                        [
+                                            146.230361092,
+                                            -34.907526505
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -324,22 +385,70 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.83091735800008,
-                    -31.06086540299998
+                    150.6082153320001,
+                    -34.18018722599993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "BOWLERS LANE, WESTDALE",
+                "sourceTitle": "ARGYLE ST, PICTON",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/612542",
-                "created": "2025-07-21T05:34:00+10:00",
-                "updated": "2025-07-21T15:34:00+10:00",
-                "location": "BOWLERS LANE, WESTDALE 2340",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/612552",
+                "created": "2025-07-21T05:45:00+10:00",
+                "updated": "2025-07-21T15:45:00+10:00",
+                "location": "ARGYLE ST, PICTON 2571",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BOWLERS LANE, WESTDALE 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Jul 2025 15:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ARGYLE ST, PICTON 2571 <br />COUNCIL AREA: Wollondilly <br />STATUS: Responding <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Jul 2025 15:45",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    147.37103271500007,
+                    -35.11494445799997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BAYLIS ST",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/612553",
+                "created": "2025-07-21T05:55:00+10:00",
+                "updated": "2025-07-21T15:55:00+10:00",
+                "location": "WAGGA WAGGA MARKETPLACE 87 BAYLIS ST, WAGGA WAGGA 2650",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WAGGA WAGGA MARKETPLACE 87 BAYLIS ST, WAGGA WAGGA 2650 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Responding <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 21 Jul 2025 15:55",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.20796203600003,
+                    -33.47932815499996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CHIFLEY RD, CLARENCE",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/612554",
+                "created": "2025-07-21T05:55:00+10:00",
+                "updated": "2025-07-21T15:55:00+10:00",
+                "location": "CHIFLEY RD, CLARENCE 2790",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CHIFLEY RD, CLARENCE 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Responding <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jul 2025 15:55",
                 "title": "incident: other"
             }
         },
@@ -372,30 +481,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.04728698700012,
-                    -35.158611296999936
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "ENDEAVOUR DR, MOULAMEIN",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/612548",
-                "created": "2025-07-21T05:19:00+10:00",
-                "updated": "2025-07-21T15:19:00+10:00",
-                "location": "ENDEAVOUR DR, MOULAMEIN 2733",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ENDEAVOUR DR, MOULAMEIN 2733 <br />COUNCIL AREA: Murray River <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jul 2025 15:19",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     150.85508728000002,
                     -33.84347915699993
                 ]
@@ -420,6 +505,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.1621093750001,
+                    -33.64540100099998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "KURING GAI TRK, MOUNT KURING GAI",
+                "category": "other",
+                "subcategory": "assist other agency",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/612550",
+                "created": "2025-07-21T05:33:00+10:00",
+                "updated": "2025-07-21T15:33:00+10:00",
+                "location": "KURING GAI TRK, MOUNT KURING GAI 2080",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: KURING GAI TRK, MOUNT KURING GAI 2080 <br />COUNCIL AREA: Hornsby <br />STATUS: Responding <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jul 2025 15:33",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     149.6040039070001,
                     -36.880798339999956
                 ]
@@ -436,6 +545,30 @@
                 "location": "MOUNT DARRAGH RD, WYNDHAM 2550",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MOUNT DARRAGH RD, WYNDHAM 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jul 2025 11:14",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.31105041500007,
+                    -32.35461425799997
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NEWMANS RD, TOPI TOPI",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/612551",
+                "created": "2025-07-21T05:36:00+10:00",
+                "updated": "2025-07-21T15:36:00+10:00",
+                "location": "NEWMANS RD, TOPI TOPI 2423",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NEWMANS RD, TOPI TOPI 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Responding <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 21 Jul 2025 15:36",
                 "title": "incident: other"
             }
         },
