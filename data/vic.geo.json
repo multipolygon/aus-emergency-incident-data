@@ -2,6 +2,96 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.9789559171261,
+                            -37.86698604374742
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.9802212444344,
+                                    -37.86821839920475
+                                ],
+                                [
+                                    144.9807896195514,
+                                    -37.86762266648446
+                                ],
+                                [
+                                    144.9809534467572,
+                                    -37.8668881565846
+                                ],
+                                [
+                                    144.98067701385867,
+                                    -37.86617498145099
+                                ],
+                                [
+                                    144.9800205796207,
+                                    -37.86563860662457
+                                ],
+                                [
+                                    144.97912723814173,
+                                    -37.865395959582806
+                                ],
+                                [
+                                    144.97849534844937,
+                                    -37.865426591436574
+                                ],
+                                [
+                                    144.9776463237804,
+                                    -37.86575370199239
+                                ],
+                                [
+                                    144.9770779486634,
+                                    -37.86634944982267
+                                ],
+                                [
+                                    144.97695838749496,
+                                    -37.867332177818476
+                                ],
+                                [
+                                    144.97759336069117,
+                                    -37.86818268976578
+                                ],
+                                [
+                                    144.97874033007307,
+                                    -37.86857612791203
+                                ],
+                                [
+                                    144.97967584200725,
+                                    -37.86847215468784
+                                ],
+                                [
+                                    144.9802212444344,
+                                    -37.86821839920475
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2025-08-08T01:36:27+10:00",
+                "updated": "2025-08-08T01:36:31+10:00",
+                "id": "37970",
+                "location": "St Kilda",
+                "title": "warning: advice"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Gellibrand - Boggy Creek Track",
@@ -50,6 +140,29 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Cremorne St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2025-08-08T01:32:01+10:00",
+                "updated": "2025-08-08T01:32:01+10:00",
+                "id": "ESTA:250807758",
+                "location": "Cremorne St, Cremorne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.99032145372703,
+                    -37.830782241254845
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Connor St",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -73,22 +186,92 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Cremorne",
+                "sourceTitle": "Queen St",
                 "category": "fire",
-                "subcategory": "structure fire",
+                "subcategory": "building fire",
                 "status": "responding",
-                "created": "2025-08-08T01:18:01+10:00",
-                "updated": "2025-08-08T01:19:00+10:00",
-                "id": "ESTA:250807758",
-                "location": "Cremorne St, Cremorne",
+                "created": "2025-08-08T01:40:00+10:00",
+                "updated": "2025-08-08T01:40:00+10:00",
+                "id": "ESTA:250807763",
+                "location": "Queen St, Warragul",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.99071681321547,
-                    -37.82987474154434
+                    145.95105658730802,
+                    -38.167332734737265
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Nepean Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2025-08-08T01:41:00+10:00",
+                "updated": "2025-08-08T01:41:00+10:00",
+                "id": "ESTA:250807764",
+                "location": "Nepean Hwy, Aspendale",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.10186398708854,
+                    -38.02769319976176
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Forum Way",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2025-08-08T01:42:00+10:00",
+                "updated": "2025-08-08T01:42:00+10:00",
+                "id": "ESTA:250807765",
+                "location": "Forum Way, Epping",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.00643236424037,
+                    -37.62226727191264
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Harold Rd",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-08-08T01:43:48+10:00",
+                "updated": "2025-08-08T01:43:48+10:00",
+                "id": "ESTA:250807766",
+                "location": "Harold Rd, Noble Park",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16291883890122,
+                    -37.976602260987846
                 ]
             }
         },
