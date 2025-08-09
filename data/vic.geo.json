@@ -2,6 +2,60 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            142.0190457394859,
+                            -36.44445554551933
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    141.99956217319985,
+                                    -36.434168720550716
+                                ],
+                                [
+                                    142.01758661777805,
+                                    -36.46005972615973
+                                ],
+                                [
+                                    142.03852930577196,
+                                    -36.451706505915965
+                                ],
+                                [
+                                    142.0206765225611,
+                                    -36.428851364878945
+                                ],
+                                [
+                                    141.99956217319985,
+                                    -36.434168720550716
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2025-08-10T07:59:27+10:00",
+                "updated": "2025-08-10T07:59:27+10:00",
+                "id": "37975",
+                "location": "Dimboola",
+                "title": "warning: community update"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Carlisle River - Pipeline Road",
@@ -29,12 +83,12 @@
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "rescue road trap fire",
+                "subcategory": "rescue road trap",
                 "status": "request for assistance",
-                "created": "2025-08-10T07:22:30+10:00",
-                "updated": "2025-08-10T07:46:51+10:00",
-                "id": "ESTA:250811324",
-                "location": "Dimboola",
+                "created": "2025-08-10T08:02:53+10:00",
+                "updated": "2025-08-10T08:11:43+10:00",
+                "id": "ESTA:250811381",
+                "location": "Carrajung Lower",
                 "size": "Small",
                 "title": "incident: rescue"
             },
@@ -42,22 +96,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.0210104748987,
-                    -36.43642101780505
+                    146.7205463845034,
+                    -38.356656914136295
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Elizabeth St",
+                "sourceTitle": "Arthur St",
                 "category": "fire",
-                "subcategory": "other",
+                "subcategory": "structure fire",
                 "status": "responding",
-                "created": "2025-08-10T07:39:00+10:00",
-                "updated": "2025-08-10T07:39:00+10:00",
-                "id": "ESTA:250811347",
-                "location": "Elizabeth St, Castlemaine",
+                "created": "2025-08-10T08:14:56+10:00",
+                "updated": "2025-08-10T08:14:56+10:00",
+                "id": "ESTA:250811386",
+                "location": "Arthur St, Fairfield",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -65,96 +119,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.20380927951518,
-                    -37.071838859016275
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2025-08-10T07:30:27+10:00",
-                "updated": "2025-08-10T07:42:07+10:00",
-                "id": "ESTA:250850335",
-                "location": "Narbethong",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.68009164395139,
-                    -37.51445236066027
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dimboola",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2025-08-10T07:27:26+10:00",
-                "updated": "2025-08-10T07:43:59+10:00",
-                "id": "ESTA:250811332",
-                "location": "Dimboola",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.01526918917563,
-                    -36.43506641998492
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Dimboola",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2025-08-10T07:31:31+10:00",
-                "updated": "2025-08-10T07:44:02+10:00",
-                "id": "ESTA:250811344",
-                "location": "Dimboola",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.01557381380755,
-                    -36.435220691959955
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Endeavour Hills",
-                "category": "other",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2025-08-10T07:48:29+10:00",
-                "updated": "2025-08-10T07:48:35+10:00",
-                "id": "ESTA:250811355",
-                "location": "Essex Park Dr, Endeavour Hills",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.24299405341714,
-                    -37.9667209170326
+                    145.02062407366293,
+                    -37.76972845953961
                 ]
             }
         },
@@ -295,29 +261,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-08-10T07:31:00+10:00",
-                "updated": "2025-08-10T07:35:00+10:00",
-                "id": "ESTA:250811337",
-                "location": "Narbethong",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.68009164395139,
-                    -37.51445236066027
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Paterson Rd",
                 "category": "fire",
                 "subcategory": "structure fire",
@@ -341,29 +284,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Violets Walk",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2025-08-10T06:41:00+10:00",
-                "updated": "2025-08-10T06:52:00+10:00",
-                "id": "ESTA:250811307",
-                "location": "Violets Walk, Rowville",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.22904324346726,
-                    -37.91580403478887
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Cemetery Rd",
                 "category": "other",
                 "subcategory": "other",
@@ -381,6 +301,120 @@
                 "coordinates": [
                     142.0221071085305,
                     -36.44177547202581
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-08-10T07:31:00+10:00",
+                "updated": "2025-08-10T07:35:00+10:00",
+                "id": "ESTA:250811337",
+                "location": "Narbethong",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.68009164395139,
+                    -37.51445236066027
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Elizabeth St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "under control",
+                "created": "2025-08-10T07:39:00+10:00",
+                "updated": "2025-08-10T07:55:00+10:00",
+                "id": "ESTA:250811347",
+                "location": "Elizabeth St, Castlemaine",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.20380927951518,
+                    -37.071838859016275
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap fire",
+                "status": "on scene",
+                "created": "2025-08-10T07:22:30+10:00",
+                "updated": "2025-08-10T08:10:05+10:00",
+                "id": "ESTA:250811324",
+                "location": "Dimboola",
+                "size": "Medium",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.0210104748987,
+                    -36.43642101780505
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Essex Park Dr",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-08-10T08:05:09+10:00",
+                "updated": "2025-08-10T08:05:09+10:00",
+                "id": "ESTA:250811355",
+                "location": "Essex Park Dr, Endeavour Hills",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.2429921312137,
+                    -37.96672792548148
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2025-08-10T07:53:25+10:00",
+                "updated": "2025-08-10T07:55:03+10:00",
+                "id": "ESTA:250850336",
+                "location": "Mount Martha",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03128744576537,
+                    -38.2678935923611
                 ]
             }
         }
