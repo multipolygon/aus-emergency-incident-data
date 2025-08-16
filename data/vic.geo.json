@@ -2,6 +2,64 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.2526910325583,
+                            -36.72950176073563
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.24616790023506,
+                                    -36.727489809681664
+                                ],
+                                [
+                                    144.25657487121475,
+                                    -36.72398132034362
+                                ],
+                                [
+                                    144.25921416488154,
+                                    -36.72523682759196
+                                ],
+                                [
+                                    144.25818419662355,
+                                    -36.73424835935424
+                                ],
+                                [
+                                    144.25303435531546,
+                                    -36.73502220112765
+                                ],
+                                [
+                                    144.24616790023506,
+                                    -36.727489809681664
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2025-08-16T21:07:29+10:00",
+                "updated": "2025-08-16T21:07:29+10:00",
+                "id": "37985",
+                "location": "California Gully, Eaglehawk",
+                "title": "warning: advice"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Dukes Highway, Pine Hill",
@@ -72,14 +130,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Innovation Dr",
+                "sourceTitle": "Moreland St",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2025-08-16T20:34:00+10:00",
-                "updated": "2025-08-16T20:34:00+10:00",
-                "id": "ESTA:250818166",
-                "location": "Innovation Dr, Mickleham",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2025-08-16T21:05:10+10:00",
+                "updated": "2025-08-16T21:05:10+10:00",
+                "id": "ESTA:250818173",
+                "location": "Moreland St, Footscray",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -87,8 +145,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.94344016345124,
-                    -37.53489544433347
+                    144.90583737659878,
+                    -37.804463427022014
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mt Doran-Egerton Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-08-16T19:42:00+10:00",
+                "updated": "2025-08-16T20:15:00+10:00",
+                "id": "ESTA:250818142",
+                "location": "Mt Doran-Egerton Rd, Mount Doran",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.02361868758848,
+                    -37.7233148835682
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "La Trobe St",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2025-08-16T21:09:47+10:00",
+                "updated": "2025-08-16T21:09:47+10:00",
+                "id": "ESTA:250818171",
+                "location": "La Trobe St, Melbourne",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9604558750994,
+                    -37.81037743417038
                 ]
             }
         },
@@ -98,9 +202,9 @@
                 "sourceTitle": "Murdock St",
                 "category": "other",
                 "subcategory": "grass and scrub",
-                "status": "responding",
-                "created": "2025-08-16T20:40:51+10:00",
-                "updated": "2025-08-16T20:40:51+10:00",
+                "status": "safe",
+                "created": "2025-08-16T21:11:41+10:00",
+                "updated": "2025-08-16T21:11:41+10:00",
                 "id": "ESTA:250818164",
                 "location": "Murdock St, California Gully",
                 "size": "Small",
@@ -112,6 +216,29 @@
                 "coordinates": [
                     144.25557708946434,
                     -36.72984591108149
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Jassa St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2025-08-16T21:05:05+10:00",
+                "updated": "2025-08-16T21:05:05+10:00",
+                "id": "ESTA:250818175",
+                "location": "Jassa St, Bentleigh East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.07694206698596,
+                    -37.91093642004407
                 ]
             }
         },
@@ -551,121 +678,6 @@
                             -39.2291
                         ]
                     ]
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Patriot Bvd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2025-08-16T19:52:35+10:00",
-                "updated": "2025-08-16T19:52:35+10:00",
-                "id": "ESTA:250818016",
-                "location": "Patriot Bvd, Clyde North",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.34188681907807,
-                    -38.087040008095045
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Great Alpine Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-08-16T19:55:00+10:00",
-                "updated": "2025-08-16T20:05:00+10:00",
-                "id": "ESTA:250818149",
-                "location": "Great Alpine Rd, Hotham Heights",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.14258922784097,
-                    -36.98213454976405
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Barwon Heads Rd",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "safe",
-                "created": "2025-08-16T19:54:00+10:00",
-                "updated": "2025-08-16T20:05:00+10:00",
-                "id": "ESTA:250818148",
-                "location": "Barwon Heads Rd, Armstrong Creek",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.3734382100855,
-                    -38.23192172345713
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Grubb Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-08-16T19:48:00+10:00",
-                "updated": "2025-08-16T20:06:00+10:00",
-                "id": "ESTA:250818144",
-                "location": "Grubb Rd, Ocean Grove",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.53794206203526,
-                    -38.24588817230774
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mt Doran-Egerton Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-08-16T19:42:00+10:00",
-                "updated": "2025-08-16T20:15:00+10:00",
-                "id": "ESTA:250818142",
-                "location": "Mt Doran-Egerton Rd, Mount Doran",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.02361868758848,
-                    -37.7233148835682
                 ]
             }
         },
