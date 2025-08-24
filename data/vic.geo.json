@@ -2,25 +2,57 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Thomas Drive, Mount Burr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "going",
-                "created": "2025-08-24T13:29:00+10:00",
-                "updated": "2025-08-24T13:29:00+10:00",
-                "id": "1657184",
-                "location": "Thomas Drive, Mount Burr",
-                "title": "incident: other"
-            },
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    140.457241646887,
-                    -37.5422776653362
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.1319370115027,
+                            -37.181954088814265
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.1205215299359,
+                                    -37.189920887973656
+                                ],
+                                [
+                                    145.12858961465963,
+                                    -37.19142514144612
+                                ],
+                                [
+                                    145.1433524930695,
+                                    -37.17733868557461
+                                ],
+                                [
+                                    145.12258146646093,
+                                    -37.172483036182406
+                                ],
+                                [
+                                    145.1205215299359,
+                                    -37.189920887973656
+                                ]
+                            ]
+                        ]
+                    }
                 ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Advice",
+                "category": "advice",
+                "subcategory": "fire",
+                "status": "minor",
+                "created": "2025-08-24T14:36:55+10:00",
+                "updated": "2025-08-24T14:36:55+10:00",
+                "id": "37995",
+                "location": "Broadford, Tallarook",
+                "title": "warning: advice"
             }
         },
         {
@@ -164,23 +196,112 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap",
-                "status": "complete",
-                "created": "2025-08-24T13:16:15+10:00",
-                "updated": "2025-08-24T14:13:12+10:00",
-                "id": "ESTA:250827652",
-                "location": "Point Lonsdale",
+                "sourceTitle": "Anchorage Dr",
+                "category": "other",
+                "subcategory": "grass and scrub",
+                "status": "safe",
+                "created": "2025-08-24T14:37:05+10:00",
+                "updated": "2025-08-24T14:37:05+10:00",
+                "id": "ESTA:250827778",
+                "location": "Anchorage Dr, Blind Bight",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.6149991133942,
-                    -38.27726958690783
+                    145.33936105152122,
+                    -38.21697015067223
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Kilsyth",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "safe",
+                "created": "2025-08-24T13:15:12+10:00",
+                "updated": "2025-08-24T14:42:04+10:00",
+                "id": "ESTA:250827650",
+                "location": "Gladesville Dr, Kilsyth",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3282945467337,
+                    -37.809547575071214
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Altona Meadows",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2025-08-24T14:41:47+10:00",
+                "updated": "2025-08-24T14:44:16+10:00",
+                "id": "ESTA:250827823",
+                "location": "Central Av, Altona Meadows",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.7760593151389,
+                    -37.87166819729542
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cemetery Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-08-24T14:42:00+10:00",
+                "updated": "2025-08-24T14:44:00+10:00",
+                "id": "ESTA:250827815",
+                "location": "Cemetery Rd, Mooroopna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.34942236169596,
+                    -36.362490331404096
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2025-08-24T14:05:42+10:00",
+                "updated": "2025-08-24T14:35:58+10:00",
+                "id": "ESTA:250850929",
+                "location": "Kilmore East",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9743826648326,
+                    -37.28861926601921
                 ]
             }
         },
@@ -693,46 +814,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Malmsbury-Daylesford Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
+                "sourceTitle": "Jordan Rd",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "safe",
-                "created": "2025-08-24T12:04:00+10:00",
-                "updated": "2025-08-24T13:25:00+10:00",
-                "id": "ESTA:250827495",
-                "location": "Malmsbury-Daylesford Rd, Wheatsheaf",
+                "created": "2025-08-24T13:16:00+10:00",
+                "updated": "2025-08-24T13:45:00+10:00",
+                "id": "ESTA:250827652",
+                "location": "Jordan Rd, Point Lonsdale",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.21628986372954,
-                    -37.31715745477102
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Gladesville Dr",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2025-08-24T13:43:09+10:00",
-                "updated": "2025-08-24T13:43:09+10:00",
-                "id": "ESTA:250827650",
-                "location": "Gladesville Dr, Kilsyth",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.32828599252937,
-                    -37.80955645530393
+                    144.6149991133942,
+                    -38.27726958690783
                 ]
             }
         },
@@ -779,29 +877,6 @@
                 "coordinates": [
                     142.0177494444569,
                     -37.758588077015816
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Myaring-Pieracle Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "created": "2025-08-24T13:55:00+10:00",
-                "updated": "2025-08-24T13:55:00+10:00",
-                "id": "ESTA:250827728",
-                "location": "Myaring-Pieracle Rd, Strathdownie",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.2226151164498,
-                    -37.769658662218596
                 ]
             }
         },
@@ -858,8 +933,8 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2025-08-24T13:59:23+10:00",
-                "updated": "2025-08-24T13:59:23+10:00",
+                "created": "2025-08-24T13:36:00+10:00",
+                "updated": "2025-08-24T13:59:00+10:00",
                 "id": "ESTA:250827692",
                 "location": "Kuwarrk Lane, Torquay",
                 "size": "Small",
@@ -869,8 +944,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.32399928247295,
-                    -38.306141354621865
+                    144.32399379958915,
+                    -38.30614719898351
                 ]
             }
         },
@@ -880,9 +955,9 @@
                 "sourceTitle": "Undefined",
                 "category": "rescue",
                 "subcategory": "rescue persons trapped",
-                "status": "request for assistance",
+                "status": "complete",
                 "created": "2025-08-24T14:17:17+10:00",
-                "updated": "2025-08-24T14:19:59+10:00",
+                "updated": "2025-08-24T14:34:02+10:00",
                 "id": "ESTA:250827768",
                 "location": "Sunbury",
                 "size": "Small",
@@ -900,23 +975,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Magnolia Walk",
-                "category": "other",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2025-08-24T13:25:25+10:00",
-                "updated": "2025-08-24T13:25:25+10:00",
-                "id": "ESTA:250827640",
-                "location": "Magnolia Walk, Burwood",
+                "sourceTitle": "Toorak Rd",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "responding",
+                "created": "2025-08-24T14:42:51+10:00",
+                "updated": "2025-08-24T14:42:51+10:00",
+                "id": "ESTA:250827804",
+                "location": "Toorak Rd, South Yarra",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.0948203678764,
-                    -37.858027252062136
+                    144.99269482647784,
+                    -37.83930583453074
                 ]
             }
         },
@@ -939,50 +1014,6 @@
                 "coordinates": [
                     144.63610921518398,
                     -37.62496077284416
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2025-08-24T14:05:42+10:00",
-                "updated": "2025-08-24T14:07:28+10:00",
-                "id": "ESTA:250850929",
-                "location": "Kilmore East",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.9743826648326,
-                    -37.28861926601921
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue persons trapped",
-                "status": "complete",
-                "created": "2025-08-24T14:17:17+10:00",
-                "updated": "2025-08-24T14:21:12+10:00",
-                "id": "ESTA:250850930",
-                "location": "Sunbury",
-                "title": "incident: rescue"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.7280962573532,
-                    -37.561334821358614
                 ]
             }
         }
