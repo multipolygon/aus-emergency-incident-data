@@ -178,29 +178,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-09-19T19:06:00+10:00",
-                "updated": "2025-09-19T19:09:00+10:00",
-                "id": "ESTA:250917960",
-                "location": "Vaughan",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.20994652480476,
-                    -37.16353853342712
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Station St",
                 "category": "fire",
                 "subcategory": "other",
@@ -226,10 +203,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Reservoir",
                 "category": "fire",
-                "subcategory": "fire",
-                "status": "responding",
-                "created": "2025-09-19T19:32:16+10:00",
-                "updated": "2025-09-19T19:32:16+10:00",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2025-09-19T19:42:54+10:00",
+                "updated": "2025-09-19T19:42:54+10:00",
                 "id": "ESTA:250917972",
                 "location": "Reservoir, Reservoir",
                 "size": "Small",
@@ -247,12 +224,35 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-09-19T19:46:00+10:00",
+                "updated": "2025-09-19T19:46:00+10:00",
+                "id": "ESTA:250917982",
+                "location": "Faraday",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.29087960618335,
+                    -37.045817082089044
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Louisa St",
                 "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2025-09-19T19:33:58+10:00",
-                "updated": "2025-09-19T19:33:58+10:00",
+                "subcategory": "non structure fire",
+                "status": "under control",
+                "created": "2025-09-19T19:48:02+10:00",
+                "updated": "2025-09-19T19:48:02+10:00",
                 "id": "ESTA:250917975",
                 "location": "Louisa St, Coburg",
                 "size": "Small",
@@ -270,23 +270,89 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ormond Bvd",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "responding",
-                "created": "2025-09-19T19:36:56+10:00",
-                "updated": "2025-09-19T19:36:56+10:00",
-                "id": "ESTA:250917976",
-                "location": "Ormond Bvd, Bundoora",
+                "sourceTitle": "Red Gum Trk",
+                "category": "other",
+                "subcategory": "grass and scrub",
+                "status": "safe",
+                "created": "2025-09-19T18:55:57+10:00",
+                "updated": "2025-09-19T18:55:57+10:00",
+                "id": "ESTA:250917935",
+                "location": "Red Gum Trk, Merbein",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.07408913424538,
-                    -37.6808200660628
+                    142.07430832236557,
+                    -34.15556740839153
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Oak Park",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "responding",
+                "created": "2025-09-19T19:48:35+10:00",
+                "updated": "2025-09-19T19:48:44+10:00",
+                "id": "ESTA:250952784",
+                "location": "Plumpton Av, Oak Park",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9235392351521,
+                    -37.71281965044401
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2025-09-19T19:45:35+10:00",
+                "updated": "2025-09-19T19:45:35+10:00",
+                "id": "ESTA:250952783",
+                "location": "Oak Park",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9235222401268,
+                    -37.71283027815331
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Brunswick",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-09-19T19:42:36+10:00",
+                "updated": "2025-09-19T19:49:10+10:00",
+                "id": "ESTA:250917984",
+                "location": "Gray St, Brunswick",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.95262648483876,
+                    -37.774308967843936
                 ]
             }
         },
@@ -8500,98 +8566,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "William St",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-09-19T17:59:00+10:00",
-                "updated": "2025-09-19T18:43:00+10:00",
-                "id": "ESTA:250917901",
-                "location": "William St, Wallan",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.98388848676055,
-                    -37.407321887338966
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mentiplay St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-09-19T18:34:00+10:00",
-                "updated": "2025-09-19T18:46:00+10:00",
-                "id": "ESTA:250917937",
-                "location": "Mentiplay St, Crib Point",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2019039666315,
-                    -38.354520053170766
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-09-19T18:20:00+10:00",
-                "updated": "2025-09-19T18:47:00+10:00",
-                "id": "ESTA:250917925",
-                "location": "Somerville",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2148965261424,
-                    -38.23866056314649
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-09-19T18:45:00+10:00",
-                "updated": "2025-09-19T18:48:00+10:00",
-                "id": "ESTA:250917945",
-                "location": "Vaughan",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.21043093562488,
-                    -37.16322554020897
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Duncan Ct",
                 "category": "fire",
                 "subcategory": "non structure fire",
@@ -8638,14 +8612,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Red Gum Trk",
+                "sourceTitle": "Untitled",
                 "category": "other",
-                "subcategory": "grass and scrub",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2025-09-19T18:55:57+10:00",
-                "updated": "2025-09-19T18:55:57+10:00",
-                "id": "ESTA:250917935",
-                "location": "Red Gum Trk, Merbein",
+                "created": "2025-09-19T19:06:00+10:00",
+                "updated": "2025-09-19T19:09:00+10:00",
+                "id": "ESTA:250917960",
+                "location": "Vaughan",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -8653,8 +8627,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.07430832236557,
-                    -34.15556740839153
+                    144.20994652480476,
+                    -37.16353853342712
                 ]
             }
         },
@@ -8688,8 +8662,8 @@
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2025-09-19T19:23:11+10:00",
-                "updated": "2025-09-19T19:23:11+10:00",
+                "created": "2025-09-19T19:04:00+10:00",
+                "updated": "2025-09-19T19:23:00+10:00",
                 "id": "ESTA:250917959",
                 "location": "Toyon Rd, Kalkallo",
                 "size": "Small",
@@ -8699,8 +8673,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.96204815599114,
-                    -37.534493228116034
+                    144.96204463743885,
+                    -37.53449713458071
                 ]
             }
         },
@@ -8753,14 +8727,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Midland Hwy",
+                "sourceTitle": "Ormond Bvd",
                 "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "safe",
-                "created": "2025-09-19T19:20:19+10:00",
-                "updated": "2025-09-19T19:20:19+10:00",
-                "id": "ESTA:250917962",
-                "location": "Midland Hwy, Epsom",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-09-19T19:36:56+10:00",
+                "updated": "2025-09-19T19:36:56+10:00",
+                "id": "ESTA:250917976",
+                "location": "Ormond Bvd, Bundoora",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -8768,8 +8742,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.31495311870242,
-                    -36.70992607226909
+                    145.07408913424538,
+                    -37.6808200660628
                 ]
             }
         },
