@@ -154,69 +154,68 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Hutchinson St",
-                "category": "rescue",
-                "subcategory": "rescue",
-                "status": "safe",
-                "created": "2025-10-09T14:22:00+11:00",
-                "updated": "2025-10-09T14:33:00+11:00",
-                "id": "ESTA:251009785",
-                "location": "Hutchinson St, Lilydale",
-                "size": "Small",
-                "title": "incident: rescue"
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2025-10-09T13:36:20+11:00",
+                "updated": "2025-10-09T15:09:08+11:00",
+                "id": "ESTA:251050559",
+                "location": "St Leonards",
+                "title": "incident: building damage"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.34870879464717,
-                    -37.76012805694603
+                    144.71138411724024,
+                    -38.18362124995908
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Queen St",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2025-10-09T14:33:00+11:00",
-                "updated": "2025-10-09T14:37:00+11:00",
-                "id": "ESTA:251009790",
-                "location": "Queen St, Wallan",
+                "sourceTitle": "Dudley St",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "responding",
+                "created": "2025-10-09T15:17:31+11:00",
+                "updated": "2025-10-09T15:17:31+11:00",
+                "id": "ESTA:251009826",
+                "location": "Dudley St, West Melbourne",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.98128059012046,
-                    -37.41314439465973
+                    144.95264335170512,
+                    -37.808932995536914
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Harkness Rd",
-                "category": "rescue",
-                "subcategory": "rescue",
+                "sourceTitle": "High St",
+                "category": "fire",
+                "subcategory": "non structure fire",
                 "status": "safe",
-                "created": "2025-10-09T14:22:00+11:00",
-                "updated": "2025-10-09T14:43:00+11:00",
-                "id": "ESTA:251009784",
-                "location": "Harkness Rd, Maddingley",
+                "created": "2025-10-09T15:19:03+11:00",
+                "updated": "2025-10-09T15:19:03+11:00",
+                "id": "ESTA:251009822",
+                "location": "High St, Laverton",
                 "size": "Small",
-                "title": "incident: rescue"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.40541261394173,
-                    -37.686206856253854
+                    144.77412280910818,
+                    -37.86455559141586
                 ]
             }
         },
@@ -8005,6 +8004,7 @@
             }
         },
         {
+            "type": "Feature",
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Quambies Rd Millewa",
@@ -8017,12 +8017,39 @@
                 "location": "Millewa Murray Valley National Park Quambies Rd, Bullatale 2710",
                 "title": "incident: fire"
             },
-            "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.040985107,
-                    -35.761837006
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    145.0406,
+                                    -35.7628
+                                ],
+                                [
+                                    145.0404,
+                                    -35.7628
+                                ],
+                                [
+                                    145.0405,
+                                    -35.7626
+                                ],
+                                [
+                                    145.0406,
+                                    -35.7628
+                                ]
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.040508696,
+                            -35.7627646779999
+                        ]
+                    }
                 ]
             }
         },
@@ -12193,52 +12220,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Station St",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-10-09T13:57:58+11:00",
-                "updated": "2025-10-09T13:57:58+11:00",
-                "id": "ESTA:251009757",
-                "location": "Station St, Aspendale",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.09900111543323,
-                    -38.02174540377353
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mckillops Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-10-09T13:57:00+11:00",
-                "updated": "2025-10-09T14:18:00+11:00",
-                "id": "ESTA:251009763",
-                "location": "Mckillops Rd, Wulgulmerang",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.32676299974148,
-                    -37.07436269063054
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Mittons Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -12285,46 +12266,161 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Park Cr",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2025-10-09T14:44:00+11:00",
-                "updated": "2025-10-09T14:44:00+11:00",
-                "id": "ESTA:251009798",
-                "location": "Park Cr, Boronia",
+                "sourceTitle": "Hutchinson St",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2025-10-09T14:22:00+11:00",
+                "updated": "2025-10-09T14:33:00+11:00",
+                "id": "ESTA:251009785",
+                "location": "Hutchinson St, Lilydale",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.284968914842,
-                    -37.86420033049714
+                    145.34870879464717,
+                    -37.76012805694603
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sputnik Ct",
-                "category": "fire",
-                "subcategory": "non structure fire",
+                "sourceTitle": "Queen St",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
                 "status": "safe",
-                "created": "2025-10-09T14:30:43+11:00",
-                "updated": "2025-10-09T14:30:43+11:00",
-                "id": "ESTA:251009775",
-                "location": "Sputnik Ct, Whittington",
+                "created": "2025-10-09T14:33:00+11:00",
+                "updated": "2025-10-09T14:37:00+11:00",
+                "id": "ESTA:251009790",
+                "location": "Queen St, Wallan",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3963910174244,
-                    -38.17918265109836
+                    144.98128059012046,
+                    -37.41314439465973
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Harkness Rd",
+                "category": "rescue",
+                "subcategory": "rescue",
+                "status": "safe",
+                "created": "2025-10-09T14:22:00+11:00",
+                "updated": "2025-10-09T14:43:00+11:00",
+                "id": "ESTA:251009784",
+                "location": "Harkness Rd, Maddingley",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.40541261394173,
+                    -37.686206856253854
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Rifle Range Rd",
+                "category": "other",
+                "subcategory": "grass and scrub",
+                "status": "responding",
+                "created": "2025-10-09T14:58:17+11:00",
+                "updated": "2025-10-09T14:58:17+11:00",
+                "id": "ESTA:251009812",
+                "location": "Rifle Range Rd, Glengarry North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.52352156812208,
+                    -38.09398112838926
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Pincini St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-10-09T14:56:00+11:00",
+                "updated": "2025-10-09T14:56:00+11:00",
+                "id": "ESTA:251009813",
+                "location": "Pincini St, Mirboo North",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.1547499117602,
+                    -38.39942737796424
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Evans St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-10-09T14:59:00+11:00",
+                "updated": "2025-10-09T14:59:00+11:00",
+                "id": "ESTA:251009816",
+                "location": "Evans St, Safety Beach",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.9976395442406,
+                    -38.30775712056819
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Ormond",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-10-09T15:09:19+11:00",
+                "updated": "2025-10-09T15:09:19+11:00",
+                "id": "ESTA:251009809",
+                "location": "Ormond, Ormond",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03669338570538,
+                    -37.903468406795135
                 ]
             }
         },
@@ -12354,22 +12450,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "rescue",
-                "subcategory": "rescue road trap fire",
-                "status": "on scene",
-                "created": "2025-10-09T06:38:00+11:00",
-                "updated": "2025-10-09T12:18:00+11:00",
-                "id": "ESTA:251009311",
-                "location": "Wildwood",
-                "title": "incident: rescue"
+                "sourceTitle": "Mawson Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-10-09T15:12:40+11:00",
+                "updated": "2025-10-09T15:12:40+11:00",
+                "id": "ESTA:251009818",
+                "location": "Mawson Av, Deer Park",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.79564971448954,
-                    -37.550062558017714
+                    144.774061043186,
+                    -37.756110140327095
                 ]
             }
         },
@@ -12377,21 +12474,43 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
+                "category": "tree down",
+                "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2025-10-09T13:36:20+11:00",
-                "updated": "2025-10-09T13:52:08+11:00",
-                "id": "ESTA:251050559",
-                "location": "St Leonards",
-                "title": "incident: building damage"
+                "created": "2025-10-09T14:55:07+11:00",
+                "updated": "2025-10-09T15:12:54+11:00",
+                "id": "ESTA:251050563",
+                "location": "Mirboo North",
+                "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.71138411724024,
-                    -38.18362124995908
+                    146.1547499117602,
+                    -38.39942737796424
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
+                "status": "complete",
+                "created": "2025-10-09T15:00:08+11:00",
+                "updated": "2025-10-09T15:15:49+11:00",
+                "id": "ESTA:251050565",
+                "location": "Deer Park",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.77405420246075,
+                    -37.756115073696144
                 ]
             }
         }
