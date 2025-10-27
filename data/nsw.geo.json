@@ -2757,11 +2757,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/625259",
-                "created": "2025-10-26T23:07:00+11:00",
-                "updated": "2025-10-27T10:07:00+11:00",
+                "created": "2025-10-27T04:50:00+11:00",
+                "updated": "2025-10-27T15:50:00+11:00",
                 "location": "EIGHT MILE CREEK LOW RANGE RD, WITTITRIN 2440",
                 "size": 1395,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: EIGHT MILE CREEK LOW RANGE RD, WITTITRIN 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1395 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 27 Oct 2025 10:07",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: EIGHT MILE CREEK LOW RANGE RD, WITTITRIN 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1395 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 27 Oct 2025 15:50",
                 "title": "incident: fire"
             }
         },
@@ -2885,10 +2885,99 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.40235900900007,
-                    -29.078540801999964
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.40235900900007,
+                            -29.078540801999964
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.396019423,
+                                            -29.1150293819999
+                                        ],
+                                        [
+                                            152.397423305,
+                                            -29.1144107219999
+                                        ],
+                                        [
+                                            152.398803392,
+                                            -29.113839651
+                                        ],
+                                        [
+                                            152.399731383,
+                                            -29.113958625
+                                        ],
+                                        [
+                                            152.401920486,
+                                            -29.1145772839999
+                                        ],
+                                        [
+                                            152.403443341,
+                                            -29.1160049609999
+                                        ],
+                                        [
+                                            152.404228563,
+                                            -29.117051924
+                                        ],
+                                        [
+                                            152.404347536,
+                                            -29.1178133509999
+                                        ],
+                                        [
+                                            152.403990618,
+                                            -29.118693752
+                                        ],
+                                        [
+                                            152.403157806,
+                                            -29.118408216
+                                        ],
+                                        [
+                                            152.402848476,
+                                            -29.1176229939999
+                                        ],
+                                        [
+                                            152.401063881,
+                                            -29.116123933
+                                        ],
+                                        [
+                                            152.39992174,
+                                            -29.1156956309999
+                                        ],
+                                        [
+                                            152.398922366,
+                                            -29.11543389
+                                        ],
+                                        [
+                                            152.398398884,
+                                            -29.11543389
+                                        ],
+                                        [
+                                            152.397661251,
+                                            -29.1148628189999
+                                        ],
+                                        [
+                                            152.396542904,
+                                            -29.115076971
+                                        ],
+                                        [
+                                            152.396019423,
+                                            -29.1150293819999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3356,6 +3445,30 @@
                 "location": "412 FLORDA RED DR, LANITZA NSW 2460",
                 "size": 260,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 412 FLORDA RED DR, LANITZA NSW 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 260 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 12:55",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.8001220000001,
+                    -34.07551199999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Gilchrist Dr, Campbelltown",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627267",
+                "created": "2025-10-27T05:08:00+11:00",
+                "updated": "2025-10-27T16:08:00+11:00",
+                "location": "Gilchrist Dr, Campbelltown, NSW 2560",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Gilchrist Dr, Campbelltown, NSW 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 27 Oct 2025 16:08",
                 "title": "incident: fire"
             }
         },
@@ -4402,30 +4515,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.55153000000007,
-                    -28.21197799999993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Laura St, Banora Point",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "not yet controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627265",
-                "created": "2025-10-27T04:48:00+11:00",
-                "updated": "2025-10-27T15:48:00+11:00",
-                "location": "Laura St, Banora Point, NSW 2486",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Laura St, Banora Point, NSW 2486 <br />COUNCIL AREA: Tweed <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 27 Oct 2025 15:48",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -5142,30 +5231,6 @@
                 "location": "MARTINS GATE RD, GLEN ELGIN 2370",
                 "size": 1,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: MARTINS GATE RD, GLEN ELGIN 2370 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:09",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.5376010000001,
-                    -28.182452999999953
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Minjungbal Dr, Tweed Heads",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627257",
-                "created": "2025-10-27T04:41:00+11:00",
-                "updated": "2025-10-27T15:41:00+11:00",
-                "location": "Minjungbal Dr, Tweed Heads, NSW 2485",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Minjungbal Dr, Tweed Heads, NSW 2485 <br />COUNCIL AREA: Tweed <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 27 Oct 2025 15:41",
                 "title": "incident: fire"
             }
         },
@@ -6392,11 +6457,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/623748",
-                "created": "2025-10-26T23:54:00+11:00",
-                "updated": "2025-10-27T10:54:00+11:00",
+                "created": "2025-10-27T04:58:00+11:00",
+                "updated": "2025-10-27T15:58:00+11:00",
                 "location": "NOWENDOC RD, COOPLACURRIPA 2424",
                 "size": 1767,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: NOWENDOC RD, COOPLACURRIPA 2424 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1767 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 10:54",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: NOWENDOC RD, COOPLACURRIPA 2424 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1767 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:58",
                 "title": "incident: fire"
             }
         },
@@ -6937,11 +7002,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/625173",
-                "created": "2025-10-26T23:58:00+11:00",
-                "updated": "2025-10-27T10:58:00+11:00",
+                "created": "2025-10-27T05:10:00+11:00",
+                "updated": "2025-10-27T16:10:00+11:00",
                 "location": "ET31 PACIFIC HWY (NORTHBOUND), KARUAH 2324",
                 "size": 49,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: ET31 PACIFIC HWY (NORTHBOUND), KARUAH 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 49 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 10:58",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: ET31 PACIFIC HWY (NORTHBOUND), KARUAH 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 49 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 16:10",
                 "title": "incident: fire"
             }
         },
@@ -9390,11 +9455,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/623051",
-                "created": "2025-10-26T02:57:00+11:00",
-                "updated": "2025-10-26T13:57:00+11:00",
+                "created": "2025-10-27T05:07:00+11:00",
+                "updated": "2025-10-27T16:07:00+11:00",
                 "location": "2930 SALISBURY RD, SALISBURY 2420",
                 "size": 209,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 2930 SALISBURY RD, SALISBURY 2420 <br />COUNCIL AREA: Dungog <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 209 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 26 Oct 2025 13:57",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 2930 SALISBURY RD, SALISBURY 2420 <br />COUNCIL AREA: Dungog <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 209 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 27 Oct 2025 16:07",
                 "title": "incident: fire"
             }
         },
@@ -10638,13 +10703,37 @@
                 "sourceTitle": "THE POCKET RD",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627250",
-                "created": "2025-10-27T04:16:00+11:00",
-                "updated": "2025-10-27T15:16:00+11:00",
+                "created": "2025-10-27T04:26:00+11:00",
+                "updated": "2025-10-27T15:26:00+11:00",
                 "location": "THE POCKET PUBLIC SCHOOL 536 THE POCKET RD, THE POCKET 2483",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: THE POCKET PUBLIC SCHOOL 536 THE POCKET RD, THE POCKET 2483 <br />COUNCIL AREA: Byron <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:16",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: THE POCKET PUBLIC SCHOOL 536 THE POCKET RD, THE POCKET 2483 <br />COUNCIL AREA: Byron <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:26",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.30772399900002,
+                    -28.940275191999945
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "TICKLE LANE, TUCKI TUCKI",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "not yet controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627264",
+                "created": "2025-10-27T05:03:00+11:00",
+                "updated": "2025-10-27T16:03:00+11:00",
+                "location": "TICKLE LANE, TUCKI TUCKI 2480",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: TICKLE LANE, TUCKI TUCKI 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Not yet controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 16:03",
                 "title": "incident: fire"
             }
         },
@@ -10946,13 +11035,13 @@
                 "sourceTitle": "WANGWAUK FOREST WAY, WILLINA",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet controlled",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/626962",
-                "created": "2025-10-27T03:42:00+11:00",
-                "updated": "2025-10-27T14:42:00+11:00",
+                "created": "2025-10-27T04:56:00+11:00",
+                "updated": "2025-10-27T15:56:00+11:00",
                 "location": "WANGWAUK FOREST WAY, WILLINA 2423",
                 "size": 34,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: WANGWAUK FOREST WAY, WILLINA 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 34 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 14:42",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: WANGWAUK FOREST WAY, WILLINA 2423 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 34 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:56",
                 "title": "incident: fire"
             }
         },
@@ -11223,30 +11312,6 @@
                 "location": "WESTERN BOUNDARY RD, HEIFER STATION 2460",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: WESTERN BOUNDARY RD, HEIFER STATION 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:29",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.91262817400002,
-                    -33.82054138199993
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "WILLIAM LAWSON DR, PROSPECT",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627251",
-                "created": "2025-10-27T04:32:00+11:00",
-                "updated": "2025-10-27T15:32:00+11:00",
-                "location": "101 WILLIAM LAWSON DR, PROSPECT 2148",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: 101 WILLIAM LAWSON DR, PROSPECT 2148 <br />COUNCIL AREA: Blacktown <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:32",
                 "title": "incident: fire"
             }
         },
@@ -11757,11 +11822,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/623757",
-                "created": "2025-10-27T02:43:00+11:00",
-                "updated": "2025-10-27T13:43:00+11:00",
+                "created": "2025-10-27T04:55:00+11:00",
+                "updated": "2025-10-27T15:55:00+11:00",
                 "location": "-35.42, 149.06",
                 "size": 4,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: -35.42, 149.06 <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: ACT Parks And Conservation Service <br />UPDATED: 27 Oct 2025 13:43",
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: -35.42, 149.06 <br />COUNCIL AREA: ACT <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: ACT Parks And Conservation Service <br />UPDATED: 27 Oct 2025 15:55",
                 "title": "incident: fire"
             }
         },
@@ -12949,13 +13014,13 @@
                 "sourceTitle": "ARMIDALE RD, BLAXLANDS CREEK",
                 "category": "other",
                 "subcategory": "mva/transport",
-                "status": "responding",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627252",
-                "created": "2025-10-27T04:15:00+11:00",
-                "updated": "2025-10-27T15:15:00+11:00",
+                "created": "2025-10-27T04:54:00+11:00",
+                "updated": "2025-10-27T15:54:00+11:00",
                 "location": "ARMIDALE RD, BLAXLANDS CREEK 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ARMIDALE RD, BLAXLANDS CREEK 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Responding <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:15",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ARMIDALE RD, BLAXLANDS CREEK 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:54",
                 "title": "incident: other"
             }
         },
@@ -13012,6 +13077,78 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.45930480900006,
+                    -33.19586944599996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BUSHELLS RIDGE RD, WYEE",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627266",
+                "created": "2025-10-27T04:58:00+11:00",
+                "updated": "2025-10-27T15:58:00+11:00",
+                "location": "270 BUSHELLS RIDGE RD, WYEE 2259",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 270 BUSHELLS RIDGE RD, WYEE 2259 <br />COUNCIL AREA: Lake Macquarie <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.28419494600007,
+                    -28.90353012099996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CORAKI RD, SOUTH GUNDURIMBA",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627260",
+                "created": "2025-10-27T04:39:00+11:00",
+                "updated": "2025-10-27T15:39:00+11:00",
+                "location": "CORAKI RD, SOUTH GUNDURIMBA 2480",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CORAKI RD, SOUTH GUNDURIMBA 2480 <br />COUNCIL AREA: Lismore <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:39",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.46420288100012,
+                    -29.116649627999948
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ELKHORN RD, EWINGAR",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627263",
+                "created": "2025-10-27T04:43:00+11:00",
+                "updated": "2025-10-27T15:43:00+11:00",
+                "location": "ELKHORN RD, EWINGAR 2469",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ELKHORN RD, EWINGAR 2469 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:43",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.4291687010001,
                     -35.399188995999964
                 ]
@@ -13028,6 +13165,30 @@
                 "location": "1550 GOOBARRAGANDRA RD, GOOBARRAGANDRA 2720",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1550 GOOBARRAGANDRA RD, GOOBARRAGANDRA 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 13:36",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.184753418,
+                    -29.931060790999936
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GUYRA RD, TINGHA",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627261",
+                "created": "2025-10-27T04:39:00+11:00",
+                "updated": "2025-10-27T15:39:00+11:00",
+                "location": "GUYRA RD, TINGHA 2369",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GUYRA RD, TINGHA 2369 <br />COUNCIL AREA: Inverell <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:39",
                 "title": "incident: fire"
             }
         },
@@ -13108,6 +13269,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.56240844800004,
+                    -34.80600738499993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "HUME HWY, YARRA",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627262",
+                "created": "2025-10-27T04:42:00+11:00",
+                "updated": "2025-10-27T15:42:00+11:00",
+                "location": "20116 HUME HWY, YARRA 2580",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 20116 HUME HWY, YARRA 2580 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:42",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.5339965820001,
                     -32.33087158199993
                 ]
@@ -13125,6 +13310,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: LAKESIDE CR, ELIZABETH BEACH 2428 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 10:39",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.91146850600012,
+                    -34.00063323999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MACQUARIE FIELDS",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627268",
+                "created": "2025-10-27T05:00:00+11:00",
+                "updated": "2025-10-27T16:00:00+11:00",
+                "location": "MACQUARIE FIELDS 2564",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MACQUARIE FIELDS 2564 <br />COUNCIL AREA: Campbelltown <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 16:00",
+                "title": "incident: fire"
             }
         },
         {
@@ -14034,6 +14243,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.69599914600008,
+                    -32.33945846599994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MYALL CREEK RD, MUNNI",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627254",
+                "created": "2025-10-27T05:10:00+11:00",
+                "updated": "2025-10-27T16:10:00+11:00",
+                "location": "MYALL CREEK 275 MYALL CREEK RD, MUNNI 2420",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MYALL CREEK 275 MYALL CREEK RD, MUNNI 2420 <br />COUNCIL AREA: Dungog <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 16:10",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     151.4271392820001,
                     -32.775981902999945
                 ]
@@ -14075,6 +14308,54 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Neville Bienke Memorial Drive <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Planned Event <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 08:40",
                 "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.47903442300003,
+                    -28.189853667999955
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PIGGABEEN RD, COBAKI LAKES",
+                "category": "fire",
+                "subcategory": "vehicle/equipment fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627255",
+                "created": "2025-10-27T04:22:00+11:00",
+                "updated": "2025-10-27T15:22:00+11:00",
+                "location": "351 PIGGABEEN RD, COBAKI LAKES 2486",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 351 PIGGABEEN RD, COBAKI LAKES 2486 <br />COUNCIL AREA: Tweed <br />STATUS: Responding <br />TYPE: Vehicle/Equipment Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 15:22",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.6495666510001,
+                    -29.565963745999966
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "PURGATORY CREEK RD, LILYDALE",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/627269",
+                "created": "2025-10-27T05:09:00+11:00",
+                "updated": "2025-10-27T16:09:00+11:00",
+                "location": "PURGATORY CREEK RD, LILYDALE 2460",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: PURGATORY CREEK RD, LILYDALE 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 27 Oct 2025 16:09",
+                "title": "incident: fire"
             }
         },
         {
