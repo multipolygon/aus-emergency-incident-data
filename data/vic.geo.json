@@ -132,10 +132,33 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "High St",
+                "category": "other",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-11-04T05:32:00+11:00",
+                "updated": "2025-11-04T05:32:00+11:00",
+                "id": "ESTA:251104304",
+                "location": "High St, Berwick",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3494774550456,
+                    -38.032179062232586
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
                 "subcategory": "building fire",
-                "status": "responding",
+                "status": "not yet under control",
                 "created": "2025-11-04T05:16:00+11:00",
                 "updated": "2025-11-04T05:16:00+11:00",
                 "id": "ESTA:251104299",
@@ -149,50 +172,6 @@
                 "coordinates": [
                     144.89326535192305,
                     -37.598644601671346
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Campbellfield",
-                "category": "fire",
-                "subcategory": "structure fire",
-                "status": "safe",
-                "created": "2025-11-04T05:05:33+11:00",
-                "updated": "2025-11-04T05:21:41+11:00",
-                "id": "ESTA:251104297",
-                "location": "Campbellfield",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.94088956534023,
-                    -37.64667099107609
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mickleham",
-                "category": "fire",
-                "subcategory": "non structure fire",
-                "status": "responding",
-                "created": "2025-11-04T05:22:25+11:00",
-                "updated": "2025-11-04T05:23:28+11:00",
-                "id": "ESTA:251104300",
-                "location": "Mickleham",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.86954660644892,
-                    -37.561170316547475
                 ]
             }
         },
@@ -2131,112 +2110,6 @@
                         ],
                         "name": "Western Port"
                     }
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "feedType": "other",
-                "sourceTitle": "Kennedys Creek - Bones Track",
-                "category": "burn area",
-                "subcategory": "burn area",
-                "status": "unknown",
-                "created": "2025-11-01T11:00:00+11:00",
-                "updated": "2025-11-01T11:00:00+11:00",
-                "id": "219db2d4f86eb35b7e8feba81ed8f238",
-                "location": "Kennedys Creek - Bones Track",
-                "title": "other: burn area"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            143.2821,
-                            -38.5956
-                        ],
-                        [
-                            143.2824,
-                            -38.5954
-                        ],
-                        [
-                            143.2826,
-                            -38.5954
-                        ],
-                        [
-                            143.2828,
-                            -38.5953
-                        ],
-                        [
-                            143.2831,
-                            -38.5949
-                        ],
-                        [
-                            143.2834,
-                            -38.5947
-                        ],
-                        [
-                            143.2835,
-                            -38.5947
-                        ],
-                        [
-                            143.2837,
-                            -38.5946
-                        ],
-                        [
-                            143.2839,
-                            -38.5947
-                        ],
-                        [
-                            143.284,
-                            -38.5948
-                        ],
-                        [
-                            143.2842,
-                            -38.5948
-                        ],
-                        [
-                            143.2844,
-                            -38.5949
-                        ],
-                        [
-                            143.2847,
-                            -38.5954
-                        ],
-                        [
-                            143.2839,
-                            -38.5962
-                        ],
-                        [
-                            143.2829,
-                            -38.5962
-                        ],
-                        [
-                            143.2826,
-                            -38.5962
-                        ],
-                        [
-                            143.2824,
-                            -38.596
-                        ],
-                        [
-                            143.2821,
-                            -38.5959
-                        ],
-                        [
-                            143.2822,
-                            -38.5958
-                        ],
-                        [
-                            143.2822,
-                            -38.5957
-                        ],
-                        [
-                            143.2821,
-                            -38.5956
-                        ]
-                    ]
                 ]
             }
         },
@@ -13263,6 +13136,112 @@
             }
         },
         {
+            "type": "Feature",
+            "properties": {
+                "feedType": "other",
+                "sourceTitle": "Kennedys Creek - Bones Track",
+                "category": "burn area",
+                "subcategory": "burn area",
+                "status": "unknown",
+                "created": "2025-11-01T11:00:00+11:00",
+                "updated": "2025-11-01T11:00:00+11:00",
+                "id": "219db2d4f86eb35b7e8feba81ed8f238",
+                "location": "Kennedys Creek - Bones Track",
+                "title": "other: burn area"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            143.2821,
+                            -38.5956
+                        ],
+                        [
+                            143.2824,
+                            -38.5954
+                        ],
+                        [
+                            143.2826,
+                            -38.5954
+                        ],
+                        [
+                            143.2828,
+                            -38.5953
+                        ],
+                        [
+                            143.2831,
+                            -38.5949
+                        ],
+                        [
+                            143.2834,
+                            -38.5947
+                        ],
+                        [
+                            143.2835,
+                            -38.5947
+                        ],
+                        [
+                            143.2837,
+                            -38.5946
+                        ],
+                        [
+                            143.2839,
+                            -38.5947
+                        ],
+                        [
+                            143.284,
+                            -38.5948
+                        ],
+                        [
+                            143.2842,
+                            -38.5948
+                        ],
+                        [
+                            143.2844,
+                            -38.5949
+                        ],
+                        [
+                            143.2847,
+                            -38.5954
+                        ],
+                        [
+                            143.2839,
+                            -38.5962
+                        ],
+                        [
+                            143.2829,
+                            -38.5962
+                        ],
+                        [
+                            143.2826,
+                            -38.5962
+                        ],
+                        [
+                            143.2824,
+                            -38.596
+                        ],
+                        [
+                            143.2821,
+                            -38.5959
+                        ],
+                        [
+                            143.2822,
+                            -38.5958
+                        ],
+                        [
+                            143.2822,
+                            -38.5957
+                        ],
+                        [
+                            143.2821,
+                            -38.5956
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Glenville Dr",
@@ -13282,6 +13261,52 @@
                 "coordinates": [
                     144.59392369200202,
                     -37.686881000331425
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-11-04T05:23:00+11:00",
+                "updated": "2025-11-04T05:23:00+11:00",
+                "id": "ESTA:251104300",
+                "location": "Mickleham",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.869540130877,
+                    -37.561179483748006
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Lemongrove Way",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-11-04T05:34:00+11:00",
+                "updated": "2025-11-04T05:43:00+11:00",
+                "id": "ESTA:251104305",
+                "location": "Lemongrove Way, Narre Warren South",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.33103627515584,
+                    -38.06908371916748
                 ]
             }
         },
@@ -13362,7 +13387,7 @@
                 "subcategory": "building damage",
                 "status": "request for assistance",
                 "created": "2025-11-04T04:34:39+11:00",
-                "updated": "2025-11-04T04:35:12+11:00",
+                "updated": "2025-11-04T05:34:27+11:00",
                 "id": "ESTA:251150457",
                 "location": "Brunswick West",
                 "title": "incident: building damage"
