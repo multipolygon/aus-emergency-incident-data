@@ -885,22 +885,66 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
-                "category": "rescue",
-                "subcategory": "road accident",
-                "status": "responding",
-                "created": "2025-11-10T16:03:00+11:00",
-                "updated": "2025-11-10T16:03:00+11:00",
-                "id": "ESTA:251110305",
-                "location": "Clyde North",
-                "size": "Small",
-                "title": "incident: rescue"
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2025-11-10T15:03:00+11:00",
+                "updated": "2025-11-10T16:28:00+11:00",
+                "id": "ESTA:251110260",
+                "location": "Murnungin",
+                "size": "Large",
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.33119108010436,
-                    -38.09787877405458
+                    143.25064045242107,
+                    -35.574896909673456
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "building damage",
+                "subcategory": "building damage",
+                "status": "complete",
+                "created": "2025-11-10T15:55:19+11:00",
+                "updated": "2025-11-10T16:28:35+11:00",
+                "id": "ESTA:251151176",
+                "location": "Norlane",
+                "title": "incident: building damage"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.36418471462935,
+                    -38.08622354560594
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2025-11-10T16:28:53+11:00",
+                "updated": "2025-11-10T16:31:05+11:00",
+                "id": "ESTA:251151177",
+                "location": "Cabbage Tree Creek",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.69236905062164,
+                    -37.70860759191134
                 ]
             }
         },
@@ -930,68 +974,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Sea Lake-Swan Hill Rd",
-                "category": "fire",
+                "sourceTitle": "Narre Warren",
+                "category": "other",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2025-11-10T16:10:00+11:00",
-                "updated": "2025-11-10T16:10:00+11:00",
-                "id": "ESTA:251110313",
-                "location": "Sea Lake-Swan Hill Rd, Swan Hill West",
-                "size": "Small",
-                "title": "incident: fire"
+                "created": "2025-11-10T16:32:43+11:00",
+                "updated": "2025-11-10T16:32:52+11:00",
+                "id": "ESTA:251110345",
+                "location": "Narre Warren",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.443843763379,
-                    -35.38666983342619
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Altona North",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2025-11-10T16:08:30+11:00",
-                "updated": "2025-11-10T16:12:32+11:00",
-                "id": "ESTA:251110310",
-                "location": "Altona North",
-                "title": "incident: hazardous material"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.84910899745097,
-                    -37.824999642931076
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Spencer St",
-                "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2025-11-10T16:12:00+11:00",
-                "updated": "2025-11-10T16:12:00+11:00",
-                "id": "ESTA:251110315",
-                "location": "Spencer St, Sebastopol",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    143.83778981303882,
-                    -37.596117791652766
+                    145.3265062812418,
+                    -38.03423789758226
                 ]
             }
         },
@@ -1000,10 +998,10 @@
                 "feedType": "incident",
                 "sourceTitle": "Parkville",
                 "category": "fire",
-                "subcategory": "fire",
+                "subcategory": "non structure fire",
                 "status": "safe",
                 "created": "2025-11-10T16:08:21+11:00",
-                "updated": "2025-11-10T16:12:36+11:00",
+                "updated": "2025-11-10T16:32:58+11:00",
                 "id": "ESTA:251110314",
                 "location": "Citylink -, Parkville",
                 "title": "incident: fire"
@@ -1020,14 +1018,36 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Eastcoast Ct",
+                "sourceTitle": "Carlton",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "safe",
+                "created": "2025-11-10T16:31:38+11:00",
+                "updated": "2025-11-10T16:33:01+11:00",
+                "id": "ESTA:251110344",
+                "location": "Drummond St, Carlton",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96995934061482,
+                    -37.794470640350596
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Sayers Rd",
                 "category": "fire",
                 "subcategory": "other",
                 "status": "responding",
-                "created": "2025-11-10T16:16:00+11:00",
-                "updated": "2025-11-10T16:16:00+11:00",
-                "id": "ESTA:251110324",
-                "location": "Eastcoast Ct, East Bairnsdale",
+                "created": "2025-11-10T16:36:00+11:00",
+                "updated": "2025-11-10T16:37:00+11:00",
+                "id": "ESTA:251110347",
+                "location": "Sayers Rd, Hoppers Crossing",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -1035,8 +1055,31 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.64802367562316,
-                    -37.82758241454947
+                    144.6809297752438,
+                    -37.84785638881202
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Fwy",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "responding",
+                "created": "2025-11-10T16:37:00+11:00",
+                "updated": "2025-11-10T16:37:00+11:00",
+                "id": "ESTA:251110348",
+                "location": "Princes Fwy, Officer",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3897341597937,
+                    -38.07262436523224
                 ]
             }
         },
@@ -1047,41 +1090,64 @@
                 "category": "rescue",
                 "subcategory": "road accident",
                 "status": "responding",
-                "created": "2025-11-10T16:15:37+11:00",
-                "updated": "2025-11-10T16:16:48+11:00",
-                "id": "ESTA:251110325",
-                "location": "Nepean Hwy, Mount Eliza",
+                "created": "2025-11-10T16:14:56+11:00",
+                "updated": "2025-11-10T16:37:39+11:00",
+                "id": "ESTA:251110327",
+                "location": "Mount Eliza",
                 "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.06855156682235,
-                    -38.21119343976962
+                    145.0680063471425,
+                    -38.21143303353463
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Michelle Dr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2025-11-10T15:09:00+11:00",
-                "updated": "2025-11-10T16:03:00+11:00",
-                "id": "ESTA:251110262",
-                "location": "Michelle Dr, Maiden Gully",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "on scene",
+                "created": "2025-11-10T16:16:46+11:00",
+                "updated": "2025-11-10T16:38:56+11:00",
+                "id": "ESTA:251110325",
+                "location": "Mount Eliza",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.19109019218928,
-                    -36.754413696675684
+                    145.06854151714217,
+                    -38.211200941971356
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Princes Hwy",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2025-11-10T16:32:00+11:00",
+                "updated": "2025-11-10T16:32:00+11:00",
+                "id": "ESTA:251110343",
+                "location": "Princes Hwy, Berwick",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.32220796322724,
+                    -38.02837746564728
                 ]
             }
         },
@@ -12592,29 +12658,6 @@
                 "feedType": "incident",
                 "sourceTitle": "Untitled",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "not yet under control",
-                "created": "2025-11-10T14:16:00+11:00",
-                "updated": "2025-11-10T15:32:00+11:00",
-                "id": "ESTA:251110215",
-                "location": "Heyfield",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.79441474787382,
-                    -37.978964276185046
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
                 "subcategory": "bushfire",
                 "status": "safe",
                 "created": "2025-11-10T15:18:00+11:00",
@@ -12636,23 +12679,23 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "not yet under control",
-                "created": "2025-11-10T15:03:00+11:00",
-                "updated": "2025-11-10T15:53:00+11:00",
-                "id": "ESTA:251110260",
-                "location": "Murnungin",
+                "sourceTitle": "Michelle Dr",
+                "category": "hazardous material",
+                "subcategory": "hazardous material",
+                "status": "safe",
+                "created": "2025-11-10T15:09:00+11:00",
+                "updated": "2025-11-10T16:03:00+11:00",
+                "id": "ESTA:251110262",
+                "location": "Michelle Dr, Maiden Gully",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: hazardous material"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.25064045242107,
-                    -35.574896909673456
+                    144.19109019218928,
+                    -36.754413696675684
                 ]
             }
         },
@@ -12705,14 +12748,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Doveton Av",
+                "sourceTitle": "Eastcoast Ct",
                 "category": "fire",
-                "subcategory": "building fire",
-                "status": "responding",
-                "created": "2025-11-10T16:14:00+11:00",
-                "updated": "2025-11-10T16:14:00+11:00",
-                "id": "ESTA:251110323",
-                "location": "Doveton Av, Eumemmerring",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-11-10T16:16:00+11:00",
+                "updated": "2025-11-10T16:19:00+11:00",
+                "id": "ESTA:251110324",
+                "location": "Eastcoast Ct, East Bairnsdale",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -12720,30 +12763,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.2495303041079,
-                    -38.00258909470707
+                    147.64802367562316,
+                    -37.82758241454947
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2025-11-10T15:55:19+11:00",
-                "updated": "2025-11-10T15:57:53+11:00",
-                "id": "ESTA:251151176",
-                "location": "Norlane",
-                "title": "incident: building damage"
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-11-10T16:03:00+11:00",
+                "updated": "2025-11-10T16:21:00+11:00",
+                "id": "ESTA:251110305",
+                "location": "Clyde North",
+                "size": "Small",
+                "title": "incident: other"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.36418471462935,
-                    -38.08622354560594
+                    145.33119108010436,
+                    -38.09787877405458
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "contained",
+                "created": "2025-11-10T14:16:00+11:00",
+                "updated": "2025-11-10T16:30:00+11:00",
+                "id": "ESTA:251110215",
+                "location": "Heyfield",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.79441474787382,
+                    -37.978964276185046
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Wannaeue Pl",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2025-11-10T16:40:00+11:00",
+                "updated": "2025-11-10T16:40:00+11:00",
+                "id": "ESTA:251110349",
+                "location": "Wannaeue Pl, Rosebud",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.90473995606055,
+                    -38.356739567975765
                 ]
             }
         }
