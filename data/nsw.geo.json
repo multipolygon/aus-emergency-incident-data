@@ -586,10 +586,95 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.97035217200005,
-                    -32.61024093599997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.9687500000001,
+                            -32.612525939999955
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.96939329,
+                                            -32.6128685629999
+                                        ],
+                                        [
+                                            151.968223039,
+                                            -32.613154774
+                                        ],
+                                        [
+                                            151.968080785,
+                                            -32.6131365969999
+                                        ],
+                                        [
+                                            151.967853984,
+                                            -32.6131218269999
+                                        ],
+                                        [
+                                            151.967621818,
+                                            -32.613011645
+                                        ],
+                                        [
+                                            151.967611089,
+                                            -32.612820826
+                                        ],
+                                        [
+                                            151.967651359,
+                                            -32.612532324
+                                        ],
+                                        [
+                                            151.967750676,
+                                            -32.612289259
+                                        ],
+                                        [
+                                            151.967888906,
+                                            -32.612235879
+                                        ],
+                                        [
+                                            151.968189522,
+                                            -32.6120564239999
+                                        ],
+                                        [
+                                            151.968150608,
+                                            -32.6118667389999
+                                        ],
+                                        [
+                                            151.968643133,
+                                            -32.611583926
+                                        ],
+                                        [
+                                            151.969718075,
+                                            -32.611612335
+                                        ],
+                                        [
+                                            151.969648287,
+                                            -32.61187812
+                                        ],
+                                        [
+                                            151.969566418,
+                                            -32.612431269
+                                        ],
+                                        [
+                                            151.96955031,
+                                            -32.612647077
+                                        ],
+                                        [
+                                            151.96939329,
+                                            -32.6128685629999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -599,11 +684,11 @@
                 "subcategory": "bushfire",
                 "status": "not yet controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629922",
-                "created": "2025-11-11T03:16:00+11:00",
-                "updated": "2025-11-11T14:16:00+11:00",
+                "created": "2025-11-11T03:44:00+11:00",
+                "updated": "2025-11-11T14:44:00+11:00",
                 "location": "PACIFIC HWY, KARUAH 2324",
-                "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: PACIFIC HWY, KARUAH 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:16",
+                "size": 4,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: PACIFIC HWY, KARUAH 2324 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:44",
                 "title": "incident: fire"
             }
         },
@@ -1415,6 +1500,54 @@
                 "location": "1542 COLLECTOR RD, CURRAWANG 2580",
                 "size": 2,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 1542 COLLECTOR RD, CURRAWANG 2580 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 13:22",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.66757600000005,
+                    -32.90303299999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Cowper St, Wallsend",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "not yet controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629934",
+                "created": "2025-11-11T03:55:00+11:00",
+                "updated": "2025-11-11T14:55:00+11:00",
+                "location": "Cowper St, Wallsend, NSW 2287",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Cowper St, Wallsend, NSW 2287 <br />COUNCIL AREA: Newcastle <br />STATUS: Not yet controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 11 Nov 2025 14:55",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.79960632400002,
+                    -33.95569992099996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "DICKSON RD, LEPPINGTON",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "not yet controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629928",
+                "created": "2025-11-11T03:45:00+11:00",
+                "updated": "2025-11-11T14:45:00+11:00",
+                "location": "115 DICKSON RD, LEPPINGTON 2179",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 115 DICKSON RD, LEPPINGTON 2179 <br />COUNCIL AREA: Camden <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:45",
                 "title": "incident: fire"
             }
         },
@@ -2504,8 +2637,8 @@
                     {
                         "type": "Point",
                         "coordinates": [
-                            150.83221435500002,
-                            -30.71155738799996
+                            150.80881118800005,
+                            -30.707452906999947
                         ]
                     },
                     {
@@ -2688,13 +2821,13 @@
                 "sourceTitle": "HUNTER RD, GLENROCK",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629797",
-                "created": "2025-11-10T22:26:00+11:00",
-                "updated": "2025-11-11T09:26:00+11:00",
+                "created": "2025-11-11T03:53:00+11:00",
+                "updated": "2025-11-11T14:53:00+11:00",
                 "location": "HUNTER RD, GLENROCK 2337",
                 "size": 1,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: HUNTER RD, GLENROCK 2337 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 09:26",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: HUNTER RD, GLENROCK 2337 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:53",
                 "title": "incident: fire"
             }
         },
@@ -2709,16 +2842,16 @@
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "JACKSON CL, SALAMANDER BAY",
+                "sourceTitle": "Jackson Cl, Salamander Bay",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629929",
-                "created": "2025-11-11T03:30:00+11:00",
-                "updated": "2025-11-11T14:30:00+11:00",
-                "location": "JACKSON CL, SALAMANDER BAY 2317",
+                "created": "2025-11-11T03:46:00+11:00",
+                "updated": "2025-11-11T14:46:00+11:00",
+                "location": "Jackson Cl, Salamander Bay, NSW 2317",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: JACKSON CL, SALAMANDER BAY 2317 <br />COUNCIL AREA: Port Stephens <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 11 Nov 2025 14:30",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Jackson Cl, Salamander Bay, NSW 2317 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 11 Nov 2025 14:46",
                 "title": "incident: fire"
             }
         },
@@ -3648,6 +3781,30 @@
                 "location": "MIDDLE CREEK CASTLEREAGH HWY, MULLAMUDDY 2850",
                 "size": 72,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: MIDDLE CREEK CASTLEREAGH HWY, MULLAMUDDY 2850 <br />COUNCIL AREA: Mid-Western <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 72 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 12:58",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.8792877200001,
+                    -32.07750701899994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "NEW ENGLAND HWY, SCONE",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629927",
+                "created": "2025-11-11T03:59:00+11:00",
+                "updated": "2025-11-11T14:59:00+11:00",
+                "location": "ILALA STUD 2316 NEW ENGLAND HWY, SCONE 2337",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: ILALA STUD 2316 NEW ENGLAND HWY, SCONE 2337 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:59",
                 "title": "incident: fire"
             }
         },
@@ -6124,11 +6281,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629902",
-                "created": "2025-11-11T01:56:00+11:00",
-                "updated": "2025-11-11T12:56:00+11:00",
+                "created": "2025-11-11T03:59:00+11:00",
+                "updated": "2025-11-11T14:59:00+11:00",
                 "location": "WOOLWASH RD, AIRDS 2560",
                 "size": 2,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: WOOLWASH RD, AIRDS 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 12:56",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: WOOLWASH RD, AIRDS 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:59",
                 "title": "incident: fire"
             }
         },
@@ -9842,11 +9999,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629842",
-                "created": "2025-11-11T00:17:00+11:00",
-                "updated": "2025-11-11T11:17:00+11:00",
+                "created": "2025-11-11T03:46:00+11:00",
+                "updated": "2025-11-11T14:46:00+11:00",
                 "location": "CASTLEROCK RD, KAYUGA 2333",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CASTLEROCK RD, KAYUGA 2333 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 11:17",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CASTLEROCK RD, KAYUGA 2333 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:46",
                 "title": "incident: fire"
             }
         },
@@ -9871,30 +10028,6 @@
                 "location": "COPETON DAM RD, INVERELL 2360",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: COPETON DAM RD, INVERELL 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 11:04",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.79960632400002,
-                    -33.95569992099996
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "DICKSON RD, LEPPINGTON",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629928",
-                "created": "2025-11-11T03:23:00+11:00",
-                "updated": "2025-11-11T14:23:00+11:00",
-                "location": "115 DICKSON RD, LEPPINGTON 2179",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 115 DICKSON RD, LEPPINGTON 2179 <br />COUNCIL AREA: Camden <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:23",
                 "title": "incident: fire"
             }
         },
@@ -9975,6 +10108,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    152.59738159200003,
+                    -30.606884002999948
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mackays Road",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629933",
+                "created": "2025-11-11T03:50:00+11:00",
+                "updated": "2025-11-11T14:50:00+11:00",
+                "location": "MACKAYS RD, BUCKRA BENDINNI 2449",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MACKAYS RD, BUCKRA BENDINNI 2449 <br />COUNCIL AREA: Nambucca Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 11 Nov 2025 14:50",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     147.86412048400007,
                     -31.617477416999975
                 ]
@@ -10008,37 +10165,13 @@
                 "sourceTitle": "MEYERS RD, RAMORNIE",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629920",
-                "created": "2025-11-11T03:17:00+11:00",
-                "updated": "2025-11-11T14:17:00+11:00",
+                "created": "2025-11-11T03:49:00+11:00",
+                "updated": "2025-11-11T14:49:00+11:00",
                 "location": "MEYERS RD, RAMORNIE 2460",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MEYERS RD, RAMORNIE 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:17",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.8792877200001,
-                    -32.07750701899994
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "NEW ENGLAND HWY, SCONE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629927",
-                "created": "2025-11-11T03:22:00+11:00",
-                "updated": "2025-11-11T14:22:00+11:00",
-                "location": "ILALA STUD 2316 NEW ENGLAND HWY, SCONE 2337",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ILALA STUD 2316 NEW ENGLAND HWY, SCONE 2337 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:22",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MEYERS RD, RAMORNIE 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:49",
                 "title": "incident: fire"
             }
         },
@@ -10164,23 +10297,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.00288391100003,
-                    -36.074611662999985
+                    150.84753418000003,
+                    -31.146711349999975
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "RIVERINA HWY, THURGOONA",
-                "category": "other",
-                "subcategory": "mva/transport",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629924",
-                "created": "2025-11-11T03:21:00+11:00",
-                "updated": "2025-11-11T14:21:00+11:00",
-                "location": "837 RIVERINA HWY, THURGOONA 2640",
+                "sourceTitle": "PHILLIP LANE, WARRAL",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629932",
+                "created": "2025-11-11T03:48:00+11:00",
+                "updated": "2025-11-11T14:48:00+11:00",
+                "location": "159 PHILLIP LANE, WARRAL 2340",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 837 RIVERINA HWY, THURGOONA 2640 <br />COUNCIL AREA: Albury <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:21",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 159 PHILLIP LANE, WARRAL 2340 <br />COUNCIL AREA: Tamworth <br />STATUS: Responding <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:48",
+                "title": "incident: fire"
             }
         },
         {
@@ -10934,13 +11067,13 @@
                 "sourceTitle": "SIX MILE RD, EAGLETON",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/629930",
-                "created": "2025-11-11T03:38:00+11:00",
-                "updated": "2025-11-11T14:38:00+11:00",
+                "created": "2025-11-11T03:57:00+11:00",
+                "updated": "2025-11-11T14:57:00+11:00",
                 "location": "SIX MILE RD, EAGLETON 2324",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SIX MILE RD, EAGLETON 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Responding <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:38",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SIX MILE RD, EAGLETON 2324 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Nov 2025 14:57",
                 "title": "incident: fire"
             }
         },
