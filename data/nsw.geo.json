@@ -3435,10 +3435,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.6964874260001,
-                    -33.71944808999996
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.6964874260001,
+                            -33.71944808999996
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.696247601,
+                                            -33.7189123859999
+                                        ],
+                                        [
+                                            150.696437957,
+                                            -33.718769618
+                                        ],
+                                        [
+                                            150.696521238,
+                                            -33.7188885909999
+                                        ],
+                                        [
+                                            150.696437957,
+                                            -33.719090845
+                                        ],
+                                        [
+                                            150.696342779,
+                                            -33.719126538
+                                        ],
+                                        [
+                                            150.696247601,
+                                            -33.7189123859999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -3446,13 +3487,13 @@
                 "sourceTitle": "Olive Lane, Cranebrook",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/630364",
-                "created": "2025-11-13T15:31:00+11:00",
-                "updated": "2025-11-14T02:31:00+11:00",
+                "created": "2025-11-13T16:06:00+11:00",
+                "updated": "2025-11-14T03:06:00+11:00",
                 "location": "Olive Lane, Cranebrook, NSW 2749",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Olive Lane, Cranebrook, NSW 2749 <br />COUNCIL AREA: Penrith <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 14 Nov 2025 02:31",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Olive Lane, Cranebrook, NSW 2749 <br />COUNCIL AREA: Penrith <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 14 Nov 2025 03:06",
                 "title": "incident: fire"
             }
         },
@@ -7882,41 +7923,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            150.431754963,
-                                            -34.469817787
-                                        ],
-                                        [
-                                            150.429875189,
-                                            -34.469865376
-                                        ],
-                                        [
-                                            150.430208313,
-                                            -34.4697107109999
-                                        ],
-                                        [
-                                            150.429185146,
-                                            -34.46936569
-                                        ],
-                                        [
-                                            150.42985139500001,
-                                            -34.468901694
-                                        ],
-                                        [
-                                            150.431517017,
-                                            -34.4696274299999
-                                        ],
-                                        [
-                                            150.431754963,
-                                            -34.469817787
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             150.429860341,
                                             -34.4687598689999
                                         ],
@@ -8061,6 +8067,41 @@
                                         [
                                             150.431736052,
                                             -34.46982531
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.431754963,
+                                            -34.469817787
+                                        ],
+                                        [
+                                            150.429875189,
+                                            -34.469865376
+                                        ],
+                                        [
+                                            150.430208313,
+                                            -34.4697107109999
+                                        ],
+                                        [
+                                            150.429185146,
+                                            -34.46936569
+                                        ],
+                                        [
+                                            150.42985139500001,
+                                            -34.468901694
+                                        ],
+                                        [
+                                            150.431517017,
+                                            -34.4696274299999
+                                        ],
+                                        [
+                                            150.431754963,
+                                            -34.469817787
                                         ]
                                     ]
                                 ]
