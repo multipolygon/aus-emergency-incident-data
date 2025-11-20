@@ -313,10 +313,71 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.98260498000002,
-                    -34.57442474299995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.98260498000002,
+                            -34.57442474299995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.982433854,
+                                            -34.573539218
+                                        ],
+                                        [
+                                            146.983564097,
+                                            -34.57264692
+                                        ],
+                                        [
+                                            146.985824585,
+                                            -34.571992569
+                                        ],
+                                        [
+                                            146.989691209,
+                                            -34.578357626
+                                        ],
+                                        [
+                                            146.988798911,
+                                            -34.5780601939999
+                                        ],
+                                        [
+                                            146.987490207,
+                                            -34.577643789
+                                        ],
+                                        [
+                                            146.985943558,
+                                            -34.5771084099999
+                                        ],
+                                        [
+                                            146.983623583,
+                                            -34.5766325179999
+                                        ],
+                                        [
+                                            146.982552826,
+                                            -34.576394571
+                                        ],
+                                        [
+                                            146.981898474,
+                                            -34.575323813
+                                        ],
+                                        [
+                                            146.982433854,
+                                            -34.573539218
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -324,13 +385,13 @@
                 "sourceTitle": "ARDLETHAN RD, COWABBIE",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632241",
-                "created": "2025-11-20T06:09:00+11:00",
-                "updated": "2025-11-20T17:09:00+11:00",
+                "created": "2025-11-20T06:28:00+11:00",
+                "updated": "2025-11-20T17:28:00+11:00",
                 "location": "ARDLETHAN RD, COWABBIE 2652",
-                "size": 20,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: ARDLETHAN RD, COWABBIE 2652 <br />COUNCIL AREA: Coolamon <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 20 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:09",
+                "size": 25,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: ARDLETHAN RD, COWABBIE 2652 <br />COUNCIL AREA: Coolamon <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 25 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:28",
                 "title": "incident: fire"
             }
         },
@@ -1532,11 +1593,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/631085",
-                "created": "2025-11-19T08:42:00+11:00",
-                "updated": "2025-11-19T19:42:00+11:00",
+                "created": "2025-11-20T06:27:00+11:00",
+                "updated": "2025-11-20T17:27:00+11:00",
                 "location": "DUNEDOO 2844",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: DUNEDOO 2844 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2025 19:42",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: DUNEDOO 2844 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:27",
                 "title": "incident: fire"
             }
         },
@@ -2038,6 +2099,30 @@
                 "location": "Endeavour Dr, Balranald, NSW 2715",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: Endeavour Dr, Balranald, NSW 2715 <br />COUNCIL AREA: Balranald <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 20 Nov 2025 17:05",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.00239563000002,
+                    -33.195465087999935
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "FALCON RIDGE",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632236",
+                "created": "2025-11-20T06:44:00+11:00",
+                "updated": "2025-11-20T17:44:00+11:00",
+                "location": "1336 WOLLOMBI RD, FERNANCES 2775",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1336 WOLLOMBI RD, FERNANCES 2775 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 20 Nov 2025 17:44",
                 "title": "incident: fire"
             }
         },
@@ -3096,8 +3181,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.75189723500011,
-                    -32.32838647899996
+                    149.75151227000003,
+                    -32.32850399599994
                 ]
             },
             "properties": {
@@ -4066,6 +4151,30 @@
                 "location": "228 MCLAURIN RD, WARRAGOON 2710",
                 "size": 34,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: 228 MCLAURIN RD, WARRAGOON 2710 <br />COUNCIL AREA: Edward River <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 34 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 19 Nov 2025 22:34",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.0166672910001,
+                    -33.20068197599994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "MOGO CROSSING",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632243",
+                "created": "2025-11-20T06:41:00+11:00",
+                "updated": "2025-11-20T17:41:00+11:00",
+                "location": "1490 WOLLOMBI RD, FERNANCES 2775",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: 1490 WOLLOMBI RD, FERNANCES 2775 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 20 Nov 2025 17:41",
                 "title": "incident: fire"
             }
         },
@@ -6867,30 +6976,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.40086500000007,
-                    -32.020130999999935
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wargundy St, Dunedoo",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/631084",
-                "created": "2025-11-19T03:49:00+11:00",
-                "updated": "2025-11-19T14:49:00+11:00",
-                "location": "Wargundy St, Dunedoo, NSW 2844",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Wargundy St, Dunedoo, NSW 2844 <br />COUNCIL AREA: Warrumbungle <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 19 Nov 2025 14:49",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -6903,60 +6988,6 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            151.999084281,
-                                            -32.5194975649999
-                                        ],
-                                        [
-                                            151.998302963,
-                                            -32.519536973
-                                        ],
-                                        [
-                                            151.998098694,
-                                            -32.5194658509999
-                                        ],
-                                        [
-                                            151.997735434,
-                                            -32.519200422
-                                        ],
-                                        [
-                                            151.998779735,
-                                            -32.519017807
-                                        ],
-                                        [
-                                            151.999084281,
-                                            -32.5194975649999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            151.97713211,
-                                            -32.5163706069999
-                                        ],
-                                        [
-                                            151.977052066,
-                                            -32.516375175
-                                        ],
-                                        [
-                                            151.977056697,
-                                            -32.5162840039999
-                                        ],
-                                        [
-                                            151.97713211,
-                                            -32.5163706069999
-                                        ]
-                                    ]
-                                ]
-                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -7595,6 +7626,60 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.999084281,
+                                            -32.5194975649999
+                                        ],
+                                        [
+                                            151.998302963,
+                                            -32.519536973
+                                        ],
+                                        [
+                                            151.998098694,
+                                            -32.5194658509999
+                                        ],
+                                        [
+                                            151.997735434,
+                                            -32.519200422
+                                        ],
+                                        [
+                                            151.998779735,
+                                            -32.519017807
+                                        ],
+                                        [
+                                            151.999084281,
+                                            -32.5194975649999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.97713211,
+                                            -32.5163706069999
+                                        ],
+                                        [
+                                            151.977052066,
+                                            -32.516375175
+                                        ],
+                                        [
+                                            151.977056697,
+                                            -32.5162840039999
+                                        ],
+                                        [
+                                            151.97713211,
+                                            -32.5163706069999
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -7607,11 +7692,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/630797",
-                "created": "2025-11-20T00:02:00+11:00",
-                "updated": "2025-11-20T11:02:00+11:00",
+                "created": "2025-11-20T06:09:00+11:00",
+                "updated": "2025-11-20T17:09:00+11:00",
                 "location": "WARRABA RD, THE BRANCH 2425",
-                "size": 726,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: WARRABA RD, THE BRANCH 2425 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 726 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 11:02",
+                "size": 993,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: WARRABA RD, THE BRANCH 2425 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 993 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:09",
                 "title": "incident: fire"
             }
         },
@@ -8790,11 +8875,11 @@
                 "subcategory": "bushfire",
                 "status": "responding",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632248",
-                "created": "2025-11-20T05:39:00+11:00",
-                "updated": "2025-11-20T16:39:00+11:00",
+                "created": "2025-11-20T06:22:00+11:00",
+                "updated": "2025-11-20T17:22:00+11:00",
                 "location": "-33.0279 150.9726",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: -33.0279 150.9726 <br />COUNCIL AREA: Cessnock <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 20 Nov 2025 16:39",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: -33.0279 150.9726 <br />COUNCIL AREA: Cessnock <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 20 Nov 2025 17:22",
                 "title": "incident: fire"
             }
         },
@@ -8875,6 +8960,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    149.78468322800006,
+                    -29.29348373399995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CARNARVON HWY, ASHLEY",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632251",
+                "created": "2025-11-20T06:35:00+11:00",
+                "updated": "2025-11-20T17:35:00+11:00",
+                "location": "1957 CARNARVON HWY, ASHLEY 2400",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1957 CARNARVON HWY, ASHLEY 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:35",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     153.28421020500002,
                     -28.903533934999928
                 ]
@@ -8947,6 +9056,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    151.66027832100008,
+                    -32.60892867999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "DUNS CREEK RD, DUNS CREEK",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "not yet controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632250",
+                "created": "2025-11-20T06:43:00+11:00",
+                "updated": "2025-11-20T17:43:00+11:00",
+                "location": "538 DUNS CREEK RD, DUNS CREEK 2321",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 538 DUNS CREEK RD, DUNS CREEK 2321 <br />COUNCIL AREA: Port Stephens <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:43",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     148.64892578100012,
                     -31.733665465999934
                 ]
@@ -8971,22 +9104,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.00239563000002,
-                    -33.195465087999935
+                    147.22546386700003,
+                    -33.38982009799997
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "FALCON RIDGE",
+                "sourceTitle": "GRASSMERE RD, CONDOBOLIN",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "grass fire",
                 "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632236",
-                "created": "2025-11-20T05:34:00+11:00",
-                "updated": "2025-11-20T16:34:00+11:00",
-                "location": "1336 WOLLOMBI RD, FERNANCES 2775",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632249",
+                "created": "2025-11-20T06:25:00+11:00",
+                "updated": "2025-11-20T17:25:00+11:00",
+                "location": "2745 GRASSMERE RD, CONDOBOLIN 2877",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1336 WOLLOMBI RD, FERNANCES 2775 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 16:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 2745 GRASSMERE RD, CONDOBOLIN 2877 <br />COUNCIL AREA: Lachlan <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:25",
                 "title": "incident: fire"
             }
         },
@@ -9019,8 +9152,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    149.8964309700001,
-                    -29.96118103699996
+                    149.89643859900002,
+                    -29.96118163999995
                 ]
             },
             "properties": {
@@ -9052,13 +9185,13 @@
                 "sourceTitle": "KAMILAROI HWY, BOURKE",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632211",
-                "created": "2025-11-20T04:18:00+11:00",
-                "updated": "2025-11-20T15:18:00+11:00",
+                "created": "2025-11-20T06:39:00+11:00",
+                "updated": "2025-11-20T17:39:00+11:00",
                 "location": "KAMILAROI HWY, BOURKE 2840",
-                "size": 5,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: KAMILAROI HWY, BOURKE 2840 <br />COUNCIL AREA: Bourke <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 15:18",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: KAMILAROI HWY, BOURKE 2840 <br />COUNCIL AREA: Bourke <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:39",
                 "title": "incident: fire"
             }
         },
@@ -9107,30 +9240,6 @@
                 "location": "GREEN VALE 372 METZ RD, METZ 2350",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GREEN VALE 372 METZ RD, METZ 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 12:05",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.01856994600007,
-                    -33.19715118399995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "MOGO CROSSING",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632243",
-                "created": "2025-11-20T06:03:00+11:00",
-                "updated": "2025-11-20T17:03:00+11:00",
-                "location": "1490 WOLLOMBI RD, FERNANCES 2775",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1490 WOLLOMBI RD, FERNANCES 2775 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:03",
                 "title": "incident: fire"
             }
         },
@@ -9196,13 +9305,13 @@
                 "sourceTitle": "PEATS RIDGE RD, PEATS RIDGE",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "responding",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632246",
-                "created": "2025-11-20T06:08:00+11:00",
-                "updated": "2025-11-20T17:08:00+11:00",
+                "created": "2025-11-20T06:36:00+11:00",
+                "updated": "2025-11-20T17:36:00+11:00",
                 "location": "1168 PEATS RIDGE RD, PEATS RIDGE 2250",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1168 PEATS RIDGE RD, PEATS RIDGE 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:08",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 1168 PEATS RIDGE RD, PEATS RIDGE 2250 <br />COUNCIL AREA: Central Coast <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:36",
                 "title": "incident: fire"
             }
         },
@@ -9252,30 +9361,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: KYOGLE 5349 STURT HWY, GALORE 2650 <br />COUNCIL AREA: Wagga Wagga <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:01",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.54177856400008,
-                    -35.13504409799998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "SUSSEX INLET RD, SUSSEX INLET",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/632244",
-                "created": "2025-11-20T06:04:00+11:00",
-                "updated": "2025-11-20T17:04:00+11:00",
-                "location": "583 SUSSEX INLET RD, SUSSEX INLET 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 583 SUSSEX INLET RD, SUSSEX INLET 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Responding <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 20 Nov 2025 17:04",
-                "title": "incident: other"
             }
         },
         {
