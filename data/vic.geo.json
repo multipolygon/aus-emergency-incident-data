@@ -2,64 +2,6 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "type": "Feature",
-            "geometry": {
-                "type": "GeometryCollection",
-                "geometries": [
-                    {
-                        "type": "Point",
-                        "coordinates": [
-                            144.24841061365169,
-                            -36.49257253232501
-                        ]
-                    },
-                    {
-                        "type": "Polygon",
-                        "coordinates": [
-                            [
-                                [
-                                    144.21879902612582,
-                                    -36.455725359890366
-                                ],
-                                [
-                                    144.1930498195855,
-                                    -36.50389683090979
-                                ],
-                                [
-                                    144.2546762539149,
-                                    -36.529419704759654
-                                ],
-                                [
-                                    144.30377140771785,
-                                    -36.49547933530779
-                                ],
-                                [
-                                    144.30239811670717,
-                                    -36.47270611499331
-                                ],
-                                [
-                                    144.21879902612582,
-                                    -36.455725359890366
-                                ]
-                            ]
-                        ]
-                    }
-                ]
-            },
-            "properties": {
-                "feedType": "warning",
-                "sourceTitle": "Community Information",
-                "category": "community update",
-                "subcategory": "fire",
-                "status": "unknown",
-                "created": "2025-11-28T15:59:23+11:00",
-                "updated": "2025-11-28T15:59:24+11:00",
-                "id": "38487",
-                "location": "Summerfield, Kamarooka, Neilborough, Raywood, Tandarra",
-                "title": "warning: community update"
-            }
-        },
-        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Calperum",
@@ -314,52 +256,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Reynolds Gr",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "created": "2025-11-28T21:20:00+11:00",
-                "updated": "2025-11-28T21:32:00+11:00",
-                "id": "ESTA:251129457",
-                "location": "Reynolds Gr, Romsey",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.74047363300198,
-                    -37.35916548011872
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Connor Rd",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "not yet under control",
-                "created": "2025-11-28T21:11:00+11:00",
-                "updated": "2025-11-28T21:11:00+11:00",
-                "id": "ESTA:251129453",
-                "location": "Connor Rd, Shepparton East",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.48551101663907,
-                    -36.41515261815479
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Rushworth-Tatura Rd",
                 "category": "hazardous material",
                 "subcategory": "hazardous material",
@@ -406,12 +302,34 @@
         {
             "properties": {
                 "feedType": "incident",
+                "sourceTitle": "Frankston",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "responding",
+                "created": "2025-11-28T21:43:22+11:00",
+                "updated": "2025-11-28T21:44:33+11:00",
+                "id": "ESTA:251129468",
+                "location": "Cambridge St, Frankston",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.12976371240862,
+                    -38.156102155807105
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
                 "sourceTitle": "Stud Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "responding",
+                "status": "safe",
                 "created": "2025-11-28T21:33:00+11:00",
-                "updated": "2025-11-28T21:33:00+11:00",
+                "updated": "2025-11-28T21:47:00+11:00",
                 "id": "ESTA:251129463",
                 "location": "Stud Rd, Rowville",
                 "size": "Small",
@@ -423,6 +341,75 @@
                 "coordinates": [
                     145.24022714470576,
                     -37.919071963826156
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Connor Rd",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "under control",
+                "created": "2025-11-28T21:11:00+11:00",
+                "updated": "2025-11-28T21:48:00+11:00",
+                "id": "ESTA:251129453",
+                "location": "Connor Rd, Shepparton East",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.48551101663907,
+                    -36.41515261815479
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Reynolds Gr",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-11-28T21:20:00+11:00",
+                "updated": "2025-11-28T21:49:00+11:00",
+                "id": "ESTA:251129457",
+                "location": "Reynolds Gr, Romsey",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.74047363300198,
+                    -37.35916548011872
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Weeroona St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2025-11-28T21:49:00+11:00",
+                "updated": "2025-11-28T21:49:00+11:00",
+                "id": "ESTA:251129469",
+                "location": "Weeroona St, Rye",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.83112787064562,
+                    -38.37841416148227
                 ]
             }
         },
@@ -17979,28 +17966,6 @@
                 "coordinates": [
                     143.31345583773285,
                     -35.054606286434606
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2025-11-28T21:32:34+11:00",
-                "updated": "2025-11-28T21:37:59+11:00",
-                "id": "ESTA:251152877",
-                "location": "Ashwood",
-                "title": "incident: tree down"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.11151964343546,
-                    -37.8616625041261
                 ]
             }
         }
