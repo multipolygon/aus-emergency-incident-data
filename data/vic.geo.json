@@ -2,6 +2,60 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            144.53054626137214,
+                            -36.75606584704127
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    144.52989180236867,
+                                    -36.754776470869885
+                                ],
+                                [
+                                    144.53194101006272,
+                                    -36.75518907707075
+                                ],
+                                [
+                                    144.53166206032282,
+                                    -36.757355223212656
+                                ],
+                                [
+                                    144.52915151268152,
+                                    -36.756908245683874
+                                ],
+                                [
+                                    144.52989180236867,
+                                    -36.754776470869885
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2025-12-01T12:39:56+11:00",
+                "updated": "2025-12-01T12:39:56+11:00",
+                "id": "38491",
+                "location": "Axedale",
+                "title": "warning: community update"
+            }
+        },
+        {
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Toorloo Arm - Princes Highway",
@@ -211,23 +265,46 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Stockmans Dr",
-                "category": "hazardous material",
-                "subcategory": "hazardous material",
-                "status": "safe",
-                "created": "2025-12-01T09:57:00+11:00",
-                "updated": "2025-12-01T10:36:00+11:00",
-                "id": "ESTA:251200113",
-                "location": "Stockmans Dr, Irymple",
+                "sourceTitle": "Kitson St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "under control",
+                "created": "2025-12-01T12:22:00+11:00",
+                "updated": "2025-12-01T12:32:00+11:00",
+                "id": "ESTA:251200180",
+                "location": "Kitson St, Frankston",
                 "size": "Small",
-                "title": "incident: hazardous material"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.18023962779,
-                    -34.23061116122065
+                    145.12628073188,
+                    -38.13300717846791
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Clow St",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "not yet under control",
+                "created": "2025-12-01T12:24:00+11:00",
+                "updated": "2025-12-01T12:24:00+11:00",
+                "id": "ESTA:251200181",
+                "location": "Clow St, Dandenong",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22714803528814,
+                    -37.986158542204784
                 ]
             }
         },
@@ -237,42 +314,42 @@
                 "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
-                "status": "request for assistance",
-                "created": "2025-12-01T10:36:19+11:00",
-                "updated": "2025-12-01T10:39:09+11:00",
-                "id": "ESTA:251250024",
-                "location": "Upwey",
+                "status": "complete",
+                "created": "2025-12-01T12:13:51+11:00",
+                "updated": "2025-12-01T12:34:26+11:00",
+                "id": "ESTA:251250033",
+                "location": "Bacchus Marsh",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.33686368022222,
-                    -37.90155228656146
+                    144.46284048227432,
+                    -37.68530351298362
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Alexander Av",
-                "category": "other",
+                "sourceTitle": "Untitled",
+                "category": "fire",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2025-12-01T10:37:00+11:00",
-                "updated": "2025-12-01T10:38:00+11:00",
-                "id": "ESTA:251200128",
-                "location": "Alexander Av, Upwey",
+                "created": "2025-12-01T11:57:00+11:00",
+                "updated": "2025-12-01T12:44:00+11:00",
+                "id": "ESTA:251200166",
+                "location": "Axedale",
                 "size": "Small",
-                "title": "incident: other"
+                "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.33686368022222,
-                    -37.90155228656146
+                    144.53035735692015,
+                    -36.75592408216279
                 ]
             }
         },
@@ -286,7 +363,7 @@
                 "status": "warning",
                 "created": "2025-12-01T10:00:00+11:00",
                 "updated": "Invalid date",
-                "id": "IDV20600/00eed94cb5774dcec5788a95aa5a9768",
+                "id": "IDV20600/07abd33b12f025eace889b326e3b7946",
                 "location": "Port Phillip, Western Port, Central Coast, Central Gippsland Coast and East Gippsland Coast",
                 "title": "incident: met"
             },
@@ -1978,22 +2055,22 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Namatjira Av, Coomealla",
+                "sourceTitle": "Newell Hwy, Tocumwal",
                 "category": "fire",
-                "subcategory": "other non-urgent alerts",
+                "subcategory": "grass fire",
                 "status": "under control",
-                "created": "2025-11-30T23:05:00+11:00",
-                "updated": "2025-11-30T23:05:00+11:00",
-                "id": "2025-11-30T23:05:00.0000000:633996",
-                "location": "143B Namatjira Av, Coomealla 2717",
+                "created": "2025-12-01T11:25:00+11:00",
+                "updated": "2025-12-01T11:25:00+11:00",
+                "id": "2025-12-01T11:25:00.0000000:634078",
+                "location": "Newell Hwy, Tocumwal 2714",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    142.073913574,
-                    -34.0983619689999
+                    145.561416626,
+                    -35.7982749939999
                 ]
             }
         },
@@ -19745,37 +19822,37 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "fire",
-                "subcategory": "building fire",
+                "sourceTitle": "Pacific Dr",
+                "category": "rescue",
+                "subcategory": "road accident",
                 "status": "under control",
-                "created": "2025-12-01T02:55:00+11:00",
-                "updated": "2025-12-01T05:53:00+11:00",
-                "id": "ESTA:251200022",
-                "location": "Wodonga",
+                "created": "2025-12-01T11:29:00+11:00",
+                "updated": "2025-12-01T11:40:00+11:00",
+                "id": "ESTA:251200149",
+                "location": "Pacific Dr, Cranbourne East",
                 "size": "Small",
-                "title": "incident: fire"
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    146.8881434288566,
-                    -36.12057580958506
+                    145.31847294096326,
+                    -38.118893169848604
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Meadowgate Dr",
+                "sourceTitle": "Bendigo-Murchison Rd",
                 "category": "other",
                 "subcategory": "other",
                 "status": "safe",
-                "created": "2025-12-01T10:03:00+11:00",
-                "updated": "2025-12-01T10:04:00+11:00",
-                "id": "ESTA:251200117",
-                "location": "Meadowgate Dr, Chirnside Park",
+                "created": "2025-12-01T11:14:00+11:00",
+                "updated": "2025-12-01T12:10:00+11:00",
+                "id": "ESTA:251200143",
+                "location": "Bendigo-Murchison Rd, Colbinabbin",
                 "size": "Small",
                 "title": "incident: other"
             },
@@ -19783,52 +19860,169 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.32145761934356,
-                    -37.75792249055667
+                    144.7369112384061,
+                    -36.59615291739845
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "building damage",
-                "subcategory": "building damage",
-                "status": "request for assistance",
-                "created": "2025-11-30T18:21:59+11:00",
-                "updated": "2025-11-30T18:23:59+11:00",
-                "id": "ESTA:251153055",
-                "location": "Aintree",
-                "title": "incident: building damage"
+                "sourceTitle": "South Gippsland Hwy",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "safe",
+                "created": "2025-12-01T11:59:00+11:00",
+                "updated": "2025-12-01T12:11:00+11:00",
+                "id": "ESTA:251200168",
+                "location": "South Gippsland Hwy, Korumburra",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.65779364459155,
-                    -37.7198067131776
+                    145.8612169187655,
+                    -38.44676941889653
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "on scene",
-                "created": "2025-12-01T09:20:47+11:00",
-                "updated": "2025-12-01T10:03:14+11:00",
-                "id": "ESTA:251250018",
-                "location": "Drouin South",
-                "title": "incident: tree down"
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "safe",
+                "created": "2025-12-01T11:44:00+11:00",
+                "updated": "2025-12-01T12:21:00+11:00",
+                "id": "ESTA:251200159",
+                "location": "Craigieburn",
+                "size": "Small",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.80625595493987,
-                    -38.19374347598679
+                    144.91480638113785,
+                    -37.58167022294645
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-12-01T11:10:00+11:00",
+                "updated": "2025-12-01T12:22:00+11:00",
+                "id": "ESTA:251200141",
+                "location": "Mount Moriac",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.21846419276636,
+                    -38.212112823322855
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Untitled",
+                "category": "rescue",
+                "subcategory": "washaway",
+                "status": "under control",
+                "created": "2025-12-01T12:15:00+11:00",
+                "updated": "2025-12-01T12:25:00+11:00",
+                "id": "ESTA:251200178",
+                "location": "Warrenheip",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.93187311487142,
+                    -37.56354101509965
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Academy Av",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-12-01T12:12:00+11:00",
+                "updated": "2025-12-01T12:27:00+11:00",
+                "id": "ESTA:251200177",
+                "location": "Academy Av, Wheelers Hill",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.16813743587682,
+                    -37.90806752257023
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mountain Hwy",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "not yet under control",
+                "created": "2025-12-01T12:35:00+11:00",
+                "updated": "2025-12-01T12:35:00+11:00",
+                "id": "ESTA:251200185",
+                "location": "Mountain Hwy, Wantirna",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.22768982174534,
+                    -37.848914540339976
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Main St",
+                "category": "fire",
+                "subcategory": "building fire",
+                "status": "responding",
+                "created": "2025-12-01T12:40:00+11:00",
+                "updated": "2025-12-01T12:40:00+11:00",
+                "id": "ESTA:251200187",
+                "location": "Main St, Mornington",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.03722423291472,
+                    -38.216745940959335
                 ]
             }
         },
@@ -19858,21 +20052,109 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue vehicle into structure",
+                "status": "on scene",
+                "created": "2025-12-01T11:28:53+11:00",
+                "updated": "2025-12-01T11:59:16+11:00",
+                "id": "ESTA:251250028",
+                "location": "Cranbourne East",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.31847294096326,
+                    -38.118893169848604
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
                 "category": "tree down",
                 "subcategory": "tree down",
                 "status": "request for assistance",
-                "created": "2025-12-01T10:15:45+11:00",
-                "updated": "2025-12-01T10:18:47+11:00",
-                "id": "ESTA:251250023",
-                "location": "Caulfield North",
+                "created": "2025-12-01T12:10:52+11:00",
+                "updated": "2025-12-01T12:15:46+11:00",
+                "id": "ESTA:251250031",
+                "location": "Heathmont",
                 "title": "incident: tree down"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.03154107981695,
-                    -37.86852582523144
+                    145.24543461056095,
+                    -37.8257398903287
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "on scene",
+                "created": "2025-12-01T11:57:17+11:00",
+                "updated": "2025-12-01T12:27:48+11:00",
+                "id": "ESTA:251250030",
+                "location": "Hastings",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.14590070741454,
+                    -38.30009347373217
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "tree down",
+                "subcategory": "tree down",
+                "status": "request for assistance",
+                "created": "2025-12-01T12:28:43+11:00",
+                "updated": "2025-12-01T12:30:22+11:00",
+                "id": "ESTA:251250035",
+                "location": "Ringwood",
+                "title": "incident: tree down"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.25412179645537,
+                    -37.78879304731518
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Undefined",
+                "category": "rescue",
+                "subcategory": "rescue road trap",
+                "status": "complete",
+                "created": "2025-12-01T12:04:02+11:00",
+                "updated": "2025-12-01T12:31:38+11:00",
+                "id": "ESTA:251200172",
+                "location": "Quarry Hill",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.28616213935035,
+                    -36.76931947152272
                 ]
             }
         }
