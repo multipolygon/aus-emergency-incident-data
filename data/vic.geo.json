@@ -9,6 +9,68 @@
                     {
                         "type": "Point",
                         "coordinates": [
+                            146.44816579098926,
+                            -35.99160051031168
+                        ]
+                    },
+                    {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    146.4146059917897,
+                                    -35.98535189430484
+                                ],
+                                [
+                                    146.43778027768496,
+                                    -35.97493349940765
+                                ],
+                                [
+                                    146.48412884945753,
+                                    -35.990907809181245
+                                ],
+                                [
+                                    146.46953763241504,
+                                    -36.006184557544145
+                                ],
+                                [
+                                    146.44224347348768,
+                                    -36.00826752121571
+                                ],
+                                [
+                                    146.41220273252097,
+                                    -36.00715661410623
+                                ],
+                                [
+                                    146.4146059917897,
+                                    -35.98535189430484
+                                ]
+                            ]
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "feedType": "warning",
+                "sourceTitle": "Community Information",
+                "category": "community update",
+                "subcategory": "fire",
+                "status": "unknown",
+                "created": "2025-12-15T14:32:36+11:00",
+                "updated": "2025-12-15T14:32:37+11:00",
+                "id": "38694",
+                "location": "Glencoe Road, Hopefield NSW",
+                "title": "warning: community update"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
                             145.76140507356365,
                             -38.24148493490807
                         ]
@@ -269,52 +331,6 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Patchewollock - Baring South Road",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2025-12-04T13:17:00+11:00",
-                "updated": "2025-12-04T13:17:00+11:00",
-                "id": 102622043,
-                "location": "9Km Sw Of Patchewollock",
-                "size": "522.00",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    142.10541888169595,
-                    -35.42421784327983
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Martins Creek - Serpentine Link Tk",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "created": "2025-12-12T16:00:00+11:00",
-                "updated": "2025-12-12T16:00:00+11:00",
-                "id": 102645008,
-                "location": "2Km Nw Of Martins Creek",
-                "size": "0.50",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.57535194122673,
-                    -37.39223432536378
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
                 "sourceTitle": "Tubbut - Bowen Track",
                 "category": "fire",
                 "subcategory": "bushfire",
@@ -361,22 +377,91 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glenroy",
+                "sourceTitle": "Nutmeg Cl",
                 "category": "fire",
-                "subcategory": "non structure fire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2025-12-15T14:06:05+11:00",
-                "updated": "2025-12-15T14:08:45+11:00",
-                "id": "ESTA:251208898",
-                "location": "Glenroy Rd, Glenroy",
+                "created": "2025-12-15T14:58:00+11:00",
+                "updated": "2025-12-15T15:11:00+11:00",
+                "id": "ESTA:251208921",
+                "location": "Nutmeg Cl, Berwick",
+                "size": "Small",
                 "title": "incident: fire"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.93429727359688,
-                    -37.70715618823362
+                    145.3588133927822,
+                    -38.075350719528565
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Quamby Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-12-15T15:11:00+11:00",
+                "updated": "2025-12-15T15:13:00+11:00",
+                "id": "ESTA:251208929",
+                "location": "Quamby Rd, Dobie",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.04181083803988,
+                    -37.3530860813741
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Maradona Bvd",
+                "category": "rescue",
+                "subcategory": "road accident",
+                "status": "responding",
+                "created": "2025-12-15T15:16:00+11:00",
+                "updated": "2025-12-15T15:16:00+11:00",
+                "id": "ESTA:251208940",
+                "location": "Maradona Bvd, Deanside",
+                "size": "Small",
+                "title": "incident: rescue"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.71246133884284,
+                    -37.723169615122146
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Mildura",
+                "category": "fire",
+                "subcategory": "non structure fire",
+                "status": "safe",
+                "created": "2025-12-15T15:06:45+11:00",
+                "updated": "2025-12-15T15:16:55+11:00",
+                "id": "ESTA:251208928",
+                "location": "Boyden St, Mildura",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.1553498137218,
+                    -34.19250398412836
                 ]
             }
         },
@@ -384,58 +469,35 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
-                "status": "complete",
-                "created": "2025-12-15T13:25:55+11:00",
-                "updated": "2025-12-15T14:09:25+11:00",
-                "id": "ESTA:251251247",
-                "location": "Torquay",
-                "title": "incident: tree down"
+                "category": "flooding",
+                "subcategory": "flooding",
+                "status": "request for assistance",
+                "created": "2025-12-15T15:18:36+11:00",
+                "updated": "2025-12-15T15:20:52+11:00",
+                "id": "ESTA:251251259",
+                "location": "Highett",
+                "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.3539796276282,
-                    -38.30635036603564
+                    145.03780561056382,
+                    -37.9524034793145
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Glencoe Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2025-12-15T13:05:00+11:00",
-                "updated": "2025-12-15T13:05:00+11:00",
-                "id": "ESTA:251208848",
-                "location": "Glencoe Rd, Hopefield (Nsw)",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.45336852654216,
-                    -35.920871319072795
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Hornbuckle Rd",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "safe",
-                "created": "2025-12-15T14:06:00+11:00",
-                "updated": "2025-12-15T14:15:00+11:00",
-                "id": "ESTA:251208897",
-                "location": "Sale",
+                "status": "not yet under control",
+                "created": "2025-12-15T13:58:00+11:00",
+                "updated": "2025-12-15T15:21:00+11:00",
+                "id": "ESTA:251208892",
+                "location": "Hornbuckle Rd, Catani",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -443,54 +505,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.0657508147553,
-                    -38.11143388705876
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beaconsfield-Emerald Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "responding",
-                "created": "2025-12-15T14:14:00+11:00",
-                "updated": "2025-12-15T14:14:00+11:00",
-                "id": "ESTA:251208902",
-                "location": "Beaconsfield-Emerald Rd, Dewhurst",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.45967729551637,
-                    -37.97996272440262
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Brushy Park Rd",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-12-15T13:11:00+11:00",
-                "updated": "2025-12-15T13:42:00+11:00",
-                "id": "ESTA:251208855",
-                "location": "Brushy Park Rd, Wonga Park",
-                "size": "Small",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.281650980311,
-                    -37.74161325931667
+                    145.65459068506746,
+                    -38.192175392527005
                 ]
             }
         },
@@ -1865,28 +1881,6 @@
             }
         },
         {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Wakool Rd, Deniliquin",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "responding",
-                "created": "2025-12-15T12:32:00+11:00",
-                "updated": "2025-12-15T12:32:00+11:00",
-                "id": "2025-12-15T12:32:00.0000000:636259",
-                "location": "Wakool Rd, Deniliquin 2710",
-                "title": "incident: fire"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    144.846588135,
-                    -35.4934844969999
-                ]
-            }
-        },
-        {
             "type": "Feature",
             "properties": {
                 "feedType": "incident",
@@ -1977,6 +1971,50 @@
                             -35.684216261
                         ]
                     }
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Bretton Rd, Splitters Creek",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "responding",
+                "created": "2025-12-15T15:10:00+11:00",
+                "updated": "2025-12-15T15:10:00+11:00",
+                "id": "2025-12-15T15:10:00.0000000:636281",
+                "location": "Bretton Rd, Splitters Creek 2640",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.840744019,
+                    -36.051147461
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Schoffs Lane, Culcairn",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "created": "2025-12-15T15:01:00+11:00",
+                "updated": "2025-12-15T15:01:00+11:00",
+                "id": "2025-12-15T15:01:00.0000000:636276",
+                "location": "Schoffs Lane, Culcairn 2660",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    146.984146118,
+                    -35.700546265
                 ]
             }
         },
@@ -2118,10 +2156,10 @@
                 "sourceTitle": "Glencoe Rd, Hopefield",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "not yet controlled",
-                "created": "2025-12-15T13:58:00+11:00",
-                "updated": "2025-12-15T13:58:00+11:00",
-                "id": "2025-12-15T13:58:00.0000000:636265",
+                "status": "being controlled",
+                "created": "2025-12-15T14:14:00+11:00",
+                "updated": "2025-12-15T14:14:00+11:00",
+                "id": "2025-12-15T14:14:00.0000000:636265",
                 "location": "283 Glencoe Rd, Hopefield 2646",
                 "title": "incident: fire"
             },
@@ -30208,14 +30246,14 @@
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Brushy Park Rd",
+                "sourceTitle": "Glencoe Rd",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "safe",
-                "created": "2025-12-15T12:47:00+11:00",
-                "updated": "2025-12-15T13:18:00+11:00",
-                "id": "ESTA:251208837",
-                "location": "Brushy Park Rd, Wonga Park",
+                "status": "responding",
+                "created": "2025-12-15T13:05:00+11:00",
+                "updated": "2025-12-15T13:05:00+11:00",
+                "id": "ESTA:251208848",
+                "location": "Glencoe Rd, Hopefield (Nsw)",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -30223,68 +30261,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.281650980311,
-                    -37.74161325931667
+                    146.45336852654216,
+                    -35.920871319072795
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Ozone Rd",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-12-15T13:29:00+11:00",
-                "updated": "2025-12-15T13:30:00+11:00",
-                "id": "ESTA:251208872",
-                "location": "Ozone Rd, Bayswater",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.2626631210698,
-                    -37.85026497177272
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Overend Cr",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-12-15T13:36:00+11:00",
-                "updated": "2025-12-15T13:38:00+11:00",
-                "id": "ESTA:251208880",
-                "location": "Overend Cr, Sale",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    147.0726144498497,
-                    -38.09640561035671
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Untitled",
+                "sourceTitle": "Queen St",
                 "category": "fire",
-                "subcategory": "bushfire",
+                "subcategory": "other",
                 "status": "safe",
-                "created": "2025-12-15T13:00:00+11:00",
-                "updated": "2025-12-15T13:41:00+11:00",
-                "id": "ESTA:251208845",
-                "location": "Mount Bute",
+                "created": "2025-12-15T14:20:00+11:00",
+                "updated": "2025-12-15T14:28:00+11:00",
+                "id": "ESTA:251208906",
+                "location": "Queen St, Horsham",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -30292,45 +30284,22 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.43549079318672,
-                    -37.8767463099326
+                    142.199606371117,
+                    -36.701715494076765
                 ]
             }
         },
         {
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "Untitled",
-                "category": "other",
-                "subcategory": "other",
-                "status": "safe",
-                "created": "2025-12-15T10:08:00+11:00",
-                "updated": "2025-12-15T13:57:00+11:00",
-                "id": "ESTA:251208738",
-                "location": "Kaniva",
-                "size": "Small",
-                "title": "incident: other"
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    141.31044352751292,
-                    -36.196507330403776
-                ]
-            }
-        },
-        {
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Hornbuckle Rd",
+                "sourceTitle": "Liverpool Rd",
                 "category": "fire",
                 "subcategory": "other",
                 "status": "under control",
-                "created": "2025-12-15T13:58:00+11:00",
-                "updated": "2025-12-15T13:59:00+11:00",
-                "id": "ESTA:251208892",
-                "location": "Hornbuckle Rd, Catani",
+                "created": "2025-12-15T14:16:00+11:00",
+                "updated": "2025-12-15T14:32:00+11:00",
+                "id": "ESTA:251208903",
+                "location": "Liverpool Rd, Kilsyth",
                 "size": "Small",
                 "title": "incident: fire"
             },
@@ -30338,8 +30307,77 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.65459068506746,
-                    -38.192175392527005
+                    145.31648522039785,
+                    -37.81349317958578
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Beaconsfield-Emerald Rd",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-12-15T14:14:00+11:00",
+                "updated": "2025-12-15T14:34:00+11:00",
+                "id": "ESTA:251208902",
+                "location": "Beaconsfield-Emerald Rd, Dewhurst",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.45967729551637,
+                    -37.97996272440262
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Belgrave-Hallam Rd",
+                "category": "other",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-12-15T14:40:00+11:00",
+                "updated": "2025-12-15T14:55:00+11:00",
+                "id": "ESTA:251208916",
+                "location": "Belgrave-Hallam Rd, Narre Warren East",
+                "size": "Small",
+                "title": "incident: other"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.3465118633187,
+                    -37.9572657645641
+                ]
+            }
+        },
+        {
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Liberty Av",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "safe",
+                "created": "2025-12-15T15:01:00+11:00",
+                "updated": "2025-12-15T15:08:00+11:00",
+                "id": "ESTA:251208924",
+                "location": "Liberty Av, Rowville",
+                "size": "Small",
+                "title": "incident: fire"
+            },
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.24294332063155,
+                    -37.93065689197478
                 ]
             }
         },
@@ -30347,21 +30385,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "flooding",
+                "subcategory": "flooding",
                 "status": "request for assistance",
-                "created": "2025-12-15T13:27:14+11:00",
-                "updated": "2025-12-15T13:30:30+11:00",
-                "id": "ESTA:251251248",
-                "location": "Malvern East",
-                "title": "incident: tree down"
+                "created": "2025-12-15T14:29:19+11:00",
+                "updated": "2025-12-15T14:31:33+11:00",
+                "id": "ESTA:251251252",
+                "location": "Shepparton North",
+                "title": "incident: flooding"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.05703918410993,
-                    -37.871130378201
+                    145.41557480873257,
+                    -36.31273421234044
                 ]
             }
         },
@@ -30370,20 +30408,20 @@
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
                 "category": "rescue",
-                "subcategory": "rescue road trap",
+                "subcategory": "rescue vehicle into structure",
                 "status": "on scene",
-                "created": "2025-12-15T13:25:13+11:00",
-                "updated": "2025-12-15T13:39:46+11:00",
-                "id": "ESTA:251208868",
-                "location": "Kennington",
+                "created": "2025-12-15T14:50:13+11:00",
+                "updated": "2025-12-15T15:20:14+11:00",
+                "id": "ESTA:251251254",
+                "location": "Burwood",
                 "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    144.30853900657902,
-                    -36.77519928311296
+                    145.10836336642092,
+                    -37.85706982832984
                 ]
             }
         },
@@ -30391,21 +30429,21 @@
             "properties": {
                 "feedType": "incident",
                 "sourceTitle": "Undefined",
-                "category": "tree down",
-                "subcategory": "tree down",
+                "category": "rescue",
+                "subcategory": "rescue persons trapped",
                 "status": "request for assistance",
-                "created": "2025-12-15T14:00:54+11:00",
-                "updated": "2025-12-15T14:02:52+11:00",
-                "id": "ESTA:251251250",
-                "location": "Newhaven",
-                "title": "incident: tree down"
+                "created": "2025-12-15T15:14:11+11:00",
+                "updated": "2025-12-15T15:24:46+11:00",
+                "id": "ESTA:251251258",
+                "location": "Glenroy",
+                "title": "incident: rescue"
             },
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    145.3279592592356,
-                    -38.50748824767743
+                    144.93015287146847,
+                    -37.69916779110317
                 ]
             }
         }
