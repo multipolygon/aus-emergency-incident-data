@@ -1873,10 +1873,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.86640930200008,
-                    -31.085180282999943
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.85567990900006,
+                            -31.077395811999963
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.854656741,
+                                            -31.086199818
+                                        ],
+                                        [
+                                            146.854751919,
+                                            -31.0797990679999
+                                        ],
+                                        [
+                                            146.852253484,
+                                            -31.0665692649999
+                                        ],
+                                        [
+                                            146.854014286,
+                                            -31.0664978799999
+                                        ],
+                                        [
+                                            146.854728124,
+                                            -31.0688535469999
+                                        ],
+                                        [
+                                            146.856584104,
+                                            -31.07594434
+                                        ],
+                                        [
+                                            146.857535888,
+                                            -31.077705142
+                                        ],
+                                        [
+                                            146.858582851,
+                                            -31.081631253
+                                        ],
+                                        [
+                                            146.85805937,
+                                            -31.085914283
+                                        ],
+                                        [
+                                            146.857250353,
+                                            -31.087246781
+                                        ],
+                                        [
+                                            146.855656114,
+                                            -31.087508521
+                                        ],
+                                        [
+                                            146.854656741,
+                                            -31.086199818
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1886,11 +1951,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640157",
-                "created": "2026-01-06T14:39:00+11:00",
-                "updated": "2026-01-07T01:39:00+11:00",
+                "created": "2026-01-06T21:44:00+11:00",
+                "updated": "2026-01-07T08:44:00+11:00",
                 "location": "DONEYS RD, GIRILAMBONE 2831",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: DONEYS RD, GIRILAMBONE 2831 <br />COUNCIL AREA: Bogan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Jan 2026 01:39",
+                "size": 62,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: DONEYS RD, GIRILAMBONE 2831 <br />COUNCIL AREA: Bogan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 62 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Jan 2026 08:44",
                 "title": "incident: fire"
             }
         },
@@ -4047,49 +4112,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            147.661973899,
-                                            -35.916671456
-                                        ],
-                                        [
-                                            147.662188051,
-                                            -35.9160765899999
-                                        ],
-                                        [
-                                            147.662782916,
-                                            -35.9156720829999
-                                        ],
-                                        [
-                                            147.663401576,
-                                            -35.915576904
-                                        ],
-                                        [
-                                            147.663496755,
-                                            -35.915886233
-                                        ],
-                                        [
-                                            147.663330192,
-                                            -35.916338332
-                                        ],
-                                        [
-                                            147.662592559,
-                                            -35.9166476619999
-                                        ],
-                                        [
-                                            147.662259434,
-                                            -35.916695251
-                                        ],
-                                        [
-                                            147.661973899,
-                                            -35.916671456
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             147.677046712,
                                             -35.915173658
                                         ],
@@ -4144,6 +4166,49 @@
                                         [
                                             147.677046712,
                                             -35.915173658
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            147.661973899,
+                                            -35.916671456
+                                        ],
+                                        [
+                                            147.662188051,
+                                            -35.9160765899999
+                                        ],
+                                        [
+                                            147.662782916,
+                                            -35.9156720829999
+                                        ],
+                                        [
+                                            147.663401576,
+                                            -35.915576904
+                                        ],
+                                        [
+                                            147.663496755,
+                                            -35.915886233
+                                        ],
+                                        [
+                                            147.663330192,
+                                            -35.916338332
+                                        ],
+                                        [
+                                            147.662592559,
+                                            -35.9166476619999
+                                        ],
+                                        [
+                                            147.662259434,
+                                            -35.916695251
+                                        ],
+                                        [
+                                            147.661973899,
+                                            -35.916671456
                                         ]
                                     ]
                                 ]
@@ -5262,30 +5327,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.42324829100005,
-                    -33.23321914599995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "BURNET RD, WARNERVALE",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "responding",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640217",
-                "created": "2026-01-06T21:36:00+11:00",
-                "updated": "2026-01-07T08:36:00+11:00",
-                "location": "SUPERIOR FOOD GROUP, BURNET RD, WARNERVALE 2259",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SUPERIOR FOOD GROUP, BURNET RD, WARNERVALE 2259 <br />COUNCIL AREA: Central Coast <br />STATUS: Responding <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Jan 2026 08:36",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -5418,13 +5459,13 @@
                 "sourceTitle": "NOWENDOC RD, MOUNT GEORGE",
                 "category": "other",
                 "subcategory": "flood/storm/tree down",
-                "status": "responding",
+                "status": "not yet controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640215",
-                "created": "2026-01-06T21:17:00+11:00",
-                "updated": "2026-01-07T08:17:00+11:00",
+                "created": "2026-01-06T21:41:00+11:00",
+                "updated": "2026-01-07T08:41:00+11:00",
                 "location": "NOWENDOC RD, MOUNT GEORGE 2424",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NOWENDOC RD, MOUNT GEORGE 2424 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Responding <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Jan 2026 08:17",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NOWENDOC RD, MOUNT GEORGE 2424 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Not yet controlled <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Jan 2026 08:41",
                 "title": "incident: other"
             }
         },
