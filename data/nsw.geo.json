@@ -4,10 +4,51 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    145.61950439600002,
-                    -35.56556435699997
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            145.61802913000008,
+                            -35.56882897799994
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            145.618039825,
+                                            -35.568901363
+                                        ],
+                                        [
+                                            145.618920226,
+                                            -35.569175001
+                                        ],
+                                        [
+                                            145.618349155,
+                                            -35.570340937
+                                        ],
+                                        [
+                                            145.617480652,
+                                            -35.5701386819999
+                                        ],
+                                        [
+                                            145.617433062,
+                                            -35.5701386819999
+                                        ],
+                                        [
+                                            145.618039825,
+                                            -35.568901363
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -15,13 +56,13 @@
                 "sourceTitle": "(NEWELL HWY), FINLEY",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "not yet controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640445",
-                "created": "2026-01-08T06:15:00+11:00",
-                "updated": "2026-01-08T17:15:00+11:00",
+                "created": "2026-01-08T07:24:00+11:00",
+                "updated": "2026-01-08T18:24:00+11:00",
                 "location": "A39 (NEWELL HWY), FINLEY 2713",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: A39 (NEWELL HWY), FINLEY 2713 <br />COUNCIL AREA: Berrigan <br />STATUS: Not yet controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 17:15",
+                "size": 1,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: A39 (NEWELL HWY), FINLEY 2713 <br />COUNCIL AREA: Berrigan <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:24",
                 "title": "incident: fire"
             }
         },
@@ -52,34 +93,63 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.04100000000005,
-                    -34.33119999999997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Beaumont Rd, Hanwood",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640441",
-                "created": "2026-01-08T06:00:00+11:00",
-                "updated": "2026-01-08T17:00:00+11:00",
-                "location": "Beaumont Rd, Hanwood, NSW 2680",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Beaumont Rd, Hanwood, NSW 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Jan 2026 17:00",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.0280303950001,
-                    -34.33013153099995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.0280303950001,
+                            -34.33013153099995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.027846108,
+                                            -34.3298525399999
+                                        ],
+                                        [
+                                            146.029154811,
+                                            -34.3299953069999
+                                        ],
+                                        [
+                                            146.028893071,
+                                            -34.3313278059999
+                                        ],
+                                        [
+                                            146.030915612,
+                                            -34.331613342
+                                        ],
+                                        [
+                                            146.03070146,
+                                            -34.332755483
+                                        ],
+                                        [
+                                            146.025300084,
+                                            -34.332017849
+                                        ],
+                                        [
+                                            146.025561825,
+                                            -34.330280843
+                                        ],
+                                        [
+                                            146.027608161,
+                                            -34.330590173
+                                        ],
+                                        [
+                                            146.027846108,
+                                            -34.3298525399999
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -87,13 +157,13 @@
                 "sourceTitle": "BEAUMONT RD, HANWOOD",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "not yet controlled",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640443",
-                "created": "2026-01-08T06:16:00+11:00",
-                "updated": "2026-01-08T17:16:00+11:00",
+                "created": "2026-01-08T07:24:00+11:00",
+                "updated": "2026-01-08T18:24:00+11:00",
                 "location": "BEAUMONT RD, HANWOOD 2680",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BEAUMONT RD, HANWOOD 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Not yet controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 17:16",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BEAUMONT RD, HANWOOD 2680 <br />COUNCIL AREA: Griffith <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:24",
                 "title": "incident: fire"
             }
         },
@@ -929,13 +999,13 @@
                 "sourceTitle": "BLUE HILL RD, GOLSPIE",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet controlled",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640421",
-                "created": "2026-01-08T04:32:00+11:00",
-                "updated": "2026-01-08T15:32:00+11:00",
+                "created": "2026-01-08T07:26:00+11:00",
+                "updated": "2026-01-08T18:26:00+11:00",
                 "location": "BLUE HILL RD, GOLSPIE 2580",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BLUE HILL RD, GOLSPIE 2580 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 15:32",
+                "size": 3,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BLUE HILL RD, GOLSPIE 2580 <br />COUNCIL AREA: Upper Lachlan <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:26",
                 "title": "incident: fire"
             }
         },
@@ -959,96 +1029,216 @@
                                 "coordinates": [
                                     [
                                         [
-                                            149.7455706,
-                                            -36.235798181
+                                            149.736787178,
+                                            -36.2294372769999
                                         ],
                                         [
-                                            149.744599779,
-                                            -36.236159858
+                                            149.736965638,
+                                            -36.229883425
                                         ],
                                         [
-                                            149.742658139,
-                                            -36.2361217869999
+                                            149.738066138,
+                                            -36.2295265069999
                                         ],
                                         [
-                                            149.74075457,
-                                            -36.2355697519999
+                                            149.739345098,
+                                            -36.2292885599999
                                         ],
                                         [
-                                            149.737785003,
-                                            -36.234484718
+                                            149.741605587,
+                                            -36.230032141
                                         ],
                                         [
-                                            149.734263401,
-                                            -36.2337232909999
+                                            149.743568643,
+                                            -36.2311028999999
                                         ],
                                         [
-                                            149.732873794,
-                                            -36.2334758269999
+                                            149.743925561,
+                                            -36.2329469809999
                                         ],
                                         [
-                                            149.73175069,
-                                            -36.23315222
+                                            149.743538899,
+                                            -36.234285429
                                         ],
                                         [
-                                            149.730875048,
-                                            -36.2324669349999
+                                            149.742616857,
+                                            -36.234374658
                                         ],
                                         [
-                                            149.730265905,
-                                            -36.232238507
+                                            149.741754303,
+                                            -36.2349992659999
                                         ],
                                         [
-                                            149.730208799,
-                                            -36.23151515
+                                            149.741070208,
+                                            -36.235475159
                                         ],
                                         [
-                                            149.730722762,
-                                            -36.2304491519999
+                                            149.740386113,
+                                            -36.235475159
                                         ],
                                         [
-                                            149.731674546,
-                                            -36.229249904
+                                            149.739196382,
+                                            -36.2349397799999
                                         ],
                                         [
-                                            149.733083187,
-                                            -36.228431369
+                                            149.738571774,
+                                            -36.234969524
                                         ],
                                         [
-                                            149.734644113,
-                                            -36.227955477
+                                            149.737679475,
+                                            -36.235177726
                                         ],
                                         [
-                                            149.736395397,
-                                            -36.2277841549999
+                                            149.737173841,
+                                            -36.2352372129999
                                         ],
                                         [
-                                            149.738451252,
-                                            -36.227879335
+                                            149.736430258,
+                                            -36.234969524
                                         ],
                                         [
-                                            149.741801533,
-                                            -36.228907261
+                                            149.736132826,
+                                            -36.2346720909999
                                         ],
                                         [
-                                            149.744866279,
-                                            -36.23023976
+                                            149.736400517,
+                                            -36.234106969
                                         ],
                                         [
-                                            149.74574192,
-                                            -36.2315532219999
+                                            149.735746164,
+                                            -36.2341961979999
                                         ],
                                         [
-                                            149.746103598,
-                                            -36.2329428269999
+                                            149.734824123,
+                                            -36.2340474819999
                                         ],
                                         [
-                                            149.74604649,
-                                            -36.234408576
+                                            149.734734893,
+                                            -36.233690563
                                         ],
                                         [
-                                            149.7455706,
-                                            -36.235798181
+                                            149.734556433,
+                                            -36.233928509
+                                        ],
+                                        [
+                                            149.734615919,
+                                            -36.23449363
+                                        ],
+                                        [
+                                            149.734050799,
+                                            -36.2348505489999
+                                        ],
+                                        [
+                                            149.733545162,
+                                            -36.234344915
+                                        ],
+                                        [
+                                            149.733217987,
+                                            -36.234166455
+                                        ],
+                                        [
+                                            149.733188244,
+                                            -36.23339313
+                                        ],
+                                        [
+                                            149.732028256,
+                                            -36.2333633869999
+                                        ],
+                                        [
+                                            149.73179031,
+                                            -36.2341069679999
+                                        ],
+                                        [
+                                            149.731552364,
+                                            -36.234701835
+                                        ],
+                                        [
+                                            149.730927756,
+                                            -36.2353859299999
+                                        ],
+                                        [
+                                            149.730392377,
+                                            -36.236099767
+                                        ],
+                                        [
+                                            149.729500079,
+                                            -36.2358618219999
+                                        ],
+                                        [
+                                            149.729291876,
+                                            -36.2353561849999
+                                        ],
+                                        [
+                                            149.72878624,
+                                            -36.2356238749999
+                                        ],
+                                        [
+                                            149.72869701,
+                                            -36.236010537
+                                        ],
+                                        [
+                                            149.728191376,
+                                            -36.2364566859999
+                                        ],
+                                        [
+                                            149.727269334,
+                                            -36.23648643
+                                        ],
+                                        [
+                                            149.726436523,
+                                            -36.236337713
+                                        ],
+                                        [
+                                            149.72631755,
+                                            -36.236010537
+                                        ],
+                                        [
+                                            149.725187305,
+                                            -36.235891564
+                                        ],
+                                        [
+                                            149.723908345,
+                                            -36.2354454159999
+                                        ],
+                                        [
+                                            149.723670399,
+                                            -36.2349992659999
+                                        ],
+                                        [
+                                            149.723551426,
+                                            -36.233690563
+                                        ],
+                                        [
+                                            149.724413981,
+                                            -36.231816738
+                                        ],
+                                        [
+                                            149.727537024,
+                                            -36.2316382779999
+                                        ],
+                                        [
+                                            149.72878624,
+                                            -36.2308946969999
+                                        ],
+                                        [
+                                            149.731433392,
+                                            -36.2296454799999
+                                        ],
+                                        [
+                                            149.732087742,
+                                            -36.228782925
+                                        ],
+                                        [
+                                            149.734199514,
+                                            -36.2280690869999
+                                        ],
+                                        [
+                                            149.735894881,
+                                            -36.2286936949999
+                                        ],
+                                        [
+                                            149.736787178,
+                                            -36.2294372769999
                                         ]
                                     ]
                                 ]
@@ -1062,13 +1252,13 @@
                 "sourceTitle": "BRASSKNOCKER FIRETRAIL, YOWRIE",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet controlled",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640253",
-                "created": "2026-01-08T04:14:00+11:00",
-                "updated": "2026-01-08T15:14:00+11:00",
+                "created": "2026-01-08T07:22:00+11:00",
+                "updated": "2026-01-08T18:22:00+11:00",
                 "location": "BRASSKNOCKER FIRETRAIL, YOWRIE 2550",
-                "size": 91,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BRASSKNOCKER FIRETRAIL, YOWRIE 2550 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 91 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 8 Jan 2026 15:14",
+                "size": 101,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BRASSKNOCKER FIRETRAIL, YOWRIE 2550 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 101 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 8 Jan 2026 18:22",
                 "title": "incident: fire"
             }
         },
@@ -1920,11 +2110,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/638848",
-                "created": "2026-01-08T04:44:00+11:00",
-                "updated": "2026-01-08T15:44:00+11:00",
+                "created": "2026-01-08T07:05:00+11:00",
+                "updated": "2026-01-08T18:05:00+11:00",
                 "location": "DONNYBROOK FIRETRAIL, WOODSIDE 2372",
                 "size": 730,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: DONNYBROOK FIRETRAIL, WOODSIDE 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 730 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 15:44",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: DONNYBROOK FIRETRAIL, WOODSIDE 2372 <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 730 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:05",
                 "title": "incident: fire"
             }
         },
@@ -2892,13 +3082,13 @@
                 "sourceTitle": "Old Homestead Dr, Dubbo",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640435",
-                "created": "2026-01-08T05:53:00+11:00",
-                "updated": "2026-01-08T16:53:00+11:00",
+                "created": "2026-01-08T07:01:00+11:00",
+                "updated": "2026-01-08T18:01:00+11:00",
                 "location": "Old Homestead Dr, Dubbo, NSW 2830",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Old Homestead Dr, Dubbo, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Jan 2026 16:53",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Old Homestead Dr, Dubbo, NSW 2830 <br />COUNCIL AREA: Dubbo Regional <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Jan 2026 18:01",
                 "title": "incident: fire"
             }
         },
@@ -4056,11 +4246,11 @@
                 "subcategory": "bushfire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640416",
-                "created": "2026-01-08T06:48:00+11:00",
-                "updated": "2026-01-08T17:48:00+11:00",
+                "created": "2026-01-08T07:20:00+11:00",
+                "updated": "2026-01-08T18:20:00+11:00",
                 "location": "RETREAT RD, BALALA 2358",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: RETREAT RD, BALALA 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 17:48",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: RETREAT RD, BALALA 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:20",
                 "title": "incident: fire"
             }
         },
@@ -4125,11 +4315,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640429",
-                "created": "2026-01-08T06:16:00+11:00",
-                "updated": "2026-01-08T17:16:00+11:00",
+                "created": "2026-01-08T07:28:00+11:00",
+                "updated": "2026-01-08T18:28:00+11:00",
                 "location": "SPURRELLS RD, PLEASANT HILLS 2658",
                 "size": 11,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: SPURRELLS RD, PLEASANT HILLS 2658 <br />COUNCIL AREA: Lockhart <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 11 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 17:16",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: SPURRELLS RD, PLEASANT HILLS 2658 <br />COUNCIL AREA: Lockhart <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 11 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:28",
                 "title": "incident: fire"
             }
         },
@@ -4601,30 +4791,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.84161600000004,
-                    -29.471239999999966
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Victoria Tce, Moree",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640446",
-                "created": "2026-01-08T06:32:00+11:00",
-                "updated": "2026-01-08T17:32:00+11:00",
-                "location": "Victoria Tce, Moree, NSW 2400",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Victoria Tce, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Jan 2026 17:32",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -4724,30 +4890,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.17768859900002,
-                    -35.702896117999956
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "(PRINCES HWY), BATEMANS BAY",
-                "category": "fire",
-                "subcategory": "car fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640454",
-                "created": "2026-01-08T06:54:00+11:00",
-                "updated": "2026-01-08T17:54:00+11:00",
-                "location": "A1 (PRINCES HWY), BATEMANS BAY 2536",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: A1 (PRINCES HWY), BATEMANS BAY 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 8 Jan 2026 17:54",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     146.95570373500004,
                     -36.07159423899998
                 ]
@@ -4812,6 +4954,54 @@
                 "location": "BAROOGA TOCUMWAL RD, BAROOGA 3644",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BAROOGA TOCUMWAL RD, BAROOGA 3644 <br />COUNCIL AREA: Berrigan <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 7 Jan 2026 15:45",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.89572143600003,
+                    -29.463905333999946
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BEZZANTS RD, DEEPWATER",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "not yet controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640458",
+                "created": "2026-01-08T07:31:00+11:00",
+                "updated": "2026-01-08T18:31:00+11:00",
+                "location": "BEZZANTS RD, DEEPWATER 2371",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BEZZANTS RD, DEEPWATER 2371 <br />COUNCIL AREA: Glen Innes Severn <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:31",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.36331176700003,
+                    -32.07408904999994
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "CANDOORMAKH CREEK RD, NABIAC",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640452",
+                "created": "2026-01-08T07:26:00+11:00",
+                "updated": "2026-01-08T18:26:00+11:00",
+                "location": "CANDOORMAKH CREEK RD, NABIAC 2312",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CANDOORMAKH CREEK RD, NABIAC 2312 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:26",
                 "title": "incident: fire"
             }
         },
@@ -4933,6 +5123,30 @@
                 "location": "COULSONS CREEK RD, MERRIWA 2329",
                 "size": 4,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: COULSONS CREEK RD, MERRIWA 2329 <br />COUNCIL AREA: Upper Hunter <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 00:59",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.63955688500005,
+                    -34.28258895899995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "FWY HUME (SOUTHBOUND) HWY",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "not yet controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640455",
+                "created": "2026-01-08T07:16:00+11:00",
+                "updated": "2026-01-08T18:16:00+11:00",
+                "location": "F5 FWY HUME (SOUTHBOUND) HWY, PHEASANTS NEST SOUTH 2574",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: F5 FWY HUME (SOUTHBOUND) HWY, PHEASANTS NEST SOUTH 2574 <br />COUNCIL AREA: Wollondilly <br />STATUS: Not yet controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:16",
                 "title": "incident: fire"
             }
         },
@@ -5102,23 +5316,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.17666626000005,
-                    -35.68545913699995
+                    150.202407837,
+                    -33.52962875299994
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "KINGS HWY, BATEMANS BAY",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640448",
-                "created": "2026-01-08T06:39:00+11:00",
-                "updated": "2026-01-08T17:39:00+11:00",
-                "location": "KINGS HWY, BATEMANS BAY 2536",
+                "sourceTitle": "HARTLEY VALE RD, HARTLEY VALE",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640459",
+                "created": "2026-01-08T07:32:00+11:00",
+                "updated": "2026-01-08T18:32:00+11:00",
+                "location": "HARTLEY VALE RD, HARTLEY VALE 2790",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: KINGS HWY, BATEMANS BAY 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 17:39",
-                "title": "incident: fire"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: HARTLEY VALE RD, HARTLEY VALE 2790 <br />COUNCIL AREA: Lithgow <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:32",
+                "title": "incident: other"
             }
         },
         {
@@ -5159,13 +5373,13 @@
                 "sourceTitle": "Murray River Rd Talmalmo Fire",
                 "category": "fire",
                 "subcategory": "other",
-                "status": "not yet controlled",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640420",
-                "created": "2026-01-08T04:45:00+11:00",
-                "updated": "2026-01-08T15:45:00+11:00",
+                "created": "2026-01-08T07:23:00+11:00",
+                "updated": "2026-01-08T18:23:00+11:00",
                 "location": "River Road Talmalmo",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: River Road Talmalmo <br />COUNCIL AREA: Greater Hume <br />STATUS: Not yet controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />MAJOR FIRE UPDATE AS AT 8 Jan 2026 5:03PM: <a href='https://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=12650' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 15:45",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: River Road Talmalmo <br />COUNCIL AREA: Greater Hume <br />STATUS: Being controlled <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />MAJOR FIRE UPDATE AS AT 8 Jan 2026 5:03PM: <a href='https://www.rfs.nsw.gov.au/fire-information/major-fire-updates/mfu?id=12650' target='_blank'> More information</a><br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:23",
                 "title": "incident: fire"
             }
         },
@@ -5174,23 +5388,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    151.8643798820001,
-                    -32.805740356999934
+                    151.53999328700002,
+                    -32.13198852599993
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "NELSON BAY RD",
-                "category": "other",
-                "subcategory": "assist other agency",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640444",
-                "created": "2026-01-08T06:22:00+11:00",
-                "updated": "2026-01-08T17:22:00+11:00",
-                "location": "BANKSIA GROVE VILLAGE, NELSON BAY RD, WILLIAMTOWN 2318",
+                "sourceTitle": "SALISBURY RD, SALISBURY",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640450",
+                "created": "2026-01-08T06:38:00+11:00",
+                "updated": "2026-01-08T17:38:00+11:00",
+                "location": "SALISBURY RD, SALISBURY 2420",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BANKSIA GROVE VILLAGE, NELSON BAY RD, WILLIAMTOWN 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 17:22",
-                "title": "incident: other"
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SALISBURY RD, SALISBURY 2420 <br />COUNCIL AREA: Dungog <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 17:38",
+                "title": "incident: fire"
             }
         },
         {
@@ -5383,22 +5597,94 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    143.33668518100012,
-                    -34.946510314999955
+                    150.61207580600012,
+                    -35.088394164999954
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "WAKOOL JUNCTION RD, GOODNIGHT",
-                "category": "fire",
-                "subcategory": "truck fire",
+                "sourceTitle": "THE WOOL RD, ST GEORGES BASIN",
+                "category": "other",
+                "subcategory": "mva/transport",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640417",
-                "created": "2026-01-08T06:28:00+11:00",
-                "updated": "2026-01-08T17:28:00+11:00",
-                "location": "WAKOOL JUNCTION RD, GOODNIGHT 2736",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640456",
+                "created": "2026-01-08T07:31:00+11:00",
+                "updated": "2026-01-08T18:31:00+11:00",
+                "location": "THE WOOL RD, ST GEORGES BASIN 2540",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WAKOOL JUNCTION RD, GOODNIGHT 2736 <br />COUNCIL AREA: Murray River <br />STATUS: Under control <br />TYPE: Truck Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 17:28",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: THE WOOL RD, ST GEORGES BASIN 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:31",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.4604187010001,
+                    -33.52273940999993
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "VALLEY RIDGES RD, BILPIN",
+                "category": "fire",
+                "subcategory": "bushfire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640457",
+                "created": "2026-01-08T07:19:00+11:00",
+                "updated": "2026-01-08T18:19:00+11:00",
+                "location": "VALLEY RIDGES RD, BILPIN 2758",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: VALLEY RIDGES RD, BILPIN 2758 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Responding <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:19",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.67196655200007,
+                    -31.482009887999936
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WERRIS CREEK RD, QUIRINDI",
+                "category": "other",
+                "subcategory": "mva/transport",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640449",
+                "created": "2026-01-08T07:07:00+11:00",
+                "updated": "2026-01-08T18:07:00+11:00",
+                "location": "WERRIS CREEK RD, QUIRINDI 2343",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WERRIS CREEK RD, QUIRINDI 2343 <br />COUNCIL AREA: Liverpool Plains <br />STATUS: Under control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 18:07",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.63482666000004,
+                    -31.031440733999943
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "WILLI WILLI RD, TEMAGOG",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640451",
+                "created": "2026-01-08T06:39:00+11:00",
+                "updated": "2026-01-08T17:39:00+11:00",
+                "location": "WILLI WILLI RD, TEMAGOG 2440",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WILLI WILLI RD, TEMAGOG 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Responding <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jan 2026 17:39",
                 "title": "incident: fire"
             }
         }
