@@ -314,6 +314,33 @@
                                 "coordinates": [
                                     [
                                         [
+                                            149.144278131,
+                                            -33.079874944
+                                        ],
+                                        [
+                                            149.144254337,
+                                            -33.079958225
+                                        ],
+                                        [
+                                            149.144087774,
+                                            -33.0799225329999
+                                        ],
+                                        [
+                                            149.144135364,
+                                            -33.079851149
+                                        ],
+                                        [
+                                            149.144278131,
+                                            -33.079874944
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
                                             149.143559205,
                                             -33.077730436
                                         ],
@@ -469,33 +496,6 @@
                                         [
                                             149.141720211,
                                             -33.077257537
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            149.144278131,
-                                            -33.079874944
-                                        ],
-                                        [
-                                            149.144254337,
-                                            -33.079958225
-                                        ],
-                                        [
-                                            149.144087774,
-                                            -33.0799225329999
-                                        ],
-                                        [
-                                            149.144135364,
-                                            -33.079851149
-                                        ],
-                                        [
-                                            149.144278131,
-                                            -33.079874944
                                         ]
                                     ]
                                 ]
@@ -7162,11 +7162,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/640850",
-                "created": "2026-01-11T04:48:00+11:00",
-                "updated": "2026-01-11T15:48:00+11:00",
+                "created": "2026-01-11T10:33:00+11:00",
+                "updated": "2026-01-11T21:33:00+11:00",
                 "location": "B52 (KINGS HWY), WARRI 2622",
-                "size": 108,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: B52 (KINGS HWY), WARRI 2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 108 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Jan 2026 15:48",
+                "size": 125,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: B52 (KINGS HWY), WARRI 2622 <br />COUNCIL AREA: Queanbeyan-Palerang <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 125 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Jan 2026 21:33",
                 "title": "incident: fire"
             }
         },
@@ -9873,10 +9873,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    148.31072998000002,
-                    -34.53911590599995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            148.31072998000002,
+                            -34.53911590599995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.310749255,
+                                            -34.539067496
+                                        ],
+                                        [
+                                            148.312153137,
+                                            -34.540054972
+                                        ],
+                                        [
+                                            148.312438672,
+                                            -34.540852092
+                                        ],
+                                        [
+                                            148.311724834,
+                                            -34.5424582279999
+                                        ],
+                                        [
+                                            148.311022893,
+                                            -34.542363049
+                                        ],
+                                        [
+                                            148.310249568,
+                                            -34.541280394
+                                        ],
+                                        [
+                                            148.310749255,
+                                            -34.539067496
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -9884,13 +9929,13 @@
                 "sourceTitle": "WILLOW GLEN RD, MURRUMBURRAH",
                 "category": "fire",
                 "subcategory": "bushfire",
-                "status": "not yet controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/641052",
-                "created": "2026-01-11T09:50:00+11:00",
-                "updated": "2026-01-11T20:50:00+11:00",
+                "created": "2026-01-11T11:08:00+11:00",
+                "updated": "2026-01-11T22:08:00+11:00",
                 "location": "WILLOW GLEN RD, MURRUMBURRAH 2587",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: WILLOW GLEN RD, MURRUMBURRAH 2587 <br />COUNCIL AREA: Hilltops <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Jan 2026 20:50",
+                "size": 5,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: WILLOW GLEN RD, MURRUMBURRAH 2587 <br />COUNCIL AREA: Hilltops <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 5 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 11 Jan 2026 22:08",
                 "title": "incident: fire"
             }
         },
