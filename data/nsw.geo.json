@@ -6018,10 +6018,55 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    146.08978271500007,
-                    -34.714366912999935
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            146.11830139500012,
+                            -34.704434995999975
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            146.117878741,
+                                            -34.702765868
+                                        ],
+                                        [
+                                            146.119282624,
+                                            -34.704193544
+                                        ],
+                                        [
+                                            146.117664589,
+                                            -34.707382023
+                                        ],
+                                        [
+                                            146.114452317,
+                                            -34.7131641129999
+                                        ],
+                                        [
+                                            146.114142988,
+                                            -34.712902372
+                                        ],
+                                        [
+                                            146.117997714,
+                                            -34.7056450159999
+                                        ],
+                                        [
+                                            146.117878741,
+                                            -34.702765868
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -6031,11 +6076,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/641532",
-                "created": "2026-01-15T13:04:00+11:00",
-                "updated": "2026-01-16T00:04:00+11:00",
+                "created": "2026-01-15T21:28:00+11:00",
+                "updated": "2026-01-16T08:28:00+11:00",
                 "location": "WALLACE RD, COLEAMBALLY 2707",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: WALLACE RD, COLEAMBALLY 2707 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2026 00:04",
+                "size": 6,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: WALLACE RD, COLEAMBALLY 2707 <br />COUNCIL AREA: Murrumbidgee <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 6 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2026 08:28",
                 "title": "incident: fire"
             }
         },
@@ -6221,30 +6266,6 @@
                 "size": 7,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BONDO SHORT CUT, TUMORRAMA 2720 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 7 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 15 Jan 2026 19:15",
                 "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    153.5829010010001,
-                    -28.80606651399995
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "CALOOLA RD, LENNOX HEAD",
-                "category": "other",
-                "subcategory": "fire alarm",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/641573",
-                "created": "2026-01-15T21:10:00+11:00",
-                "updated": "2026-01-16T08:10:00+11:00",
-                "location": "SDA PROPERTY, CALOOLA RD, LENNOX HEAD 2478",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SDA PROPERTY, CALOOLA RD, LENNOX HEAD 2478 <br />COUNCIL AREA: Ballina <br />STATUS: Being controlled <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2026 08:10",
-                "title": "incident: other"
             }
         },
         {
@@ -6461,6 +6482,30 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CESSNOCK WASTE DEPOT, OLD MAITLAND RD, CESSNOCK 2325 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2026 07:57",
                 "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.97642517100007,
+                    -36.72774887099996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "SANCTUARY PL, TATHRA",
+                "category": "other",
+                "subcategory": "flood/storm/tree down",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/641575",
+                "created": "2026-01-15T21:26:00+11:00",
+                "updated": "2026-01-16T08:26:00+11:00",
+                "location": "SANCTUARY PL, TATHRA 2550",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: SANCTUARY PL, TATHRA 2550 <br />COUNCIL AREA: Bega Valley <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 16 Jan 2026 08:26",
+                "title": "incident: other"
             }
         },
         {
