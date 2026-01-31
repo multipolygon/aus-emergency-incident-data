@@ -84,13 +84,13 @@
                 "sourceTitle": "Anne St, Moree",
                 "category": "fire",
                 "subcategory": "grass fire",
-                "status": "not yet controlled",
+                "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/644498",
-                "created": "2026-01-31T21:10:00+11:00",
-                "updated": "2026-02-01T08:10:00+11:00",
+                "created": "2026-01-31T21:32:00+11:00",
+                "updated": "2026-02-01T08:32:00+11:00",
                 "location": "Anne St, Moree, NSW 2400",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: Anne St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Not yet controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Feb 2026 08:10",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Anne St, Moree, NSW 2400 <br />COUNCIL AREA: Moree Plains <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Feb 2026 08:32",
                 "title": "incident: fire"
             }
         },
@@ -1463,10 +1463,99 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.26298522900004,
-                    -32.45280456599994
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            150.2589874260001,
+                            -32.45082473699995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.260458676,
+                                            -32.452600725
+                                        ],
+                                        [
+                                            150.260271488,
+                                            -32.452605681
+                                        ],
+                                        [
+                                            150.260011984,
+                                            -32.452497009
+                                        ],
+                                        [
+                                            150.259785452,
+                                            -32.45235858
+                                        ],
+                                        [
+                                            150.25972909,
+                                            -32.4522156479999
+                                        ],
+                                        [
+                                            150.259877461,
+                                            -32.4520817379999
+                                        ],
+                                        [
+                                            150.260062521,
+                                            -32.452019069
+                                        ],
+                                        [
+                                            150.260196533,
+                                            -32.4519577519999
+                                        ],
+                                        [
+                                            150.260618233,
+                                            -32.451845492
+                                        ],
+                                        [
+                                            150.261110659,
+                                            -32.4518035689999
+                                        ],
+                                        [
+                                            150.261352615,
+                                            -32.45189826
+                                        ],
+                                        [
+                                            150.261476515,
+                                            -32.4520249619999
+                                        ],
+                                        [
+                                            150.261582868,
+                                            -32.452137686
+                                        ],
+                                        [
+                                            150.26158712,
+                                            -32.452253113
+                                        ],
+                                        [
+                                            150.261337712,
+                                            -32.452418586
+                                        ],
+                                        [
+                                            150.261119149,
+                                            -32.4524965849999
+                                        ],
+                                        [
+                                            150.260781997,
+                                            -32.4525921649999
+                                        ],
+                                        [
+                                            150.260458676,
+                                            -32.452600725
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1480,7 +1569,7 @@
                 "updated": "2026-02-01T00:47:00+11:00",
                 "location": "BYLONG VALLEY WAY, KERRABEE 2328",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: BYLONG VALLEY WAY, KERRABEE 2328 <br />COUNCIL AREA: Muswellbrook <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 1 Feb 2026 00:47",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: BYLONG VALLEY WAY, KERRABEE 2328 <br />COUNCIL AREA: Mid-Western <br />STATUS: Not yet controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 1 Feb 2026 00:47",
                 "title": "incident: fire"
             }
         },
@@ -5213,6 +5302,30 @@
                 "location": "WOODLAND ST, GRANTHAM FARM 2765",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: WOODLAND ST, GRANTHAM FARM 2765 <br />COUNCIL AREA: Blacktown <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Jan 2026 08:18",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    149.7371978760001,
+                    -30.329967498999963
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "YARRIE LAKE RD, NARRABRI",
+                "category": "fire",
+                "subcategory": "other",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/644492",
+                "created": "2026-01-31T21:20:00+11:00",
+                "updated": "2026-02-01T08:20:00+11:00",
+                "location": "YARRIE LAKE RD, NARRABRI 2390",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: YARRIE LAKE RD, NARRABRI 2390 <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 1 Feb 2026 08:20",
                 "title": "incident: fire"
             }
         }
