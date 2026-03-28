@@ -101,10 +101,127 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.422210693,
-                    -28.91014671399995
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            152.422210693,
+                            -28.91014671399995
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            152.42070833,
+                                            -28.90700042
+                                        ],
+                                        [
+                                            152.421124736,
+                                            -28.9070480079999
+                                        ],
+                                        [
+                                            152.421410271,
+                                            -28.907083701
+                                        ],
+                                        [
+                                            152.42155304,
+                                            -28.907226469
+                                        ],
+                                        [
+                                            152.421636321,
+                                            -28.907452517
+                                        ],
+                                        [
+                                            152.42150545,
+                                            -28.907619079
+                                        ],
+                                        [
+                                            152.421160429,
+                                            -28.907785642
+                                        ],
+                                        [
+                                            152.420922482,
+                                            -28.907999794
+                                        ],
+                                        [
+                                            152.420577461,
+                                            -28.9081068679999
+                                        ],
+                                        [
+                                            152.420065876,
+                                            -28.908487583
+                                        ],
+                                        [
+                                            152.419352037,
+                                            -28.908547069
+                                        ],
+                                        [
+                                            152.4186382,
+                                            -28.9085232739999
+                                        ],
+                                        [
+                                            152.418067129,
+                                            -28.90832102
+                                        ],
+                                        [
+                                            152.417734004,
+                                            -28.90805928
+                                        ],
+                                        [
+                                            152.417115344,
+                                            -28.907785642
+                                        ],
+                                        [
+                                            152.41678222,
+                                            -28.9075476949999
+                                        ],
+                                        [
+                                            152.416770323,
+                                            -28.907285955
+                                        ],
+                                        [
+                                            152.41673463,
+                                            -28.907012317
+                                        ],
+                                        [
+                                            152.416877399,
+                                            -28.9069052409999
+                                        ],
+                                        [
+                                            152.417210523,
+                                            -28.906869549
+                                        ],
+                                        [
+                                            152.41801954,
+                                            -28.9071074949999
+                                        ],
+                                        [
+                                            152.418828557,
+                                            -28.9072502619999
+                                        ],
+                                        [
+                                            152.419423422,
+                                            -28.9074049279999
+                                        ],
+                                        [
+                                            152.419982595,
+                                            -28.907226469
+                                        ],
+                                        [
+                                            152.42070833,
+                                            -28.90700042
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -467,6 +584,30 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.64778300000012,
+                    -30.52901399999996
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "Judith St, Armidale",
+                "category": "fire",
+                "subcategory": "grass fire",
+                "status": "being controlled",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/652186",
+                "created": "2026-03-28T06:31:00+11:00",
+                "updated": "2026-03-28T17:31:00+11:00",
+                "location": "Judith St, Armidale, NSW 2350",
+                "size": 0,
+                "description": "ALERT LEVEL: Advice <br />LOCATION: Judith St, Armidale, NSW 2350 <br />COUNCIL AREA: Armidale <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Mar 2026 17:31",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -530,30 +671,6 @@
                 "location": "LAKE BREEZE LANE, EMERALD BEACH 2456",
                 "size": 0,
                 "description": "ALERT LEVEL: Advice <br />LOCATION: LAKE BREEZE LANE, EMERALD BEACH 2456 <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 15:23",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.97293472100012,
-                    -30.307861767999952
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "Mossgrove, KAPUTAR RD",
-                "category": "fire",
-                "subcategory": "bushfire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/652043",
-                "created": "2026-03-27T20:04:00+11:00",
-                "updated": "2026-03-28T07:04:00+11:00",
-                "location": "MOSSGROVE, KAPUTAR RD, BULLAWA CREEK 2390",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: MOSSGROVE, KAPUTAR RD, BULLAWA CREEK 2390 <br />COUNCIL AREA: Narrabri <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 07:04",
                 "title": "incident: fire"
             }
         },
@@ -983,11 +1100,11 @@
                 "subcategory": "grass fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/652154",
-                "created": "2026-03-28T02:33:00+11:00",
-                "updated": "2026-03-28T13:33:00+11:00",
+                "created": "2026-03-28T06:29:00+11:00",
+                "updated": "2026-03-28T17:29:00+11:00",
                 "location": "VAL VIEW RD, ARDING 2358",
                 "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: VAL VIEW RD, ARDING 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 13:33",
+                "description": "ALERT LEVEL: Advice <br />LOCATION: VAL VIEW RD, ARDING 2358 <br />COUNCIL AREA: Uralla <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 17:29",
                 "title": "incident: fire"
             }
         },
@@ -1704,113 +1821,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            148.995466231,
-                                            -30.1138684759999
-                                        ],
-                                        [
-                                            148.995297251,
-                                            -30.113766386
-                                        ],
-                                        [
-                                            148.995137659,
-                                            -30.113723464
-                                        ],
-                                        [
-                                            148.995011596,
-                                            -30.1138754359999
-                                        ],
-                                        [
-                                            148.994916378,
-                                            -30.1138267119999
-                                        ],
-                                        [
-                                            148.995120226,
-                                            -30.113627175
-                                        ],
-                                        [
-                                            148.995377718,
-                                            -30.1133499119999
-                                        ],
-                                        [
-                                            148.995466231,
-                                            -30.113208379
-                                        ],
-                                        [
-                                            148.995454161,
-                                            -30.1131248519999
-                                        ],
-                                        [
-                                            148.995185939,
-                                            -30.112914872
-                                        ],
-                                        [
-                                            148.994841276,
-                                            -30.112667769
-                                        ],
-                                        [
-                                            148.994874804,
-                                            -30.1126480469999
-                                        ],
-                                        [
-                                            148.995192645,
-                                            -30.11278958
-                                        ],
-                                        [
-                                            148.995643256,
-                                            -30.112982159
-                                        ],
-                                        [
-                                            148.995928912,
-                                            -30.11310629
-                                        ],
-                                        [
-                                            148.995852469,
-                                            -30.113148055
-                                        ],
-                                        [
-                                            148.995804189,
-                                            -30.1132002579999
-                                        ],
-                                        [
-                                            148.995722382,
-                                            -30.113303507
-                                        ],
-                                        [
-                                            148.995704947,
-                                            -30.113387035
-                                        ],
-                                        [
-                                            148.995656667,
-                                            -30.113468242
-                                        ],
-                                        [
-                                            148.995605705,
-                                            -30.1135274069999
-                                        ],
-                                        [
-                                            148.995613752,
-                                            -30.113598173
-                                        ],
-                                        [
-                                            148.995581566,
-                                            -30.113666618
-                                        ],
-                                        [
-                                            148.995527921,
-                                            -30.113764067
-                                        ],
-                                        [
-                                            148.995466231,
-                                            -30.1138684759999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             148.999441622,
                                             -30.1146129969999
                                         ],
@@ -2035,6 +2045,113 @@
                                         [
                                             148.993753601,
                                             -30.115181841
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.995466231,
+                                            -30.1138684759999
+                                        ],
+                                        [
+                                            148.995297251,
+                                            -30.113766386
+                                        ],
+                                        [
+                                            148.995137659,
+                                            -30.113723464
+                                        ],
+                                        [
+                                            148.995011596,
+                                            -30.1138754359999
+                                        ],
+                                        [
+                                            148.994916378,
+                                            -30.1138267119999
+                                        ],
+                                        [
+                                            148.995120226,
+                                            -30.113627175
+                                        ],
+                                        [
+                                            148.995377718,
+                                            -30.1133499119999
+                                        ],
+                                        [
+                                            148.995466231,
+                                            -30.113208379
+                                        ],
+                                        [
+                                            148.995454161,
+                                            -30.1131248519999
+                                        ],
+                                        [
+                                            148.995185939,
+                                            -30.112914872
+                                        ],
+                                        [
+                                            148.994841276,
+                                            -30.112667769
+                                        ],
+                                        [
+                                            148.994874804,
+                                            -30.1126480469999
+                                        ],
+                                        [
+                                            148.995192645,
+                                            -30.11278958
+                                        ],
+                                        [
+                                            148.995643256,
+                                            -30.112982159
+                                        ],
+                                        [
+                                            148.995928912,
+                                            -30.11310629
+                                        ],
+                                        [
+                                            148.995852469,
+                                            -30.113148055
+                                        ],
+                                        [
+                                            148.995804189,
+                                            -30.1132002579999
+                                        ],
+                                        [
+                                            148.995722382,
+                                            -30.113303507
+                                        ],
+                                        [
+                                            148.995704947,
+                                            -30.113387035
+                                        ],
+                                        [
+                                            148.995656667,
+                                            -30.113468242
+                                        ],
+                                        [
+                                            148.995605705,
+                                            -30.1135274069999
+                                        ],
+                                        [
+                                            148.995613752,
+                                            -30.113598173
+                                        ],
+                                        [
+                                            148.995581566,
+                                            -30.113666618
+                                        ],
+                                        [
+                                            148.995527921,
+                                            -30.113764067
+                                        ],
+                                        [
+                                            148.995466231,
+                                            -30.1138684759999
                                         ]
                                     ]
                                 ]
@@ -2828,11 +2945,11 @@
                 "subcategory": "hazard reduction",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/652163",
-                "created": "2026-03-28T02:35:00+11:00",
-                "updated": "2026-03-28T13:35:00+11:00",
+                "created": "2026-03-28T05:43:00+11:00",
+                "updated": "2026-03-28T16:43:00+11:00",
                 "location": "Gentle Annie Road, 6km west of Woolgoolga",
-                "size": 45,
-                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: Gentle Annie Road, 6km west of Woolgoolga <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 45 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 28 Mar 2026 13:35",
+                "size": 36,
+                "description": "ALERT LEVEL: Planned Burn <br />LOCATION: Gentle Annie Road, 6km west of Woolgoolga <br />COUNCIL AREA: Coffs Harbour <br />STATUS: Under control <br />TYPE: Hazard Reduction <br />FIRE: Yes <br />SIZE: 36 ha <br />RESPONSIBLE AGENCY: Forestry Corporation of NSW <br />UPDATED: 28 Mar 2026 16:43",
                 "title": "incident: fire"
             }
         },
@@ -4429,29 +4546,6 @@
                                 "coordinates": [
                                     [
                                         [
-                                            148.767081106,
-                                            -35.273336038
-                                        ],
-                                        [
-                                            148.767093963,
-                                            -35.273295963
-                                        ],
-                                        [
-                                            148.767106904,
-                                            -35.273304348
-                                        ],
-                                        [
-                                            148.767081106,
-                                            -35.273336038
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
                                             148.771689988,
                                             -35.2633081609999
                                         ],
@@ -5740,6 +5834,29 @@
                                         ]
                                     ]
                                 ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            148.767081106,
+                                            -35.273336038
+                                        ],
+                                        [
+                                            148.767093963,
+                                            -35.273295963
+                                        ],
+                                        [
+                                            148.767106904,
+                                            -35.273304348
+                                        ],
+                                        [
+                                            148.767081106,
+                                            -35.273336038
+                                        ]
+                                    ]
+                                ]
                             }
                         ]
                     }
@@ -6357,11 +6474,11 @@
                 "subcategory": "structure fire",
                 "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/652178",
-                "created": "2026-03-28T05:21:00+11:00",
-                "updated": "2026-03-28T16:21:00+11:00",
+                "created": "2026-03-28T05:52:00+11:00",
+                "updated": "2026-03-28T16:52:00+11:00",
                 "location": "CASTLEREAGH HWY, GULGONG 2852",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CASTLEREAGH HWY, GULGONG 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 16:21",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: CASTLEREAGH HWY, GULGONG 2852 <br />COUNCIL AREA: Mid-Western <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 16:52",
                 "title": "incident: fire"
             }
         },
@@ -6606,11 +6723,11 @@
                 "subcategory": "bushfire",
                 "status": "being controlled",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/652131",
-                "created": "2026-03-28T02:15:00+11:00",
-                "updated": "2026-03-28T13:15:00+11:00",
+                "created": "2026-03-28T06:13:00+11:00",
+                "updated": "2026-03-28T17:13:00+11:00",
                 "location": "COOPERS ACCESS TRL, NYMBOIDA 2460",
-                "size": 107,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: COOPERS ACCESS TRL, NYMBOIDA 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 107 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 13:15",
+                "size": 165,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: COOPERS ACCESS TRL, NYMBOIDA 2460 <br />COUNCIL AREA: Clarence Valley <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 165 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 17:13",
                 "title": "incident: fire"
             }
         },
@@ -6619,8 +6736,56 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.6764221190001,
-                    -33.58831024099993
+                    151.37794000000008,
+                    -29.86275999999998
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "ELSMORE RD, NEWSTEAD",
+                "category": "fire",
+                "subcategory": "car fire",
+                "status": "responding",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/652185",
+                "created": "2026-03-28T06:05:00+11:00",
+                "updated": "2026-03-28T17:05:00+11:00",
+                "location": "ELSMORE RD, NEWSTEAD 2360",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: ELSMORE RD, NEWSTEAD 2360 <br />COUNCIL AREA: Inverell <br />STATUS: Responding <br />TYPE: Car Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 17:05",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.67839100000003,
+                    -33.584229999999934
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "GROSE VALE RD, GROSE VALE",
+                "category": "fire",
+                "subcategory": "burn off",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/652183",
+                "created": "2026-03-28T05:48:00+11:00",
+                "updated": "2026-03-28T16:48:00+11:00",
+                "location": "GROSE VALE RD, GROSE VALE 2753",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GROSE VALE RD, GROSE VALE 2753 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 16:48",
+                "title": "incident: fire"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.67599487300004,
+                    -33.58234024099994
                 ]
             },
             "properties": {
@@ -6628,13 +6793,13 @@
                 "sourceTitle": "GROSE VALE RD, NORTH RICHMOND",
                 "category": "fire",
                 "subcategory": "burn off",
-                "status": "being controlled",
+                "status": "under control",
                 "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/652181",
-                "created": "2026-03-28T05:36:00+11:00",
-                "updated": "2026-03-28T16:36:00+11:00",
+                "created": "2026-03-28T06:12:00+11:00",
+                "updated": "2026-03-28T17:12:00+11:00",
                 "location": "GROSE VALE RD, NORTH RICHMOND 2754",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GROSE VALE RD, NORTH RICHMOND 2754 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 28 Mar 2026 16:36",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: GROSE VALE RD, NORTH RICHMOND 2754 <br />COUNCIL AREA: Hawkesbury <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 28 Mar 2026 17:12",
                 "title": "incident: fire"
             }
         },
