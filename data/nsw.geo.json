@@ -545,10 +545,75 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.6654205320001,
-                    -33.04630660999993
+                "type": "GeometryCollection",
+                "geometries": [
+                    {
+                        "type": "Point",
+                        "coordinates": [
+                            151.6654205320001,
+                            -33.04630660999993
+                        ]
+                    },
+                    {
+                        "type": "GeometryCollection",
+                        "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            151.668207549,
+                                            -33.046458802
+                                        ],
+                                        [
+                                            151.668493084,
+                                            -33.045899628
+                                        ],
+                                        [
+                                            151.668314625,
+                                            -33.04531666
+                                        ],
+                                        [
+                                            151.668516879,
+                                            -33.0452214819999
+                                        ],
+                                        [
+                                            151.668136165,
+                                            -33.043496373
+                                        ],
+                                        [
+                                            151.67027768,
+                                            -33.043865189
+                                        ],
+                                        [
+                                            151.670551318,
+                                            -33.0438770869999
+                                        ],
+                                        [
+                                            151.669980248,
+                                            -33.044590925
+                                        ],
+                                        [
+                                            151.670313372,
+                                            -33.0448526659999
+                                        ],
+                                        [
+                                            151.669206923,
+                                            -33.0461613699999
+                                        ],
+                                        [
+                                            151.668516879,
+                                            -33.0466134669999
+                                        ],
+                                        [
+                                            151.668207549,
+                                            -33.046458802
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             },
             "properties": {
@@ -1888,30 +1953,6 @@
         {
             "type": "Feature",
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.9094085690001,
-                    -31.79280853299997
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "THUNDERBOLTS WAY, BRETTI",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "being controlled",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/683958",
-                "created": "2026-10-31T07:55:00+11:00",
-                "updated": "2026-10-31T18:55:00+11:00",
-                "location": "THUNDERBOLTS WAY, BRETTI 2422",
-                "size": 0,
-                "description": "ALERT LEVEL: Advice <br />LOCATION: THUNDERBOLTS WAY, BRETTI 2422 <br />COUNCIL AREA: Mid-Coast <br />STATUS: Being controlled <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 18:55",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
                 "type": "GeometryCollection",
                 "geometries": [
                     {
@@ -1924,6 +1965,52 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.900410281,
+                                            -32.3246485929999
+                                        ],
+                                        [
+                                            150.900450771,
+                                            -32.3246467929999
+                                        ],
+                                        [
+                                            150.900500038,
+                                            -32.324664432
+                                        ],
+                                        [
+                                            150.900410281,
+                                            -32.3246485929999
+                                        ]
+                                    ]
+                                ]
+                            },
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.900410281,
+                                            -32.3246485929999
+                                        ],
+                                        [
+                                            150.900321578,
+                                            -32.324652535
+                                        ],
+                                        [
+                                            150.899893276,
+                                            -32.324557356
+                                        ],
+                                        [
+                                            150.900410281,
+                                            -32.3246485929999
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -2330,52 +2417,6 @@
                                         [
                                             150.89739484100005,
                                             -32.31625303700016
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            150.900410281,
-                                            -32.3246485929999
-                                        ],
-                                        [
-                                            150.900450771,
-                                            -32.3246467929999
-                                        ],
-                                        [
-                                            150.900500038,
-                                            -32.324664432
-                                        ],
-                                        [
-                                            150.900410281,
-                                            -32.3246485929999
-                                        ]
-                                    ]
-                                ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            150.900410281,
-                                            -32.3246485929999
-                                        ],
-                                        [
-                                            150.900321578,
-                                            -32.324652535
-                                        ],
-                                        [
-                                            150.899893276,
-                                            -32.324557356
-                                        ],
-                                        [
-                                            150.900410281,
-                                            -32.3246485929999
                                         ]
                                     ]
                                 ]
@@ -3953,22 +3994,46 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    150.78591918900008,
-                    -34.11787795999993
+                    150.89536284500002,
+                    -32.898873685999945
                 ]
             },
             "properties": {
                 "feedType": "incident",
-                "sourceTitle": "APPIN RD, GILEAD",
-                "category": "fire",
-                "subcategory": "burn off",
+                "sourceTitle": "150.9626851603388 ",
+                "category": "other",
+                "subcategory": "assist other agency",
                 "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/683889",
-                "created": "2026-10-31T02:34:00+11:00",
-                "updated": "2026-10-31T13:34:00+11:00",
-                "location": "NOORUMBA RESERVE, APPIN RD, GILEAD 2560",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/683975",
+                "created": "2026-10-31T11:49:00+11:00",
+                "updated": "2026-10-31T22:49:00+11:00",
+                "location": "150.9626851603388",
                 "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NOORUMBA RESERVE, APPIN RD, GILEAD 2560 <br />COUNCIL AREA: Campbelltown <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 13:34",
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: 150.9626851603388 <br />COUNCIL AREA: Singleton <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 22:49",
+                "title": "incident: other"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    148.04901700000005,
+                    -35.66860699999995
+                ]
+            },
+            "properties": {
+                "feedType": "incident",
+                "sourceTitle": "BATLOW RD, WILLIGOBUNG",
+                "category": "fire",
+                "subcategory": "structure fire",
+                "status": "under control",
+                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/683970",
+                "created": "2026-10-31T14:06:00+11:00",
+                "updated": "2026-11-01T01:06:00+11:00",
+                "location": "BATLOW RD, WILLIGOBUNG 2653",
+                "size": 0,
+                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: BATLOW RD, WILLIGOBUNG 2653 <br />COUNCIL AREA: Snowy Valleys <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 1 Nov 2026 01:06",
                 "title": "incident: fire"
             }
         },
@@ -4017,30 +4082,6 @@
                 "location": "EMU PARK RD, SANGER 2646",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: EMU PARK RD, SANGER 2646 <br />COUNCIL AREA: Federation <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 12:11",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    149.54883900000004,
-                    -34.858657999999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "FEDERAL HWY, WOLLOGORANG",
-                "category": "fire",
-                "subcategory": "burn off",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/683864",
-                "created": "2026-10-31T02:33:00+11:00",
-                "updated": "2026-10-31T13:33:00+11:00",
-                "location": "FEDERAL HWY, WOLLOGORANG 2581",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: FEDERAL HWY, WOLLOGORANG 2581 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Under control <br />TYPE: Burn off <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 13:33",
                 "title": "incident: fire"
             }
         },
@@ -4366,30 +4407,6 @@
                 "location": "MIRRABOOKA RD, LITTLE BILLABONG 2644",
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: MIRRABOOKA RD, LITTLE BILLABONG 2644 <br />COUNCIL AREA: Greater Hume <br />STATUS: Under control <br />TYPE: Haystack fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 16:19",
-                "title": "incident: fire"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    150.65789399900007,
-                    -35.104717999999934
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "NAVAL PDE, EROWAL BAY",
-                "category": "fire",
-                "subcategory": "other",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/683960",
-                "created": "2026-10-31T07:52:00+11:00",
-                "updated": "2026-10-31T18:52:00+11:00",
-                "location": "NAVAL PDE, EROWAL BAY 2540",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: NAVAL PDE, EROWAL BAY 2540 <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 18:52",
                 "title": "incident: fire"
             }
         },
@@ -4747,30 +4764,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    147.8431549070001,
-                    -31.719926833999978
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "RIFLE RANGE RD, WARREN",
-                "category": "other",
-                "subcategory": "flood/storm/tree down",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/683961",
-                "created": "2026-10-31T07:48:00+11:00",
-                "updated": "2026-10-31T18:48:00+11:00",
-                "location": "RIFLE RANGE RD, WARREN 2824",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: RIFLE RANGE RD, WARREN 2824 <br />COUNCIL AREA: Warren <br />STATUS: Under control <br />TYPE: Flood/Storm/Tree Down <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 18:48",
-                "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     148.9068440000001,
                     -33.01663599999995
                 ]
@@ -4805,6 +4798,29 @@
                     {
                         "type": "GeometryCollection",
                         "geometries": [
+                            {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [
+                                            150.663753501,
+                                            -35.070900858
+                                        ],
+                                        [
+                                            150.663755478,
+                                            -35.070889773
+                                        ],
+                                        [
+                                            150.663755478,
+                                            -35.070901195
+                                        ],
+                                        [
+                                            150.663753501,
+                                            -35.070900858
+                                        ]
+                                    ]
+                                ]
+                            },
                             {
                                 "type": "Polygon",
                                 "coordinates": [
@@ -5066,29 +5082,6 @@
                                         ]
                                     ]
                                 ]
-                            },
-                            {
-                                "type": "Polygon",
-                                "coordinates": [
-                                    [
-                                        [
-                                            150.663753501,
-                                            -35.070900858
-                                        ],
-                                        [
-                                            150.663755478,
-                                            -35.070889773
-                                        ],
-                                        [
-                                            150.663755478,
-                                            -35.070901195
-                                        ],
-                                        [
-                                            150.663753501,
-                                            -35.070900858
-                                        ]
-                                    ]
-                                ]
                             }
                         ]
                     }
@@ -5131,30 +5124,6 @@
                 "size": 0,
                 "description": "ALERT LEVEL: Not Applicable <br />LOCATION: Tingira Drive, Bawley Point <br />COUNCIL AREA: Shoalhaven <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 15:27",
                 "title": "incident: other"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    152.88191000000006,
-                    -28.98753499999998
-                ]
-            },
-            "properties": {
-                "feedType": "incident",
-                "sourceTitle": "UPPER MONGOGARIE RD, MONGOGARIE",
-                "category": "fire",
-                "subcategory": "grass fire",
-                "status": "under control",
-                "id": "https://incidents.rfs.nsw.gov.au/api/v1/incidents/683951",
-                "created": "2026-10-31T07:29:00+11:00",
-                "updated": "2026-10-31T18:29:00+11:00",
-                "location": "UPPER MONGOGARIE RD, MONGOGARIE 2470",
-                "size": 0,
-                "description": "ALERT LEVEL: Not Applicable <br />LOCATION: UPPER MONGOGARIE RD, MONGOGARIE 2470 <br />COUNCIL AREA: Richmond Valley <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 31 Oct 2026 18:29",
-                "title": "incident: fire"
             }
         }
     ]
